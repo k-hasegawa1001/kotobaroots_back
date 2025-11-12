@@ -1,6 +1,8 @@
 from flask import Flask, request
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 class Dammy_user:
     def __init__(self, email, password, name):
@@ -14,11 +16,10 @@ def return_dammy():
 
 ###
 
-@app.route("/", methods=["get","post"])
+@app.route("/", methods=["get","POST"])
 def authentication_at_email_address():
-    if request.method == "post":
+    if request.method == "POST":
         email = request.form["email"]
-        
-        return email
+        return f"Hello, {email}!"
     else:
         return "Hello, Guest!"
