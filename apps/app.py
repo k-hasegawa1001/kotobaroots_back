@@ -2,6 +2,7 @@ from flask import Flask, request
 from flask_cors import CORS
 
 app = Flask(__name__)
+app.config["JSON_AS_ASCII"] = False
 CORS(app)
 
 class Dammy_user:
@@ -10,7 +11,7 @@ class Dammy_user:
         self.password = password
         self.name = name
 
-### ダミーデータ返却
+### ダミーデータ返却（デバッグ用）
 def return_dammy():
     user = Dammy_user("admin@example.com", "password", "admin")
 
@@ -20,6 +21,7 @@ def return_dammy():
 def authentication_at_email_address():
     if request.method == "POST":
         email = request.form["email"]
+
         return f"Hello, {email}!"
     else:
         return "Hello, Guest!"
