@@ -1,16 +1,28 @@
 import logging
 import os
+from pathlib import Path
 
 from flask import Flask
 from flask_cors import CORS
 
+### DB関連
+from flask_migrate import Migrate
+from flask_sqlalchemy import SQLAlchemy
+
+# SQLAlchemyをインスタンス化
+db = SQLAlchemy()
+###
+
+### メール関連
+# 独立させた extensions と email をインポート
+from .extensions import mail
+###
+
+### .env関連
 from dotenv import load_dotenv
 
 load_dotenv()
-
-# 独立させた extensions と email をインポート
-from .extensions import mail
-from .email import send_email  # authentication_at_email_address で使うならインポート
+###
 
 # ステージング環境切り替えのためファクトリ化
 def create_app():
@@ -21,7 +33,20 @@ def create_app():
 
     CORS(app)
 
-    ### メール機能
+    ### DB関連
+    app.config.from_mapping(
+        SECRET_KEY="2AZSMss3p5QPBcY2hBsJ",
+        SQLALCHEMY_DATABASE_URI=f"sqlite:///{Path(__file__).parent.parent / 'local.sqlite'}",
+        SQLALCHEMY_TRACK_MODIFICATIONS=False
+    )
+
+    # SQLAlchemyとアプリの連携する
+    db.init_app(app)
+    # Migrateとアプリを連携する
+    Migrate(app, db)
+    ###
+
+    ### メール関連
     # メールコンフィグ
     app.config["MAIL_SERVER"] = os.environ.get("MAIL_SERVER")
     app.config["MAIL_PORT"] = int(os.environ.get("MAIL_PORT"))
