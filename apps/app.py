@@ -2,7 +2,7 @@ from flask import Flask, request
 from flask_cors import CORS
 
 app = Flask(__name__)
-app.config[""]
+app.config["JSON_AS_ASCII"] = False
 CORS(app)
 
 class Dammy_user:
