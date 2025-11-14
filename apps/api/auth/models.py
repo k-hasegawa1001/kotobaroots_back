@@ -16,8 +16,8 @@ class User(db.Model):
     # ↓↓↓ JTI保存用のカラムを追加 (String型, nullable, index付き) ↓↓↓
     refresh_token_jti = db.Column(db.String(36), nullable=True, index=True)
 
-    created_at = db.Column(db.Datetime, nullable=False, default=datetime.now)
-    updated_at = db.Column(db.Datetime, onupdate=datetime.now)
+    created_at = db.Column(db.DateTime, nullable=False, default=datetime.now)
+    updated_at = db.Column(db.DateTime, onupdate=datetime.now)
 
     @property
     def password(self):

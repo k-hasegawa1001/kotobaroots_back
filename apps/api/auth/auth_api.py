@@ -8,7 +8,7 @@ from ...email import send_email
 from flask_jwt_extended import create_access_token, create_refresh_token, get_jti, set_refresh_cookies
 
 # DB関連
-from  models import User
+from apps.api.auth.models import User
 
 api = Blueprint(
     "api",
