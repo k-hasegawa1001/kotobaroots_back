@@ -1,0 +1,31 @@
+Environments
+
+venv/
+.venv/
+env/
+ENV/
+
+Python cache
+
+pycache/
+*.pyc
+
+Environment variables
+
+.env
+.env.*
+
+Databases
+
+*.sqlite
+*.sqlite3
+local.sqlite
+
+OS-specific
+
+.DS_Store
+Thumbs.db
+
+Log files
+
+*.log
