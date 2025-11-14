@@ -62,8 +62,8 @@ def create_app():
     ###
     
     # authパッケージimport
-    from apps.auth import auth_api
+    from apps.api.auth import auth_api
 
-    app.register_blueprint(auth_api.api, url_prefix="/auth")
+    app.register_blueprint(auth_api.api, url_prefix="/api/auth")
 
     return app
