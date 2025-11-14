@@ -1,9 +1,14 @@
+import datetime
+
 from flask import Blueprint, request, render_template
 
+# メール
 from ...email import send_email
 
+from flask_jwt_extended import create_access_token, create_refresh_token, get_jti, set_refresh_cookies
 
-import datetime
+# DB関連
+from  models import User
 
 api = Blueprint(
     "api",
@@ -16,7 +21,7 @@ def authentication_at_email_address():
         email = request.form["email"]
 
         # # メール送信テスト（デバッグ用）
-        send_email(email,"test","/test_mail",admin_name="名無しの専門学生")
+        # send_email(email,"test","/test_mail",admin_name="名無しの専門学生")
         # #
 
 
@@ -26,5 +31,22 @@ def authentication_at_email_address():
     else:
         return "Hello, Guest!"
 
+@api.route("/login", methods=["POST"])
+def login():
+    """
+    request.body(json)
+    {
+        "email": "...",
+        "password": "..."
+    }
+    """
+    try:
+        login_data = request.get_json()
+        email = login_data.get("email")
+        password = login_data.get("password")
 
+        user = User.query.filter_by(email=email).first()
+        print(login_data)
+    except Exception as e:
+        print(e)
 

@@ -18,6 +18,10 @@ db = SQLAlchemy()
 from .extensions import mail
 ###
 
+### 認証関連(認証トークン)
+from flask_jwt_extended import create_access_token, create_refresh_token, jwt_required, get_jwt_identity, JWTManager, set_refresh_cookies
+###
+
 ### .env関連
 from dotenv import load_dotenv
 
@@ -27,6 +31,19 @@ load_dotenv()
 # ステージング環境切り替えのためファクトリ化
 def create_app():
     app = Flask(__name__)
+
+    ### 認証関連
+    app.config["JWT_SECRET_KEY"] = os.environ.get("JWT_SECRET_KEY")
+    
+    # リフレッシュトークンを保存するCookieの名前
+    app.config["JWT_REFRESH_COOKIE_NAME"] = os.environ.get("JWT_REFRESH_COOKIE_NAME")
+    
+    # Cookieを安全にする設定 (HttpOnly)
+    app.config["JWT_COOKIE_HTTPONLY"] = os.environ.get("JWT_COOKIE_HTTPONLY")
+    app.config["JWT_COOKIE_SECURE"] = os.environ.get("JWT_COOKIE_SECURE")
+    
+    jwt = JWTManager(app)
+    ###
 
     app.config["JSON_AS_ASCII"] = False
     app.logger.setLevel(logging.DEBUG)
