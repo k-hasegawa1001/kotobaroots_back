@@ -1,6 +1,7 @@
 import datetime
+# import logging
 
-from flask import Blueprint, request, render_template
+from flask import Blueprint, request, render_template, current_app
 
 # メール
 from ...email import send_email
@@ -15,13 +16,17 @@ api = Blueprint(
     __name__
 )
 
+# api.logger.setLevel(logging.DEBUG)
+
 @api.route("/", methods=["GET", "POST"])
-def authentication_at_email_address():
+def index():
+    current_app.logger.warning(f"【warning!!!!!】不正なアクセスが行われようとした形跡があります")
+    
     if request.method == "POST":
         email = request.form["email"]
 
         # # メール送信テスト（デバッグ用）
-        # send_email(email,"test","/test_mail",admin_name="名無しの専門学生")
+        send_email(email,"test","/test_mail",admin_name="名無しの専門学生")
         # #
 
 
@@ -33,6 +38,7 @@ def authentication_at_email_address():
 
 @api.route("/login", methods=["POST"])
 def login():
+    current_app.logger.info("login-APIにアクセスがありました")
     """
     request.body(json)
     {
