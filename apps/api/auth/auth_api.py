@@ -1,7 +1,9 @@
 from flask import Blueprint, request, render_template
 
-from ..email import send_email
+from ...email import send_email
 
+
+import datetime
 
 api = Blueprint(
     "api",
@@ -13,9 +15,12 @@ def authentication_at_email_address():
     if request.method == "POST":
         email = request.form["email"]
 
-        # メール送信テスト（デバッグ用）
-        send_email(email,"test","test_mail",admin_name="名無しの専門学生")
-        #
+        # # メール送信テスト（デバッグ用）
+        send_email(email,"test","/test_mail",admin_name="名無しの専門学生")
+        # #
+
+
+        ############# ここで2要素認証としてメールを送信する
 
         return f"Hello, {email}!"
     else:
