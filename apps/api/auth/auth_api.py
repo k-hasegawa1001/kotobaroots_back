@@ -49,6 +49,11 @@ def login():
         password = login_data.get("password")
 
         user = User.query.filter_by(email=email).first()
+
+        if user == None:
+            response = jsonify({"msg": "パスワード間違い","email": email})
+            return response, 200
+
         # passwordが合っているかの確認（check_password）
         if user.check_password(user.hashed_password, password):
             # passwordが正しい場合
