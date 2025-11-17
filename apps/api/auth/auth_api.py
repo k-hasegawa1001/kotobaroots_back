@@ -67,16 +67,22 @@ def login():
             refresh_token = create_refresh_token(identity=user_identity)
 
             """
-            response(json)
+            response.body(json)
             {
                 "access_token": "...",
                 "user_info": "..."
             }
             """
-            response = jsonify({
+            response_body = {
                 "access_token": access_token,
                 "user_info":{"username": user.username, "email": email}
-            })
+            }
+            response = jsonify(response_body)
+
+            # リフレッシュトークンを HttpOnly Cookie に設定
+            # max_ageは設定（JWT_REFRESH_TOKEN_EXPIRES）から自動で読み込まれる
+            set_refresh_cookies(response, refresh_token)
+
             return response, 200
         else:
             # パスワードが間違っている場合
