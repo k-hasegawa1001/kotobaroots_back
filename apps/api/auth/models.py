@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from apps.app import db
+from apps.extensions import db
 # パスワードハッシュ化用
 from werkzeug.security import generate_password_hash, check_password_hash
 

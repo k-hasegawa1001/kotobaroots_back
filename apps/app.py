@@ -40,14 +40,17 @@ def create_app():
     app.config["JWT_REFRESH_COOKIE_NAME"] = os.environ.get("JWT_REFRESH_COOKIE_NAME")
     
     # Cookieを安全にする設定 (HttpOnly)
-    app.config["JWT_COOKIE_HTTPONLY"] = os.environ.get("JWT_COOKIE_HTTPONLY")
-    app.config["JWT_COOKIE_SECURE"] = os.environ.get("JWT_COOKIE_SECURE")
+    app.config["JWT_COOKIE_HTTPONLY"] = os.environ.get("JWT_COOKIE_HTTPONLY", "True").lower() == "true"
+    app.config["JWT_COOKIE_SECURE"] = os.environ.get("JWT_COOKIE_SECURE", "False").lower() == "true"
 
     app.config["JWT_ACCESS_TOKEN_EXPIRES"] = datetime.timedelta(minutes=15)
 
     # リフレッシュトークンの有効期限を30日に設定 (Cookieに反映されます)
     app.config["JWT_REFRESH_TOKEN_EXPIRES"] = datetime.timedelta(days=30)
     
+    app.config["JWT_ENABLE_BLOCKLIST"] = True
+    app.config["JWT_BLOCKLIST_TOKEN_CHECKS"] = ["access", "refresh"]
+
     # jwt = JWTManager(app)
     jwt.init_app(app)
 
@@ -65,7 +68,7 @@ def create_app():
 
     ### DB関連
     app.config.from_mapping(
-        SECRET_KEY="2AZSMss3p5QPBcY2hBsJ",
+        SECRET_KEY=os.environ.get("FLASK_SECRET_KEY"),
         SQLALCHEMY_DATABASE_URI=f"sqlite:///{Path(__file__).parent.parent / 'local.sqlite'}",
         SQLALCHEMY_TRACK_MODIFICATIONS=False
     )

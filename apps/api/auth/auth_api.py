@@ -6,14 +6,17 @@ from flask import Blueprint, request, render_template, current_app, jsonify
 # メール
 from ...email import send_email
 
-from flask_jwt_extended import create_access_token, create_refresh_token, get_jti, set_refresh_cookies
+from flask_jwt_extended import create_access_token, create_refresh_token, get_jti, set_refresh_cookies, jwt_required, get_jwt_identity, get_jwt
 
 # DB関連
+from apps.extensions import db
 from apps.api.auth.models import User
-from apps.app import db
+
+# リフレッシュトークン無効化用
+from .models import TokenBlocklist
 
 api = Blueprint(
-    "api",
+    "auth",
     __name__
 )
 
@@ -105,8 +108,36 @@ def login():
 
 ### リフレッシュトークンからアクセストークンを生成するAPI
 @api.route("/token/refresh")
+@jwt_required(refresh=True)
 def generate_access_token_from_refresh_token():
-    print()
+    current_user_identity = get_jwt_identity()
+    new_access_token = create_access_token(identity=current_user_identity)
+    return jsonify(access_token=new_access_token), 200
+
+### ログアウトAPI
+@api.route("/logout", methods=["POST"])
+@jwt_required(refresh=True) # リフレッシュトークンでログアウトするのが一般的
+def logout():
+    """
+    ログアウト処理。
+    現在のトークンの jti をDBのブロックリストに追加する。
+    """
+    try:
+        # 現在のリクエストで使われているトークンの 'jti' を取得
+        jti = get_jwt()["jti"]
+        
+        # 新しい TokenBlocklist レコードを作成
+        blocklist_entry = TokenBlocklist(jti=jti)
+        
+        # DBセッションに追加してコミット
+        db.session.add(blocklist_entry)
+        db.session.commit()
+        
+        return jsonify({"msg": "Successfully logged out"}), 200
+        
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({"msg": "Error processing logout", "error": str(e)}), 500
 
 ### 新規登録
 @api.route("/create_user", methods=["POST"])
