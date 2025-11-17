@@ -1,3 +1,4 @@
+from datetime import timedelta
 import logging
 import os
 from pathlib import Path
@@ -19,7 +20,8 @@ from .extensions import mail
 ###
 
 ### 認証関連(認証トークン)
-from flask_jwt_extended import create_access_token, create_refresh_token, jwt_required, get_jwt_identity, JWTManager, set_refresh_cookies
+# from flask_jwt_extended import create_access_token, create_refresh_token, jwt_required, get_jwt_identity, JWTManager, set_refresh_cookies
+from .extensions import jwt
 ###
 
 ### .env関連
@@ -42,12 +44,13 @@ def create_app():
     app.config["JWT_COOKIE_HTTPONLY"] = os.environ.get("JWT_COOKIE_HTTPONLY")
     app.config["JWT_COOKIE_SECURE"] = os.environ.get("JWT_COOKIE_SECURE")
 
-    app.config["JWT_ACCESS_TOKEN_EXPIRES"] = os.environ.get("JWT_ACCESS_TOKEN_EXPIRES")
+    app.config["JWT_ACCESS_TOKEN_EXPIRES"] = timedelta(minutes=int(os.environ.get("JWT_ACCESS_TOKEN_EXPIRES")))
 
     # リフレッシュトークンの有効期限を30日に設定 (Cookieに反映されます)
-    app.config["JWT_REFRESH_TOKEN_EXPIRES"] = os.environ.get("JWT_REFRESH_TOKEN_EXPIRES")
+    app.config["JWT_REFRESH_TOKEN_EXPIRES"] = timedelta(minutes=int(os.environ.get("JWT_REFRESH_TOKEN_EXPIRES")))
     
-    jwt = JWTManager(app)
+    # jwt = JWTManager(app)
+    jwt.init_app(app)
     ###
 
     app.config["JSON_AS_ASCII"] = False
