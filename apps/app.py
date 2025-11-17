@@ -53,7 +53,7 @@ def create_app():
     app.config["JSON_AS_ASCII"] = False
     app.logger.setLevel(logging.DEBUG)
 
-    CORS(app, supports_credentials=True, origins="http://127.0.0.1:5500")
+    CORS(app, supports_credentials=True, origins=["http://127.0.0.1:5500"])
 
     ### DB関連
     app.config.from_mapping(

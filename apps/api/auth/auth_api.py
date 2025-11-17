@@ -33,6 +33,7 @@ def index():
     else:
         return "Hello, Guest!"
 
+### ログイン
 @api.route("/login", methods=["POST"])
 def login():
     current_app.logger.info("login-APIにアクセスがありました")
@@ -56,7 +57,7 @@ def login():
             return response, 200
 
         # passwordが合っているかの確認（check_password）
-        if user.check_password(user.hashed_password, password):
+        if user.check_password(password):
             # passwordが正しい場合
             # print('パスワード合ってる')
             user_identity = user.id
@@ -93,12 +94,15 @@ def login():
         ############# user != nullなら、ここで2要素認証としてメールを送信する
         
     except Exception as e:
-        print(e)
+        current_app.logger.error(e)
+        return jsonify({"error": str(e)}), 500
 
+### 二要素認証（余裕があったらあとで実装する）
 # @api.route("/verify-2fa/<email>")
 # def verify_2fa():
 #     print()
 
+### 新規登録
 @api.route("/create_user", methods=["POST"])
 def create_user():
     current_app.logger.info("create_user-APIにアクセスがありました")
