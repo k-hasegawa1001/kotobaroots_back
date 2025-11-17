@@ -52,7 +52,7 @@ def login():
 
         # メールアドレスが登録されていなかった場合
         if user == None:
-            response = jsonify({"msg": "メールアドレスが登録されていません","email": email})
+            response = jsonify({"msg": "メールアドレスかパスワードが間違っています"})
             return response, 200
 
         # passwordが合っているかの確認（check_password）
@@ -86,8 +86,8 @@ def login():
             return response, 200
         else:
             # パスワードが間違っている場合
-            print('パスワード間違い')
-            response = jsonify({"msg": "パスワード間違い","email": email})
+            # print('パスワード間違い')
+            response = jsonify({"msg": "メールアドレスかパスワードが間違っています"})
             return response, 200
         
         ############# user != nullなら、ここで2要素認証としてメールを送信する
