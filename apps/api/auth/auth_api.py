@@ -52,8 +52,26 @@ def login():
         # passwordが合っているかの確認（check_password）
         if user.check_password(user.hashed_password, password):
             # passwordが正しい場合
-            print('パスワード合ってる')
+            # print('パスワード合ってる')
+            user_identity = user.id
+            # 1. アクセストークンを生成 (有効期限: 15分)
+            access_token = create_access_token(identity=user_identity)
+    
+            # 2. リフレッシュトークンを生成 (有効期限: 30日)
+            refresh_token = create_refresh_token(identity=user_identity)
 
+            """
+            response(json)
+            {
+                "access_token": "...",
+                "user_info": "..."
+            }
+            """
+            response = jsonify({
+                "access_token": access_token,
+                "user_info":{"username": user.username, "email": email}
+            })
+            return response, 200
         else:
             # パスワードが間違っている場合
             print('パスワード間違い')
@@ -61,8 +79,7 @@ def login():
         ############# user != nullなら、ここで2要素認証としてメールを送信する
         
         print(login_data)
-        response = jsonify(login_data)
-        return response, 200
+        
     except Exception as e:
         print(e)
 
