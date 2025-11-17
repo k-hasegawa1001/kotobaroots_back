@@ -10,6 +10,7 @@ from flask_jwt_extended import create_access_token, create_refresh_token, get_jt
 
 # DB関連
 from apps.api.auth.models import User
+from apps.app import db
 
 api = Blueprint(
     "api",
@@ -102,6 +103,11 @@ def login():
 # def verify_2fa():
 #     print()
 
+### リフレッシュトークンからアクセストークンを生成するAPI
+@api.route("/token/refresh")
+def generate_access_token_from_refresh_token():
+    print()
+
 ### 新規登録
 @api.route("/create_user", methods=["POST"])
 def create_user():
@@ -126,5 +132,17 @@ def create_user():
         new_user = User(username=username, email=email)
         new_user.password=password # ここでハッシュ化が呼び出されてるはず
 
+        db.session.add(new_user)
+        db.session.commit()
+
+        response_body={
+            "msg": "アカウント作成完了"
+        }
+
+        response = jsonify(response_body)
+
+        return response, 200
+
     except Exception as e:
-        print(e)
+        current_app.logger.error(e)
+        return jsonify({"error": str(e)}), 500
