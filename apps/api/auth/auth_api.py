@@ -50,8 +50,9 @@ def login():
 
         user = User.query.filter_by(email=email).first()
 
+        # メールアドレスが登録されていなかった場合
         if user == None:
-            response = jsonify({"msg": "パスワード間違い","email": email})
+            response = jsonify({"msg": "メールアドレスが登録されていません","email": email})
             return response, 200
 
         # passwordが合っているかの確認（check_password）
@@ -84,8 +85,6 @@ def login():
             return response, 200
         
         ############# user != nullなら、ここで2要素認証としてメールを送信する
-        
-        print(login_data)
         
     except Exception as e:
         print(e)
