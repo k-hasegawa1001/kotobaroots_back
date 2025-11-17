@@ -13,8 +13,8 @@ class User(db.Model):
     email = db.Column(db.String, nullable=False, unique=True, index=True)
     hashed_password = db.Column(db.String, nullable=False)
     
-    # ↓↓↓ JTI保存用のカラムを追加 (String型, nullable, index付き) ↓↓↓
-    refresh_token_jti = db.Column(db.String(36), nullable=True, index=True)
+    # # ↓↓↓ JTI保存用のカラムを追加 (String型, nullable, index付き) ↓↓↓
+    # refresh_token_jti = db.Column(db.String(36), nullable=True, index=True)
 
     created_at = db.Column(db.DateTime, nullable=False, default=datetime.now)
     updated_at = db.Column(db.DateTime, onupdate=datetime.now)
@@ -30,3 +30,22 @@ class User(db.Model):
     # ログイン認証 (check_password_hash) のためのメソッドも追加
     def check_password(self, password):
         return check_password_hash(self.hashed_password, password)
+
+### ログアウトやハックされた場合などで無効化したリフレッシュトークンを保存しておくテーブル
+class TokenBlocklist(db.Model):
+    """
+    無効化されたJWTトークンを保存するためのテーブル
+    """
+    __tablename__ = "token_blocklist"
+    
+    id = db.Column(db.Integer, primary_key=True)
+    
+    # jti (JWT ID) は、トークンの一意な識別子です。
+    # これをDBに保存して照合します。
+    jti = db.Column(db.String(36), nullable=False, index=True, unique=True)
+    
+    # いつ無効化されたか（ログアウトしたか）の記録
+    created_at = db.Column(db.DateTime, nullable=False, default=datetime.now)
+
+    def __repr__(self):
+        return f"<Token {self.jti}>"

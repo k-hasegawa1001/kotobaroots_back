@@ -1,4 +1,4 @@
-from datetime import timedelta
+import datetime
 import logging
 import os
 from pathlib import Path
@@ -8,10 +8,7 @@ from flask_cors import CORS
 
 ### DB関連
 from flask_migrate import Migrate
-from flask_sqlalchemy import SQLAlchemy
-
-# SQLAlchemyをインスタンス化
-db = SQLAlchemy()
+from .extensions import db
 ###
 
 ### メール関連
@@ -22,6 +19,8 @@ from .extensions import mail
 ### 認証関連(認証トークン)
 # from flask_jwt_extended import create_access_token, create_refresh_token, jwt_required, get_jwt_identity, JWTManager, set_refresh_cookies
 from .extensions import jwt
+from .api.auth.models import TokenBlocklist
+
 ###
 
 ### .env関連
@@ -44,13 +43,19 @@ def create_app():
     app.config["JWT_COOKIE_HTTPONLY"] = os.environ.get("JWT_COOKIE_HTTPONLY")
     app.config["JWT_COOKIE_SECURE"] = os.environ.get("JWT_COOKIE_SECURE")
 
-    app.config["JWT_ACCESS_TOKEN_EXPIRES"] = timedelta(minutes=int(os.environ.get("JWT_ACCESS_TOKEN_EXPIRES")))
+    app.config["JWT_ACCESS_TOKEN_EXPIRES"] = datetime.timedelta(minutes=15)
 
     # リフレッシュトークンの有効期限を30日に設定 (Cookieに反映されます)
-    app.config["JWT_REFRESH_TOKEN_EXPIRES"] = timedelta(minutes=int(os.environ.get("JWT_REFRESH_TOKEN_EXPIRES")))
+    app.config["JWT_REFRESH_TOKEN_EXPIRES"] = datetime.timedelta(days=30)
     
     # jwt = JWTManager(app)
     jwt.init_app(app)
+
+    @jwt.token_in_blocklist_loader
+    def check_if_token_in_blocklist(jwt_header, jwt_payload):
+        jti = jwt_payload["jti"]
+        token_in_db = TokenBlocklist.query.filter_by(jti=jti).one_or_none()
+        return token_in_db is not None
     ###
 
     app.config["JSON_AS_ASCII"] = False
