@@ -41,6 +41,11 @@ def create_app():
     # Cookieを安全にする設定 (HttpOnly)
     app.config["JWT_COOKIE_HTTPONLY"] = os.environ.get("JWT_COOKIE_HTTPONLY")
     app.config["JWT_COOKIE_SECURE"] = os.environ.get("JWT_COOKIE_SECURE")
+
+    app.config["JWT_ACCESS_TOKEN_EXPIRES"] = os.environ.get("JWT_ACCESS_TOKEN_EXPIRES")
+
+    # リフレッシュトークンの有効期限を30日に設定 (Cookieに反映されます)
+    app.config["JWT_REFRESH_TOKEN_EXPIRES"] = os.environ.get("JWT_REFRESH_TOKEN_EXPIRES")
     
     jwt = JWTManager(app)
     ###
