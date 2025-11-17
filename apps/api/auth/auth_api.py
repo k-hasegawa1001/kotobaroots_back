@@ -75,6 +75,8 @@ def login():
         else:
             # パスワードが間違っている場合
             print('パスワード間違い')
+            response = jsonify({"msg": "パスワード間違い","email": email})
+            return response, 200
         
         ############# user != nullなら、ここで2要素認証としてメールを送信する
         
