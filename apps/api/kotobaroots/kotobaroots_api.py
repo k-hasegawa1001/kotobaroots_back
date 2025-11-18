@@ -31,7 +31,7 @@ def contact():
     """
     try:
         contact_data = request.json()
-        user_email = contact_data.get("usr_email")
+        user_email = contact_data.get("user_email")
         content = contact_data.get("content")
 
         user = User.query.filter_by(email=user_email).first()
@@ -66,4 +66,3 @@ def myphrase():
     email = req_data.get("email")
 
     user = User.query.filter_by(email=email).first()
-    
