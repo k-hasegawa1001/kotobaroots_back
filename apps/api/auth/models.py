@@ -4,7 +4,7 @@ from apps.extensions import db
 # パスワードハッシュ化用
 from werkzeug.security import generate_password_hash, check_password_hash
 
-### User（完成）
+### User（ユーザー情報）（完成）
 class User(db.Model):
     __tablename__ = "users"
 
@@ -18,6 +18,8 @@ class User(db.Model):
 
     created_at = db.Column(db.DateTime, nullable=False, default=datetime.now)
     updated_at = db.Column(db.DateTime, onupdate=datetime.now)
+
+    contents = db.relationship("Contact", backref="user")
 
     @property
     def password(self):
