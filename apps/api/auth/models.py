@@ -20,6 +20,8 @@ class User(db.Model):
     updated_at = db.Column(db.DateTime, onupdate=datetime.now)
 
     contents = db.relationship("Contact", backref="user")
+    learning_configs = db.relationship("LearningConfig", backref="user")
+
 
     @property
     def password(self):
