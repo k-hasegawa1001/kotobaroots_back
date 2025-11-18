@@ -30,7 +30,7 @@ def contact():
     }
     """
     try:
-        contact_data = request.json()
+        contact_data = request.get_json()
         user_email = contact_data.get("user_email")
         content = contact_data.get("content")
 
@@ -52,17 +52,3 @@ def contact():
         current_app.logger.error(e)
         return jsonify({"error": str(e)}), 500
 
-### マイフレーズ
-@api.route("/myphrase", methods=["GET"])
-def myphrase():
-    current_app.logger.info("myphrase-APIにアクセスがありました")
-    """
-    request.body(json)
-    {
-        "email": "..."
-    }
-    """
-    req_data = request.get_json()
-    email = req_data.get("email")
-
-    user = User.query.filter_by(email=email).first()
