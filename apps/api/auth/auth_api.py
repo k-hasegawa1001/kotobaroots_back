@@ -161,7 +161,7 @@ def create_user():
         ###
 
         new_user = User(username=username, email=email)
-        new_user.password=password # ここでハッシュ化が呼び出されてるはず
+        new_user.password=password # これでハッシュ化が実行される
 
         db.session.add(new_user)
         db.session.commit()
