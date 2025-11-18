@@ -36,3 +36,4 @@ class LearningConfig(db.Model):
     level_id = db.Column(db.Integer, db.ForeignKey('levels.id'), nullable=False)
     language_id = db.Column(db.Integer, db.ForeignKey('languages.id'), nullable=False)
     myphrase_question_num = db.Column(db.Integer, default=100, nullable=False)
+    is_applying = db.Column(db.Boolean, nullable=False, default=False)
