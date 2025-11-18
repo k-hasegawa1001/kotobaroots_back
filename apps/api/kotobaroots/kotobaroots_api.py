@@ -19,7 +19,7 @@ def index():
     current_app.logger.warning(f"【warning!!!!!】不正なアクセスが行われようとした形跡があります")
 
 ### 問い合わせ
-@api.route("contact", methods=["POST"])
+@api.route("/contact", methods=["POST"])
 def contact():
     current_app.logger.info("contact-APIにアクセスがありました")
     """
@@ -51,3 +51,19 @@ def contact():
     except Exception as e:
         current_app.logger.error(e)
         return jsonify({"error": str(e)}), 500
+
+### マイフレーズ
+@api.route("/myphrase", methods=["GET"])
+def myphrase():
+    current_app.logger.info("myphrase-APIにアクセスがありました")
+    """
+    request.body(json)
+    {
+        "email": "..."
+    }
+    """
+    req_data = request.get_json()
+    email = req_data.get("email")
+
+    user = User.query.filter_by(email=email).first()
+    
