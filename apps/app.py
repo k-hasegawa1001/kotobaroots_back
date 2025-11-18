@@ -102,4 +102,9 @@ def create_app():
 
     app.register_blueprint(auth_api.api, url_prefix="/api/auth")
 
+    # kotobarootsパッケージインポート
+    from apps.api.kotobaroots import kotobaroots_api
+
+    app.register_blueprint(kotobaroots_api.api, url_prefix="/api/kotobaroots")
+
     return app
