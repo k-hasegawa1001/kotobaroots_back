@@ -4,7 +4,7 @@ from apps.extensions import db
 # パスワードハッシュ化用
 from werkzeug.security import generate_password_hash, check_password_hash
 
-### User（ユーザー情報）（完成）
+### User（ユーザー情報）
 class User(db.Model):
     __tablename__ = "users"
 
