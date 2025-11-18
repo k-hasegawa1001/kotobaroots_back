@@ -77,6 +77,9 @@ def create_app():
     db.init_app(app)
     # Migrateとアプリを連携する
     Migrate(app, db)
+
+    from apps.api.auth import models
+    from apps.api.kotobaroots import models
     ###
 
     ### メール関連
