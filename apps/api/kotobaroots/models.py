@@ -8,6 +8,8 @@ class Contact(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
     content = db.Column(db.String, nullable=False)
 
+    user = db.relationship("User", back_populates="contacts")
+
 ### Level（学習レベル）
 class Level(db.Model):
     __tablename__ = "levels"
@@ -37,3 +39,5 @@ class LearningConfig(db.Model):
     language_id = db.Column(db.Integer, db.ForeignKey('languages.id'), nullable=False)
     myphrase_question_num = db.Column(db.Integer, default=100, nullable=False)
     is_applying = db.Column(db.Boolean, nullable=False, default=False)
+
+    user = db.relationship("User", back_populates="learning_configs")

@@ -4,6 +4,9 @@ from apps.extensions import db
 # パスワードハッシュ化用
 from werkzeug.security import generate_password_hash, check_password_hash
 
+### リレーショナル関係
+
+
 ### User（ユーザー情報）
 class User(db.Model):
     __tablename__ = "users"
@@ -19,8 +22,8 @@ class User(db.Model):
     created_at = db.Column(db.DateTime, nullable=False, default=datetime.now)
     updated_at = db.Column(db.DateTime, onupdate=datetime.now)
 
-    contents = db.relationship("Contact", backref="user")
-    learning_configs = db.relationship("LearningConfig", backref="user")
+    contacts = db.relationship("Contact", back_populates="user")
+    learning_configs = db.relationship("LearningConfig", back_populates="user")
 
 
     @property
