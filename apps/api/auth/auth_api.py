@@ -22,20 +22,20 @@ api = Blueprint(
 
 # api.logger.setLevel(logging.DEBUG)
 
-@api.route("/", methods=["GET", "POST"])
-def index():
-    current_app.logger.warning(f"【warning!!!!!】不正なアクセスが行われようとした形跡があります")
+# @api.route("/", methods=["GET", "POST"])
+# def index():
+#     current_app.logger.warning(f"【warning!!!!!】不正なアクセスが行われようとした形跡があります")
     
-    if request.method == "POST":
-        email = request.form["email"]
+#     if request.method == "POST":
+#         email = request.form["email"]
 
-        # # メール送信テスト（デバッグ用）
-        send_email(email,"test","/test_mail",admin_name="名無しの専門学生")
-        # #
+#         # # メール送信テスト（デバッグ用）
+#         send_email(email,"test","/test_mail",admin_name="名無しの専門学生")
+#         # #
 
-        return f"Hello, {email}!"
-    else:
-        return "Hello, Guest!"
+#         return f"Hello, {email}!"
+#     else:
+#         return "Hello, Guest!"
 
 ### ログイン
 @api.route("/login", methods=["POST"])
