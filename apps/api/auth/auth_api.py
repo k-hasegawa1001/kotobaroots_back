@@ -11,6 +11,7 @@ from flask_jwt_extended import create_access_token, create_refresh_token, get_jt
 # DB関連
 from apps.extensions import db
 from apps.api.auth.models import User
+from apps.api.kotobaroots.models import LearningConfig
 
 # リフレッシュトークン無効化用
 from .models import TokenBlocklist
@@ -140,6 +141,7 @@ def logout():
         return jsonify({"msg": "Error processing logout", "error": str(e)}), 500
 
 ### 新規登録
+# ここで学習設定情報も作成
 @api.route("/create_user", methods=["POST"])
 def create_user():
     current_app.logger.info("create_user-APIにアクセスがありました")
@@ -163,7 +165,31 @@ def create_user():
         new_user = User(username=username, email=email)
         new_user.password=password # これでハッシュ化が実行される
 
+        # db.session.add(new_user)
+        # # db.session.commit()
+        # db.session.flush() # flush()を使うことでコミットはされないが、user_idが発行されnew_usr.idにセットされる
+
+        # ここでlearning_configも設定
+        """
+        learning_configの初期値
+        level_id=1（初級）
+        language_id=1（英語、アメリカ）
+        myphrase_question_num=100（全問）
+        is_applying=True（新規アカウント登録時のみ）
+        """
+        # new_created_user = User.query.filter_by(email=email).first()
+        new_config = LearningConfig(
+            # user_id=new_user.id,
+            level_id=1,
+            language_id=1,
+            is_applying=True
+        )
+
+        new_user.learning_configs.append(new_config)
+
         db.session.add(new_user)
+
+        # db.session.add(new_learning_config)
         db.session.commit()
 
         response_body={
