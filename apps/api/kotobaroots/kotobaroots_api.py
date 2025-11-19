@@ -106,3 +106,31 @@ def myphrase():
         })
 
     return jsonify(response_list), 200
+
+### プロフィール
+@api.route("/profile", methods=["GET"])
+@jwt_required()
+def profile():
+    """
+    request.body(json)
+    {
+    
+    }
+    """
+    try:
+        user_id = get_jwt_identity()
+        user = User.query.get(user_id)
+        if not user:
+            return jsonify({"error": "ユーザーが見つかりません"}), 404
+ 
+        profile_data = {
+            "username": user.username,
+            "email": user.email,
+            "created_at": user.created_at.strftime("%Y-%m-%d %H:%M:%S")
+        }
+ 
+        return jsonify(profile_data), 200
+ 
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify({"error": str(e)}), 500
