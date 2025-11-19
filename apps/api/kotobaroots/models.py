@@ -41,3 +41,48 @@ class LearningConfig(db.Model):
     is_applying = db.Column(db.Boolean, nullable=False, default=False)
 
     user = db.relationship("User", back_populates="learning_configs")
+
+### myphrase_○○（マイフレーズ帳）
+# 英語
+class MyphraseEnglish(db.Model):
+    __tablename__ = "myphrases_english"
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    phrase = db.Column(db.String, nullable = False)
+    mean = db.Column(db.String, nullable = False)
+
+    user = db.relationship("User", back_populates="myphrases_english")
+
+# 中国語
+class MyphraseChinese(db.Model):
+    __tablename__ = "myphrases_chinese"
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    phrase = db.Column(db.String, nullable = False)
+    mean = db.Column(db.String, nullable = False)
+
+    user = db.relationship("User", back_populates="myphrases_chinese")
+
+# 韓国語
+class MyphraseKorean(db.Model):
+    __tablename__ = "myphrases_korean"
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    phrase = db.Column(db.String, nullable = False)
+    mean = db.Column(db.String, nullable = False)
+
+    user = db.relationship("User", back_populates="myphrases_korean")
+
+# フランス語
+class MyphraseFrench(db.Model):
+    __tablename__ = "myphrases_french"
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    phrase = db.Column(db.String, nullable = False)
+    mean = db.Column(db.String, nullable = False)
+
+    user = db.relationship("User", back_populates="myphrases_french")

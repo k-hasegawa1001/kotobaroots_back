@@ -24,7 +24,10 @@ class User(db.Model):
 
     contacts = db.relationship("Contact", back_populates="user")
     learning_configs = db.relationship("LearningConfig", back_populates="user")
-
+    myphrases_english = db.relationship("MyphraseEnglish", back_populates="user")
+    myphrases_chinese = db.relationship("MyphraseChinese", back_populates="user")
+    myphrases_korean = db.relationship("MyphraseKorean", back_populates="user")
+    myphrases_french = db.relationship("MyphraseFrench", back_populates="user")
 
     @property
     def password(self):
