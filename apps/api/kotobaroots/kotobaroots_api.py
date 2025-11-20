@@ -5,6 +5,8 @@ from ...email import send_email
 from flask_jwt_extended import jwt_required, get_jwt_identity
 
 ### DB
+from sqlalchemy import delete
+
 from apps.extensions import db
 
 from apps.api.auth.models import User
@@ -25,7 +27,7 @@ api = Blueprint(
 def index():
     current_app.logger.warning(f"【warning!!!!!】不正なアクセスが行われようとした形跡があります")
 
-### 問い合わせ
+### 問い合わせ（長谷川）
 @api.route("/contact", methods=["POST"])
 @jwt_required()
 def contact():
@@ -65,6 +67,7 @@ def contact():
 
 
 ### マイフレーズ
+## トップ（長谷川）
 @api.route("/myphrase", methods=["GET"])
 @jwt_required()
 def myphrase():
@@ -83,8 +86,13 @@ def myphrase():
         # user = User.query.filter_by(email=email).first()
 
         # 現在適用中のlearning_configを取得
-        active_learning_config = LearningConfig.query.join(User).join(Language).filter(User.id == current_user_id).filter(LearningConfig.is_applying == True).first()
-
+        active_learning_config = LearningConfig.query \
+            .join(User) \
+            .join(Language) \
+            .filter(User.id == current_user_id) \
+            .filter(LearningConfig.is_applying == True) \
+            .first()
+        
         if not active_learning_config:
             current_app.logger.error(f"学習設定が適切に設定されていません\nuser_id : {current_user_id}")
             ########## 現状500番で返しているが、本番時には学習設定を必ずしてもらう画面に遷移するために他のステータスコードを返す
@@ -98,7 +106,9 @@ def myphrase():
             current_app.logger.error(f"対応する言語モデルが見つかりません: {language}")
             return jsonify({"msg": "対応していない言語です。"}), 400
         
-        current_user_myphrases = TargetModel.query.filter_by(user_id=current_user_id).all()
+        current_user_myphrases = TargetModel.query \
+            .filter_by(user_id=current_user_id) \
+            .all()
 
         response_list = []
         for item in current_user_myphrases:
@@ -113,8 +123,8 @@ def myphrase():
         current_app.logger.error(e)
         return jsonify({"error": str(e)}), 500
 
-## マイフレーズ追加
-@api.route("/myphrase/add", methods=["POST"])
+## マイフレーズ追加（長谷川）
+@api.route("/myphrase", methods=["POST"])
 @jwt_required()
 def myphrase_add():
     current_app.logger.info("myphrase_add-APIにアクセスがありました")
@@ -131,8 +141,13 @@ def myphrase_add():
         phrase = req_data.get("phrase")
         mean = req_data.get("mean")
 
-        active_learning_config = LearningConfig.query.join(User).join(Language).filter(User.id == current_user_id).filter(LearningConfig.is_applying == True).first()
-
+        active_learning_config = LearningConfig.query \
+            .join(User) \
+            .join(Language) \
+            .filter(User.id == current_user_id) \
+            .filter(LearningConfig.is_applying == True) \
+            .first()
+        
         if not active_learning_config:
             current_app.logger.error(f"学習設定が適切に設定されていません\nuser_id : {current_user_id}")
             ########## 現状500番で返しているが、本番時には学習設定を必ずしてもらう画面に遷移するために他のステータスコードを返す
@@ -145,7 +160,9 @@ def myphrase_add():
             current_app.logger.error(f"対応する言語モデルが見つかりません: {language}")
             return jsonify({"msg": "対応していない言語です。"}), 400
         
-        current_user_myphrase_num = TargetModel.query.filter_by(user_id=current_user_id).count()
+        current_user_myphrase_num = TargetModel.query \
+            .filter_by(user_id=current_user_id) \
+            .count()
 
         if current_user_myphrase_num >= MAX_MYPHRASE_COUNT:
             current_app.logger.error(f"マイフレーズの個数が上限に達しています\nuser_id : {current_user_id}")
@@ -165,14 +182,74 @@ def myphrase_add():
         return response, 200
     
     except Exception as e:
+        db.session.rollback()
         current_app.logger.error(e)
         return jsonify({"error": str(e)}), 500
 
+## マイフレーズ削除（長谷川）
+@api.route("/myphrase", methods=["DELETE"])
+@jwt_required()
+def myphrase_delete():
+    current_app.logger.info("myphrase_delete-APIにアクセスがありました")
+    """
+    {
+        "phrase_ids": [id, id, ...]
+    }
 
-### プロフィール
+    idはint型
+    ex)"delete_ids": [1, 5, 12, 20]
+    """
+    try:
+        current_user_id = get_jwt_identity()
+        req_data = request.get_json()
+        delete_ids = req_data.get("delete_ids", [])
+
+        if not delete_ids:
+            return jsonify({"msg": "削除対象が選択されていません"}), 400
+        
+        active_learning_config = LearningConfig.query \
+            .join(User) \
+            .join(Language) \
+            .filter(User.id == current_user_id) \
+            .filter(LearningConfig.is_applying == True) \
+            .first()
+
+        if not active_learning_config:
+            current_app.logger.error(f"学習設定が適切に設定されていません\nuser_id : {current_user_id}")
+            ########## 現状500番で返しているが、本番時には学習設定を必ずしてもらう画面に遷移するために他のステータスコードを返す
+            return jsonify({"msg": "学習設定が適切に設定されていません"}), 500
+
+        language = active_learning_config.language.language
+        TargetModel = get_myphrase_model(language)
+
+        if not TargetModel:
+            current_app.logger.error(f"対応する言語モデルが見つかりません: {language}")
+            return jsonify({"msg": "対応していない言語です。"}), 400
+        
+        # 削除処理
+        result = TargetModel.query \
+            .filter(TargetModel.id.in_(delete_ids)) \
+            .filter(TargetModel.user_id == current_user_id) \
+            .delete(synchronize_session=False)
+        
+        if result == 0:
+            # 自分のデータでないマイフレーズIDが送られてきた場合などはここに来る
+            return jsonify({"msg": "削除対象が見つかりませんでした"}), 404
+
+        db.session.commit()
+        
+        current_app.logger.info(f"{result}件のマイフレーズを削除しました")
+        return jsonify({"msg": f"{result}件削除しました"}), 200
+    except Exception as e:
+        db.session.rollback()
+        current_app.logger.error(e)
+        return jsonify({"error": str(e)}), 500
+
+### プロフィール（秦野）
 @api.route("/profile", methods=["GET"])
 @jwt_required()
 def profile():
+    current_app.logger.info("profile-APIにアクセスがありました")
     """
     request.body(json)
     {
@@ -196,3 +273,18 @@ def profile():
     except Exception as e:
         current_app.logger.error(e)
         return jsonify({"error": str(e)}), 500
+    
+
+
+""" 以下DB操作系APIのテンプレ """
+def temp():
+    current_app.logger.info("-APIにアクセスがありました")
+    try:
+        db.session.commit()
+
+        return jsonify({"msg": "成功しました"}), 200
+
+    except Exception as e:
+        db.session.rollback()
+        current_app.logger.error(e)
+        return jsonify({"msg": "エラーが発生しました"}), 500
