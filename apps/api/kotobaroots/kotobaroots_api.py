@@ -13,6 +13,8 @@ from apps.api.kotobaroots.models import Contact,LearningConfig,Language
 ### マイフレーズ（マッピング）
 from apps.api.kotobaroots.utils import get_myphrase_model
 
+MAX_MYPHRASE_COUNT = 100
+
 
 api = Blueprint(
     "kotobaroots",
@@ -73,39 +75,99 @@ def myphrase():
     
     }
     """
-    # req_data = request.get_json()
-    # email = req_data.get("email")
-    current_user_id=get_jwt_identity()
+    try:
+        # req_data = request.get_json()
+        # email = req_data.get("email")
+        current_user_id=get_jwt_identity()
 
-    # user = User.query.filter_by(email=email).first()
+        # user = User.query.filter_by(email=email).first()
 
-    # 現在適用中のlearning_configを取得
-    active_learning_config = LearningConfig.query.join(User).join(Language).filter(User.id == current_user_id).filter(LearningConfig.is_applying == True).first()
+        # 現在適用中のlearning_configを取得
+        active_learning_config = LearningConfig.query.join(User).join(Language).filter(User.id == current_user_id).filter(LearningConfig.is_applying == True).first()
 
-    if not active_learning_config:
-        current_app.logger.error(f"学習設定が適切に設定されていません\nuser_id : {current_user_id}")
-        ########## 現状500番で返しているが、本番時には学習設定を必ずしてもらう画面に遷移するために他のステータスコードを返す
-        return jsonify({"msg": "学習設定が適切に設定されていません"}), 500
+        if not active_learning_config:
+            current_app.logger.error(f"学習設定が適切に設定されていません\nuser_id : {current_user_id}")
+            ########## 現状500番で返しているが、本番時には学習設定を必ずしてもらう画面に遷移するために他のステータスコードを返す
+            return jsonify({"msg": "学習設定が適切に設定されていません"}), 500
 
-    language = active_learning_config.language.language
-    ## もし対応言語を増やす場合は必ずモデルから定義すること！！！
-    TargetModel = get_myphrase_model(language)
+        language = active_learning_config.language.language
+        ## もし対応言語を増やす場合は必ずモデルから定義すること！！！
+        TargetModel = get_myphrase_model(language)
 
-    if not TargetModel:
-        current_app.logger.error(f"対応する言語モデルが見つかりません: {language}")
-        return jsonify({"msg": "対応していない言語です。"}), 400
+        if not TargetModel:
+            current_app.logger.error(f"対応する言語モデルが見つかりません: {language}")
+            return jsonify({"msg": "対応していない言語です。"}), 400
+        
+        current_user_myphrases = TargetModel.query.filter_by(user_id=current_user_id).all()
+
+        response_list = []
+        for item in current_user_myphrases:
+            response_list.append({
+                "id": item.id,
+                "phrase": item.phrase,
+                "mean": item.mean
+            })
+
+        return jsonify(response_list), 200
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify({"error": str(e)}), 500
+
+## マイフレーズ追加
+@api.route("/myphrase/add", methods=["POST"])
+@jwt_required()
+def myphrase_add():
+    current_app.logger.info("myphrase_add-APIにアクセスがありました")
+    """
+    {
+        "phrases": "...",
+        "mean": "..."
+    }
+    """
+    try:
+        current_user_id = get_jwt_identity()
+
+        req_data = request.get_json()
+        phrase = req_data.get("phrase")
+        mean = req_data.get("mean")
+
+        active_learning_config = LearningConfig.query.join(User).join(Language).filter(User.id == current_user_id).filter(LearningConfig.is_applying == True).first()
+
+        if not active_learning_config:
+            current_app.logger.error(f"学習設定が適切に設定されていません\nuser_id : {current_user_id}")
+            ########## 現状500番で返しているが、本番時には学習設定を必ずしてもらう画面に遷移するために他のステータスコードを返す
+            return jsonify({"msg": "学習設定が適切に設定されていません"}), 500
+
+        language = active_learning_config.language.language
+        TargetModel = get_myphrase_model(language)
+
+        if not TargetModel:
+            current_app.logger.error(f"対応する言語モデルが見つかりません: {language}")
+            return jsonify({"msg": "対応していない言語です。"}), 400
+        
+        current_user_myphrase_num = TargetModel.query.filter_by(user_id=current_user_id).count()
+
+        if current_user_myphrase_num >= MAX_MYPHRASE_COUNT:
+            current_app.logger.error(f"マイフレーズの個数が上限に達しています\nuser_id : {current_user_id}")
+            return jsonify({"msg": "マイフレーズの個数が上限に達しています"}), 500
+
+        new_phrase = TargetModel(phrase=phrase, mean=mean)
+
+        db.session.add(new_phrase)
+        db.session.commit()
+
+        response_body={
+            "msg": "マイフレーズ追加完了"
+        }
+
+        response = jsonify(response_body)
+
+        return response, 200
     
-    current_user_myphrases = TargetModel.query.filter_by(user_id=current_user_id).all()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify({"error": str(e)}), 500
 
-    response_list = []
-    for item in current_user_myphrases:
-        response_list.append({
-            "id": item.id,
-            "phrase": item.phrase,
-            "mean": item.mean
-        })
-
-    return jsonify(response_list), 200
 
 ### プロフィール
 @api.route("/profile", methods=["GET"])
