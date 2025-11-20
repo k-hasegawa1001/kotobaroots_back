@@ -6,7 +6,7 @@ from flask import Blueprint, request, render_template, current_app, jsonify
 # メール
 from ...email import send_email
 
-from flask_jwt_extended import create_access_token, create_refresh_token, get_jti, set_refresh_cookies, jwt_required, get_jwt_identity, get_jwt
+from flask_jwt_extended import create_access_token, create_refresh_token, get_jti, set_refresh_cookies, jwt_required, get_jwt_identity, get_jwt, unset_jwt_cookies
 
 # DB関連
 from apps.extensions import db
@@ -135,7 +135,10 @@ def logout():
         db.session.commit()
         
         res_body = {"msg": "Successfully logged out"}
-        return jsonify(res_body), 200
+        response = jsonify(res_body)
+        unset_jwt_cookies(response)
+
+        return jsonify(response), 200
     except Exception as e:
         db.session.rollback()
         return jsonify({"msg": "Error processing logout", "error": str(e)}), 500
