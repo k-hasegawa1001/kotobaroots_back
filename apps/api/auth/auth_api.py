@@ -134,8 +134,8 @@ def logout():
         db.session.add(blocklist_entry)
         db.session.commit()
         
-        return jsonify({"msg": "Successfully logged out"}), 200
-        
+        res_body = {"msg": "Successfully logged out"}
+        return jsonify(res_body), 200
     except Exception as e:
         db.session.rollback()
         return jsonify({"msg": "Error processing logout", "error": str(e)}), 500
