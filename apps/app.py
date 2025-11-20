@@ -39,6 +39,12 @@ def create_app():
     # リフレッシュトークンを保存するCookieの名前
     app.config["JWT_REFRESH_COOKIE_NAME"] = os.environ.get("JWT_REFRESH_COOKIE_NAME")
     
+    # Cookieから読み込むように明示
+    app.config["JWT_TOKEN_LOCATION"] = ["headers", "cookies"]
+
+    app.config["JWT_COOKIE_SAMESITE"] = os.environ.get("JWT_COOKIE_SAMESITE", "Lax")      # クロスサイト送信制御
+    app.config["JWT_COOKIE_CSRF_PROTECT"] = os.environ.get("JWT_COOKIE_CSRF_PROTECT", "False").lower() == "true"  # 開発中はFalse、本番はTrue推奨
+    
     # Cookieを安全にする設定 (HttpOnly)
     app.config["JWT_COOKIE_HTTPONLY"] = os.environ.get("JWT_COOKIE_HTTPONLY", "True").lower() == "true"
     app.config["JWT_COOKIE_SECURE"] = os.environ.get("JWT_COOKIE_SECURE", "False").lower() == "true"
@@ -64,7 +70,8 @@ def create_app():
     app.config["JSON_AS_ASCII"] = False
     app.logger.setLevel(logging.DEBUG)
 
-    CORS(app, supports_credentials=True, origins=["http://127.0.0.1:5500"])
+    frontend_url = os.environ.get("FRONTEND_URL", "http://127.0.0.1:5500")
+    CORS(app, supports_credentials=True, origins=[frontend_url])
 
     ### DB関連
     app.config.from_mapping(
