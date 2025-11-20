@@ -201,5 +201,6 @@ def create_user():
         return response, 200
 
     except Exception as e:
+        db.session.rollback()
         current_app.logger.error(e)
         return jsonify({"error": str(e)}), 500
