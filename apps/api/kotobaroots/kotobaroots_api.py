@@ -6,6 +6,7 @@ from flask_jwt_extended import jwt_required, get_jwt_identity
 
 ### DB
 from sqlalchemy import delete
+from sqlalchemy.sql.expression import func
 
 from apps.extensions import db
 
@@ -118,7 +119,12 @@ def myphrase():
                 "mean": item.mean
             })
 
-        return jsonify(response_list), 200
+        res_body = {
+            "myphrases": response_list,
+            "question_num": active_learning_config.myphrase_question_num
+        }
+
+        return jsonify(res_body), 200
     except Exception as e:
         current_app.logger.error(e)
         return jsonify({"error": str(e)}), 500
@@ -239,11 +245,87 @@ def myphrase_delete():
         db.session.commit()
         
         current_app.logger.info(f"{result}件のマイフレーズを削除しました")
-        return jsonify({"msg": f"{result}件削除しました"}), 200
+
+        res_body = {
+            "msg": f"{result}件削除しました"
+        }
+        return jsonify(res_body), 200
     except Exception as e:
         db.session.rollback()
         current_app.logger.error(e)
         return jsonify({"error": str(e)}), 500
+
+## マイフレーズテスト（長谷川）
+@api.route("/myphrase/test", methods=["PUT"])
+@jwt_required()
+def test():
+    current_app.logger.info("test-APIにアクセスがありました")
+    """
+    request.body(json)
+    {
+        "myphrase_question_num": "..."
+    }
+    """
+    try:
+        current_user_id = get_jwt_identity()
+        req_data = request.get_json()
+        raw_num = req_data.get("myphrase_question_num")
+        if raw_num is None:
+            return jsonify({"msg": "問題数が指定されていません"}), 400
+        
+        try:
+            myphrase_question_num = int(raw_num)
+            if myphrase_question_num <= 0:
+                raise ValueError
+        except (ValueError, TypeError):
+            return jsonify({"msg": "問題数は1以上の整数で指定してください"}), 400
+
+        active_learning_config = LearningConfig.query \
+            .join(User) \
+            .join(Language) \
+            .filter(User.id == current_user_id) \
+            .filter(LearningConfig.is_applying == True) \
+            .first()
+
+        if not active_learning_config:
+            current_app.logger.error(f"学習設定が適切に設定されていません\nuser_id : {current_user_id}")
+            ########## 現状500番で返しているが、本番時には学習設定を必ずしてもらう画面に遷移するために他のステータスコードを返す
+            return jsonify({"msg": "学習設定が適切に設定されていません"}), 500
+
+        language = active_learning_config.language.language
+        TargetModel = get_myphrase_model(language)
+
+        if not TargetModel:
+            current_app.logger.error(f"対応する言語モデルが見つかりません: {language}")
+            return jsonify({"msg": "対応していない言語です。"}), 400
+        
+        questions = TargetModel.query.filter_by(user_id=current_user_id) \
+            .order_by(func.random()) \
+            .limit(myphrase_question_num) \
+            .all()
+        
+        if active_learning_config.myphrase_question_num != myphrase_question_num:
+            # LearningConfigのmyphrase_question_numカラム更新処理
+            active_learning_config.myphrase_question_num = myphrase_question_num
+            db.session.commit()
+
+        question_list=[]
+        for question in questions:
+            question_list.append({
+                "id": question.id,
+                "phrase": question.phrase,
+                "mean": question.mean
+            })
+
+        res_body = {
+            "questions": question_list
+        }
+
+        return jsonify(res_body), 200
+    except Exception as e:
+        db.session.rollback()
+        current_app.logger.error(e)
+        return jsonify({"msg": "エラーが発生しました"}), 500
 
 ### プロフィール（秦野）
 @api.route("/profile", methods=["GET"])
@@ -276,14 +358,16 @@ def profile():
     
 
 
-""" 以下DB操作系APIのテンプレ """
+""" 以下DB内容変更系APIのテンプレ """
 def temp():
     current_app.logger.info("-APIにアクセスがありました")
     try:
+        current_user_id = get_jwt_identity()
+        req_data = request.get_json()
+
         db.session.commit()
 
         return jsonify({"msg": "成功しました"}), 200
-
     except Exception as e:
         db.session.rollback()
         current_app.logger.error(e)
