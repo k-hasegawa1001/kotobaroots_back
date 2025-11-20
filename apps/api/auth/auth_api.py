@@ -138,7 +138,7 @@ def logout():
         response = jsonify(res_body)
         unset_jwt_cookies(response)
 
-        return jsonify(response), 200
+        return response, 200
     except Exception as e:
         db.session.rollback()
         return jsonify({"msg": "Error processing logout", "error": str(e)}), 500
