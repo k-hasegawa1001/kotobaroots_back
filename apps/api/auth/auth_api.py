@@ -38,7 +38,7 @@ api = Blueprint(
 #     else:
 #         return "Hello, Guest!"
 
-### ログイン
+### ログイン（長谷川）
 @api.route("/login", methods=["POST"])
 def login():
     current_app.logger.info("login-APIにアクセスがありました")
@@ -107,7 +107,7 @@ def login():
 # def verify_2fa():
 #     print()
 
-### リフレッシュトークンからアクセストークンを生成するAPI
+### リフレッシュトークンからアクセストークンを生成するAPI（長谷川）
 @api.route("/token/refresh")
 @jwt_required(refresh=True)
 def generate_access_token_from_refresh_token():
@@ -115,7 +115,7 @@ def generate_access_token_from_refresh_token():
     new_access_token = create_access_token(identity=current_user_identity)
     return jsonify(access_token=new_access_token), 200
 
-### ログアウトAPI
+### ログアウトAPI（長谷川）
 @api.route("/logout", methods=["POST"])
 @jwt_required(refresh=True) # リフレッシュトークンでログアウトするのが一般的
 def logout():
@@ -140,7 +140,7 @@ def logout():
         db.session.rollback()
         return jsonify({"msg": "Error processing logout", "error": str(e)}), 500
 
-### 新規登録
+### 新規登録（長谷川）
 # ここで学習設定情報も作成
 @api.route("/create_user", methods=["POST"])
 def create_user():
