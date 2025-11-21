@@ -20,7 +20,7 @@ from .extensions import mail
 # from flask_jwt_extended import create_access_token, create_refresh_token, jwt_required, get_jwt_identity, JWTManager, set_refresh_cookies
 from .extensions import jwt
 from .api.auth.models import TokenBlocklist
-
+from apps.api.auth.models import User
 ###
 
 ### .env関連
@@ -33,8 +33,8 @@ load_dotenv()
 def create_app():
     app = Flask(__name__)
 
-    ### メールに添付するURLのトークン関連
-    app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
+    # ### メールに添付するURLのトークン関連
+    # app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
 
     ### 認証関連
     app.config["JWT_SECRET_KEY"] = os.environ.get("JWT_SECRET_KEY")
@@ -67,7 +67,26 @@ def create_app():
     def check_if_token_in_blocklist(jwt_header, jwt_payload):
         jti = jwt_payload["jti"]
         token_in_db = TokenBlocklist.query.filter_by(jti=jti).one_or_none()
-        return token_in_db is not None
+        if token_in_db is not None:
+            return True # ブロックされている
+        
+        user_id = jwt_payload["sub"] # identity (user.id)
+        user = User.query.get(user_id)
+        
+        if user and user.last_password_change:
+            # トークンの発行時刻 (iat: issued at) は Unixタイムスタンプ(int)
+            token_iat_timestamp = jwt_payload["iat"]
+            
+            # user.updated_at を Unixタイムスタンプに変換
+            # password_change_timestamp = user.last_password_change.timestamp()
+            # 「これはUTC時間ですよ」と明示してから timestamp に変換する
+            password_change_timestamp = user.last_password_change.replace(tzinfo=datetime.timezone.utc).timestamp()
+
+            # 「トークン発行」が「パスワード変更」より前ならアウト
+            if token_iat_timestamp < password_change_timestamp:
+                return True # ブロック扱いにする（無効）
+        
+        return False
     ###
 
     app.config["JSON_AS_ASCII"] = False

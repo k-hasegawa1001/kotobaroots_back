@@ -281,6 +281,7 @@ def reset_password():
         
         # パスワードのsetterメソッドでハッシュ化して保存
         user.password = new_password
+        user.last_password_change = datetime.datetime.utcnow()
         db.session.commit()
 
         return jsonify({"msg": "パスワードが正常に変更されました"}), 200

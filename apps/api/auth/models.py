@@ -21,6 +21,7 @@ class User(db.Model):
 
     created_at = db.Column(db.DateTime, nullable=False, default=datetime.now)
     updated_at = db.Column(db.DateTime, onupdate=datetime.now)
+    last_password_change = db.Column(db.DateTime, nullable=True)
 
     contacts = db.relationship("Contact", back_populates="user")
     learning_configs = db.relationship("LearningConfig", back_populates="user")
