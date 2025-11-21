@@ -74,6 +74,7 @@ def create_app():
     app.logger.setLevel(logging.DEBUG)
 
     frontend_url = os.environ.get("FRONTEND_URL", "http://127.0.0.1:5500")
+    app.config["FRONTEND_URL"] = frontend_url
     # CORS(app, supports_credentials=True, origins=[frontend_url])
     CORS(app,
         resources={r"/api/*": {

@@ -16,6 +16,10 @@ from apps.api.kotobaroots.models import LearningConfig
 # リフレッシュトークン無効化用
 from .models import TokenBlocklist
 
+# パスワードリセット用
+from itsdangerous import URLSafeTimedSerializer # メールに添付するURLに改ざん検知のトークンを付与するためのもの
+from .utils import generate_reset_token, verify_reset_token
+
 api = Blueprint(
     "auth",
     __name__
@@ -145,7 +149,7 @@ def logout():
 
 ### 新規登録（長谷川）
 # ここで学習設定情報も作成
-@api.route("/create_user", methods=["POST"])
+@api.route("/create-user", methods=["POST"])
 def create_user():
     current_app.logger.info("create_user-APIにアクセスがありました")
     """
@@ -202,6 +206,84 @@ def create_user():
         response = jsonify(response_body)
 
         return response, 200
+
+    except Exception as e:
+        db.session.rollback()
+        current_app.logger.error(e)
+        return jsonify({"error": str(e)}), 500
+
+### パスワードリセット
+## メール送信
+@api.route("/request-reset-password", methods=["POST"])
+def request_password_reset():
+    current_app.logger.info("request_password_reset-APIにアクセスがありました")
+    """
+    request.body(json)
+    {
+        "email": "..."
+    }
+    """
+    try:
+        req_data = request.get_json()
+        email = req_data.get("email")
+
+        user = User.query.filter_by(email=email).first()
+
+        # セキュリティのため、登録がない場合でも「送信しました」と返す
+        if not user:
+            current_app.logger.info("ユーザー情報が存在していませんでした")
+            return jsonify({"msg": "パスワードリセットメールを送信しました"}), 200
+        
+        token = generate_reset_token(user.email)
+
+        frontend_url = current_app.config.get("FRONTEND_URL", "http://127.0.0.1:5500")
+
+        reset_url = f"{frontend_url}/reset-password?token={token}"
+
+        email_template = "/password_reset/password_reset"
+
+        send_email(user.email, "パスワードリセット", email_template, reset_url=reset_url)
+        
+        return jsonify({"msg": "パスワードリセットメールを送信しました"}), 200
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify({"error": "エラーが発生しました"}), 500
+
+## パスワードリセット処理
+@api.route("/reset-password", methods=["POST"])
+def reset_password():
+    current_app.logger.info("reset-password-APIにアクセスがありました")
+    """
+    request.body(json)
+    {
+        "token": "...",
+        "new_password": "..."
+    }
+    """
+    try:
+        req_data = request.get_json()
+        token = req_data.get("token")
+        new_password = req_data.get("password")
+
+        if not token or not new_password:
+            return jsonify({"msg": "情報が不足しています"}), 400
+
+        # トークンの検証
+        email = verify_reset_token(token)
+
+        if not email:
+            return jsonify({"msg": "無効、または期限切れのリンクです"}), 400
+
+        # ユーザーを取得してパスワード更新
+        user = User.query.filter_by(email=email).first()
+        if not user:
+            return jsonify({"msg": "ユーザーが見つかりません"}), 404
+        
+        # パスワードのsetterメソッドでハッシュ化して保存
+        user.password = new_password
+        db.session.commit()
+
+        return jsonify({"msg": "パスワードが正常に変更されました"}), 200
 
     except Exception as e:
         db.session.rollback()
