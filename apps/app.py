@@ -33,6 +33,9 @@ load_dotenv()
 def create_app():
     app = Flask(__name__)
 
+    ### メールに添付するURLのトークン関連
+    app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
+
     ### 認証関連
     app.config["JWT_SECRET_KEY"] = os.environ.get("JWT_SECRET_KEY")
     
@@ -71,7 +74,15 @@ def create_app():
     app.logger.setLevel(logging.DEBUG)
 
     frontend_url = os.environ.get("FRONTEND_URL", "http://127.0.0.1:5500")
-    CORS(app, supports_credentials=True, origins=[frontend_url])
+    # CORS(app, supports_credentials=True, origins=[frontend_url])
+    CORS(app,
+        resources={r"/api/*": {
+            "origins": [frontend_url],
+            "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+            "allow_headers": ["Content-Type", "Authorization"],
+            "supports_credentials": True
+        }}
+    )
 
     ### DB関連
     app.config.from_mapping(
