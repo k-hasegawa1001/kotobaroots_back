@@ -213,7 +213,7 @@ def create_user():
         return jsonify({"error": str(e)}), 500
 
 ### パスワードリセット
-## メール送信
+## メール送信（長谷川）
 @api.route("/request-reset-password", methods=["POST"])
 def request_password_reset():
     current_app.logger.info("request_password_reset-APIにアクセスがありました")
@@ -233,12 +233,16 @@ def request_password_reset():
         if not user:
             current_app.logger.info("ユーザー情報が存在していませんでした")
             return jsonify({"msg": "パスワードリセットメールを送信しました"}), 200
+
+
+        ## 24時間以内にもう一度パスワードリセットリクエストが来た場合の処理を後で考える
+        # レートリミット（Flask-Limiterなど）
         
         token = generate_reset_token(user.email)
 
         frontend_url = current_app.config.get("FRONTEND_URL", "http://127.0.0.1:5500")
 
-        reset_url = f"{frontend_url}/reset-password?token={token}"
+        reset_url = f"{frontend_url}/reset-password.html?token={token}"
 
         email_template = "/password_reset/password_reset"
 
@@ -249,7 +253,23 @@ def request_password_reset():
         current_app.logger.error(e)
         return jsonify({"error": "エラーが発生しました"}), 500
 
-## パスワードリセット処理
+## トークン検証（長谷川）
+@api.route("/reset-password/confirm-token/<token>", methods=["GET"])
+def confirm_reset_password_token(token):
+    """
+    フロントエンドが画面を表示する前に、「このトークン生きてる？」を確認するためのAPI
+    """
+    email = verify_reset_token(token)
+    
+    if not email:
+        return jsonify({"msg": "無効、または期限切れのリンクです"}), 400
+
+    # 問題なければ、変更しようとしているメアドなどを返す（画面表示用）
+    return jsonify({
+        "msg": "トークンは有効です"
+    }), 200
+
+## パスワードリセット処理（長谷川）
 @api.route("/reset-password", methods=["POST"])
 def reset_password():
     current_app.logger.info("reset-password-APIにアクセスがありました")
