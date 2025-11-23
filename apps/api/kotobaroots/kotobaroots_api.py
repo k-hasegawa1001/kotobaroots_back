@@ -16,6 +16,10 @@ from apps.api.kotobaroots.models import Contact,LearningConfig,Language
 ### マイフレーズ（マッピング）
 from apps.api.kotobaroots.utils import get_myphrase_model
 
+### メールアドレス変更
+from itsdangerous import URLSafeTimedSerializer, BadSignature, SignatureExpired
+from apps.api.kotobaroots.utils import generate_email_change_token, verify_email_change_token
+
 MAX_MYPHRASE_COUNT = 100
 
 
@@ -327,7 +331,8 @@ def test():
         current_app.logger.error(e)
         return jsonify({"msg": "エラーが発生しました"}), 500
 
-### プロフィール（秦野）
+### プロフィール
+## トップ（秦野）
 @api.route("/profile", methods=["GET"])
 @jwt_required()
 def profile():
@@ -355,8 +360,145 @@ def profile():
     except Exception as e:
         current_app.logger.error(e)
         return jsonify({"error": str(e)}), 500
-    
 
+## ユーザー名変更（OK）（秦野）
+@api.route("/profile/username", methods=["PATCH"])
+@jwt_required()
+def update_username():
+    current_app.logger.info("update_username-APIにアクセスがありました")
+    try:
+        current_user_id = get_jwt_identity()
+        data = request.get_json()
+        new_username = data.get("username")
+
+        if not new_username:
+            return jsonify({"msg": "username が必要です"}), 400
+
+        # # username 重複チェック
+        # exists = User.query.filter_by(username=new_username).first()
+        # if exists:
+        #     return jsonify({"msg": "このユーザー名は既に使用されています"}), 400
+
+        user = User.query.get(current_user_id)
+        if not user:
+            return jsonify({"msg": "ユーザーが見つかりません"}), 404
+
+        if user.username == new_username:
+            return jsonify({"msg": "ユーザー名を更新しました"}), 200
+
+        user.username = new_username
+        db.session.commit()
+
+        return jsonify({"msg": "ユーザー名を更新しました"}), 200
+
+    except Exception as e:
+        db.session.rollback()
+        current_app.logger.error(e)
+        return jsonify({"msg": str(e)}), 500
+
+## メールアドレス変更（メール送信）（秦野）
+@api.route("/profile/email/request", methods=["POST"])
+@jwt_required()
+def request_change_email():
+    current_user_id = get_jwt_identity()
+    data = request.get_json()
+    new_email = data.get("new_email")
+
+    if not new_email:
+        return jsonify({"msg": "新しいメールアドレスが必要です"}), 400
+
+    # すでに存在していないかチェック
+    exists = User.query.filter_by(email=new_email).first()
+    if exists:
+        return jsonify({"msg": "このメールアドレスは既に使用されています"}), 400
+
+    # トークン生成
+    # s = URLSafeTimedSerializer(current_app.config["SECRET_KEY"])
+    # token = s.dumps({"user_id": current_user_id, "new_email": new_email})
+    token = generate_email_change_token(current_user_id, new_email)
+
+    frontend_url = current_app.config.get("FRONTEND_URL", "http://127.0.0.1:5500")
+    confirm_url = f"{frontend_url}/profile/edit-email-confirmation.html?token={token}"
+
+    # メール送信
+    send_email(
+        to=new_email,
+        subject="メールアドレス変更の確認",
+        template="change_email/change_email",
+        confirm_url=confirm_url
+    )
+
+    return jsonify({"msg": "確認メールを送信しました"}), 200
+
+## トークン検証（秦野）
+@api.route("/profile/email/confirm/<token>", methods=["GET"])
+def confirm_change_email_token(token):
+    """
+    フロントエンドが画面を表示する前に、「このトークン生きてる？」を確認するためのAPI
+    """
+    payload = verify_email_change_token(token)
+    
+    if not payload:
+        return jsonify({"msg": "無効、または期限切れのリンクです"}), 400
+
+    # 問題なければ、変更しようとしているメアドなどを返す（画面表示用）
+    return jsonify({
+        "msg": "トークンは有効です",
+        "new_email": payload["new_email"]
+    }), 200
+
+## メールアドレス変更処理（秦野）
+"""
+【注意点】
+もしユーザーがスマホで申請し、PCでメールを開いた場合（PCで未ログインの場合）、
+フローの最後で 401 Unauthorized エラーになる
+
+その場合、フロントエンドは「ログインしてください」と
+ログイン画面へ誘導する処理が必要になる
+"""
+@api.route("/profile/email/update", methods=["POST"])
+@jwt_required()
+def update_email():
+    """
+    request.body(json)
+    {
+        "token": "...",
+        "password", "..."
+    }
+    """
+    try:
+        current_user_id = get_jwt_identity()
+        data = request.get_json()
+
+        token = data.get("token")
+        password = data.get("password")
+
+        if not token or not password:
+            return jsonify({"msg": "トークンとパスワードが必要です"}), 400
+
+        # トークンの検証
+        payload = verify_email_change_token(token)
+        if not payload:
+            return jsonify({"msg": "無効、または期限切れのトークンです"}), 400
+
+        # トークン内のユーザーIDと、現在ログイン中のユーザーIDが一致するか確認
+        if payload["user_id"] != current_user_id:
+            return jsonify({"msg": "不正なリクエストです"}), 403
+
+        # パスワード確認
+        user = User.query.get(current_user_id)
+        if not user.check_password(password):
+            return jsonify({"msg": "パスワードが違います"}), 400
+
+        # メールアドレス更新処理
+        user.email = payload["new_email"]
+        db.session.commit()
+
+        return jsonify({"msg": "メールアドレスを更新しました"}), 200
+    except Exception as e:
+        db.session.rollback()
+        current_app.logger.error(e)
+        return jsonify({"msg": "エラーが発生しました"}), 500
 
 """ 以下DB内容変更系APIのテンプレ """
 def temp():
