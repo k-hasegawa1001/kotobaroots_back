@@ -4,7 +4,10 @@ from apps.extensions import db
 # パスワードハッシュ化用
 from werkzeug.security import generate_password_hash, check_password_hash
 
-### User（ユーザー情報）（完成）
+### リレーショナル関係
+
+
+### User（ユーザー情報）
 class User(db.Model):
     __tablename__ = "users"
 
@@ -18,8 +21,15 @@ class User(db.Model):
 
     created_at = db.Column(db.DateTime, nullable=False, default=datetime.now)
     updated_at = db.Column(db.DateTime, onupdate=datetime.now)
+    last_password_change = db.Column(db.DateTime, nullable=True)
 
-    contents = db.relationship("Contact", backref="user")
+    contacts = db.relationship("Contact", back_populates="user")
+    learning_configs = db.relationship("LearningConfig", back_populates="user")
+    myphrases_english = db.relationship("MyphraseEnglish", back_populates="user")
+    myphrases_chinese = db.relationship("MyphraseChinese", back_populates="user")
+    myphrases_korean = db.relationship("MyphraseKorean", back_populates="user")
+    myphrases_french = db.relationship("MyphraseFrench", back_populates="user")
+    ai_correction_histories = db.relationship("AICorrectionHistory", back_populates="user")
 
     @property
     def password(self):
