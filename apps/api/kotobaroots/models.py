@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from apps.extensions import db
 
 ### Contact（問い合わせ）
@@ -86,3 +88,18 @@ class MyphraseFrench(db.Model):
     mean = db.Column(db.String, nullable = False)
 
     user = db.relationship("User", back_populates="myphrases_french")
+
+### AI解説履歴
+class AICorrectionHistory(db.Model):
+    __tablename__ = "ai_correction_histories"
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    language_id = db.Column(db.Integer, db.ForeignKey('languages.id'), nullable=False)
+    # 長文になる可能性があるのでString型ではなくText型を使用
+    input_english = db.Column(db.Text, nullable = False)
+    japanese_translation = db.Column(db.Text, nullable = False)
+    explanation = db.Column(db.Text, nullable = False)
+    created_at = db.Column(db.DateTime, nullable=False, default=datetime.now)
+
+    user = db.relationship("User", back_populates="ai_correction_histories")
