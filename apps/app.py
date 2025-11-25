@@ -36,6 +36,9 @@ def create_app():
     # ### メールに添付するURLのトークン関連
     # app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
 
+    ### chatGPT-API
+    app.config["OPENAI_API_KEY"] = os.environ.get("OPENAI_API_KEY")
+
     ### 認証関連
     app.config["JWT_SECRET_KEY"] = os.environ.get("JWT_SECRET_KEY")
     
