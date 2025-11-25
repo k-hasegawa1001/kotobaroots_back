@@ -20,6 +20,10 @@ from apps.api.kotobaroots.utils import get_myphrase_model
 from itsdangerous import URLSafeTimedSerializer, BadSignature, SignatureExpired
 from apps.api.kotobaroots.utils import generate_email_change_token, verify_email_change_token
 
+### GPT-API
+import openai
+import json
+
 MAX_MYPHRASE_COUNT = 100
 
 
@@ -512,8 +516,77 @@ def ai_explanation_index():
     # POSTリクエスト: ChatGPT解説生成
     if request.method == "POST":
         current_app.logger.info("ai_explanation_index-API（POST）にアクセスがありました")
-        # TODO: chatGPT-API送信処理
-        pass
+        
+        """
+        {
+            "input_english": "..."
+        }
+        """
+        current_user_id = get_jwt_identity()
+        req_data = request.get_json()
+        input_english = req_data.get("input_english")
+
+        try:
+            if not input_english:
+                    return jsonify({"msg": "テキストが入力されていません"}), 400
+            
+            active_config = LearningConfig.query \
+                    .join(User).join(Language) \
+                    .filter(User.id == current_user_id) \
+                    .filter(LearningConfig.is_applying == True) \
+                    .first()
+            
+            if not active_config:
+                    return jsonify({"msg": "学習設定が見つかりません"}), 400
+                
+            language_id = active_config.language.id
+            language_name = active_config.language.language
+
+            # OpenAI APIの準備
+            client = openai.OpenAI(api_key=current_app.config["OPENAI_API_KEY"])
+
+            prompt = f"" # TODO: プロンプトが作成完了次第埋め込み
+
+            # APIリクエスト (gpt-4o-mini)
+            response = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": prompt},
+                    {"role": "user", "content": input_english}
+                ],
+                response_format={"type": "json_object"},
+                temperature=0.7,
+            )
+
+            ai_content = response.choices[0].message.content
+            result_json = json.loads(ai_content) # 文字列を辞書型に変換
+
+            translation = result_json.get("translation", "")
+            explanation = result_json.get("explanation", "")
+
+            new_history = AICorrectionHistory(
+                user_id=current_user_id,
+                language_id=language_id,
+                input_english=input_english,
+                japanese_translation=translation,
+                explanation=explanation
+                # created_atはデフォルトで入るので指定不要
+            )
+
+            db.session.add(new_history)
+            db.session.commit()
+
+            # 7. フロントへ返却
+            return jsonify({
+                "msg": "解説生成成功",
+                "translation": translation,
+                "explanation": explanation
+            }), 200
+
+        except Exception as e:
+            db.session.rollback()
+            current_app.logger.error(f"AI生成エラー: {e}")
+            return jsonify({"msg": "AI生成中にエラーが発生しました", "error": str(e)}), 500
 
 ## 履歴（長谷川）
 @api.route("/ai-explanation/history", methods=["GET"])
