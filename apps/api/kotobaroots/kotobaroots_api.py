@@ -5,13 +5,13 @@ from ...email import send_email
 from flask_jwt_extended import jwt_required, get_jwt_identity
 
 ### DB
-from sqlalchemy import delete
+from sqlalchemy import delete, desc
 from sqlalchemy.sql.expression import func
 
 from apps.extensions import db
 
 from apps.api.auth.models import User
-from apps.api.kotobaroots.models import Contact,LearningConfig,Language
+from apps.api.kotobaroots.models import Contact, LearningConfig, Language, AICorrectionHistory
 
 ### マイフレーズ（マッピング）
 from apps.api.kotobaroots.utils import get_myphrase_model
@@ -499,6 +499,49 @@ def update_email():
         db.session.rollback()
         current_app.logger.error(e)
         return jsonify({"msg": "エラーが発生しました"}), 500
+
+### AI解説
+## トップ（長谷川）
+@api.route("/ai-explanation", methods=["GET", "POST"])
+@jwt_required()
+def ai_explanation_index():
+    if request.method == "GET":
+        current_app.logger.info("ai_explanation_index-API（GET）にアクセスがありました")
+        return jsonify({"msg": "AI解説トップページ"}), 200
+
+    # POSTリクエスト: ChatGPT解説生成
+    if request.method == "POST":
+        current_app.logger.info("ai_explanation_index-API（POST）にアクセスがありました")
+        # TODO: chatGPT-API送信処理
+        pass
+
+## 履歴（長谷川）
+@api.route("/ai-explanation/history", methods=["GET"])
+@jwt_required()
+def ai_explanation_history():
+    current_app.logger.info("ai_explanation_history-APIにアクセスがありました")
+    current_user_id = get_jwt_identity()
+
+    # 履歴の一覧を取得
+    ai_explanation_histories = AICorrectionHistory.query \
+        .filter_by(user_id=current_user_id) \
+        .order_by(desc(AICorrectionHistory.created_at)) \
+        .all()
+    
+    response_histories = []
+    for ai_explanation_history in ai_explanation_histories:
+        response_histories.append({
+            "id": ai_explanation_history.id,
+            "input_english": ai_explanation_history.input_english,
+            "japanese_translation": ai_explanation_history.japanese_translation,
+            "explanation": ai_explanation_history.explanation,
+            # フロントで扱いやすいように日付は文字列に変換しておく
+            "created_at": ai_explanation_history.created_at.strftime('%Y-%m-%d %H:%M:%S')
+        })
+    
+    return jsonify(response_histories), 200
+
+
 
 """ 以下DB内容変更系APIのテンプレ """
 def temp():
