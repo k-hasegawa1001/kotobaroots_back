@@ -35,6 +35,7 @@ class Language(db.Model):
 
     learning_configs = db.relationship("LearningConfig", backref="language")
     learning_topics = db.relationship("LearningTopic", back_populates="language")
+    learning_progresses = db.relationship("LearningProgress", back_populates="language")
 
 ### LearningConfig（学習設定）
 class LearningConfig(db.Model):
