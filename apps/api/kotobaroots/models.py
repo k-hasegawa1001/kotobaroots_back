@@ -22,7 +22,8 @@ class Level(db.Model):
 
     learning_configs = db.relationship("LearningConfig", backref="level")
     learning_topics = db.relationship("LearningTopic", back_populates="level", order_by="LearningTopic.difficulty")
-    unlocked_topics = db.relationship("UnlockedTopic", back_populates="level")
+    # unlocked_topics = db.relationship("UnlockedTopic", back_populates="level")
+    learning_progresses = db.relationship("LearningProgress", back_populates="level")
 
 ### Language（学習言語・国）
 class Language(db.Model):
@@ -125,21 +126,42 @@ class LearningTopic(db.Model):
 
     level = db.relationship("Level", back_populates="learning_topics")
     language = db.relationship("Language", back_populates="learning_topics")
-    unlocked_topics = db.relationship("UnlockedTopic", back_populates="learning_topic")
+    # unlocked_topics = db.relationship("UnlockedTopic", back_populates="learning_topic")
 
-## アンロック単元
-class UnlockedTopic(db.Model):
-    __tablename__ = "unlocked_topics"
+# ## アンロック単元
+# class UnlockedTopic(db.Model):
+#     __tablename__ = "unlocked_topics"
+
+#     id = db.Column(db.Integer, primary_key=True)
+#     user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+#     level_id = db.Column(db.Integer, db.ForeignKey('levels.id'), nullable=False)
+#     learning_topic_id = db.Column(db.Integer, db.ForeignKey('learning_topics.id'), nullable=False)
+
+#     __table_args__ = (
+#         UniqueConstraint('user_id', 'learning_topic_id', name='unique_user_topic_unlock'),
+#     )
+
+#     user = db.relationship("User", back_populates="unlocked_topics")
+#     level = db.relationship("Level", back_populates="unlocked_topics")
+#     learning_topic = db.relationship("LearningTopic", back_populates="unlocked_topics")
+
+## 学習進捗（セーブデータ）
+class LearningProgress(db.Model):
+    __tablename__ = "learning_progresses"
 
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    language_id = db.Column(db.Integer, db.ForeignKey('languages.id'), nullable=False)
     level_id = db.Column(db.Integer, db.ForeignKey('levels.id'), nullable=False)
-    learning_topic_id = db.Column(db.Integer, db.ForeignKey('learning_topics.id'), nullable=False)
+    
+    # 現在解放されている最大の難易度 (初期値: 1)
+    current_difficulty = db.Column(db.Integer, default=1, nullable=False)
 
+    # 1ユーザー・1言語・1レベルにつき、進捗データは1つだけ
     __table_args__ = (
-        UniqueConstraint('user_id', 'learning_topic_id', name='unique_user_topic_unlock'),
+        UniqueConstraint('user_id', 'language_id', 'level_id', name='unique_user_lang_level_progress'),
     )
 
-    user = db.relationship("User", back_populates="unlocked_topics")
-    level = db.relationship("Level", back_populates="unlocked_topics")
-    learning_topic = db.relationship("LearningTopic", back_populates="unlocked_topics")
+    user = db.relationship("User", back_populates="learning_progresses")
+    language = db.relationship("Language", back_populates="learning_progresses")
+    level = db.relationship("Level", back_populates="learning_progresses")

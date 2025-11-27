@@ -30,7 +30,8 @@ class User(db.Model):
     myphrases_korean = db.relationship("MyphraseKorean", back_populates="user")
     myphrases_french = db.relationship("MyphraseFrench", back_populates="user")
     ai_correction_histories = db.relationship("AICorrectionHistory", back_populates="user")
-    unlocked_topics = db.relationship("UnlockedTopic", back_populates="user")
+    # unlocked_topics = db.relationship("UnlockedTopic", back_populates="user")
+    learning_progresses = db.relationship("LearningProgress", back_populates="user")
 
     @property
     def password(self):
