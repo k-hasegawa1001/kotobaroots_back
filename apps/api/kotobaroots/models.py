@@ -1,6 +1,7 @@
 from datetime import datetime
 
 from apps.extensions import db
+from sqlalchemy import UniqueConstraint
 
 ### Contact（問い合わせ）
 class Contact(db.Model):
@@ -20,6 +21,7 @@ class Level(db.Model):
     level_tag = db.Column(db.String, nullable=False)
 
     learning_configs = db.relationship("LearningConfig", backref="level")
+    learning_topics = db.relationship("LearningTopic", back_populates="level", order_by="LearningTopic.difficulty")
 
 ### Language（学習言語・国）
 class Language(db.Model):
@@ -103,3 +105,19 @@ class AICorrectionHistory(db.Model):
     created_at = db.Column(db.DateTime, nullable=False, default=datetime.now)
 
     user = db.relationship("User", back_populates="ai_correction_histories")
+
+### 学習
+## 学習単元
+class LearningTopic(db.Model):
+    __tablename__ = "learning_topics"
+
+    id = db.Column(db.Integer, primary_key=True)
+    level_id = db.Column(db.Integer, db.ForeignKey('levels.id'), nullable=False)
+    topic = db.Column(db.String, nullable = False)
+    difficulty = db.Column(db.Integer, nullable = False)
+
+    __table_args__ = (
+        UniqueConstraint('level_id', 'difficulty', name='unique_level_difficulty'),
+    )
+
+    level = db.relationship("Level", back_populates="learning_topics")
