@@ -33,6 +33,7 @@ class Language(db.Model):
     country = db.Column(db.String, nullable=True)
 
     learning_configs = db.relationship("LearningConfig", backref="language")
+    learning_topics = db.relationship("LearningTopic", back_populates="language")
 
 ### LearningConfig（学習設定）
 class LearningConfig(db.Model):
@@ -114,14 +115,16 @@ class LearningTopic(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     level_id = db.Column(db.Integer, db.ForeignKey('levels.id'), nullable=False)
+    language_id = db.Column(db.Integer, db.ForeignKey('languages.id'), nullable=False)
     topic = db.Column(db.String, nullable = False)
     difficulty = db.Column(db.Integer, nullable = False)
 
     __table_args__ = (
-        UniqueConstraint('level_id', 'difficulty', name='unique_level_difficulty'),
+        UniqueConstraint('language_id', 'level_id', 'difficulty', name='unique_lang_level_difficulty'),
     )
 
     level = db.relationship("Level", back_populates="learning_topics")
+    language = db.relationship("Language", back_populates="learning_topics")
     unlocked_topics = db.relationship("UnlockedTopic", back_populates="learning_topic")
 
 ## アンロック単元
