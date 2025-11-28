@@ -11,7 +11,7 @@ from sqlalchemy.sql.expression import func
 from apps.extensions import db
 
 from apps.api.auth.models import User
-from apps.api.kotobaroots.models import Contact, LearningConfig, Language, AICorrectionHistory
+from apps.api.kotobaroots.models import Contact, LearningConfig, Language, AICorrectionHistory, LearningTopic, LearningProgress
 
 ### マイフレーズ（マッピング）
 from apps.api.kotobaroots.utils import get_myphrase_model
@@ -613,6 +613,69 @@ def ai_explanation_history():
         })
     
     return jsonify(response_histories), 200
+
+### 学習
+## トップ（長谷川）
+@api.route("/learning", methods=["GET"])
+@jwt_required()
+def learning_index():
+    current_user_id = get_jwt_identity()
+    
+    try:
+        active_config = LearningConfig.query \
+            .join(User).join(Language) \
+            .filter(User.id == current_user_id) \
+            .filter(LearningConfig.is_applying == True) \
+            .first()
+            
+        if not active_config:
+            return jsonify({"msg": "学習設定が見つかりません"}), 400
+        
+        language_id = active_config.language.id
+        level_id = active_config.level.id
+
+        learning_topic_list = LearningTopic.query \
+            .filter_by(level_id=level_id, language_id=language_id) \
+            .order_by(LearningTopic.difficulty) \
+            .all()
+
+        # unlocked_topic = UnlockedTopic.query \
+        #     .join(LearningTopic) \
+        #     .filter(UnlockedTopic.user_id==current_user_id) \
+        #     .filter(LearningTopic.language_id==language_id) \
+        #     .filter(LearningTopic.level_id==level_id) \
+        #     .first()
+
+        progress = LearningProgress.query.filter_by(
+            user_id=current_user_id,
+            language_id=language_id,
+            level_id=level_id
+        ).first()
+
+        # レコードがなければ初期状態（難易度1）
+        current_max_difficulty = progress.current_difficulty if progress else 1
+        
+        response_learning_topics = []
+        for learning_topic in learning_topic_list:
+            response_learning_topics.append({
+                "id": learning_topic.id,
+                "topic": learning_topic.topic,
+                "difficulty": learning_topic.difficulty
+            })
+        
+        response = jsonify({"learning_topics": learning_topic_list, "current_max_difficulty": current_max_difficulty})
+
+        return response, 200
+    
+    except Exception as e:
+        db.session.rollback()
+        current_app.logger.error(e)
+        return jsonify({"msg": "エラーが発生しました"}), 500
+
+## 問題生成（長谷川）
+
+
+## 学習完了（長谷川）
 
 
 
