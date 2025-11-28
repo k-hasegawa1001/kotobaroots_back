@@ -673,44 +673,69 @@ def learning_index():
         return jsonify({"msg": "エラーが発生しました"}), 500
 
 ## 問題生成（長谷川）
-@api.route("/learning/generate-questions", methods=["GET"])
+@api.route("/learning/generate-questions", methods=["POST"])
 @jwt_required()
 def generate_questions():
-    current_app.logger.info("generate_questions-API（POST）にアクセスがありました")
+    current_app.logger.info("generate_questions-APIにアクセスがありました")
+    """
+    request.body(json)
+    {
+        "learning_topic_id": 1,  # どの単元の問題を作るか
+    }
+    """
 
     current_user_id = get_jwt_identity()
+    req_data = request.get_json()
+    target_topic_id = req_data.get("learning_topic_id")
 
     try:
-        active_config = LearningConfig.query \
-            .join(User).join(Language) \
-            .filter(User.id == current_user_id) \
-            .filter(LearningConfig.is_applying == True) \
-            .first()
+        # active_config = LearningConfig.query \
+        #     .join(User).join(Language) \
+        #     .filter(User.id == current_user_id) \
+        #     .filter(LearningConfig.is_applying == True) \
+        #     .first()
             
-        if not active_config:
-            return jsonify({"msg": "学習設定が見つかりません"}), 400
+        # if not active_config:
+        #     return jsonify({"msg": "学習設定が見つかりません"}), 400
+        
+        if not target_topic_id:
+            return jsonify({"msg": "学習単元IDが指定されていません"}), 400
+        
+        target_topic = LearningTopic.query.get(target_topic_id)
+        if not target_topic:
+            return jsonify({"msg": "指定された学習単元が見つかりません"}), 404
 
-        ## 問題生成時のプロンプトに使う
-        country = active_config.language.country
-        language_name = active_config.language.language
-        level = active_config.level.level_tag
+        ## プロンプト変数
+        country = target_topic.language.country
+        language_name = target_topic.language.language
+        level = target_topic.level.level_tag
 
         ## OpenAI APIの準備
         client = openai.OpenAI(api_key=current_app.config["OPENAI_API_KEY"])
 
-        prompt = f"" # TODO: プロンプトが作成完了次第埋め込み
+        system_prompt = f"" # TODO: プロンプトが作成完了次第埋め込み
+        user_prompt = f"" # TODO: プロンプトが作成完了次第埋め込み
 
         # APIリクエスト (gpt-4o-mini)
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "system", "content": prompt}
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
             ],
             response_format={"type": "json_object"},
             temperature=0.7,
         )
 
         ai_content = response.choices[0].message.content
+        result_json = json.loads(ai_content)
+        
+        questions = result_json.get("questions", [])
+        return jsonify({
+            "msg": "問題生成成功",
+            "topic_id": target_topic_id,
+            "questions": questions
+        }), 200
     except Exception as e:
         current_app.logger.error(e)
         return jsonify({"msg": "エラーが発生しました"}), 500
