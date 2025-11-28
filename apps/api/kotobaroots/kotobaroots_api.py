@@ -711,6 +711,9 @@ def generate_questions():
         )
 
         ai_content = response.choices[0].message.content
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify({"msg": "エラーが発生しました"}), 500
 
 ## 学習完了（長谷川）
 
