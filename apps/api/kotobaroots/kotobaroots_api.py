@@ -24,6 +24,9 @@ from apps.api.kotobaroots.utils import generate_email_change_token, verify_email
 import openai
 import json
 
+### 学習
+import random
+
 MAX_MYPHRASE_COUNT = 100
 
 
@@ -713,8 +716,60 @@ def generate_questions():
         ## OpenAI APIの準備
         client = openai.OpenAI(api_key=current_app.config["OPENAI_API_KEY"])
 
-        system_prompt = f"" # TODO: プロンプトが作成完了次第埋め込み
-        user_prompt = f"" # TODO: プロンプトが作成完了次第埋め込み
+        ## 問題形式のランダム選択と詳細指示の定義
+        # (日本語訳選択 / 穴埋め / 並び替え)
+        all_formats_rules = """
+        1. "Multiple Choice":
+           - Question: Provide a natural Japanese sentence.
+           - Options: 4 English sentences. 1 correct translation, 3 incorrect.
+           - Answer: The correct English sentence string.
+
+        2. "Fill-in-the-blank":
+           - Question: Provide an English sentence with a single blank (represented by '___').
+           - Options: 4 choices (words or phrases).
+           - Answer: The correct word/phrase string.
+
+        3. "Sentence Rearrangement":
+           - Question: Provide a natural Japanese sentence.
+           - Options: A list of shuffled English words/phrases that form the correct translation.
+           - Answer: The correct full English sentence string.
+        """
+
+        system_prompt = f"""
+        You are a native {language_name} speaker living in {country}.
+        Create {language_name} grammar questions in JSON format.
+        
+        Output Structure (JSON):
+        {{
+            "learning_topic": "...",
+            "questions": [
+                {{
+                    "question_format": "Multiple Choice" or "Fill-in-the-blank" or "Sentence Rearrangement",
+                    "question": "Question text...",
+                    "options": ["opt1", "opt2", ...],
+                    "answer": "Correct answer string",
+                    "explanation": "Explanation in Japanese (200-500 chars). Include cultural nuances of {country}."
+                }},
+                ...
+            ]
+        }}
+        """
+
+        user_prompt = f"""
+        Create a total of 9 questions based on the topic "{target_topic.topic}" (Difficulty: {target_topic.difficulty}).
+        
+        Important Instructions:
+        - Randomly mix the 3 question formats ("Multiple Choice", "Fill-in-the-blank", "Sentence Rearrangement") within the 9 questions.
+        - Do NOT simply create 3 of each. The distribution should be random.
+        - Shuffle the order of the questions.
+        
+        Format Rules:
+        {all_formats_rules}
+        
+        Explanation:
+        - Must be in Japanese.
+        - Include cultural background or usage nuances specific to {country}.
+        """
 
         # APIリクエスト (gpt-4o-mini)
         response = client.chat.completions.create(
@@ -734,8 +789,35 @@ def generate_questions():
         return jsonify({
             "msg": "問題生成成功",
             "topic_id": target_topic_id,
+            "country": country,
             "questions": questions
         }), 200
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify({"msg": "エラーが発生しました"}), 500
+
+## 学習開始（問題プリセット取得）（長谷川）
+@api.route("/learning/start", methods=["POST"])
+@jwt_required()
+def learning_start():
+    current_app.logger.info("learning_start-APIにアクセスがありました")
+    """
+    request.body(json)
+    {
+        "learning_topic_id": 1,  # どの単元の問題を作るか
+    }
+    """
+    current_user_id = get_jwt_identity()
+    req_data = request.get_json()
+    target_topic_id = req_data.get("learning_topic_id")
+
+    try:
+        if not target_topic_id:
+            return jsonify({"msg": "学習単元IDが指定されていません"}), 400
+        
+        target_topic = LearningTopic.query.get(target_topic_id)
+        if not target_topic:
+            return jsonify({"msg": "指定された学習単元が見つかりません"}), 404
     except Exception as e:
         current_app.logger.error(e)
         return jsonify({"msg": "エラーが発生しました"}), 500
