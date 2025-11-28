@@ -182,7 +182,7 @@ def myphrase_add():
             current_app.logger.error(f"マイフレーズの個数が上限に達しています\nuser_id : {current_user_id}")
             return jsonify({"msg": "マイフレーズの個数が上限に達しています"}), 500
 
-        new_phrase = TargetModel(phrase=phrase, mean=mean)
+        new_phrase = TargetModel(user_id=current_user_id,phrase=phrase, mean=mean)
 
         db.session.add(new_phrase)
         db.session.commit()
@@ -673,7 +673,44 @@ def learning_index():
         return jsonify({"msg": "エラーが発生しました"}), 500
 
 ## 問題生成（長谷川）
+@api.route("/learning/generate-questions", methods=["GET"])
+@jwt_required()
+def generate_questions():
+    current_app.logger.info("generate_questions-API（POST）にアクセスがありました")
 
+    current_user_id = get_jwt_identity()
+
+    try:
+        active_config = LearningConfig.query \
+            .join(User).join(Language) \
+            .filter(User.id == current_user_id) \
+            .filter(LearningConfig.is_applying == True) \
+            .first()
+            
+        if not active_config:
+            return jsonify({"msg": "学習設定が見つかりません"}), 400
+
+        ## 問題生成時のプロンプトに使う
+        country = active_config.language.country
+        language_name = active_config.language.language
+        level = active_config.level.level_tag
+
+        ## OpenAI APIの準備
+        client = openai.OpenAI(api_key=current_app.config["OPENAI_API_KEY"])
+
+        prompt = f"" # TODO: プロンプトが作成完了次第埋め込み
+
+        # APIリクエスト (gpt-4o-mini)
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": prompt}
+            ],
+            response_format={"type": "json_object"},
+            temperature=0.7,
+        )
+
+        ai_content = response.choices[0].message.content
 
 ## 学習完了（長谷川）
 
