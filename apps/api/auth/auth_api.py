@@ -42,7 +42,7 @@ api = Blueprint(
 #     else:
 #         return "Hello, Guest!"
 
-### ログイン（長谷川）
+### ログイン（長谷川）(http://127.0.0.1:5000/api/auth/login)
 @api.route("/login", methods=["POST"])
 def login():
     current_app.logger.info("login-APIにアクセスがありました")
@@ -235,9 +235,9 @@ def request_password_reset():
             return jsonify({"msg": "パスワードリセットメールを送信しました"}), 200
 
 
-        ## 24時間以内にもう一度パスワードリセットリクエストが来た場合の処理を後で考える
-        # レートリミット（Flask-Limiterなど）
-        
+        ## TODO: 24時間以内にもう一度パスワードリセットリクエストが来た場合の処理を後で考える
+        # レートリミット（Flask-Limiterなど）か専用のメールテンプレートを使用
+
         token = generate_reset_token(user.email)
 
         frontend_url = current_app.config.get("FRONTEND_URL", "http://127.0.0.1:5500")
