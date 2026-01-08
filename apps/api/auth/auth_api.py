@@ -45,14 +45,68 @@ api = Blueprint(
 ### ログイン（長谷川）(http://127.0.0.1:5000/api/auth/login)
 @api.route("/login", methods=["POST"])
 def login():
+    """
+    ユーザーログインAPI
+    
+    メールアドレスとパスワードで認証を行います。
+    成功するとアクセストークンを返し、リフレッシュトークンをHttpOnly Cookieに設定します。
+    ---
+    tags:
+      - Auth
+    parameters:
+      - name: body
+        in: body
+        required: true
+        description: ログイン情報
+        schema:
+          type: object
+          required:
+            - email
+            - password
+          properties:
+            email:
+              type: string
+              example: "test@example.com"
+              description: 登録済みのメールアドレス
+            password:
+              type: string
+              example: "password123"
+              description: 登録済みのパスワード
+    responses:
+      200:
+        description: 処理結果（成功 または 認証失敗）
+        schema:
+          type: object
+          properties:
+            access_token:
+              type: string
+              description: 認証用JWTアクセストークン（成功時のみ）
+            user_info:
+              type: object
+              description: ユーザー情報（成功時のみ）
+              properties:
+                username:
+                  type: string
+                email:
+                  type: string
+            msg:
+              type: string
+              description: エラーメッセージ（失敗時のみ）
+        examples:
+          application/json:
+            access_token: "eyJ0eXAiOiJKV1QiLCJhbG..."
+            user_info:
+              username: "テストユーザー"
+              email: "test@example.com"
+      500:
+        description: サーバー内部エラー
+        schema:
+          properties:
+            error:
+              type: string
+    """
     current_app.logger.info("login-APIにアクセスがありました")
-    """
-    request.body(json)
-    {
-        "email": "...",
-        "password": "..."
-    }
-    """
+    
     try:
         login_data = request.get_json()
         email = login_data.get("email")
