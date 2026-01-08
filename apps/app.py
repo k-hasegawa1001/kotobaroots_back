@@ -29,6 +29,10 @@ from dotenv import load_dotenv
 load_dotenv()
 ###
 
+### API仕様書関連
+from flasgger import Swagger
+###
+
 # ステージング環境切り替えのためファクトリ化
 def create_app():
     app = Flask(__name__)
@@ -151,6 +155,10 @@ def create_app():
     # 拡張機能の「初期化」
     # extensions.py からインポートした mail オブジェクトを、ここで app と紐付ける
     mail.init_app(app)
+    ###
+
+    ### API仕様書関連
+    swagger = Swagger(app)
     ###
     
     # authパッケージimport
