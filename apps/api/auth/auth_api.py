@@ -112,6 +112,7 @@ def login():
 #     print()
 
 ### リフレッシュトークンからアクセストークンを生成するAPI（長谷川）
+# http://127.0.0.1:5000/api/auth/token/refresh
 @api.route("/token/refresh")
 @jwt_required(refresh=True)
 def generate_access_token_from_refresh_token():
@@ -120,6 +121,7 @@ def generate_access_token_from_refresh_token():
     return jsonify(access_token=new_access_token), 200
 
 ### ログアウトAPI（長谷川）
+# http://127.0.0.1:5000/api/auth/logout
 @api.route("/logout", methods=["POST"])
 @jwt_required(refresh=True) # リフレッシュトークンでログアウトするのが一般的
 def logout():
@@ -149,6 +151,7 @@ def logout():
 
 ### 新規登録（長谷川）
 # ここで学習設定情報も作成
+# http://127.0.0.1:5000/api/auth/create-user
 @api.route("/create-user", methods=["POST"])
 def create_user():
     current_app.logger.info("create_user-APIにアクセスがありました")
@@ -214,6 +217,7 @@ def create_user():
 
 ### パスワードリセット
 ## メール送信（長谷川）
+# http://127.0.0.1:5000/api/auth/request-reset-password
 @api.route("/request-reset-password", methods=["POST"])
 def request_password_reset():
     current_app.logger.info("request_password_reset-APIにアクセスがありました")
@@ -254,6 +258,7 @@ def request_password_reset():
         return jsonify({"error": "エラーが発生しました"}), 500
 
 ## トークン検証（長谷川）
+# http://127.0.0.1:5000/api/auth/reset-password/confirm-token/<token>
 @api.route("/reset-password/confirm-token/<token>", methods=["GET"])
 def confirm_reset_password_token(token):
     """
@@ -270,6 +275,7 @@ def confirm_reset_password_token(token):
     }), 200
 
 ## パスワードリセット処理（長谷川）
+# http://127.0.0.1:5000/api/auth/reset-password
 @api.route("/reset-password", methods=["POST"])
 def reset_password():
     current_app.logger.info("reset-password-APIにアクセスがありました")

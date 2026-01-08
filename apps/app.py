@@ -95,12 +95,27 @@ def create_app():
     app.config["JSON_AS_ASCII"] = False
     app.logger.setLevel(logging.DEBUG)
 
-    frontend_url = os.environ.get("FRONTEND_URL", "http://127.0.0.1:5500")
-    app.config["FRONTEND_URL"] = frontend_url
-    # CORS(app, supports_credentials=True, origins=[frontend_url])
+    # frontend_url = os.environ.get("FRONTEND_URL", "http://127.0.0.1:5500")
+    # app.config["FRONTEND_URL"] = frontend_url
+    # # CORS(app, supports_credentials=True, origins=[frontend_url])
+    # CORS(app,
+    #     resources={r"/api/*": {
+    #         "origins": [frontend_url],
+    #         "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    #         "allow_headers": ["Content-Type", "Authorization"],
+    #         "supports_credentials": True
+    #     }}
+    # )
+    
+    # .envの設定値(5500)に加え、LiveServerが5501になった場合も許可するリストを作成
+    frontend_base = os.environ.get("FRONTEND_URL", "http://127.0.0.1:5500")
+    allowed_origins = [frontend_base, "http://127.0.0.1:5501"]
+
+    app.config["FRONTEND_URL"] = frontend_base # configにはメインの方を入れておく
+
     CORS(app,
         resources={r"/api/*": {
-            "origins": [frontend_url],
+            "origins": allowed_origins, # ← リストを渡すことで複数許可されます
             "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
             "allow_headers": ["Content-Type", "Authorization"],
             "supports_credentials": True

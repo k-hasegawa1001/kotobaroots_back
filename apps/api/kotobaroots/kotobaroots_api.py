@@ -619,6 +619,7 @@ def ai_explanation_history():
 
 ### 学習
 ## トップ（長谷川）
+# http://127.0.0.1:5000/api/kotobaroots/learning
 @api.route("/learning", methods=["GET"])
 @jwt_required()
 def learning_index():
@@ -656,7 +657,7 @@ def learning_index():
         ).first()
 
         # レコードがなければ初期状態（難易度1）
-        current_max_difficulty = progress.current_difficulty if progress else 1
+        current_max_difficulty = progress.current_difficulty if proress else 1
         
         response_learning_topics = []
         for learning_topic in learning_topic_list:
