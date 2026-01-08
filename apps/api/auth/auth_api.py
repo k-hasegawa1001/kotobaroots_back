@@ -170,6 +170,29 @@ def login():
 @api.route("/token/refresh")
 @jwt_required(refresh=True)
 def generate_access_token_from_refresh_token():
+    """
+    アクセストークン再発行API
+    
+    Cookieに保存された有効なリフレッシュトークンを使用して、
+    新しいアクセストークンを発行します。
+    ---
+    tags:
+      - Auth
+    responses:
+      200:
+        description: 成功（新しいアクセストークンの発行）
+        schema:
+          type: object
+          properties:
+            access_token:
+              type: string
+              description: 新しいアクセストークン
+              example: "eyJ0eXAiOiJKV1QiLCJhbG..."
+      401:
+        description: 認証エラー（リフレッシュトークンが無効、期限切れ、またはCookieに存在しない）
+      500:
+        description: サーバー内部エラー
+    """
     current_user_identity = get_jwt_identity()
     new_access_token = create_access_token(identity=current_user_identity)
     return jsonify(access_token=new_access_token), 200
