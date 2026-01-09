@@ -165,6 +165,23 @@ def login():
 # def verify_2fa():
 #     print()
 
+## トークン検証（長谷川）
+# http://127.0.0.1:5000/api/auth/reset-password/confirm-token/<token>
+@api.route("/reset-password/confirm-token/<token>", methods=["GET"])
+def confirm_reset_password_token(token):
+    """
+    フロントエンドが画面を表示する前に、「このトークン生きてる？」を確認するためのAPI
+    """
+    email = verify_reset_token(token)
+    
+    if not email:
+        return jsonify({"msg": "無効、または期限切れのリンクです"}), 400
+
+    # 問題なければ、変更しようとしているメアドなどを返す（画面表示用）
+    return jsonify({
+        "msg": "トークンは有効です"
+    }), 200
+
 ### リフレッシュトークンからアクセストークンを生成するAPI（長谷川）
 # http://127.0.0.1:5000/api/auth/token/refresh
 @api.route("/token/refresh")
@@ -333,23 +350,6 @@ def request_password_reset():
     except Exception as e:
         current_app.logger.error(e)
         return jsonify({"error": "エラーが発生しました"}), 500
-
-## トークン検証（長谷川）
-# http://127.0.0.1:5000/api/auth/reset-password/confirm-token/<token>
-@api.route("/reset-password/confirm-token/<token>", methods=["GET"])
-def confirm_reset_password_token(token):
-    """
-    フロントエンドが画面を表示する前に、「このトークン生きてる？」を確認するためのAPI
-    """
-    email = verify_reset_token(token)
-    
-    if not email:
-        return jsonify({"msg": "無効、または期限切れのリンクです"}), 400
-
-    # 問題なければ、変更しようとしているメアドなどを返す（画面表示用）
-    return jsonify({
-        "msg": "トークンは有効です"
-    }), 200
 
 ## パスワードリセット処理（長谷川）
 # http://127.0.0.1:5000/api/auth/reset-password
