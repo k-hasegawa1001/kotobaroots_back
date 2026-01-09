@@ -126,7 +126,7 @@ def create_app():
     # 明確に 401 エラーを返すようにします。
     @login_manager.unauthorized_handler
     def unauthorized():
-        return {"msg": "ログインが必要です"}, 400
+        return {"msg": "ログインが必要です"}, 401
     ###
     
     # authパッケージimport
