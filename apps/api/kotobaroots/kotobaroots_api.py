@@ -768,14 +768,84 @@ def learning_index():
 @api.route("/learning/generate-questions", methods=["POST"])
 @login_required
 def generate_questions():
+    """
+    問題自動生成API (OpenAI連携)
+    
+    指定された学習単元（Topic）に基づいて、OpenAI API (GPT-4o-mini) を使用して
+    文法問題（4択、穴埋め、並び替え）をランダムに9問生成して返します。
+    ---
+    tags:
+      - Learning
+    parameters:
+      - name: body
+        in: body
+        required: true
+        description: 問題作成の条件
+        schema:
+          type: object
+          required:
+            - learning_topic_id
+          properties:
+            learning_topic_id:
+              type: integer
+              example: 1
+              description: 対象の単元ID
+    responses:
+      200:
+        description: 生成成功
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "問題生成成功"
+            topic_id:
+              type: integer
+              example: 1
+            country:
+              type: string
+              example: "USA"
+              description: 言語に関連する国（解説の文化的背景などに使用）
+            questions:
+              type: array
+              description: 生成された問題リスト（全9問）
+              items:
+                type: object
+                properties:
+                  question_format:
+                    type: string
+                    example: "Multiple Choice"
+                    description: 問題形式（Multiple Choice / Fill-in-the-blank / Sentence Rearrangement）
+                  question:
+                    type: string
+                    example: "「私は猫が好きです」を英語にしなさい。"
+                  options:
+                    type: array
+                    description: 選択肢のリスト（並び替え問題の場合はシャッフルされた単語リスト）
+                    items:
+                      type: string
+                    example: ["I like cats.", "I like dogs.", "I hate cats.", "Cats like me."]
+                  answer:
+                    type: string
+                    description: 正解の文字列
+                    example: "I like cats."
+                  explanation:
+                    type: string
+                    description: 日本語による解説（文化的背景含む）
+      400:
+        description: リクエスト不正（単元ID未指定など）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+      404:
+        description: 対象の単元が見つからない
+      500:
+        description: サーバー内部エラー（OpenAI APIエラーなど）
+    """
     current_app.logger.info("generate_questions-APIにアクセスがありました")
-    """
-    request.body(json)
-    {
-        "learning_topic_id": 1,  # どの単元の問題を作るか
-    }
-    """
-
+    
     current_user_id = current_user.id
     req_data = request.get_json()
     target_topic_id = req_data.get("learning_topic_id")
