@@ -2,7 +2,10 @@ from flask import Blueprint, request, render_template, current_app, jsonify
 
 from ...email import send_email
 
-from flask_jwt_extended import jwt_required, get_jwt_identity
+# from flask_jwt_extended import jwt_required, get_jwt_identity
+### 認証
+from flask_login import login_required, current_user
+###
 
 ### DB
 from sqlalchemy import delete, desc
@@ -41,7 +44,7 @@ def index():
 
 ### 問い合わせ（長谷川）
 @api.route("/contact", methods=["POST"])
-@jwt_required()
+@login_required
 def contact():
     current_app.logger.info("contact-APIにアクセスがありました")
     """
@@ -53,7 +56,7 @@ def contact():
     try:
         contact_data = request.get_json()
         # user_email = contact_data.get("user_email")
-        current_user_id=get_jwt_identity()
+        current_user_id=current_user.id
         content = contact_data.get("content")
 
         user = User.query.filter_by(id=current_user_id).first()
@@ -81,7 +84,7 @@ def contact():
 ### マイフレーズ
 ## トップ（長谷川）
 @api.route("/myphrase", methods=["GET"])
-@jwt_required()
+@login_required
 def myphrase():
     current_app.logger.info("myphrase-APIにアクセスがありました")
     """
@@ -93,7 +96,7 @@ def myphrase():
     try:
         # req_data = request.get_json()
         # email = req_data.get("email")
-        current_user_id=get_jwt_identity()
+        current_user_id=current_user.id
 
         # user = User.query.filter_by(email=email).first()
 
@@ -142,7 +145,7 @@ def myphrase():
 
 ## マイフレーズ追加（長谷川）
 @api.route("/myphrase", methods=["POST"])
-@jwt_required()
+@login_required
 def myphrase_add():
     current_app.logger.info("myphrase_add-APIにアクセスがありました")
     """
@@ -152,7 +155,7 @@ def myphrase_add():
     }
     """
     try:
-        current_user_id = get_jwt_identity()
+        current_user_id = current_user.id
 
         req_data = request.get_json()
         phrase = req_data.get("phrase")
@@ -205,7 +208,7 @@ def myphrase_add():
 
 ## マイフレーズ削除（長谷川）
 @api.route("/myphrase", methods=["DELETE"])
-@jwt_required()
+@login_required
 def myphrase_delete():
     current_app.logger.info("myphrase_delete-APIにアクセスがありました")
     """
@@ -217,7 +220,7 @@ def myphrase_delete():
     ex)"delete_ids": [1, 5, 12, 20]
     """
     try:
-        current_user_id = get_jwt_identity()
+        current_user_id = current_user.id
         req_data = request.get_json()
         delete_ids = req_data.get("delete_ids", [])
 
@@ -268,7 +271,7 @@ def myphrase_delete():
 
 ## マイフレーズテスト（長谷川）
 @api.route("/myphrase/test", methods=["PUT"])
-@jwt_required()
+@login_required
 def test():
     current_app.logger.info("test-APIにアクセスがありました")
     """
@@ -278,7 +281,7 @@ def test():
     }
     """
     try:
-        current_user_id = get_jwt_identity()
+        current_user_id = current_user.id
         req_data = request.get_json()
         raw_num = req_data.get("myphrase_question_num")
         if raw_num is None:
@@ -341,7 +344,7 @@ def test():
 ### プロフィール
 ## トップ（秦野）
 @api.route("/profile", methods=["GET"])
-@jwt_required()
+@login_required
 def profile():
     current_app.logger.info("profile-APIにアクセスがありました")
     """
@@ -351,7 +354,7 @@ def profile():
     }
     """
     try:
-        user_id = get_jwt_identity()
+        user_id = current_user.id
         user = User.query.get(user_id)
         if not user:
             return jsonify({"error": "ユーザーが見つかりません"}), 404
@@ -370,11 +373,11 @@ def profile():
 
 ## ユーザー名変更（OK）（秦野）
 @api.route("/profile/username", methods=["PATCH"])
-@jwt_required()
+@login_required
 def update_username():
     current_app.logger.info("update_username-APIにアクセスがありました")
     try:
-        current_user_id = get_jwt_identity()
+        current_user_id = current_user.id
         data = request.get_json()
         new_username = data.get("username")
 
@@ -405,9 +408,9 @@ def update_username():
 
 ## メールアドレス変更（メール送信）（秦野）
 @api.route("/profile/email/request", methods=["POST"])
-@jwt_required()
+@login_required
 def request_change_email():
-    current_user_id = get_jwt_identity()
+    current_user_id = current_user.id
     data = request.get_json()
     new_email = data.get("new_email")
 
@@ -437,22 +440,22 @@ def request_change_email():
 
     return jsonify({"msg": "確認メールを送信しました"}), 200
 
-## トークン検証（秦野）
-@api.route("/profile/email/confirm/<token>", methods=["GET"])
-def confirm_change_email_token(token):
-    """
-    フロントエンドが画面を表示する前に、「このトークン生きてる？」を確認するためのAPI
-    """
-    payload = verify_email_change_token(token)
+# ## トークン検証（秦野）
+# @api.route("/profile/email/confirm/<token>", methods=["GET"])
+# def confirm_change_email_token(token):
+#     """
+#     フロントエンドが画面を表示する前に、「このトークン生きてる？」を確認するためのAPI
+#     """
+#     payload = verify_email_change_token(token)
     
-    if not payload:
-        return jsonify({"msg": "無効、または期限切れのリンクです"}), 400
+#     if not payload:
+#         return jsonify({"msg": "無効、または期限切れのリンクです"}), 400
 
-    # 問題なければ、変更しようとしているメアドなどを返す（画面表示用）
-    return jsonify({
-        "msg": "トークンは有効です",
-        "new_email": payload["new_email"]
-    }), 200
+#     # 問題なければ、変更しようとしているメアドなどを返す（画面表示用）
+#     return jsonify({
+#         "msg": "トークンは有効です",
+#         "new_email": payload["new_email"]
+#     }), 200
 
 ## メールアドレス変更処理（秦野）
 """
@@ -464,7 +467,7 @@ def confirm_change_email_token(token):
 ログイン画面へ誘導する処理が必要になる
 """
 @api.route("/profile/email/update", methods=["POST"])
-@jwt_required()
+@login_required
 def update_email():
     """
     request.body(json)
@@ -474,7 +477,7 @@ def update_email():
     }
     """
     try:
-        current_user_id = get_jwt_identity()
+        current_user_id = current_user.id
         data = request.get_json()
 
         token = data.get("token")
@@ -510,7 +513,7 @@ def update_email():
 ### AI解説
 ## トップ（長谷川）
 @api.route("/ai-explanation", methods=["GET", "POST"])
-@jwt_required()
+@login_required
 def ai_explanation_index():
     if request.method == "GET":
         current_app.logger.info("ai_explanation_index-API（GET）にアクセスがありました")
@@ -525,7 +528,7 @@ def ai_explanation_index():
             "input_english": "..."
         }
         """
-        current_user_id = get_jwt_identity()
+        current_user_id = current_user.id
         req_data = request.get_json()
         input_english = req_data.get("input_english")
 
@@ -593,10 +596,10 @@ def ai_explanation_index():
 
 ## 履歴（長谷川）
 @api.route("/ai-explanation/history", methods=["GET"])
-@jwt_required()
+@login_required
 def ai_explanation_history():
     current_app.logger.info("ai_explanation_history-APIにアクセスがありました")
-    current_user_id = get_jwt_identity()
+    current_user_id = current_user.id
 
     # 履歴の一覧を取得
     ai_explanation_histories = AICorrectionHistory.query \
@@ -621,10 +624,10 @@ def ai_explanation_history():
 ## トップ（長谷川）
 # http://127.0.0.1:5000/api/kotobaroots/learning
 @api.route("/learning", methods=["GET"])
-@jwt_required()
+@login_required
 def learning_index():
-    current_user_id = get_jwt_identity()
-    
+    current_user_id = current_user.id
+
     try:
         active_config = LearningConfig.query \
             .join(User).join(Language) \
@@ -657,7 +660,7 @@ def learning_index():
         ).first()
 
         # レコードがなければ初期状態（難易度1）
-        current_max_difficulty = progress.current_difficulty if proress else 1
+        current_max_difficulty = progress.current_difficulty if progress else 1
         
         response_learning_topics = []
         for learning_topic in learning_topic_list:
@@ -678,7 +681,7 @@ def learning_index():
 
 ## 問題生成（長谷川）
 @api.route("/learning/generate-questions", methods=["POST"])
-@jwt_required()
+@login_required
 def generate_questions():
     current_app.logger.info("generate_questions-APIにアクセスがありました")
     """
@@ -688,7 +691,7 @@ def generate_questions():
     }
     """
 
-    current_user_id = get_jwt_identity()
+    current_user_id = current_user.id
     req_data = request.get_json()
     target_topic_id = req_data.get("learning_topic_id")
 
@@ -799,7 +802,7 @@ def generate_questions():
 
 ## 学習開始（問題プリセット取得）（長谷川）
 @api.route("/learning/start", methods=["POST"])
-@jwt_required()
+@login_required
 def learning_start():
     current_app.logger.info("learning_start-APIにアクセスがありました")
     """
@@ -808,7 +811,7 @@ def learning_start():
         "learning_topic_id": 1,  # どの単元の問題を作るか
     }
     """
-    current_user_id = get_jwt_identity()
+    current_user_id = current_user.id
     req_data = request.get_json()
     target_topic_id = req_data.get("learning_topic_id")
 
@@ -831,7 +834,7 @@ def learning_start():
 def temp():
     current_app.logger.info("-APIにアクセスがありました")
     try:
-        current_user_id = get_jwt_identity()
+        current_user_id = current_user.id
         req_data = request.get_json()
 
         db.session.commit()
