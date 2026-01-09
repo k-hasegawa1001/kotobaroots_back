@@ -49,10 +49,10 @@ api = Blueprint(
 @api.route("/login", methods=["POST"])
 def login():
     """
-    ユーザーログインAPI
-    
+    ユーザーログインAPI (Flask-Login)
+
     メールアドレスとパスワードで認証を行います。
-    成功するとアクセストークンを返し、リフレッシュトークンをHttpOnly Cookieに設定します。
+    成功するとサーバー側でセッションを作成し、ブラウザのCookieにセッションIDを保存します。
     ---
     tags:
       - Auth
@@ -77,30 +77,32 @@ def login():
               description: 登録済みのパスワード
     responses:
       200:
-        description: 処理結果（成功 または 認証失敗）
+        description: ログイン成功（Cookieにセッション情報が設定されます）
         schema:
           type: object
           properties:
-            access_token:
+            msg:
               type: string
-              description: 認証用JWTアクセストークン（成功時のみ）
+              example: "Login successful"
+              description: 成功メッセージ
             user_info:
               type: object
-              description: ユーザー情報（成功時のみ）
+              description: ユーザー情報
               properties:
                 username:
                   type: string
+                  example: "テストユーザー"
                 email:
                   type: string
+                  example: "test@example.com"
+      401:
+        description: 認証失敗（メールアドレスまたはパスワードの誤り）
+        schema:
+          type: object
+          properties:
             msg:
               type: string
-              description: エラーメッセージ（失敗時のみ）
-        examples:
-          application/json:
-            access_token: "eyJ0eXAiOiJKV1QiLCJhbG..."
-            user_info:
-              username: "テストユーザー"
-              email: "test@example.com"
+              example: "メールアドレスかパスワードが間違っています"
       500:
         description: サーバー内部エラー
         schema:
@@ -232,9 +234,34 @@ def login():
 @login_required
 def logout():
     """
-    ログアウト処理。
-    現在のトークンの jti をDBのブロックリストに追加する。
+    ログアウトAPI (Flask-Login)
+    
+    現在ログインしているユーザーのセッションをサーバー側で破棄し、ログアウト状態にします。
+    実行にはログイン状態（有効なセッションCookie）が必要です。
+    ---
+    tags:
+      - Auth
+    responses:
+      200:
+        description: ログアウト成功
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "Successfully logged out"
+      401:
+        description: 認証エラー（ログインしていない状態でアクセスした場合）
+      500:
+        description: サーバー内部エラー
+        schema:
+          properties:
+            msg:
+              type: string
+            error:
+              type: string
     """
+    
     try:
         # # 現在のリクエストで使われているトークンの 'jti' を取得
         # jti = get_jwt()["jti"]
@@ -261,15 +288,56 @@ def logout():
 # http://127.0.0.1:5000/api/auth/create-user
 @api.route("/create-user", methods=["POST"])
 def create_user():
+    """
+    ユーザー新規登録API
+    
+    ユーザーアカウントを作成し、同時にデフォルトの学習設定（レベル1、英語など）を初期化します。
+    ---
+    tags:
+      - Auth
+    parameters:
+      - name: body
+        in: body
+        required: true
+        description: 新規登録情報
+        schema:
+          type: object
+          required:
+            - username
+            - email
+            - password
+          properties:
+            username:
+              type: string
+              example: "新規ユーザー"
+              description: 表示名
+            email:
+              type: string
+              example: "new_user@example.com"
+              description: メールアドレス
+            password:
+              type: string
+              example: "password123"
+              description: パスワード
+    responses:
+      200:
+        description: 作成成功
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "アカウント作成完了"
+      500:
+        description: サーバー内部エラー（メールアドレスの重複登録など）
+        schema:
+          type: object
+          properties:
+            error:
+              type: string
+    """
     current_app.logger.info("create_user-APIにアクセスがありました")
-    """
-    request.body(json)
-    {
-        "username": "...",
-        "email": "...",
-        "password": "..."
-    }
-    """
+    
     try:
         create_user_data = request.get_json()
         username = create_user_data.get("username")
@@ -327,13 +395,50 @@ def create_user():
 # http://127.0.0.1:5000/api/auth/request-reset-password
 @api.route("/request-reset-password", methods=["POST"])
 def request_password_reset():
+    """
+    パスワードリセットリクエストAPI
+    
+    指定されたメールアドレス宛に、パスワード再設定用のURL（トークン付き）を記載したメールを送信します。
+    
+    【セキュリティ仕様】
+    アカウント列挙攻撃を防ぐため、未登録のメールアドレスが送信された場合でも、
+    エラーにはせず「送信しました」という成功レスポンス（200 OK）を返します。
+    ---
+    tags:
+      - Auth
+    parameters:
+      - name: body
+        in: body
+        required: true
+        description: リセットしたいアカウントのメールアドレス
+        schema:
+          type: object
+          required:
+            - email
+          properties:
+            email:
+              type: string
+              example: "forgot_user@example.com"
+              description: 登録済みのメールアドレス
+    responses:
+      200:
+        description: 受付完了（メール送信成功、または未登録アドレスに対するダミー応答）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "パスワードリセットメールを送信しました"
+      500:
+        description: サーバー内部エラー（メールサーバーの不調など）
+        schema:
+          type: object
+          properties:
+            error:
+              type: string
+    """
     current_app.logger.info("request_password_reset-APIにアクセスがありました")
-    """
-    request.body(json)
-    {
-        "email": "..."
-    }
-    """
+    
     try:
         req_data = request.get_json()
         email = req_data.get("email")
@@ -368,14 +473,62 @@ def request_password_reset():
 # http://127.0.0.1:5000/api/auth/reset-password
 @api.route("/reset-password", methods=["POST"])
 def reset_password():
+    """
+    パスワードリセット実行API
+    
+    メールで受け取ったトークンと新しいパスワードを送信し、パスワードの変更を完了させます。
+    トークンの有効期限切れや改ざんが検知された場合は400エラーを返します。
+    ---
+    tags:
+      - Auth
+    parameters:
+      - name: body
+        in: body
+        required: true
+        description: リセット情報
+        schema:
+          type: object
+          required:
+            - token
+            - password
+          properties:
+            token:
+              type: string
+              description: メールに記載された認証用トークン
+              example: "IjU..."
+            password:
+              type: string
+              description: 新しいパスワード
+              example: "new_password123"
+    responses:
+      200:
+        description: 変更成功
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "パスワードが正常に変更されました"
+      400:
+        description: リクエスト不正（情報不足、またはトークンの無効・期限切れ）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "無効、または期限切れのリンクです"
+      404:
+        description: ユーザー不明（トークンは正しいが対象ユーザーがDBにいない場合など）
+      500:
+        description: サーバー内部エラー
+        schema:
+          type: object
+          properties:
+            error:
+              type: string
+    """
     current_app.logger.info("reset-password-APIにアクセスがありました")
-    """
-    request.body(json)
-    {
-        "token": "...",
-        "new_password": "..."
-    }
-    """
+    
     try:
         req_data = request.get_json()
         token = req_data.get("token")
