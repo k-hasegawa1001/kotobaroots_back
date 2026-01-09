@@ -6,7 +6,10 @@ from flask import Blueprint, request, render_template, current_app, jsonify
 # メール
 from ...email import send_email
 
-from flask_jwt_extended import create_access_token, create_refresh_token, get_jti, set_refresh_cookies, jwt_required, get_jwt_identity, get_jwt, unset_jwt_cookies
+# 認証
+from flask_login import login_user, logout_user, login_required, current_user
+
+# from flask_jwt_extended import create_access_token, create_refresh_token, get_jti, set_refresh_cookies, jwt_required, get_jwt_identity, get_jwt, unset_jwt_cookies
 
 # DB関連
 from apps.extensions import db
@@ -14,7 +17,7 @@ from apps.api.auth.models import User
 from apps.api.kotobaroots.models import LearningConfig
 
 # リフレッシュトークン無効化用
-from .models import TokenBlocklist
+# from .models import TokenBlocklist
 
 # パスワードリセット用
 from itsdangerous import URLSafeTimedSerializer # メールに添付するURLに改ざん検知のトークンを付与するためのもの
@@ -117,42 +120,50 @@ def login():
         # メールアドレスが登録されていなかった場合
         if user == None:
             response = jsonify({"msg": "メールアドレスかパスワードが間違っています"})
-            return response, 200
+            return response, 401
 
         # passwordが合っているかの確認（check_password）
         if user.check_password(password):
             # passwordが正しい場合
             # print('パスワード合ってる')
-            user_identity = user.id
-            # 1. アクセストークンを生成 (有効期限: 15分)
-            access_token = create_access_token(identity=user_identity)
+            # user_identity = user.id
+            # # 1. アクセストークンを生成 (有効期限: 15分)
+            # access_token = create_access_token(identity=user_identity)
     
-            # 2. リフレッシュトークンを生成 (有効期限: 30日)
-            refresh_token = create_refresh_token(identity=user_identity)
+            # # 2. リフレッシュトークンを生成 (有効期限: 30日)
+            # refresh_token = create_refresh_token(identity=user_identity)
 
-            """
-            response.body(json)
-            {
-                "access_token": "...",
-                "user_info": "..."
-            }
-            """
+            # """
+            # response.body(json)
+            # {
+            #     "access_token": "...",
+            #     "user_info": "..."
+            # }
+            # """
+            # response_body = {
+            #     "access_token": access_token,
+            #     "user_info":{"username": user.username, "email": email}
+            # }
+            # response = jsonify(response_body)
+
+            # # リフレッシュトークンを HttpOnly Cookie に設定
+            # # max_ageは設定（JWT_REFRESH_TOKEN_EXPIRES）から自動で読み込まれる
+            # set_refresh_cookies(response, refresh_token)
+
+            login_user(user, remember=True)
+
             response_body = {
-                "access_token": access_token,
-                "user_info":{"username": user.username, "email": email}
+              "msg": "Login successful",
+              "user_info": {"username": user.username, "email": email}
             }
             response = jsonify(response_body)
-
-            # リフレッシュトークンを HttpOnly Cookie に設定
-            # max_ageは設定（JWT_REFRESH_TOKEN_EXPIRES）から自動で読み込まれる
-            set_refresh_cookies(response, refresh_token)
 
             return response, 200
         else:
             # パスワードが間違っている場合
             # print('パスワード間違い')
             response = jsonify({"msg": "メールアドレスかパスワードが間違っています"})
-            return response, 200
+            return response, 401
         
         ############# user != nullなら、ここで2要素認証としてメールを送信する
         
@@ -165,78 +176,80 @@ def login():
 # def verify_2fa():
 #     print()
 
-## トークン検証（長谷川）
-# http://127.0.0.1:5000/api/auth/reset-password/confirm-token/<token>
-@api.route("/reset-password/confirm-token/<token>", methods=["GET"])
-def confirm_reset_password_token(token):
-    """
-    フロントエンドが画面を表示する前に、「このトークン生きてる？」を確認するためのAPI
-    """
-    email = verify_reset_token(token)
+# ## トークン検証（長谷川）
+# # http://127.0.0.1:5000/api/auth/reset-password/confirm-token/<token>
+# @api.route("/reset-password/confirm-token/<token>", methods=["GET"])
+# def confirm_reset_password_token(token):
+#     """
+#     フロントエンドが画面を表示する前に、「このトークン生きてる？」を確認するためのAPI
+#     """
+#     email = verify_reset_token(token)
     
-    if not email:
-        return jsonify({"msg": "無効、または期限切れのリンクです"}), 400
+#     if not email:
+#         return jsonify({"msg": "無効、または期限切れのリンクです"}), 400
 
-    # 問題なければ、変更しようとしているメアドなどを返す（画面表示用）
-    return jsonify({
-        "msg": "トークンは有効です"
-    }), 200
+#     # 問題なければ、変更しようとしているメアドなどを返す（画面表示用）
+#     return jsonify({
+#         "msg": "トークンは有効です"
+#     }), 200
 
-### リフレッシュトークンからアクセストークンを生成するAPI（長谷川）
-# http://127.0.0.1:5000/api/auth/token/refresh
-@api.route("/token/refresh")
-@jwt_required(refresh=True)
-def generate_access_token_from_refresh_token():
-    """
-    アクセストークン再発行API
+# ### リフレッシュトークンからアクセストークンを生成するAPI（長谷川）
+# # http://127.0.0.1:5000/api/auth/token/refresh
+# @api.route("/token/refresh")
+# @jwt_required(refresh=True)
+# def generate_access_token_from_refresh_token():
+#     """
+#     アクセストークン再発行API
     
-    Cookieに保存された有効なリフレッシュトークンを使用して、
-    新しいアクセストークンを発行します。
-    ---
-    tags:
-      - Auth
-    responses:
-      200:
-        description: 成功（新しいアクセストークンの発行）
-        schema:
-          type: object
-          properties:
-            access_token:
-              type: string
-              description: 新しいアクセストークン
-              example: "eyJ0eXAiOiJKV1QiLCJhbG..."
-      401:
-        description: 認証エラー（リフレッシュトークンが無効、期限切れ、またはCookieに存在しない）
-      500:
-        description: サーバー内部エラー
-    """
-    current_user_identity = get_jwt_identity()
-    new_access_token = create_access_token(identity=current_user_identity)
-    return jsonify(access_token=new_access_token), 200
+#     Cookieに保存された有効なリフレッシュトークンを使用して、
+#     新しいアクセストークンを発行します。
+#     ---
+#     tags:
+#       - Auth
+#     responses:
+#       200:
+#         description: 成功（新しいアクセストークンの発行）
+#         schema:
+#           type: object
+#           properties:
+#             access_token:
+#               type: string
+#               description: 新しいアクセストークン
+#               example: "eyJ0eXAiOiJKV1QiLCJhbG..."
+#       401:
+#         description: 認証エラー（リフレッシュトークンが無効、期限切れ、またはCookieに存在しない）
+#       500:
+#         description: サーバー内部エラー
+#     """
+#     current_user_identity = get_jwt_identity()
+#     new_access_token = create_access_token(identity=current_user_identity)
+#     return jsonify(access_token=new_access_token), 200
 
 ### ログアウトAPI（長谷川）
 # http://127.0.0.1:5000/api/auth/logout
 @api.route("/logout", methods=["POST"])
-@jwt_required(refresh=True) # リフレッシュトークンでログアウトするのが一般的
+# @jwt_required(refresh=True) # リフレッシュトークンでログアウトするのが一般的
+@login_required
 def logout():
     """
     ログアウト処理。
     現在のトークンの jti をDBのブロックリストに追加する。
     """
     try:
-        # 現在のリクエストで使われているトークンの 'jti' を取得
-        jti = get_jwt()["jti"]
+        # # 現在のリクエストで使われているトークンの 'jti' を取得
+        # jti = get_jwt()["jti"]
         
-        # 新しい TokenBlocklist レコードを作成
-        blocklist_entry = TokenBlocklist(jti=jti)
+        # # 新しい TokenBlocklist レコードを作成
+        # blocklist_entry = TokenBlocklist(jti=jti)
         
-        # DBセッションに追加してコミット
-        db.session.add(blocklist_entry)
-        db.session.commit()
+        # # DBセッションに追加してコミット
+        # db.session.add(blocklist_entry)
+        # db.session.commit()
+        logout_user()
         
         res_body = {"msg": "Successfully logged out"}
         response = jsonify(res_body)
-        unset_jwt_cookies(response)
+        # unset_jwt_cookies(response)
 
         return response, 200
     except Exception as e:
