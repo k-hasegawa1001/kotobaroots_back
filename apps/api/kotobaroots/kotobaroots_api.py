@@ -46,13 +46,47 @@ def index():
 @api.route("/contact", methods=["POST"])
 @login_required
 def contact():
+    """
+    お問い合わせ送信API
+    
+    ログイン中のユーザーからのお問い合わせを受け付け、データベースに保存します。
+    ---
+    tags:
+      - Contact
+    parameters:
+      - name: body
+        in: body
+        required: true
+        description: お問い合わせデータ
+        schema:
+          type: object
+          required:
+            - content
+          properties:
+            content:
+              type: string
+              example: "アプリの使い方が分かりません。教えてください。"
+              description: 問い合わせ内容
+    responses:
+      200:
+        description: 送信成功
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "お問い合わせが送信されました！"
+      401:
+        description: 認証エラー（ログインが必要）
+      500:
+        description: サーバー内部エラー
+        schema:
+          properties:
+            error:
+              type: string
+    """
     current_app.logger.info("contact-APIにアクセスがありました")
-    """
-    request.body(json)
-    {
-        "content": "..."
-    }
-    """
+    
     try:
         contact_data = request.get_json()
         # user_email = contact_data.get("user_email")
@@ -626,6 +660,57 @@ def ai_explanation_history():
 @api.route("/learning", methods=["GET"])
 @login_required
 def learning_index():
+    """
+    学習単元一覧取得API
+    
+    現在の学習設定（言語・レベル）に基づいて、学習可能な単元の一覧と、
+    ユーザーの現在の進捗（どこまで解放されているか）を返します。
+    ---
+    tags:
+      - Learning
+    responses:
+      200:
+        description: 取得成功
+        schema:
+          type: object
+          properties:
+            learning_topics:
+              type: array
+              description: 単元のリスト（難易度順）
+              items:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    example: 1
+                  topic:
+                    type: string
+                    example: "基本文法 - 現在形"
+                  difficulty:
+                    type: integer
+                    example: 1
+            current_max_difficulty:
+              type: integer
+              description: 現在解放されている難易度の上限（これ以下のdifficultyを持つ単元が選択可能）
+              example: 5
+      400:
+        description: 学習設定が見つからない（初期設定が完了していない）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "学習設定が見つかりません"
+      401:
+        description: 認証エラー
+      500:
+        description: サーバー内部エラー
+        schema:
+          properties:
+            msg:
+              type: string
+    """
+    current_app.logger.info("learning_index-APIにアクセスがありました")
     current_user_id = current_user.id
 
     try:
@@ -670,7 +755,7 @@ def learning_index():
                 "difficulty": learning_topic.difficulty
             })
         
-        response = jsonify({"learning_topics": learning_topic_list, "current_max_difficulty": current_max_difficulty})
+        response = jsonify({"learning_topics": response_learning_topics, "current_max_difficulty": current_max_difficulty})
 
         return response, 200
     
