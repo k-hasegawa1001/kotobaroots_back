@@ -959,13 +959,77 @@ def generate_questions():
 @api.route("/learning/start", methods=["POST"])
 @login_required
 def learning_start():
+    """
+    学習開始API（プリセット問題取得）
+    
+    指定された単元IDに対応する、あらかじめ用意された（プリセットの）問題リストを取得します。
+    AI生成とは異なり、即座にレスポンスが返ります。
+    ---
+    tags:
+      - Learning
+    parameters:
+      - name: body
+        in: body
+        required: true
+        description: 学習開始リクエスト
+        schema:
+          type: object
+          required:
+            - learning_topic_id
+          properties:
+            learning_topic_id:
+              type: integer
+              example: 1
+              description: 開始する単元のID
+    responses:
+      200:
+        description: 取得成功
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "プリセット問題取得成功"
+            topic_id:
+              type: integer
+              example: 1
+            questions:
+              type: array
+              description: 問題リスト（生成APIと同じフォーマット）
+              items:
+                type: object
+                properties:
+                  question_format:
+                    type: string
+                    example: "Multiple Choice"
+                  question:
+                    type: string
+                    example: "（プリセット）「ありがとう」を英語にしなさい。"
+                  options:
+                    type: array
+                    items:
+                      type: string
+                    example: ["Thank you.", "Hello.", "Goodbye.", "Sorry."]
+                  answer:
+                    type: string
+                    example: "Thank you."
+                  explanation:
+                    type: string
+                    example: "感謝を伝える基本的な表現です。"
+      400:
+        description: リクエスト不正（ID未指定など）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+      404:
+        description: 指定された単元が存在しない
+      500:
+        description: サーバー内部エラー
+    """
     current_app.logger.info("learning_start-APIにアクセスがありました")
-    """
-    request.body(json)
-    {
-        "learning_topic_id": 1,  # どの単元の問題を作るか
-    }
-    """
+    
     current_user_id = current_user.id
     req_data = request.get_json()
     target_topic_id = req_data.get("learning_topic_id")
@@ -977,6 +1041,9 @@ def learning_start():
         target_topic = LearningTopic.query.get(target_topic_id)
         if not target_topic:
             return jsonify({"msg": "指定された学習単元が見つかりません"}), 404
+        else:
+            # プリセット問題を返す（JSONファイルオープン）
+            pass
     except Exception as e:
         current_app.logger.error(e)
         return jsonify({"msg": "エラーが発生しました"}), 500
