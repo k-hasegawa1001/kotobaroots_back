@@ -548,14 +548,65 @@ def update_email():
 ## トップ（長谷川）
 @api.route("/ai-explanation", methods=["GET", "POST"])
 @login_required
-def ai_explanation_index():
+def ai_explanation():
+    """
+    AI英文解説・添削API
+    
+    ユーザーが入力した任意の英文を受け取り、AI（GPT-4o-mini）がその意味（翻訳）と、
+    文化的・歴史的背景を含めた詳しい解説を生成して返します。
+    同時に、生成結果を履歴（AICorrectionHistory）として保存します。
+    ---
+    tags:
+      - AI-Explanation
+    parameters:
+      - name: body
+        in: body
+        required: true
+        description: 解説してほしい英文
+        schema:
+          type: object
+          required:
+            - input_english
+          properties:
+            input_english:
+              type: string
+              example: ":)"
+              description: 解析対象のテキスト（英文、スラング、顔文字など）
+    responses:
+      200:
+        description: 生成成功
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "解説生成成功"
+            translation:
+              type: string
+              description: AIによる翻訳
+              example: "笑顔（スマイリーフェイス）"
+            explanation:
+              type: string
+              description: AIによる文化的・歴史的背景の解説
+              example: "欧米圏で広く使われる顔文字です。首を左に90度傾けて見ると笑顔に見えることから来ています。"
+      400:
+        description: リクエスト不正（テキスト未入力、または学習設定未完了）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+      500:
+        description: サーバー内部エラー（OpenAI APIエラーなど）
+    """
     if request.method == "GET":
-        current_app.logger.info("ai_explanation_index-API（GET）にアクセスがありました")
+        # おそらく使われることはない
+        current_app.logger.info("ai_explanation-API（GET）にアクセスがありました")
         return jsonify({"msg": "AI解説トップページ"}), 200
 
     # POSTリクエスト: ChatGPT解説生成
     if request.method == "POST":
-        current_app.logger.info("ai_explanation_index-API（POST）にアクセスがありました")
+        current_app.logger.info("ai_explanation-API（POST）にアクセスがありました")
         
         """
         {
@@ -1050,6 +1101,8 @@ def learning_start():
 
 ## 学習完了（長谷川）
 
+
+## 履歴（長谷川）
 
 
 """ 以下DB内容変更系APIのテンプレ """
