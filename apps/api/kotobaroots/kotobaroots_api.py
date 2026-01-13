@@ -683,6 +683,50 @@ def ai_explanation():
 @api.route("/ai-explanation/history", methods=["GET"])
 @login_required
 def ai_explanation_history():
+    """
+    AI解説履歴取得API
+    
+    ログインユーザーの過去のAI解説履歴を日時降順（新しい順）で全件取得します。
+    
+    【仕様上の注意】
+    データの保持期間は作成から3ヶ月間です。それ以上経過したデータは自動的に削除されるため、
+    履歴一覧には含まれません。
+    ---
+    tags:
+      - AI-Explanation
+    responses:
+      200:
+        description: 取得成功（履歴のリスト）
+        schema:
+          type: array
+          description: 履歴オブジェクトの配列
+          items:
+            type: object
+            properties:
+              id:
+                type: integer
+                example: 10
+              input_english:
+                type: string
+                example: "brb"
+                description: ユーザーが入力した英文
+              japanese_translation:
+                type: string
+                example: "すぐ戻ります (Be right back)"
+                description: AIによる翻訳結果
+              explanation:
+                type: string
+                example: "オンラインチャットで離席する際によく使われる略語です。"
+                description: AIによる解説
+              created_at:
+                type: string
+                example: "2023-10-25 14:30:00"
+                description: 作成日時 (YYYY-MM-DD HH:MM:SS形式)
+      401:
+        description: 認証エラー（ログインが必要）
+      500:
+        description: サーバー内部エラー
+    """
     current_app.logger.info("ai_explanation_history-APIにアクセスがありました")
     current_user_id = current_user.id
 
