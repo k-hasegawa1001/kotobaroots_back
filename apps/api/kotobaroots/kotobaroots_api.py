@@ -192,7 +192,7 @@ def myphrase():
         
         if not active_learning_config:
             current_app.logger.error(f"学習設定が適切に設定されていません\nuser_id : {current_user_id}")
-            ########## 現状500番で返しているが、本番時には学習設定を必ずしてもらう画面に遷移するために他のステータスコードを返す
+            ########## TODO:現状500番で返しているが、本番時には学習設定を必ずしてもらう画面に遷移するために他のステータスコードを返す
             return jsonify({"msg": "学習設定が適切に設定されていません"}), 500
 
         language = active_learning_config.language.language
@@ -229,13 +229,57 @@ def myphrase():
 @api.route("/myphrase", methods=["POST"])
 @login_required
 def myphrase_add():
+    """
+    マイフレーズ追加API
+    
+    現在選択中の学習言語の設定に基づいて、新しいフレーズと意味をデータベースに保存します。
+    ユーザーごとの保存上限数（MAX_MYPHRASE_COUNT）に達している場合はエラーを返します。
+    ---
+    tags:
+      - MyPhrase
+    parameters:
+      - name: body
+        in: body
+        required: true
+        description: 追加するフレーズ情報
+        schema:
+          type: object
+          required:
+            - phrase
+            - mean
+          properties:
+            phrase:
+              type: string
+              example: "It's a piece of cake."
+              description: 覚えたい単語やフレーズ
+            mean:
+              type: string
+              example: "朝飯前だ（とても簡単だ）"
+              description: その意味
+    responses:
+      200:
+        description: 追加成功
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "マイフレーズ追加完了"
+      400:
+        description: リクエスト不正（言語モデルエラーなど）
+      401:
+        description: 認証エラー
+      500:
+        description: サーバーエラー（学習設定未完了、または登録上限数到達）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "マイフレーズの個数が上限に達しています"
+    """
     current_app.logger.info("myphrase_add-APIにアクセスがありました")
-    """
-    {
-        "phrases": "...",
-        "mean": "..."
-    }
-    """
+    
     try:
         current_user_id = current_user.id
 
