@@ -118,7 +118,10 @@ class LearningTopic(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     level_id = db.Column(db.Integer, db.ForeignKey('levels.id'), nullable=False)
     language_id = db.Column(db.Integer, db.ForeignKey('languages.id'), nullable=False)
+    # 日本語・画面表示用
     topic = db.Column(db.String, nullable = False)
+    # 英語・ファイル連携用
+    topic_key = db.Column(db.String, nullable=False)
     difficulty = db.Column(db.Integer, nullable = False)
 
     __table_args__ = (
