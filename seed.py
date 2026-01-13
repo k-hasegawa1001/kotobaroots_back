@@ -98,7 +98,7 @@ def seed_data():
                     level_id=levels["Beginner"].id,
                     language_id=langs["English_America"].id,
                     myphrase_question_num=10,
-                    is_applying=False
+                    is_applying=True
                 )
                 db.session.add(config)
                 print("   [Config] Created default config for testuser")
