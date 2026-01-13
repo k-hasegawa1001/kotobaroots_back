@@ -450,13 +450,69 @@ def myphrase_delete():
 @api.route("/myphrase/test", methods=["PUT"])
 @login_required
 def test():
+    """
+    マイフレーズテスト作成API
+    
+    指定された出題数に基づいて、保存済みのマイフレーズからランダムに問題データを取得して返します。
+    この時、リクエストされた出題数が現在の設定値と異なる場合は、ユーザーの学習設定（デフォルト出題数）を上書き更新します。
+    ---
+    tags:
+      - MyPhrase
+    parameters:
+      - name: body
+        in: body
+        required: true
+        description: テスト設定
+        schema:
+          type: object
+          required:
+            - myphrase_question_num
+          properties:
+            myphrase_question_num:
+              type: integer
+              example: 10
+              description: 今回の出題数（UI上の選択肢は 10, 30, 50, 100 など）
+    responses:
+      200:
+        description: テストデータ生成成功
+        schema:
+          type: object
+          properties:
+            questions:
+              type: array
+              description: ランダムに選出された問題データのリスト
+              items:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    example: 101
+                  phrase:
+                    type: string
+                    example: "It's a piece of cake."
+                    description: 問題文（または解答）となるフレーズ
+                  mean:
+                    type: string
+                    example: "朝飯前だ（とても簡単だ）"
+                    description: 解答（または問題文）となる意味
+      400:
+        description: 入力エラー（数値でない、0以下など）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "問題数は1以上の整数で指定してください"
+      500:
+        description: サーバーエラー（学習設定未完了など）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+    """
     current_app.logger.info("test-APIにアクセスがありました")
-    """
-    request.body(json)
-    {
-        "myphrase_question_num": "..."
-    }
-    """
+    
     try:
         current_user_id = current_user.id
         req_data = request.get_json()
