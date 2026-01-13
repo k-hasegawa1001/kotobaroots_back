@@ -380,6 +380,48 @@ def test():
 @api.route("/profile", methods=["GET"])
 @login_required
 def profile():
+    """
+    プロフィール情報取得API
+    
+    現在ログインしているユーザーの基本情報（ユーザー名、メールアドレス、登録日時）を取得します。
+    ---
+    tags:
+      - Profile
+    responses:
+      200:
+        description: 取得成功
+        schema:
+          type: object
+          properties:
+            username:
+              type: string
+              example: "テストユーザー"
+              description: ユーザー名
+            email:
+              type: string
+              example: "test@example.com"
+              description: メールアドレス
+            created_at:
+              type: string
+              example: "2023-10-01 12:00:00"
+              description: アカウント作成日時 (YYYY-MM-DD HH:MM:SS)
+      401:
+        description: 認証エラー（ログインが必要）
+      404:
+        description: ユーザーが見つからない（削除済みなど）
+        schema:
+          type: object
+          properties:
+            error:
+              type: string
+      500:
+        description: サーバー内部エラー
+        schema:
+          type: object
+          properties:
+            error:
+              type: string
+    """
     current_app.logger.info("profile-APIにアクセスがありました")
     """
     request.body(json)
@@ -405,7 +447,7 @@ def profile():
         current_app.logger.error(e)
         return jsonify({"error": str(e)}), 500
 
-## ユーザー名変更（OK）（秦野）
+## ユーザー名変更（秦野）
 @api.route("/profile/username", methods=["PATCH"])
 @login_required
 def update_username():
