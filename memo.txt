@@ -1,0 +1,9 @@
+{
+    "question_format": "Multiple Choice" or "Fill-in-the-blank" or "Sentence Rearrangement",
+    "question": "Question text...",
+    "options": ["opt1", "opt2", ...],
+    "answer": "Correct answer string",
+    "explanation": "Explanation in Japanese (200-500 chars). Include cultural nuances of {country}."
+}
+
+AI解説履歴の保存期間は3か月
