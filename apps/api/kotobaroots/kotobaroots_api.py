@@ -632,11 +632,67 @@ def request_change_email():
 @login_required
 def update_email():
     """
-    request.body(json)
-    {
-        "token": "...",
-        "password", "..."
-    }
+    メールアドレス変更実行API
+    
+    メール内のリンクから取得したトークンと、本人確認用のパスワードを検証し、
+    問題がなければメールアドレスを正式に更新します。
+    
+    【重要：フロントエンド実装時の注意】
+    このAPIは `@login_required` により保護されています。
+    もしユーザーが「スマホで申請」し、「PC（未ログイン状態）でメールリンクを開いた」場合、
+    このAPIは `401 Unauthorized` を返します。
+    その場合、フロントエンドはユーザーをログイン画面へ誘導する必要があります。
+    ---
+    tags:
+      - Profile
+    parameters:
+      - name: body
+        in: body
+        required: true
+        description: トークンとパスワード
+        schema:
+          type: object
+          required:
+            - token
+            - password
+          properties:
+            token:
+              type: string
+              example: "Im5ld19..."
+              description: メールリンクのクエリパラメータ(?token=...)から取得した文字列
+            password:
+              type: string
+              example: "password123"
+              description: 本人確認用のログインパスワード
+    responses:
+      200:
+        description: 更新成功
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "メールアドレスを更新しました"
+      400:
+        description: 検証エラー（トークン無効・期限切れ、またはパスワード間違い）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "無効、または期限切れのトークンです"
+      401:
+        description: 認証エラー（未ログイン状態でアクセスした）
+      403:
+        description: 権限エラー（トークンの申請者と現在ログインしているユーザーが異なる）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "不正なリクエストです"
+      500:
+        description: サーバー内部エラー
     """
     try:
         current_user_id = current_user.id
