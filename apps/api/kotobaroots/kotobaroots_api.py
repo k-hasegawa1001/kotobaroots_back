@@ -336,15 +336,66 @@ def myphrase_add():
 @api.route("/myphrase", methods=["DELETE"])
 @login_required
 def myphrase_delete():
+    """
+    マイフレーズ削除API
+    
+    チェックボックス等で選択された複数のマイフレーズを一括削除します。
+    リクエストボディには削除したいフレーズのIDを配列（リスト）で指定します。
+    他人のデータを削除できないよう、所有者チェックも内部で行われます。
+    ---
+    tags:
+      - MyPhrase
+    parameters:
+      - name: body
+        in: body
+        required: true
+        description: 削除対象のIDリスト
+        schema:
+          type: object
+          required:
+            - delete_ids
+          properties:
+            delete_ids:
+              type: array
+              description: 削除したいフレーズのIDリスト
+              items:
+                type: integer
+              example: [1, 5, 12]
+    responses:
+      200:
+        description: 削除成功
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "3件削除しました"
+      400:
+        description: 入力エラー（削除対象が選択されていない、対応言語エラーなど）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "削除対象が選択されていません"
+      404:
+        description: 対象が見つからない（指定されたIDが存在しない、または他人のデータ）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "削除対象が見つかりませんでした"
+      500:
+        description: サーバーエラー（学習設定未完了など）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+    """
     current_app.logger.info("myphrase_delete-APIにアクセスがありました")
-    """
-    {
-        "phrase_ids": [id, id, ...]
-    }
-
-    idはint型
-    ex)"delete_ids": [1, 5, 12, 20]
-    """
+    
     try:
         current_user_id = current_user.id
         req_data = request.get_json()
