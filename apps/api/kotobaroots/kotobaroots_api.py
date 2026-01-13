@@ -451,6 +451,52 @@ def profile():
 @api.route("/profile/username", methods=["PATCH"])
 @login_required
 def update_username():
+    """
+    ユーザー名変更API
+    
+    ログイン中のユーザーの表示名（username）を変更します。
+    変更前と同じ名前が送信された場合は、DB更新を行わずに成功レスポンスを返します。
+    ---
+    tags:
+      - Profile
+    parameters:
+      - name: body
+        in: body
+        required: true
+        description: 新しいユーザー名
+        schema:
+          type: object
+          required:
+            - username
+          properties:
+            username:
+              type: string
+              example: "NewUserName123"
+              description: 変更後のユーザー名
+    responses:
+      200:
+        description: 更新成功（または変更なし）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "ユーザー名を更新しました"
+      400:
+        description: 入力エラー（usernameが空など）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "username が必要です"
+      401:
+        description: 認証エラー
+      404:
+        description: ユーザーが見つからない
+      500:
+        description: サーバー内部エラー
+    """
     current_app.logger.info("update_username-APIにアクセスがありました")
     try:
         current_user_id = current_user.id
@@ -460,16 +506,12 @@ def update_username():
         if not new_username:
             return jsonify({"msg": "username が必要です"}), 400
 
-        # # username 重複チェック
-        # exists = User.query.filter_by(username=new_username).first()
-        # if exists:
-        #     return jsonify({"msg": "このユーザー名は既に使用されています"}), 400
-
         user = User.query.get(current_user_id)
         if not user:
             return jsonify({"msg": "ユーザーが見つかりません"}), 404
 
         if user.username == new_username:
+            # いちいち更新しなくて良い場合
             return jsonify({"msg": "ユーザー名を更新しました"}), 200
 
         user.username = new_username
