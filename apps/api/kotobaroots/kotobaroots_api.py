@@ -528,6 +528,50 @@ def update_username():
 @api.route("/profile/email/request", methods=["POST"])
 @login_required
 def request_change_email():
+    """
+    メールアドレス変更申請API
+    
+    新しいメールアドレス宛に、有効性確認のためのトークン付きURLを記載したメールを送信します。
+    このAPIを叩いただけでは、ユーザー情報はまだ更新されません（メール内のリンクを踏んだ時点で完了となります）。
+    ---
+    tags:
+      - Profile
+    parameters:
+      - name: body
+        in: body
+        required: true
+        description: 変更したい新しいメールアドレス
+        schema:
+          type: object
+          required:
+            - new_email
+          properties:
+            new_email:
+              type: string
+              example: "new_address@example.com"
+              description: 新しいメールアドレス
+    responses:
+      200:
+        description: メール送信成功
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "確認メールを送信しました"
+      400:
+        description: 入力エラー（メールアドレス未入力、または既に使用されている）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "このメールアドレスは既に使用されています"
+      401:
+        description: 認証エラー
+      500:
+        description: サーバー内部エラー（メール送信失敗など）
+    """
     current_user_id = current_user.id
     data = request.get_json()
     new_email = data.get("new_email")
