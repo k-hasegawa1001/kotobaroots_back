@@ -120,13 +120,61 @@ def contact():
 @api.route("/myphrase", methods=["GET"])
 @login_required
 def myphrase():
-    current_app.logger.info("myphrase-APIにアクセスがありました")
     """
-    request.body(json)
-    {
+    マイフレーズ一覧取得API
     
-    }
+    現在選択中の学習言語（英語など）に基づいて、ユーザーが保存したフレーズ一覧を取得します。
+    あわせて、テスト実行時の「出題数設定」も返却します。
+    ---
+    tags:
+      - MyPhrase
+    responses:
+      200:
+        description: 取得成功
+        schema:
+          type: object
+          properties:
+            myphrases:
+              type: array
+              description: 保存されたフレーズのリスト
+              items:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    example: 101
+                  phrase:
+                    type: string
+                    example: "It's a piece of cake."
+                    description: フレーズや単語
+                  mean:
+                    type: string
+                    example: "朝飯前だ（とても簡単だ）"
+                    description: 意味
+            question_num:
+              type: integer
+              example: 10
+              description: ユーザーが設定している「1回のテストでの出題数」
+      400:
+        description: 言語モデルエラー（対応していない言語が設定されている場合など）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+      401:
+        description: 認証エラー
+      500:
+        description: サーバー内部エラー（または学習設定が未完了の状態）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "学習設定が適切に設定されていません"
     """
+    current_app.logger.info("myphrase-APIにアクセスがありました")
+
     try:
         # req_data = request.get_json()
         # email = req_data.get("email")
