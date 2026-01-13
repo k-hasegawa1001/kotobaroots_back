@@ -29,6 +29,7 @@ import json
 
 ### 学習
 import random
+from .utils import load_preset_questions
 
 MAX_MYPHRASE_COUNT = 100
 
@@ -1439,93 +1440,80 @@ def generate_questions():
 def learning_start():
     """
     学習開始API（プリセット問題取得）
-    
-    指定された単元IDに対応する、あらかじめ用意された（プリセットの）問題リストを取得します。
-    AI生成とは異なり、即座にレスポンスが返ります。
-    ---
-    tags:
-      - Learning
-    parameters:
-      - name: body
-        in: body
-        required: true
-        description: 学習開始リクエスト
-        schema:
-          type: object
-          required:
-            - learning_topic_id
-          properties:
-            learning_topic_id:
-              type: integer
-              example: 1
-              description: 開始する単元のID
-    responses:
-      200:
-        description: 取得成功
-        schema:
-          type: object
-          properties:
-            msg:
-              type: string
-              example: "プリセット問題取得成功"
-            topic_id:
-              type: integer
-              example: 1
-            questions:
-              type: array
-              description: 問題リスト（生成APIと同じフォーマット）
-              items:
-                type: object
-                properties:
-                  question_format:
-                    type: string
-                    example: "Multiple Choice"
-                  question:
-                    type: string
-                    example: "（プリセット）「ありがとう」を英語にしなさい。"
-                  options:
-                    type: array
-                    items:
-                      type: string
-                    example: ["Thank you.", "Hello.", "Goodbye.", "Sorry."]
-                  answer:
-                    type: string
-                    example: "Thank you."
-                  explanation:
-                    type: string
-                    example: "感謝を伝える基本的な表現です。"
-      400:
-        description: リクエスト不正（ID未指定など）
-        schema:
-          type: object
-          properties:
-            msg:
-              type: string
-      404:
-        description: 指定された単元が存在しない
-      500:
-        description: サーバー内部エラー
     """
     current_app.logger.info("learning_start-APIにアクセスがありました")
     
-    current_user_id = current_user.id
+    # リクエストからデータを取得
     req_data = request.get_json()
     target_topic_id = req_data.get("learning_topic_id")
 
+    if not target_topic_id:
+        return jsonify({"msg": "学習単元IDが指定されていません"}), 400
+
     try:
-        if not target_topic_id:
-            return jsonify({"msg": "学習単元IDが指定されていません"}), 400
-        
+        # DBから学習単元情報を取得（リレーション先の Language, Level も必要）
         target_topic = LearningTopic.query.get(target_topic_id)
+        
         if not target_topic:
             return jsonify({"msg": "指定された学習単元が見つかりません"}), 404
-        else:
-            # プリセット問題を返す（JSONファイルオープン）
-            pass
-    except Exception as e:
-        current_app.logger.error(e)
-        return jsonify({"msg": "エラーが発生しました"}), 500
 
+        # ---------------------------------------------------------
+        # パス情報の構築 (DBの値 → フォルダ名への変換)
+        # ---------------------------------------------------------
+        
+        # 1. Language: "English" -> "english"
+        if not target_topic.language:
+             return jsonify({"msg": "言語設定エラー: この単元には言語が紐付いていません"}), 500
+        lang_folder = target_topic.language.language.lower()
+
+        # 2. Country: "America" -> "america"
+        # countryがNULLの場合は適宜ハンドリングが必要ですが、
+        # ディレクトリ構造上必須であれば以下のように取得
+        country_folder = target_topic.language.country.lower() if target_topic.language.country else "default"
+
+        # 3. Level: "Beginner" -> "beginner"
+        # Levelモデルの level_tag カラムを使用
+        level_folder = target_topic.level.level_tag.lower()
+
+        # 4. Filename: "subjunctive_mood"
+        # ここでは topic カラムの値をそのままファイル名として使用します
+        # ※ もしDBの topic が日本語（例："仮定法"）の場合は、
+        #    LearningTopicモデルに `file_key` カラムを追加することを推奨します。
+        topic_filename = target_topic.topic_key
+
+        # ---------------------------------------------------------
+        # 問題データの取得
+        # ---------------------------------------------------------
+        questions_data = load_preset_questions(
+            language=lang_folder,
+            country=country_folder,
+            level=level_folder,
+            topic_filename=topic_filename,
+            limit=10  # 1回あたりの出題数
+        )
+
+        if questions_data is None:
+            return jsonify({"msg": "教材データの取得に失敗しました（ファイルが見つかりません）"}), 500
+
+        if len(questions_data) == 0:
+            return jsonify({"msg": "問題データが空です"}), 500
+
+        # ---------------------------------------------------------
+        # レスポンス返却
+        # ---------------------------------------------------------
+        return jsonify({
+            "msg": "プリセット問題取得成功",
+            "topic_id": target_topic.id,
+            "topic_title": target_topic.topic, # フロント表示用のタイトル
+            "questions": questions_data
+        }), 200
+
+    except Exception as e:
+        current_app.logger.error(f"learning_start API Error: {e}")
+        import traceback
+        current_app.logger.error(traceback.format_exc())
+        return jsonify({"msg": "サーバー内部エラーが発生しました"}), 500
+    
 ## 学習完了（長谷川）
 
 

@@ -11,6 +11,12 @@ from apps.api.kotobaroots.models import (
     MyphraseFrench
 )
 
+### 学習機能
+import os
+import json
+import random
+###
+
 # 2. 言語名（小文字）とモデルクラスを紐付ける辞書を作成
 # キーは Languageテーブルの language カラムの値（の小文字版）と一致させます
 MYPHRASE_MODEL_MAP = {
@@ -56,3 +62,67 @@ def verify_email_change_token(token, expiration=3600):
     except (SignatureExpired, BadSignature):
         # 有効期限切れ、または改ざんされている場合
         return None
+    
+
+### 学習機能
+# 問題プリセット取得
+def load_preset_questions(language, country, level, topic_filename, limit=10):
+    """
+    指定されたJSONから問題を読み込み、ランダムに抽出して返す
+    
+    Args:
+        language (str): 言語フォルダ名 (例: 'english')
+        country (str): 国フォルダ名 (例: 'america')
+        level (str): レベルフォルダ名 (例: 'beginner')
+        topic_filename (str): ファイル名 (例: 'subjunctive_mood')
+        limit (int): 出題数 (デフォルト10)
+    
+    Returns:
+        list: ランダムに抽出された問題リスト (失敗時は None)
+    """
+    try:
+        # ファイル名に拡張子がない場合は付与
+        if not topic_filename.endswith('.json'):
+            topic_filename = f"{topic_filename}.json"
+
+        # パスの構築: .../questions/{language}/{country}/{level}/{filename}
+        # 例: apps/api/kotobaroots/questions/english/america/beginner/subjunctive_mood.json
+        base_path = os.path.join(current_app.root_path, 'api', 'kotobaroots', 'questions')
+        file_path = os.path.join(base_path, language, country, level, topic_filename)
+
+        # デバッグ用ログ
+        current_app.logger.debug(f"Loading questions from: {file_path}")
+
+        if not os.path.exists(file_path):
+            current_app.logger.warning(f"File not found: {file_path}")
+            return None
+
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            
+        # JSON構造の正規化
+        # 提供されたフォーマット通り { "questions": [...] } の形を想定
+        questions_list = []
+        if isinstance(data, dict) and "questions" in data:
+            questions_list = data["questions"]
+        elif isinstance(data, list):
+            questions_list = data
+        else:
+            current_app.logger.warning(f"Invalid JSON format in {topic_filename}")
+            return []
+
+        # 問題数が足りない場合のハンドリング
+        sample_size = min(len(questions_list), limit)
+        
+        # 重複なしランダム抽出
+        selected_questions = random.sample(questions_list, sample_size)
+        
+        return selected_questions
+
+    except json.JSONDecodeError as e:
+        current_app.logger.error(f"JSON Decode Error in {file_path}: {e}")
+        return None
+    except Exception as e:
+        current_app.logger.error(f"Error loading questions: {e}")
+        return None
+###
