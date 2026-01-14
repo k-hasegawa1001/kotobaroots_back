@@ -24,7 +24,11 @@ class User(UserMixin,db.Model):
     last_password_change = db.Column(db.DateTime, nullable=True)
 
     contacts = db.relationship("Contact", back_populates="user")
-    learning_configs = db.relationship("LearningConfig", back_populates="user")
+    # learning_configs = db.relationship("LearningConfig", back_populates="user")
+    # 【変更点】
+    # 1. 変数名を learning_configs (複数形) から learning_config (単数形) に変更推奨
+    # 2. uselist=False を追加（1対1リレーションの定義）
+    learning_config = db.relationship("LearningConfig", back_populates="user", uselist=False)
     myphrases_english = db.relationship("MyphraseEnglish", back_populates="user")
     myphrases_chinese = db.relationship("MyphraseChinese", back_populates="user")
     myphrases_korean = db.relationship("MyphraseKorean", back_populates="user")

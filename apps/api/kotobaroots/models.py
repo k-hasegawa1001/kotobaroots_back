@@ -37,18 +37,34 @@ class Language(db.Model):
     learning_topics = db.relationship("LearningTopic", back_populates="language")
     learning_progresses = db.relationship("LearningProgress", back_populates="language")
 
+# ### LearningConfig（学習設定）
+# class LearningConfig(db.Model):
+#     __tablename__ = "learning_configs"
+
+#     id = db.Column(db.Integer, primary_key=True)
+#     user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+#     level_id = db.Column(db.Integer, db.ForeignKey('levels.id'), nullable=False)
+#     language_id = db.Column(db.Integer, db.ForeignKey('languages.id'), nullable=False)
+#     myphrase_question_num = db.Column(db.Integer, default=100, nullable=False)
+#     is_applying = db.Column(db.Boolean, nullable=False, default=False)
+
+#     user = db.relationship("User", back_populates="learning_configs")
 ### LearningConfig（学習設定）
 class LearningConfig(db.Model):
     __tablename__ = "learning_configs"
 
     id = db.Column(db.Integer, primary_key=True)
-    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    # unique=True を追加し、物理的に1ユーザー1レコードしか作れないようにする
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False, unique=True)
     level_id = db.Column(db.Integer, db.ForeignKey('levels.id'), nullable=False)
     language_id = db.Column(db.Integer, db.ForeignKey('languages.id'), nullable=False)
     myphrase_question_num = db.Column(db.Integer, default=100, nullable=False)
-    is_applying = db.Column(db.Boolean, nullable=False, default=False)
+    
+    # is_applying カラムは削除
+    # is_applying = db.Column(db.Boolean, nullable=False, default=False)
 
-    user = db.relationship("User", back_populates="learning_configs")
+    # back_populatesの相手の名前を "learning_config" (単数形) に変更
+    user = db.relationship("User", back_populates="learning_config")
 
 ### myphrase_○○（マイフレーズ帳）
 # 英語

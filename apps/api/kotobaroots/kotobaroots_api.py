@@ -184,12 +184,7 @@ def myphrase():
         # user = User.query.filter_by(email=email).first()
 
         # 現在適用中のlearning_configを取得
-        active_learning_config = LearningConfig.query \
-            .join(User) \
-            .join(Language) \
-            .filter(User.id == current_user_id) \
-            .filter(LearningConfig.is_applying == True) \
-            .first()
+        active_learning_config = LearningConfig.query.filter_by(user_id=current_user_id).first()
         
         if not active_learning_config:
             current_app.logger.error(f"学習設定が適切に設定されていません\nuser_id : {current_user_id}")
@@ -288,12 +283,7 @@ def myphrase_add():
         phrase = req_data.get("phrase")
         mean = req_data.get("mean")
 
-        active_learning_config = LearningConfig.query \
-            .join(User) \
-            .join(Language) \
-            .filter(User.id == current_user_id) \
-            .filter(LearningConfig.is_applying == True) \
-            .first()
+        active_learning_config = LearningConfig.query.filter_by(user_id=current_user_id).first()
         
         if not active_learning_config:
             current_app.logger.error(f"学習設定が適切に設定されていません\nuser_id : {current_user_id}")
@@ -405,12 +395,7 @@ def myphrase_delete():
         if not delete_ids:
             return jsonify({"msg": "削除対象が選択されていません"}), 400
         
-        active_learning_config = LearningConfig.query \
-            .join(User) \
-            .join(Language) \
-            .filter(User.id == current_user_id) \
-            .filter(LearningConfig.is_applying == True) \
-            .first()
+        active_learning_config = LearningConfig.query.filter_by(user_id=current_user_id).first()
 
         if not active_learning_config:
             current_app.logger.error(f"学習設定が適切に設定されていません\nuser_id : {current_user_id}")
@@ -528,12 +513,7 @@ def test():
         except (ValueError, TypeError):
             return jsonify({"msg": "問題数は1以上の整数で指定してください"}), 400
 
-        active_learning_config = LearningConfig.query \
-            .join(User) \
-            .join(Language) \
-            .filter(User.id == current_user_id) \
-            .filter(LearningConfig.is_applying == True) \
-            .first()
+        active_learning_config = LearningConfig.query.filter_by(user_id=current_user_id).first()
 
         if not active_learning_config:
             current_app.logger.error(f"学習設定が適切に設定されていません\nuser_id : {current_user_id}")
@@ -1005,11 +985,7 @@ def ai_explanation():
             if not input_english:
                     return jsonify({"msg": "テキストが入力されていません"}), 400
             
-            active_config = LearningConfig.query \
-                    .join(User).join(Language) \
-                    .filter(User.id == current_user_id) \
-                    .filter(LearningConfig.is_applying == True) \
-                    .first()
+            active_config = LearningConfig.query.filter_by(user_id=current_user_id).first()
             
             if not active_config:
                     return jsonify({"msg": "学習設定が見つかりません"}), 400
@@ -1193,11 +1169,7 @@ def learning_index():
     current_user_id = current_user.id
 
     try:
-        active_config = LearningConfig.query \
-            .join(User).join(Language) \
-            .filter(User.id == current_user_id) \
-            .filter(LearningConfig.is_applying == True) \
-            .first()
+        active_config = LearningConfig.query.filter_by(user_id=current_user_id).first()
             
         if not active_config:
             return jsonify({"msg": "学習設定が見つかりません"}), 400
@@ -1606,7 +1578,117 @@ def learning_start():
 
 
 ## 学習設定変更（長谷川）
+@api.route("/learning/config", methods=["PUT"])
+@login_required
+def update_learning_config():
+    """
+    学習設定変更API
+    
+    ユーザーの学習設定（レベルや学習言語）を変更します。
+    変更後の設定に対応する進捗データ（セーブデータ）が存在しない場合は、自動的に新規作成（初期化）します。
+    ---
+    tags:
+      - Learning
+    parameters:
+      - name: body
+        in: body
+        required: true
+        description: 変更後の設定ID
+        schema:
+          type: object
+          properties:
+            level_id:
+              type: integer
+              example: 2
+              description: 変更したいレベルID (必須)
+            language_id:
+              type: integer
+              example: 1
+              description: 変更したい言語ID (任意。送信されない場合は現在の言語を維持)
+    responses:
+      200:
+        description: 設定変更成功
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "学習設定を変更しました"
+      400:
+        description: 入力エラー（無効なIDなど）
+      404:
+        description: 指定されたレベルや言語の教材が存在しない
+      500:
+        description: サーバー内部エラー
+    """
+    current_app.logger.info("update_learning_config-APIにアクセスがありました")
+    
+    current_user_id = current_user.id
+    req_data = request.get_json()
+    
+    # 変更したいIDを取得
+    new_level_id = req_data.get("level_id")
+    new_language_id = req_data.get("language_id")
 
+    if new_level_id is None:
+        return jsonify({"msg": "レベルIDが指定されていません"}), 400
+
+    try:
+        # 1. 現在適用中の設定を取得
+        active_learning_config = LearningConfig.query.filter_by(user_id=current_user_id).first()
+        
+        if not active_learning_config:
+            # 万が一設定がない場合は作成するロジックを入れても良いが、基本はエラー
+            return jsonify({"msg": "現在の学習設定が見つかりません"}), 500
+
+        # 2. 更新後のIDを確定させる
+        # language_idが送られてこなかった場合は、元のまま維持する
+        target_language_id = new_language_id if new_language_id is not None else active_learning_config.language_id
+        target_level_id = new_level_id
+
+        # 3. 【安全性チェック】その言語・レベルの教材(Topic)がそもそも存在するか確認
+        # 例えば「フランス語・レベル5」を選んだけど、教材がまだ登録されていない場合などを防ぐ
+        topic_exists = LearningTopic.query.filter_by(
+            language_id=target_language_id,
+            level_id=target_level_id
+        ).first()
+
+        if not topic_exists:
+            return jsonify({"msg": "選択された設定に対応する学習教材がまだありません"}), 404
+
+        # 4. 設定の更新
+        active_learning_config.level_id = target_level_id
+        active_learning_config.language_id = target_language_id
+
+        # 5. 進捗データ(LearningProgress)の確認と作成
+        # 「その設定で遊んだことがあるか？」を確認
+        progress = LearningProgress.query.filter_by(
+            user_id=current_user_id,
+            language_id=target_language_id,
+            level_id=target_level_id
+        ).first()
+
+        if not progress:
+            # 遊んだことがなければ、セーブデータを新規作成（難易度1から）
+            new_progress = LearningProgress(
+                user_id=current_user_id,
+                language_id=target_language_id,
+                level_id=target_level_id,
+                current_difficulty=1
+            )
+            db.session.add(new_progress)
+            current_app.logger.info(f"新しい進捗データを作成しました: user={current_user_id}, lang={target_language_id}, level={target_level_id}")
+        else:
+            current_app.logger.info(f"既存の進捗データを使用します: difficulty={progress.current_difficulty}")
+
+        db.session.commit()
+
+        return jsonify({"msg": "学習設定を変更しました"}), 200
+
+    except Exception as e:
+        db.session.rollback()
+        current_app.logger.error(e)
+        return jsonify({"msg": "設定変更中にエラーが発生しました", "error": str(e)}), 500
 
 
 """ 以下DB内容変更系APIのテンプレ """

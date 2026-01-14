@@ -360,17 +360,19 @@ def create_user():
         level_id=1（初級）
         language_id=1（英語、アメリカ）
         myphrase_question_num=100（全問）
-        is_applying=True（新規アカウント登録時のみ）
+        (is_applyingは廃止のため設定不要)
         """
-        # new_created_user = User.query.filter_by(email=email).first()
         new_config = LearningConfig(
-            # user_id=new_user.id,
             level_id=1,
             language_id=1,
-            is_applying=True
+            myphrase_question_num=100
         )
 
-        new_user.learning_configs.append(new_config)
+        # new_user.learning_configs.append(new_config)
+        # 【変更点】
+        # 1対1 (uselist=False) にしたため、append() ではなく直接代入します
+        # 変数名も models.py に合わせて learning_config (単数) にしています
+        new_user.learning_config = new_config
 
         db.session.add(new_user)
 
