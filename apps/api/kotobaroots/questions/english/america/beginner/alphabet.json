@@ -34,7 +34,7 @@
       "type": "sort",
       "question": "アルファベット順に並べ替えてください。",
       "choices": ["B", "A", "C"],
-      "answer": "A, B, C",
+      "answer": "ABC",
       "explanation": "基本のABC順です。\n\n【実用】辞書や電話帳、ファイル整理など、世界中で「アルファベット順（Alphabetical order）」は整理整頓の基本ルールとして使われています。"
     },
     {
@@ -62,7 +62,7 @@
       "type": "sort",
       "question": "「犬」を英語で綴ってください。",
       "choices": ["O", "G", "D"],
-      "answer": "D, O, G",
+      "answer": "DOG",
       "explanation": "DOG（ドッグ）です。\n\n【実用】海外ではペットの名前を呼ぶだけでなく、迷子札を作る際などにスペルを伝える機会があります。"
     },
     {
@@ -83,7 +83,7 @@
       "type": "sort",
       "question": "「猫」を英語で綴ってください。",
       "choices": ["A", "T", "C"],
-      "answer": "C, A, T",
+      "answer": "CAT",
       "explanation": "CAT（キャット）です。\n\n【発音】Cは「カ行」の音（Cat）と「サ行」の音（City）の2つの音を持つ便利な文字です。"
     },
     {
@@ -111,7 +111,7 @@
       "type": "sort",
       "question": "キーボードの左上の文字の並び順（一般的な配列）は？",
       "choices": ["W", "Q", "E"],
-      "answer": "Q, W, E",
+      "answer": "QWE",
       "explanation": "一般的なキーボードは「QWERTY（クワーティ）配列」と呼ばれます。\n\n【歴史】タイプライター時代、早く打ちすぎてハンマーが絡まるのを防ぐために、あえてよく使う文字をバラバラに配置したという説が有名です。"
     },
     {
@@ -132,7 +132,7 @@
       "type": "sort",
       "question": "「バス」を英語で綴ってください。",
       "choices": ["U", "S", "B"],
-      "answer": "B, U, S",
+      "answer": "BUS",
       "explanation": "BUSです。\n\n【実用】海外旅行中、最も探すことの多い看板の一つです。"
     },
     {
@@ -160,7 +160,7 @@
       "type": "sort",
       "question": "アルファベットの最後の3文字を並べてください。",
       "choices": ["Y", "X", "Z"],
-      "answer": "X, Y, Z",
+      "answer": "XYZ",
       "explanation": "最後はXYZです。\n\n【歴史】実はローマ字の歴史において、Zは一度不要だとして削除され、後にギリシャ語を取り入れるために復活し、一番最後に配置されたという経緯があります。"
     },
     {
@@ -181,7 +181,7 @@
       "type": "sort",
       "question": "「箱」を英語で綴ってください。",
       "choices": ["O", "B", "X"],
-      "answer": "B, O, X",
+      "answer": "BOX",
       "explanation": "BOXです。\n\n【発音】Xは「クス」という2つの音が混ざった音を出します。"
     },
     {
@@ -202,7 +202,7 @@
       "type": "sort",
       "question": "「ペン」を英語で綴ってください。",
       "choices": ["N", "P", "E"],
-      "answer": "P, E, N",
+      "answer": "PEN",
       "explanation": "PENです。\n\n【実用】入国審査の書類を書く際など、May I have a pen?（ペンを貸してもらえますか？）は役立つフレーズです。"
     },
     {
@@ -223,7 +223,7 @@
       "type": "sort",
       "question": "「カップ」を英語で綴ってください。",
       "choices": ["U", "P", "C"],
-      "answer": "C, U, P",
+      "answer": "CUP",
       "explanation": "CUPです。\n\n【文化】カフェ文化の盛んな欧米では、サイズ表記などで目にします。"
     },
     {
@@ -244,7 +244,7 @@
       "type": "sort",
       "question": "「地図」を英語で綴ってください。",
       "choices": ["A", "M", "P"],
-      "answer": "M, A, P",
+      "answer": "MAP",
       "explanation": "MAPです。\n\n【実用】スマホのGoogle Mapsなど、現代生活に欠かせない単語です。"
     },
     {
@@ -265,7 +265,7 @@
       "type": "sort",
       "question": "「男の子」を英語で綴ってください。",
       "choices": ["Y", "B", "O"],
-      "answer": "B, O, Y",
+      "answer": "BOY",
       "explanation": "BOYです。\n\n【実用】トイレの表記などでも使われます（MenやGentlemenの場合もあります）。"
     },
     {
@@ -286,7 +286,7 @@
       "type": "sort",
       "question": "「女の子」を英語で綴ってください。",
       "choices": ["R", "L", "I", "G"],
-      "answer": "G, I, R, L",
+      "answer": "GIRL",
       "explanation": "GIRLです。\n\n【発音】IRの発音は、舌を巻くRの音が強く出るため、日本人には発音が少し難しい単語の一つです。"
     },
     {
@@ -307,7 +307,7 @@
       "type": "sort",
       "question": "「本」を英語で綴ってください。",
       "choices": ["O", "K", "B", "O"],
-      "answer": "B, O, O, K",
+      "answer": "BOOK",
       "explanation": "BOOKです。\n\n【実用】Facebook（顔名簿）やNotebook（ノート）など、多くの複合語に使われます。"
     },
     {
@@ -328,7 +328,7 @@
       "type": "sort",
       "question": "「太陽」を英語で綴ってください。",
       "choices": ["N", "U", "S"],
-      "answer": "S, U, N",
+      "answer": "SUN",
       "explanation": "SUNです。\n\n【文化】Sunday（日曜日）は太陽の日という意味です。"
     },
     {
@@ -349,7 +349,7 @@
       "type": "sort",
       "question": "「月」を英語で綴ってください。",
       "choices": ["N", "O", "O", "M"],
-      "answer": "M, O, O, N",
+      "answer": "MOON",
       "explanation": "MOONです。\n\n【文化】Monday（月曜日）は月の日という意味です。"
     },
     {
@@ -370,7 +370,7 @@
       "type": "sort",
       "question": "「星」を英語で綴ってください。",
       "choices": ["R", "A", "T", "S"],
-      "answer": "S, T, A, R",
+      "answer": "STAR",
       "explanation": "STARです。\n\n【文化】有名人や主役のことをスターと呼ぶのは日本と同じです。"
     },
     {
@@ -391,7 +391,7 @@
       "type": "sort",
       "question": "「愛」を英語で綴ってください。",
       "choices": ["V", "O", "L", "E"],
-      "answer": "L, O, V, E",
+      "answer": "LOVE",
       "explanation": "LOVEです。\n\n【文化】手紙の結びに「With Love」と添えるなど、非常に広く使われる言葉です。"
     },
     {
@@ -412,7 +412,7 @@
       "type": "sort",
       "question": "「魚」を英語で綴ってください。",
       "choices": ["H", "S", "I", "F"],
-      "answer": "F, I, S, H",
+      "answer": "FISH",
       "explanation": "FISHです。\n\n【実用】Fish & Chipsはイギリスの代表的な料理です。"
     },
     {
@@ -433,7 +433,7 @@
       "type": "sort",
       "question": "「鳥」を英語で綴ってください。",
       "choices": ["R", "D", "I", "B"],
-      "answer": "B, I, R, D",
+      "answer": "BIRD",
       "explanation": "BIRDです。\n\n【文化】Twitter（現X）のロゴが鳥だったのは、tweet（さえずる）という意味から来ています。"
     },
     {
@@ -454,7 +454,7 @@
       "type": "sort",
       "question": "「手」を英語で綴ってください。",
       "choices": ["N", "A", "H", "D"],
-      "answer": "H, A, N, D",
+      "answer": "HAND",
       "explanation": "HANDです。\n\n【文化】Shake hands（握手する）は欧米の基本的な挨拶です。"
     },
     {
@@ -475,7 +475,7 @@
       "type": "sort",
       "question": "「王様」を英語で綴ってください。",
       "choices": ["G", "I", "N", "K"],
-      "answer": "K, I, N, G",
+      "answer": "KING",
       "explanation": "KINGです。\n\n【文化】トランプのKはKingを表しています。"
     },
     {
@@ -496,7 +496,7 @@
       "type": "sort",
       "question": "「女王」を英語で綴ってください。",
       "choices": ["E", "E", "Q", "U", "N"],
-      "answer": "Q, U, E, E, N",
+      "answer": "QUEEN",
       "explanation": "QUEENです。\n\n【文化】イギリスのエリザベス女王など、英語圏の歴史で重要な役割を果たしています。トランプのQです。"
     },
     {
@@ -517,7 +517,7 @@
       "type": "sort",
       "question": "「名前」を英語で綴ってください。",
       "choices": ["M", "A", "E", "N"],
-      "answer": "N, A, M, E",
+      "answer": "NAME",
       "explanation": "NAMEです。\n\n【実用】What is your name? は英会話の最初の一歩です。"
     },
     {
@@ -538,7 +538,7 @@
       "type": "sort",
       "question": "「時間」を英語で綴ってください。",
       "choices": ["M", "I", "T", "E"],
-      "answer": "T, I, M, E",
+      "answer": "TIME",
       "explanation": "TIMEです。\n\n【諺】Time is money（時は金なり）は有名な英語の諺です。"
     },
     {
@@ -559,7 +559,7 @@
       "type": "sort",
       "question": "「年」を英語で綴ってください。",
       "choices": ["R", "A", "Y", "E"],
-      "answer": "Y, E, A, R",
+      "answer": "YEAR",
       "explanation": "YEARです。\n\n【文化】Happy New Year（明けましておめでとう）で馴染み深い単語です。"
     },
     {
@@ -580,7 +580,7 @@
       "type": "sort",
       "question": "「道」を英語で綴ってください。",
       "choices": ["A", "Y", "W"],
-      "answer": "W, A, Y",
+      "answer": "WAY",
       "explanation": "WAYです。\n\n【文化】No way!（まさか！/ありえない！）というフレーズは日常会話で頻繁に使われます。"
     },
     {
@@ -601,7 +601,7 @@
       "type": "sort",
       "question": "「日（ひ）」を英語で綴ってください。",
       "choices": ["A", "D", "Y"],
-      "answer": "D, A, Y",
+      "answer": "DAY",
       "explanation": "DAYです。\n\n【実用】Have a nice day!（よい一日を！）は別れ際の定番の挨拶です。"
     },
     {
@@ -622,7 +622,7 @@
       "type": "sort",
       "question": "「仕事」を英語で綴ってください。",
       "choices": ["O", "J", "B"],
-      "answer": "J, O, B",
+      "answer": "JOB",
       "explanation": "JOBです。\n\n【文化】スティーブ・ジョブズ（Jobs）の名前にも入っています。"
     },
     {
@@ -643,7 +643,7 @@
       "type": "sort",
       "question": "「ゼロ」を英語で綴ってください。",
       "choices": ["E", "Z", "R", "O"],
-      "answer": "Z, E, R, O",
+      "answer": "ZERO",
       "explanation": "ZEROです。\n\n【歴史】数字の概念に「0」が導入されたことは数学史上の大発見でした。"
     },
     {
@@ -664,7 +664,7 @@
       "type": "sort",
       "question": "「良い」を英語で綴ってください。",
       "choices": ["O", "O", "G", "D"],
-      "answer": "G, O, O, D",
+      "answer": "GOOD",
       "explanation": "GOODです。\n\n【実用】Good morning（おはよう）など挨拶に欠かせません。"
     },
     {
@@ -685,7 +685,7 @@
       "type": "sort",
       "question": "「新しい」を英語で綴ってください。",
       "choices": ["E", "W", "N"],
-      "answer": "N, E, W",
+      "answer": "NEW",
       "explanation": "NEWです。\n\n【実用】New York（ニューヨーク）は「新しいヨーク（イギリスの地名）」という意味です。"
     },
     {
@@ -706,7 +706,7 @@
       "type": "sort",
       "question": "「古い」を英語で綴ってください。",
       "choices": ["L", "D", "O"],
-      "answer": "O, L, D",
+      "answer": "OLD",
       "explanation": "OLDです。\n\n【実用】How old are you?（何歳ですか？）で年齢を聞くときに使います。"
     },
     {
@@ -727,7 +727,7 @@
       "type": "sort",
       "question": "「卵」を英語で綴ってください。",
       "choices": ["G", "G", "E"],
-      "answer": "E, G, G",
+      "answer": "EGG",
       "explanation": "EGGです。\n\n【文化】Easter Egg（イースターエッグ）は復活祭の象徴です。"
     },
     {
@@ -748,7 +748,7 @@
       "type": "sort",
       "question": "「車」を英語で綴ってください。",
       "choices": ["R", "A", "C"],
-      "answer": "C, A, R",
+      "answer": "CAR",
       "explanation": "CARです。\n\n【実用】Rent-a-car（レンタカー）は和製英語っぽく聞こえますが、実は正しい英語です（Car rentalとも言います）。"
     },
     {
@@ -769,7 +769,7 @@
       "type": "sort",
       "question": "「帽子」を英語で綴ってください。",
       "choices": ["A", "T", "H"],
-      "answer": "H, A, T",
+      "answer": "HAT",
       "explanation": "HATです。\n\n【文化】ハットは縁（つば）がある帽子、キャップ（Cap）は野球帽のような帽子を指します。"
     },
     {
@@ -790,7 +790,7 @@
       "type": "sort",
       "question": "「ジャム」を英語で綴ってください。",
       "choices": ["M", "A", "J"],
-      "answer": "J, A, M",
+      "answer": "JAM",
       "explanation": "JAMです。\n\n【文化】Traffic jam（交通渋滞）という熟語でも使われます。"
     },
     {
@@ -811,7 +811,7 @@
       "type": "sort",
       "question": "「脚」を英語で綴ってください。",
       "choices": ["E", "G", "L"],
-      "answer": "L, E, G",
+      "answer": "LEG",
       "explanation": "LEGです。\n\n【実用】足首から下の部分はFoot、それより上の脚全体をLegと呼び分けます。"
     },
     {
@@ -832,7 +832,7 @@
       "type": "sort",
       "question": "「網」を英語で綴ってください。",
       "choices": ["T", "N", "E"],
-      "answer": "N, E, T",
+      "answer": "NET",
       "explanation": "NETです。\n\n【実用】Internet（インターネット）はInter（相互の）Net（網）という意味です。"
     },
     {
@@ -853,7 +853,7 @@
       "type": "sort",
       "question": "「豚」を英語で綴ってください。",
       "choices": ["G", "I", "P"],
-      "answer": "P, I, G",
+      "answer": "PIG",
       "explanation": "PIGです。\n\n【実用】食用になった豚肉はPorkと呼び方が変わります。"
     },
     {
@@ -867,7 +867,7 @@
       "type": "sort",
       "question": "「海」を英語で綴ってください。",
       "choices": ["A", "S", "E"],
-      "answer": "S, E, A",
+      "answer": "SEA",
       "explanation": "SEAです。\n\n【発音】See（見る）と全く同じ発音です。"
     },
     {
@@ -881,7 +881,7 @@
       "type": "sort",
       "question": "「小型トラック/ワゴン車」を英語で綴ってください。",
       "choices": ["N", "V", "A"],
-      "answer": "V, A, N",
+      "answer": "VAN",
       "explanation": "VANです。\n\n【実用】荷物を運ぶ屋根付きの車を指します。"
     },
     {
@@ -895,7 +895,7 @@
       "type": "sort",
       "question": "「はい」を英語で綴ってください。",
       "choices": ["E", "S", "Y"],
-      "answer": "Y, E, S",
+      "answer": "YES",
       "explanation": "YESです。\n\n【実用】肯定の返事の基本です。"
     },
     {
