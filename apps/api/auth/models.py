@@ -36,6 +36,7 @@ class User(UserMixin,db.Model):
     ai_correction_histories = db.relationship("AICorrectionHistory", back_populates="user")
     # unlocked_topics = db.relationship("UnlockedTopic", back_populates="user")
     learning_progresses = db.relationship("LearningProgress", back_populates="user")
+    learning_histories = db.relationship("LearningHistory", back_populates="user")
 
     @property
     def password(self):

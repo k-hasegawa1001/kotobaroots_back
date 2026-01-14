@@ -14,7 +14,7 @@ from sqlalchemy.sql.expression import func
 from apps.extensions import db
 
 from apps.api.auth.models import User
-from apps.api.kotobaroots.models import Contact, LearningConfig, Language, AICorrectionHistory, LearningTopic, LearningProgress
+from apps.api.kotobaroots.models import Contact, LearningConfig, Language, AICorrectionHistory, LearningTopic, LearningProgress, LearningHistory
 
 ### マイフレーズ（マッピング）
 from apps.api.kotobaroots.utils import get_myphrase_model
@@ -916,7 +916,7 @@ def ai_explanation():
     """
     AI英文解説・添削API
     
-    ユーザーが入力した任意の英文を受け取り、AI（GPT-4o-mini）がその意味（翻訳）と、
+    ユーザーが入力した任意の外国語文（学習中の言語：学習設定に紐づいている言語）を受け取り、AI（GPT-4o-mini）がその意味（翻訳）と、
     文化的・歴史的背景を含めた詳しい解説を生成して返します。
     同時に、生成結果を履歴（AICorrectionHistory）として保存します。
     ---
@@ -926,13 +926,13 @@ def ai_explanation():
       - name: body
         in: body
         required: true
-        description: 解説してほしい英文
+        description: 解説してほしい外国語文
         schema:
           type: object
           required:
-            - input_english
+            - input_string
           properties:
-            input_english:
+            input_string:
               type: string
               example: ":)"
               description: 解析対象のテキスト（英文、スラング、顔文字など）
@@ -974,15 +974,15 @@ def ai_explanation():
         
         """
         {
-            "input_english": "..."
+            "input_string": "..."
         }
         """
         current_user_id = current_user.id
         req_data = request.get_json()
-        input_english = req_data.get("input_english")
+        input_string = req_data.get("input_string")
 
         try:
-            if not input_english:
+            if not input_string:
                     return jsonify({"msg": "テキストが入力されていません"}), 400
             
             active_config = LearningConfig.query.filter_by(user_id=current_user_id).first()
@@ -991,7 +991,8 @@ def ai_explanation():
                     return jsonify({"msg": "学習設定が見つかりません"}), 400
                 
             language_id = active_config.language.id
-            language_name = active_config.language.language
+            # 綴りが同じだが、言語によって意味が異なる場合もあるため、現在学習中の言語もプロンプトに含める必要がある
+            language_name = active_config.language.language # 学習中の言語
 
             # OpenAI APIの準備
             client = openai.OpenAI(api_key=current_app.config["OPENAI_API_KEY"])
@@ -1003,7 +1004,7 @@ def ai_explanation():
                 model="gpt-4o-mini",
                 messages=[
                     {"role": "system", "content": prompt},
-                    {"role": "user", "content": input_english}
+                    {"role": "user", "content": input_string}
                 ],
                 response_format={"type": "json_object"},
                 temperature=0.7,
@@ -1018,7 +1019,7 @@ def ai_explanation():
             new_history = AICorrectionHistory(
                 user_id=current_user_id,
                 language_id=language_id,
-                input_english=input_english,
+                input_string=input_string,
                 japanese_translation=translation,
                 explanation=explanation
                 # created_atはデフォルトで入るので指定不要
@@ -1572,6 +1573,179 @@ def learning_start():
         return jsonify({"msg": "サーバー内部エラーが発生しました"}), 500
     
 ## 学習完了（長谷川）
+@api.route("/learning/complete", methods=["POST"])
+@login_required
+def learning_complete():
+    """
+    学習完了・履歴保存API
+    
+    学習終了時に呼び出し、回答結果の履歴保存と学習進捗（難易度解放）の更新を行います。
+    リクエストには、実施した単元IDと、各問題の回答結果リスト（履歴データ）を含めます。
+    ---
+    tags:
+      - Learning
+    parameters:
+      - name: body
+        in: body
+        required: true
+        description: 学習結果データ
+        schema:
+          type: object
+          required:
+            - learning_topic_id
+            - results
+          properties:
+            learning_topic_id:
+              type: integer
+              example: 1
+              description: 実施した単元のID
+            results:
+              type: array
+              description: 各問題の回答結果リスト
+              items:
+                type: object
+                properties:
+                  is_passed:
+                    type: boolean
+                    example: true
+                    description: 正解したかどうか
+                  question_statement:
+                    type: string
+                    example: "「ありがとう」を英語にしなさい。"
+                  choices:
+                    type: array
+                    items: 
+                      type: string
+                    example: ["Thank you.", "Hello."]
+                    description: 提示された選択肢のリスト
+                  correct_answer:
+                    type: string
+                    example: "Thank you."
+                    description: 正解の文字列
+                  explanation:
+                    type: string
+                    example: "感謝を伝える表現です。"
+                  user_answer:
+                    type: string
+                    example: "Thank you."
+                    description: ユーザーが選んだ回答
+    responses:
+      200:
+        description: 保存成功
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "学習履歴を保存しました"
+            progress_updated:
+              type: boolean
+              example: true
+              description: 難易度レベルが上がったかどうか
+            new_difficulty:
+              type: integer
+              example: 2
+              description: 現在の到達難易度
+      400:
+        description: 入力エラー
+      500:
+        description: サーバー内部エラー
+    """
+    current_app.logger.info("learning_complete-APIにアクセスがありました")
+    
+    current_user_id = current_user.id
+    req_data = request.get_json()
+    
+    topic_id = req_data.get("learning_topic_id")
+    results = req_data.get("results", [])
+
+    if not topic_id or not results:
+        return jsonify({"msg": "必要なデータが不足しています"}), 400
+
+    try:
+        # 1. 履歴の保存 (一括処理)
+        passed_count = 0 # 正解数カウント
+        
+        for res in results:
+            is_passed = res.get("is_passed", False)
+            if is_passed:
+                passed_count += 1
+            
+            # 選択肢配列を文字列(JSON)に変換
+            choices_list = res.get("choices", [])
+            choices_str = json.dumps(choices_list, ensure_ascii=False)
+
+            # 正解している場合は correct_answer を NULL (None) にする仕様
+            correct_answer_val = None if is_passed else res.get("correct_answer")
+
+            history = LearningHistory(
+                user_id=current_user_id,
+                learning_topic_id=topic_id,
+                is_passed=is_passed,
+                question_statement=res.get("question_statement", ""),
+                choices=choices_str,
+                correct_answer=correct_answer_val,
+                explanation=res.get("explanation", ""),
+                user_answer=res.get("user_answer", "")
+            )
+            db.session.add(history)
+        
+        # 2. 進捗 (LearningProgress) の更新判定
+        # ここでは「正答率80%以上」で次の難易度を解放するロジックとします
+        # 必要に応じて閾値（0.8）は調整してください
+        total_questions = len(results)
+        progress_updated = False
+        
+        # 現在の設定を取得して、対象のProgressを特定
+        active_config = LearningConfig.query.filter_by(user_id=current_user_id).first()
+        
+        if active_config and total_questions > 0:
+            target_lang_id = active_config.language_id
+            target_level_id = active_config.level_id
+            
+            # 現在の進捗レコードを取得
+            progress = LearningProgress.query.filter_by(
+                user_id=current_user_id,
+                language_id=target_lang_id,
+                level_id=target_level_id
+            ).first()
+
+            current_difficulty = progress.current_difficulty if progress else 1
+            
+            # 実施した単元の情報を取得（難易度チェック用）
+            target_topic = LearningTopic.query.get(topic_id)
+            
+            # 「今挑戦した単元の難易度」が「現在の到達難易度」と同じで、かつ合格点ならレベルアップ
+            if target_topic and target_topic.difficulty == current_difficulty:
+                accuracy = passed_count / total_questions
+                if accuracy >= 0.8: # 80%以上で合格
+                    if progress:
+                        progress.current_difficulty += 1
+                    else:
+                        # 万が一progressがない場合は作成(基本ありえないが念のため)
+                        new_progress = LearningProgress(
+                            user_id=current_user_id, 
+                            language_id=target_lang_id, 
+                            level_id=target_level_id, 
+                            current_difficulty=2
+                        )
+                        db.session.add(new_progress)
+                    
+                    progress_updated = True
+                    current_difficulty += 1 # レスポンス用にインクリメント
+
+        db.session.commit()
+
+        return jsonify({
+            "msg": "学習履歴を保存しました",
+            "progress_updated": progress_updated,
+            "new_difficulty": current_difficulty if 'current_difficulty' in locals() else 1
+        }), 200
+
+    except Exception as e:
+        db.session.rollback()
+        current_app.logger.error(e)
+        return jsonify({"msg": "エラーが発生しました", "error": str(e)}), 500
 
 
 ## 履歴（長谷川）

@@ -185,3 +185,36 @@ class LearningProgress(db.Model):
     user = db.relationship("User", back_populates="learning_progresses")
     language = db.relationship("Language", back_populates="learning_progresses")
     level = db.relationship("Level", back_populates="learning_progresses")
+
+## 学習履歴
+class LearningHistory(db.Model):
+    __tablename__ = "learning_histories"
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    learning_topic_id = db.Column(db.Integer, db.ForeignKey('learning_topics.id'), nullable=False)
+    
+    # 正解したか
+    is_passed = db.Column(db.Boolean, nullable=False, default=False)
+    
+    # 問題文（長文対応のためText型推奨）
+    question_statement = db.Column(db.Text, nullable=False)
+    
+    # 選択肢（JSON文字列などで保存することを想定）
+    choices = db.Column(db.Text, nullable=False)
+    
+    # 正解選択肢（is_passed=Trueの場合はNULL）
+    correct_answer = db.Column(db.Text, nullable=True)
+    
+    # 解説
+    explanation = db.Column(db.Text, nullable=False)
+    
+    # ユーザーの解答
+    user_answer = db.Column(db.Text, nullable=False)
+    
+    # 作成日
+    created_at = db.Column(db.DateTime, nullable=False, default=datetime.now)
+
+    # リレーション定義
+    user = db.relationship("User", back_populates="learning_histories")
+    learning_topic = db.relationship("LearningTopic", back_populates="learning_histories")
