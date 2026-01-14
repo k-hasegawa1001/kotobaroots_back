@@ -1440,6 +1440,91 @@ def generate_questions():
 def learning_start():
     """
     学習開始API（プリセット問題取得）
+    
+    指定された単元IDに対応する、サーバー内に保存された教材データ（JSONファイル）を読み込んで返します。
+    DBの学習単元情報（言語、国、レベル、トピックキー）に基づいて、適切なファイルのパスを自動的に解決します。
+    ---
+    tags:
+      - Learning
+    parameters:
+      - name: body
+        in: body
+        required: true
+        description: 学習開始リクエスト
+        schema:
+          type: object
+          required:
+            - learning_topic_id
+          properties:
+            learning_topic_id:
+              type: integer
+              example: 1
+              description: 開始する単元のID
+    responses:
+      200:
+        description: 取得成功
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "プリセット問題取得成功"
+            topic_id:
+              type: integer
+              example: 1
+            topic_title:
+              type: string
+              example: "基本の挨拶"
+              description: フロントエンド表示用の単元タイトル
+            questions:
+              type: array
+              description: 問題リスト
+              items:
+                type: object
+                properties:
+                  question_format:
+                    type: string
+                    example: "Multiple Choice"
+                  question:
+                    type: string
+                    example: "「ありがとう」を英語にしなさい。"
+                  options:
+                    type: array
+                    items:
+                      type: string
+                    example: ["Thank you.", "Hello.", "Goodbye.", "Sorry."]
+                  answer:
+                    type: string
+                    example: "Thank you."
+                  explanation:
+                    type: string
+                    example: "感謝を伝える基本的な表現です。"
+      400:
+        description: リクエスト不正（ID未指定など）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "学習単元IDが指定されていません"
+      401:
+        description: 認証エラー
+      404:
+        description: 指定された単元がDBに存在しない
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "指定された学習単元が見つかりません"
+      500:
+        description: サーバー内部エラー（教材ファイルが見つからない、または空の場合など）
+        schema:
+          type: object
+          properties:
+            msg:
+              type: string
+              example: "教材データの取得に失敗しました（ファイルが見つかりません）"
     """
     current_app.logger.info("learning_start-APIにアクセスがありました")
     
