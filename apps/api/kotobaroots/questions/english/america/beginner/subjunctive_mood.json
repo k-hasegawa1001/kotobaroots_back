@@ -1,0 +1,111 @@
+{
+  "learning_topic": "仮定法",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "If I were you, I ____ tell the truth.",
+      "choices": ["would", "will", "can", "am"],
+      "answer": "would",
+      "explanation": "「If I were you」は仮定法過去の定型表現で、相手の立場に立った仮の話をします。主節は would＋動詞の原形を使い、助言をやわらかく伝えられます。will は現実の未来になり不自然です。日常会話やビジネスで丁寧な助言に便利です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "If he had more money, he ____ buy a car.",
+      "choices": ["would", "will", "can", "is"],
+      "answer": "would",
+      "explanation": "現在はお金がないという事実と反する仮定なので仮定法過去を使います。If節は過去形、主節は would＋原形が基本です。will を使うと現実の未来の意味になります。夢や計画を話す時によく使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "If it were sunny, ____ go for a walk?",
+      "choices": ["would you", "will you", "do you", "are you"],
+      "answer": "would you",
+      "explanation": "仮定の条件に対する提案や質問では would you を使います。実際には晴れていない前提のため仮定法過去です。will you は現実の予定を聞く響きになります。カジュアルな誘いから丁寧な提案まで幅広く使えます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "If I ____ a lot of time, I would study English.",
+      "choices": ["had", "have", "will have", "am having"],
+      "answer": "had",
+      "explanation": "「もし時間があれば」という現実と反する仮定なので If節は過去形 had を使います。現在形 have は事実の条件になります。would study とセットで覚えると理解しやすく、目標や反省を表す時に便利です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "もし彼女がここにいたら、私は安心するのに。",
+      "choices": ["If she were here, I would feel safe.", "If she is here, I will feel safe.", "If she was here, I feel safe.", "If she were here, I feel safe."],
+      "answer": "If she were here, I would feel safe.",
+      "explanation": "現在は彼女がここにいないという仮定なので仮定法過去を使います。be動詞は were、主節は would＋原形が基本です。感情を表す文でも同じ形を使い、会話や日記などで自然に使えます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "もし私が侍なら、刀を持っているだろうに。\nIf I (      ) a samurai, I would have a sword.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "【解説】現在の事実と異なることを仮定する「仮定法過去」では、be動詞は主語に関わらず通常 'were' を使います（口語では was も使われますが、学習上は were が基本）。\n【文化・歴史】侍（Samurai）は平安時代から江戸時代にかけて活躍した日本の武士階級です。彼らの魂とも言える「刀（Katana）」は、武士の身分を象徴するものでした。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "もし私が京都に住んでいたら、毎日金閣寺を訪れることができるのに。\nIf I (      ) in Kyoto, I could visit Kinkaku-ji Temple every day.",
+      "choices": [],
+      "answer": "lived",
+      "explanation": "【解説】「もし～なら」という現在の事実に反する仮定を表すため、if節の中の動詞は過去形（live → lived）にします。\n【文化・歴史】金閣寺（正式名称：鹿苑寺）は、室町幕府3代将軍・足利義満によって建てられました。豪華絢爛な北山文化を象徴する建築物です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "もしタイムマシンを持っていたら、江戸時代に行けるのに。\nIf I (      ) a time machine, I could go to the Edo period.",
+      "choices": [],
+      "answer": "had",
+      "explanation": "【解説】現在持っていないものを「もし持っていたら」と仮定するため、have の過去形 had を用います。\n【文化・歴史】江戸時代（1603-1868）は徳川家康が開いた江戸幕府による平和な時代が長く続きました。浮世絵や歌舞伎など、町人文化が花開いた時代でもあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "もし今日が晴れなら、ここから富士山が見えるのに。\nIf it (      ) sunny today, we could see Mt. Fuji from here.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "【解説】be動詞の仮定法過去なので were を使います。実際は晴れていない（雨や曇り）という状況を表しています。\n【文化・歴史】富士山は日本一高い山（3776m）であり、古くから信仰の対象や芸術の源泉とされてきました。葛飾北斎の『富嶽三十六景』など、多くの浮世絵に描かれています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "もし私があなたなら、その着物を買うでしょう。\nIf I (      ) you, I would buy that kimono.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "【解説】'If I were you'（もし私があなたなら）は、相手に助言をする際によく使われる決まり文句です。\n【文化・歴史】着物（Kimono）は日本の伝統的な民族衣装です。「着る物」という言葉が由来ですが、現在では特に和服を指します。柄や色には季節感や縁起の良い意味が込められていることが多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "私が聖徳太子のように賢ければなあ。\nI wish I (      ) smart like Prince Shotoku.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "【解説】I wish + 仮定法過去で「（今）～であればいいのに」という叶わない願望を表します。ここでもbe動詞は were を用います。\n【文化・歴史】聖徳太子（Prince Shotoku）は飛鳥時代の皇族で、十七条憲法の制定や法隆寺の建立などで知られます。同時に10人の話を聞き分けたという伝説が残るほど賢かったと言われています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "もし忍術を知っていたら、姿を消すことができるのに。\nIf I (      ) ninjutsu, I could disappear.",
+      "choices": [],
+      "answer": "knew",
+      "explanation": "【解説】「知っている」という現在の事実に反する仮定なので、know の過去形 knew を使います。\n【文化・歴史】忍者（Ninja）は、スパイ活動や暗殺などを担った特殊な集団です。伊賀や甲賀が有名で、「忍術」と呼ばれる独自の技術を用いていました。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "もし十分なお金があれば、日本中を旅するのに。\nIf I had enough money, I (      ) travel around Japan.",
+      "choices": [],
+      "answer": "would",
+      "explanation": "【解説】仮定法の主節（帰結節）では、助動詞の過去形（would, could, mightなど）を使います。ここでは意志や単純な推量を表す would が適切です。\n【文化・歴史】江戸時代には、十返舎一九の『東海道中膝栗毛』のように、旅をテーマにした滑稽本が大ヒットし、庶民の間でもお伊勢参りなどの旅がブームになりました。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "英語が夏目漱石のように話せればなあ。\nI (      ) I could speak English like Soseki Natsume.",
+      "choices": [],
+      "answer": "wish",
+      "explanation": "【解説】「～ならいいのに」と願う表現は 'I wish + 仮定法' です。wish 自体は現在の願望なので現在形を使います。\n【文化・歴史】文豪・夏目漱石は非常に英語が堪能で、ロンドンへの留学経験もありました。以前は千円札の肖像画としても親しまれていました。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "もし明日雪が降ったら、雪だるまを作るのに。（未来の仮定）\nIf it (      ) snow tomorrow, I would make a snowman.",
+      "choices": [],
+      "answer": "should",
+      "explanation": "【解説】未来の可能性が低いこと、あるいは万が一のことを仮定する場合、'If + S + should + 原形' を使うことがあります（中学レベルでは発展的な内容ですが、知識として知っておくと便利です）。\n【文化・歴史】日本の冬、特に日本海側の地域は世界有数の豪雪地帯として知られています。雪を使った「かまくら」は、秋田県横手市などの伝統行事として有名です。"
+    }
+  ]
+}

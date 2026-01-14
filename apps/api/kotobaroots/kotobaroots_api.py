@@ -1605,6 +1605,10 @@ def learning_start():
 ## 履歴（長谷川）
 
 
+## 学習設定変更（長谷川）
+
+
+
 """ 以下DB内容変更系APIのテンプレ """
 def temp():
     current_app.logger.info("-APIにアクセスがありました")
