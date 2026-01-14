@@ -1616,18 +1616,18 @@ def learning_complete():
                     type: array
                     items: 
                       type: string
-                    example: ["Thank you.", "Hello."]
+                    example: ["Thank you", "Hello"]
                     description: 提示された選択肢のリスト
                   correct_answer:
                     type: string
-                    example: "Thank you."
+                    example: "Thank you"
                     description: 正解の文字列
                   explanation:
                     type: string
                     example: "感謝を伝える表現です。"
                   user_answer:
                     type: string
-                    example: "Thank you."
+                    example: "Thank you"
                     description: ユーザーが選んだ回答
     responses:
       200:
