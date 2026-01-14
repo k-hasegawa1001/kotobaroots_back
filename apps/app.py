@@ -3,7 +3,7 @@ import logging
 import os
 from pathlib import Path
 
-from flask import Flask
+from flask import Flask, request
 from flask_cors import CORS
 
 ### DB関連
@@ -18,15 +18,20 @@ from .extensions import mail
 
 ### 認証関連(認証トークン)
 # from flask_jwt_extended import create_access_token, create_refresh_token, jwt_required, get_jwt_identity, JWTManager, set_refresh_cookies
-from .extensions import jwt
-from .api.auth.models import TokenBlocklist
+# from .extensions import jwt
+# from .api.auth.models import TokenBlocklist
 from apps.api.auth.models import User
+from .extensions import login_manager
 ###
 
 ### .env関連
 from dotenv import load_dotenv
 
 load_dotenv()
+###
+
+### API仕様書関連
+from flasgger import Swagger
 ###
 
 # ステージング環境切り替えのためファクトリ化
@@ -36,68 +41,37 @@ def create_app():
     # ### メールに添付するURLのトークン関連
     # app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
 
+    ### chatGPT-API
+    app.config["OPENAI_API_KEY"] = os.environ.get("OPENAI_API_KEY")
+
     ### 認証関連
-    app.config["JWT_SECRET_KEY"] = os.environ.get("JWT_SECRET_KEY")
     
-    # リフレッシュトークンを保存するCookieの名前
-    app.config["JWT_REFRESH_COOKIE_NAME"] = os.environ.get("JWT_REFRESH_COOKIE_NAME")
-    
-    # Cookieから読み込むように明示
-    app.config["JWT_TOKEN_LOCATION"] = ["headers", "cookies"]
-
-    app.config["JWT_COOKIE_SAMESITE"] = os.environ.get("JWT_COOKIE_SAMESITE", "Lax")      # クロスサイト送信制御
-    app.config["JWT_COOKIE_CSRF_PROTECT"] = os.environ.get("JWT_COOKIE_CSRF_PROTECT", "False").lower() == "true"  # 開発中はFalse、本番はTrue推奨
-    
-    # Cookieを安全にする設定 (HttpOnly)
-    app.config["JWT_COOKIE_HTTPONLY"] = os.environ.get("JWT_COOKIE_HTTPONLY", "True").lower() == "true"
-    app.config["JWT_COOKIE_SECURE"] = os.environ.get("JWT_COOKIE_SECURE", "False").lower() == "true"
-
-    app.config["JWT_ACCESS_TOKEN_EXPIRES"] = datetime.timedelta(minutes=15)
-
-    # リフレッシュトークンの有効期限を30日に設定 (Cookieに反映されます)
-    app.config["JWT_REFRESH_TOKEN_EXPIRES"] = datetime.timedelta(days=30)
-    
-    app.config["JWT_ENABLE_BLOCKLIST"] = True
-    app.config["JWT_BLOCKLIST_TOKEN_CHECKS"] = ["access", "refresh"]
-
-    # jwt = JWTManager(app)
-    jwt.init_app(app)
-
-    @jwt.token_in_blocklist_loader
-    def check_if_token_in_blocklist(jwt_header, jwt_payload):
-        jti = jwt_payload["jti"]
-        token_in_db = TokenBlocklist.query.filter_by(jti=jti).one_or_none()
-        if token_in_db is not None:
-            return True # ブロックされている
-        
-        user_id = jwt_payload["sub"] # identity (user.id)
-        user = User.query.get(user_id)
-        
-        if user and user.last_password_change:
-            # トークンの発行時刻 (iat: issued at) は Unixタイムスタンプ(int)
-            token_iat_timestamp = jwt_payload["iat"]
-            
-            # user.updated_at を Unixタイムスタンプに変換
-            # password_change_timestamp = user.last_password_change.timestamp()
-            # 「これはUTC時間ですよ」と明示してから timestamp に変換する
-            password_change_timestamp = user.last_password_change.replace(tzinfo=datetime.timezone.utc).timestamp()
-
-            # 「トークン発行」が「パスワード変更」より前ならアウト
-            if token_iat_timestamp < password_change_timestamp:
-                return True # ブロック扱いにする（無効）
-        
-        return False
     ###
 
     app.config["JSON_AS_ASCII"] = False
     app.logger.setLevel(logging.DEBUG)
 
-    frontend_url = os.environ.get("FRONTEND_URL", "http://127.0.0.1:5500")
-    app.config["FRONTEND_URL"] = frontend_url
-    # CORS(app, supports_credentials=True, origins=[frontend_url])
+    # frontend_url = os.environ.get("FRONTEND_URL", "http://127.0.0.1:5500")
+    # app.config["FRONTEND_URL"] = frontend_url
+    # # CORS(app, supports_credentials=True, origins=[frontend_url])
+    # CORS(app,
+    #     resources={r"/api/*": {
+    #         "origins": [frontend_url],
+    #         "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    #         "allow_headers": ["Content-Type", "Authorization"],
+    #         "supports_credentials": True
+    #     }}
+    # )
+    
+    # .envの設定値(5500)に加え、LiveServerが5501になった場合も許可するリストを作成
+    frontend_base = os.environ.get("FRONTEND_URL", "http://127.0.0.1:5500")
+    allowed_origins = [frontend_base, "http://127.0.0.1:5501"]
+
+    app.config["FRONTEND_URL"] = frontend_base # configにはメインの方を入れておく
+
     CORS(app,
         resources={r"/api/*": {
-            "origins": [frontend_url],
+            "origins": allowed_origins, # ← リストを渡すことで複数許可されます
             "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
             "allow_headers": ["Content-Type", "Authorization"],
             "supports_credentials": True
@@ -133,6 +107,26 @@ def create_app():
     # 拡張機能の「初期化」
     # extensions.py からインポートした mail オブジェクトを、ここで app と紐付ける
     mail.init_app(app)
+    ###
+
+    ### API仕様書関連
+    swagger = Swagger(app)
+    ###
+
+    ### 認証関連
+    login_manager.init_app(app)
+
+    # 1. ユーザー読み込み関数 (セッションIDからユーザーを復元)
+    @login_manager.user_loader
+    def load_user(user_id):
+        return User.query.get(int(user_id))
+    
+    # 2. 未認証時のハンドラ (API向けに重要！)
+    # ログインしていない状態でアクセスがあった場合、勝手にリダイレクトせず
+    # 明確に 401 エラーを返すようにします。
+    @login_manager.unauthorized_handler
+    def unauthorized():
+        return {"msg": "ログインが必要です"}, 401
     ###
     
     # authパッケージimport

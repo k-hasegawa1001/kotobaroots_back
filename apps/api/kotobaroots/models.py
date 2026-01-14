@@ -1,6 +1,7 @@
 from datetime import datetime
 
 from apps.extensions import db
+from sqlalchemy import UniqueConstraint
 
 ### Contact（問い合わせ）
 class Contact(db.Model):
@@ -20,6 +21,9 @@ class Level(db.Model):
     level_tag = db.Column(db.String, nullable=False)
 
     learning_configs = db.relationship("LearningConfig", backref="level")
+    learning_topics = db.relationship("LearningTopic", back_populates="level", order_by="LearningTopic.difficulty")
+    # unlocked_topics = db.relationship("UnlockedTopic", back_populates="level")
+    learning_progresses = db.relationship("LearningProgress", back_populates="level")
 
 ### Language（学習言語・国）
 class Language(db.Model):
@@ -30,6 +34,8 @@ class Language(db.Model):
     country = db.Column(db.String, nullable=True)
 
     learning_configs = db.relationship("LearningConfig", backref="language")
+    learning_topics = db.relationship("LearningTopic", back_populates="language")
+    learning_progresses = db.relationship("LearningProgress", back_populates="language")
 
 ### LearningConfig（学習設定）
 class LearningConfig(db.Model):
@@ -103,3 +109,63 @@ class AICorrectionHistory(db.Model):
     created_at = db.Column(db.DateTime, nullable=False, default=datetime.now)
 
     user = db.relationship("User", back_populates="ai_correction_histories")
+
+### 学習
+## 学習単元
+class LearningTopic(db.Model):
+    __tablename__ = "learning_topics"
+
+    id = db.Column(db.Integer, primary_key=True)
+    level_id = db.Column(db.Integer, db.ForeignKey('levels.id'), nullable=False)
+    language_id = db.Column(db.Integer, db.ForeignKey('languages.id'), nullable=False)
+    # 日本語・画面表示用
+    topic = db.Column(db.String, nullable = False)
+    # 英語・ファイル連携用
+    topic_key = db.Column(db.String, nullable=False)
+    difficulty = db.Column(db.Integer, nullable = False)
+
+    __table_args__ = (
+        UniqueConstraint('language_id', 'level_id', 'difficulty', name='unique_lang_level_difficulty'),
+    )
+
+    level = db.relationship("Level", back_populates="learning_topics")
+    language = db.relationship("Language", back_populates="learning_topics")
+    # unlocked_topics = db.relationship("UnlockedTopic", back_populates="learning_topic")
+
+# ## アンロック単元
+# class UnlockedTopic(db.Model):
+#     __tablename__ = "unlocked_topics"
+
+#     id = db.Column(db.Integer, primary_key=True)
+#     user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+#     level_id = db.Column(db.Integer, db.ForeignKey('levels.id'), nullable=False)
+#     learning_topic_id = db.Column(db.Integer, db.ForeignKey('learning_topics.id'), nullable=False)
+
+#     __table_args__ = (
+#         UniqueConstraint('user_id', 'learning_topic_id', name='unique_user_topic_unlock'),
+#     )
+
+#     user = db.relationship("User", back_populates="unlocked_topics")
+#     level = db.relationship("Level", back_populates="unlocked_topics")
+#     learning_topic = db.relationship("LearningTopic", back_populates="unlocked_topics")
+
+## 学習進捗（セーブデータ）
+class LearningProgress(db.Model):
+    __tablename__ = "learning_progresses"
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    language_id = db.Column(db.Integer, db.ForeignKey('languages.id'), nullable=False)
+    level_id = db.Column(db.Integer, db.ForeignKey('levels.id'), nullable=False)
+    
+    # 現在解放されている最大の難易度 (初期値: 1)
+    current_difficulty = db.Column(db.Integer, default=1, nullable=False)
+
+    # 1ユーザー・1言語・1レベルにつき、進捗データは1つだけ
+    __table_args__ = (
+        UniqueConstraint('user_id', 'language_id', 'level_id', name='unique_user_lang_level_progress'),
+    )
+
+    user = db.relationship("User", back_populates="learning_progresses")
+    language = db.relationship("Language", back_populates="learning_progresses")
+    level = db.relationship("Level", back_populates="learning_progresses")
