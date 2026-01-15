@@ -1,4 +1,4 @@
-import datetime
+# import datetime
 import logging
 import os
 from pathlib import Path
@@ -32,6 +32,11 @@ load_dotenv()
 
 ### API仕様書関連
 from flasgger import Swagger
+###
+
+### 学習履歴削除のためのバッチ関連
+import click
+from datetime import datetime, timedelta
 ###
 
 # ステージング環境切り替えのためファクトリ化
@@ -138,5 +143,32 @@ def create_app():
     from apps.api.kotobaroots import kotobaroots_api
 
     app.register_blueprint(kotobaroots_api.api, url_prefix="/api/kotobaroots")
+
+    # ---------------------------------------------------------
+    # 【追加】 バッチ処理用コマンドの登録
+    # ---------------------------------------------------------
+    @app.cli.command("cleanup-history")
+    def cleanup_history():
+        """3ヶ月以上前の学習履歴を物理削除するコマンド"""
+        # ここでインポートすることで循環参照を回避
+        from apps.api.kotobaroots.models import LearningHistory
+        
+        # 3ヶ月前（90日前）の日時を計算
+        threshold_date = datetime.now() - timedelta(days=90)
+        
+        print(f"[{datetime.now()}] クリーンアップ開始: {threshold_date} 以前のデータを削除します...")
+
+        try:
+            # 削除実行
+            # FlaskのCLI経由で実行されるため、自動的にアプリコンテキスト(dbセッション等)が有効になっています
+            deleted_count = LearningHistory.query.filter(
+                LearningHistory.created_at < threshold_date
+            ).delete()
+            
+            db.session.commit()
+            print(f"[{datetime.now()}] 完了: {deleted_count}件の古い履歴を削除しました。")
+        except Exception as e:
+            db.session.rollback()
+            print(f"[{datetime.now()}] エラー発生: {e}")
 
     return app
