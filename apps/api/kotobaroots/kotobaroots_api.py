@@ -1749,6 +1749,101 @@ def learning_complete():
 
 
 ## 履歴（長谷川）
+@api.route("/learning/history", methods=["GET"])
+@login_required
+def learning_history():
+    """
+    学習履歴一覧取得API
+    
+    現在の学習設定（言語・レベル）に基づいて、ユーザーの過去の学習履歴を取得します。
+    新しい順（作成日の降順）で返却されます。
+    ---
+    tags:
+      - Learning
+    responses:
+      200:
+        description: 取得成功
+        schema:
+          type: object
+          properties:
+            histories:
+              type: array
+              items:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    example: 101
+                  topic:
+                    type: string
+                    example: "基本の挨拶"
+                  question:
+                    type: string
+                    example: "「ありがとう」を英語にしなさい。"
+                  user_answer:
+                    type: string
+                    example: "Thank you."
+                  correct_answer:
+                    type: string
+                    description: ユーザーが正解していた場合はnull
+                    example: null
+                  is_passed:
+                    type: boolean
+                    example: true
+                  created_at:
+                    type: string
+                    example: "2023-10-25 14:30:00"
+      400:
+        description: 学習設定未完了
+      500:
+        description: サーバー内部エラー
+    """
+    current_app.logger.info("learning_history-APIにアクセスがありました")
+    current_user_id = current_user.id
+
+    try:
+        # 1. 現在の学習設定を取得
+        active_config = LearningConfig.query.filter_by(user_id=current_user_id).first()
+        
+        if not active_config:
+            return jsonify({"msg": "学習設定が見つかりません"}), 400
+
+        target_lang_id = active_config.language_id
+        target_level_id = active_config.level_id
+
+        # 2. 履歴の取得
+        # LearningHistory と LearningTopic を結合し、
+        # 「現在の設定と同じ言語・レベル」かつ「自分のデータ」を検索
+        histories = LearningHistory.query \
+            .join(LearningTopic, LearningHistory.learning_topic_id == LearningTopic.id) \
+            .filter(LearningHistory.user_id == current_user_id) \
+            .filter(LearningTopic.language_id == target_lang_id) \
+            .filter(LearningTopic.level_id == target_level_id) \
+            .order_by(desc(LearningHistory.created_at)) \
+            .all()
+
+        # 3. レスポンスデータの整形
+        response_list = []
+        for h in histories:
+            # 選択肢はJSON文字列なのでリストに戻す（表示に必要であれば）
+            # choices_list = json.loads(h.choices) if h.choices else []
+
+            response_list.append({
+                "id": h.id,
+                "topic": h.learning_topic.topic, # 単元名
+                "question": h.question_statement,
+                "user_answer": h.user_answer,
+                "correct_answer": h.correct_answer, # 正解時はNone(null)が入っている
+                "explanation": h.explanation,
+                "is_passed": h.is_passed,
+                "created_at": h.created_at.strftime('%Y-%m-%d %H:%M:%S')
+            })
+
+        return jsonify({"histories": response_list}), 200
+
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify({"msg": "エラーが発生しました", "error": str(e)}), 500
 
 
 ## 学習設定変更（長谷川）
