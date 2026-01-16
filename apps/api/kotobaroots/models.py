@@ -147,6 +147,7 @@ class LearningTopic(db.Model):
     level = db.relationship("Level", back_populates="learning_topics")
     language = db.relationship("Language", back_populates="learning_topics")
     # unlocked_topics = db.relationship("UnlockedTopic", back_populates="learning_topic")
+    learning_histories = db.relationship("LearningHistory", back_populates="learning_topic")
 
 # ## アンロック単元
 # class UnlockedTopic(db.Model):
