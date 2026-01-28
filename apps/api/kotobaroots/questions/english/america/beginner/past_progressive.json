@@ -1,0 +1,622 @@
+{
+  "learning_topic": "過去進行形",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「私はその時、テニスをしていました」\nI (      ) playing tennis then.",
+      "choices": ["was", "am", "were", "is"],
+      "answer": "was",
+      "explanation": "過去進行形は「be動詞の過去形 + ing」です。主語がIなのでwasを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は本を読んでいました。」となるように並び替えてください。",
+      "choices": ["reading", "was", "He", "a", "book"],
+      "answer": "Hewasreadingabook",
+      "explanation": "He was reading a book. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは走っていました」\nThey (      ) running.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "主語がThey（複数）なのでwereを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女はピアノを弾いていました」\nShe (      ) playing the piano.",
+      "choices": ["was", "is", "were", "are"],
+      "answer": "was",
+      "explanation": "She（単数）なのでwasです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちはテレビを見ていました。」となるように並び替えてください。",
+      "choices": ["watching", "were", "We", "TV"],
+      "answer": "WewerewatchingTV",
+      "explanation": "We were watching TV. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はその時、勉強していました」\nI was (      ) then.",
+      "choices": [],
+      "answer": "studying",
+      "explanation": "Studyにingをつけてstudyingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ケンは宿題をしていました」\nKen (      ) doing his homework.",
+      "choices": ["was", "is", "were", "did"],
+      "answer": "was",
+      "explanation": "Kenは三人称単数なのでwasです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは眠っていましたか？」となるように並び替えてください。",
+      "choices": ["sleeping", "Were", "you"],
+      "answer": "Wereyousleeping",
+      "explanation": "Were you sleeping? 過去進行形の疑問文です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その時、雨が降っていました」\nIt (      ) raining then.",
+      "choices": [],
+      "answer": "was",
+      "explanation": "It was raining then. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは夕食を食べていました」\nThey (      ) eating dinner.",
+      "choices": ["were", "are", "was", "did"],
+      "answer": "were",
+      "explanation": "Theyなのでwereです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はその時、お風呂に入っていました。」となるように並び替えてください。",
+      "choices": ["taking", "was", "I", "bath", "a", "then"],
+      "answer": "Iwastakingabaththen",
+      "explanation": "I was taking a bath then. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は歌を歌っていました」\nShe was (      ) a song.",
+      "choices": [],
+      "answer": "singing",
+      "explanation": "Singにingをつけてsingingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたはその時、何をしていましたか？」\nWhat (      ) you doing then?",
+      "choices": ["were", "are", "was", "did"],
+      "answer": "were",
+      "explanation": "What were you doing? 過去進行形の定番の質問です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の父は車を洗っていました。」となるように並び替えてください。",
+      "choices": ["washing", "father", "My", "was", "car", "the"],
+      "answer": "Myfatherwaswashingthecar",
+      "explanation": "My father was washing the car. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「鳥たちは空を飛んでいました」\nThe birds (      ) flying in the sky.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "The birds（複数）なのでwereです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は眠っていませんでした」\nI (      ) sleeping.",
+      "choices": ["wasn't", "weren't", "am not", "don't"],
+      "answer": "wasn't",
+      "explanation": "was notの短縮形wasn'tを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは英語を話していましたか？」となるように並び替えてください。",
+      "choices": ["speaking", "English", "they", "Were"],
+      "answer": "WeretheyspeakingEnglish",
+      "explanation": "Were they speaking English? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「トムは音楽を聴いていました」\nTom was (      ) to music.",
+      "choices": [],
+      "answer": "listening",
+      "explanation": "Listenにingをつけてlisteningです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは公園で遊んでいました」\nWe (      ) playing in the park.",
+      "choices": ["were", "was", "are", "did"],
+      "answer": "were",
+      "explanation": "We were playing... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は料理をしていませんでした。」となるように並び替えてください。",
+      "choices": ["cooking", "wasn't", "She"],
+      "answer": "Shewasn'tcooking",
+      "explanation": "She wasn't cooking. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その猫は椅子の上で寝ていました」\nThe cat (      ) sleeping on the chair.",
+      "choices": [],
+      "answer": "was",
+      "explanation": "The cat（単数）なのでwasです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは何を待っていたのですか？」\nWhat (      ) you waiting for?",
+      "choices": ["were", "was", "are", "did"],
+      "answer": "were",
+      "explanation": "Youが主語なのでwereを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は手紙を書いていました。」となるように並び替えてください。",
+      "choices": ["writing", "was", "I", "letter", "a"],
+      "answer": "Iwaswritingaletter",
+      "explanation": "I was writing a letter. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは笑っていました」\nThey (      ) laughing.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "They were laughing. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「雪が降っていましたか？」\n(      ) it snowing?",
+      "choices": ["Was", "Is", "Were", "Did"],
+      "answer": "Was",
+      "explanation": "Itが主語なのでWasを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは掃除をしていませんでした。」となるように並び替えてください。",
+      "choices": ["cleaning", "We", "weren't"],
+      "answer": "Weweren'tcleaning",
+      "explanation": "We weren't cleaning. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私の母は電話で話していました」\nMy mother (      ) talking on the phone.",
+      "choices": [],
+      "answer": "was",
+      "explanation": "My mother was talking... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは泳いでいました」\nThey (      ) swimming.",
+      "choices": ["were", "was", "are", "did"],
+      "answer": "were",
+      "explanation": "They were swimming. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰がピアノを弾いていましたか？」となるように並び替えてください。",
+      "choices": ["piano", "playing", "was", "Who", "the"],
+      "answer": "Whowasplayingthepiano",
+      "explanation": "Who was playing the piano? 疑問詞Whoが主語の場合、単数扱い（was）にします。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はその時、コンピュータを使っていました」\nI was (      ) a computer then.",
+      "choices": [],
+      "answer": "using",
+      "explanation": "Useのeを取ってusingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女はダンスをしていましたか？」\n(      ) she dancing?",
+      "choices": ["Was", "Is", "Were", "Did"],
+      "answer": "Was",
+      "explanation": "Was she dancing? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「風が吹いていました。」となるように並び替えてください。",
+      "choices": ["blowing", "wind", "The", "was"],
+      "answer": "Thewindwasblowing",
+      "explanation": "The wind was blowing. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは楽しい時を過ごしていました」\nWe (      ) having a good time.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "We were having... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は走っていませんでした」\nHe (      ) running.",
+      "choices": ["wasn't", "isn't", "didn't", "weren't"],
+      "answer": "wasn't",
+      "explanation": "He wasn't running. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は写真を撮っていました。」となるように並び替えてください。",
+      "choices": ["pictures", "taking", "I", "was"],
+      "answer": "Iwastakingpictures",
+      "explanation": "I was taking pictures. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはどこへ行くところでしたか？」\nWhere (      ) you going?",
+      "choices": [],
+      "answer": "were",
+      "explanation": "Where were you going? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その赤ちゃんは泣いていました」\nThe baby (      ) crying.",
+      "choices": ["was", "is", "were", "did"],
+      "answer": "was",
+      "explanation": "The baby（単数）なのでwasです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らはベンチに座っていました。」となるように並び替えてください。",
+      "choices": ["bench", "sitting", "They", "on", "were", "the"],
+      "answer": "Theyweresittingonthebench",
+      "explanation": "They were sitting on the bench. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私の兄は自分の部屋を掃除していました」\nMy brother was (      ) his room.",
+      "choices": [],
+      "answer": "cleaning",
+      "explanation": "Cleanにingをつけてcleaningです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは朝食を食べていましたか？」\n(      ) you eating breakfast?",
+      "choices": ["Were", "Are", "Was", "Did"],
+      "answer": "Were",
+      "explanation": "Were you eating...? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は英語を話していませんでした。」となるように並び替えてください。",
+      "choices": ["speaking", "wasn't", "English", "I"],
+      "answer": "Iwasn'tspeakingEnglish",
+      "explanation": "I wasn't speaking English. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は微笑んでいました」\nShe was (      ).",
+      "choices": [],
+      "answer": "smiling",
+      "explanation": "Smileのeを取ってsmilingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは働いていましたか？」\n(      ) they working?",
+      "choices": ["Were", "Are", "Was", "Do"],
+      "answer": "Were",
+      "explanation": "Were they working? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「太陽が輝いていました。」となるように並び替えてください。",
+      "choices": ["shining", "was", "sun", "The"],
+      "answer": "Thesunwasshining",
+      "explanation": "The sun was shining. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はその時、本を読んでいませんでした」\nI (      ) reading a book then.",
+      "choices": [],
+      "answer": "wasn't",
+      "explanation": "I wasn't reading... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「マイクとトムはサッカーをしていました」\nMike and Tom (      ) playing soccer.",
+      "choices": ["were", "was", "are", "is"],
+      "answer": "were",
+      "explanation": "Mike and Tom（2人）なのでwereです。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰があなたを手伝っていましたか？」となるように並び替えてください。",
+      "choices": ["helping", "Who", "you", "was"],
+      "answer": "Whowashelpingyou",
+      "explanation": "Who was helping you? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちはバスを待っていました」\nWe were (      ) for the bus.",
+      "choices": [],
+      "answer": "waiting",
+      "explanation": "Waitにingをつけてwaitingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は自転車に乗っていました」\nShe (      ) riding a bike.",
+      "choices": ["was", "is", "were", "did"],
+      "answer": "was",
+      "explanation": "She was riding... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はラジオを聴いていました。」となるように並び替えてください。",
+      "choices": ["radio", "to", "listening", "I", "was", "the"],
+      "answer": "Iwaslisteningtotheradio",
+      "explanation": "I was listening to the radio. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らはダンスをしていました」\nThey were (      ).",
+      "choices": [],
+      "answer": "dancing",
+      "explanation": "Danceのeを取ってdancingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は一生懸命勉強していましたか？」\n(      ) he studying hard?",
+      "choices": ["Was", "Is", "Were", "Did"],
+      "answer": "Was",
+      "explanation": "Was he studying...? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「その犬は走っていました。」となるように並び替えてください。",
+      "choices": ["running", "dog", "The", "was"],
+      "answer": "Thedogwasrunning",
+      "explanation": "The dog was running. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はコーヒーを飲んでいました」\nI was (      ) coffee.",
+      "choices": [],
+      "answer": "drinking",
+      "explanation": "Drinkにingをつけてdrinkingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたたちは何をしていましたか？」\nWhat (      ) you doing?",
+      "choices": ["were", "was", "are", "did"],
+      "answer": "were",
+      "explanation": "What were you doing? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは歌を歌っていませんでした。」となるように並び替えてください。",
+      "choices": ["singing", "weren't", "They", "songs"],
+      "answer": "Theyweren'tsingingsongs",
+      "explanation": "They weren't singing songs. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は赤いドレスを着ていました」\nShe was (      ) a red dress.",
+      "choices": [],
+      "answer": "wearing",
+      "explanation": "Wearにingをつけてwearingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「子供たちは公園で遊んでいました」\nThe children (      ) playing in the park.",
+      "choices": ["were", "was", "are", "did"],
+      "answer": "were",
+      "explanation": "The children（複数）なのでwereです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は何と言っていましたか？」となるように並び替えてください。",
+      "choices": ["saying", "he", "What", "was"],
+      "answer": "Whatwashesaying",
+      "explanation": "What was he saying? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは映画を見ていました」\nWe were (      ) a movie.",
+      "choices": [],
+      "answer": "watching",
+      "explanation": "Watchにingをつけてwatchingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は箱を運んでいました」\nShe (      ) carrying a box.",
+      "choices": ["was", "is", "were", "did"],
+      "answer": "was",
+      "explanation": "She was carrying... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は買い物をしていませんでした。」となるように並び替えてください。",
+      "choices": ["shopping", "wasn't", "I"],
+      "answer": "Iwasn'tshopping",
+      "explanation": "I wasn't shopping. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは夕食を作っていましたか？」\n(      ) they cooking dinner?",
+      "choices": [],
+      "answer": "Were",
+      "explanation": "Were they cooking...? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はその時、歩いていました」\nI (      ) walking then.",
+      "choices": ["was", "am", "were", "did"],
+      "answer": "was",
+      "explanation": "I was walking... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「その男の人はベンチで寝ていました。」となるように並び替えてください。",
+      "choices": ["sleeping", "man", "bench", "The", "was", "on", "the"],
+      "answer": "Themanwassleepingonthebench",
+      "explanation": "The man was sleeping on the bench. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは誰と話していたのですか？」\nWho (      ) you talking to?",
+      "choices": [],
+      "answer": "were",
+      "explanation": "Who were you talking to? Youが主語なのでwereです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の妹は泣いていました」\nMy sister (      ) crying.",
+      "choices": ["was", "is", "were", "did"],
+      "answer": "was",
+      "explanation": "My sister（単数）なのでwasです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らはその本を楽しんでいました。」となるように並び替えてください。",
+      "choices": ["enjoying", "book", "were", "They", "the"],
+      "answer": "Theywereenjoyingthebook",
+      "explanation": "They were enjoying the book. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は髪を切っていました」\nShe was (      ) her hair.",
+      "choices": [],
+      "answer": "cutting",
+      "explanation": "Cutはtを重ねてcuttingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは何を探していたのですか？」\nWhat (      ) you looking for?",
+      "choices": ["were", "was", "are", "did"],
+      "answer": "were",
+      "explanation": "What were you looking for? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はシャワーを浴びていませんでした。」となるように並び替えてください。",
+      "choices": ["shower", "taking", "wasn't", "a", "I"],
+      "answer": "Iwasn'ttakingashower",
+      "explanation": "I wasn't taking a shower. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その生徒たちは先生の話を聞いていました」\nThe students were (      ) to the teacher.",
+      "choices": [],
+      "answer": "listening",
+      "explanation": "Listen toの進行形、listening toです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はその時、家に帰るところでした」\nHe (      ) going home then.",
+      "choices": ["was", "is", "were", "did"],
+      "answer": "was",
+      "explanation": "He was going home... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「なぜ彼女は笑っていたのですか？」となるように並び替えてください。",
+      "choices": ["laughing", "she", "was", "Why"],
+      "answer": "Whywasshelaughing",
+      "explanation": "Why was she laughing? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは将来について話していました」\nWe (      ) talking about the future.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "We were talking... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「お湯が沸いていました」\nThe water (      ) boiling.",
+      "choices": ["was", "is", "were", "did"],
+      "answer": "was",
+      "explanation": "The water（単数）なのでwasです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは写真を撮っていましたか？」となるように並び替えてください。",
+      "choices": ["pictures", "taking", "Were", "they"],
+      "answer": "Weretheytakingpictures",
+      "explanation": "Were they taking pictures? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はその時、コンピュータを使っていませんでした」\nI (      ) using a computer then.",
+      "choices": [],
+      "answer": "wasn't",
+      "explanation": "I wasn't using... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は友達を待っていました」\nShe (      ) waiting for her friend.",
+      "choices": ["was", "is", "were", "did"],
+      "answer": "was",
+      "explanation": "She was waiting... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は英語を勉強していました。」となるように並び替えてください。",
+      "choices": ["studying", "English", "was", "I"],
+      "answer": "IwasstudyingEnglish",
+      "explanation": "I was studying English. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは嘘をついていました」\nThey were (      ).",
+      "choices": [],
+      "answer": "lying",
+      "explanation": "Lieのieをyに変えてlyingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちはテニスをしていました」\nWe (      ) playing tennis.",
+      "choices": ["were", "are", "was", "did"],
+      "answer": "were",
+      "explanation": "We were playing... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は何を作っていたのですか？」となるように並び替えてください。",
+      "choices": ["making", "he", "was", "What"],
+      "answer": "Whatwashemaking",
+      "explanation": "What was he making? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼に話しかけていました」\nI was (      ) to him.",
+      "choices": [],
+      "answer": "talking",
+      "explanation": "Talking to himです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その鳥は飛んでいましたか？」\n(      ) the bird flying?",
+      "choices": ["Was", "Is", "Were", "Did"],
+      "answer": "Was",
+      "explanation": "Was the bird flying? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは自分の車を売ろうとしていました。」となるように並び替えてください。",
+      "choices": ["selling", "were", "car", "They", "their"],
+      "answer": "Theyweresellingtheircar",
+      "explanation": "They were selling their car. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その時、電話は鳴っていませんでした」\nThe phone (      ) ringing then.",
+      "choices": [],
+      "answer": "wasn't",
+      "explanation": "The phone wasn't ringing then. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は箱を持っていませんでした」\nShe (      ) holding a box.",
+      "choices": ["wasn't", "isn't", "didn't", "weren't"],
+      "answer": "wasn't",
+      "explanation": "She wasn't holding... です。"
+    }
+  ]
+}
