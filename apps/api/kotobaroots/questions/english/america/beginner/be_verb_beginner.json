@@ -1,0 +1,748 @@
+{
+  "learning_topic": "be動詞",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nI (      ) a student.",
+      "choices": ["am", "are", "is", "be"],
+      "answer": "am",
+      "explanation": "主語が「I（私）」の時は、必ず「am」を使います。「私は学生です」という意味になります。\n\n【実用】自己紹介のI am...は基本中の基本です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nYou (      ) a teacher.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "主語が「You（あなた）」の時は「are」を使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nHe (      ) my friend.",
+      "choices": ["is", "am", "are", "be"],
+      "answer": "is",
+      "explanation": "主語が「He（彼）」のような三人称単数（IとYou以外のひとり）の時は「is」を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はケンです。」となるように並び替えてください。",
+      "choices": ["am", "Ken", "I"],
+      "answer": "IamKen",
+      "explanation": "I am Ken. です。\n\n【文化】英語圏では自分の名前を名乗るのが挨拶の基本です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nShe (      ) happy.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "主語が「She（彼女）」の時は「is」を使います。be動詞は「～です」という状態も表せます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nThis (      ) a pen.",
+      "choices": ["is", "am", "are", "be"],
+      "answer": "is",
+      "explanation": "「This（これ）」は単数（ひとつ）なので「is」を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは親切です。」となるように並び替えてください。",
+      "choices": ["kind", "are", "You"],
+      "answer": "Youarekind",
+      "explanation": "You are kind. です。be動詞は主語の性質（優しい、背が高いなど）を説明する働きがあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「I am」を短縮すると？\nI(      )m",
+      "choices": [],
+      "answer": "'",
+      "explanation": "I'm です。アポストロフィー（'）を使って文字を省略します。\n\n【実用】会話では短縮形を使うのが普通です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nIt (      ) a cat.",
+      "choices": ["is", "am", "are", "do"],
+      "answer": "is",
+      "explanation": "「It（それ）」は単数なので「is」を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「これは本です。」となるように並び替えてください。",
+      "choices": ["book", "is", "a", "This"],
+      "answer": "Thisisabook",
+      "explanation": "This is a book. です。\n\n【注意】数えられる名詞（book）には、ひとつであることを示す「a」が必要です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nWe (      ) students.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "主語が「We（私たち）」のように複数（ふたり以上）の時は、必ず「are」を使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nThey (      ) from Japan.",
+      "choices": ["are", "is", "am", "be"],
+      "answer": "are",
+      "explanation": "「They（彼ら/それら）」は複数なので「are」を使います。「～出身です」と言う時にもbe動詞を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あれは私の犬です。」となるように並び替えてください。",
+      "choices": ["That", "dog", "my", "is"],
+      "answer": "Thatismydog",
+      "explanation": "That is my dog. です。遠くにあるものを指すときはThisではなくThatを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「You are」を短縮すると？\nYou(      )re",
+      "choices": [],
+      "answer": "'",
+      "explanation": "You're です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nMike and Tom (      ) friends.",
+      "choices": ["are", "is", "am", "was"],
+      "answer": "are",
+      "explanation": "「Mike and Tom」は2人（複数）なので、「are」を使います。Mike is...と間違えないように注意しましょう。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は医者です。」となるように並び替えてください。",
+      "choices": ["doctor", "She", "a", "is"],
+      "answer": "Sheisadoctor",
+      "explanation": "She is a doctor. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「She is」を短縮すると？\nShe(      )s",
+      "choices": [],
+      "answer": "'",
+      "explanation": "She's です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nThe sky (      ) blue.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "「The sky（空）」はひとつ（単数）扱いなので「is」を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは幸せです。」となるように並び替えてください。",
+      "choices": ["We", "happy", "are"],
+      "answer": "Wearehappy",
+      "explanation": "We are happy. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「It is」を短縮すると？\nIt(      )s",
+      "choices": [],
+      "answer": "'",
+      "explanation": "It's です。\n\n【注意】Its（その～）と間違えやすいので、アポストロフィーの位置に気を付けましょう。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nMy name (      ) Sakura.",
+      "choices": ["is", "am", "are", "be"],
+      "answer": "is",
+      "explanation": "「My name（私の名前）」は「私」ではなく「もの（単数）」なので、amではなく「is」を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は背が高いです。」となるように並び替えてください。",
+      "choices": ["tall", "He", "is"],
+      "answer": "Heistall",
+      "explanation": "He is tall. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nYou and I (      ) busy.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "「You and I（あなたと私）」は2人なので複数扱いです。Iの後ろですがamではなく「are」を使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nThese (      ) my books.",
+      "choices": ["are", "is", "am", "this"],
+      "answer": "are",
+      "explanation": "「These（これら）」はThisの複数形なので「are」を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは先生です。」となるように並び替えてください。",
+      "choices": ["teachers", "They", "are"],
+      "answer": "Theyareteachers",
+      "explanation": "They are teachers. です。主語が複数なので、teacherにもsがつきます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「That is」を短縮すると？\nThat(      )s",
+      "choices": [],
+      "answer": "'",
+      "explanation": "That's です。「それは～ですね」と相槌を打つ時によく使います（例：That's good）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nThose (      ) birds.",
+      "choices": ["are", "is", "that", "am"],
+      "answer": "are",
+      "explanation": "「Those（あれら）」はThatの複数形なので「are」を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はお腹が空いています。」となるように並び替えてください。",
+      "choices": ["hungry", "am", "I"],
+      "answer": "Iamhungry",
+      "explanation": "I am hungry. です。\n\n【文化】Hungry?（お腹すいた？）と聞かれたら、Yes, I am.と答えます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nThe dog (      ) cute.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "「The dog（その犬）」は単数なので「is」です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nJapan (      ) a beautiful country.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "国名（Japan）は単数扱いなので「is」を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは私のヒーローです。」となるように並び替えてください。",
+      "choices": ["my", "hero", "You", "are"],
+      "answer": "Youaremyhero",
+      "explanation": "You are my hero. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nApples (      ) red.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "Apples（リンゴたち）は複数形なので「are」を使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "be動詞の原形は？",
+      "choices": ["be", "am", "is", "are"],
+      "answer": "be",
+      "explanation": "am, is, areの元の形（原形）は「be」です。だから「be動詞」と呼ばれます。"
+    },
+    {
+      "type": "sort",
+      "question": "「それは面白いです。」となるように並び替えてください。",
+      "choices": ["interesting", "It", "is"],
+      "answer": "Itisinteresting",
+      "explanation": "It is interesting. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「He is」を短縮すると？\nHe(      )s",
+      "choices": [],
+      "answer": "'",
+      "explanation": "He's です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nMy father (      ) at home.",
+      "choices": ["is", "am", "are", "in"],
+      "answer": "is",
+      "explanation": "「My father（私の父）」は一人（三人称単数）なので「is」を使います。「～にいる」という場所を表す時にもbe動詞を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は日本出身です。」となるように並び替えてください。",
+      "choices": ["from", "am", "Japan", "I"],
+      "answer": "IamfromJapan",
+      "explanation": "I am from Japan. です。\n\n【実用】自己紹介で最もよく使うフレーズの一つです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nThe cars (      ) new.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "Carsは複数形なので「are」を使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nEveryone (      ) here.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "「Everyone（みんな）」は意味は複数っぽいですが、文法上は「単数扱い」をする単語なので「is」を使います。\n\n【重要】間違いやすいポイントです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは遅刻です。」となるように並び替えてください。",
+      "choices": ["late", "You", "are"],
+      "answer": "Youarelate",
+      "explanation": "You are late. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nTime (      ) money.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "Time（時間）は数えられない名詞で、単数扱いなので「is」を使います。有名な諺です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nI (      ) tired.",
+      "choices": ["am", "is", "are", "be"],
+      "answer": "am",
+      "explanation": "I am tired.（私は疲れています）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「これは重要です。」となるように並び替えてください。",
+      "choices": ["important", "is", "This"],
+      "answer": "Thisisimportant",
+      "explanation": "This is important. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「We are」を短縮すると？\nWe(      )re",
+      "choices": [],
+      "answer": "'",
+      "explanation": "We're です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nIt (      ) sunny today.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "天気（Sunny, Rainyなど）を表す時の主語はItを使い、動詞は「is」になります。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは私の両親です。」となるように並び替えてください。",
+      "choices": ["parents", "my", "They", "are"],
+      "answer": "Theyaremyparents",
+      "explanation": "They are my parents. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nLondon (      ) in England.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "都市名（London）は単数扱いなので「is」です。「ロンドンはイギリスにあります」という意味です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nYour shoes (      ) nice.",
+      "choices": ["are", "is", "am", "be"],
+      "answer": "are",
+      "explanation": "Shoes（靴）は左右セットで複数形なので「are」を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は15歳です。」となるように並び替えてください。",
+      "choices": ["old", "15", "years", "I", "am"],
+      "answer": "Iam15yearsold",
+      "explanation": "I am 15 years old. です。年齢を言う時の決まり文句です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「They are」を短縮すると？\nThey(      )re",
+      "choices": [],
+      "answer": "'",
+      "explanation": "They're です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nThe water (      ) cold.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "Water（水）は数えられない名詞で、単数扱いなので「is」を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちはチームです。」となるように並び替えてください。",
+      "choices": ["team", "a", "We", "are"],
+      "answer": "Weareateam",
+      "explanation": "We are a team. です。チームという「ひとつの集合体」なのでa teamとなります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nMr. Tanaka (      ) our teacher.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "Mr. Tanakaは三人称単数なので「is」を使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nYou and Tom (      ) good students.",
+      "choices": ["are", "is", "am", "be"],
+      "answer": "are",
+      "explanation": "You and Tomは「あなたたち」という複数扱いになるので「are」です。"
+    },
+    {
+      "type": "sort",
+      "question": "「それは箱の中にあります。」となるように並び替えてください。",
+      "choices": ["box", "the", "in", "is", "It"],
+      "answer": "Itisinthebox",
+      "explanation": "It is in the box. です。be動詞＋場所（in the box）で存在を表します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「Who is」を短縮すると？\nWho(      )s",
+      "choices": [],
+      "answer": "'",
+      "explanation": "Who's（誰ですか）です。\n\n【注意】Whose（誰のもの）と発音が同じですが意味が違います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\n(      ) you ready?",
+      "choices": ["Are", "Is", "Am", "Be"],
+      "answer": "Are",
+      "explanation": "疑問文でも主語がYouなら「Are」を使います。Are you...?の形です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は私の兄弟です。」となるように並び替えてください。",
+      "choices": ["brother", "He", "is", "my"],
+      "answer": "Heismybrother",
+      "explanation": "He is my brother. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nMy computer (      ) new.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "Computerは単数なので「is」です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nThe news (      ) good.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "Newsは「s」がついていますが、単数扱いの名詞なので「is」を使います。\n\n【重要】よく出る引っかけ問題です。"
+    },
+    {
+      "type": "sort",
+      "question": "「その本は面白いです。」となるように並び替えてください。",
+      "choices": ["book", "interesting", "The", "is"],
+      "answer": "Thebookisinteresting",
+      "explanation": "The book is interesting. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nI (      ) a soccer player.",
+      "choices": [],
+      "answer": "am",
+      "explanation": "主語がIなので「am」です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nSnow (      ) white.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "Snow（雪）は数えられない名詞で単数扱いなので「is」です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はカナダ出身です。」となるように並び替えてください。",
+      "choices": ["Canada", "from", "She", "is"],
+      "answer": "SheisfromCanada",
+      "explanation": "She is from Canada. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nThat (      ) a big tree.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "Thatは単数なので「is」です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nDogs (      ) smart animals.",
+      "choices": ["are", "is", "am", "be"],
+      "answer": "are",
+      "explanation": "Dogsは複数形なので「are」を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は眠いです。」となるように並び替えてください。",
+      "choices": ["sleepy", "I", "am"],
+      "answer": "Iamsleepy",
+      "explanation": "I am sleepy. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nThe bag (      ) heavy.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "The bagは単数なので「is」です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nToday (      ) Sunday.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "Today（今日）は単数扱いなので「is」を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは正しい。」となるように並び替えてください。",
+      "choices": ["right", "You", "are"],
+      "answer": "Youareright",
+      "explanation": "You are right. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nMy eyes (      ) black.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "Eyes（両目）は複数形なので「are」です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nMathematics (      ) difficult.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "Mathematics（数学）は「s」がつきますが学問の名前で単数扱いなので「is」です。"
+    },
+    {
+      "type": "sort",
+      "question": "「ここは私の部屋です。」となるように並び替えてください。",
+      "choices": ["room", "my", "is", "This"],
+      "answer": "Thisismyroom",
+      "explanation": "This is my room. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「What is」を短縮すると？\nWhat(      )s",
+      "choices": [],
+      "answer": "'",
+      "explanation": "What's（何ですか）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nThe children (      ) in the park.",
+      "choices": ["are", "is", "am", "be"],
+      "answer": "are",
+      "explanation": "ChildrenはChildの複数形なので「are」を使います。\n\n【重要】不規則な変化をする複数形に注意しましょう。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは家族です。」となるように並び替えてください。",
+      "choices": ["family", "a", "We", "are"],
+      "answer": "Weareafamily",
+      "explanation": "We are a family. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nIt (      ) 10 o'clock now.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "時間を表す時の主語はItで、動詞は「is」を使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\n(      ) I late?",
+      "choices": ["Am", "Is", "Are", "Be"],
+      "answer": "Am",
+      "explanation": "主語がIの疑問文は「Am I...?」となります。「私は遅刻ですか？」と聞く表現です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はとても親切です。」となるように並び替えてください。",
+      "choices": ["kind", "very", "He", "is"],
+      "answer": "Heisverykind",
+      "explanation": "He is very kind. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nThis book (      ) mine.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "This book（この本）は単数なので「is」です。Mineは「私のもの」という意味です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nThe rich (      ) happy.",
+      "choices": ["are", "is", "am", "be"],
+      "answer": "are",
+      "explanation": "「The + 形容詞（The rich）」で「～な人々（お金持ちの人々）」という複数の意味になるため、「are」を使います。\n\n【上級】少し難しいですが、覚えておくと役立ちます。"
+    },
+    {
+      "type": "sort",
+      "question": "「あの店は有名です。」となるように並び替えてください。",
+      "choices": ["famous", "shop", "That", "is"],
+      "answer": "Thatshopisfamous",
+      "explanation": "That shop is famous. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nWe (      ) ready.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "We are ready.（準備完了です）という意味です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nAll of us (      ) students.",
+      "choices": ["are", "is", "am", "be"],
+      "answer": "are",
+      "explanation": "All of us（私たち全員）は複数なので「are」を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はとても嬉しいです。」となるように並び替えてください。",
+      "choices": ["glad", "very", "I", "am"],
+      "answer": "Iamveryglad",
+      "explanation": "I am very glad. です。Happyと似ていますが、Gladは感謝や安堵を含む嬉しさを表すことが多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nMy house (      ) small.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "My houseは単数なので「is」です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nFive dollars (      ) too much.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "金額（Five dollars）は「まとまった一つの金額」とみなして単数扱い（is）にすることが多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「これは良いカメラです。」となるように並び替えてください。",
+      "choices": ["camera", "good", "a", "is", "This"],
+      "answer": "Thisisagoodcamera",
+      "explanation": "This is a good camera. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nThe moon (      ) round.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "The moon（月）は単数なので「is」です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nHis teeth (      ) white.",
+      "choices": ["are", "is", "am", "be"],
+      "answer": "are",
+      "explanation": "TeethはTooth（歯）の複数形なので「are」を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は私の姉です。」となるように並び替えてください。",
+      "choices": ["sister", "my", "She", "is"],
+      "answer": "Sheismysister",
+      "explanation": "She is my sister. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nYou (      ) a good singer.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "主語がYouなので「are」です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nTo see (      ) to believe.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "「To see（見ること）」のような不定詞が主語の場合は、単数扱いになるので「is」を使います。「百聞は一見に如かず」という意味です。"
+    },
+    {
+      "type": "sort",
+      "question": "「これらは私のペンです。」となるように並び替えてください。",
+      "choices": ["pens", "These", "my", "are"],
+      "answer": "Thesearemypens",
+      "explanation": "These are my pens. です。複数形なのでThis is...を使わないよう注意しましょう。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nThe station (      ) near here.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "The station（駅）は単数なので「is」です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nA lot of people (      ) here.",
+      "choices": ["are", "is", "am", "be"],
+      "answer": "are",
+      "explanation": "People（人々）は複数扱いなので「are」を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は元気です。」となるように並び替えてください。",
+      "choices": ["fine", "am", "I"],
+      "answer": "Iamfine",
+      "explanation": "I am fine. です。\n\n【実用】How are you?と聞かれた時の定番の答えです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nIt (      ) rain.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "これは間違いやすい問題です！実は通常の文法では It rains.（一般動詞）を使いますが、進行形 It is raining. や It is rainy.（形容詞）ならisを使います。この問題は「It is a pen」のようなbe動詞の形を意図しています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nPhysics (      ) my favorite subject.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "Physics（物理学）も学問の名前で単数扱いなので「is」を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「その猫はかわいいです。」となるように並び替えてください。",
+      "choices": ["cute", "cat", "The", "is"],
+      "answer": "Thecatiscute",
+      "explanation": "The cat is cute. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nWe (      ) friends.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "We are friends. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\nBread and butter (      ) my breakfast.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "Bread and butter（バター付きパン）は2つの物ですが、セットで「1つの料理」とみなされるため、例外的に「is」を使うことが多いです。\n\n【上級】カレーライスなども同様です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは勇敢です。」となるように並び替えてください。",
+      "choices": ["brave", "You", "are"],
+      "answer": "Youarebrave",
+      "explanation": "You are brave. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄を埋めてください。\nThe earth (      ) round.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "The earth（地球）は単数なので「is」です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "空欄に当てはまるbe動詞は？\n(      ) it difficult?",
+      "choices": ["Is", "Are", "Am", "Be"],
+      "answer": "Is",
+      "explanation": "Itが主語の疑問文なので「Is it...?」となります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は日本人です。」となるように並び替えてください。",
+      "choices": ["Japanese", "am", "I"],
+      "answer": "IamJapanese",
+      "explanation": "I am Japanese. です。"
+    }
+  ]
+}
