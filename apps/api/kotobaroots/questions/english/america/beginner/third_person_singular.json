@@ -1,0 +1,650 @@
+{
+  "learning_topic": "三人称単数",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「彼はテニスをします」\nHe (      ) tennis.",
+      "choices": ["plays", "play", "playing", "player"],
+      "answer": "plays",
+      "explanation": "主語がHe（三人称単数）なので、動詞playにsをつけてplaysにします。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は猫が好きです。」となるように並び替えてください。",
+      "choices": ["likes", "cats", "She"],
+      "answer": "Shelikescats",
+      "explanation": "She likes cats. です。Sheが主語なのでlikeにsがつきます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私の父は銀行で働いています」\nMy father (      ) at a bank.",
+      "choices": [],
+      "answer": "works",
+      "explanation": "My fatherは「彼（He）」と同じ三人称単数なので、workにsがつきます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ケンは毎日勉強します」\nKen (      ) every day.",
+      "choices": ["studies", "studys", "study", "studieses"],
+      "answer": "studies",
+      "explanation": "Studyは「子音+y」で終わる語なので、yをiに変えてesをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は東京に住んでいます。」となるように並び替えてください。",
+      "choices": ["Tokyo", "in", "lives", "He"],
+      "answer": "HelivesinTokyo",
+      "explanation": "He lives in Tokyo. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は車を持っています」\nShe (      ) a car.",
+      "choices": [],
+      "answer": "has",
+      "explanation": "Haveの三人称単数形はhavesではなくhasという不規則な形になります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の母は上手に料理をします」\nMy mother (      ) well.",
+      "choices": ["cooks", "cook", "cooking", "cookes"],
+      "answer": "cooks",
+      "explanation": "My mother（彼女）が主語なのでsがつきます。"
+    },
+    {
+      "type": "sort",
+      "question": "「トムは速く走ります。」となるように並び替えてください。",
+      "choices": ["fast", "runs", "Tom"],
+      "answer": "Tomrunsfast",
+      "explanation": "Tom runs fast. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はテレビを見ます」\nHe (      ) TV.",
+      "choices": [],
+      "answer": "watches",
+      "explanation": "Watchのようにchで終わる語にはesをつけます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は学校へ行きます」\nShe (      ) to school.",
+      "choices": ["goes", "gos", "go", "going"],
+      "answer": "goes",
+      "explanation": "Goにはesをつけてgoesになります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の犬はとても速く泳ぎます。」となるように並び替えてください。",
+      "choices": ["swims", "fast", "My", "very", "dog"],
+      "answer": "Mydogswimsveryfast",
+      "explanation": "My dog swims very fast. です。Dog（それ）は三人称単数扱いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はここで働いていますか？」\n(      ) he work here?",
+      "choices": [],
+      "answer": "Does",
+      "explanation": "主語がHeの場合、疑問文の先頭はDoではなくDoesを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「エミは英語を話します」\nEmi (      ) English.",
+      "choices": ["speaks", "speak", "speakes", "speaking"],
+      "answer": "speaks",
+      "explanation": "Emiは三人称単数なのでspeaksです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は音楽が好きではありません。」となるように並び替えてください。",
+      "choices": ["doesn't", "like", "music", "He"],
+      "answer": "Hedoesn'tlikemusic",
+      "explanation": "He doesn't like music. 否定文ではdo notではなくdoes not（doesn't）を使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は宿題をします」\nShe (      ) her homework.",
+      "choices": [],
+      "answer": "does",
+      "explanation": "Do（する）の三人称単数形はdoesです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その猫は魚を食べます」\nThe cat (      ) fish.",
+      "choices": ["eats", "eat", "eates", "eating"],
+      "answer": "eats",
+      "explanation": "The catは三人称単数なのでeatsです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の兄はギターを弾きます。」となるように並び替えてください。",
+      "choices": ["plays", "guitar", "brother", "My", "the"],
+      "answer": "Mybrotherplaystheguitar",
+      "explanation": "My brother plays the guitar. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は納豆を食べません」\nHe (      ) eat natto.",
+      "choices": [],
+      "answer": "doesn't",
+      "explanation": "He doesn't eat natto. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は図書館を使います」\nShe (      ) the library.",
+      "choices": ["uses", "use", "using", "us"],
+      "answer": "uses",
+      "explanation": "Useにsをつけてusesです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は日本に住んでいますか？」となるように並び替えてください。",
+      "choices": ["Does", "he", "live", "in", "Japan"],
+      "answer": "DoesheliveinJapan",
+      "explanation": "Does he live in Japan? です。疑問文でDoesを使った場合、後ろの動詞（live）は原形に戻ります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私の妹は自分の部屋を掃除します」\nMy sister (      ) her room.",
+      "choices": [],
+      "answer": "cleans",
+      "explanation": "Cleanにsをつけてcleansです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はとても一生懸命勉強します」\nHe (      ) very hard.",
+      "choices": ["studies", "study", "studys", "studing"],
+      "answer": "studies",
+      "explanation": "Study→Studiesです。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰がこの車を持っていますか？」となるように並び替えてください。",
+      "choices": ["has", "car", "Who", "this"],
+      "answer": "Whohasthiscar",
+      "explanation": "Who has this car? Whoが主語の場合、三人称単数扱いをしてhasを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は夕食を作りますか？」\n(      ) he cook dinner?",
+      "choices": [],
+      "answer": "Does",
+      "explanation": "Does he cook dinner? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「太陽は東から昇る」\nThe sun (      ) in the east.",
+      "choices": ["rises", "rise", "rising", "rosed"],
+      "answer": "rises",
+      "explanation": "The sun（太陽）は世界に一つだけのものなので単数扱いです。Rise（昇る）にsがつきます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は早起きします。」となるように並び替えてください。",
+      "choices": ["up", "gets", "early", "She"],
+      "answer": "Shegetsupearly",
+      "explanation": "She gets up early. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「マイクはあまり外出しない」\nMike (      ) go out very often.",
+      "choices": [],
+      "answer": "doesn't",
+      "explanation": "Mike doesn't go out... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は顔を洗う」\nShe (      ) her face.",
+      "choices": ["washes", "wash", "washs", "washing"],
+      "answer": "washes",
+      "explanation": "Washはshで終わるのでesをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼のお父さんは先生をしています。」となるように並び替えてください。",
+      "choices": ["father", "teacher", "His", "is", "a"],
+      "answer": "Hisfatherisateacher",
+      "explanation": "His father is a teacher. be動詞の三人称単数（is）の復習です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「はい、彼はします（主語：he）」\nYes, he (      ).",
+      "choices": [],
+      "answer": "does",
+      "explanation": "Does he...? と聞かれたら、Yes, he does. と答えます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「このバスは新宿へ行きます」\nThis bus (      ) to Shinjuku.",
+      "choices": ["goes", "go", "gos", "going"],
+      "answer": "goes",
+      "explanation": "This busは単数なのでgoesです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたの犬は何を食べますか？」となるように並び替えてください。",
+      "choices": ["eat", "dog", "does", "your", "What"],
+      "answer": "Whatdoesyourdogeat",
+      "explanation": "What does your dog eat? 疑問詞What + Does + 主語 + 動詞の原形です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「メアリーはテニスをします」\nMary (      ) tennis.",
+      "choices": [],
+      "answer": "plays",
+      "explanation": "Playは「母音+y」なのでそのままsをつけます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はそれを欲しがっている」\nHe (      ) it.",
+      "choices": ["wants", "want", "wantes", "wanting"],
+      "answer": "wants",
+      "explanation": "Wantにsをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の妹は皿を洗います。」となるように並び替えてください。",
+      "choices": ["dishes", "sister", "washes", "My", "the"],
+      "answer": "Mysisterswashesthedishes",
+      "explanation": "My sister washes the dishes. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はどこに住んでいますか？」\nWhere (      ) she live?",
+      "choices": [],
+      "answer": "does",
+      "explanation": "Where does she live? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の友人は大阪に住んでいます」\nMy friend (      ) in Osaka.",
+      "choices": ["lives", "live", "livees", "living"],
+      "answer": "lives",
+      "explanation": "My friend（一人）は単数なのでlivesです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は毎日学校へ歩いていきます。」となるように並び替えてください。",
+      "choices": ["walks", "school", "to", "every", "He", "day"],
+      "answer": "Hewalkstoschooleveryday",
+      "explanation": "He walks to school every day. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は英語を教えます」\nHe (      ) English.",
+      "choices": [],
+      "answer": "teaches",
+      "explanation": "Teachはchで終わるのでesをつけます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「鳥は空を飛ぶ」\nA bird (      ) in the sky.",
+      "choices": ["flies", "flys", "fly", "flyes"],
+      "answer": "flies",
+      "explanation": "Flyは「子音+y」なので、yをiに変えてesをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は昼食を食べません。」となるように並び替えてください。",
+      "choices": ["doesn't", "eat", "She", "lunch"],
+      "answer": "Shedoesn'teatlunch",
+      "explanation": "She doesn't eat lunch. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は彼を知っていますか？」\n(      ) she know him?",
+      "choices": [],
+      "answer": "Does",
+      "explanation": "Does she know him? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は歌を歌います」\nHe (      ) a song.",
+      "choices": ["sings", "sing", "singes", "song"],
+      "answer": "sings",
+      "explanation": "Singにsをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の猫はミルクを飲みます。」となるように並び替えてください。",
+      "choices": ["drinks", "cat", "My", "milk"],
+      "answer": "Mycatdrinksmilk",
+      "explanation": "My cat drinks milk. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はとても一生懸命働きます」\nHe (      ) very hard.",
+      "choices": [],
+      "answer": "works",
+      "explanation": "Workにsをつけます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は歯を磨きます」\nShe (      ) her teeth.",
+      "choices": ["brushes", "brush", "brushs", "brash"],
+      "answer": "brushes",
+      "explanation": "Brushはshで終わるのでesをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はいつここに来ますか？」となるように並び替えてください。",
+      "choices": ["does", "come", "When", "here", "he"],
+      "answer": "Whendoeshecomehere",
+      "explanation": "When does he come here? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「いいえ、しません（主語：she）」\nNo, she (      ).",
+      "choices": [],
+      "answer": "doesn't",
+      "explanation": "No, she doesn't. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は本を読みます」\nShe (      ) a book.",
+      "choices": ["reads", "read", "reades", "reading"],
+      "answer": "reads",
+      "explanation": "Readにsをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたの弟はサッカーをしますか？」となるように並び替えてください。",
+      "choices": ["play", "brother", "Does", "your", "soccer"],
+      "answer": "Doesyourbrotherplaysoccer",
+      "explanation": "Does your brother play soccer? です。Doesを使うのでplayは原形です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ジョンは中国語を話せません」\nJohn (      ) speak Chinese.",
+      "choices": [],
+      "answer": "doesn't",
+      "explanation": "John doesn't speak Chinese. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の父は釣りに行きます」\nMy father (      ) fishing.",
+      "choices": ["goes", "go", "gos", "going"],
+      "answer": "goes",
+      "explanation": "Go fishing（釣りに行く）の三人称単数形です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は毎日ピアノを練習します。」となるように並び替えてください。",
+      "choices": ["practices", "She", "piano", "the", "every", "day"],
+      "answer": "Shepracticesthepianoeveryday",
+      "explanation": "She practices the piano every day. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は何を買いますか？」\nWhat (      ) he buy?",
+      "choices": [],
+      "answer": "does",
+      "explanation": "What does he buy? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の母は私を愛しています」\nMy mother (      ) me.",
+      "choices": ["loves", "love", "loveses", "loving"],
+      "answer": "loves",
+      "explanation": "Loveにsをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「その電車は10時に出発します。」となるように並び替えてください。",
+      "choices": ["leaves", "train", "ten", "at", "The"],
+      "answer": "Thetrainleavesatten",
+      "explanation": "The train leaves at ten. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はコーヒーを飲みます」\nShe (      ) coffee.",
+      "choices": [],
+      "answer": "drinks",
+      "explanation": "Drinkにsをつけます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ケンは公園で走ります」\nKen (      ) in the park.",
+      "choices": ["runs", "run", "runes", "running"],
+      "answer": "runs",
+      "explanation": "Runにsをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は毎日お風呂に入ります。」となるように並び替えてください。",
+      "choices": ["bath", "He", "takes", "a", "day", "every"],
+      "answer": "Hetakesabatheveryday",
+      "explanation": "He takes a bath every day. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それはここで止まりますか？」\n(      ) it stop here?",
+      "choices": [],
+      "answer": "Does",
+      "explanation": "Does it stop here? です。Itが主語なのでDoesを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は泳ぐのが好きです」\nShe (      ) swimming.",
+      "choices": ["likes", "like", "liking", "likse"],
+      "answer": "likes",
+      "explanation": "Likeにsをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の妹はいつも笑っています。」となるように並び替えてください。",
+      "choices": ["always", "smiles", "My", "sister"],
+      "answer": "Mysisternalwayssmiles",
+      "explanation": "My sister always smiles. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はどうやって学校へ行きますか？」\nHow (      ) he go to school?",
+      "choices": [],
+      "answer": "does",
+      "explanation": "How does he go to school? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「雨が降る（天気のit）」\nIt (      ).",
+      "choices": ["rains", "rain", "raines", "raining"],
+      "answer": "rains",
+      "explanation": "Itが主語の時、動詞rainにはsがつきます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は日曜日にテニスをします。」となるように並び替えてください。",
+      "choices": ["on", "tennis", "He", "Sundays", "plays"],
+      "answer": "HeplaystennisonSundays",
+      "explanation": "He plays tennis on Sundays. 毎週日曜日に、という意味でSundaysと複数形にします。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は上手に踊ります」\nShe (      ) well.",
+      "choices": [],
+      "answer": "dances",
+      "explanation": "Danceにsをつけます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は自転車に乗ります」\nHe (      ) a bike.",
+      "choices": ["rides", "ride", "ridees", "riding"],
+      "answer": "rides",
+      "explanation": "Rideにsをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰がこの家に住んでいますか？」となるように並び替えてください。",
+      "choices": ["house", "lives", "Who", "this", "in"],
+      "answer": "Wholivesinthishouse",
+      "explanation": "Who lives in this house? Whoが主語の時は三人称単数扱いなのでlivesになります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はたくさんの本を持っています」\nHe (      ) many books.",
+      "choices": [],
+      "answer": "has",
+      "explanation": "Haveの三単現はhasです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は朝食を作りません」\nShe (      ) make breakfast.",
+      "choices": ["doesn't", "don't", "isn't", "not"],
+      "answer": "doesn't",
+      "explanation": "She doesn't make breakfast. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の父は私のことをよく知っています。」となるように並び替えてください。",
+      "choices": ["knows", "well", "me", "father", "My"],
+      "answer": "Myfatherknowsmewell",
+      "explanation": "My father knows me well. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それはよく見えます」\nIt (      ) good.",
+      "choices": [],
+      "answer": "looks",
+      "explanation": "Look（～に見える）にsをつけます。It looks good."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は10時に寝ます」\nHe (      ) to bed at ten.",
+      "choices": ["goes", "go", "gos", "going"],
+      "answer": "goes",
+      "explanation": "Goes to bedです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は数学を勉強しますか？」となるように並び替えてください。",
+      "choices": ["Does", "math", "she", "study"],
+      "answer": "Doesshestudymath",
+      "explanation": "Does she study math? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はそれを必要としています」\nHe (      ) it.",
+      "choices": [],
+      "answer": "needs",
+      "explanation": "Needにsをつけます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の兄は早く帰ってきます」\nMy brother (      ) home early.",
+      "choices": ["comes", "come", "coming", "came"],
+      "answer": "comes",
+      "explanation": "Comeにsをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「この店は10時に閉まります。」となるように並び替えてください。",
+      "choices": ["closes", "shop", "at", "ten", "This"],
+      "answer": "Thisshopclosesatten",
+      "explanation": "This shop closes at ten. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は一生懸命試みます（努力します）」\nHe (      ) hard.",
+      "choices": [],
+      "answer": "tries",
+      "explanation": "Tryは「子音+y」なのでtriesになります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は手紙を書きます」\nShe (      ) a letter.",
+      "choices": ["writes", "write", "writees", "wrote"],
+      "answer": "writes",
+      "explanation": "Writeにsをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の母は音楽を愛しています。」となるように並び替えてください。",
+      "choices": ["loves", "music", "mother", "My"],
+      "answer": "Mymotherlovesmusic",
+      "explanation": "My mother loves music. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はドアを開けます」\nHe (      ) the door.",
+      "choices": [],
+      "answer": "opens",
+      "explanation": "Openにsをつけます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その授業は8時に始まります」\nThe class (      ) at eight.",
+      "choices": ["starts", "start", "starting", "startes"],
+      "answer": "starts",
+      "explanation": "The class（単数）なのでstartsです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はどこで働いていますか？」となるように並び替えてください。",
+      "choices": ["work", "Where", "he", "does"],
+      "answer": "Wheredoeshework",
+      "explanation": "Where does he work? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はたくさんお金を使います」\nShe (      ) a lot of money.",
+      "choices": [],
+      "answer": "spends",
+      "explanation": "Spend（使う）にsをつけます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は写真を取ります」\nHe (      ) pictures.",
+      "choices": ["takes", "take", "takees", "taking"],
+      "answer": "takes",
+      "explanation": "Takeにsをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は私の言うことを聞きません。」となるように並び替えてください。",
+      "choices": ["listen", "doesn't", "to", "He", "me"],
+      "answer": "Hedoesn'tlistentome",
+      "explanation": "He doesn't listen to me. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は箱を運びます」\nShe (      ) a box.",
+      "choices": [],
+      "answer": "carries",
+      "explanation": "Carryは「子音+y」なのでcarriesになります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の父は車を洗います」\nMy father (      ) the car.",
+      "choices": ["washes", "wash", "washs", "washing"],
+      "answer": "washes",
+      "explanation": "Washはshで終わるのでesをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はコンピュータを使いますか？」となるように並び替えてください。",
+      "choices": ["computer", "a", "Does", "use", "he"],
+      "answer": "Doesheuseacomputer",
+      "explanation": "Does he use a computer? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は歌うのが上手です（彼女は上手に歌います）」\nShe (      ) well.",
+      "choices": [],
+      "answer": "sings",
+      "explanation": "Singにsをつけます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「お金は木にはならない（育たない）」\nMoney (      ) not grow on trees.",
+      "choices": ["does", "do", "is", "are"],
+      "answer": "does",
+      "explanation": "Money（お金）は単数扱いなので、否定文はdoesn't (does not) を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はいつも早く来ます。」となるように並び替えてください。",
+      "choices": ["comes", "early", "He", "always"],
+      "answer": "Healwayscomesearly",
+      "explanation": "He always comes early. です。"
+    }
+  ]
+}
