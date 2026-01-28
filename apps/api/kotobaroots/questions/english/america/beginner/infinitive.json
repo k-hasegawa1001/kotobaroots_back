@@ -1,0 +1,629 @@
+{
+  "learning_topic": "不定詞",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「私はテニスをすることが好きです」\nI like (      ) tennis.",
+      "choices": ["to play", "play", "played", "plays"],
+      "answer": "to play",
+      "explanation": "like to play（テニスをすること）という名詞的用法です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は医者になりたいです。」となるように並び替えてください。",
+      "choices": ["be", "want", "to", "doctor", "a", "I"],
+      "answer": "Iwanttobeadoctor",
+      "explanation": "I want to be a doctor. Want to（～したい）は不定詞の基本フレーズです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は英語を勉強するためにここに来ました」\nI came here (      ) study English.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "To study（勉強するために）という副詞的用法（目的）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私にはすべきことがたくさんあります」\nI have a lot of things (      ) do.",
+      "choices": ["to", "for", "at", "of"],
+      "answer": "to",
+      "explanation": "Things to do（すべきこと/するためのこと）という形容詞的用法です。"
+    },
+    {
+      "type": "sort",
+      "question": "「英語を話すことは簡単ではありません。」となるように並び替えてください。",
+      "choices": ["English", "easy", "speak", "To", "is", "not"],
+      "answer": "TospeakEnglishisnoteasy",
+      "explanation": "To speak English is not easy. 不定詞が主語になる名詞的用法です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「何か飲むものが欲しい」\nI want something (      ) drink.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Something to drink（飲むための何か＝飲み物）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はあなたに会えてうれしいです」\nI am glad (      ) see you.",
+      "choices": ["to", "for", "with", "at"],
+      "answer": "to",
+      "explanation": "To see（会えて）。感情の原因を表す副詞的用法です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の夢はパイロットになることです。」となるように並び替えてください。",
+      "choices": ["be", "pilot", "is", "My", "dream", "to", "a"],
+      "answer": "Mydreamistobeapilot",
+      "explanation": "My dream is to be a pilot. 補語になる名詞的用法です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はその本を読み始めました」\nHe started (      ) read the book.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Start to...（～し始める）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は泳ぎたい」\nI (      ) to swim.",
+      "choices": ["want", "like", "hope", "need"],
+      "answer": "want",
+      "explanation": "Want to（～したい）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は新しい車を買う必要があります。」となるように並び替えてください。",
+      "choices": ["buy", "She", "car", "needs", "to", "new", "a"],
+      "answer": "Sheneedstobuyanewcar",
+      "explanation": "She needs to buy a new car. Need to...（～する必要がある）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「寝る時間ですよ」\nIt is time (      ) go to bed.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Time to...（～する時間）という形容詞的用法です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は本を読むのが好きです」\nHe likes (      ) read books.",
+      "choices": ["to", "for", "in", "at"],
+      "answer": "to",
+      "explanation": "Likes to read（読むこと）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は早起きするために早く寝ました。」となるように並び替えてください。",
+      "choices": ["up", "bed", "early", "get", "to", "went", "I", "to"],
+      "answer": "Iwenttobedtogetupearly",
+      "explanation": "I went to bed to get up early. 後半のto get upが「起きるために」という目的を表します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたを手伝いたい」\nI want (      ) help you.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Want to helpです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は京都を訪れたいと思っています」\nShe hopes (      ) visit Kyoto.",
+      "choices": ["to", "for", "at", "in"],
+      "answer": "to",
+      "explanation": "Hope to...（～することを望む＝～したい）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「野球を見るのは楽しい。」となるように並び替えてください。",
+      "choices": ["fun", "is", "baseball", "watch", "To"],
+      "answer": "Towatchbaseballisfun",
+      "explanation": "To watch baseball is fun. 不定詞の名詞的用法（主語）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「座るための椅子」\nA chair (      ) sit on",
+      "choices": [],
+      "answer": "to",
+      "explanation": "A chair to sit on. 形容詞的用法です。Sit on a chairと言うため、onが必要です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちはテニスをするために公園へ行きました」\nWe went to the park (      ) play tennis.",
+      "choices": ["to", "for", "at", "in"],
+      "answer": "to",
+      "explanation": "To play（するために）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はそのニュースを聞いて悲しいです。」となるように並び替えてください。",
+      "choices": ["hear", "am", "news", "sad", "the", "to", "I"],
+      "answer": "Iamsadtohearthenews",
+      "explanation": "I am sad to hear the news. 感情の原因（～して悲しい）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は彼に会おうとしました（努力しました）」\nShe tried (      ) see him.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Try to...（～しようとする）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私にはやるべき宿題があります」\nI have homework (      ) do.",
+      "choices": ["to", "for", "at", "with"],
+      "answer": "to",
+      "explanation": "Homework to do（やるべき宿題）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「世界中を旅することが私の夢です。」となるように並び替えてください。",
+      "choices": ["dream", "around", "world", "travel", "to", "the", "My", "is"],
+      "answer": "Mydreamistotravelaroundtheworld",
+      "explanation": "My dream is to travel around the world. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は将来、先生になりたい」\nI want (      ) be a teacher in the future.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Want to be（なりたい）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はその箱を開けようとしました」\nHe tried (      ) open the box.",
+      "choices": ["to", "for", "at", "in"],
+      "answer": "to",
+      "explanation": "Tried to open（開けようとした）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「何か食べるものが欲しい。」となるように並び替えてください。",
+      "choices": ["eat", "something", "want", "I", "to"],
+      "answer": "Iwantsomethingtoeat",
+      "explanation": "I want something to eat. Something to eat（食べ物）は頻出表現です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は早起きするために目覚まし時計をセットしました」\nHe set the alarm (      ) get up early.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "To get up（起きるために）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「歌うことは楽しい」\n(      ) sing is fun.",
+      "choices": ["To", "For", "At", "In"],
+      "answer": "To",
+      "explanation": "To sing（歌うこと）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はあなたに会うために駅へ行きました。」となるように並び替えてください。",
+      "choices": ["meet", "went", "I", "station", "you", "to", "to", "the"],
+      "answer": "Iwenttothestationtomeetyou",
+      "explanation": "I went to the station to meet you. 最初のtoは方向（駅へ）、2番目のtoは不定詞（会うために）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は歌手になりたがっています」\nShe wants (      ) be a singer.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Wants to beです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは泳ぎに行きたい」\nWe want (      ) go swimming.",
+      "choices": ["to", "for", "at", "in"],
+      "answer": "to",
+      "explanation": "Want to goです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の趣味は音楽を聴くことです。」となるように並び替えてください。",
+      "choices": ["music", "to", "hobby", "listen", "to", "is", "My"],
+      "answer": "Myhobbyistolistentomusic",
+      "explanation": "My hobby is to listen to music. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は本を読む時間がありません」\nHe has no time (      ) read books.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Time to read（読むための時間）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は日本語を勉強するために日本に来ました」\nI came to Japan (      ) study Japanese.",
+      "choices": ["to", "for", "at", "in"],
+      "answer": "to",
+      "explanation": "To study（勉強するために）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「何か書くもの（筆記用具）を持っていますか？」となるように並び替えてください。",
+      "choices": ["write", "have", "with", "anything", "you", "to", "Do"],
+      "answer": "Doyouhaveanythingtowritewith",
+      "explanation": "Do you have anything to write with? ペンなどで「書く（道具として）」の場合はwithが必要です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「夕食を作るのを手伝って」\nHelp me (      ) cook dinner.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Help me to cook. （Help me cookとtoを省略することもありますが、ここでは不定詞の学習としてtoを入れます）"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「外国語を学ぶことは大切です」\n(      ) learn foreign languages is important.",
+      "choices": ["To", "For", "At", "In"],
+      "answer": "To",
+      "explanation": "To learn（学ぶこと）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は新しい自転車を買うお金がありません。」となるように並び替えてください。",
+      "choices": ["money", "bike", "buy", "no", "new", "have", "to", "a", "I"],
+      "answer": "Ihavenomoneytobuyanewbike",
+      "explanation": "I have no money to buy a new bike. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたにまた会えてうれしいです」\nI am happy (      ) see you again.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Happy to see you.（会えてうれしい）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は雨が降り出したので走り始めた」\nShe started (      ) run because it began to rain.",
+      "choices": ["to", "for", "at", "in"],
+      "answer": "to",
+      "explanation": "Start to run（走り始める）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼には養うべき大家族がいます。」となるように並び替えてください。",
+      "choices": ["family", "large", "He", "support", "has", "a", "to"],
+      "answer": "Hehasalargefamilytosupport",
+      "explanation": "He has a large family to support. Family to support（養うべき家族）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはなぜここに来たのですか？」\nWhy did you come here? -> あなたに会うためです。 (      ) see you.",
+      "choices": [],
+      "answer": "To",
+      "explanation": "To see you. Whyの質問に対し、To...（～するためです）と答えることができます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女はピアニストになるために一生懸命練習しました」\nShe practiced hard (      ) be a pianist.",
+      "choices": ["to", "for", "at", "in"],
+      "answer": "to",
+      "explanation": "To be（なるために）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼にプレゼントをあげるつもりです。」となるように並び替えてください。",
+      "choices": ["give", "going", "him", "present", "am", "to", "a", "I"],
+      "answer": "Iamgoingtogivehimapresent",
+      "explanation": "I am going to give him a present. be going to（～するつもり）も不定詞の一種です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼に親切にしようとしました」\nI tried (      ) be kind to him.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Tried to be（～であろうとした）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「泳ぐことは健康に良い」\n(      ) swim is good for your health.",
+      "choices": ["To", "For", "At", "In"],
+      "answer": "To",
+      "explanation": "To swim（泳ぐこと）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「何か冷たい飲み物はありますか？」となるように並び替えてください。",
+      "choices": ["cold", "anything", "you", "drink", "Do", "have", "to"],
+      "answer": "Doyouhaveanythingcoldtodrink",
+      "explanation": "Do you have anything cold to drink? 形容詞coldはanythingの後ろ、to drinkの前に入ります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は今、出発しなければなりません」\nI have (      ) leave now.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Have to（～しなければならない）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は帽子を買うためにお店に行きました」\nShe went to the shop (      ) buy a hat.",
+      "choices": ["to", "for", "at", "in"],
+      "answer": "to",
+      "explanation": "To buy（買うために）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「そこへ行く必要はありません。」となるように並び替えてください。",
+      "choices": ["go", "need", "don't", "You", "there", "to"],
+      "answer": "Youdon'tneedtogothere",
+      "explanation": "You don't need to go there. Need toの否定形don't need to（～する必要はない）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はそれを聞いて驚きました」\nI was surprised (      ) hear that.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Surprised to hear（聞いて驚く）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「早起きすることは良い習慣です」\n(      ) get up early is a good habit.",
+      "choices": ["To", "For", "At", "In"],
+      "answer": "To",
+      "explanation": "To get up（起きること）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はあなたに会いにここに来ました。」となるように並び替えてください。",
+      "choices": ["you", "see", "to", "came", "here", "I"],
+      "answer": "Icameheretoseeyou",
+      "explanation": "I came here to see you. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「本を読むことは大切です」\nIt is important (      ) read books.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "It is ... to ～（～することは...だ）という仮主語構文です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は何と言っていいかわからなかった」\nHe didn't know what (      ) say.",
+      "choices": ["to", "for", "at", "in"],
+      "answer": "to",
+      "explanation": "What to say（何を言うべきか）です。疑問詞 + to不定詞の形です。"
+    },
+    {
+      "type": "sort",
+      "question": "「どこへ行けばいいか教えてください。」となるように並び替えてください。",
+      "choices": ["go", "me", "to", "where", "Tell"],
+      "answer": "Tellmewheretogo",
+      "explanation": "Tell me where to go. Where to go（どこへ行くべきか）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その機械の使い方を知っていますか？」\nDo you know how (      ) use the machine?",
+      "choices": [],
+      "answer": "to",
+      "explanation": "How to use（使い方/どう使うべきか）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「いつ始めればいいですか？」\nWhen (      ) start?",
+      "choices": ["to", "for", "at", "in"],
+      "answer": "to",
+      "explanation": "When to start（いつ始めるべきか）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は世界を変えたい。」となるように並び替えてください。",
+      "choices": ["change", "world", "want", "I", "to", "the"],
+      "answer": "Iwanttochangetheworld",
+      "explanation": "I want to change the world. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は私にドアを開けるように頼んだ」\nHe asked me (      ) open the door.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Ask + 人 + to ～（人に～するように頼む）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はあなたにそこへ行ってほしい」\nI want you (      ) go there.",
+      "choices": ["to", "for", "at", "in"],
+      "answer": "to",
+      "explanation": "Want + 人 + to ～（人に～してほしい）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「先生は生徒たちに静かにするように言いました。」となるように並び替えてください。",
+      "choices": ["be", "students", "teacher", "told", "The", "quiet", "the", "to"],
+      "answer": "Theteachertoldthestudentstobequiet",
+      "explanation": "The teacher told the students to be quiet. Tell + 人 + to ～（人に～するように言う）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は歴史を勉強し始めました」\nShe began (      ) study history.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Begin to...（～し始める）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「英語を勉強するのは面白いです」\n(      ) study English is interesting.",
+      "choices": ["To", "For", "At", "In"],
+      "answer": "To",
+      "explanation": "To study（勉強すること）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼には住む家がありません。」となるように並び替えてください。",
+      "choices": ["live", "has", "house", "He", "in", "no", "to"],
+      "answer": "Hehasnohousetolivein",
+      "explanation": "He has no house to live in. House to live in（住むための家）。前置詞inを忘れないようにしましょう。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「何か書くもの（紙など）をください」\nPlease give me something to write (      ).",
+      "choices": [],
+      "answer": "on",
+      "explanation": "Write on paper（紙の上に書く）なので、paperの代わりのsomethingにかかる場合はwrite onになります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は私にそれをしないように言いました」\nHe told me (      ) to do it.",
+      "choices": ["not", "no", "don't", "never"],
+      "answer": "not",
+      "explanation": "Tell + 人 + not to ～（人に～しないように言う）。不定詞の否定は直前にnotを置きます。"
+    },
+    {
+      "type": "sort",
+      "question": "「英語を学ぶことは簡単です。」となるように並び替えてください。",
+      "choices": ["English", "easy", "learn", "It", "to", "is"],
+      "answer": "ItiseasytolearnEnglish",
+      "explanation": "It is easy to learn English. 仮主語Itを使った構文です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼に会う約束があります」\nI have a promise (      ) meet him.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Promise to meet（会う約束）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はテニスをするのが上手です」\nHe knows (      ) to play tennis well.",
+      "choices": ["how", "what", "where", "when"],
+      "answer": "how",
+      "explanation": "Knows how to play（やり方を知っている＝上手だ）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「今日はすることが何もありません。」となるように並び替えてください。",
+      "choices": ["nothing", "do", "have", "I", "today", "to"],
+      "answer": "Ihavenothingtodotoday",
+      "explanation": "I have nothing to do today. Nothing to do（するためのことが何もない）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは将来、何になりたいですか？」\nWhat do you want (      ) be in the future?",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Want to beです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その本は理解するのが難しい」\nThe book is difficult (      ) understand.",
+      "choices": ["to", "for", "at", "in"],
+      "answer": "to",
+      "explanation": "Difficult to understand（理解するのに難しい）。形容詞を修飾する副詞的用法です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は成長して医者になりました。」となるように並び替えてください。",
+      "choices": ["up", "be", "She", "doctor", "grew", "to", "a"],
+      "answer": "Shegrewuptobeadoctor",
+      "explanation": "She grew up to be a doctor. 結果を表す不定詞（成長して、その結果～になった）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らがここに来るのは簡単です」\nIt is easy (      ) them to come here.",
+      "choices": [],
+      "answer": "for",
+      "explanation": "It is ... for (人) to ～（人が～するのは...だ）。不定詞の意味上の主語を表すforです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「真実を知ることは大切です」\nIt is important (      ) know the truth.",
+      "choices": ["to", "for", "at", "in"],
+      "answer": "to",
+      "explanation": "It is ... to ～ の構文です。"
+    },
+    {
+      "type": "sort",
+      "question": "「何か熱い飲み物をください。」となるように並び替えてください。",
+      "choices": ["drink", "hot", "me", "something", "Give", "to"],
+      "answer": "Givemesomethinghottodrink",
+      "explanation": "Give me something hot to drink. Something hot to drinkの語順に注意です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はあまりに疲れていて歩けません」\nHe is too tired (      ) walk.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "too ... to ～（あまりに...なので～できない）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は親切にも私を手伝ってくれました」\nShe was kind enough (      ) help me.",
+      "choices": ["to", "for", "at", "in"],
+      "answer": "to",
+      "explanation": "enough to ...（～するのに十分...だ＝親切にも～してくれた）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私には話す友達がたくさんいます。」となるように並び替えてください。",
+      "choices": ["talk", "friends", "many", "have", "to", "with", "I"],
+      "answer": "Ihavemanyfriendstotalkwith",
+      "explanation": "I have many friends to talk with. Talk with friendsと言うので、withが必要です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はあなたに私の家に来てほしい」\nI want you (      ) come to my house.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Want you to comeです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は朝食を食べるために起きました」\nI got up (      ) eat breakfast.",
+      "choices": ["to", "for", "at", "in"],
+      "answer": "to",
+      "explanation": "To eat（食べるために）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「どっちの道を行くべきか教えて。」となるように並び替えてください。",
+      "choices": ["go", "way", "Tell", "which", "me", "to"],
+      "answer": "Tellmewhichwaytogo",
+      "explanation": "Tell me which way to go. Which way to go（どちらの道を行くべきか）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はその箱を持ち上げるほど強い」\nHe is strong enough (      ) lift the box.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Strong enough to...（～するのに十分強い）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はその知らせを聞いてショックを受けました」\nHe was shocked (      ) hear the news.",
+      "choices": ["to", "for", "at", "in"],
+      "answer": "to",
+      "explanation": "Shocked to hear（聞いてショックを受ける）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたにとって英語を話すことは難しいですか？」となるように並び替えてください。",
+      "choices": ["English", "difficult", "you", "for", "speak", "Is", "it", "to"],
+      "answer": "IsitdifficultforyoutospeakEnglish",
+      "explanation": "Is it difficult for you to speak English? It is ... for ... to ～ の疑問文です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼が成功することを望みます」\nI wish him (      ) succeed.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Wish + 人 + to ～（人が～することを願う）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼に私のカバンを運んでもらいました」\nI got him (      ) carry my bag.",
+      "choices": ["to", "for", "at", "in"],
+      "answer": "to",
+      "explanation": "Get + 人 + to ～（人に～してもらう）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは生きるために食べる。」となるように並び替えてください。",
+      "choices": ["live", "eat", "We", "to"],
+      "answer": "Weeattolive",
+      "explanation": "We eat to live. To live（生きるために）です。"
+    }
+  ]
+}
