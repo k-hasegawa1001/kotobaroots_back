@@ -1,0 +1,706 @@
+{
+  "learning_topic": "否定文",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「私は学生ではありません」\nI (      ) a student.",
+      "choices": ["am not", "don't", "not", "no"],
+      "answer": "am not",
+      "explanation": "be動詞（am）の後ろにnotを置きます。「am not」には短縮形（amn't）がないため、I'm notと主語の方を短縮するのが一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はテニスをしません。」となるように並び替えてください。",
+      "choices": ["tennis", "play", "not", "do", "I"],
+      "answer": "Idonotplaytennis",
+      "explanation": "I do not play tennis. です。一般動詞（play）の前にdo notを置きます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これはペンではありません」\nThis (      ) a pen.",
+      "choices": [],
+      "answer": "isn't",
+      "explanation": "is notの短縮形isn'tを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは忙しくありません」\nYou (      ) busy.",
+      "choices": ["are not", "do not", "not", "no"],
+      "answer": "are not",
+      "explanation": "be動詞（are）の後ろにnotを置きます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は納豆が好きではありません。」となるように並び替えてください。",
+      "choices": ["like", "don't", "natto", "I"],
+      "answer": "Idon'tlikenatto",
+      "explanation": "I don't like natto. です。do notを短縮してdon'tにします。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は医者ではありません」\nI (      ) not a doctor.",
+      "choices": [],
+      "answer": "am",
+      "explanation": "I am not... の形です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは先生ではありません」\nWe (      ) teachers.",
+      "choices": ["are not", "don't", "not are", "no"],
+      "answer": "are not",
+      "explanation": "We are not... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「それは私の本ではありません。」となるように並び替えてください。",
+      "choices": ["book", "my", "is", "not", "That"],
+      "answer": "Thatisnotmybook",
+      "explanation": "That is not my book. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らはアメリカ出身ではありません」\nThey (      ) from America.",
+      "choices": [],
+      "answer": "aren't",
+      "explanation": "are notの短縮形aren'tを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は車を持っていません」\nI (      ) have a car.",
+      "choices": ["don't", "am not", "not", "no"],
+      "answer": "don't",
+      "explanation": "一般動詞（have）を否定するときは、前にdon'tを置きます。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは間違っていません。」となるように並び替えてください。",
+      "choices": ["wrong", "not", "are", "You"],
+      "answer": "Youarenotwrong",
+      "explanation": "You are not wrong. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は野球をしません」\nI (      ) play baseball.",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "I don't play baseball. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「今日は晴れではありません」\nIt (      ) sunny today.",
+      "choices": ["is not", "does not", "not", "no"],
+      "answer": "is not",
+      "explanation": "天気を表すIt is...の否定文です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは英語を話しません。」となるように並び替えてください。",
+      "choices": ["English", "speak", "don't", "We"],
+      "answer": "Wedon'tspeakEnglish",
+      "explanation": "We don't speak English. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は私の姉ではありません」\nShe (      ) my sister.",
+      "choices": [],
+      "answer": "isn't",
+      "explanation": "She isn't my sister. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それらはあなたの靴ではありません」\nThose (      ) your shoes.",
+      "choices": ["aren't", "isn't", "don't", "not"],
+      "answer": "aren't",
+      "explanation": "Those（あれら）は複数形なのでaren'tを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼を知りません。」となるように並び替えてください。",
+      "choices": ["him", "know", "not", "do", "I"],
+      "answer": "Idonotknowhim",
+      "explanation": "I do not know him. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は魚を食べません」\nI (      ) eat fish.",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "I don't eat fish. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この猫は大きくありません」\nThis cat (      ) big.",
+      "choices": ["is not", "don't", "does not", "not"],
+      "answer": "is not",
+      "explanation": "This catは単数なのでis notを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは日本人ではありません。」となるように並び替えてください。",
+      "choices": ["Japanese", "not", "are", "They"],
+      "answer": "TheyarenotJapanese",
+      "explanation": "They are not Japanese. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私の名前はケンではありません」\nMy name (      ) Ken.",
+      "choices": [],
+      "answer": "isn't",
+      "explanation": "My name isn't Ken. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はピアノを弾きません」\nI (      ) the piano.",
+      "choices": ["don't play", "play not", "not play", "am not play"],
+      "answer": "don't play",
+      "explanation": "一般動詞の否定は「don't + 動詞の原形」です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは一人ではありません。」となるように並び替えてください。",
+      "choices": ["alone", "not", "are", "You"],
+      "answer": "Youarenotalone",
+      "explanation": "You are not alone. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「そこに行くな」\n(      ) go there.",
+      "choices": [],
+      "answer": "Don't",
+      "explanation": "Don't + 動詞の原形で「～してはいけない」という禁止の命令文になります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは疲れていません」\nWe (      ) tired.",
+      "choices": ["aren't", "don't", "isn't", "not"],
+      "answer": "aren't",
+      "explanation": "We aren't tired. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はコーヒーを飲みません。」となるように並び替えてください。",
+      "choices": ["coffee", "drink", "don't", "I"],
+      "answer": "Idon'tdrinkcoffee",
+      "explanation": "I don't drink coffee. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それは難しくありません」\nIt (      ) difficult.",
+      "choices": [],
+      "answer": "isn't",
+      "explanation": "It isn't difficult. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これらは私のペンではありません」\nThese (      ) my pens.",
+      "choices": ["are not", "is not", "don't", "do not"],
+      "answer": "are not",
+      "explanation": "These（これら）は複数なのでare notです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は大阪に住んでいません。」となるように並び替えてください。",
+      "choices": ["Osaka", "in", "live", "not", "do", "I"],
+      "answer": "IdonotliveinOsaka",
+      "explanation": "I do not live in Osaka. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「遅刻するな」\n(      ) be late.",
+      "choices": [],
+      "answer": "Don't",
+      "explanation": "Don't be late. 遅刻（late）は形容詞なので、動詞のbeが必要です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は空腹ではありません」\nI (      ) hungry.",
+      "choices": ["am not", "don't", "isn't", "aren't"],
+      "answer": "am not",
+      "explanation": "I am not hungry. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは幸せではありません。」となるように並び替えてください。",
+      "choices": ["happy", "not", "are", "They"],
+      "answer": "Theyarenothappy",
+      "explanation": "They are not happy. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは学校に行きません」\nWe (      ) go to school.",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "We don't go to school. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは歌手ではありません」\nYou (      ) a singer.",
+      "choices": ["aren't", "don't", "isn't", "not"],
+      "answer": "aren't",
+      "explanation": "You aren't a singer. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「この本は面白くありません。」となるように並び替えてください。",
+      "choices": ["interesting", "not", "is", "book", "This"],
+      "answer": "Thisbookisnotinteresting",
+      "explanation": "This book is not interesting. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はこれが好きではありません」\nI (      ) like this.",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "I don't like this. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は私の先生ではありません」\nHe (      ) my teacher.",
+      "choices": ["is not", "don't", "not", "aren't"],
+      "answer": "is not",
+      "explanation": "He is not my teacher. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「走らないで。」となるように並び替えてください。",
+      "choices": ["run", "Don't"],
+      "answer": "Don'trun",
+      "explanation": "Don't run. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それらはあなたのバッグではありません」\nThose (      ) your bags.",
+      "choices": [],
+      "answer": "aren't",
+      "explanation": "Those aren't your bags. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はあなたを忘れません」\nI (      ) forget you.",
+      "choices": ["don't", "not", "am not", "no"],
+      "answer": "don't",
+      "explanation": "Forget（忘れる）は一般動詞なのでdon'tを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は悲しくありません。」となるように並び替えてください。",
+      "choices": ["sad", "not", "am", "I"],
+      "answer": "Iamnotsad",
+      "explanation": "I am not sad. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「諦めるな」\n(      ) give up.",
+      "choices": [],
+      "answer": "Don't",
+      "explanation": "Don't give up.（諦めないで）は励ましの定番フレーズです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは悪くありません」\nYou (      ) bad.",
+      "choices": ["are not", "do not", "not", "no"],
+      "answer": "are not",
+      "explanation": "You are not bad. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちはテレビを見ません。」となるように並び替えてください。",
+      "choices": ["TV", "watch", "don't", "We"],
+      "answer": "Wedon'twatchTV",
+      "explanation": "We don't watch TV. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はカナダ出身ではありません」\nI (      ) not from Canada.",
+      "choices": [],
+      "answer": "am",
+      "explanation": "I am not from Canada. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「トムと私は兄弟ではありません」\nTom and I (      ) brothers.",
+      "choices": ["are not", "is not", "am not", "don't"],
+      "answer": "are not",
+      "explanation": "主語がTom and I（2人＝複数）なのでare notを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼らが好きではありません。」となるように並び替えてください。",
+      "choices": ["them", "like", "not", "do", "I"],
+      "answer": "Idonotlikethem",
+      "explanation": "I do not like them. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「心配しないで」\n(      ) worry.",
+      "choices": [],
+      "answer": "Don't",
+      "explanation": "Don't worry. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その店は開いていません」\nThe shop (      ) open.",
+      "choices": ["isn't", "don't", "aren't", "not"],
+      "answer": "isn't",
+      "explanation": "The shopは単数なのでisn'tを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は犬を飼っていません。」となるように並び替えてください。",
+      "choices": ["dog", "a", "have", "don't", "I"],
+      "answer": "Idon'thaveadog",
+      "explanation": "I don't have a dog. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ここは安全ではありません」\nIt (      ) safe here.",
+      "choices": [],
+      "answer": "isn't",
+      "explanation": "It isn't safe here. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは走っていません」\nThey (      ) running.",
+      "choices": ["are not", "do not", "is not", "did not"],
+      "answer": "are not",
+      "explanation": "現在進行形（be動詞 + ~ing）の否定文も、be動詞の後ろにnotを置きます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は眠くありません。」となるように並び替えてください。",
+      "choices": ["sleepy", "not", "am", "I"],
+      "answer": "Iamnotsleepy",
+      "explanation": "I am not sleepy. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その箱を開けるな」\n(      ) open the box.",
+      "choices": [],
+      "answer": "Don't",
+      "explanation": "Don't open the box. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは10歳ではありません」\nYou (      ) ten years old.",
+      "choices": ["aren't", "don't", "isn't", "not"],
+      "answer": "aren't",
+      "explanation": "You aren't ten years old. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは車を使います。」の否定文にしてください。",
+      "choices": ["car", "use", "don't", "a", "We"],
+      "answer": "Wedon'tuseacar",
+      "explanation": "We don't use a car. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は理解できません」\nI (      ) understand.",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "I don't understand. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ロンドンは日本にありません」\nLondon (      ) in Japan.",
+      "choices": ["isn't", "aren't", "don't", "not"],
+      "answer": "isn't",
+      "explanation": "London isn't in Japan. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は疲れていません。」となるように並び替えてください。",
+      "choices": ["tired", "not", "am", "I"],
+      "answer": "Iamnottired",
+      "explanation": "I am not tired. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これに触るな」\n(      ) touch this.",
+      "choices": [],
+      "answer": "Don't",
+      "explanation": "Don't touch this. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は嘘をつきません」\nI (      ) tell a lie.",
+      "choices": ["don't", "not", "am not", "no"],
+      "answer": "don't",
+      "explanation": "Tell（言う）は一般動詞なのでdon'tを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「それは本物の金（ゴールド）ではありません。」となるように並び替えてください。",
+      "choices": ["gold", "real", "not", "is", "It"],
+      "answer": "Itisnotrealgold",
+      "explanation": "It is not real gold. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はあなたを信じません」\nI (      ) believe you.",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "I don't believe you. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らはここにはいません」\nThey (      ) here.",
+      "choices": ["aren't", "don't", "isn't", "not"],
+      "answer": "aren't",
+      "explanation": "They aren't here. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は毎日は走りません。」となるように並び替えてください。",
+      "choices": ["day", "every", "run", "not", "do", "I"],
+      "answer": "Idonotruneveryday",
+      "explanation": "I do not run every day. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「恥ずかしがらないで」\n(      ) be shy.",
+      "choices": [],
+      "answer": "Don't",
+      "explanation": "Don't be shy. 形容詞（shy）の前にbe動詞が必要です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これは簡単な問題ではありません」\nThis (      ) an easy question.",
+      "choices": ["isn't", "aren't", "don't", "doesn't"],
+      "answer": "isn't",
+      "explanation": "This isn't an easy question. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちはその歌を知りません。」となるように並び替えてください。",
+      "choices": ["song", "the", "know", "don't", "We"],
+      "answer": "Wedon'tknowthesong",
+      "explanation": "We don't know the song. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私の父は家にいません」\nMy father (      ) at home.",
+      "choices": [],
+      "answer": "isn't",
+      "explanation": "My father isn't at home. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はお金が欲しくありません」\nI (      ) want money.",
+      "choices": ["don't", "not", "am not", "no"],
+      "answer": "don't",
+      "explanation": "I don't want money. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは一人ぼっちではありません。」となるように並び替えてください。",
+      "choices": ["alone", "aren't", "You"],
+      "answer": "Youaren'talone",
+      "explanation": "You aren't alone. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「うるさくするな」\n(      ) be noisy.",
+      "choices": [],
+      "answer": "Don't",
+      "explanation": "Don't be noisy. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この部屋はきれいではありません」\nThis room (      ) clean.",
+      "choices": ["isn't", "don't", "aren't", "not"],
+      "answer": "isn't",
+      "explanation": "This room isn't clean. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は野菜を食べません。」となるように並び替えてください。",
+      "choices": ["vegetables", "eat", "don't", "I"],
+      "answer": "Idon'teatvegetables",
+      "explanation": "I don't eat vegetables. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は泳げません（泳ぎません）」\nI (      ) swim.",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "I don't swim.（習慣として泳がない、という意味になります）。能力として「泳げない」はcannotを使いますが、ここでは一般動詞の否定としてdon'tを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それらは同じではありません」\nThey (      ) the same.",
+      "choices": ["aren't", "don't", "isn't", "not"],
+      "answer": "aren't",
+      "explanation": "They aren't the same. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は怒っていません。」となるように並び替えてください。",
+      "choices": ["angry", "not", "am", "I"],
+      "answer": "Iamnotangry",
+      "explanation": "I am not angry. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「怖がらないで」\n(      ) be afraid.",
+      "choices": [],
+      "answer": "Don't",
+      "explanation": "Don't be afraid. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼と話しません」\nI (      ) talk with him.",
+      "choices": ["don't", "not", "am not", "no"],
+      "answer": "don't",
+      "explanation": "I don't talk with him. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「それは良くありません。」となるように並び替えてください。",
+      "choices": ["good", "not", "is", "It"],
+      "answer": "Itisnotgood",
+      "explanation": "It is not good. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは忙しくありません」\nWe (      ) busy.",
+      "choices": [],
+      "answer": "aren't",
+      "explanation": "We aren't busy. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「そのリンゴは赤くありません」\nThe apple (      ) red.",
+      "choices": ["isn't", "don't", "aren't", "not"],
+      "answer": "isn't",
+      "explanation": "The apple isn't red. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はあなたを必要としていません。」となるように並び替えてください。",
+      "choices": ["you", "need", "don't", "I"],
+      "answer": "Idon'tneedyou",
+      "explanation": "I don't need you. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ここに来るな」\n(      ) come here.",
+      "choices": [],
+      "answer": "Don't",
+      "explanation": "Don't come here. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は暇ではありません」\nI (      ) free.",
+      "choices": ["am not", "don't", "isn't", "not"],
+      "answer": "am not",
+      "explanation": "I am not free. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは友人ではありません。」となるように並び替えてください。",
+      "choices": ["friends", "not", "are", "They"],
+      "answer": "Theyarenotfriends",
+      "explanation": "They are not friends. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は英語を勉強しません」\nI (      ) study English.",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "I don't study English. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の車は新しくありません」\nMy car (      ) new.",
+      "choices": ["isn't", "don't", "aren't", "not"],
+      "answer": "isn't",
+      "explanation": "My car isn't new. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「そのニュースを見てはいけません。」となるように並び替えてください。",
+      "choices": ["news", "the", "watch", "Don't"],
+      "answer": "Don'twatchthenews",
+      "explanation": "Don't watch the news. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これは私の部屋ではありません」\nThis (      ) my room.",
+      "choices": [],
+      "answer": "isn't",
+      "explanation": "This isn't my room. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は朝食を作りません」\nI (      ) make breakfast.",
+      "choices": ["don't", "not", "am not", "no"],
+      "answer": "don't",
+      "explanation": "I don't make breakfast. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは子供ではありません。」となるように並び替えてください。",
+      "choices": ["child", "a", "not", "are", "You"],
+      "answer": "Youarenotachild",
+      "explanation": "You are not a child. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それを食べるな」\n(      ) eat it.",
+      "choices": [],
+      "answer": "Don't",
+      "explanation": "Don't eat it. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちはスポーツをしません」\nWe (      ) play sports.",
+      "choices": ["don't", "not", "aren't", "no"],
+      "answer": "don't",
+      "explanation": "We don't play sports. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はそのバッグを持っていません。」となるように並び替えてください。",
+      "choices": ["bag", "the", "have", "don't", "I"],
+      "answer": "Idon'thavethebag",
+      "explanation": "I don't have the bag. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その本は厚くありません」\nThe book (      ) thick.",
+      "choices": [],
+      "answer": "isn't",
+      "explanation": "The book isn't thick. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼らに会いません」\nI (      ) meet them.",
+      "choices": ["don't", "not", "am not", "no"],
+      "answer": "don't",
+      "explanation": "I don't meet them. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「それは正しくありません。」となるように並び替えてください。",
+      "choices": ["correct", "not", "is", "It"],
+      "answer": "Itisnotcorrect",
+      "explanation": "It is not correct. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「悲しまないで」\n(      ) be sad.",
+      "choices": [],
+      "answer": "Don't",
+      "explanation": "Don't be sad. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はそれを使っていません」\nI (      ) using it.",
+      "choices": ["am not", "don't", "not", "no"],
+      "answer": "am not",
+      "explanation": "現在進行形（I am using...）の否定なので、I am not using it. となります。"
+    }
+  ]
+}
