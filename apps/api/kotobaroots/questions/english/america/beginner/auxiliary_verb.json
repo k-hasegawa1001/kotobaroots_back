@@ -1,0 +1,692 @@
+{
+  "learning_topic": "助動詞",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「私は速く泳ぐことができます」\nI (      ) swim fast.",
+      "choices": ["can", "am", "do", "play"],
+      "answer": "can",
+      "explanation": "「～できる」という能力を表すときは助動詞canを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはピアノを弾けますか？」となるように並び替えてください。",
+      "choices": ["piano", "the", "play", "you", "Can"],
+      "answer": "Canyouplaythepiano",
+      "explanation": "Can you play the piano? です。Canを文頭に出して疑問文にします。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は漢字が読めません」\nI (      ) read Kanji.",
+      "choices": [],
+      "answer": "cannot",
+      "explanation": "can notと分けることもありますが、cannotと一語で書くのがフォーマルで一般的です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「手伝ってくれますか？」\n(      ) you help me?",
+      "choices": ["Can", "Are", "Do", "Is"],
+      "answer": "Can",
+      "explanation": "Can you...?は「～できますか？」だけでなく「～してくれますか？」という依頼にも使われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はスキーができます。」となるように並び替えてください。",
+      "choices": ["ski", "can", "I"],
+      "answer": "Icanski",
+      "explanation": "I can ski. です。Skiは動詞として使えます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「窓を開けてもいいですか？」\n(      ) I open the window?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can I...? は「（私が）～してもいいですか？」という許可を求める表現です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は英語を話すことができます」\nHe (      ) speak English.",
+      "choices": ["can", "cans", "is", "does"],
+      "answer": "can",
+      "explanation": "助動詞canは主語がHe（三人称単数）でも「s」をつけません。常に原形canのままです。\n\n【重要】ここが一般動詞との大きな違いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は車の運転ができません。」となるように並び替えてください。",
+      "choices": ["drive", "can't", "car", "a", "She"],
+      "answer": "Shecan'tdriveacar",
+      "explanation": "She can't drive a car. です。cannotの短縮形can'tを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「はい、できます（主語：I）」\nYes, I (      ).",
+      "choices": [],
+      "answer": "can",
+      "explanation": "Can you...? と聞かれたら、Yes, I can. と答えます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ここでは走ってはいけません（走ることはできません）」\nYou (      ) run here.",
+      "choices": ["cannot", "don't", "aren't", "not"],
+      "answer": "cannot",
+      "explanation": "You cannot...は「能力的に無理」という意味だけでなく、「ルールとして禁止」という意味でも使われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「ここで写真を撮ってもいいですよ。」となるように並び替えてください。",
+      "choices": ["here", "take", "can", "pictures", "You"],
+      "answer": "Youcantakepictureshere",
+      "explanation": "You can take pictures here. です。「～できる＝～してもよい（許可）」という意味になります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「いいえ、できません（主語：he）」\nNo, he (      ).",
+      "choices": [],
+      "answer": "can't",
+      "explanation": "No, he can't. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "助動詞（canなど）の後ろに来る動詞の形は？",
+      "choices": ["原形", "sをつける", "ingをつける", "過去形"],
+      "answer": "原形",
+      "explanation": "助動詞の後ろは必ず「動詞の原形（元の形）」になります。He can swimsとは言いません。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の父は上手に料理ができます。」となるように並び替えてください。",
+      "choices": ["well", "cook", "can", "father", "My"],
+      "answer": "Myfathercancookwell",
+      "explanation": "My father can cook well. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らはここに来ることができません」\nThey (      ) come here.",
+      "choices": [],
+      "answer": "cannot",
+      "explanation": "They cannot come here. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ペンを貸してくれますか？（使ってもいいですか？）」\n(      ) I use your pen?",
+      "choices": ["Can", "Am", "Do", "Are"],
+      "answer": "Can",
+      "explanation": "Can I use...? は「貸して」と言いたい時の定番フレーズです。"
+    },
+    {
+      "type": "sort",
+      "question": "「鳥は飛ぶことができます。」となるように並び替えてください。",
+      "choices": ["fly", "Birds", "can"],
+      "answer": "Birdscanfly",
+      "explanation": "Birds can fly. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「トイレに行ってもいいですか？」\n(      ) I go to the bathroom?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can I go to the bathroom? です。学校の授業中などに先生に聞くフレーズです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「そんなはずはない（それは真実でありえない）」\nIt (      ) be true.",
+      "choices": ["can't", "is", "doesn't", "not"],
+      "answer": "can't",
+      "explanation": "Can't be...で「～のはずがない（強い否定の推測）」という意味になります。\n\n【上級】It can be true（ありえる）の逆です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたのお母さんは自転車に乗れますか？」となるように並び替えてください。",
+      "choices": ["bike", "a", "ride", "mother", "your", "Can"],
+      "answer": "Canyourmotherrideabike",
+      "explanation": "Can your mother ride a bike? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「聞こえますか？」\n(      ) you hear me?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can you hear me? オンライン通話などで頻出のフレーズです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「誰でも間違いを犯すことはある（起こりうる）」\nAnyone (      ) make mistakes.",
+      "choices": ["can", "is", "does", "has"],
+      "answer": "can",
+      "explanation": "ここでのCanは「～しうる（可能性がある）」という意味です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はあなたが見えません。」となるように並び替えてください。",
+      "choices": ["you", "see", "can't", "I"],
+      "answer": "Ican'tseeyou",
+      "explanation": "I can't see you. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「そのドアを開けてくれますか？」\n(      ) you open the door?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can you open the door? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は英語を話せません」\nI (      ) speak English.",
+      "choices": ["cannot", "don't", "not", "am not"],
+      "answer": "cannot",
+      "explanation": "能力として話せない場合はcannotを使います。I don't speak...だと「（話せるけど）話さない」というニュアンスになることがあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは勝てる！」となるように並び替えてください。",
+      "choices": ["win", "can", "We"],
+      "answer": "Wecanwin",
+      "explanation": "We can win. スポーツの応援などで使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「魚は泳げます」\nFish (      ) swim.",
+      "choices": [],
+      "answer": "can",
+      "explanation": "Fish can swim. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女はピアノを弾けません」\nShe (      ) play the piano.",
+      "choices": ["can't", "doesn't", "isn't", "not"],
+      "answer": "can't",
+      "explanation": "She can't play the piano. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はそれを信じられません。」となるように並び替えてください。",
+      "choices": ["it", "believe", "can't", "I"],
+      "answer": "Ican'tbelieveit",
+      "explanation": "I can't believe it. 驚いた時の決まり文句です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「入ってもいいですか？」\n(      ) I come in?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can I come in? 部屋に入る時のノックと共に使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「トムは速く走ることができますか？」\n(      ) Tom run fast?",
+      "choices": ["Can", "Does", "Is", "Has"],
+      "answer": "Can",
+      "explanation": "能力を聞いているのでCanを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは何かスポーツができますか？」となるように並び替えてください。",
+      "choices": ["sports", "any", "play", "you", "Can"],
+      "answer": "Canyouplayanysports",
+      "explanation": "Can you play any sports? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ペンギンは飛べません」\nPenguins (      ) fly.",
+      "choices": [],
+      "answer": "cannot",
+      "explanation": "Penguins cannot fly. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は待てません」\nI (      ) wait.",
+      "choices": ["can't", "don't", "am not", "no"],
+      "answer": "can't",
+      "explanation": "I can't wait. 楽しみすぎて待てない、という意味でも使われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私に何ができますか？（手伝いましょうか？）」となるように並び替えてください。",
+      "choices": ["do", "I", "What", "can"],
+      "answer": "WhatcanIdo",
+      "explanation": "What can I do? です。疑問詞Whatと一緒に使うパターンです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「いつ会いましょうか？（いつ会えますか？）」\nWhen (      ) we meet?",
+      "choices": [],
+      "answer": "can",
+      "explanation": "When can we meet? 予定を調整する時によく使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これを買ってもいいですか？」\n(      ) I buy this?",
+      "choices": ["Can", "Do", "Am", "Are"],
+      "answer": "Can",
+      "explanation": "Can I buy this? 親にねだる時などの表現です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは私の名前を覚えられますか？」となるように並び替えてください。",
+      "choices": ["name", "my", "remember", "you", "Can"],
+      "answer": "Canyouremembermyname",
+      "explanation": "Can you remember my name? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もう歩けません（疲れすぎて）」\nI (      ) walk anymore.",
+      "choices": [],
+      "answer": "can't",
+      "explanation": "I can't walk anymore. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はとても上手に歌えます」\nHe (      ) sing very well.",
+      "choices": ["can", "is", "does", "has"],
+      "answer": "can",
+      "explanation": "He can sing very well. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰がこの箱を開けられますか？」となるように並び替えてください。",
+      "choices": ["box", "this", "open", "Who", "can"],
+      "answer": "Whocanopenthisbox",
+      "explanation": "Who can open this box? 主語がWho（誰）の場合の疑問文です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「塩を取ってくれますか？」\n(      ) you pass me the salt?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can you pass me the salt? 食卓での定番フレーズです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は明日行くことができません」\nI (      ) go tomorrow.",
+      "choices": ["cannot", "don't", "am not", "won't"],
+      "answer": "cannot",
+      "explanation": "未来のことですが、現時点で「行けない（都合がつかない）」と判断しているのでcannotを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「どこでチケットを買えますか？」となるように並び替えてください。",
+      "choices": ["tickets", "buy", "I", "Where", "can"],
+      "answer": "WherecanIbuytickets",
+      "explanation": "Where can I buy tickets? 旅行で必須のフレーズです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは見えますか？」\n(      ) you see it?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can you see it? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この部屋を使ってもいいですか？」\n(      ) we use this room?",
+      "choices": ["Can", "Do", "Are", "Have"],
+      "answer": "Can",
+      "explanation": "Can we use this room? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「それは本当のはずがない。」となるように並び替えてください。",
+      "choices": ["true", "be", "can't", "It"],
+      "answer": "Itcan'tbetrue",
+      "explanation": "It can't be true. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は日本語を少し話せます」\nI (      ) speak a little Japanese.",
+      "choices": [],
+      "answer": "can",
+      "explanation": "I can speak a little Japanese. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「メニューを見せてもらえますか？」\n(      ) I see the menu?",
+      "choices": ["Can", "Do", "Am", "Are"],
+      "answer": "Can",
+      "explanation": "Can I see the menu? レストランで使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたのお兄さんは泳げますか？」となるように並び替えてください。",
+      "choices": ["swim", "brother", "your", "Can"],
+      "answer": "Canyourbrotherswim",
+      "explanation": "Can your brother swim? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は箸を使えません」\nI (      ) use chopsticks.",
+      "choices": [],
+      "answer": "cannot",
+      "explanation": "I cannot use chopsticks. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「後でかけ直してくれますか？（電話）」\n(      ) you call me back later?",
+      "choices": ["Can", "Do", "Are", "Is"],
+      "answer": "Can",
+      "explanation": "Can you call me back later? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは何個リンゴを食べられますか？」となるように並び替えてください。",
+      "choices": ["eat", "you", "apples", "many", "How", "can"],
+      "answer": "Howmanyapplescanyoueat",
+      "explanation": "How many apples can you eat? 数を聞くHow manyとcanの組み合わせです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ここで野球をしてもいいですか？」\n(      ) we play baseball here?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can we play baseball here? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「赤ちゃんは走れません」\nA baby (      ) run.",
+      "choices": ["can't", "don't", "isn't", "doesn't"],
+      "answer": "can't",
+      "explanation": "A baby can't run. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はすぐに戻れます。」となるように並び替えてください。",
+      "choices": ["soon", "back", "come", "can", "I"],
+      "answer": "Icancomebacksoon",
+      "explanation": "I can come back soon. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「試着してもいいですか？」\n(      ) I try it on?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can I try it on? 服屋さんで必須のフレーズです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「駅まで歩けますか？」\n(      ) you walk to the station?",
+      "choices": ["Can", "Do", "Are", "Is"],
+      "answer": "Can",
+      "explanation": "Can you walk to the station?（歩ける距離/能力がありますか？）という意味です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは英語でそれを書けますか？」となるように並び替えてください。",
+      "choices": ["English", "in", "it", "write", "you", "Can"],
+      "answer": "CanyouwriteitinEnglish",
+      "explanation": "Can you write it in English? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はあなたのお名前を思い出せません」\nI (      ) remember your name.",
+      "choices": [],
+      "answer": "can't",
+      "explanation": "I can't remember your name. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この水は飲めます（飲んでも安全です）」\nYou (      ) drink this water.",
+      "choices": ["can", "do", "are", "have"],
+      "answer": "can",
+      "explanation": "You can drink...で「飲める（可能・許可）」を表します。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちはどこに行けますか？」となるように並び替えてください。",
+      "choices": ["go", "we", "can", "Where"],
+      "answer": "Wherecanwego",
+      "explanation": "Where can we go? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は自分のメガネが見つかりません」\nI (      ) find my glasses.",
+      "choices": [],
+      "answer": "cannot",
+      "explanation": "I cannot find my glasses. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「教えてくれますか？」\n(      ) you tell me?",
+      "choices": ["Can", "Do", "Are", "Is"],
+      "answer": "Can",
+      "explanation": "Can you tell me? 道を聞く前などによく使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはどのくらい速く走れますか？」となるように並び替えてください。",
+      "choices": ["run", "can", "fast", "you", "How"],
+      "answer": "Howfastcanyourun",
+      "explanation": "How fast can you run? 程度を聞くHow fastとcanの組み合わせです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はそれを持てません（重すぎて）」\nI (      ) hold it.",
+      "choices": [],
+      "answer": "can't",
+      "explanation": "I can't hold it. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「お母さんを手伝ってあげなさい（手伝ってあげてくれる？）」\n(      ) you help your mother?",
+      "choices": ["Can", "Do", "Are", "Is"],
+      "answer": "Can",
+      "explanation": "Can you help...? は親が子に頼む時などにも使われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「それはここで買えます。」となるように並び替えてください。",
+      "choices": ["here", "it", "buy", "can", "You"],
+      "answer": "Youcanbuyithere",
+      "explanation": "You can buy it here. 主語をYou（一般の人）にして「ここではそれが買えますよ」と表現します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「予約できますか？」\n(      ) I make a reservation?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can I make a reservation? レストランの予約などで使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はまだ来られません」\nHe (      ) come yet.",
+      "choices": ["can't", "doesn't", "isn't", "not"],
+      "answer": "can't",
+      "explanation": "He can't come yet. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はそんなにたくさん食べられません。」となるように並び替えてください。",
+      "choices": ["much", "that", "eat", "can't", "I"],
+      "answer": "Ican'teatthatmuch",
+      "explanation": "I can't eat that much. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「窓を開けてくれませんか？」\n(      ) you open the window?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can you open the window? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは明日テニスができます」\nWe (      ) play tennis tomorrow.",
+      "choices": ["can", "do", "are", "play"],
+      "answer": "can",
+      "explanation": "We can play tennis tomorrow. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「どうすれば英語を学べますか？」となるように並び替えてください。",
+      "choices": ["learn", "I", "can", "English", "How"],
+      "answer": "HowcanIlearnEnglish",
+      "explanation": "How can I learn English? 手段を聞くHowとcanの組み合わせです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ちょっと質問してもいいですか？」\n(      ) I ask a question?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can I ask a question? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「誰もそれを否定できない」\nNo one (      ) deny it.",
+      "choices": ["can", "is", "does", "has"],
+      "answer": "can",
+      "explanation": "No one can...で「誰にも～できない」という強い否定になります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はあなたなしでは生きられません。」となるように並び替えてください。",
+      "choices": ["without", "live", "can't", "you", "I"],
+      "answer": "Ican'tlivewithoutyou",
+      "explanation": "I can't live without you. 歌の歌詞などでよくある表現です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これを使ってもいいですか？」\n(      ) I use this?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can I use this? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はまだ泳げません」\nHe (      ) swim yet.",
+      "choices": ["cannot", "don't", "not", "is"],
+      "answer": "cannot",
+      "explanation": "He cannot swim yet. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰がこの問題を解けますか？」となるように並び替えてください。",
+      "choices": ["problem", "solve", "this", "can", "Who"],
+      "answer": "Whocansolvethisproblem",
+      "explanation": "Who can solve this problem? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私の宿題を手伝ってくれますか？」\n(      ) you help me with my homework?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can you help me with...? で「～を手伝ってくれますか？」です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたはいつ来られますか？」\nWhen (      ) you come?",
+      "choices": ["can", "do", "are", "will"],
+      "answer": "can",
+      "explanation": "When can you come? 都合の良い時間を聞く表現です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はここで待てます。」となるように並び替えてください。",
+      "choices": ["wait", "can", "here", "I"],
+      "answer": "Icanwaithere",
+      "explanation": "I can wait here. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はそれを説明できません」\nI (      ) explain it.",
+      "choices": [],
+      "answer": "can't",
+      "explanation": "I can't explain it. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「静かにしてくれますか？」\n(      ) you be quiet?",
+      "choices": ["Can", "Do", "Are", "Is"],
+      "answer": "Can",
+      "explanation": "Can you be quiet? 形容詞quietの前にはbe動詞の原形beが必要です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はもっと上手くやれます。」となるように並び替えてください。",
+      "choices": ["better", "do", "can", "I"],
+      "answer": "Icandobetter",
+      "explanation": "I can do better. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「クレジットカードは使えますか？（私はカードで払えますか？）」\n(      ) I pay by credit card?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can I pay by credit card? お店で支払う時の重要フレーズです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「今日は外に出られません（雨などで）」\nWe (      ) go out today.",
+      "choices": ["can't", "don't", "aren't", "not"],
+      "answer": "can't",
+      "explanation": "We can't go out today. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は一日中寝ていられます。」となるように並び替えてください。",
+      "choices": ["day", "all", "sleep", "can", "I"],
+      "answer": "Icansleepallday",
+      "explanation": "I can sleep all day. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もう一度言ってくれますか？」\n(      ) you say that again?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can you say that again? 聞き取れなかった時に使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「そんなことはありえない」\nThat (      ) be.",
+      "choices": ["can't", "isn't", "don't", "won't"],
+      "answer": "can't",
+      "explanation": "That can't be.（そんなはずはない）という慣用表現です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は二度とあなたに会えません。」となるように並び替えてください。",
+      "choices": ["again", "you", "see", "never", "can", "I"],
+      "answer": "Icanneverseeyouagain",
+      "explanation": "I can never see you again. notの代わりにneverを使うと「二度と～できない」という強い否定になります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「お茶をいれてくれる？」\n(      ) you make some tea?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can you make some tea? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この漢字を読めますか？」\n(      ) you read this Kanji?",
+      "choices": ["Can", "Do", "Are", "Is"],
+      "answer": "Can",
+      "explanation": "Can you read this Kanji? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は両手を使うことができます。」となるように並び替えてください。",
+      "choices": ["hands", "both", "use", "can", "I"],
+      "answer": "Icanusebothhands",
+      "explanation": "I can use both hands. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はあなたなしではできません」\nI (      ) do it without you.",
+      "choices": [],
+      "answer": "can't",
+      "explanation": "I can't do it without you. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はそれを直せます」\nI (      ) fix it.",
+      "choices": ["can", "am", "do", "will"],
+      "answer": "can",
+      "explanation": "I can fix it. 修理できる、という意味です。"
+    },
+    {
+      "type": "sort",
+      "question": "「どうすればそこへ行けますか？」となるように並び替えてください。",
+      "choices": ["there", "get", "I", "can", "How"],
+      "answer": "HowcanIgetthere",
+      "explanation": "How can I get there? 道案内の超重要フレーズです。"
+    }
+  ]
+}
