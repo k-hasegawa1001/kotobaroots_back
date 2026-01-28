@@ -4,108 +4,437 @@
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "If I were you, I ____ tell the truth.",
-      "choices": ["would", "will", "can", "am"],
-      "answer": "would",
-      "explanation": "「If I were you」は仮定法過去の定型表現で、相手の立場に立った仮の話をします。主節は would＋動詞の原形を使い、助言をやわらかく伝えられます。will は現実の未来になり不自然です。日常会話やビジネスで丁寧な助言に便利です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "If he had more money, he ____ buy a car.",
-      "choices": ["would", "will", "can", "is"],
-      "answer": "would",
-      "explanation": "現在はお金がないという事実と反する仮定なので仮定法過去を使います。If節は過去形、主節は would＋原形が基本です。will を使うと現実の未来の意味になります。夢や計画を話す時によく使われます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "If it were sunny, ____ go for a walk?",
-      "choices": ["would you", "will you", "do you", "are you"],
-      "answer": "would you",
-      "explanation": "仮定の条件に対する提案や質問では would you を使います。実際には晴れていない前提のため仮定法過去です。will you は現実の予定を聞く響きになります。カジュアルな誘いから丁寧な提案まで幅広く使えます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "If I ____ a lot of time, I would study English.",
-      "choices": ["had", "have", "will have", "am having"],
-      "answer": "had",
-      "explanation": "「もし時間があれば」という現実と反する仮定なので If節は過去形 had を使います。現在形 have は事実の条件になります。would study とセットで覚えると理解しやすく、目標や反省を表す時に便利です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "もし彼女がここにいたら、私は安心するのに。",
-      "choices": ["If she were here, I would feel safe.", "If she is here, I will feel safe.", "If she was here, I feel safe.", "If she were here, I feel safe."],
-      "answer": "If she were here, I would feel safe.",
-      "explanation": "現在は彼女がここにいないという仮定なので仮定法過去を使います。be動詞は were、主節は would＋原形が基本です。感情を表す文でも同じ形を使い、会話や日記などで自然に使えます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "もし私が侍なら、刀を持っているだろうに。\nIf I (      ) a samurai, I would have a sword.",
-      "choices": [],
+      "question": "「もし私が鳥なら、あなたのところに飛んでいけるのに」\nIf I (      ) a bird, I could fly to you.",
+      "choices": ["were", "am", "was", "be"],
       "answer": "were",
-      "explanation": "現在の事実と異なることを仮定する「仮定法過去」では、be動詞は主語に関わらず通常 'were' を使います（口語では was も使われますが、学習上は were が基本）。\n【文化・歴史】侍（Samurai）は平安時代から江戸時代にかけて活躍した日本の武士階級です。彼らの魂とも言える「刀（Katana）」は、武士の身分を象徴するものでした。"
+      "explanation": "現在の事実と異なる仮定をする場合、be動詞は主語に関わらずwereを使うのが原則です（口語ではwasも使われますが、学習上はwereが基本です）。"
+    },
+    {
+      "type": "sort",
+      "question": "「もしもっとお金があれば、それが買えるのに。」となるように並び替えてください。",
+      "choices": ["money", "buy", "had", "could", "I", "If", "it", "more", "I"],
+      "answer": "IfIhadmoremoneyIcouldbuyit",
+      "explanation": "If I had more money, I could buy it. 動詞を過去形（had）にすることで「現実ではない仮定」を表します。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "もし私が京都に住んでいたら、毎日金閣寺を訪れることができるのに。\nIf I (      ) in Kyoto, I could visit Kinkaku-ji Temple every day.",
-      "choices": [],
-      "answer": "lived",
-      "explanation": "「もし～なら」という現在の事実に反する仮定を表すため、if節の中の動詞は過去形（live → lived）にします。\n【文化・歴史】金閣寺（正式名称：鹿苑寺）は、室町幕府3代将軍・足利義満によって建てられました。豪華絢爛な北山文化を象徴する建築物です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "もしタイムマシンを持っていたら、江戸時代に行けるのに。\nIf I (      ) a time machine, I could go to the Edo period.",
+      "question": "「もっと時間があればいいのに」\nI wish I (      ) more time.",
       "choices": [],
       "answer": "had",
-      "explanation": "現在持っていないものを「もし持っていたら」と仮定するため、have の過去形 had を用います。\n【文化・歴史】江戸時代（1603-1868）は徳川家康が開いた江戸幕府による平和な時代が長く続きました。浮世絵や歌舞伎など、町人文化が花開いた時代でもあります。"
+      "explanation": "I wish + 過去形（～であればいいのに）。実際には時間がないことを示します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし私があなたなら、そんなことはしないでしょう」\nIf I (      ) you, I wouldn't do such a thing.",
+      "choices": ["were", "am", "was", "are"],
+      "answer": "were",
+      "explanation": "If I were you（もし私があなたなら）という定型表現です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼がここにいればいいのに。」となるように並び替えてください。",
+      "choices": ["here", "were", "wish", "he", "I"],
+      "answer": "Iwishhewerehere",
+      "explanation": "I wish he were here. 彼が実際にはここにいない状況で使います。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "もし今日が晴れなら、ここから富士山が見えるのに。\nIf it (      ) sunny today, we could see Mt. Fuji from here.",
+      "question": "「もし車を持っていれば、そこへ行けるのに」\nIf I had a car, I (      ) go there.",
+      "choices": [],
+      "answer": "could",
+      "explanation": "仮定法の帰結節（後半）では、wouldやcouldなどの助動詞の過去形を使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「泳げたらいいのに（実際は泳げない）」\nI wish I (      ) swim.",
+      "choices": ["could", "can", "will", "may"],
+      "answer": "could",
+      "explanation": "Canの過去形couldを使って「（能力的に）できたらいいのに」を表します。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし明日晴れなら、ピクニックに行きます（これは仮定法ではなく条件）。」となるように並び替えてください。",
+      "choices": ["sunny", "go", "is", "If", "picnic", "it", "tomorrow", "will", "on", "a", "we"],
+      "answer": "Ifitissunnytomorrowwewillgoonapicnic",
+      "explanation": "If it is sunny tomorrow... 未来の可能性が十分ある場合は、仮定法（過去形）ではなく現在形を使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もし私が金持ちなら、その家を買うのに」\nIf I (      ) rich, I would buy the house.",
       "choices": [],
       "answer": "were",
-      "explanation": "be動詞の仮定法過去なので were を使います。実際は晴れていない（雨や曇り）という状況を表しています。\n【文化・歴史】富士山は日本一高い山（3776m）であり、古くから信仰の対象や芸術の源泉とされてきました。葛飾北斎の『富嶽三十六景』など、多くの浮世絵に描かれています。"
+      "explanation": "be動詞の仮定法過去はwereです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「英語が話せたらいいのに」\nI wish I (      ) speak English.",
+      "choices": ["could", "can", "speak", "spoke"],
+      "answer": "could",
+      "explanation": "I wish I could speak... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし彼が答えを知っていれば、私に教えてくれるだろう。」となるように並び替えてください。",
+      "choices": ["answer", "knew", "he", "would", "tell", "If", "me", "the", "he"],
+      "answer": "Ifheknewtheanswerhewouldtellme",
+      "explanation": "If he knew the answer, he would tell me. Knowの過去形knewを使います。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "もし私があなたなら、その着物を買うでしょう。\nIf I (      ) you, I would buy that kimono.",
+      "question": "「もし暇があれば、君を手伝えるのに」\nIf I (      ) free, I could help you.",
       "choices": [],
       "answer": "were",
-      "explanation": "'If I were you'（もし私があなたなら）は、相手に助言をする際によく使われる決まり文句です。\n【文化・歴史】着物（Kimono）は日本の伝統的な民族衣装です。「着る物」という言葉が由来ですが、現在では特に和服を指します。柄や色には季節感や縁起の良い意味が込められていることが多いです。"
+      "explanation": "If I were free... です。"
     },
     {
-      "type": "fill_in_the_blank",
-      "question": "私が聖徳太子のように賢ければなあ。\nI wish I (      ) smart like Prince Shotoku.",
-      "choices": [],
+      "type": "multiple_choice",
+      "question": "「彼女が私の姉ならいいのに」\nI wish she (      ) my sister.",
+      "choices": ["were", "is", "was", "been"],
       "answer": "were",
-      "explanation": "I wish + 仮定法過去で「（今）～であればいいのに」という叶わない願望を表します。ここでもbe動詞は were を用います。\n【文化・歴史】聖徳太子（Prince Shotoku）は飛鳥時代の皇族で、十七条憲法の制定や法隆寺の建立などで知られます。同時に10人の話を聞き分けたという伝説が残るほど賢かったと言われています。"
+      "explanation": "I wish she were... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし雨が降っていなければ、サッカーができるのに。」となるように並び替えてください。",
+      "choices": ["play", "soccer", "weren't", "raining", "could", "it", "we", "If"],
+      "answer": "Ifitweren'trainingwecouldplaysoccer",
+      "explanation": "If it weren't raining... 進行形の仮定法です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "もし忍術を知っていたら、姿を消すことができるのに。\nIf I (      ) ninjutsu, I could disappear.",
+      "question": "「もし電話番号を知っていれば、彼に電話するのに」\nIf I (      ) his phone number, I would call him.",
       "choices": [],
       "answer": "knew",
-      "explanation": "「知っている」という現在の事実に反する仮定なので、know の過去形 knew を使います。\n【文化・歴史】忍者（Ninja）は、スパイ活動や暗殺などを担った特殊な集団です。伊賀や甲賀が有名で、「忍術」と呼ばれる独自の技術を用いていました。"
+      "explanation": "Knowの過去形knewです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もっとお金を持っていたらなあ」\nI wish I (      ) more money.",
+      "choices": ["had", "have", "has", "having"],
+      "answer": "had",
+      "explanation": "Haveの過去形hadを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし私があなたなら、彼に謝るでしょう。」となるように並び替えてください。",
+      "choices": ["apologize", "you", "would", "him", "were", "to", "I", "If", "I"],
+      "answer": "IfIwereyouIwouldapologizetohim",
+      "explanation": "If I were you, I would apologize to him. です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "もし十分なお金があれば、日本中を旅するのに。\nIf I had enough money, I (      ) travel around Japan.",
+      "question": "「もし今日が日曜日ならいいのに」\nI wish it (      ) Sunday today.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "I wish it were... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし彼がここにいたら、私たちを手伝えるのに」\nIf he (      ) here, he could help us.",
+      "choices": ["were", "is", "was", "be"],
+      "answer": "were",
+      "explanation": "He were... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし彼女が真実を知っていたら、怒るだろう。」となるように並び替えてください。",
+      "choices": ["truth", "she", "knew", "angry", "If", "be", "would", "the", "she"],
+      "answer": "Ifsheknewthetruthshewouldbeangry",
+      "explanation": "If she knew the truth, she would be angry. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ピアノが弾けたらいいのに」\nI wish I (      ) play the piano.",
+      "choices": [],
+      "answer": "could",
+      "explanation": "I wish I could play... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし十分な時間があれば、そこへ行けるのに」\nIf we (      ) enough time, we could go there.",
+      "choices": ["had", "have", "has", "having"],
+      "answer": "had",
+      "explanation": "If we had... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はパリに住んでいればいいのになあ。」となるように並び替えてください。",
+      "choices": ["lived", "Paris", "in", "wish", "I", "I"],
+      "answer": "IwishIlivedinParis",
+      "explanation": "I wish I lived in Paris. Liveの過去形livedを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もし私が猫なら、一日中寝ているのに」\nIf I (      ) a cat, I would sleep all day.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "If I were a cat... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼がもっと親切ならいいのに」\nI wish he (      ) kinder.",
+      "choices": ["were", "is", "was", "be"],
+      "answer": "were",
+      "explanation": "I wish he were... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「もしその本を持っていれば、あなたに貸せるのに。」となるように並び替えてください。",
+      "choices": ["book", "had", "lend", "you", "it", "could", "I", "If", "the", "I"],
+      "answer": "IfIhadthebookIcouldlendittoyou",
+      "explanation": "If I had the book, I could lend it to you. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もし明日晴れたら、野球をします（条件）」\nIf it (      ) sunny tomorrow, we will play baseball.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "これは仮定法ではなく、起こりうる未来の条件（直説法）なので現在形isを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし彼が忙しくなければ、パーティーに来るだろう」\nIf he (      ) not busy, he would come to the party.",
+      "choices": ["were", "is", "was", "are"],
+      "answer": "were",
+      "explanation": "If he were not busy... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「背がもっと高ければいいのに。」となるように並び替えてください。",
+      "choices": ["taller", "were", "I", "wish", "I"],
+      "answer": "IwishIweretaller",
+      "explanation": "I wish I were taller. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もし地図を持っていれば、迷わないのに」\nIf I (      ) a map, I wouldn't get lost.",
+      "choices": [],
+      "answer": "had",
+      "explanation": "If I had a map... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし彼女がここに住んでいれば、毎日会えるのに」\nIf she (      ) here, I could see her every day.",
+      "choices": ["lived", "lives", "living", "live"],
+      "answer": "lived",
+      "explanation": "Liveの過去形livedを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし私があなたなら、そのコートを買うでしょう。」となるように並び替えてください。",
+      "choices": ["coat", "buy", "you", "would", "I", "If", "were", "I", "the"],
+      "answer": "IfIwereyouIwouldbuythecoat",
+      "explanation": "If I were you, I would buy the coat. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「自分の部屋があればいいのに」\nI wish I (      ) my own room.",
+      "choices": [],
+      "answer": "had",
+      "explanation": "I wish I had... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし雨がやめば、出かけられるのに」\nIf the rain (      ), we could go out.",
+      "choices": ["stopped", "stop", "stops", "stopping"],
+      "answer": "stopped",
+      "explanation": "Stopの過去形stoppedを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「空を飛べたらいいのになあ。」となるように並び替えてください。",
+      "choices": ["fly", "sky", "could", "I", "the", "wish", "in", "I"],
+      "answer": "IwishIcouldflyinthesky",
+      "explanation": "I wish I could fly in the sky. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もし彼が先生なら、それを説明できるだろう」\nIf he (      ) a teacher, he could explain it.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "If he were a teacher... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もっと勉強していればよかった（後悔：仮定法過去完了）」\nI wish I (      ) studied harder. (※発展学習)",
+      "choices": ["had", "have", "has", "did"],
+      "answer": "had",
+      "explanation": "過去の事実に対する後悔は「had + 過去分詞」を使います。Beginnerレベルでは難しいですが、wishの用法として紹介されることがあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし住所を知っていれば、手紙を書くのに。」となるように並び替えてください。",
+      "choices": ["write", "letter", "knew", "would", "address", "his", "If", "a", "I", "I"],
+      "answer": "IfIknewhisaddressIwouldwritealetter",
+      "explanation": "If I knew his address, I would write a letter. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もっと近くに住んでいればいいのに」\nI wish you (      ) nearer.",
+      "choices": [],
+      "answer": "lived",
+      "explanation": "I wish you lived nearer. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし私が総理大臣なら、税金を下げるのに」\nIf I (      ) the Prime Minister, I would lower taxes.",
+      "choices": ["were", "am", "was", "be"],
+      "answer": "were",
+      "explanation": "If I were... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし雪がたくさん降れば、スキーに行けるのに。」となるように並び替えてください。",
+      "choices": ["skiing", "go", "lot", "snowed", "could", "a", "it", "If", "we"],
+      "answer": "Ifitsnowedalotwecouldgoskiing",
+      "explanation": "If it snowed a lot, we could go skiing. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「コンピューターがあればいいのに」\nI wish I (      ) a computer.",
+      "choices": [],
+      "answer": "had",
+      "explanation": "I wish I had a computer. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし時間があれば、あなたと一緒に行けるのに」\nIf I (      ) time, I could go with you.",
+      "choices": ["had", "have", "has", "having"],
+      "answer": "had",
+      "explanation": "If I had time... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「テストがそんなに難しくなければいいのに。」となるように並び替えてください。",
+      "choices": ["difficult", "weren't", "test", "so", "the", "wish", "I"],
+      "answer": "Iwishthetestweren'tsodifficult",
+      "explanation": "I wish the test weren't so difficult. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もし彼女がここにいれば、喜ぶだろう」\nIf she (      ) here, she would be glad.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "If she were here... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「若ければいいのに」\nI wish I (      ) young.",
+      "choices": ["were", "am", "was", "be"],
+      "answer": "were",
+      "explanation": "I wish I were young. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし私があなたなら、医者に診てもらうでしょう。」となるように並び替えてください。",
+      "choices": ["doctor", "you", "a", "were", "see", "would", "I", "If", "I"],
+      "answer": "IfIwereyouIwouldseeadoctor",
+      "explanation": "If I were you, I would see a doctor. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼が嘘をついていなければいいのに」\nI wish he (      ) telling a lie.",
+      "choices": [],
+      "answer": "weren't",
+      "explanation": "I wish he weren't telling a lie. 進行形の仮定法否定です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし翼があれば、あなたのところへ飛んでいくのに」\nIf I (      ) wings, I would fly to you.",
+      "choices": ["had", "have", "has", "having"],
+      "answer": "had",
+      "explanation": "If I had wings... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「今日が日曜日だったらいいのになあ。」となるように並び替えてください。",
+      "choices": ["Sunday", "were", "it", "wish", "today", "I"],
+      "answer": "IwishitwereSundaytoday",
+      "explanation": "I wish it were Sunday today. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もしお金があれば、世界中を旅行するのに」\nIf I had money, I (      ) travel around the world.",
       "choices": [],
       "answer": "would",
-      "explanation": "仮定法の主節（帰結節）では、助動詞の過去形（would, could, mightなど）を使います。ここでは意志や単純な推量を表す would が適切です。\n【文化・歴史】江戸時代には、十返舎一九の『東海道中膝栗毛』のように、旅をテーマにした滑稽本が大ヒットし、庶民の間でもお伊勢参りなどの旅がブームになりました。"
+      "explanation": "意志や推量を表すwouldを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の父が家にいればいいのに」\nI wish my father (      ) at home.",
+      "choices": ["were", "is", "was", "be"],
+      "answer": "were",
+      "explanation": "I wish my father were... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし私が上手なら、そのチームに入れるのに。」となるように並び替えてください。",
+      "choices": ["team", "good", "join", "were", "could", "the", "I", "If", "I"],
+      "answer": "IfIweregoodIcouldjointheteam",
+      "explanation": "If I were good, I could join the team. です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "英語が夏目漱石のように話せればなあ。\nI (      ) I could speak English like Soseki Natsume.",
+      "question": "「宿題がなければいいのに」\nI wish I (      ) have any homework.",
       "choices": [],
-      "answer": "wish",
-      "explanation": "「～ならいいのに」と願う表現は 'I wish + 仮定法' です。wish 自体は現在の願望なので現在形を使います。\n【文化・歴史】文豪・夏目漱石は非常に英語が堪能で、ロンドンへの留学経験もありました。以前は千円札の肖像画としても親しまれていました。"
+      "answer": "didn't",
+      "explanation": "I wish I didn't have... 持っていない状態を願うので否定の過去形didn'tを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし彼がその本を読んでいれば、その話を知っているだろう」\nIf he (      ) the book, he would know the story.",
+      "choices": ["read", "reads", "reading", "reader"],
+      "answer": "read",
+      "explanation": "Readの過去形read（レッド）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「ペットを飼えたらいいのになあ。」となるように並び替えてください。",
+      "choices": ["pet", "a", "have", "could", "wish", "I", "I"],
+      "answer": "IwishIcouldhaveapet",
+      "explanation": "I wish I could have a pet. です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "もし明日雪が降ったら、雪だるまを作るのに。（未来の仮定）\nIf it (      ) snow tomorrow, I would make a snowman.",
+      "question": "「もし私が魔法を使えたら、あなたを助けるのに」\nIf I (      ) use magic, I would help you.",
       "choices": [],
-      "answer": "should",
-      "explanation": "未来の可能性が低いこと、あるいは万が一のことを仮定する場合、'If + S + should + 原形' を使うことがあります（中学レベルでは発展的な内容ですが、知識として知っておくと便利です）。\n【文化・歴史】日本の冬、特に日本海側の地域は世界有数の豪雪地帯として知られています。雪を使った「かまくら」は、秋田県横手市などの伝統行事として有名です。"
+      "answer": "could",
+      "explanation": "If I could use... 「使えたら（能力）」なのでcouldを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「毎日が休日ならいいのに」\nI wish every day (      ) a holiday.",
+      "choices": ["were", "is", "was", "be"],
+      "answer": "were",
+      "explanation": "I wish every day were... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし彼が本当のことを言えば、許してあげるのに。」となるように並び替えてください。",
+      "choices": ["forgive", "truth", "him", "would", "told", "he", "If", "the", "I"],
+      "answer": "IfhetoldthetruthIwouldforgivehim",
+      "explanation": "If he told the truth, I would forgive him. Tellの過去形toldです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もし私があなたなら、そんなことは言わないでしょう」\nIf I were you, I (      ) say such a thing.",
+      "choices": [],
+      "answer": "wouldn't",
+      "explanation": "would notの短縮形wouldn't（言わないだろう）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女が私の先生ならいいのに」\nI wish she (      ) my teacher.",
+      "choices": ["were", "is", "was", "be"],
+      "answer": "were",
+      "explanation": "I wish she were my teacher. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし私が金持ちなら、世界中を旅行するのに。」となるように並び替えてください。",
+      "choices": ["rich", "world", "the", "were", "around", "would", "I", "If", "travel", "I"],
+      "answer": "IfIwererichIwouldtravelaroundtheworld",
+      "explanation": "If I were rich, I would travel around the world. です。"
     }
   ]
 }
