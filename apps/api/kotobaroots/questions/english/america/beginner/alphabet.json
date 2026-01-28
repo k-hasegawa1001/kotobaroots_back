@@ -802,7 +802,7 @@
     },
     {
       "type": "fill_in_the_blank",
-      "question": "FIFAは何の略？\nInternational Federation of Association (      )",
+      "question": "FIFAは何の略？\nFederation International of (      ) Association",
       "choices": [],
       "answer": "Football",
       "explanation": "国際サッカー連盟のことです。フランス語の略称がそのまま世界中で使われています。"
