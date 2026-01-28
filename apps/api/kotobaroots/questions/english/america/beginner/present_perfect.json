@@ -1,0 +1,545 @@
+{
+  "learning_topic": "現在完了形",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「私はちょうど宿題を終えたところです」\nI (      ) just finished my homework.",
+      "choices": ["have", "has", "am", "did"],
+      "answer": "have",
+      "explanation": "現在完了形は「have + 過去分詞」です。主語がIなのでhaveを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は長い間彼を知っています。」となるように並び替えてください。",
+      "choices": ["known", "time", "have", "him", "I", "a", "for", "long"],
+      "answer": "Ihaveknownhimforalongtime",
+      "explanation": "I have known him for a long time. 継続（ずっと知っている）の用法です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは今までに京都へ行ったことがありますか？」\n(      ) you ever been to Kyoto?",
+      "choices": [],
+      "answer": "Have",
+      "explanation": "Have you ever...?（今までに～したことがありますか）という経験を尋ねる決まり文句です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はもう昼食を食べました」\nHe (      ) already eaten lunch.",
+      "choices": ["has", "have", "is", "did"],
+      "answer": "has",
+      "explanation": "主語がHe（三人称単数）なのでhasを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は一度もその映画を見たことがありません。」となるように並び替えてください。",
+      "choices": ["seen", "movie", "never", "have", "I", "the"],
+      "answer": "Ihaveneverseenthemovie",
+      "explanation": "I have never seen the movie. 経験の否定にはnotではなくnever（一度も～ない）をよく使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は昨日からずっと忙しいです」\nShe has been busy (      ) yesterday.",
+      "choices": [],
+      "answer": "since",
+      "explanation": "Since（～以来ずっと）。継続の開始点を表します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたはもう宿題をしましたか？」\nHave you done your homework (      )?",
+      "choices": ["yet", "already", "just", "ever"],
+      "answer": "yet",
+      "explanation": "疑問文の文末で使うyetは「もう」という意味です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は10年間ここに住んでいます。」となるように並び替えてください。",
+      "choices": ["lived", "here", "have", "years", "I", "for", "ten"],
+      "answer": "Ihavelivedherefortenyears",
+      "explanation": "I have lived here for ten years. 期間を表す時はforを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はアメリカに行ってしまいました（ここにはいません）」\nHe has (      ) to America.",
+      "choices": [],
+      "answer": "gone",
+      "explanation": "Has gone to...（行ってしまった/行って帰ってきていない）。Has been to（行ったことがある）との違いに注意です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はちょうど駅に着いたところです」\nI have (      ) arrived at the station.",
+      "choices": ["just", "yet", "ever", "never"],
+      "answer": "just",
+      "explanation": "Just（ちょうど）はhaveと過去分詞の間に置きます。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはどのくらいの間、英語を勉強していますか？」となるように並び替えてください。",
+      "choices": ["studied", "long", "have", "English", "you", "How"],
+      "answer": "HowlonghaveyoustudiedEnglish",
+      "explanation": "How long have you studied English? 期間を尋ねる疑問文です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はその本をまだ読んでいません」\nI haven't read the book (      ).",
+      "choices": [],
+      "answer": "yet",
+      "explanation": "否定文の文末で使うyetは「まだ」という意味です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は2回、彼に会ったことがあります」\nI have met him (      ).",
+      "choices": ["twice", "two times", "second", "two"],
+      "answer": "twice",
+      "explanation": "回数を表す言葉。1回＝once, 2回＝twice, 3回以上＝three times... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は財布をなくしてしまいました（今も持っていません）。」となるように並び替えてください。",
+      "choices": ["wallet", "lost", "has", "She", "her"],
+      "answer": "Shehaslostherwallet",
+      "explanation": "She has lost her wallet. 過去に失くして、その結果「今もない」という状態を表します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は以前、ここに来たことがあります」\nI have been here (      ).",
+      "choices": [],
+      "answer": "before",
+      "explanation": "Before（以前に）。文末に置きます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は先週からずっと病気です」\nHe (      ) been sick since last week.",
+      "choices": ["has", "is", "was", "have"],
+      "answer": "has",
+      "explanation": "He has been... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは今までに納豆を食べたことがありますか？」となるように並び替えてください。",
+      "choices": ["eaten", "natto", "ever", "Have", "you"],
+      "answer": "Haveyouevereatennatto",
+      "explanation": "Have you ever eaten natto? 経験の疑問文です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「父はもう車を洗ってしまいました」\nMy father has (      ) washed the car.",
+      "choices": [],
+      "answer": "already",
+      "explanation": "Already（すでに/もう）。肯定文で使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は3年間ずっと彼を知っています」\nI (      ) known him for three years.",
+      "choices": ["have", "am", "was", "did"],
+      "answer": "have",
+      "explanation": "継続のhave knownです。"
+    },
+    {
+      "type": "sort",
+      "question": "「ケンはまだ来ていません。」となるように並び替えてください。",
+      "choices": ["come", "Ken", "yet", "hasn't"],
+      "answer": "Kenhasn'tcomeyet",
+      "explanation": "Ken hasn't come yet. Comeの過去分詞はcomeです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は一度パリに行ったことがあります」\nI have (      ) to Paris once.",
+      "choices": [],
+      "answer": "been",
+      "explanation": "Have been to（行ったことがある）です。Goを使うと「行ってしまった」になるので注意。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「どれくらいここにいますか（滞在していますか）？」\nHow long have you (      ) here?",
+      "choices": ["been", "be", "was", "were"],
+      "answer": "been",
+      "explanation": "Have you been here? be動詞の過去分詞beenを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は私の鍵を見つけました（今、持っています）。」となるように並び替えてください。",
+      "choices": ["key", "found", "my", "have", "I"],
+      "answer": "Ihavefoundmykey",
+      "explanation": "I have found my key. 「見つけた」という完了・結果を表します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は2010年からここに住んでいます」\nShe has lived here (      ) 2010.",
+      "choices": [],
+      "answer": "since",
+      "explanation": "年号などの時点を示す言葉にはSinceを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは何度もその本を読みましたか？」\nHave you read the book (      ) times?",
+      "choices": ["many", "much", "any", "some"],
+      "answer": "many",
+      "explanation": "Many times（何度も）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は今日、彼に会っていません。」となるように並び替えてください。",
+      "choices": ["seen", "haven't", "him", "today", "I"],
+      "answer": "Ihaven'tseenhimtoday",
+      "explanation": "I haven't seen him today. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは子供の頃から友達です」\nWe have been friends (      ) we were children.",
+      "choices": [],
+      "answer": "since",
+      "explanation": "Sinceの後ろには「主語+動詞」の文も置けます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はちょうど昼食を食べ終えました」\nI have just (      ) eating lunch.",
+      "choices": ["finished", "finish", "finishing", "finishes"],
+      "answer": "finished",
+      "explanation": "Finishの過去分詞finishedです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は一度も飛行機に乗ったことがありません。」となるように並び替えてください。",
+      "choices": ["plane", "never", "on", "a", "been", "has", "He"],
+      "answer": "Hehasneverbeenonaplane",
+      "explanation": "He has never been on a plane. Be on a planeで「飛行機に乗る（乗っている）」です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は日本にどのくらい住んでいますか？」\nHow long has she (      ) in Japan?",
+      "choices": [],
+      "answer": "lived",
+      "explanation": "Liveの過去分詞livedです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はそのニュースをすでに聞きました」\nI (      ) already heard the news.",
+      "choices": ["have", "has", "did", "am"],
+      "answer": "have",
+      "explanation": "I have already heard... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはどのくらい彼を待っていますか？」となるように並び替えてください。",
+      "choices": ["waited", "him", "have", "long", "you", "for", "How"],
+      "answer": "Howlonghaveyouwaitedforhim",
+      "explanation": "How long have you waited for him? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼に以前、会ったことがあります」\nI have (      ) him before.",
+      "choices": [],
+      "answer": "met",
+      "explanation": "Meetの過去分詞metです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はまだ宿題をしていません」\nHe (      ) done his homework yet.",
+      "choices": ["hasn't", "haven't", "didn't", "isn't"],
+      "answer": "hasn't",
+      "explanation": "has notの短縮形hasn'tを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は長い間、あなたに会っていません（お久しぶりです）。」となるように並び替えてください。",
+      "choices": ["time", "seen", "a", "haven't", "for", "you", "long", "I"],
+      "answer": "Ihaven'tseenyouforalongtime",
+      "explanation": "I haven't seen you for a long time. 久しぶりに会った時の挨拶です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは10年間結婚しています」\nWe have been (      ) for ten years.",
+      "choices": [],
+      "answer": "married",
+      "explanation": "have been married（結婚している状態が続いている）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はちょうどお風呂に入ったところです」\nI have just (      ) a bath.",
+      "choices": ["taken", "took", "take", "taking"],
+      "answer": "taken",
+      "explanation": "Takeの過去分詞takenです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは今までにその歌を聞いたことがありますか？」となるように並び替えてください。",
+      "choices": ["song", "heard", "that", "ever", "Have", "you"],
+      "answer": "Haveyoueverheardthatsong",
+      "explanation": "Have you ever heard that song? Hearの過去分詞heardです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は図書館に行ってしまいました」\nShe has (      ) to the library.",
+      "choices": [],
+      "answer": "gone",
+      "explanation": "Has gone to（行ってしまった）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼に3回メールを送りました」\nI have (      ) him an email three times.",
+      "choices": ["sent", "send", "sended", "sending"],
+      "answer": "sent",
+      "explanation": "Sendの過去分詞sentです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は昨日から何も食べていません。」となるように並び替えてください。",
+      "choices": ["eaten", "yesterday", "haven't", "since", "anything", "I"],
+      "answer": "Ihaven'teatenanythingsinceyesterday",
+      "explanation": "I haven't eaten anything since yesterday. 否定文でのanythingは「何も～ない」となります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は以前、その本を読んだことがあります」\nI have (      ) the book before.",
+      "choices": [],
+      "answer": "read",
+      "explanation": "Readの過去分詞read（レッド）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はサッカーチームの一員として5年間います（所属しています）」\nHe (      ) been on the soccer team for five years.",
+      "choices": ["has", "have", "is", "was"],
+      "answer": "has",
+      "explanation": "be on the team（チームに所属している）の完了形has been on...です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはどのくらいの間、彼を知っていますか？」となるように並び替えてください。",
+      "choices": ["him", "known", "long", "you", "How", "have"],
+      "answer": "Howlonghaveyouknownhim",
+      "explanation": "How long have you known him? Knowの過去分詞knownです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は英語を勉強し始めてから3年になります（3年間勉強しています）」\nI have (      ) English for three years.",
+      "choices": [],
+      "answer": "studied",
+      "explanation": "Have studied... 継続を表します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたはもう朝食を作りましたか？」\nHave you (      ) breakfast yet?",
+      "choices": ["cooked", "cook", "cooks", "cooking"],
+      "answer": "cooked",
+      "explanation": "Cookの過去分詞cookedです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は自分の部屋を掃除し終えました。」となるように並び替えてください。",
+      "choices": ["room", "cleaning", "have", "my", "finished", "I"],
+      "answer": "Ihavefinishedcleaningmyroom",
+      "explanation": "I have finished cleaning my room. Finishの後ろは動名詞cleaningです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は以前、テニスをしたことがあります」\nShe has (      ) tennis before.",
+      "choices": [],
+      "answer": "played",
+      "explanation": "Played tennisです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は昨日から彼に会っていません」\nI haven't seen him (      ) yesterday.",
+      "choices": ["since", "for", "from", "before"],
+      "answer": "since",
+      "explanation": "Since yesterday（昨日以来）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はちょうど帰宅したところです。」となるように並び替えてください。",
+      "choices": ["home", "come", "just", "has", "He"],
+      "answer": "Hehasjustcomehome",
+      "explanation": "He has just come home. Comeの過去分詞はcomeです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はロンドンを2回訪れたことがあります」\nI have (      ) London twice.",
+      "choices": [],
+      "answer": "visited",
+      "explanation": "Visited London. Visitは他動詞なのでtoは不要です。Been to Londonとの違いに注意。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は2時間ピアノを弾いています」\nShe (      ) played the piano for two hours.",
+      "choices": ["has", "have", "is", "was"],
+      "answer": "has",
+      "explanation": "She has played... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は一度も寿司を食べたことがありません。」となるように並び替えてください。",
+      "choices": ["sushi", "never", "eaten", "I", "have"],
+      "answer": "Ihavenevereatensushi",
+      "explanation": "I have never eaten sushi. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはどれくらい日本にいますか（滞在していますか）？」\nHow long have you (      ) in Japan?",
+      "choices": [],
+      "answer": "stayed",
+      "explanation": "Stayed（滞在している）またはLived（住んでいる）またはBeen（いる）が当てはまりますが、文脈的にstayedやbeenが一般的です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「父は仕事に行ってしまいました」\nMy father (      ) gone to work.",
+      "choices": ["has", "have", "is", "was"],
+      "answer": "has",
+      "explanation": "Has gone to work. 結果の完了です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はちょうどその手紙を読んだところです。」となるように並び替えてください。",
+      "choices": ["letter", "read", "just", "the", "have", "I"],
+      "answer": "Ihavejustreadtheletter",
+      "explanation": "I have just read the letter. Read（過去分詞）の発音はレッドです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは先月からとても忙しいです」\nWe have (      ) very busy since last month.",
+      "choices": [],
+      "answer": "been",
+      "explanation": "Have been busy（忙しい状態が続いている）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは今までに富士山に登ったことがありますか？」\nHave you ever (      ) Mt. Fuji?",
+      "choices": ["climbed", "climb", "climbing", "climbs"],
+      "answer": "climbed",
+      "explanation": "Climbの過去分詞climbedです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はまだ部屋を掃除していません。」となるように並び替えてください。",
+      "choices": ["room", "cleaned", "yet", "her", "hasn't", "She"],
+      "answer": "Shehasn'tcleanedherroomyet",
+      "explanation": "She hasn't cleaned her room yet. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼と一度話したことがあります」\nI have (      ) with him once.",
+      "choices": [],
+      "answer": "talked",
+      "explanation": "Talked with himです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は1週間、彼に会っていません」\nI haven't seen him (      ) a week.",
+      "choices": ["for", "since", "during", "in"],
+      "answer": "for",
+      "explanation": "For a week（1週間）。期間を表すのでForです。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰が窓を割ってしまったのですか？」となるように並び替えてください。",
+      "choices": ["window", "broken", "Who", "has", "the"],
+      "answer": "Whohasbrokenthewindow",
+      "explanation": "Who has broken the window? 完了・結果（割ってしまって今は割れている）を表します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちはもうその映画を見ました」\nWe have (      ) seen the movie.",
+      "choices": [],
+      "answer": "already",
+      "explanation": "Already seenです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は3日間、学校を休んでいます」\nShe has (      ) absent from school for three days.",
+      "choices": ["been", "be", "is", "was"],
+      "answer": "been",
+      "explanation": "Have been absent（休んでいる状態が続いている）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は鍵をなくしてしまいました。」となるように並び替えてください。",
+      "choices": ["key", "lost", "have", "my", "I"],
+      "answer": "Ihavelostmykey",
+      "explanation": "I have lost my key. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は今までに外国へ行ったことがありますか？」\nHas he ever (      ) abroad?",
+      "choices": [],
+      "answer": "been",
+      "explanation": "Been abroad（外国へ行ったことがある）。Gone abroadだと「行ってしまった」になります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はそのニュースを知ってから長い時間が経ちます」\nI have (      ) the news for a long time.",
+      "choices": ["known", "know", "knew", "knowing"],
+      "answer": "known",
+      "explanation": "Have known（知っている状態が続いている）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は以前、その歌を聞いたことがあります。」となるように並び替えてください。",
+      "choices": ["heard", "song", "that", "I", "have", "before"],
+      "answer": "Ihaveheardthatsongbefore",
+      "explanation": "I have heard that song before. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは日本に着いたばかりです」\nThey have (      ) arrived in Japan.",
+      "choices": [],
+      "answer": "just",
+      "explanation": "Have just arrivedです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは宿題を終えましたか？」\nHave you (      ) your homework?",
+      "choices": ["finished", "finish", "finishes", "finishing"],
+      "answer": "finished",
+      "explanation": "Finished your homeworkです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は一度も北海道を訪れたことがありません。」となるように並び替えてください。",
+      "choices": ["visited", "Hokkaido", "never", "I", "have"],
+      "answer": "IhavenevervisitedHokkaido",
+      "explanation": "I have never visited Hokkaido. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は今朝からずっとここにいます」\nShe has (      ) here since this morning.",
+      "choices": [],
+      "answer": "been",
+      "explanation": "Has been here（ここにいる状態が続いている）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はそのコンピュータを3年間使っています」\nI (      ) used the computer for three years.",
+      "choices": ["have", "has", "had", "am"],
+      "answer": "have",
+      "explanation": "I have used... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「雨がやみました。」となるように並び替えてください。",
+      "choices": ["stopped", "rain", "The", "has"],
+      "answer": "Therainhasstopped",
+      "explanation": "The rain has stopped. 完了（やんで今は降っていない）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼に何度も会ったことがあります」\nI have met him (      ) times.",
+      "choices": [],
+      "answer": "many",
+      "explanation": "Many times（何度も）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女はまだ夕食を食べていません」\nShe (      ) eaten dinner yet.",
+      "choices": ["hasn't", "haven't", "didn't", "isn't"],
+      "answer": "hasn't",
+      "explanation": "She hasn't eaten... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは長い間、忙しいです。」となるように並び替えてください。",
+      "choices": ["busy", "time", "have", "been", "They", "long", "for", "a"],
+      "answer": "Theyhavebeenbusyforalongtime",
+      "explanation": "They have been busy for a long time. です。"
+    }
+  ]
+}
