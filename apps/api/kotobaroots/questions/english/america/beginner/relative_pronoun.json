@@ -1,0 +1,559 @@
+{
+  "learning_topic": "関係代名詞",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「私には東京に住んでいる友人がいます」\nI have a friend (      ) lives in Tokyo.",
+      "choices": ["who", "which", "whose", "whom"],
+      "answer": "who",
+      "explanation": "先行詞（friend）が人で、後ろに動詞（lives）が続いているため、主格の関係代名詞whoを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「これは駅へ行くバスです。」となるように並び替えてください。",
+      "choices": ["goes", "This", "bus", "station", "which", "is", "a", "to", "the"],
+      "answer": "Thisisabuswhichgoestothestation",
+      "explanation": "This is a bus which goes to the station. 先行詞が物（bus）なのでwhichを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「公園で走っている犬を見て」\nLook at the dog (      ) is running in the park.",
+      "choices": [],
+      "answer": "that",
+      "explanation": "先行詞が動物（dog）の場合、whichまたはthatを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼には父親がパイロットである友達がいます」\nHe has a friend (      ) father is a pilot.",
+      "choices": ["whose", "who", "whom", "which"],
+      "answer": "whose",
+      "explanation": "「（友達）の父」という所有の関係なのでwhoseを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私が昨日会った男性は親切でした。」となるように並び替えてください。",
+      "choices": ["man", "met", "I", "yesterday", "kind", "The", "was", "whom"],
+      "answer": "ThemanwhomImetyesterdaywaskind",
+      "explanation": "The man whom I met... 目的格（私が会った）なのでwhom（またはwho/that）を使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これは私が撮った写真です」\nThis is the picture (      ) I took.",
+      "choices": [],
+      "answer": "which",
+      "explanation": "先行詞が物（picture）で、I took（私が撮った）の目的語になっているので目的格のwhich（またはthat）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あそこでピアノを弾いている少女は誰ですか？」\nWho is the girl (      ) is playing the piano over there?",
+      "choices": ["who", "which", "whose", "whom"],
+      "answer": "who",
+      "explanation": "先行詞が人（girl）で、主格なのでwhoです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私には英語を話すおじがいます。」となるように並び替えてください。",
+      "choices": ["uncle", "speaks", "English", "have", "who", "an", "I"],
+      "answer": "IhaveanunclewhospeaksEnglish",
+      "explanation": "I have an uncle who speaks English. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「テーブルの上にあった本は面白かった」\nThe book (      ) was on the table was interesting.",
+      "choices": [],
+      "answer": "which",
+      "explanation": "The book which was on the table... 先行詞が物なのでwhichです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はとても速く走る犬を飼っています」\nHe has a dog (      ) runs very fast.",
+      "choices": ["that", "who", "whom", "whose"],
+      "answer": "that",
+      "explanation": "先行詞が動物の場合、that（またはwhich）を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「これは彼が書いた手紙です。」となるように並び替えてください。",
+      "choices": ["wrote", "letter", "he", "is", "the", "This", "that"],
+      "answer": "Thisistheletterthathewrote",
+      "explanation": "This is the letter that he wrote. 目的格のthatです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「髪が長いあの少女を見て」\nLook at that girl (      ) hair is long.",
+      "choices": [],
+      "answer": "whose",
+      "explanation": "Girl whose hair（髪が長い少女＝その髪が長いところの少女）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちが昨日見た映画はワクワクした」\nThe movie (      ) we watched yesterday was exciting.",
+      "choices": ["which", "who", "whose", "whom"],
+      "answer": "which",
+      "explanation": "先行詞が物（movie）なのでwhichです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は誰もが好きな歌手です。」となるように並び替えてください。",
+      "choices": ["singer", "is", "likes", "everyone", "a", "She", "that"],
+      "answer": "Sheisasingerthateveryonelikes",
+      "explanation": "She is a singer that everyone likes. 目的格のthatです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「屋根が赤いあの家は私のです」\nThat house (      ) roof is red is mine.",
+      "choices": [],
+      "answer": "whose",
+      "explanation": "House whose roof（屋根が赤い家）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これは私が一番好きな本です」\nThis is the book (      ) I like the best.",
+      "choices": ["that", "who", "whose", "whom"],
+      "answer": "that",
+      "explanation": "先行詞が物なのでthat（またはwhich）です。最上級やthe firstなどがつく場合、thatが好まれる傾向があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「ギターを弾いている少年は私の弟です。」となるように並び替えてください。",
+      "choices": ["playing", "is", "guitar", "brother", "is", "boy", "The", "who", "the", "my"],
+      "answer": "Theboywhoisplayingtheguitarismybrother",
+      "explanation": "The boy who is playing the guitar is my brother. 現在進行形を含む関係代名詞節です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼が作ったケーキを食べました」\nI ate the cake (      ) he made.",
+      "choices": [],
+      "answer": "which",
+      "explanation": "The cake which he made. 目的格のwhichです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私を助けてくれた人は親切でした」\nThe person (      ) helped me was kind.",
+      "choices": ["who", "which", "whose", "whom"],
+      "answer": "who",
+      "explanation": "先行詞が人（person）で、主格（助けてくれた）なのでwhoです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は私たちが昨日会った医者です。」となるように並び替えてください。",
+      "choices": ["doctor", "met", "is", "He", "yesterday", "the", "we", "that"],
+      "answer": "Heisthedoctorthatwemetyesterday",
+      "explanation": "He is the doctor that we met yesterday. 目的格のthatです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これらは私の父が撮った写真です」\nThese are the pictures (      ) my father took.",
+      "choices": [],
+      "answer": "that",
+      "explanation": "Pictures that my father took. 物なのでthat（またはwhich）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「向こうに見える山は富士山です」\nThe mountain (      ) you can see over there is Mt. Fuji.",
+      "choices": ["which", "who", "whose", "whom"],
+      "answer": "which",
+      "explanation": "先行詞が物（mountain）なのでwhichです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は車を持っている人を誰も知りません。」となるように並び替えてください。",
+      "choices": ["car", "has", "know", "anyone", "don't", "a", "who", "I"],
+      "answer": "Idon'tknowanyonewhohasacar",
+      "explanation": "I don't know anyone who has a car. Anyone（人）が先行詞なのでwhoを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は私が最も尊敬する(respect)先生です」\nShe is the teacher (      ) I respect the most.",
+      "choices": [],
+      "answer": "that",
+      "explanation": "The teacher that/whom I respect... 目的格です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「窓が壊れている家」\nA house (      ) window is broken",
+      "choices": ["whose", "who", "which", "that"],
+      "answer": "whose",
+      "explanation": "House whose window（その窓が壊れている家）。所有格の関係代名詞です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は面白い本をいくつか探しています。」となるように並び替えてください。",
+      "choices": ["for", "books", "looking", "am", "are", "some", "which", "interesting", "I"],
+      "answer": "Iamlookingforsomebookswhichareinteresting",
+      "explanation": "I am looking for some books which are interesting. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたが作ったクッキーは美味しかった」\nThe cookies (      ) you made were delicious.",
+      "choices": [],
+      "answer": "that",
+      "explanation": "The cookies that you made... 物なのでthat/whichです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これは私が読みたかった本です」\nThis is the book (      ) I wanted to read.",
+      "choices": ["which", "who", "whose", "whom"],
+      "answer": "which",
+      "explanation": "先行詞が物（book）なのでwhichです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私が招待した人々は来ませんでした。」となるように並び替えてください。",
+      "choices": ["people", "come", "The", "didn't", "invited", "I", "whom"],
+      "answer": "ThepeoplewhomIinviteddidn'tcome",
+      "explanation": "The people whom I invited didn't come. 目的格whomを使います（who/thatでも可）。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私を幸せにしてくれるもの」\nThings (      ) make me happy",
+      "choices": [],
+      "answer": "that",
+      "explanation": "Things that make me happy. 先行詞が物で主格なのでthat/whichです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは入り口に立っている男性を知っていますか？」\nDo you know the man (      ) is standing at the entrance?",
+      "choices": ["who", "which", "whose", "whom"],
+      "answer": "who",
+      "explanation": "先行詞が人（man）で主格なのでwhoです。"
+    },
+    {
+      "type": "sort",
+      "question": "「これは彼が描いた絵です。」となるように並び替えてください。",
+      "choices": ["painted", "picture", "he", "is", "the", "which", "This"],
+      "answer": "Thisisthepicturewhichhepainted",
+      "explanation": "This is the picture which he painted. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はたくさんの言葉を知っている辞書のような人だ」\nShe is a person (      ) knows many words.",
+      "choices": [],
+      "answer": "who",
+      "explanation": "Person who knows... 主格のwhoです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は目が青い猫を飼っています」\nI have a cat (      ) eyes are blue.",
+      "choices": ["whose", "who", "which", "that"],
+      "answer": "whose",
+      "explanation": "Cat whose eyes（その目が青い猫）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたが昨夜見た映画は何ですか？」となるように並び替えてください。",
+      "choices": ["movie", "last", "night", "you", "saw", "What", "the", "is", "that"],
+      "answer": "Whatisthemoviethatyousawlastnight",
+      "explanation": "What is the movie that you saw last night? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私があなたにしてあげられることは何もない」\nThere is nothing (      ) I can do for you.",
+      "choices": [],
+      "answer": "that",
+      "explanation": "NothingやAnythingなどが先行詞の場合、whichよりもthatが好まれます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これは私が今までに見た中で一番面白い映画です」\nThis is the most interesting movie (      ) I have ever seen.",
+      "choices": ["that", "who", "whose", "whom"],
+      "answer": "that",
+      "explanation": "先行詞に最上級（the most interesting）がついている場合、thatが好まれます。"
+    },
+    {
+      "type": "sort",
+      "question": "「公園へ行くバスはどれですか？」となるように並び替えてください。",
+      "choices": ["goes", "bus", "park", "to", "Which", "the", "is", "the", "that"],
+      "answer": "Whichisthebusthatgoestothepark",
+      "explanation": "Which is the bus that goes to the park? 先行詞が疑問詞Whichの答えになる場合など、関係代名詞thatを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼が言ったことは本当だ」\nThe thing (      ) he said is true.",
+      "choices": [],
+      "answer": "which",
+      "explanation": "The thing which he said...（彼が言ったこと）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「名前が『ポチ』という犬」\nA dog (      ) name is Pochi",
+      "choices": ["whose", "who", "which", "that"],
+      "answer": "whose",
+      "explanation": "Dog whose name...（その名前がポチである犬）。"
+    },
+    {
+      "type": "sort",
+      "question": "「私が話したい人は彼です。」となるように並び替えてください。",
+      "choices": ["man", "want", "I", "is", "him", "to", "The", "talk", "to"],
+      "answer": "ThemanIwanttotalktoishim",
+      "explanation": "The man (whom/that) I want to talk to is him. 関係代名詞が省略されているパターンです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私が昨日買った本」\nThe book (      ) I bought yesterday",
+      "choices": [],
+      "answer": "which",
+      "explanation": "The book which I bought yesterday. 省略も可能です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「英語を上手に話す少年」\nA boy (      ) speaks English well",
+      "choices": ["who", "which", "whose", "whom"],
+      "answer": "who",
+      "explanation": "A boy who speaks... 主格です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちが泊まったホテルはとても古かった。」となるように並び替えてください。",
+      "choices": ["stayed", "hotel", "at", "we", "very", "was", "old", "The"],
+      "answer": "Thehotelwestayedatwasveryold",
+      "explanation": "The hotel (which) we stayed at was very old. 前置詞atが後ろに残ります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女が探しているバッグ」\nThe bag (      ) she is looking for",
+      "choices": [],
+      "answer": "which",
+      "explanation": "The bag which she is looking for. 前置詞forが後ろに残ります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼が書いた全てのこと」\nAll (      ) he wrote",
+      "choices": ["that", "which", "who", "whose"],
+      "answer": "that",
+      "explanation": "Allが先行詞の場合、thatが好まれます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は私が知っている唯一の人です。」となるように並び替えてください。",
+      "choices": ["only", "I", "He", "person", "know", "the", "is", "that"],
+      "answer": "HeistheonlypersonthatIknow",
+      "explanation": "He is the only person that I know. The only（唯一の）がつく場合、thatが好まれます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私を助けてくれるロボットが欲しい」\nI want a robot (      ) helps me.",
+      "choices": [],
+      "answer": "that",
+      "explanation": "Robot that/which helps me. 主格です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は皆に愛される作家です」\nHe is a writer (      ) is loved by everyone.",
+      "choices": ["who", "which", "whose", "whom"],
+      "answer": "who",
+      "explanation": "Writer who is loved... 主格です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたが駅で会った女性」となるように並び替えてください。",
+      "choices": ["woman", "station", "you", "met", "the", "at", "The"],
+      "answer": "Thewomanyoumetatthestation",
+      "explanation": "The woman (whom) you met at the station. 関係代名詞の省略です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これが私が欲しかったものです」\nThis is (      ) I wanted.",
+      "choices": [],
+      "answer": "what",
+      "explanation": "What I wanted（私が欲しかったもの）。先行詞を含んだ関係代名詞whatです（the thing whichと同じ）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちが住んでいる家」\nThe house (      ) we live in",
+      "choices": ["which", "who", "whose", "where"],
+      "answer": "which",
+      "explanation": "inが残っているのでwhichを使います（Where we liveならinは不要）。"
+    },
+    {
+      "type": "sort",
+      "question": "「昨日ここに来た少年は私のいとこです。」となるように並び替えてください。",
+      "choices": ["cousin", "came", "here", "boy", "yesterday", "my", "is", "who", "The"],
+      "answer": "Theboywhocamehereyesterdayismycousin",
+      "explanation": "The boy who came here yesterday is my cousin. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は私が信頼できる男性です」\nHe is a man (      ) I can trust.",
+      "choices": [],
+      "answer": "whom",
+      "explanation": "Man whom I can trust. 目的格whom（またはwho/that/省略）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これは彼が作った映画です」\nThis is the movie (      ) he made.",
+      "choices": ["that", "who", "whose", "what"],
+      "answer": "that",
+      "explanation": "Movie that he made. 物なのでthat/whichです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私があなたにしてあげられることは何ですか？」となるように並び替えてください。",
+      "choices": ["for", "do", "can", "I", "is", "What", "you", "that"],
+      "answer": "WhatisthatIcandoforyou",
+      "explanation": "What is that I can do for you? （または What is it that... / What can I do...）文法的には What is (the thing) that I can do for you? の構造です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これは私が失くしたペンです」\nThis is the pen (      ) I lost.",
+      "choices": [],
+      "answer": "which",
+      "explanation": "The pen which I lost. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「頂上が雪で覆われている山」\nA mountain (      ) top is covered with snow",
+      "choices": ["whose", "which", "that", "who"],
+      "answer": "whose",
+      "explanation": "Mountain whose top（その頂上が～である山）。"
+    },
+    {
+      "type": "sort",
+      "question": "「これは私が今まで読んだ中で一番長い本です。」となるように並び替えてください。",
+      "choices": ["longest", "read", "have", "book", "is", "the", "This", "I", "ever", "that"],
+      "answer": "ThisisthelongestbookthatIhaveeverread",
+      "explanation": "This is the longest book that I have ever read. 最上級 + that です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私に必要なのは時間です」\n(      ) I need is time.",
+      "choices": [],
+      "answer": "What",
+      "explanation": "What I need（私が必要なもの/こと）is time. 関係代名詞whatです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「しっぽの短い猫」\nA cat (      ) tail is short",
+      "choices": ["whose", "who", "which", "that"],
+      "answer": "whose",
+      "explanation": "Cat whose tail（そのしっぽが～である猫）。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは彼が言ったことを聞きましたか？」となるように並び替えてください。",
+      "choices": ["said", "hear", "what", "Did", "you", "he"],
+      "answer": "Didyouhearwhathesaid",
+      "explanation": "Did you hear what he said? What（～なこと）を使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私が作った夕食」\nThe dinner (      ) I cooked",
+      "choices": [],
+      "answer": "which",
+      "explanation": "The dinner which I cooked. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はみんなが知っている人です」\nHe is a person (      ) everyone knows.",
+      "choices": ["who", "which", "whose", "what"],
+      "answer": "who",
+      "explanation": "Person who/whom everyone knows. 目的格です。"
+    },
+    {
+      "type": "sort",
+      "question": "「これが私が探していた本です。」となるように並び替えてください。",
+      "choices": ["looking", "was", "book", "for", "is", "I", "This", "the"],
+      "answer": "ThisisthebookIwaslookingfor",
+      "explanation": "This is the book (that) I was looking for. 関係代名詞の省略です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女が書いた手紙」\nThe letter (      ) she wrote",
+      "choices": [],
+      "answer": "that",
+      "explanation": "The letter that/which she wrote. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「青い目をした人形」\nA doll (      ) has blue eyes",
+      "choices": ["which", "who", "whose", "whom"],
+      "answer": "which",
+      "explanation": "Doll which has blue eyes（青い目を持っている人形）。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は私が愛する女性です。」となるように並び替えてください。",
+      "choices": ["woman", "is", "love", "the", "She", "I"],
+      "answer": "SheisthewomanIlove",
+      "explanation": "She is the woman (whom) I love. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「昨日起こった事故」\nThe accident (      ) happened yesterday",
+      "choices": [],
+      "answer": "that",
+      "explanation": "The accident that/which happened... 主格です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私が先週買ったコンピュータ」\nThe computer (      ) I bought last week",
+      "choices": ["which", "who", "whose", "whom"],
+      "answer": "which",
+      "explanation": "Computer which I bought... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「これが私の欲しかったカメラです。」となるように並び替えてください。",
+      "choices": ["wanted", "camera", "This", "the", "I", "is", "that"],
+      "answer": "ThisisthecamerathatIwanted",
+      "explanation": "This is the camera that I wanted. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は私が昨日公園で会った少年です」\nHe is the boy (      ) I met in the park yesterday.",
+      "choices": [],
+      "answer": "whom",
+      "explanation": "The boy whom I met... 目的格です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼がしたことを許せません」\nI can't forgive (      ) he did.",
+      "choices": ["what", "that", "which", "who"],
+      "answer": "what",
+      "explanation": "Forgive what he did（彼がしたこと）。先行詞がないのでwhatを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の父が働いている会社」となるように並び替えてください。",
+      "choices": ["company", "works", "father", "The", "for", "my", "which"],
+      "answer": "Thecompanywhichmyfatherworksfor",
+      "explanation": "The company which my father works for. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「丘の上に立っている家」\nA house (      ) stands on the hill",
+      "choices": [],
+      "answer": "which",
+      "explanation": "House which/that stands... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女が描いた絵は美しかった」\nThe picture (      ) she painted was beautiful.",
+      "choices": ["which", "who", "whose", "what"],
+      "answer": "which",
+      "explanation": "The picture which she painted... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは彼が言ったことを信じますか？」となるように並び替えてください。",
+      "choices": ["believe", "what", "you", "said", "he", "Do"],
+      "answer": "Doyoubelievewhathesaid",
+      "explanation": "Do you believe what he said? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これが私が見たかった映画です」\nThis is the movie (      ) I wanted to see.",
+      "choices": [],
+      "answer": "that",
+      "explanation": "Movie that I wanted to see. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はテニスが好きな少年を知っています」\nI know a boy (      ) likes tennis.",
+      "choices": ["who", "which", "whose", "whom"],
+      "answer": "who",
+      "explanation": "Boy who likes tennis. 主格です。"
+    }
+  ]
+}
