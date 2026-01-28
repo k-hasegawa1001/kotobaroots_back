@@ -1,0 +1,587 @@
+{
+  "learning_topic": "その他の表現(感嘆文・付加疑問文など)",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「なんて美しい花なんでしょう！」\n(      ) a beautiful flower this is!",
+      "choices": ["What", "How", "Who", "Where"],
+      "answer": "What",
+      "explanation": "What a + 形容詞 + 名詞 + S + V ! の形です。名詞（flower）が含まれる場合はWhatを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はなんて速く走るのでしょう！」となるように並び替えてください。",
+      "choices": ["runs", "How", "he", "fast"],
+      "answer": "Howfastheruns",
+      "explanation": "How fast he runs! How + 副詞/形容詞 + S + V ! の形です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは学生ですよね？」\nYou are a student, (      ) you?",
+      "choices": [],
+      "answer": "aren't",
+      "explanation": "肯定文（You are）の後の付加疑問文は、否定形（aren't you?）にします。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は納豆が好きではありませんよね？」\nHe doesn't like natto, (      ) he?",
+      "choices": ["does", "doesn't", "is", "isn't"],
+      "answer": "does",
+      "explanation": "否定文（doesn't）の後の付加疑問文は、肯定形（does he?）にします。"
+    },
+    {
+      "type": "sort",
+      "question": "「なんて暑い日なんでしょう！」となるように並び替えてください。",
+      "choices": ["day", "What", "hot", "it", "a", "is"],
+      "answer": "Whatahotdayitis",
+      "explanation": "What a hot day it is! です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「静かにしなさい」\n(      ) quiet.",
+      "choices": [],
+      "answer": "Be",
+      "explanation": "形容詞（quiet）を命令文にする時は、原形のBeを文頭に置きます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「散歩に行きませんか？」\n(      ) don't we go for a walk?",
+      "choices": ["Why", "What", "How", "Where"],
+      "answer": "Why",
+      "explanation": "Why don't we...?（～しませんか）という勧誘の表現です。"
+    },
+    {
+      "type": "sort",
+      "question": "「この部屋はなんて汚いんでしょう！」となるように並び替えてください。",
+      "choices": ["dirty", "room", "How", "this", "is"],
+      "answer": "Howdirtythisroomis",
+      "explanation": "How dirty this room is! 名詞を単独で強調しない形容詞中心の感嘆文はHowを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「遅刻してはいけません」\n(      ) be late.",
+      "choices": [],
+      "answer": "Don't",
+      "explanation": "Don't be late. 禁止の命令文です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「一緒にサッカーをしましょう」\n(      ) play soccer.",
+      "choices": ["Let's", "Let", "Do", "Will"],
+      "answer": "Let's",
+      "explanation": "Let's（～しましょう）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「なんてかわいい犬なんでしょう！」となるように並び替えてください。",
+      "choices": ["cute", "dog", "a", "What"],
+      "answer": "Whatacutedog",
+      "explanation": "What a cute dog! 文末の「it is」などが省略されることもよくあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「明日晴れるといいなあ」\nI (      ) it will be sunny tomorrow.",
+      "choices": [],
+      "answer": "hope",
+      "explanation": "I hope...（～だといいなと思う）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女はピアノが弾けますよね？」\nShe can play the piano, (      ) she?",
+      "choices": ["can't", "can", "doesn't", "isn't"],
+      "answer": "can't",
+      "explanation": "助動詞canが使われている文の付加疑問はcan'tを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「テニスをするのはどうですか？」となるように並び替えてください。",
+      "choices": ["about", "tennis", "playing", "How"],
+      "answer": "Howaboutplayingtennis",
+      "explanation": "How about...?（～してはどうですか）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「なんてラッキーなんでしょう！」\n(      ) lucky!",
+      "choices": [],
+      "answer": "How",
+      "explanation": "How lucky! 形容詞を強調するのでHowです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「トムは昨日学校に来ませんでしたよね？」\nTom didn't come to school yesterday, (      ) he?",
+      "choices": ["did", "didn't", "was", "wasn't"],
+      "answer": "did",
+      "explanation": "didn't（否定）を受けているので、肯定のdidを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「ドアを開けてくださいませんか？」となるように並び替えてください。",
+      "choices": ["you", "open", "door", "the", "please", "Will"],
+      "answer": "Willyoupleaseopenthedoor",
+      "explanation": "Will you please open the door? 丁寧な依頼です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「お茶を一杯いかがですか？」\n(      ) you like a cup of tea?",
+      "choices": [],
+      "answer": "Would",
+      "explanation": "Would you like...?（～はいかがですか）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「なんて大きな箱なんでしょう！」\n(      ) a big box!",
+      "choices": ["What", "How", "Which", "Why"],
+      "answer": "What",
+      "explanation": "What a big box! です。"
+    },
+    {
+      "type": "sort",
+      "question": "「休憩しましょう。」となるように並び替えてください。",
+      "choices": ["a", "take", "break", "Let's"],
+      "answer": "Let'stakeabreak",
+      "explanation": "Let's take a break. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「昨日は寒かったですよね？」\nIt was cold yesterday, (      ) it?",
+      "choices": [],
+      "answer": "wasn't",
+      "explanation": "It was... を受けるのでwasn't it? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はなんて一生懸命勉強するのでしょう！」\n(      ) hard he studies!",
+      "choices": ["How", "What", "Who", "Where"],
+      "answer": "How",
+      "explanation": "How hard（副詞）... なのでHowです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたもそう思いませんか？」となるように並び替えてください。",
+      "choices": ["think", "you", "so", "Don't"],
+      "answer": "Don'tyouthinkso",
+      "explanation": "Don't you think so? 否定疑問文です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「どうぞ座ってください」\nplease (      ) down.",
+      "choices": [],
+      "answer": "sit",
+      "explanation": "Sit down. Pleaseをつけて丁寧な命令文にします。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは疲れていますね？」\nYou are tired, (      ) you?",
+      "choices": ["aren't", "don't", "won't", "can't"],
+      "answer": "aren't",
+      "explanation": "Are you? の反対でaren't you? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「なんて親切な少年なんでしょう！」となるように並び替えてください。",
+      "choices": ["kind", "boy", "a", "What", "is", "he"],
+      "answer": "Whatakindboyheis",
+      "explanation": "What a kind boy he is! です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「買い物に行きませんか？」\nWhy (      ) we go shopping?",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "Why don't we...?（～しましょう）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私と一緒に来てください」\n(      ) come with me.",
+      "choices": ["Please", "Let", "Shall", "May"],
+      "answer": "Please",
+      "explanation": "Please + 命令文 で丁寧なお願いになります。"
+    },
+    {
+      "type": "sort",
+      "question": "「この花はなんて美しいのでしょう！」となるように並び替えてください。",
+      "choices": ["beautiful", "flower", "is", "this", "How"],
+      "answer": "Howbeautifulthisfloweris",
+      "explanation": "How beautiful this flower is! です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「（提案に対して）それはいいですね！」\nThat (      ) good!",
+      "choices": [],
+      "answer": "sounds",
+      "explanation": "That sounds good!（良さそうですね/そうしましょう）という同意の表現です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ケンは昨日ここに来ましたよね？」\nKen came here yesterday, (      ) he?",
+      "choices": ["didn't", "doesn't", "wasn't", "isn't"],
+      "answer": "didn't",
+      "explanation": "一般動詞の過去形（came）なので、付加疑問文はdidn'tを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「ここで野球をしてはいけません。」となるように並び替えてください。",
+      "choices": ["baseball", "play", "Don't", "here"],
+      "answer": "Don'tplaybaseballhere",
+      "explanation": "Don't play baseball here. 禁止の命令文です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「クッキーはいかがですか？」\nWould you like (      ) cookies?",
+      "choices": [],
+      "answer": "some",
+      "explanation": "疑問文ですが、勧誘・依頼の場合はanyではなくsomeを使うのが一般的です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「なんて素晴らしいアイディアなんでしょう！」\n(      ) a great idea!",
+      "choices": ["What", "How", "Which", "Why"],
+      "answer": "What",
+      "explanation": "What a great idea! です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは彼を知っていますよね？」となるように並び替えてください。",
+      "choices": ["know", "you", "him", "don't", "You"],
+      "answer": "Youknowhimdon'tyou",
+      "explanation": "You know him, don't you? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちはテニスをしませんか？」\n(      ) we play tennis?",
+      "choices": [],
+      "answer": "Shall",
+      "explanation": "Shall we...?（～しましょうか）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「窓を開けましょうか？」\n(      ) I open the window?",
+      "choices": ["Shall", "Will", "Do", "Am"],
+      "answer": "Shall",
+      "explanation": "Shall I...?（（私が）～しましょうか）という申し出です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はなんて上手に泳ぐのでしょう！」となるように並び替えてください。",
+      "choices": ["swims", "How", "he", "well"],
+      "answer": "Howwellheswims",
+      "explanation": "How well he swims! Well（上手に）は副詞なのでHowを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「気をつけて（注意しなさい）」\n(      ) careful.",
+      "choices": [],
+      "answer": "Be",
+      "explanation": "Be careful. 形容詞carefulを使う命令文です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それらはあなたの本ではないですよね？」\nThey aren't your books, (      ) they?",
+      "choices": ["are", "aren't", "do", "don't"],
+      "answer": "are",
+      "explanation": "Aren't（否定）を受けているので、肯定のareを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたと一緒に行きたいです。」となるように並び替えてください。",
+      "choices": ["like", "go", "I", "would", "to", "you", "with"],
+      "answer": "Iwouldliketogowithyou",
+      "explanation": "I would like to go with you. Want toの丁寧な言い方です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「おじいちゃんへのプレゼント、何にしようか（何がいいかな）？」\nWhat (      ) we get for Grandpa?",
+      "choices": [],
+      "answer": "shall",
+      "explanation": "What shall we...?（何を～しましょうか）という相談の表現です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私もそうです（肯定への同意）」\nI like soccer. - (      ).",
+      "choices": ["So do I", "Neither do I", "I do so", "I am too"],
+      "answer": "So do I",
+      "explanation": "「私もそうです（So + 助動詞/be動詞 + 主語）」の形です。"
+    },
+    {
+      "type": "sort",
+      "question": "「なんて面白い本なんでしょう！」となるように並び替えてください。",
+      "choices": ["book", "interesting", "an", "What", "is", "this"],
+      "answer": "Whataninterestingbookthisis",
+      "explanation": "What an interesting book this is! です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私もそうではありません（否定への同意）」\nI don't like natto. - (      ) do I.",
+      "choices": [],
+      "answer": "Neither",
+      "explanation": "Neither do I.（私も（否定の内容）です）という形です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ユミはピアノを弾きませんよね？」\nYumi doesn't play the piano, (      ) she?",
+      "choices": ["does", "doesn't", "is", "isn't"],
+      "answer": "does",
+      "explanation": "doesn'tなのでdoes she?です。"
+    },
+    {
+      "type": "sort",
+      "question": "「怖がらないで。」となるように並び替えてください。",
+      "choices": ["afraid", "be", "Don't"],
+      "answer": "Don'tbeafraid",
+      "explanation": "Don't be afraid. Afraid（恐れて）は形容詞なのでbe動詞が必要です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「なんて素敵なんでしょう！」\n(      ) nice!",
+      "choices": [],
+      "answer": "How",
+      "explanation": "How nice! です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「映画を見に行きませんか？」\nWhy (      ) you go to the movies?",
+      "choices": ["don't", "do", "aren't", "won't"],
+      "answer": "don't",
+      "explanation": "Why don't you...?（～してはどうですか）という提案です。"
+    },
+    {
+      "type": "sort",
+      "question": "「この絵はなんて美しいんでしょう！」となるように並び替えてください。",
+      "choices": ["beautiful", "picture", "How", "is", "this"],
+      "answer": "Howbeautifulthispictureis",
+      "explanation": "How beautiful this picture is! です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたのお母さんは先生ですよね？」\nYour mother is a teacher, (      ) she?",
+      "choices": [],
+      "answer": "isn't",
+      "explanation": "Isを受けてisn't she?です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の言うことを聞きなさい」\n(      ) to me.",
+      "choices": ["Listen", "Hear", "Listening", "Listens"],
+      "answer": "Listen",
+      "explanation": "Listen to me. 命令文です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたのお姉さんは背が高いですね？」となるように並び替えてください。",
+      "choices": ["tall", "sister", "Your", "is", "she", "isn't"],
+      "answer": "Yoursisteristallisn'tshe",
+      "explanation": "Your sister is tall, isn't she? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「なんて悲しい話なんでしょう！」\n(      ) a sad story!",
+      "choices": [],
+      "answer": "What",
+      "explanation": "What a sad story! 名詞storyがあるのでWhatです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは納豆を食べることができますよね？」\nYou can eat natto, (      ) you?",
+      "choices": ["can't", "can", "don't", "aren't"],
+      "answer": "can't",
+      "explanation": "Canを使っているのでcan't you?です。"
+    },
+    {
+      "type": "sort",
+      "question": "「もう一度それを言ってください。」となるように並び替えてください。",
+      "choices": ["again", "that", "Say", "please"],
+      "answer": "Pleasesaythatagain",
+      "explanation": "Please say that again. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは疲れていませんよね？」\nYou aren't tired, (      ) you?",
+      "choices": [],
+      "answer": "are",
+      "explanation": "Aren'tの逆でAre you?です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ピクニックに行くのはどうですか？」\nHow about (      ) on a picnic?",
+      "choices": ["going", "go", "to go", "went"],
+      "answer": "going",
+      "explanation": "How about -ing? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「なんて忙しい日なんでしょう！」となるように並び替えてください。",
+      "choices": ["day", "busy", "a", "What"],
+      "answer": "Whatabusyday",
+      "explanation": "What a busy day! です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「恥ずかしがらないで」\nDon't (      ) shy.",
+      "choices": [],
+      "answer": "be",
+      "explanation": "Don't be shy. Shy（恥ずかしがって）は形容詞なのでbeが必要です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ケンは昨日勉強しましたよね？」\nKen studied yesterday, (      ) he?",
+      "choices": ["didn't", "did", "doesn't", "wasn't"],
+      "answer": "didn't",
+      "explanation": "Studied（過去形）なのでdidn't he?です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは東京出身ではないですよね？」となるように並び替えてください。",
+      "choices": ["Tokyo", "from", "aren't", "You", "you", "are"],
+      "answer": "Youaren'tfromTokyoareyou",
+      "explanation": "You aren't from Tokyo, are you? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はなんて親切なんでしょう！」\n(      ) kind he is!",
+      "choices": [],
+      "answer": "How",
+      "explanation": "How kind he is! です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「心配しないで」\n(      ) worry.",
+      "choices": ["Don't", "Not", "No", "Aren't"],
+      "answer": "Don't",
+      "explanation": "Don't worry. 禁止の命令文です。"
+    },
+    {
+      "type": "sort",
+      "question": "「また会いましょう。」となるように並び替えてください。",
+      "choices": ["meet", "again", "Let's"],
+      "answer": "Let'smeetagain",
+      "explanation": "Let's meet again. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は英語を話せませんよね？」\nShe can't speak English, (      ) she?",
+      "choices": [],
+      "answer": "can",
+      "explanation": "Can'tの逆でCan she?です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「なんて大きな家なんでしょう！」\n(      ) a big house!",
+      "choices": ["What", "How", "When", "Why"],
+      "answer": "What",
+      "explanation": "What a big house! です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたのお父さんは車を持っていますよね？」となるように並び替えてください。",
+      "choices": ["car", "father", "has", "Your", "doesn't", "a", "he"],
+      "answer": "Yourfatherhasacardoesn'the",
+      "explanation": "Your father has a car, doesn't he? 三人称単数（has）なのでdoesn't he?です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「急ぎましょう」\nLet's (      ) in a hurry.",
+      "choices": [],
+      "answer": "be",
+      "explanation": "Let's be in a hurry. または Let's hurry. (be in a hurry = 急いでいる状態)"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は先生ですよね？」\nHe is a teacher, (      ) he?",
+      "choices": ["isn't", "is", "doesn't", "didn't"],
+      "answer": "isn't",
+      "explanation": "Isn't he? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「そんなにうるさくしないで。」となるように並び替えてください。",
+      "choices": ["noisy", "so", "be", "Don't"],
+      "answer": "Don'tbesonoisy",
+      "explanation": "Don't be so noisy. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはそれが好きではないですよね？」\nYou don't like it, (      ) you?",
+      "choices": [],
+      "answer": "do",
+      "explanation": "Don'tの逆でdo you?です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「今日はなんて良い天気なんでしょう！」\n(      ) fine weather it is today!",
+      "choices": ["What", "How", "Where", "When"],
+      "answer": "What",
+      "explanation": "What fine weather... Weatherは数えられない名詞なのでaはつきませんが、名詞なのでWhatを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「家に帰りましょうか？」となるように並び替えてください。",
+      "choices": ["home", "we", "go", "Shall"],
+      "answer": "Shallwegohome",
+      "explanation": "Shall we go home? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「気楽にして（くつろいで）ください」\nPlease (      ) yourself at home.",
+      "choices": [],
+      "answer": "make",
+      "explanation": "Make yourself at home. 定番の挨拶です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは昨日忙しかったですよね？」\nYou were busy yesterday, (      ) you?",
+      "choices": ["weren't", "were", "didn't", "aren't"],
+      "answer": "weren't",
+      "explanation": "Wereの逆でweren't you?です。"
+    },
+    {
+      "type": "sort",
+      "question": "「どうぞ入ってください。」となるように並び替えてください。",
+      "choices": ["in", "Please", "come"],
+      "answer": "Pleasecomein",
+      "explanation": "Please come in. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その試験は難しかったですよね？」\nThe exam was difficult, (      ) it?",
+      "choices": [],
+      "answer": "wasn't",
+      "explanation": "Wasn't it? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは遅れていませんよね？」\nWe aren't late, (      ) we?",
+      "choices": ["are", "aren't", "do", "don't"],
+      "answer": "are",
+      "explanation": "Aren'tの逆でare we?です。"
+    },
+    {
+      "type": "sort",
+      "question": "「なんて高い建物なんでしょう！」となるように並び替えてください。",
+      "choices": ["building", "tall", "a", "What"],
+      "answer": "Whatatallbuilding",
+      "explanation": "What a tall building! です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「静かにしてくれませんか？」\n(      ) you please be quiet?",
+      "choices": [],
+      "answer": "Will",
+      "explanation": "Will you please...? 丁寧な命令・依頼です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは泳げますよね？」\nYou can swim, (      ) you?",
+      "choices": ["can't", "can", "don't", "aren't"],
+      "answer": "can't",
+      "explanation": "Can't you? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はコーヒーが好きですよね？」となるように並び替えてください。",
+      "choices": ["likes", "coffee", "doesn't", "She", "she"],
+      "answer": "Shelikescoffeedoesn'tshe",
+      "explanation": "She likes coffee, doesn't she? です。"
+    }
+  ]
+}
