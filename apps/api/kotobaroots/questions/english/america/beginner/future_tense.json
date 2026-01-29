@@ -1,710 +1,707 @@
 {
-  "learning_topic": "未来表現 (will / be going to)",
+  "learning_topic": "未来表現 (Future Tense)",
   "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "「私はニューヨークを訪れる予定です」\nI (      ) going to visit New York.",
-      "choices": ["am", "is", "are", "be"],
-      "answer": "am",
-      "explanation": "「〜する予定だ」は be going to を使います。主語がIなのでbe動詞はamになります。\n【🇺🇸 Cultural Note】\nニューヨークのタイムズスクエアでの年越しカウントダウン（Ball Drop）を見に行くことは、多くのアメリカ人にとって一生に一度の夢です。"
+      "question": "「私は来年、高校生になります」\nI (      ) be a high school student next year.",
+      "choices": ["will", "am", "going", "do"],
+      "answer": "will",
+      "explanation": "単純な未来の予測や事実にはwillを使います。\n【🇺🇸 Cultural Note】\nアメリカの義務教育（K-12）では、高校（High School）は通常9年生から12年生の4年間です。"
     },
     {
       "type": "sort",
-      "question": "「明日は雨が降るでしょう。」となるように並び替えてください。",
-      "choices": ["rain", "will", "It", "tomorrow"],
-      "answer": "Itwillraintomorrow",
-      "explanation": "天候の予測には will を使います。動詞は原形（rain）です。\n【🇺🇸 Cultural Note】\nアメリカの天気予報チャンネル（The Weather Channel）は非常に人気があります。ハリケーンシーズンには一日中予報を見守る家庭も多いです。"
+      "question": "「私たちはサンクスギビングに七面鳥を食べるつもりです。」となるように並び替えてください。",
+      "choices": ["going", "to", "turkey", "eat", "are", "We", "for", "Thanksgiving"],
+      "answer": "WearegoingtoeatturkeyforThanksgiving",
+      "explanation": "予定（be going to）の文です。\n【🇺🇸 Cultural Note】\n感謝祭（Thanksgiving）に七面鳥（Turkey）を食べるのは、アメリカの最も伝統的な食文化です。クランベリーソースを添えるのが一般的です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私たちは感謝祭に祖父母に会う予定です」\nWe are (      ) to see our grandparents on Thanksgiving.",
+      "question": "「今夜は雨が降るでしょう」\nIt (      ) rain tonight.",
+      "choices": [],
+      "answer": "will",
+      "explanation": "天気の予測にはwillがよく使われます。\n【🇺🇸 Cultural Note】\nシアトル（Seattle）など北西部の都市は雨が多いことで有名ですが、カリフォルニアなどの南西部は乾燥しており、山火事が問題になることもあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「夏休みにグランドキャニオンに行くつもりです」\nI am (      ) to visit the Grand Canyon during summer vacation.",
+      "choices": ["going", "will", "gonna", "go"],
+      "answer": "going",
+      "explanation": "「～するつもりだ」という計画には be going to を使います。\n【🇺🇸 Cultural Note】\n夏休み（Summer vacation）は通常6月から8月までの約2〜3ヶ月間あり、宿題がほとんどないのが一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはプロムに行きますか？」となるように並び替えてください。",
+      "choices": ["go", "you", "Will", "to", "prom", "the"],
+      "answer": "Willyougototheprom",
+      "explanation": "相手の意思を聞くWill you...?の形です。\n【🇺🇸 Cultural Note】\nプロム（Prom）は高校生活最大のイベントであるダンスパーティーです。タキシードやドレスを着て、リムジンで会場に向かう生徒もいます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは日曜日にスーパーボウルを見る予定です」\nThey are (      ) to watch the Super Bowl on Sunday.",
       "choices": [],
       "answer": "going",
-      "explanation": "be going to（〜する予定だ）の形を作ります。\n【🇺🇸 Cultural Note】\n感謝祭（Thanksgiving）の前日は、全米の空港や道路が帰省ラッシュで一年で最も混雑する日の一つです。"
+      "explanation": "be going to watch... です。\n【🇺🇸 Cultural Note】\nスーパーボウル（Super Bowl）の日は、事実上の国民の祝日のような盛り上がりを見せます。ピザやチキンウィングを食べながら観戦します。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼は大統領になるでしょう」\nHe (      ) be the President.",
-      "choices": ["will", "is", "going", "wants"],
+      "question": "「私はあなたにチップを渡します」\nI (      ) give you a tip.",
+      "choices": ["will", "am", "going", "be"],
       "answer": "will",
-      "explanation": "未来の予測や意志を表す助動詞 will を使います。\n【🇺🇸 Cultural Note】\nアメリカの子供たちが将来の夢として「大統領になりたい」と言うのは定番です。大統領になるには「米国生まれ」であることが憲法上の条件です。"
+      "explanation": "その場の意志（～します）を表すwillです。\n【🇺🇸 Cultural Note】\nアメリカはチップ社会です。レストランでは会計の15%〜20%をチップとして置くのがマナーです。"
     },
     {
       "type": "sort",
-      "question": "「私はあなたにテキストを送ります（意志）。」となるように並び替えてください。",
-      "choices": ["text", "will", "you", "I"],
-      "answer": "Iwilltextyou",
-      "explanation": "「〜するよ」というその場の意志は will を使います。Textは「メール/メッセージを送る」という動詞です。\n【🇺🇸 Cultural Note】\nアメリカでは電話番号を使ったSMS（Text message）が連絡手段の主流です。LINEよりもiMessageやWhatsAppがよく使われます。"
+      "question": "「ハロウィンに何を着るつもりですか？」となるように並び替えてください。",
+      "choices": ["wear", "are", "you", "going", "to", "What", "for", "Halloween"],
+      "answer": "WhatareyougoingtowearforHalloween",
+      "explanation": "What are you going to... ? の疑問文です。\n【🇺🇸 Cultural Note】\nハロウィンでは子供だけでなく大人も仮装を楽しみます。「Trick or Treat」と言ってお菓子をもらいに近所を回ります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は大学で法律を学ぶ予定です」\nShe is going to (      ) law in college.",
-      "choices": [],
-      "answer": "study",
-      "explanation": "to の後ろは動詞の原形（study）が来ます。\n【🇺🇸 Cultural Note】\nアメリカで弁護士になるには、大学（学部）を卒業した後、さらにロースクール（法科大学院）に行く必要があります。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたはパーティーに来ますか？（予定）」\n(      ) you going to come to the party?",
-      "choices": ["Are", "Do", "Will", "Did"],
-      "answer": "Are",
-      "explanation": "be going to の疑問文なので、主語 You に対応する be動詞 Are を文頭に出します。\n【🇺🇸 Cultural Note】\nアメリカのパーティー招待状には\"RSVP\"（フランス語の「お返事願います」の略）と書かれており、出欠連絡をするのがマナーです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は諦めません（意志）。」となるように並び替えてください。",
-      "choices": ["give", "won't", "up", "I"],
-      "answer": "Iwon'tgiveup",
-      "explanation": "will not の短縮形 won't を使い、強い拒絶や意志を表します。\n【🇺🇸 Cultural Note】\n\"Never give up\"の精神は、多くのアメリカ映画やスポーツドラマで描かれる主要なテーマです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼らは新しい車を買う予定です」\nThey are going to (      ) a new car.",
-      "choices": [],
-      "answer": "buy",
-      "explanation": "to の後ろは動詞の原形（buy）です。\n【🇺🇸 Cultural Note】\nアメリカでは高校卒業祝いや16歳の誕生日に、親から中古車をプレゼントされることがよくあります。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「いつ出発するつもりですか？」\nWhen (      ) you leave?",
-      "choices": ["will", "are", "do", "did"],
-      "answer": "will",
-      "explanation": "未来の予定を聞く疑問文で、will を使います。\n【🇺🇸 Cultural Note】\nアメリカ人は時間に正確（Punctual）であることをビジネスでは重視しますが、ホームパーティーなどでは少し遅れて行くのが「ファッション」とされることもあります。"
-    },
-    {
-      "type": "sort",
-      "question": "「トムはサッカーをしないでしょう。」となるように並び替えてください。",
-      "choices": ["play", "Tom", "soccer", "won't"],
-      "answer": "Tomwon'tplaysoccer",
-      "explanation": "未来の否定なので won't（will not）を使います。\n【🇺🇸 Cultural Note】\nアメリカで\"Football\"といえばアメフトのこと。手を使わないフットボールは必ず\"Soccer\"と呼びます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は夏休みにキャンプに行く予定です」\nI am going to (      ) camping this summer.",
-      "choices": [],
-      "answer": "go",
-      "explanation": "go camping（キャンプに行く）。be going to go と go が重なりますが正しい表現です。\n【🇺🇸 Cultural Note】\nイエローストーンやヨセミテなどの国立公園でのキャンプは、アメリカ人家族の定番の夏休みです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「今夜は雪が降る予定です（予報）」\nIt (      ) going to snow tonight.",
-      "choices": ["is", "will", "was", "are"],
-      "answer": "is",
-      "explanation": "It に対応する be動詞 is を使って be going to の形を作ります。\n【🇺🇸 Cultural Note】\n天気予報で大雪が予測されると、スーパーからパンと牛乳が売り切れる現象がよく起こります。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちは火星に行くでしょう。」となるように並び替えてください。",
-      "choices": ["Mars", "go", "will", "to", "We"],
-      "answer": "WewillgotoMars",
-      "explanation": "未来の予測・意志として will を使います。\n【🇺🇸 Cultural Note】\nNASAやスペースX社（イーロン・マスク）は、有人火星探査を具体的な目標として掲げています。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は医者になる予定です」\nShe is going to (      ) a doctor.",
-      "choices": [],
-      "answer": "be",
-      "explanation": "「〜になる」は be a doctor なので、to の後ろに be を置きます。\n【🇺🇸 Cultural Note】\nアメリカの医師になるプロセスは非常に長く、学費も高額ですが、社会的地位と収入は非常に高いです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はあなたを手伝いますよ（申し出）」\nI (      ) help you.",
-      "choices": ["will", "am", "going", "want"],
-      "answer": "will",
-      "explanation": "その場で「手伝うよ」と申し出る時は will を使います（I'll help you）。\n【🇺🇸 Cultural Note】\n店員さんに\"Can I help you?\"と聞かれたら、\"I'm just looking\"（見てるだけです）か\"Yes, please\"と答えます。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼らは結婚する予定です。」となるように並び替えてください。",
-      "choices": ["get", "going", "married", "are", "They", "to"],
-      "answer": "Theyaregoingtogetmarried",
-      "explanation": "be going to get married（結婚する予定だ）。\n【🇺🇸 Cultural Note】\nラスベガスには「ドライブスルー結婚式場」があり、車に乗ったまま気軽に結婚式を挙げることができます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私たちは遅れるでしょう」\nWe (      ) be late.",
-      "choices": [],
-      "answer": "will",
-      "explanation": "未来の予測なので will を使います。\n【🇺🇸 Cultural Note】\n交通渋滞（Traffic jam）が激しいロサンゼルスなどでは、遅刻の言い訳として「渋滞」が最も一般的です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは何をするつもりですか？」\nWhat are you (      ) to do?",
-      "choices": ["going", "go", "will", "doing"],
-      "answer": "going",
-      "explanation": "be going to の形を作るため going を選びます。\n【🇺🇸 Cultural Note】\n高校卒業後の進路として、大学進学のほかに「ギャップイヤー（Gap Year）」を取って旅行やボランティアをする学生もいます。"
-    },
-    {
-      "type": "sort",
-      "question": "「いつか自分のお店を持つつもりです。」となるように並び替えてください。",
-      "choices": ["own", "have", "my", "shop", "I", "will", "someday"],
-      "answer": "Iwillhavemyownshopsomeday",
-      "explanation": "未来の夢や意志を表すので will を使います。\n【🇺🇸 Cultural Note】\nスモールビジネス（起業）はアメリカ経済のバックボーンであり、ガレージから始まった巨大企業の伝説が多くあります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「その映画を見るつもりはありません」\nI am not (      ) to watch the movie.",
+      "question": "「いつかニューヨークを訪れたい（訪れるつもりだ）」\nI am (      ) to visit New York someday.",
       "choices": [],
       "answer": "going",
-      "explanation": "否定文 I am not going to... の形です。\n【🇺🇸 Cultural Note】\nアメリカの映画館では、上映中に観客が拍手したり声を出して笑ったりする賑やかな雰囲気があります。"
+      "explanation": "強い意志や計画を表す be going to です。\n【🇺🇸 Cultural Note】\nニューヨークの地下鉄（Subway）は24時間運行しており、車社会のアメリカの中では珍しく、車なしで生活できる都市です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「誰が試合に勝つでしょうか？」\nWho (      ) win the game?",
+      "question": "「彼はメジャーリーグの選手になるでしょう」\nHe (      ) be a Major League player.",
       "choices": ["will", "is", "going", "does"],
       "answer": "will",
-      "explanation": "未来の予測なので will を使います。\n【🇺🇸 Cultural Note】\nスーパーボウルの勝敗予想は、オフィスや学校で賭け（Betting pool）の対象になるほど盛り上がります。"
+      "explanation": "未来の予測なのでwillを使います。\n【🇺🇸 Cultural Note】\nMLB（メジャーリーグベースボール）は野球の最高峰です。アメリカでは野球観戦しながらホットドッグを食べるのが定番です。"
     },
     {
       "type": "sort",
-      "question": "「今夜は外食する予定です。」となるように並び替えてください。",
-      "choices": ["eat", "going", "out", "tonight", "We", "are", "to"],
-      "answer": "Wearegoingtoeatouttonight",
-      "explanation": "be going to eat out（外食する予定だ）。\n【🇺🇸 Cultural Note】\nアメリカ人は外食頻度が高く、レストランで食べきれなかった料理は\"Doggy bag\"（持ち帰り箱）に入れてもらうのが普通です。"
+      "question": "「その店は独立記念日に閉まる予定です。」となるように並び替えてください。",
+      "choices": ["close", "is", "The", "going", "store", "to", "on", "Independence", "Day"],
+      "answer": "ThestoreisgoingtocloseonIndependenceDay",
+      "explanation": "予定・計画を表す be going to です。\n【🇺🇸 Cultural Note】\n7月4日の独立記念日（Independence Day）は多くの店が休みになりますが、パレードや花火大会が行われます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「電話に出ますよ（私がとります）」\nI (      ) get it.",
-      "choices": [],
-      "answer": "will",
-      "explanation": "その場の意志（私がやります）なので will を使います。\n【🇺🇸 Cultural Note】\n固定電話が鳴った時、\"I'll get it!\"（私が出るよ！）と言って受話器を取ります。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は来ないでしょう」\nShe (      ) come.",
-      "choices": ["won't", "isn't", "don't", "doesn't"],
-      "answer": "won't",
-      "explanation": "未来の否定予測なので will not の短縮形 won't を使います。\n【🇺🇸 Cultural Note】\nパーティーの招待状に\"Regrets only\"と書かれていたら、「欠席の場合のみ連絡してください」という意味です。"
-    },
-    {
-      "type": "sort",
-      "question": "「雨は降らないでしょう。」となるように並び替えてください。",
-      "choices": ["won't", "rain", "It"],
-      "answer": "Itwon'train",
-      "explanation": "未来の否定予測 won't を使います。\n【🇺🇸 Cultural Note】\nカリフォルニア州南部は年間を通じてほとんど雨が降らない乾燥した気候です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたたちはいつ出発する予定ですか？」\nWhen are you (      ) to leave?",
+      "question": "「彼女は留学するつもりです」\nShe is (      ) to study abroad.",
       "choices": [],
       "answer": "going",
-      "explanation": "When are you going to...（いつ〜する予定ですか）。\n【🇺🇸 Cultural Note】\nアメリカのホテルはチェックアウト時間が11時や12時と遅めなことが多いです。"
+      "explanation": "be going to... です。\n【🇺🇸 Cultural Note】\nアメリカの大学の学費（Tuition）は非常に高額であるため、奨学金（Scholarship）や学生ローンを利用するのが一般的です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私はプロムに行く予定です」\nI (      ) going to the prom.",
-      "choices": ["am", "will", "do", "be"],
-      "answer": "am",
-      "explanation": "Iに対応するbe動詞 am を使います。be going to の to が省略され、現在進行形で未来を表す形（I am going to the prom）もよく使われます。\n【🇺🇸 Cultural Note】\nプロム（高校の卒業ダンスパーティー）のパートナー誘い（Promposal）は、サプライズ演出などをして派手に行われることがあります。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちは明日、忙しくなるでしょう。」となるように並び替えてください。",
-      "choices": ["be", "tomorrow", "busy", "We", "will"],
-      "answer": "Wewillbebusytomorrow",
-      "explanation": "Busy（形容詞）の前にはbe動詞の原形 be が必要です（will be）。\n【🇺🇸 Cultural Note】\nアメリカの職場では、金曜日の午後は早めに仕事を切り上げる\"Summer Fridays\"という制度を取り入れている企業もあります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は彼に真実を話すつもりです」\nShe is going to (      ) him the truth.",
-      "choices": [],
-      "answer": "tell",
-      "explanation": "to の後ろは動詞の原形 tell です。\n【🇺🇸 Cultural Note】\n\"Honesty is the best policy\"（正直は最善の策）ということわざはアメリカでもよく使われます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「それは高くなるでしょう」\nIt (      ) be expensive.",
-      "choices": ["will", "is", "going", "wants"],
+      "question": "「明日は晴れるでしょう」\nIt (      ) be sunny tomorrow.",
+      "choices": ["will", "is", "going", "does"],
       "answer": "will",
-      "explanation": "未来の予測なので will を使います。\n【🇺🇸 Cultural Note】\nアメリカの大学の学費（Tuition）は非常に高く、学生ローンが社会問題になっています。"
+      "explanation": "天気の予報はwillを使います。\n【🇺🇸 Cultural Note】\nアメリカでは温度を華氏（Fahrenheit）で表します。「明日は80度（約27℃）になるでしょう」といった会話がされます。"
     },
     {
       "type": "sort",
-      "question": "「あなたは何を着る予定ですか？」となるように並び替えてください。",
-      "choices": ["wear", "going", "are", "What", "to", "you"],
-      "answer": "Whatareyougoingtowear",
-      "explanation": "What + be going to の疑問文です。\n【🇺🇸 Cultural Note】\nアメリカのパーティーには「ブラックタイ（礼装）」から「カジュアル」まで様々なドレスコードがあります。"
+      "question": "「私はイエローストーンでキャンプをするつもりです。」となるように並び替えてください。",
+      "choices": ["camp", "am", "going", "to", "I", "in", "Yellowstone"],
+      "answer": "IamgoingtocampinYellowstone",
+      "explanation": "計画を表す be going to です。\n【🇺🇸 Cultural Note】\nイエローストーン国立公園では、野生のクマやバイソンに遭遇することがあります。キャンプ場は予約必須の人気スポットです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私はそのテストを受けるつもりです」\nI am going to (      ) the test.",
+      "question": "「その映画は面白いものになるでしょう」\nThe movie (      ) be interesting.",
+      "choices": [],
+      "answer": "will",
+      "explanation": "主観的な予測を表すwillです。\n【🇺🇸 Cultural Note】\nハリウッド（Hollywood）があるため映画産業は巨大です。映画館のポップコーンのサイズは日本のLサイズよりも大きいことがよくあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは投票に行きますか？」\n(      ) you going to vote?",
+      "choices": ["Are", "Will", "Do", "Is"],
+      "answer": "Are",
+      "explanation": "Are you going to...? の形です。\n【🇺🇸 Cultural Note】\nアメリカの大統領選挙は4年に1度、11月の火曜日に行われます。多くの人が「I Voted（投票しました）」というステッカーを胸に貼ります。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は新しいスニーカーを買うつもりです。」となるように並び替えてください。",
+      "choices": ["buy", "is", "He", "going", "to", "new", "sneakers"],
+      "answer": "Heisgoingtobuynewsneakers",
+      "explanation": "be going to buy... です。\n【🇺🇸 Cultural Note】\nアメリカには「スニーカーヘッズ（Sneakerheads）」と呼ばれる熱狂的な収集家が多く、限定モデルの発売日には長蛇の列ができます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちはショッピングモールで彼に会う予定です」\nWe are (      ) to meet him at the mall.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "予定を表す be going to です。\n【🇺🇸 Cultural Note】\nアメリカのショッピングモールは非常に巨大で、映画館や遊園地が併設されていることもあります。車で行くのが前提の作りになっています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は明日、教会に行くつもりです」\nI (      ) going to go to church tomorrow.",
+      "choices": ["am", "will", "be", "do"],
+      "answer": "am",
+      "explanation": "I am going to... です。\n【🇺🇸 Cultural Note】\n特に南部（バイブル・ベルトと呼ばれる地域）では、日曜日に家族で教会に行く習慣が根強く残っています。"
+    },
+    {
+      "type": "sort",
+      "question": "「飛行機は時間通りに到着するでしょう。」となるように並び替えてください。",
+      "choices": ["arrive", "will", "plane", "The", "on", "time"],
+      "answer": "Theplanewillarriveontime",
+      "explanation": "予測のwillです。\n【🇺🇸 Cultural Note】\nアメリカ国内は広いため、州をまたぐ移動は飛行機が一般的です。国内線でも時差（Time zone）が変わることがよくあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らはBBQパーティーを開くつもりです」\nThey are (      ) to have a BBQ party.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "計画を表す be going to です。\n【🇺🇸 Cultural Note】\nバーベキュー（BBQ）はアメリカ人の社交の基本です。特に南部では、肉を長時間スモークして調理する本格的なスタイルが人気です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この宿題を手伝ってくれますか？」\n(      ) you help me with this homework?",
+      "choices": ["Will", "Are", "Do", "Is"],
+      "answer": "Will",
+      "explanation": "依頼を表す Will you...? です。\n【🇺🇸 Cultural Note】\nアメリカの学校では、エッセイ（小論文）の宿題が非常に多く出されます。自分の意見を論理的に説明する力が重視されます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はブラックフライデーに買い物をするつもりです。」となるように並び替えてください。",
+      "choices": ["shopping", "am", "going", "I", "on", "Black", "Friday"],
+      "answer": "IamgoingingshoppingonBlackFriday",
+      "explanation": "go shopping（買い物に行く）の未来形です。\n【🇺🇸 Cultural Note】\n感謝祭の翌日の金曜日（Black Friday）は、一年で最大のセールが行われ、クリスマス商戦の開始日とされています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちはスクールバスに乗るつもりです」\nWe are (      ) to take the school bus.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "be going to take... です。\n【🇺🇸 Cultural Note】\nアメリカの黄色いスクールバス（Yellow School Bus）は、一般車両よりも優先され、バスが停車して赤いサインを出している時は、追い越してはいけません。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「シカゴは風が強くなるでしょう」\nChicago (      ) be windy.",
+      "choices": ["will", "is", "going", "does"],
+      "answer": "will",
+      "explanation": "予測のwillです。\n【🇺🇸 Cultural Note】\nシカゴは「ウィンディ・シティ（風の街）」というニックネームで有名です。冬は非常に寒く、ミシガン湖が凍ることもあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはクレジットカードで支払いますか？」となるように並び替えてください。",
+      "choices": ["pay", "Will", "you", "with", "credit", "card", "a"],
+      "answer": "Willyoupaywithacreditcard",
+      "explanation": "意志や予定を聞くWillです。\n【🇺🇸 Cultural Note】\nアメリカはキャッシュレス化が進んでおり、コーヒー1杯でもクレジットカードやデビットカードで支払うのが普通です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はその試験に合格するでしょう」\nI (      ) pass the exam.",
+      "choices": [],
+      "answer": "will",
+      "explanation": "自信や予測を表すwillです。\n【🇺🇸 Cultural Note】\nアメリカの大学入試には、SATやACTといった標準テストのスコアが使われますが、課外活動やボランティア活動も評価されます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らはいつ到着する予定ですか？」\nWhen (      ) they going to arrive?",
+      "choices": ["are", "will", "do", "is"],
+      "answer": "are",
+      "explanation": "When are they going to...? です。\n【🇺🇸 Cultural Note】\nアメリカのホームパーティーなどでは、指定された時間ちょうどに行くよりも、少し遅れて行くのがマナーとされる場合があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「ホワイトハウスを見るつもりです。」となるように並び替えてください。",
+      "choices": ["see", "am", "going", "to", "the", "White", "House", "I"],
+      "answer": "IamgoingtoseetheWhiteHouse",
+      "explanation": "I am going to see... です。\n【🇺🇸 Cultural Note】\n首都ワシントンD.C.にあります。一般公開ツアーもありますが、セキュリティチェックは非常に厳しいです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「明日、歯医者に行く予定です」\nI am (      ) to see the dentist tomorrow.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "be going to... です。\n【🇺🇸 Cultural Note】\nアメリカ人は「完璧な笑顔」を重視するため、子供の頃に歯列矯正（Braces）をするのが非常に一般的です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は宇宙飛行士になるつもりです」\nI (      ) going to be an astronaut.",
+      "choices": ["am", "will", "be", "do"],
+      "answer": "am",
+      "explanation": "I am going to... の形です。\n【🇺🇸 Cultural Note】\nNASA（アメリカ航空宇宙局）は子供たちの憧れです。フロリダ州のケネディ宇宙センターでは、一般人もロケットの展示を見ることができます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちはハワイでサーフィンをするつもりです。」となるように並び替えてください。",
+      "choices": ["surf", "going", "to", "are", "We", "in", "Hawaii"],
+      "answer": "WearegoingtosurfinHawaii",
+      "explanation": "予定を表す be going to です。\n【🇺🇸 Cultural Note】\nサーフィンはハワイ発祥のスポーツで、かつては王族の遊びでした。ハワイはアメリカ50番目の州です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「母はピーナッツバターサンドイッチを作るでしょう」\nMy mother (      ) make a peanut butter sandwich.",
+      "choices": [],
+      "answer": "will",
+      "explanation": "意志や予測のwillです。\n【🇺🇸 Cultural Note】\n「PB&J（Peanut Butter and Jelly）」と呼ばれる、ピーナッツバターとジャムを挟んだサンドイッチは、アメリカの子供のお弁当（ランチ）の定番中の定番です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「カフェテリアでお昼を食べるつもりですか？」\n(      ) you going to eat lunch in the cafeteria?",
+      "choices": ["Are", "Will", "Do", "Is"],
+      "answer": "Are",
+      "explanation": "Are you going to...? の疑問文です。\n【🇺🇸 Cultural Note】\nアメリカの学校のカフェテリア（食堂）では、トレーを持って列に並び、ピザやバーガー、サラダなどを自分で選びます。"
+    },
+    {
+      "type": "sort",
+      "question": "「サンタクロースは今夜来るでしょう。」となるように並び替えてください。",
+      "choices": ["come", "will", "Claus", "tonight", "Santa"],
+      "answer": "SantaClauswillcometonight",
+      "explanation": "予測のwillです。\n【🇺🇸 Cultural Note】\nクリスマスイブの夜、子供たちはサンタのためにクッキーとミルクをテーブルに置いておきます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はチアリーダーになる予定です」\nShe is (      ) to be a cheerleader.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "be going to... です。\n【🇺🇸 Cultural Note】\nアメリカの高校や大学のアメフトの試合において、チアリーダーは観客を盛り上げる重要な役割を果たします。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは土曜日にガレージセールをするつもりです」\nWe are going to (      ) a garage sale on Saturday.",
+      "choices": ["have", "has", "had", "having"],
+      "answer": "have",
+      "explanation": "toの後は動詞の原形です。\n【🇺🇸 Cultural Note】\n不用品を自宅の車庫（Garage）や庭に並べて売る文化が一般的です。週末の朝早くから行われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「ラスベガスでショーを見るつもりです。」となるように並び替えてください。",
+      "choices": ["show", "see", "a", "to", "going", "am", "I", "in", "Las", "Vegas"],
+      "answer": "IamgoingtoseeashowinLasVegas",
+      "explanation": "I am going to see... です。\n【🇺🇸 Cultural Note】\nカジノだけでなく、シルク・ドゥ・ソレイユなどの豪華なショーやコンサートもラスベガスの大きな魅力です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その木はとても高くなるでしょう」\nThe tree (      ) grow very tall.",
+      "choices": [],
+      "answer": "will",
+      "explanation": "自然の成長予測なのでwillを使います。\n【🇺🇸 Cultural Note】\nカリフォルニア州のレッドウッド国立公園には、高さ100メートルを超える世界一高い木々（セコイア）が生息しています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は将来、大統領になるつもりです」\nHe is (      ) to be the President in the future.",
+      "choices": ["going", "will", "gonna", "go"],
+      "answer": "going",
+      "explanation": "将来の夢や計画には be going to を使います。\n【🇺🇸 Cultural Note】\nアメリカ大統領になるには、アメリカ生まれの市民（Natural-born citizen）であり、35歳以上である必要があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はコインランドリーに行く予定です。」となるように並び替えてください。",
+      "choices": ["Laundromat", "going", "am", "to", "the", "I"],
+      "answer": "IamgoingtotheLaundromat",
+      "explanation": "場所へ行く予定なので I am going to the... です。\n【🇺🇸 Cultural Note】\n都市部のアパートなどでは部屋に洗濯機がないことが多く、街中のコインランドリー（Laundromat）を利用します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちはドライブウェイでバスケをするつもりです」\nWe are (      ) to play basketball in the driveway.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "be going to... です。\n【🇺🇸 Cultural Note】\nアメリカの多くの家のガレージ前の私道（Driveway）にはバスケットゴールが設置されており、子供たちが日常的に遊びます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「朝食にベーグルを食べますか？」\n(      ) you going to have a bagel for breakfast?",
+      "choices": ["Are", "Will", "Do", "Is"],
+      "answer": "Are",
+      "explanation": "Are you going to...? です。\n【🇺🇸 Cultural Note】\n特にニューヨークのベーグルは有名です。クリームチーズ（Cream cheese）をたっぷり塗って食べるのが定番スタイルです。"
+    },
+    {
+      "type": "sort",
+      "question": "「ナッシュビルでカントリーミュージックを聴くでしょう。」となるように並び替えてください。",
+      "choices": ["listen", "will", "We", "to", "country", "music", "in", "Nashville"],
+      "answer": "WewilllistentocountrymusicinNashville",
+      "explanation": "will listen to... です。\n【🇺🇸 Cultural Note】\nテネシー州ナッシュビルは「ミュージック・シティ」と呼ばれ、カントリーミュージックの中心地です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「来月、サマーキャンプに参加する予定です」\nI am going to (      ) summer camp next month.",
+      "choices": [],
+      "answer": "join",
+      "explanation": "「参加する」は join や go to を使います（文脈により）。ここではjoinを想定。\n【🇺🇸 Cultural Note】\nアメリカの子供たちは夏休みに数週間、親元を離れて森や湖畔のサマーキャンプに参加し、自然体験をするのが伝統的です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「フリーウェイは混雑するでしょう」\nThe freeway (      ) be busy.",
+      "choices": ["will", "is", "going", "does"],
+      "answer": "will",
+      "explanation": "予測のwillです。\n【🇺🇸 Cultural Note】\n信号のない高速道路（Freeway）が全米を網羅しています。ロサンゼルスなどの大都市では渋滞（Traffic jam）が深刻です。"
+    },
+    {
+      "type": "sort",
+      "question": "「学校はキング牧師記念日に休みになります。」となるように並び替えてください。",
+      "choices": ["closed", "be", "School", "will", "on", "MLK", "Day"],
+      "answer": "SchoolwillbeclosedonMLKDay",
+      "explanation": "will be closed（閉まるだろう＝休みになる）です。\n【🇺🇸 Cultural Note】\n1月の第3月曜日は、公民権運動の指導者マーティン・ルーサー・キング・ジュニアを記念する祝日です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「キャンプファイヤーでスモアを作るつもりです」\nWe are (      ) to make S'mores at the campfire.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "be going to... です。\n【🇺🇸 Cultural Note】\nスモア（S'more）は、焼いたマシュマロと板チョコをクラッカーで挟んだ、キャンプに欠かせない甘いお菓子です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「誰が犬の散歩に行くのですか？」\nWho (      ) going to walk the dog?",
+      "choices": ["is", "are", "will", "does"],
+      "answer": "is",
+      "explanation": "Who is going to...? です。\n【🇺🇸 Cultural Note】\nアメリカの郊外住宅地では、子供のお手伝い（Chore）として犬の散歩がよく割り当てられます。"
+    },
+    {
+      "type": "sort",
+      "question": "「それは20ドルかかるでしょう。」となるように並び替えてください。",
+      "choices": ["cost", "will", "It", "dollars", "twenty"],
+      "answer": "Itwillcosttwentydollars",
+      "explanation": "will cost（費用がかかる）です。\n【🇺🇸 Cultural Note】\n20ドル紙幣（Jackson）は、ATMからお金を引き出す際に最もよく出てくる紙幣です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その牛乳は1ガロンあるでしょう」\nThe milk (      ) be a gallon.",
+      "choices": [],
+      "answer": "will",
+      "explanation": "推量のwillです。\n【🇺🇸 Cultural Note】\nアメリカのスーパーで売られている牛乳は巨大で、1ガロン（約3.78リットル）のプラスチック容器に入っているのが普通です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はルームメイトと部屋をシェアするつもりです」\nI am going to (      ) a room with a roommate.",
+      "choices": ["share", "shares", "sharing", "shared"],
+      "answer": "share",
+      "explanation": "toの後は原形です。\n【🇺🇸 Cultural Note】\n大学の寮（Dormitory）では、2人〜3人で一部屋を共有するのが一般的で、他人との共同生活を通じて協調性を学びます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女のためにベビーシャワーを開く予定です。」となるように並び替えてください。",
+      "choices": ["throw", "to", "going", "are", "We", "a", "baby", "shower", "for", "her"],
+      "answer": "Wearegoingtothrowababyshowerforher",
+      "explanation": "throw a party（パーティーを開く）という表現を使います。\n【🇺🇸 Cultural Note】\n出産前に妊婦さんを祝うパーティーです。シャワーのようにプレゼントが降り注ぐことからこの名がつきました。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はシリコンバレーで働くつもりです」\nHe is (      ) to work in Silicon Valley.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "be going to... です。\n【🇺🇸 Cultural Note】\nサンフランシスコの南にある地域で、Apple、Google、Metaなどの世界的なIT企業の本社が集中しています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ニューヨークとロサンゼルスでは時差があるでしょう」\nThere (      ) be a time difference between NY and LA.",
+      "choices": ["will", "is", "going", "are"],
+      "answer": "will",
+      "explanation": "There will be...（～があるだろう）の形です。\n【🇺🇸 Cultural Note】\nアメリカ本土だけで4つのタイムゾーンがあり、東海岸（NY）と西海岸（LA）では3時間の時差があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「おやつにドーナツを食べるつもりです。」となるように並び替えてください。",
+      "choices": ["eat", "am", "going", "to", "I", "donuts", "for", "a", "snack"],
+      "answer": "Iamgoingtoeatdonutsforasnack",
+      "explanation": "I am going to eat... です。\n【🇺🇸 Cultural Note】\n警察官がドーナツを食べているシーンを映画でよく見ますが、これはかつてドーナツ店が早朝営業していた数少ない店だったためと言われています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは明日、社会科見学に行く予定です」\nWe are (      ) to go on a field trip tomorrow.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "be going to... です。\n【🇺🇸 Cultural Note】\n学校行事の「社会科見学」は Field Trip と呼ばれます。博物館や科学館に黄色いスクールバスで行くのが定番です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「放課後、ジムに行くつもりですか？」\n(      ) you going to go to the gym after school?",
+      "choices": ["Are", "Will", "Do", "Is"],
+      "answer": "Are",
+      "explanation": "Are you going to...? です。\n【🇺🇸 Cultural Note】\nアメリカの高校には充実したトレーニングジムがあることが多く、スポーツチームに所属していない生徒も利用します。"
+    },
+    {
+      "type": "sort",
+      "question": "「郵便屋さんは手紙を置いていくでしょう。」となるように並び替えてください。",
+      "choices": ["leave", "will", "mail", "carrier", "The", "the", "letter"],
+      "answer": "Themailcarrierwillleavetheletter",
+      "explanation": "will leave（置いていく）です。\n【🇺🇸 Cultural Note】\nアメリカの郵便受けには赤い旗（Flag）がついています。これを立てておくと、郵便屋さんが回収してくれる仕組みです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「夏にディズニーワールドを訪れるつもりです」\nWe are (      ) to visit Disney World in the summer.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "be going to... です。\n【🇺🇸 Cultural Note】\nフロリダ州にあるディズニーワールドは世界最大のテーマパークリゾートです。カリフォルニアにあるのはディズニーランドです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は運転免許を取るつもりです」\nI am (      ) to get a driver's license.",
+      "choices": ["going", "will", "go", "get"],
+      "answer": "going",
+      "explanation": "be going to... です。\n【🇺🇸 Cultural Note】\nアメリカの多くの州では16歳で運転免許が取得できます。高校生が自分の車で通学することも珍しくありません。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちはデリバリーのピザを注文するつもりです。」となるように並び替えてください。",
+      "choices": ["order", "going", "to", "are", "We", "delivery", "pizza"],
+      "answer": "Wearegoingtoorderdeliverypizza",
+      "explanation": "be going to order... です。\n【🇺🇸 Cultural Note】\nアメリカでピザと言えばペパロニ（サラミの一種）が最も人気のあるトッピングです。パーティーの定番メニューです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは卒業式でガウンを着るでしょう」\nThey (      ) wear gowns at the graduation ceremony.",
+      "choices": [],
+      "answer": "will",
+      "explanation": "習慣や予測のwillです。\n【🇺🇸 Cultural Note】\n卒業式（Graduation）では、「キャップ＆ガウン」と呼ばれる角帽とローブを身に着けるのが伝統的なスタイルです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたはバレンタインに誰かにカードを送りますか？」\n(      ) you going to send a card to someone on Valentine's Day?",
+      "choices": ["Are", "Will", "Do", "Is"],
+      "answer": "Are",
+      "explanation": "Are you going to...? です。\n【🇺🇸 Cultural Note】\nアメリカの小学校では、クラス全員分のカードやお菓子を用意して交換し合う習慣（Classroom Exchange）がよくあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「竜巻が来るかもしれません（来るでしょう）。」となるように並び替えてください。",
+      "choices": ["come", "tornado", "A", "will"],
+      "answer": "Atornadowillcome",
+      "explanation": "気象予測のwillです。\n【🇺🇸 Cultural Note】\n中西部は「トルネード・アレイ（竜巻街道）」と呼ばれ、春から夏にかけて竜巻が発生しやすい地域があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちはブロードウェイでミュージカルを見る予定です」\nWe are (      ) to see a musical on Broadway.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "be going to... です。\n【🇺🇸 Cultural Note】\nニューヨークのタイムズスクエア周辺にある劇場街です。『ライオンキング』や『ハミルトン』などが有名です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「国歌斉唱が行われるでしょう」\nThey (      ) sing the National Anthem.",
+      "choices": ["will", "are", "going", "do"],
+      "answer": "will",
+      "explanation": "予定や慣習を表すwillです。\n【🇺🇸 Cultural Note】\nスポーツの試合前には必ず国歌『星条旗（The Star-Spangled Banner）』が独唱され、観客は起立して胸に手を当てます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はレモネードスタンドをするつもりです。」となるように並び替えてください。",
+      "choices": ["have", "am", "going", "to", "I", "stand", "a", "lemonade"],
+      "answer": "Iamgoingtohavealemonadestand",
+      "explanation": "子供が小遣い稼ぎや寄付のために行う小さな店のことです。\n【🇺🇸 Cultural Note】\nアメリカの子供たちが初めてビジネスを学ぶ夏の風物詩です。近所の人が1杯数十セントで買ってくれます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは持ち寄りパーティー（ポットラック）をする予定です」\nWe are going to (      ) a potluck party.",
+      "choices": [],
+      "answer": "have",
+      "explanation": "have a party（パーティーを開く）。\n【🇺🇸 Cultural Note】\nPotluck（ポットラック）とは、参加者がそれぞれ一品ずつ料理を持ち寄る形式のパーティーのことです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はホームカミングのダンスに行きますか？」\n(      ) he going to go to the Homecoming dance?",
+      "choices": ["Is", "Are", "Will", "Does"],
+      "answer": "Is",
+      "explanation": "Is he going to...? です。\n【🇺🇸 Cultural Note】\n秋に行われる卒業生を歓迎する学校行事です。アメフトの試合とダンスパーティーがセットで行われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「テキサスでは雪は降らないでしょう。」となるように並び替えてください。",
+      "choices": ["snow", "not", "will", "It", "in", "Texas"],
+      "answer": "ItwillnotsnowinTexas",
+      "explanation": "will not（～しないでしょう）です。\n【🇺🇸 Cultural Note】\n南部なのでめったに雪は降りませんが、異常気象で降雪があると交通網が麻痺して大ニュースになります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はボランティア活動をするつもりです」\nI am (      ) to do volunteer work.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "be going to... です。\n【🇺🇸 Cultural Note】\nアメリカでは高校卒業の要件や大学入試のために、ボランティア活動（Community Service）が非常に重視されます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ハリケーンはフロリダを襲うでしょう」\nThe hurricane (      ) hit Florida.",
+      "choices": ["will", "is", "going", "does"],
+      "answer": "will",
+      "explanation": "予測のwillです。\n【🇺🇸 Cultural Note】\n大西洋側では夏から秋にかけてハリケーンシーズンとなります。名前（カトリーナなど）が付けられて報道されます。"
+    },
+    {
+      "type": "sort",
+      "question": "「図書館に本を返すつもりです。」となるように並び替えてください。",
+      "choices": ["return", "am", "going", "to", "I", "books", "the", "to", "the", "library"],
+      "answer": "Iamgoingtoreturnthebookstothelibrary",
+      "explanation": "I am going to return... です。\n【🇺🇸 Cultural Note】\nアメリカの公共図書館（Public Library）は地域コミュニティの中心であり、Wi-Fiや学習スペースが充実しています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はタッチダウンを決めるでしょう」\nHe (      ) score a touchdown.",
+      "choices": [],
+      "answer": "will",
+      "explanation": "予測のwillです。\n【🇺🇸 Cultural Note】\nアメリカンフットボールの得点方法です。ボールを持って相手のエンドゾーンに入ると6点が入ります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「チップをテーブルに置くつもりですか？」\n(      ) you going to leave a tip on the table?",
+      "choices": ["Are", "Will", "Do", "Is"],
+      "answer": "Are",
+      "explanation": "Are you going to...? です。\n【🇺🇸 Cultural Note】\nカード払いでもチップは払いますが、現金をテーブルに残すこともあります。ウェイターの重要な収入源です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちはキャンピングカー（RV）を借りる予定です。」となるように並び替えてください。",
+      "choices": ["rent", "going", "to", "are", "We", "an", "RV"],
+      "answer": "WearegoingtorentanRV",
+      "explanation": "RV（Recreational Vehicle）はキャンピングカーのことです。\n【🇺🇸 Cultural Note】\n巨大なRVで国立公園を巡るロードトリップは、アメリカ人の憧れの休暇スタイルの一つです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「人類はいつか火星に行くだろう」\nHumans (      ) go to Mars someday.",
+      "choices": [],
+      "answer": "will",
+      "explanation": "未来の壮大な予測にはwillを使います。\n【🇺🇸 Cultural Note】\nスペースXなどの民間企業も宇宙開発に参入しており、火星移住計画などが真剣に議論されています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「イースターに卵を探すつもりです」\nWe are going to (      ) for eggs on Easter.",
+      "choices": ["hunt", "hunts", "hunting", "hunted"],
+      "answer": "hunt",
+      "explanation": "Egg hunt（卵探し）という表現を使います。\n【🇺🇸 Cultural Note】\nイースター（復活祭）には、庭に隠されたカラフルな卵を子供たちが探す「エッグハント」が行われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「芝刈りをしてお小遣いを稼ぐつもりです。」となるように並び替えてください。",
+      "choices": ["money", "earn", "to", "going", "am", "I", "by", "mowing", "the", "lawn"],
+      "answer": "Iamgoingtoearnmoneybymowingthelawn",
+      "explanation": "mow the lawn（芝刈りをする）。\n【🇺🇸 Cultural Note】\n広い芝生の庭がある家が多く、子供が近所の家の芝刈りをしてお小遣いを稼ぐのは定番のアルバイトです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「テイクアウトの夕食を取る予定です」\nWe are going to get (      ) for dinner.",
+      "choices": [],
+      "answer": "takeout",
+      "explanation": "アメリカ英語では Takeout、イギリス英語では Takeaway が一般的です。\n【🇺🇸 Cultural Note】\n中華料理のテイクアウト（白い箱に入っている）やピザは、忙しい日の夕食の定番です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「グラウンドホッグは自分の影を見るでしょうか？」\n(      ) the groundhog see his shadow?",
+      "choices": ["Will", "Is", "Are", "Does"],
+      "answer": "Will",
+      "explanation": "予測のWill...? です。\n【🇺🇸 Cultural Note】\n2月2日は「グラウンドホッグデー」。この動物が自分の影を見れば冬はあと6週間続き、見なければ春はもうすぐそこ、という占いが行われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちはセント・パトリックス・デーに緑色を着るつもりです。」となるように並び替えてください。",
+      "choices": ["wear", "going", "to", "are", "We", "green", "on", "St.", "Patrick's", "Day"],
+      "answer": "WearegoingtoweargreenonStPatrick'sDay",
+      "explanation": "3月17日のアイルランドのお祭りです。\n【🇺🇸 Cultural Note】\nこの日に緑色のものを身に着けていないと、つねられる（Pinch）という遊びのルールがあります。シカゴ川も緑に染まります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はプロムでタキシードを着る予定です」\nHe is (      ) to wear a tuxedo to the prom.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "be going to... です。\n【🇺🇸 Cultural Note】\nプロムでの男子の正装はタキシードです。パートナーのドレスの色に合わせてネクタイやカマーバンドの色を選びます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ロデオを見に行くつもりですか？」\n(      ) you going to go to a rodeo?",
+      "choices": ["Are", "Will", "Do", "Is"],
+      "answer": "Are",
+      "explanation": "Are you going to...? です。\n【🇺🇸 Cultural Note】\nカウボーイ文化が残る地域では、暴れ牛に乗る「ブル・ライディング」などのロデオ競技が人気です。"
+    },
+    {
+      "type": "sort",
+      "question": "「そのダイナーで朝食を食べるつもりです。」となるように並び替えてください。",
+      "choices": ["eat", "am", "going", "to", "I", "breakfast", "at", "the", "diner"],
+      "answer": "Iamgoingtoeatbreakfastatthediner",
+      "explanation": "Diner（ダイナー）はアメリカの大衆食堂です。\n【🇺🇸 Cultural Note】\nダイナーは24時間営業も多く、パンケーキ、卵料理、ベーコン、コーヒーなどの朝食メニューが一日中食べられます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はスペリング・コンテスト（スペリング・ビー）で勝つでしょう」\nShe (      ) win the spelling bee.",
+      "choices": [],
+      "answer": "will",
+      "explanation": "予測のwillです。\n【🇺🇸 Cultural Note】\n単語の綴りを正確に言う大会「Spelling Bee」は全米でテレビ中継されるほど人気があり、非常にハイレベルです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「今夜はお泊り会（スリープオーバー）をする予定です」\nWe are (      ) to have a sleepover tonight.",
+      "choices": ["going", "will", "go", "gonna"],
+      "answer": "going",
+      "explanation": "be going to... です。\n【🇺🇸 Cultural Note】\n子供たちが友達の家に泊まる「Sleepover（スリープオーバー）」は、寝袋を持って集まり、映画を見たりお菓子を食べたりする楽しいイベントです。"
+    },
+    {
+      "type": "sort",
+      "question": "「火曜日にタコスを食べるつもりです。」となるように並び替えてください。",
+      "choices": ["tacos", "eat", "going", "to", "are", "We", "on", "Tuesday"],
+      "answer": "WearegoingtoeattacosonTuesday",
+      "explanation": "「Taco Tuesday（タコ・チューズデー）」という言葉があります。\n【🇺🇸 Cultural Note】\nメキシコ料理はアメリカで深く浸透しています。火曜日にタコスを安く提供する店が多く、習慣になっています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はギャップイヤー（休学期間）を取るつもりです」\nI am going to (      ) a gap year.",
       "choices": [],
       "answer": "take",
-      "explanation": "テストを「受ける」は take を使います。\n【🇺🇸 Cultural Note】\nSAT（大学進学適性試験）は、アメリカの高校生にとって将来を左右する重要なテストです。"
+      "explanation": "take a gap year（ギャップイヤーを取る）。\n【🇺🇸 Cultural Note】\n高校卒業後、大学に入学する前に1年間休んで、旅行やボランティア、インターンシップなどをして見聞を広める期間のことです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼らは新しい家を買わないでしょう」\nThey (      ) buy a new house.",
-      "choices": ["won't", "aren't", "don't", "didn't"],
-      "answer": "won't",
-      "explanation": "未来の否定予測なので won't を使います。\n【🇺🇸 Cultural Note】\nアメリカの住宅ローンは30年固定金利が一般的です。家の売買は頻繁に行われます。"
+      "question": "「スケートパークでスケボーをするつもりですか？」\n(      ) you going to skateboard at the skate park?",
+      "choices": ["Are", "Will", "Do", "Is"],
+      "answer": "Are",
+      "explanation": "Are you going to...? です。\n【🇺🇸 Cultural Note】\nカリフォルニア発祥の文化です。多くの公園に公共のスケートボード場（Skate park）が整備されています。"
     },
     {
       "type": "sort",
-      "question": "「ここで待っていてくれますか？」となるように並び替えてください。",
-      "choices": ["wait", "you", "here", "Will"],
-      "answer": "Willyouwaithere",
-      "explanation": "依頼を表す Will you...? の形です。\n【🇺🇸 Cultural Note】\nレストランで席が空くのを待つ間、バーエリアでドリンクを飲んで待つことができます。"
+      "question": "「お昼にお弁当（袋入りランチ）を持っていくつもりです。」となるように並び替えてください。",
+      "choices": ["bring", "am", "going", "to", "I", "a", "bag", "lunch"],
+      "answer": "Iamgoingtobringabaglunch",
+      "explanation": "Bag lunch（茶色い紙袋に入れたお弁当）のことです。\n【🇺🇸 Cultural Note】\n「Brown bag」とも呼ばれます。サンドイッチ、リンゴ、チップス、ジュースなどを紙袋に入れて持参します。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「ジョンは今夜勉強する予定です」\nJohn is (      ) to study tonight.",
+      "question": "「デザートにアップルパイを食べるでしょう」\nWe (      ) have apple pie for dessert.",
       "choices": [],
-      "answer": "going",
-      "explanation": "be going to の形です。\n【🇺🇸 Cultural Note】\nアメリカの大学生は図書館で深夜まで勉強することが多く、24時間オープンの図書館もあります。"
+      "answer": "will",
+      "explanation": "意志や予測のwillです。\n【🇺🇸 Cultural Note】\n\"As American as apple pie\"（アップルパイくらいアメリカ的だ）という慣用句があるほど、アメリカを象徴するデザートです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私たちは遅刻するでしょう」\nWe (      ) be late.",
+      "question": "「体育の授業で1マイル走る予定です」\nWe are going to (      ) a mile in P.E. class.",
+      "choices": ["run", "ran", "running", "runs"],
+      "answer": "run",
+      "explanation": "toの後は原形です。P.E.はPhysical Education（体育）の略。\n【🇺🇸 Cultural Note】\nアメリカでも体力測定などで「1マイル走（約1.6km）」がよく行われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「ロッカーに教科書を入れるつもりです。」となるように並び替えてください。",
+      "choices": ["put", "going", "to", "am", "I", "textbooks", "in", "my", "locker"],
+      "answer": "Iamgoingtoputtextbooksinmylocker",
+      "explanation": "I am going to put... です。\n【🇺🇸 Cultural Note】\nアメリカの学校の廊下にはロッカーがずらりと並んでいます。鏡や写真で内側をデコレーション（Decorate）する生徒も多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「具合が悪いので保健室に行くつもりです」\nI am going to go to the (      ) because I feel sick.",
+      "choices": [],
+      "answer": "nurse",
+      "explanation": "School nurse（学校の看護師）または Nurse's office（保健室）。\n【🇺🇸 Cultural Note】\nアメリカの学校にはナース（Nurse）が常駐しており、怪我の処置や薬の管理を行います。生徒は「ナースに行く」と言います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「2月に黒人歴史月間について学ぶでしょう」\nWe (      ) learn about Black History Month in February.",
       "choices": ["will", "are", "going", "do"],
       "answer": "will",
-      "explanation": "未来の予測なので will を使います。\n【🇺🇸 Cultural Note】\nニューヨークの地下鉄は遅れることが日常茶飯事なので、通勤には余裕を持つ必要があります。"
+      "explanation": "予定や予測のwillです。\n【🇺🇸 Cultural Note】\n2月は「Black History Month」とされ、学校やメディアでアフリカ系アメリカ人の歴史や偉人について重点的に学びます。"
     },
     {
       "type": "sort",
-      "question": "「あなたはいつ宿題をするつもりですか？」となるように並び替えてください。",
-      "choices": ["do", "going", "are", "When", "you", "to", "homework"],
-      "answer": "Whenareyougoingtodohomework",
-      "explanation": "When + be going to の疑問文です。\n【🇺🇸 Cultural Note】\nアメリカの学校では、宿題のことを単に\"Homework\"と言うほか、\"Assignment\"（課題）とも呼びます。"
+      "question": "「ハリウッドで有名人になるつもりです。」となるように並び替えてください。",
+      "choices": ["famous", "be", "going", "to", "am", "I", "in", "Hollywood"],
+      "answer": "IamgoingtobefamousinHollywood",
+      "explanation": "将来の夢を語る I am going to be... です。\n【🇺🇸 Cultural Note】\nロサンゼルスにある映画産業の中心地です。歩道にはスターの名前が刻まれた星（Walk of Fame）があります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は彼にメールするつもりです」\nI am going to (      ) him.",
-      "choices": [],
-      "answer": "email",
-      "explanation": "Emailは動詞として使えます。\n【🇺🇸 Cultural Note】\nビジネスの連絡は電話よりもメールやチャット（Slackなど）が好まれる傾向にあります。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「それは面白くなるでしょう」\nIt (      ) be fun.",
-      "choices": ["will", "is", "going", "can"],
-      "answer": "will",
-      "explanation": "未来の予測・期待なので will を使います。\n【🇺🇸 Cultural Note】\n\"It will be fun!\"（きっと楽しいよ！）は、迷っている友人を誘う時の決まり文句です。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼らはここに滞在する予定ですか？」となるように並び替えてください。",
-      "choices": ["stay", "going", "Are", "they", "to", "here"],
-      "answer": "Aretheygoingtostayhere",
-      "explanation": "be going to の疑問文です。\n【🇺🇸 Cultural Note】\nAirbnb（民泊）はアメリカ発祥のサービスで、旅行の際の滞在先として非常に一般的です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「ドアを開けてくれますか？（依頼）」\n(      ) you open the door?",
-      "choices": [],
-      "answer": "Will",
-      "explanation": "依頼を表す Will you...? です。\n【🇺🇸 Cultural Note】\n両手がふさがっている人のためにドアを開けてあげるのは、アメリカ社会の基本的なマナーです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はパイロットになるつもりです」\nI am (      ) to be a pilot.",
-      "choices": ["going", "go", "will", "planning"],
-      "answer": "going",
-      "explanation": "将来の夢や計画を表す be going to です。\n【🇺🇸 Cultural Note】\nアメリカ空軍や海軍のパイロットを経て、民間航空会社のパイロットになるキャリアパスがあります。"
-    },
-    {
-      "type": "sort",
-      "question": "「すぐに良くなるでしょう。」となるように並び替えてください。",
-      "choices": ["get", "soon", "It", "better", "will"],
-      "answer": "Itwillgetbettersoon",
-      "explanation": "未来の予測 will を使います。\n【🇺🇸 Cultural Note】\n風邪をひいた人にはチキンスープ（Chicken Noodle Soup）を食べるのがアメリカの家庭療法です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は彼と結婚する予定です」\nShe is going to (      ) him.",
-      "choices": [],
-      "answer": "marry",
-      "explanation": "Marry（結婚する）は他動詞なのでwithは不要で、そのまま目的語をとります。\n【🇺🇸 Cultural Note】\nアメリカの結婚式では、\"Something Blue\"（何か青いもの）を身につけると幸せになれるという言い伝えがあります。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私たちは忘れません（意志）」\nWe (      ) forget.",
-      "choices": ["won't", "don't", "aren't", "didn't"],
-      "answer": "won't",
-      "explanation": "強い意志としての否定は won't を使います。\n【🇺🇸 Cultural Note】\n9.11テロ事件の追悼スローガンとして\"Never Forget\"が使われています。"
-    },
-    {
-      "type": "sort",
-      "question": "「誰が私たちの新しいリーダーになりますか？」となるように並び替えてください。",
-      "choices": ["Who", "be", "leader", "will", "our", "new"],
-      "answer": "Whowillbeournewleader",
-      "explanation": "疑問詞Whoが主語の場合の will の文です。\n【🇺🇸 Cultural Note】\nアメリカの大統領選挙は4年に一度行われ、世界中の注目を集めます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は明日、働かない予定です」\nI am not (      ) to work tomorrow.",
+      "question": "「自由の女神を訪れる予定です」\nWe are (      ) to visit the Statue of Liberty.",
       "choices": [],
       "answer": "going",
-      "explanation": "否定の予定 I am not going to... です。\n【🇺🇸 Cultural Note】\n「病欠（Sick day）」ではなく、精神的なリフレッシュのために取る休暇を「メンタルヘルス・デー」と呼ぶことがあります。"
+      "explanation": "be going to... です。\n【🇺🇸 Cultural Note】\nニューヨーク港のリバティ島に立っています。1886年にフランスから友好の証として贈られました。"
     },
     {
       "type": "multiple_choice",
-      "question": "「気をつけてね（安全でいてね）」\n(      ) safe.",
-      "choices": ["Stay", "Will", "Be", "Do"],
-      "answer": "Stay",
-      "explanation": "命令文ですが、別れ際の挨拶として\"Stay safe\"（気をつけて）がよく使われます。文法的にはStayが正解ですが、未来形クイズの文脈なら\"You will be safe\"なども考えられますが、慣用句として。\n※この文脈ではWill you be safe? 等が未来形ですが、選択肢から挨拶としてStayが自然。ただし未来形単元なので、\"Be going to\"の文脈に変えます。\n修正：問題「事故は起こらないでしょう」\nAccidents (      ) not happen.",
-      "choices": ["will", "do", "are", "have"],
+      "question": "「未来は明るいでしょう」\nThe future (      ) be bright.",
+      "choices": ["will", "is", "going", "does"],
       "answer": "will",
-      "explanation": "未来の予測 will not (won't) の will です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はあなたがいなくて寂しくなるでしょう。」となるように並び替えてください。",
-      "choices": ["miss", "you", "I", "will"],
-      "answer": "Iwillmissyou",
-      "explanation": "未来の予測・感情として will を使います。\n【🇺🇸 Cultural Note】\n引越しや卒業で離れ離れになる友人に対してよく使われるフレーズです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼らはピザを注文する予定です」\nThey are going to (      ) pizza.",
-      "choices": [],
-      "answer": "order",
-      "explanation": "Order（注文する）。\n【🇺🇸 Cultural Note】\nドミノ・ピザなどの宅配ピザは、アプリで配達状況をリアルタイムに追跡できます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「それは問題にならないでしょう」\nIt (      ) be a problem.",
-      "choices": ["won't", "isn't", "doesn't", "don't"],
-      "answer": "won't",
-      "explanation": "未来の否定予測 won't を使います。\n【🇺🇸 Cultural Note】\n\"No problem\"は「どういたしまして」の意味でも使われますが、\"It won't be a problem\"は「問題（支障）はないだろう」という予測です。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女は有名な歌手になるでしょう。」となるように並び替えてください。",
-      "choices": ["singer", "be", "famous", "She", "will", "a"],
-      "answer": "Shewillbeafamoussinger",
-      "explanation": "未来の予測 will be を使います。\n【🇺🇸 Cultural Note】\n「アメリカン・アイドル」などのオーディション番組から多くのスターが誕生しました。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私たちは後で話し合います」\nWe (      ) talk later.",
-      "choices": [],
-      "answer": "will",
-      "explanation": "その場の意志や未来の約束として will を使います。\n【🇺🇸 Cultural Note】\n\"We need to talk\"（話があるんだけど）と言われると、深刻な話（別れ話など）の前触れであることが多いです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたはそれを気に入るでしょう」\nYou (      ) like it.",
-      "choices": ["will", "are", "do", "have"],
-      "answer": "will",
-      "explanation": "相手への確信を持った予測として will を使います。\n【🇺🇸 Cultural Note】\nおすすめの映画や料理を紹介する時によく使うフレーズです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は明日、学校に行きません（予定）。」となるように並び替えてください。",
-      "choices": ["go", "to", "not", "school", "am", "tomorrow", "I", "going"],
-      "answer": "Iamnotgoingtogotoschooltomorrow",
-      "explanation": "否定の予定 I am not going to... です。\n【🇺🇸 Cultural Note】\n病気で学校を休む時は、親が学校に電話連絡（Call in）する必要があります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「太陽はまた昇るでしょう」\nThe sun (      ) rise again.",
-      "choices": [],
-      "answer": "will",
-      "explanation": "自然法則や確実な未来として will を使います。\n【🇺🇸 Cultural Note】\nヘミングウェイの小説「日はまた昇る（The Sun Also Rises）」は有名なタイトルです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼らは新しいビジネスを始める予定です」\nThey are going to (      ) a new business.",
-      "choices": ["start", "starting", "starts", "started"],
-      "answer": "start",
-      "explanation": "to の後ろは動詞の原形 start です。\n【🇺🇸 Cultural Note】\nアメリカは起業家精神（Entrepreneurship）が旺盛な国で、多くのスタートアップが生まれています。"
-    },
-    {
-      "type": "sort",
-      "question": "「いつ戻ってきますか？」となるように並び替えてください。",
-      "choices": ["be", "When", "you", "back", "will"],
-      "answer": "Whenwillyoubeback",
-      "explanation": "When + will you... の疑問文です。\n【🇺🇸 Cultural Note】\nアーノルド・シュワルツェネッガーの有名なセリフ\"I'll be back\"の疑問形です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は最善を尽くします（意志）」\nI (      ) do my best.",
-      "choices": [],
-      "answer": "will",
-      "explanation": "強い意志を表す will です。\n【🇺🇸 Cultural Note】\nスポーツの試合前やテスト前に決意表明として使われます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「それは機能しないでしょう（うまくいかないでしょう）」\nIt (      ) work.",
-      "choices": ["won't", "isn't", "don't", "doesn't"],
-      "answer": "won't",
-      "explanation": "未来の否定予測 won't を使います。\n【🇺🇸 Cultural Note】\n機械が壊れている時や、計画が無謀だと思われる時に使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちは世界を変えるつもりです。」となるように並び替えてください。",
-      "choices": ["world", "change", "going", "are", "We", "to", "the"],
-      "answer": "Wearegoingtochangetheworld",
-      "explanation": "強い決意を伴う計画として be going to を使います。\n【🇺🇸 Cultural Note】\nシリコンバレーの起業家たちは、よく\"Change the world\"というフレーズをミッションに掲げます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は彼氏と別れる予定です」\nShe is going to (      ) up with her boyfriend.",
-      "choices": [],
-      "answer": "break",
-      "explanation": "Break up with（〜と別れる）。to の後ろなので原形です。\n【🇺🇸 Cultural Note】\nアメリカの恋愛ドラマでは、別れ話（Breakup）のシーンが劇的に描かれることが多いです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼は怒るでしょう」\nHe (      ) be angry.",
-      "choices": ["will", "is", "going", "wants"],
-      "answer": "will",
-      "explanation": "未来の予測 will を使います。\n【🇺🇸 Cultural Note】\n感情をストレートに表現することは、アメリカ文化の特徴の一つです。"
-    },
-    {
-      "type": "sort",
-      "question": "「手伝いましょうか？（意志）」となるように並び替えてください。",
-      "choices": ["help", "you", "I", "Will"],
-      "answer": "WillIhelpyou",
-      "explanation": "※解説訂正：手伝いの申し出でWill I...?は不自然。Shall I...? または Can I...? が一般的ですが、Willの練習として「私が手伝うことになるでしょうか？」という文脈か、単にI will help you（平叙文）の並べ替えとします。ここでは平叙文の並べ替えとして修正します。\n選択肢: [\"help\", \"you\", \"I\", \"will\"] -> I will help you.\n※問題データの整合性を取るため、Shall I...? の問題にします。\n問題：「手伝いましょうか？」\n選択肢: [\"help\", \"you\", \"I\", \"Shall\"]\n答え: ShallIhelpyou\n解説: 申し出の Shall I...? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「手伝いましょうか？（申し出）」\n(      ) I help you?",
-      "choices": ["Shall", "Will", "Am", "Do"],
-      "answer": "Shall",
-      "explanation": "「〜しましょうか？」という申し出は Shall I...? を使います。\n【🇺🇸 Cultural Note】\n現代アメリカ英語では\"Can I help you?\"の方がより一般的ですが、Shallも丁寧な表現として使われます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼らは来年、日本を訪れる予定です」\nThey are going to (      ) Japan next year.",
-      "choices": [],
-      "answer": "visit",
-      "explanation": "to の後ろは動詞の原形 visit です。\n【🇺🇸 Cultural Note】\nアメリカ人観光客にとって、京都や東京は非常に人気のある旅行先です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は二度としません（意志）。」となるように並び替えてください。",
-      "choices": ["again", "do", "it", "won't", "I"],
-      "answer": "Iwon'tdoitagain",
-      "explanation": "二度としないという強い意志 won't を使います。\n【🇺🇸 Cultural Note】\n子供が親に叱られた時に言う定番の謝罪フレーズです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「それは素晴らしいことになるでしょう」\nIt (      ) be great.",
-      "choices": ["will", "is", "going", "can"],
-      "answer": "will",
-      "explanation": "未来の予測・期待 will を使います。\n【🇺🇸 Cultural Note】\n\"It's gonna be great!\"（gonna = going to）も口語ではよく使われます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私たちは選挙で投票する予定です」\nWe are going to (      ) in the election.",
-      "choices": [],
-      "answer": "vote",
-      "explanation": "Vote（投票する）。\n【🇺🇸 Cultural Note】\nアメリカ大統領選挙の日には、多くの企業が従業員に投票のための時間を与えます。"
-    },
-    {
-      "type": "sort",
-      "question": "「雨が降る予定ですか？」となるように並び替えてください。",
-      "choices": ["rain", "going", "Is", "to", "it"],
-      "answer": "Isitgoingtorain",
-      "explanation": "be going to の疑問文です。\n【🇺🇸 Cultural Note】\n屋外でのウェディングやBBQパーティーの前には、天気予報が最大の関心事になります。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は明日、医者に診てもらう予定です」\nI am (      ) to see a doctor tomorrow.",
-      "choices": ["going", "go", "will", "planning"],
-      "answer": "going",
-      "explanation": "すでに予約しているような予定は be going to を使います。\n【🇺🇸 Cultural Note】\nアメリカの医療システムは予約制が基本で、飛び込み（Walk-in）で診てもらえる場所は限られています。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は女優になるでしょう」\nShe (      ) be an actress.",
-      "choices": [],
-      "answer": "will",
-      "explanation": "未来の予測 will を使います。\n【🇺🇸 Cultural Note】\nハリウッド女優になることを夢見てロサンゼルスに移住する若者は後を絶ちません。"
-    },
-    {
-      "type": "sort",
-      "question": "「誰がパーティーに来る予定ですか？」となるように並び替えてください。",
-      "choices": ["party", "come", "going", "Who", "is", "to", "the", "to"],
-      "answer": "Whoisgoingtocometotheparty",
-      "explanation": "Who + be going to... の疑問文です。\n【🇺🇸 Cultural Note】\nサプライズパーティー（Surprise Party）はアメリカの誕生祝いの定番ですが、主役が来るまで隠れていなければなりません。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼らはすぐに到着するでしょう」\nThey (      ) arrive soon.",
-      "choices": ["will", "are", "going", "do"],
-      "answer": "will",
-      "explanation": "未来の予測 will を使います。\n【🇺🇸 Cultural Note】\n\"ETA\"（Estimated Time of Arrival：到着予定時刻）という略語は日常的に使われます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はこの本を読むつもりです」\nI am going to (      ) this book.",
-      "choices": [],
-      "answer": "read",
-      "explanation": "to の後ろは動詞の原形 read です。\n【🇺🇸 Cultural Note】\nオプラ・ウィンフリーのブッククラブに選ばれた本は、一夜にしてベストセラーになります。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちは諦めるつもりはありません。」となるように並び替えてください。",
-      "choices": ["up", "give", "going", "not", "We", "are", "to"],
-      "answer": "Wearenotgoingtogiveup",
-      "explanation": "否定の意志・予定 not going to を使います。\n【🇺🇸 Cultural Note】\nスポーツの試合で負けていても最後まで戦い抜く精神は高く評価されます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「トムは私を助けてくれるでしょう」\nTom (      ) help me.",
-      "choices": ["will", "is", "going", "can"],
-      "answer": "will",
-      "explanation": "相手への信頼に基づいた予測 will を使います。\n【🇺🇸 Cultural Note】\n引越しの際に友人に手伝ってもらい、お礼にピザとビールを振る舞うのはアメリカの若者の定番です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「それは簡単ではないでしょう」\nIt (      ) not be easy.",
-      "choices": [],
-      "answer": "will",
-      "explanation": "未来の否定予測 will not の will です。\n【🇺🇸 Cultural Note】\n困難なことに対して\"It's a challenge\"（やりがいのある課題だ）とポジティブに表現することが好まれます。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたはいつ宿題を終わらせる予定ですか？」となるように並び替えてください。",
-      "choices": ["finish", "going", "are", "When", "you", "to", "homework"],
-      "answer": "Whenareyougoingtofinishhomework",
-      "explanation": "When + be going to の疑問文です。\n【🇺🇸 Cultural Note】\n締め切り（Deadline）を守ることは、学校でも社会でも厳しく求められます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は戻ってくるでしょうか？」\n(      ) she come back?",
-      "choices": ["Will", "Is", "Going", "Does"],
-      "answer": "Will",
-      "explanation": "未来の予測 Will she...? です。\n【🇺🇸 Cultural Note】\n\"Lassie Come Home\"（名犬ラッシー）は、迷い犬が飼い主の元へ戻る感動的な物語です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はコーヒーをいれますよ（意志）」\nI (      ) make some coffee.",
-      "choices": [],
-      "answer": "will",
-      "explanation": "その場の意志 I will (I'll) make... です。\n【🇺🇸 Cultural Note】\n職場で誰かがコーヒーをいれる時、周りの人にも\"Do you want some?\"と聞くのがマナーです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼らは新しい家を建てる予定です。」となるように並び替えてください。",
-      "choices": ["house", "build", "going", "are", "They", "to", "a", "new"],
-      "answer": "Theyaregoingtobuildanewhouse",
-      "explanation": "計画的な未来 be going to build を使います。\n【🇺🇸 Cultural Note】\nアメリカの住宅着工件数（Housing Starts）は景気の重要な指標です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私たちは忘れないでしょう」\nWe (      ) not forget.",
-      "choices": ["will", "are", "do", "did"],
-      "answer": "will",
-      "explanation": "未来の否定 will not です。\n【🇺🇸 Cultural Note】\n記念碑（Memorial）にはよく\"Lest we forget\"（私たちが忘れないように）という言葉が刻まれています。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたは成功するでしょう」\nYou (      ) succeed.",
-      "choices": [],
-      "answer": "will",
-      "explanation": "相手の成功を確信する予言の will です。\n【🇺🇸 Cultural Note】\n高校の卒業アルバム（Yearbook）には、\"Most Likely to Succeed\"（最も成功しそうな人）という投票ランキングが載ることがあります。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はあなたにメールを送るつもりです。」となるように並び替えてください。",
-      "choices": ["email", "you", "going", "I", "am", "to"],
-      "answer": "Iamgoingtoemailyou",
-      "explanation": "be going to email（メールする予定だ）。\n【🇺🇸 Cultural Note】\n仕事のメールの結び言葉には\"Best regards,\"などがよく使われます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「いつか火星に住む日が来るでしょうか？」\n(      ) we live on Mars someday?",
-      "choices": ["Will", "Are", "Do", "Have"],
-      "answer": "Will",
-      "explanation": "遠い未来の予測なので Will we...? を使います。\n【🇺🇸 Cultural Note】\nSF映画や小説の影響で、宇宙移住は多くのアメリカ人にとって夢のある話題です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は彼と結婚しないでしょう」\nShe (      ) not marry him.",
-      "choices": [],
-      "answer": "will",
-      "explanation": "未来の否定予測 will not です。\n【🇺🇸 Cultural Note】\nラスベガスの結婚式は簡単ですが、離婚（Divorce）の手続きは州によっては複雑で時間がかかります。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼らは引退する予定です。」となるように並び替えてください。",
-      "choices": ["retire", "going", "are", "They", "to"],
-      "answer": "Theyaregoingtoretire",
-      "explanation": "be going to retire（引退する予定だ）。\n【🇺🇸 Cultural Note】\nフロリダ州やアリゾナ州は、気候が温暖なためリタイア後の移住先として人気です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は明日、働かない予定です」\nI am not (      ) to work tomorrow.",
-      "choices": ["going", "go", "will", "planning"],
-      "answer": "going",
-      "explanation": "否定の予定 I am not going to... です。\n【🇺🇸 Cultural Note】\n金曜日を休んで3連休にすることを\"Make it a long weekend\"と言います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「それは高くつくだろう」\nIt (      ) cost a lot.",
-      "choices": [],
-      "answer": "will",
-      "explanation": "未来の予測 will cost です。\n【🇺🇸 Cultural Note】\nアメリカの医療費や大学の学費は、世界的に見ても非常に高額です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちはピザを注文するつもりです。」となるように並び替えてください。",
-      "choices": ["order", "pizza", "going", "are", "We", "to"],
-      "answer": "Wearegoingtoorderpizza",
-      "explanation": "be going to order（注文する予定だ）。\n【🇺🇸 Cultural Note】\n引っ越しの手伝いをしてくれた友人には、お礼としてピザとビールを振る舞うのが定番です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼らは来るでしょうか？」\n(      ) they come?",
-      "choices": ["Will", "Are", "Do", "Have"],
-      "answer": "Will",
-      "explanation": "未来の予測 Will they...? です。\n【🇺🇸 Cultural Note】\n\"If you build it, he will come\"（それを作れば彼はやってくる）は、映画「フィールド・オブ・ドリームス」の名台詞です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はあなたを誇りに思うでしょう」\nI (      ) be proud of you.",
-      "choices": [],
-      "answer": "will",
-      "explanation": "未来の確信 will be proud です。\n【🇺🇸 Cultural Note】\n親が子供に対して\"I'm proud of you\"（お前を誇りに思うよ）と伝えることは、最高の褒め言葉です。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女は泣かないでしょう。」となるように並び替えてください。",
-      "choices": ["cry", "She", "won't"],
-      "answer": "Shewon'tcry",
-      "explanation": "未来の否定意志・予測 won't cry です。\n【🇺🇸 Cultural Note】\n\"Big girls don't cry\"（大人の女の子は泣かない）というヒット曲があります。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは何になる予定ですか（将来の夢）？」\nWhat are you (      ) to be?",
-      "choices": ["going", "go", "will", "planning"],
-      "answer": "going",
-      "explanation": "What are you going to be?（何になる予定ですか）。\n【🇺🇸 Cultural Note】\nアメリカの子供たちのなりたい職業ランキングでは、YouTuberやプロゲーマーが上位に入ることがあります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私たちは世界を変えるつもりです」\nWe are going to (      ) the world.",
-      "choices": [],
-      "answer": "change",
-      "explanation": "to の後ろは動詞の原形 change です。\n【🇺🇸 Cultural Note】\nスティーブ・ジョブズなどのビジョナリーたちは、世界を変える（Change the world）ことを目標に掲げました。"
-    },
-    {
-      "type": "sort",
-      "question": "「いつか分かるでしょう。」となるように並び替えてください。",
-      "choices": ["see", "will", "You", "someday"],
-      "answer": "Youwillseesomeday",
-      "explanation": "未来の予測 You will see... です。\n【🇺🇸 Cultural Note】\n\"Wait and see\"（待てばわかるよ／様子を見よう）もよく使われる表現です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は彼に投票するつもりです」\nI am (      ) to vote for him.",
-      "choices": ["going", "go", "will", "voting"],
-      "answer": "going",
-      "explanation": "be going to vote（投票する予定だ）。\n【🇺🇸 Cultural Note】\nアメリカの選挙期間中は、支持する候補者の名前が入った看板（Lawn sign）を自宅の庭に立ててアピールします。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「それは楽しくなるでしょう」\nIt (      ) be fun.",
-      "choices": [],
-      "answer": "will",
-      "explanation": "未来の予測 will be fun です。\n【🇺🇸 Cultural Note】\nディズニーランドなどのテーマパークに行く前には、\"It's going to be so much fun!\"と言って盛り上がります。"
+      "explanation": "単純未来のwillです。\n【🇺🇸 Cultural Note】\nアメリカ文化には「Optimism（楽観主義）」が根付いており、未来や成功に対して前向きな姿勢が好まれます。"
     }
   ]
 }
