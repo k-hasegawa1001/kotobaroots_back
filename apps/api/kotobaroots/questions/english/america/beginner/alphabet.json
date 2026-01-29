@@ -744,13 +744,6 @@
       "choices": ["Master", "Business", "Administration", "of"],
       "answer": "MasterofBusinessAdministration",
       "explanation": "経営学修士。\n【🇺🇸 Cultural Note】\nアメリカのビジネスエリートの多くが取得を目指す資格です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「GDP」の真ん中の文字は何の略？\nDomestic（国内の）\nG(      )P",
-      "choices": [],
-      "answer": "D",
-      "explanation": "Gross Domestic Product（国内総生産）。\n【🇺🇸 Cultural Note】\n国の経済規模を表す指標です。"
     }
   ]
 }
