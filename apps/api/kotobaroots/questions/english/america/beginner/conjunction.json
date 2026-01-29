@@ -1,643 +1,658 @@
 {
   "learning_topic": "接続詞",
+  "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "「私は犬と猫が好きです」\nI like dogs (      ) cats.",
+      "question": "「私はマカロニ・アンド・チーズが好きです」\nI like macaroni (      ) cheese.",
       "choices": ["and", "but", "or", "so"],
       "answer": "and",
-      "explanation": "「AとB」と並列につなぐ時はandを使います。"
+      "explanation": "「AとB」と並列につなぐ and を使います。\n【🇺🇸 Cultural Note】\n\"Mac and Cheese\"はアメリカの子供たちが大好きな家庭料理（コンフォートフード）の代表格です。箱入りのインスタント製品も定番です。"
     },
     {
       "type": "sort",
-      "question": "「私は貧しいですが、幸せです。」となるように並び替えてください。",
-      "choices": ["happy", "poor", "but", "am", "I"],
-      "answer": "Iampoorbuthappy",
-      "explanation": "I am poor but happy. 「～しかし…」と逆の内容をつなぐ時はbutを使います。"
+      "question": "「安かったですが、おいしかったです。」となるように並び替えてください。",
+      "choices": ["cheap,", "good", "It", "but", "was"],
+      "answer": "Itwascheap,butgood",
+      "explanation": "逆の内容をつなぐ「しかし」は but を使います。\n【🇺🇸 Cultural Note】\nアメリカの「ダイナー（Diner）」は、安くてボリューム満点の食事が24時間食べられる場所として愛されています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「急げ、さもないと遅れるぞ」\nHurry up, (      ) you will be late.",
+      "question": "「コーヒーにしますか、それとも紅茶にしますか？」\nDo you want coffee (      ) tea?",
       "choices": [],
       "answer": "or",
-      "explanation": "命令文 + or ... で「～しなさい、さもないと…」という意味になります。"
+      "explanation": "選択肢を提示する「または」は or を使います。\n【🇺🇸 Cultural Note】\nアメリカのレストランで食後に飲み物を聞かれた際、コーヒーか紅茶かを選ぶのが一般的ですが、\"Decaf\"（カフェインレス）を選ぶ人も多いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「コーヒーか紅茶、どちらが欲しいですか？」\nDo you want coffee (      ) tea?",
+      "question": "「お菓子をくれないといたずらするぞ（トリック・オア・トリート）」\nTrick (      ) Treat!",
       "choices": ["or", "and", "but", "so"],
       "answer": "or",
-      "explanation": "「AかB（または）」という選択を表す時はorを使います。"
+      "explanation": "「AかBか」という選択なので or を使います。\n【🇺🇸 Cultural Note】\nハロウィンの夜、子供たちが近所の家を回ってお菓子をもらう時の決まり文句です。直訳すると「いたずらか、ご馳走か」です。"
     },
     {
       "type": "sort",
-      "question": "「私は病気だったので、学校に行きませんでした。」となるように並び替えてください。",
-      "choices": ["school", "sick", "go", "didn't", "I", "so", "to", "was", "I"],
-      "answer": "IwassicksoIdidn'tgotoschool",
-      "explanation": "I was sick, so I didn't go to school. 「だから（結果）」を表す時はsoを使います。"
+      "question": "「雨が降っていたので、私たちは家にいました。」となるように並び替えてください。",
+      "choices": ["raining,", "we", "stayed", "so", "It", "home", "was"],
+      "answer": "Itwasraining,sowestayedhome",
+      "explanation": "結果を導く「だから」は so を使います。\n【🇺🇸 Cultural Note】\n雨の日に楽しむ屋内アクティビティとして、ボードゲーム（モノポリーなど）はアメリカの家庭で根強い人気があります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「もし明日晴れたら、ピクニックに行こう」\n(      ) it is sunny tomorrow, let's go on a picnic.",
+      "question": "「私は彼が好きです、なぜなら彼は親切だからです」\nI like him (      ) he is kind.",
       "choices": [],
-      "answer": "If",
-      "explanation": "If（もし～なら）で条件を表します。未来のことでも条件節の中では現在形を使います。"
+      "answer": "because",
+      "explanation": "理由を説明する「なぜなら〜だから」は because を使います。\n【🇺🇸 Cultural Note】\nアメリカ人は褒め上手で、ポジティブな理由を言葉にして伝えることを大切にします。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私が帰宅した時、母は料理をしていました」\n(      ) I came home, my mother was cooking.",
+      "question": "「私が子供だったとき、ボストンに住んでいました」\n(      ) I was a child, I lived in Boston.",
       "choices": ["When", "If", "Because", "Before"],
       "answer": "When",
-      "explanation": "When（～する時）で時を表します。"
+      "explanation": "「〜のとき」と時を表す接続詞 When を使います。\n【🇺🇸 Cultural Note】\nボストンは学園都市であり、歴史的な赤レンガの街並みが特徴です。"
     },
     {
       "type": "sort",
-      "question": "「私は彼が良い先生だと思います。」となるように並び替えてください。",
-      "choices": ["is", "teacher", "think", "good", "a", "that", "he", "I"],
-      "answer": "Ithinkthatheisagoodteacher",
-      "explanation": "I think that he is a good teacher. 「～ということ」を表す接続詞thatです。"
+      "question": "「もし明日晴れたら、私たちはBBQをします。」となるように並び替えてください。",
+      "choices": ["sunny", "have", "If", "it", "is", "a", "tomorrow,", "we", "will", "BBQ"],
+      "answer": "Ifitissunnytomorrow,wewillhaveaBBQ",
+      "explanation": "条件を表す「もし〜なら」は If を使います。if節の中は未来のことでも現在形を使います。\n【🇺🇸 Cultural Note】\nアメリカ人の「BBQへの情熱」は凄まじく、テキサス風、カンザスシティ風など地域ごとに独自のソースや焼き方があります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は忙しいので行けません」\nI can't go (      ) I am busy.",
+      "question": "「寝る前に歯を磨きなさい」\nBrush your teeth (      ) you go to bed.",
       "choices": [],
-      "answer": "because",
-      "explanation": "Because（なぜなら～なので）で理由を表します。"
+      "answer": "before",
+      "explanation": "「〜する前に」は before を使います。\n【🇺🇸 Cultural Note】\nアメリカの歯科治療費は非常に高額なため、予防歯科（日々のケアとフロス）の意識が非常に高いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「夕食の前にお風呂に入りなさい」\nTake a bath (      ) dinner.",
-      "choices": ["before", "after", "when", "if"],
-      "answer": "before",
-      "explanation": "Before（～の前に）です。"
+      "question": "「学校が終わった後、私はバスケをします」\n(      ) school, I play basketball.",
+      "choices": ["After", "Before", "When", "If"],
+      "answer": "After",
+      "explanation": "「〜の後で」は After を使います。\n【🇺🇸 Cultural Note】\n放課後の課外活動（After-school activities）は、大学入試の内申点（Transcript）に影響するため重要視されます。"
     },
     {
       "type": "sort",
-      "question": "「昼食を食べた後、私たちはサッカーをしました。」となるように並び替えてください。",
-      "choices": ["soccer", "lunch", "played", "We", "after", "we", "ate"],
-      "answer": "Weplayedsoccerafterweatelunch",
-      "explanation": "We played soccer after we ate lunch. After（～の後で）です。"
+      "question": "「ピーナッツバターとジェリー。」となるように並び替えてください。",
+      "choices": ["jelly", "and", "Peanut", "butter"],
+      "answer": "Peanutbutterandjelly",
+      "explanation": "「AとB」は and でつなぎます。\n【🇺🇸 Cultural Note】\nこの組み合わせ（PB&J）はアメリカの子供のランチの絶対的な定番です。「切っても切れない関係」の比喩としても使われます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私かあなたのどちらかが行かねばなりません」\nEither you (      ) I must go.",
+      "question": "「現金ですか、それともクレジットですか？」\nCash (      ) credit?",
       "choices": [],
       "answer": "or",
-      "explanation": "Either A or B（AかBのどちらか）という熟語的な接続詞です。"
+      "explanation": "選択の or です。\n【🇺🇸 Cultural Note】\nアメリカはカード社会で、数ドルのコーヒーでもクレジットカードやデビットカードで支払うのが普通です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼は金持ちだが、幸せではない」\nHe is rich, (      ) he isn't happy.",
-      "choices": ["but", "and", "so", "or"],
+      "question": "「私は疲れていましたが、幸せでした」\nI was tired, (      ) I was happy.",
+      "choices": ["but", "so", "and", "or"],
       "answer": "but",
-      "explanation": "逆接のbutです。"
+      "explanation": "逆説の but です。\n【🇺🇸 Cultural Note】\nディズニーワールドなどで一日中遊んだ後の感想としてよく使われる表現です。"
     },
     {
       "type": "sort",
-      "question": "「一生懸命勉強しなさい、そうすれば合格します。」となるように並び替えてください。",
-      "choices": ["pass", "Study", "hard", "you", "and", "will"],
-      "answer": "Studyhardandyouwillpass",
-      "explanation": "Study hard, and you will pass. 命令文 + and ... で「～しなさい、そうすれば…」という意味になります。"
+      "question": "「寒いので、私はコートを着ます。」となるように並び替えてください。",
+      "choices": ["It", "cold,", "wear", "so", "coat", "I", "is", "a"],
+      "answer": "Itiscold,soIwearacoat",
+      "explanation": "結果を表す so です。\n【🇺🇸 Cultural Note】\nシカゴやミネアポリスの冬は極寒で、しっかりとした防寒具（Winter gear）が必須です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は英語とフランス語を話します」\nShe speaks English (      ) French.",
+      "question": "「私は彼が正しいと思います」\nI think (      ) he is right.",
       "choices": [],
+      "answer": "that",
+      "explanation": "「〜ということ」と文をつなぐ接続詞 that です（省略されることも多いです）。\n【🇺🇸 Cultural Note】\nディベートの文化があるアメリカでは、自分の意見（I think that...）をはっきり主張することが求められます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「信号が赤のとき、止まらなければなりません」\n(      ) the light is red, you must stop.",
+      "choices": ["When", "If", "Because", "But"],
+      "answer": "When",
+      "explanation": "時を表す When です。\n【🇺🇸 Cultural Note】\nただし、アメリカの多くの州では、安全であれば赤信号でも「右折（Right turn on red）」することが許可されています。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし時間があれば、博物館に行きましょう。」となるように並び替えてください。",
+      "choices": ["time,", "have", "If", "we", "go", "to", "let's", "the", "museum"],
+      "answer": "Ifwehavetime,let'sgotothemuseum",
+      "explanation": "条件の If です。\n【🇺🇸 Cultural Note】\nワシントンD.C.のスミソニアン博物館群は入場無料なので、時間が空いた時に気軽に立ち寄れます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「食べる前に手を洗いなさい」\nWash your hands (      ) you eat.",
+      "choices": [],
+      "answer": "before",
+      "explanation": "「〜の前に」は before です。\n【🇺🇸 Cultural Note】\n学校のカフェテリアにはハンドサニタイザー（消毒液）が設置されていることが多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「夕食の後、私たちは映画を見ました」\n(      ) dinner, we watched a movie.",
+      "choices": ["After", "Before", "When", "If"],
+      "answer": "After",
+      "explanation": "「〜の後で」は After です。\n【🇺🇸 Cultural Note】\n金曜日の夜は「ムービー・ナイト」として、家族で映画を見る習慣がある家庭も多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「星条旗（星と縞）。」となるように並び替えてください。",
+      "choices": ["Stripes", "Stars", "and"],
+      "answer": "StarsandStripes",
+      "explanation": "「AとB」の and です。語順が決まっています。\n【🇺🇸 Cultural Note】\nアメリカ国旗の愛称です。星は50の州を、縞は独立時の13州を表しています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ここですか、それとも持ち帰りですか？」\nFor here (      ) to go?",
+      "choices": [],
+      "answer": "or",
+      "explanation": "選択の or です。\n【🇺🇸 Cultural Note】\nファストフード店での定番フレーズです。\"To go\"は「持ち帰り（テイクアウト）」の意味です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は金持ちですが、幸せではありません」\nShe is rich, (      ) she isn't happy.",
+      "choices": ["but", "so", "and", "or"],
+      "answer": "but",
+      "explanation": "逆説の but です。\n【🇺🇸 Cultural Note】\nアメリカ文学や映画では、「物質的な成功」と「精神的な幸福」の対比がよくテーマになります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はお腹が空いていたので、ピザを食べました。」となるように並び替えてください。",
+      "choices": ["pizza", "ate", "hungry,", "so", "I", "I", "was"],
+      "answer": "Iwashungry,soIatepizza",
+      "explanation": "結果の so です。\n【🇺🇸 Cultural Note】\n深夜でもデリバリーしてくれるピザ屋は、試験勉強中の学生の強い味方です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「熱があったので学校に行きませんでした」\nI didn't go to school (      ) I had a fever.",
+      "choices": [],
+      "answer": "because",
+      "explanation": "理由の because です。\n【🇺🇸 Cultural Note】\nアメリカの学校を病欠する場合、親が学校に電話するか、医師の診断書を提出する必要があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたが寝ているとき、サンタが来ます」\nSanta comes (      ) you are sleeping.",
+      "choices": ["when", "if", "but", "so"],
+      "answer": "when",
+      "explanation": "時の When（〜している間に）です。\n【🇺🇸 Cultural Note】\n子供たちはサンタクロースのためにクッキーとミルクを用意して寝ます。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし助けが必要なら、私に電話してください。」となるように並び替えてください。",
+      "choices": ["need", "call", "help,", "me", "you", "If"],
+      "answer": "Ifyouneedhelp,callme",
+      "explanation": "条件の If です。\n【🇺🇸 Cultural Note】\n\"911\"は緊急通報用ですが、それ以外の行政サービスへの相談は\"311\"にかけるシステムが多くの都市にあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「出発する前にドアをロックしてください」\nLock the door (      ) you leave.",
+      "choices": [],
+      "answer": "before",
+      "explanation": "「〜する前に」の before です。\n【🇺🇸 Cultural Note】\nアメリカの玄関ドアは、内側からはノブを回すだけで開くが、外側からは鍵がないと開かないオートロックタイプが一般的です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ロックンロール（ロックとロール）」\nRock (      ) Roll",
+      "choices": ["and", "'n'", "or", "but"],
+      "answer": "'n'",
+      "explanation": "and の短縮形 'n' が使われる代表例です（文法的にはand）。\n【🇺🇸 Cultural Note】\nクリーブランドには「ロックの殿堂（Rock and Roll Hall of Fame）」があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「高かったですが、私はそれを買いました。」となるように並び替えてください。",
+      "choices": ["expensive,", "bought", "it", "it", "was", "but", "I"],
+      "answer": "Itwasexpensive,butIboughtit",
+      "explanation": "逆説の but です。\n【🇺🇸 Cultural Note】\nブラックフライデーの大セールでは、高額商品が大幅に値引きされるため、多くの人が並んで買います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「雨が降りますか、それとも雪が降りますか？」\nWill it rain (      ) snow?",
+      "choices": [],
+      "answer": "or",
+      "explanation": "選択の or です。\n【🇺🇸 Cultural Note】\n冬の天気予報では「雨か雪か（Rain or Snow）」の境界線が交通状況を大きく左右するため重要です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼が来ると知っています」\nI know (      ) he will come.",
+      "choices": ["that", "if", "because", "but"],
+      "answer": "that",
+      "explanation": "接続詞の that です。\n【🇺🇸 Cultural Note】\n\"I know that...\"と自分の知識や確信を伝える表現はよく使われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「疲れているので、休憩します。」となるように並び替えてください。",
+      "choices": ["take", "so", "I'm", "tired,", "break", "I'll", "a"],
+      "answer": "I'mtired,soI'lltakeabreak",
+      "explanation": "結果の so です。\n【🇺🇸 Cultural Note】\n仕事中のコーヒーブレイク（Coffee break）は、リフレッシュのための重要な権利と考えられています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「今日は祝日なので学校はありません」\nThere is no school (      ) today is a holiday.",
+      "choices": [],
+      "answer": "because",
+      "explanation": "理由の because です。\n【🇺🇸 Cultural Note】\nマーティン・ルーサー・キング・ジュニア・デーやプレジデント・デーなどの連邦祝日は学校が休みになります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私が着いたとき、彼はいませんでした」\n(      ) I arrived, he wasn't there.",
+      "choices": ["When", "If", "So", "But"],
+      "answer": "When",
+      "explanation": "時の When です。\n【🇺🇸 Cultural Note】\nアメリカ人は約束の時間に遅れること（Running late）に対して、テキストで逐一連絡を入れるのがマナーです。"
+    },
+    {
+      "type": "sort",
+      "question": "「もしあなたがベジタリアンなら、これを食べてはいけません。」となるように並び替えてください。",
+      "choices": ["eat", "you", "vegetarian,", "are", "don't", "this", "If", "a"],
+      "answer": "Ifyouareavegetarian,don'teatthis",
+      "explanation": "条件の If です。\n【🇺🇸 Cultural Note】\nアメリカにはベジタリアンやヴィーガン（完全菜食主義者）が多く、レストランには必ず対応メニューがあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「朝食の後に歯を磨きます」\nI brush my teeth (      ) breakfast.",
+      "choices": [],
+      "answer": "after",
+      "explanation": "「〜の後で」の after です。\n【🇺🇸 Cultural Note】\nアメリカでは朝食前に歯を磨く人もいれば、朝食後に磨く人もいて、よく議論のネタになります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ブラック・アンド・ホワイト（白黒）」\nBlack (      ) White",
+      "choices": ["and", "or", "but", "so"],
       "answer": "and",
-      "explanation": "並列のandです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「雨が降っていたので、家にいました」\nIt was raining, (      ) I stayed home.",
-      "choices": ["so", "because", "but", "or"],
-      "answer": "so",
-      "explanation": "So（だから）です。Becauseを使う場合は文の構造が変わります。"
+      "explanation": "「AとB」の and です。日本語と語順が逆（黒と白）になることに注意です。\n【🇺🇸 Cultural Note】\nパトカーのことを俗語で\"Black and White\"と呼ぶことがあります（多くのパトカーが白黒のツートンカラーであるため）。"
     },
     {
       "type": "sort",
-      "question": "「私は彼が正しいことを知っています。」となるように並び替えてください。",
-      "choices": ["right", "know", "is", "that", "he", "I"],
-      "answer": "Iknowthatheisright",
-      "explanation": "I know that he is right. です。"
+      "question": "「私は行きたいですが、忙しいです。」となるように並び替えてください。",
+      "choices": ["busy", "want", "go,", "but", "I", "I'm", "to"],
+      "answer": "Iwanttogo,butI'mbusy",
+      "explanation": "逆説の but です。\n【🇺🇸 Cultural Note】\n誘いを断る時、単に\"No\"と言うのではなく、理由（忙しいなど）を添えるのが礼儀です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「あなたが疲れているなら、休みなさい」\n(      ) you are tired, take a rest.",
+      "question": "「勝ちか負けか」\nWin (      ) lose",
       "choices": [],
-      "answer": "If",
-      "explanation": "If（もし～なら）です。"
+      "answer": "or",
+      "explanation": "選択の or です。\n【🇺🇸 Cultural Note】\nスポーツにおいて\"Win or lose\"（勝っても負けても）楽しみ、相手を称えるスポーツマンシップが教育されます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私が子供だった頃、私は納豆が好きではありませんでした」\n(      ) I was a child, I didn't like natto.",
+      "question": "「とても暑かったので、私たちは泳ぎに行きました」\nIt was very hot, (      ) we went swimming.",
+      "choices": ["so", "because", "but", "if"],
+      "answer": "so",
+      "explanation": "結果の so です。\n【🇺🇸 Cultural Note】\n夏の暑い日には、海や湖、コミュニティプールが家族連れで溢れかえります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は幸せです、なぜなら今日は金曜日だからです。」となるように並び替えてください。",
+      "choices": ["Friday", "I", "is", "am", "because", "happy", "today"],
+      "answer": "IamhappybecausetodayisFriday",
+      "explanation": "理由の because です。\n【🇺🇸 Cultural Note】\n\"TGIF\" (Thank God It's Friday) という言葉があるほど、アメリカ人は金曜日を待ちわびています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたが18歳になったとき、投票できます」\n(      ) you turn 18, you can vote.",
+      "choices": [],
+      "answer": "When",
+      "explanation": "時の When です。\n【🇺🇸 Cultural Note】\nアメリカでは18歳で選挙権が得られ、21歳で飲酒が可能になります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし明日雪が降ったら、学校は休みになります」\n(      ) it snows tomorrow, school will be closed.",
+      "choices": ["If", "When", "Because", "So"],
+      "answer": "If",
+      "explanation": "条件の If です。未来のことでも現在形（snows）を使います。\n【🇺🇸 Cultural Note】\n\"Snow Day\"の決定は早朝のニュースやメールで各家庭に通知されます。"
+    },
+    {
+      "type": "sort",
+      "question": "「魚とチップス（フィッシュ＆チップス）。」となるように並び替えてください。",
+      "choices": ["chips", "Fish", "and"],
+      "answer": "Fishandchips",
+      "explanation": "「AとB」の and です。\n【🇺🇸 Cultural Note】\nイギリス料理ですが、アメリカのシーフードレストランやパブでも定番メニューです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「生死をかけて（生きるか死ぬか）」\nLive (      ) die",
+      "choices": [],
+      "answer": "or",
+      "explanation": "選択の or です。\n【🇺🇸 Cultural Note】\nニューハンプシャー州のモットーは\"Live Free or Die\"（自由に生きるか、さもなくば死を）という強烈なものです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は小さいですが、強いです」\nHe is small, (      ) he is strong.",
+      "choices": ["but", "so", "and", "or"],
+      "answer": "but",
+      "explanation": "逆説の but です。\n【🇺🇸 Cultural Note】\nスポーツの世界では、小柄でも活躍する選手は\"Underdog\"（勝ち目のない挑戦者）として応援されます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は病気だったので、医者に診てもらいました。」となるように並び替えてください。",
+      "choices": ["doctor", "a", "saw", "sick,", "she", "so", "She", "was"],
+      "answer": "Shewassick,soshesawadoctor",
+      "explanation": "結果の so です。\n【🇺🇸 Cultural Note】\nアメリカの医療システムでは、まず主治医（Primary Care Physician）に診てもらうのが一般的です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちはテキサスが大好きです、なぜなら食べ物がおいしいからです」\nWe love Texas (      ) the food is good.",
+      "choices": [],
+      "answer": "because",
+      "explanation": "理由の because です。\n【🇺🇸 Cultural Note】\nテキサスBBQやテクス・メクス（メキシコ風アメリカ料理）は全米で人気があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私が運転するとき、私は音楽を聴きます」\n(      ) I drive, I listen to music.",
+      "choices": ["When", "If", "So", "But"],
+      "answer": "When",
+      "explanation": "時の When です。\n【🇺🇸 Cultural Note】\nアメリカでのドライブには、お気に入りのプレイリストやポッドキャストが欠かせません。"
+    },
+    {
+      "type": "sort",
+      "question": "「もしあなたがそれを壊したら、弁償しなければなりません。」となるように並び替えてください。",
+      "choices": ["buy", "break", "it,", "it", "you", "must", "If", "you"],
+      "answer": "Ifyoubreakit,youmustbuyit",
+      "explanation": "条件の If です。\n【🇺🇸 Cultural Note】\nお店で商品を壊した場合の\"You break it, you buy it\"（壊したらお買い上げ）は一般的なルールです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「映画の後で食事をしました」\nWe ate (      ) the movie.",
+      "choices": [],
+      "answer": "after",
+      "explanation": "「〜の後で」の after です。\n【🇺🇸 Cultural Note】\n\"Dinner and a movie\"はアメリカのデートの定番コースです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ソルト・アンド・ペッパー（塩コショウ）」\nSalt (      ) pepper",
+      "choices": ["and", "or", "but", "so"],
+      "answer": "and",
+      "explanation": "セットで使われる and です。\n【🇺🇸 Cultural Note】\nアメリカのレストランのテーブルには必ず塩とコショウのセットが置かれています。"
+    },
+    {
+      "type": "sort",
+      "question": "「今はか、それともなしか（今やるか二度とやらないか）。」となるように並び替えてください。",
+      "choices": ["never", "Now", "or"],
+      "answer": "Nowornever",
+      "explanation": "選択の or です。\n【🇺🇸 Cultural Note】\n\"It's now or never!\"（今しかない！）は、決断を迫る時によく使われるフレーズです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は勉強しました、しかし試験に落ちました」\nI studied, (      ) I failed the exam.",
+      "choices": [],
+      "answer": "but",
+      "explanation": "逆説の but です。\n【🇺🇸 Cultural Note】\n失敗から学ぶ（Learning from failure）ことを良しとする文化があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「道が凍っていたので、私はゆっくり運転しました」\nThe road was icy, (      ) I drove slowly.",
+      "choices": ["so", "because", "but", "if"],
+      "answer": "so",
+      "explanation": "結果の so です。\n【🇺🇸 Cultural Note】\n冬の北部では「ブラックアイスバーン」による事故が多発するため、慎重な運転が求められます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は走りました、なぜなら遅れていたからです。」となるように並び替えてください。",
+      "choices": ["late", "was", "ran", "She", "because", "she"],
+      "answer": "Sheranbecauseshewaslate",
+      "explanation": "理由の because です。\n【🇺🇸 Cultural Note】\n\"Running late\"（遅れている）という表現は、日常会話で非常によく使われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼が嘘をついていることを知っています」\nI know (      ) he is lying.",
+      "choices": [],
+      "answer": "that",
+      "explanation": "接続詞の that です。\n【🇺🇸 Cultural Note】\n\"I know that...\"で事実を指摘します。正直さ（Honesty）は重要な徳目です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私が卒業したとき、私は旅行しました」\n(      ) I graduated, I traveled.",
+      "choices": ["When", "If", "So", "But"],
+      "answer": "When",
+      "explanation": "時の When です。\n【🇺🇸 Cultural Note】\n大学卒業後にバックパック旅行（Backpacking）をして見聞を広める学生もいます。"
+    },
+    {
+      "type": "sort",
+      "question": "「もしあなたが勉強しなければ、合格しません。」となるように並び替えてください。",
+      "choices": ["don't", "study,", "won't", "If", "pass", "you", "you"],
+      "answer": "Ifyoudon'tstudy,youwon'tpass",
+      "explanation": "条件の If です。\n【🇺🇸 Cultural Note】\n\"No pain, no gain\"（痛みなくして得るものなし＝努力しなければ成功しない）という格言があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「仕事の前にコーヒーが必要です」\nI need coffee (      ) work.",
+      "choices": [],
+      "answer": "before",
+      "explanation": "「〜の前に」の before です。\n【🇺🇸 Cultural Note】\n\"Don't talk to me before I've had my coffee\"（コーヒーを飲むまで話しかけないで）というジョークグッズがあるほど、朝のコーヒーは重要です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「雨のち晴れ」\nRain, (      ) sunny.",
+      "choices": ["then", "and", "so", "but"],
+      "answer": "then",
+      "explanation": "順序を表す then（それから）や and then を使います。\n【🇺🇸 Cultural Note】\n天気予報のフレーズです。"
+    },
+    {
+      "type": "sort",
+      "question": "「ナイフとフォーク。」となるように並び替えてください。",
+      "choices": ["fork", "Knife", "and"],
+      "answer": "Knifeandfork",
+      "explanation": "「AとB」の and です。\n【🇺🇸 Cultural Note】\nアメリカ人はステーキなどを最初に全部切ってから、フォークを右手に持ち替えて食べる（Zig-zag method）人が多いです（欧州式とは異なります）。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「はい、それともいいえ？」\nYes (      ) No?",
+      "choices": [],
+      "answer": "or",
+      "explanation": "選択の or です。\n【🇺🇸 Cultural Note】\nアンケートや投票用紙では、Yes/Noをはっきり選択します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は金持ちですが、ケチです」\nHe is rich, (      ) he is stingy.",
+      "choices": ["but", "so", "and", "or"],
+      "answer": "but",
+      "explanation": "逆説の but です。\n【🇺🇸 Cultural Note】\n\"Scrooge\"（スクルージ）は『クリスマス・キャロル』に登場するケチな老人の名前で、ケチな人の代名詞です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はパスポートをなくしたので、旅行できませんでした。」となるように並び替えてください。",
+      "choices": ["travel", "passport,", "lost", "I", "couldn't", "my", "so", "I"],
+      "answer": "Ilostmypassport,soIcouldn'ttravel",
+      "explanation": "結果の so です。\n【🇺🇸 Cultural Note】\n海外旅行の前にはパスポートの有効期限を確認することが重要です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼を雇いました、なぜなら彼は経験があるからです」\nI hired him (      ) he has experience.",
+      "choices": [],
+      "answer": "because",
+      "explanation": "理由の because です。\n【🇺🇸 Cultural Note】\nアメリカの就職活動では、学歴よりも実務経験（Experience）やインターンシップ歴が重視される傾向があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたが日本に行くとき、寿司を食べるべきです」\n(      ) you go to Japan, you should eat sushi.",
+      "choices": ["When", "If", "So", "But"],
+      "answer": "When",
+      "explanation": "時の When です。\n【🇺🇸 Cultural Note】\nアメリカでも寿司（Sushi）は人気ですが、カリフォルニアロールのようなアメリカ独自のアレンジが主流です。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし雨が降れば、私たちは中にいます。」となるように並び替えてください。",
+      "choices": ["stay", "rains,", "it", "we", "inside", "If"],
+      "answer": "Ifitrains,westayinside",
+      "explanation": "条件の If です。\n【🇺🇸 Cultural Note】\n\"Rain or shine\"（雨天決行）というフレーズはイベントの案内でよく見かけます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたが去る前に、さよならを言いなさい」\nSay goodbye (      ) you leave.",
+      "choices": [],
+      "answer": "before",
+      "explanation": "「〜の前に」の before です。\n【🇺🇸 Cultural Note】\nパーティーから黙って帰ること（Ghosting / French exit）は失礼とされる場合があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ロック、ペーパー、シザーズ（じゃんけん）」\nRock, Paper, (      ) Scissors",
+      "choices": ["and", "or", "but", "so"],
+      "answer": "and",
+      "explanation": "列挙の最後は and でつなぎます。\n【🇺🇸 Cultural Note】\nアメリカのじゃんけんです。\"Shoot!\"の掛け声で手を出します。"
+    },
+    {
+      "type": "sort",
+      "question": "「生死に関わる問題（生きるか死ぬかの問題）。」となるように並び替えてください。",
+      "choices": ["death", "of", "life", "matter", "or", "A"],
+      "answer": "Amatteroflifeordeath",
+      "explanation": "選択の or です。\n【🇺🇸 Cultural Note】\n非常に重要な局面で使われる慣用句です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は一生懸命勉強しましたが、失敗しました」\nHe studied hard, (      ) he failed.",
+      "choices": [],
+      "answer": "but",
+      "explanation": "逆説の but です。\n【🇺🇸 Cultural Note】\n失敗を恐れずに挑戦する「起業家精神」が称賛されます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は疲れていたので、早く寝ました」\nHe was tired, (      ) he went to bed early.",
+      "choices": ["so", "because", "but", "if"],
+      "answer": "so",
+      "explanation": "結果の so です。\n【🇺🇸 Cultural Note】\n\"Early to bed and early to rise\"（早寝早起き）はベンジャミン・フランクリンの格言として知られています。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はそれが真実だと信じています。」となるように並び替えてください。",
+      "choices": ["true", "that", "believe", "it", "is", "I"],
+      "answer": "Ibelievethatitistrue",
+      "explanation": "接続詞の that です。\n【🇺🇸 Cultural Note】\n法廷ドラマなどで証言の際によく聞くフレーズです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私が若いころ、私は野球をしていました」\n(      ) I was young, I played baseball.",
+      "choices": [],
+      "answer": "When",
+      "explanation": "時の When です。\n【🇺🇸 Cultural Note】\nリトルリーグでの野球経験は、多くのアメリカ人男性の共通の思い出です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし宝くじに当たったら、家を買います」\n(      ) I win the lottery, I will buy a house.",
+      "choices": ["If", "When", "So", "But"],
+      "answer": "If",
+      "explanation": "条件の If です。\n【🇺🇸 Cultural Note】\nパワーボール（Powerball）などの宝くじは賞金が数億ドルになることもあり、全米が熱狂します。"
+    },
+    {
+      "type": "sort",
+      "question": "「レディース・アンド・ジェントルメン（紳士淑女の皆様）。」となるように並び替えてください。",
+      "choices": ["Gentlemen", "and", "Ladies"],
+      "answer": "LadiesandGentlemen",
+      "explanation": "「AとB」の and です。定型句です。\n【🇺🇸 Cultural Note】\nショーの始まりやアナウンスの冒頭で使われる伝統的な呼びかけです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「今ですか、それとも後でですか？」\nNow (      ) later?",
+      "choices": [],
+      "answer": "or",
+      "explanation": "選択の or です。\n【🇺🇸 Cultural Note】\n\"Pay now or pay later\"（今払うか、後でツケを払うか）という表現があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「すみませんが、行けません」\nI'm sorry, (      ) I can't go.",
+      "choices": ["but", "so", "and", "or"],
+      "answer": "but",
+      "explanation": "逆説の but です。\n【🇺🇸 Cultural Note】\n招待を断る時の丁寧なフレーズです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は寝坊したので、バスに乗り遅れました。」となるように並び替えてください。",
+      "choices": ["missed", "bus", "overslept,", "so", "I", "the", "I"],
+      "answer": "Ioverslept,soImissedthebus",
+      "explanation": "結果の so です。\n【🇺🇸 Cultural Note】\nスクールバスに乗り遅れると、親が学校まで車で送らなければならず、大変です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼を助けました、なぜなら彼が困っていたからです」\nI helped him (      ) he was in trouble.",
+      "choices": [],
+      "answer": "because",
+      "explanation": "理由の because です。\n【🇺🇸 Cultural Note】\n\"Good Samaritan\"（善きサマリア人）法は、緊急時に善意で救助した人を法的責任から守る法律です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたが来るとき、電話してください」\n(      ) you come, please call me.",
       "choices": ["When", "If", "Because", "So"],
       "answer": "When",
-      "explanation": "When（～だった時）です。"
+      "explanation": "時の When です。\n【🇺🇸 Cultural Note】\n到着した時に\"I'm here\"とテキストを送るのが一般的です。"
     },
     {
       "type": "sort",
-      "question": "「あなたも彼も悪くない。」となるように並び替えてください。",
-      "choices": ["wrong", "are", "Neither", "you", "nor", "he"],
-      "answer": "Neitheryounorheiswrong",
-      "explanation": "Neither A nor B（AもBも～ない）という相関接続詞です。"
+      "question": "「もし明日雪が降らなければ、私たちは行きます。」となるように並び替えてください。",
+      "choices": ["go", "it", "tomorrow,", "snow", "If", "doesn't", "we'll"],
+      "answer": "Ifitdoesn'tsnowtomorrow,we'llgo",
+      "explanation": "条件の If です。否定文（doesn't）を含みます。\n【🇺🇸 Cultural Note】\n天候に左右される予定の場合、前もって条件を確認します。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は親切なだけでなく、美しい」\nShe is not only kind (      ) also beautiful.",
-      "choices": [],
-      "answer": "but",
-      "explanation": "not only A but also B（AだけでなくBもまた）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は彼が来ることを望みます」\nI hope (      ) he comes.",
-      "choices": ["that", "what", "which", "if"],
-      "answer": "that",
-      "explanation": "I hope (that)... で「～であることを望む」です。"
-    },
-    {
-      "type": "sort",
-      "question": "「宿題が終わるまで待ちなさい。」となるように並び替えてください。",
-      "choices": ["you", "Wait", "finish", "homework", "until", "your"],
-      "answer": "Waituntilyoufinishyourhomework",
-      "explanation": "Wait until... で「～するまで待て」です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は忙しかったが、楽しかった」\nI was busy, (      ) I had fun.",
-      "choices": [],
-      "answer": "but",
-      "explanation": "逆接のbutです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「りんごとみかん、どっちが好き？」\nWhich do you like, apples (      ) oranges?",
-      "choices": ["or", "and", "but", "so"],
-      "answer": "or",
-      "explanation": "疑問文での選択はorを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼が来る前に宿題を終えなさい。」となるように並び替えてください。",
-      "choices": ["comes", "he", "homework", "Finish", "before", "your"],
-      "answer": "Finishyourhomeworkbeforehecomes",
-      "explanation": "Finish your homework before he comes. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女はとても疲れていたので、早く寝ました」\nShe was very tired, (      ) she went to bed early.",
-      "choices": [],
-      "answer": "so",
-      "explanation": "結果を表すsoです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「もし時間があれば、手伝って」\n(      ) you have time, please help me.",
-      "choices": ["If", "When", "Because", "Though"],
-      "answer": "If",
-      "explanation": "条件のIfです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は彼がどこに住んでいるか知りません。」となるように並び替えてください。",
-      "choices": ["lives", "where", "know", "he", "don't", "I"],
-      "answer": "Idon'tknowwherehelives",
-      "explanation": "I don't know where he lives. 疑問詞whereが接続詞のような働きをします（間接疑問文）。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は彼が正直（honest）だと信じています」\nI believe (      ) he is honest.",
-      "choices": [],
-      "answer": "that",
-      "explanation": "I believe that... です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「起きたとき、雨が降っていた」\n(      ) I got up, it was raining.",
-      "choices": ["When", "If", "While", "Because"],
-      "answer": "When",
-      "explanation": "When I got up（起きた時）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼も私もそれを知りません。」となるように並び替えてください。",
-      "choices": ["know", "Neither", "nor", "it", "he", "I"],
-      "answer": "NeitherhenorIknowit",
-      "explanation": "Neither he nor I know it. 「彼も私も～ない」です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「早起きしなさい、さもないと電車に乗り遅れるよ」\nGet up early, (      ) you will miss the train.",
-      "choices": [],
-      "answer": "or",
-      "explanation": "命令文 + or（さもないと）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私が勉強している間、母はテレビを見ていた」\n(      ) I was studying, my mother was watching TV.",
-      "choices": ["While", "When", "If", "Because"],
-      "answer": "While",
-      "explanation": "While（～している間）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はその本が面白いとわかりました。」となるように並び替えてください。",
-      "choices": ["interesting", "book", "found", "was", "the", "that", "I"],
-      "answer": "Ifoundthatthebookwasinteresting",
-      "explanation": "I found that the book was interesting. Find that...（～だとわかる）です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「ここへ来て私を手伝ってください」\nCome here (      ) help me.",
-      "choices": [],
-      "answer": "and",
-      "explanation": "「来て、そして手伝って」という並列のandです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「雨が降ったので、私たちは外出しまんでした」\nWe didn't go out (      ) it rained.",
-      "choices": ["because", "so", "but", "if"],
-      "answer": "because",
-      "explanation": "Becauseは理由を後ろに置きます。"
-    },
-    {
-      "type": "sort",
-      "question": "「手を洗いなさい、そうすれば食べられます。」となるように並び替えてください。",
-      "choices": ["can", "eat", "Wash", "and", "hands", "you", "your"],
-      "answer": "Washyourhandsandyoucaneat",
-      "explanation": "Wash your hands, and you can eat. 命令文 + and（そうすれば）です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は彼が来る前に帰ります」\nI will leave (      ) he comes.",
+      "question": "「朝食の前にシャワーを浴びます」\nI take a shower (      ) breakfast.",
       "choices": [],
       "answer": "before",
-      "explanation": "Before（～する前に）です。"
+      "explanation": "「〜の前に」の before です。\n【🇺🇸 Cultural Note】\nアメリカ人は朝にシャワーを浴びて目を覚ます習慣が一般的です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「あなたと私の両方が間違っています」\n(      ) you and I are wrong.",
-      "choices": ["Both", "Either", "Neither", "All"],
-      "answer": "Both",
-      "explanation": "Both A and B（AとBの両方）です。"
+      "question": "「昼食の後、昼寝をしました」\n(      ) lunch, I took a nap.",
+      "choices": ["After", "Before", "When", "If"],
+      "answer": "After",
+      "explanation": "「〜の後で」の After です。\n【🇺🇸 Cultural Note】\nパワーナップ（短い昼寝）は仕事の効率を上げるとされています。"
     },
     {
       "type": "sort",
-      "question": "「私は彼女が明日来ることを望みます。」となるように並び替えてください。",
-      "choices": ["tomorrow", "she", "will", "come", "hope", "that", "I"],
-      "answer": "Ihopethatshewillcometomorrow",
-      "explanation": "I hope that she will come tomorrow. です。"
+      "question": "「パンとバター。」となるように並び替えてください。",
+      "choices": ["butter", "Bread", "and"],
+      "answer": "Breadandbutter",
+      "explanation": "「AとB」の and です。\n【🇺🇸 Cultural Note】\n\"Bread and butter\"は「生計の手段」「本業」という意味のイディオムとしても使われます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女はピアノもギターも弾けません」\nShe plays neither the piano (      ) the guitar.",
+      "question": "「友達ですか、それとも敵ですか？」\nFriend (      ) foe?",
       "choices": [],
-      "answer": "nor",
-      "explanation": "neither A nor B（AもBも～ない）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「夏が好きですか、それとも冬が好きですか？」\nDo you like summer (      ) winter?",
-      "choices": ["or", "and", "but", "so"],
       "answer": "or",
-      "explanation": "選択のorです。"
-    },
-    {
-      "type": "sort",
-      "question": "「暗くなる前に家に帰りなさい。」となるように並び替えてください。",
-      "choices": ["dark", "home", "it", "Go", "gets", "before"],
-      "answer": "Gohomebeforeitgetsdark",
-      "explanation": "Go home before it gets dark. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はとても疲れています、だからもう歩けません」\nI am very tired, (      ) I can't walk anymore.",
-      "choices": [],
-      "answer": "so",
-      "explanation": "結果のsoです。"
+      "explanation": "選択の or です。\n【🇺🇸 Cultural Note】\n誰かが近づいてきた時に問いかける古典的なフレーズです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼が部屋に入ってきたとき、私は本を読んでいました」\nI was reading a book (      ) he entered the room.",
-      "choices": ["when", "if", "because", "so"],
-      "answer": "when",
-      "explanation": "When（～した時）です。"
+      "question": "「安いですが、品質が悪いです」\nIt is cheap, (      ) the quality is bad.",
+      "choices": ["but", "so", "and", "or"],
+      "answer": "but",
+      "explanation": "逆説の but です。\n【🇺🇸 Cultural Note】\n\"You get what you pay for\"（安物買いの銭失い）という言葉があります。"
     },
     {
       "type": "sort",
-      "question": "「あなたは彼が医者だと知っていますか？」となるように並び替えてください。",
-      "choices": ["know", "is", "that", "doctor", "Do", "you", "a", "he"],
-      "answer": "Doyouknowthatheisadoctor",
-      "explanation": "Do you know that he is a doctor? です。"
+      "question": "「彼はとても速かったので、レースに勝ちました。」となるように並び替えてください。",
+      "choices": ["fast,", "race", "he", "was", "so", "very", "He", "won", "the"],
+      "answer": "Hewasveryfast,sohewontherace",
+      "explanation": "結果の so です。\n【🇺🇸 Cultural Note】\nインディ500やデイトナ500などのカーレースはアメリカで大人気です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「もし彼が来なければ、私たちは出発します」\n(      ) he doesn't come, we will start.",
+      "question": "「私は幸せです、なぜなら友達がいるからです」\nI am happy (      ) I have friends.",
+      "choices": [],
+      "answer": "because",
+      "explanation": "理由の because です。\n【🇺🇸 Cultural Note】\n感謝祭では、友人や家族に感謝の気持ちを伝えます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼が正しいことを望みます」\nI hope (      ) he is right.",
+      "choices": ["that", "if", "because", "but"],
+      "answer": "that",
+      "explanation": "接続詞の that です。\n【🇺🇸 Cultural Note】\n\"I hope that...\"で希望や期待を伝えます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私が着いたとき、パーティーは終わっていました。」となるように並び替えてください。",
+      "choices": ["over", "arrived,", "When", "party", "I", "was", "the"],
+      "answer": "WhenIarrived,thepartywasover",
+      "explanation": "時の When です。\n【🇺🇸 Cultural Note】\n\"Fashionably late\"（おしゃれな遅刻）をやりすぎると、パーティーが終わってしまうこともあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もしあなたがそれを好きなら、買ってください」\n(      ) you like it, buy it.",
       "choices": [],
       "answer": "If",
-      "explanation": "If（もし～なら）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は彼に会った、しかし話さなかった」\nI saw him, (      ) I didn't speak to him.",
-      "choices": ["but", "and", "so", "or"],
-      "answer": "but",
-      "explanation": "逆接のbutです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は彼がなぜ怒っているのか理解できません。」となるように並び替えてください。",
-      "choices": ["angry", "understand", "he", "can't", "is", "why", "I"],
-      "answer": "Ican'tunderstandwhyheisangry",
-      "explanation": "I can't understand why he is angry. 疑問詞whyが接続詞的に使われています。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼だけでなく私も招待されました」\nNot only he (      ) also I was invited.",
-      "choices": [],
-      "answer": "but",
-      "explanation": "not only... but also... です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「テレビを見終わったら宿題をしなさい」\nDo your homework (      ) you watch TV.",
-      "choices": ["after", "before", "when", "if"],
-      "answer": "after",
-      "explanation": "After（～した後で）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は彼が来るまで待ちます。」となるように並び替えてください。",
-      "choices": ["wait", "comes", "will", "he", "until", "I"],
-      "answer": "Iwillwaituntilhecomes",
-      "explanation": "I will wait until he comes. Until（～までずっと）です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はそのニュースを聞いてうれしいです」\nI am glad (      ) I heard the news.",
-      "choices": [],
-      "answer": "that",
-      "explanation": "I am glad (that)... 感情の原因を表すthat節です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼は貧しいが正直だ」\nHe is poor (      ) honest.",
-      "choices": ["but", "and", "so", "or"],
-      "answer": "but",
-      "explanation": "Poor（マイナス）とHonest（プラス）をつなぐ逆接のbutです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼が帰宅したとき、彼の母は料理をしていました。」となるように並び替えてください。",
-      "choices": ["home", "mother", "came", "cooking", "he", "When", "was", "his"],
-      "answer": "Whenhecamehomehismotherwascooking",
-      "explanation": "When he came home, his mother was cooking. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私か私の妹が手伝います」\nEither I (      ) my sister will help you.",
-      "choices": [],
-      "answer": "or",
-      "explanation": "Either A or Bです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「一生懸命勉強しました、だから試験に合格しました」\nI studied hard, (      ) I passed the exam.",
-      "choices": ["so", "because", "but", "or"],
-      "answer": "so",
-      "explanation": "結果のsoです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼が本当のことを言っていると思いますか？」となるように並び替えてください。",
-      "choices": ["truth", "telling", "think", "is", "he", "you", "that", "Do", "the"],
-      "answer": "Doyouthinkthatheistellingthetruth",
-      "explanation": "Do you think that he is telling the truth? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼は走りましたが、バスに間に合いませんでした」\nHe ran, (      ) he missed the bus.",
-      "choices": [],
-      "answer": "but",
-      "explanation": "逆接のbutです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「お腹が空いていたので、パンを食べました」\nI ate bread (      ) I was hungry.",
-      "choices": ["because", "so", "if", "that"],
-      "answer": "because",
-      "explanation": "理由のBecauseです。"
-    },
-    {
-      "type": "sort",
-      "question": "「もし雨が降ったら、私たちは家にいます。」となるように並び替えてください。",
-      "choices": ["stay", "will", "rains", "home", "If", "it", "we", "at"],
-      "answer": "Ifitrainswewillstayathome",
-      "explanation": "If it rains, we will stay at home. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は賢いだけでなく、美しい」\nShe is not only smart (      ) also beautiful.",
-      "choices": [],
-      "answer": "but",
-      "explanation": "not only... but also... です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私が電話したとき、彼は寝ていました」\nHe was sleeping (      ) I called him.",
-      "choices": ["when", "if", "because", "so"],
-      "answer": "when",
-      "explanation": "時のWhenです。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたが正しいと言わざるを得ません。」となるように並び替えてください。",
-      "choices": ["say", "right", "I", "must", "you", "that", "are"],
-      "answer": "Imustsaythatyouareright",
-      "explanation": "I must say that you are right. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「急ぎなさい、そうすれば間に合います」\nHurry up, (      ) you will be in time.",
-      "choices": [],
-      "answer": "and",
-      "explanation": "命令文 + and（そうすれば）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼も私もそれを知りません」\n(      ) he nor I know it.",
-      "choices": ["Neither", "Either", "Both", "All"],
-      "answer": "Neither",
-      "explanation": "Neither A nor Bです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼が来るまでここで待ちましょう。」となるように並び替えてください。",
-      "choices": ["wait", "until", "Let's", "here", "comes", "he"],
-      "answer": "Let'swaithereuntilhecomes",
-      "explanation": "Let's wait here until he comes. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたが好きなのは夏ですか、それとも冬ですか？」\nDo you like summer (      ) winter?",
-      "choices": [],
-      "answer": "or",
-      "explanation": "選択のorです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「朝食の前に歯を磨きなさい」\nBrush your teeth (      ) breakfast.",
-      "choices": ["before", "after", "when", "if"],
-      "answer": "before",
-      "explanation": "Before（～の前に）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は彼が先生だと知っています。」となるように並び替えてください。",
-      "choices": ["teacher", "know", "is", "a", "he", "I", "that"],
-      "answer": "Iknowthatheisateacher",
-      "explanation": "I know that he is a teacher. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は行きたかったが、行けなかった」\nI wanted to go, (      ) I couldn't.",
-      "choices": [],
-      "answer": "but",
-      "explanation": "逆接のbutです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「宿題が終わった後、テレビを見ました」\nI watched TV (      ) I finished my homework.",
-      "choices": ["after", "before", "when", "if"],
-      "answer": "after",
-      "explanation": "After（～した後で）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「バスか電車のどちらかで行けます。」となるように並び替えてください。",
-      "choices": ["by", "go", "can", "train", "or", "bus", "You", "either"],
-      "answer": "Youcangoeitherbybusortrain",
-      "explanation": "You can go either by bus or train. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼はとても忙しいので、来られません」\nHe is very busy, (      ) he can't come.",
-      "choices": [],
-      "answer": "so",
-      "explanation": "結果のsoです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は彼女が親切だと信じています」\nI believe (      ) she is kind.",
-      "choices": ["that", "what", "which", "if"],
-      "answer": "that",
-      "explanation": "I believe that... です。"
-    },
-    {
-      "type": "sort",
-      "question": "「もし彼に会ったら、よろしく伝えてください。」となるように並び替えてください。",
-      "choices": ["him", "to", "see", "hello", "say", "If", "him", "you"],
-      "answer": "Ifyouseehimsayhellotohim",
-      "explanation": "If you see him, say hello to him. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は犬と猫の両方が好きです」\nI like (      ) dogs and cats.",
-      "choices": [],
-      "answer": "both",
-      "explanation": "both A and Bです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼が部屋に入ってきた時、みんな立ち上がった」\n(      ) he entered the room, everyone stood up.",
-      "choices": ["When", "If", "Because", "So"],
-      "answer": "When",
-      "explanation": "When（～した時）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼は病気だったので、寝ていました。」となるように並び替えてください。",
-      "choices": ["bed", "was", "sick", "in", "He", "he", "because", "stayed"],
-      "answer": "Hestayedinbedbecausehewassick",
-      "explanation": "He stayed in bed because he was sick. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は泳げないし、走ることもできません」\nShe can (      ) swim nor run.",
-      "choices": [],
-      "answer": "neither",
-      "explanation": "neither A nor Bです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「静かにしなさい、さもないとここを出ていってもらいます」\nBe quiet, (      ) you have to leave.",
-      "choices": ["or", "and", "but", "so"],
-      "answer": "or",
-      "explanation": "命令文 + or（さもないと）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は彼が何歳か知りません。」となるように並び替えてください。",
-      "choices": ["old", "how", "don't", "is", "he", "know", "I"],
-      "answer": "Idon'tknowhowoldheis",
-      "explanation": "I don't know how old he is. 間接疑問文です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「それが終わるまでここで待っています」\nI will wait here (      ) it is over.",
-      "choices": [],
-      "answer": "until",
-      "explanation": "Until（～まで）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は彼が正直だと確信しています」\nI am sure (      ) he is honest.",
-      "choices": ["that", "what", "which", "if"],
-      "answer": "that",
-      "explanation": "I am sure (that)...（～だと確信している）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はこの本もあの本も読みました。」となるように並び替えてください。",
-      "choices": ["book", "this", "both", "read", "that", "and", "book", "I"],
-      "answer": "Ireadboththisbookandthatbook",
-      "explanation": "I read both this book and that book. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「雨が降ったけれど、私たちは出かけました」\nIt rained, (      ) we went out.",
-      "choices": [],
-      "answer": "but",
-      "explanation": "逆接のbutです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼が来る前に掃除をしましょう」\nLet's clean (      ) he comes.",
-      "choices": ["before", "after", "when", "if"],
-      "answer": "before",
-      "explanation": "Before（～する前に）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は彼が忙しいので、手伝えません。」となるように並び替えてください。",
-      "choices": ["busy", "can't", "is", "him", "he", "because", "help", "I"],
-      "answer": "Ican'thelphimbecauseheisbusy",
-      "explanation": "I can't help him because he is busy. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「一生懸命練習しなさい、そうすれば勝てます」\nPractice hard, (      ) you can win.",
-      "choices": [],
-      "answer": "and",
-      "explanation": "命令文 + and（そうすれば）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は彼が来るとは思いません」\nI don't think (      ) he will come.",
-      "choices": ["that", "what", "if", "when"],
-      "answer": "that",
-      "explanation": "I don't think that... 否定の内容はthinkの前にdon'tを置くのが一般的です。"
+      "explanation": "条件の If です。\n【🇺🇸 Cultural Note】\nショッピングモールでの買い物は、多くのアメリカ人にとっての娯楽です。"
     }
   ]
 }
