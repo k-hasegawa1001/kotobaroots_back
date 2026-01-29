@@ -1,678 +1,567 @@
 {
-  "learning_topic": "疑問詞",
+  "learning_topic": "疑問詞 (5W1H)",
+  "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
     {
-      "type": "multiple_choice",
+      "type": "fill_in_the_blank",
       "question": "「これは何ですか？」\n(      ) is this?",
-      "choices": ["What", "Who", "Where", "When"],
-      "answer": "What",
-      "explanation": "「何」と物を尋ねる時はWhatを使います。What is this? は基本中の基本です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたの名前は何ですか？」となるように並び替えてください。",
-      "choices": ["name", "your", "is", "What"],
-      "answer": "Whatisyourname",
-      "explanation": "What is your name? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あの少年は誰ですか？」\n(      ) is that boy?",
       "choices": [],
-      "answer": "Who",
-      "explanation": "「誰」と人を尋ねる時はWhoを使います。"
+      "answer": "What",
+      "explanation": "What（何）。\n【🇺🇸 Cultural Note】\nアメリカの「コーンドッグ（Corn dog）」は、日本の「アメリカンドッグ」の元になった食べ物ですが、衣にトウモロコシ粉（Cornmeal）を使うため食感が違います。"
     },
     {
       "type": "multiple_choice",
-      "question": "「あなたはどこに住んでいますか？」\n(      ) do you live?",
-      "choices": ["Where", "When", "Who", "What"],
+      "question": "「ホワイトハウスはどこにありますか？」\n(      ) is the White House?",
+      "choices": ["Where", "When", "Who", "Why"],
       "answer": "Where",
-      "explanation": "「どこ」と場所を尋ねる時はWhereを使います。"
+      "explanation": "Where（どこ）。場所を尋ねる疑問詞です。\n【🇺🇸 Cultural Note】\nホワイトハウスはワシントンD.C.のペンシルベニア通り1600番地にあります。"
     },
     {
       "type": "sort",
-      "question": "「あなたの誕生日はいつですか？」となるように並び替えてください。",
-      "choices": ["birthday", "your", "is", "When"],
-      "answer": "Whenisyourbirthday",
-      "explanation": "When is your birthday? 「いつ」と時を尋ねる時はWhenを使います。"
+      "question": "「感謝祭はいつですか？」となるように並び替えてください。",
+      "choices": ["is", "When", "Thanksgiving"],
+      "answer": "WhenisThanksgiving",
+      "explanation": "When（いつ）。\n【🇺🇸 Cultural Note】\n毎年11月の第4木曜日です。この日は多くの店が閉まり、家族と過ごす時間になります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「元気ですか？（どのようにしていますか？）」\n(      ) are you?",
+      "question": "「初代大統領は誰ですか？」\n(      ) is the first president?",
       "choices": [],
-      "answer": "How",
-      "explanation": "How are you? 「どのように（状態）」を尋ねる時はHowを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「なぜあなたは泣いているのですか？」\n(      ) are you crying?",
-      "choices": ["Why", "Where", "Who", "What"],
-      "answer": "Why",
-      "explanation": "「なぜ（理由）」を尋ねる時はWhyを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「これは誰のペンですか？」となるように並び替えてください。",
-      "choices": ["pen", "is", "Whose", "this"],
-      "answer": "Whosepenisthis",
-      "explanation": "Whose pen is this? 「誰の」と所有者を尋ねる時はWhoseを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「今、何時ですか？」\n(      ) time is it now?",
-      "choices": [],
-      "answer": "What",
-      "explanation": "What time...? で時刻を尋ねる決まり文句です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「どちらがあなたの車ですか？」\n(      ) is your car?",
-      "choices": ["Which", "What", "Who", "Where"],
-      "answer": "Which",
-      "explanation": "「どちら（選択）」を尋ねる時はWhichを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「駅はどこですか？」となるように並び替えてください。",
-      "choices": ["station", "the", "Where", "is"],
-      "answer": "Whereisthestation",
-      "explanation": "Where is the station? 道を聞く時の基本フレーズです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼は何歳ですか？」\n(      ) old is he?",
-      "choices": [],
-      "answer": "How",
-      "explanation": "How old...? で年齢を尋ねます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は誰ですか？」\n(      ) is she?",
-      "choices": ["Who", "What", "Which", "When"],
       "answer": "Who",
-      "explanation": "Who is she? です。"
+      "explanation": "Who（誰）。\n【🇺🇸 Cultural Note】\nジョージ・ワシントンです。彼の誕生日は\"Presidents' Day\"という祝日の一部になっています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「元気ですか？（調子はどう？）」\n(      ) are you?",
+      "choices": ["How", "What", "Who", "Where"],
+      "answer": "How",
+      "explanation": "How（どう/いかが）。\n【🇺🇸 Cultural Note】\n\"How are you?\"や\"How's it going?\"は、店員さんが客にかける決まり文句の挨拶でもあります。"
     },
     {
       "type": "sort",
-      "question": "「あなたは何をしているのですか？」となるように並び替えてください。",
-      "choices": ["doing", "you", "are", "What"],
-      "answer": "Whatareyoudoing",
-      "explanation": "What are you doing? 現在進行形と一緒に使い、相手の行動を尋ねます。"
+      "question": "「なぜあなたは遅れたのですか？」となるように並び替えてください。",
+      "choices": ["are", "Why", "late", "you"],
+      "answer": "Whyareyoulate",
+      "explanation": "Why（なぜ）。\n【🇺🇸 Cultural Note】\nニューヨークの地下鉄は「信号トラブル」などで遅れることが日常茶飯事です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「夏休みはいつですか？」\n(      ) is summer vacation?",
+      "question": "「どちらがあなたの車ですか？」\n(      ) is your car?",
+      "choices": [],
+      "answer": "Which",
+      "explanation": "Which（どちら）。選択肢がある場合に使います。\n【🇺🇸 Cultural Note】\nアメリカではSUVやピックアップトラックなどの大型車が非常に人気です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あれは誰のバッグですか？」\n(      ) bag is that?",
+      "choices": ["Whose", "Who", "Whom", "Which"],
+      "answer": "Whose",
+      "explanation": "Whose（誰の）。所有者を尋ねます。\n【🇺🇸 Cultural Note】\nアメリカの学校では、バックパック（リュック）を通学に使うのが一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「今は何時ですか？」となるように並び替えてください。",
+      "choices": ["time", "What", "it", "is", "now"],
+      "answer": "Whattimeisitnow",
+      "explanation": "What time（何時）。\n【🇺🇸 Cultural Note】\nアメリカには4つの主要な時間帯（タイムゾーン）があり、東海岸と西海岸では3時間の時差があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「リバティ島はどこにありますか？」\n(      ) is Liberty Island?",
+      "choices": [],
+      "answer": "Where",
+      "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\n自由の女神が立っている島です。ニューヨーク港にありますが、行政区分上の帰属を巡ってNY州とNJ州で歴史的な論争がありました。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたの専攻は何ですか？」\n(      ) is your major?",
+      "choices": ["What", "Which", "How", "Where"],
+      "answer": "What",
+      "explanation": "What（何）。\n【🇺🇸 Cultural Note】\nアメリカの大学生同士の会話で最も頻繁に聞かれる質問の一つです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはどのようにして学校へ行きますか？」となるように並び替えてください。",
+      "choices": ["go", "How", "you", "school", "do", "to"],
+      "answer": "Howdoyougotoschool",
+      "explanation": "How（どうやって）。手段を尋ねます。\n【🇺🇸 Cultural Note】\n\"I take the yellow bus.\"（黄色いスクールバスで行きます）という答えが典型的です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「スーパーボウルはいつですか？」\n(      ) is the Super Bowl?",
       "choices": [],
       "answer": "When",
-      "explanation": "When is summer vacation? です。"
+      "explanation": "When（いつ）。\n【🇺🇸 Cultural Note】\n通常は2月の最初の日曜日に行われます。事実上の国民の祝日のような盛り上がりを見せます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「どうやって学校に行きますか？（手段）」\n(      ) do you go to school?",
-      "choices": ["How", "What", "Where", "Who"],
-      "answer": "How",
-      "explanation": "How do you go...? で交通手段や方法を尋ねます。"
+      "question": "「あれらの人々は誰ですか？」\n(      ) are those people?",
+      "choices": ["Who", "Which", "What", "Whose"],
+      "answer": "Who",
+      "explanation": "Who（誰）。\n【🇺🇸 Cultural Note】\nアメリカは多民族国家であり、様々な背景を持つ人々が暮らしています。"
     },
     {
       "type": "sort",
       "question": "「なぜあなたは英語を勉強するのですか？」となるように並び替えてください。",
-      "choices": ["study", "English", "you", "do", "Why"],
+      "choices": ["study", "Why", "English", "you", "do"],
       "answer": "WhydoyoustudyEnglish",
-      "explanation": "Why do you study English? です。"
+      "explanation": "Why（なぜ）。\n【🇺🇸 Cultural Note】\nアメリカには英語を母国語としない移民も多いため、ESL（第二言語としての英語）クラスが充実しています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「あなたは何が好きですか？」\n(      ) do you like?",
-      "choices": [],
-      "answer": "What",
-      "explanation": "What do you like? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「トイレはどこですか？」\n(      ) is the bathroom?",
-      "choices": ["Where", "What", "Who", "When"],
-      "answer": "Where",
-      "explanation": "Where is the bathroom? 海外旅行で最も重要なフレーズの一つです。"
-    },
-    {
-      "type": "sort",
-      "question": "「あの女性は誰ですか？」となるように並び替えてください。",
-      "choices": ["woman", "that", "Who", "is"],
-      "answer": "Whoisthatwoman",
-      "explanation": "Who is that woman? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「どのくらい（値段）ですか？」\n(      ) much is it?",
-      "choices": [],
-      "answer": "How",
-      "explanation": "How much...? で値段や量を尋ねます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたのお気に入りの色は何ですか？」\n(      ) is your favorite color?",
-      "choices": ["What", "Which", "Who", "How"],
-      "answer": "What",
-      "explanation": "What is your favorite...? は相手の好みを尋ねる定番の質問です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたはいつ宿題をしますか？」となるように並び替えてください。",
-      "choices": ["homework", "your", "do", "you", "do", "When"],
-      "answer": "Whendoyoudoyourhomework",
-      "explanation": "When do you do your homework? 疑問詞When + 疑問文の語順です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「なぜ遅刻したのですか？」\n(      ) are you late?",
-      "choices": [],
-      "answer": "Why",
-      "explanation": "Why are you late? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「誰がこのケーキを作りましたか？」\n(      ) made this cake?",
-      "choices": ["Who", "What", "Where", "When"],
-      "answer": "Who",
-      "explanation": "Whoが主語になる場合、後ろにはすぐに動詞が来ます（肯定文と同じ語順）。"
-    },
-    {
-      "type": "sort",
-      "question": "「あの男の人は誰ですか？」となるように並び替えてください。",
-      "choices": ["man", "that", "is", "Who"],
-      "answer": "Whoisthatman",
-      "explanation": "Who is that man? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「天気はどうですか？」\n(      ) is the weather?",
-      "choices": [],
-      "answer": "How",
-      "explanation": "How is the weather? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは何が欲しいですか？」\n(      ) do you want?",
-      "choices": ["What", "Where", "When", "Who"],
-      "answer": "What",
-      "explanation": "What do you want? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたはどこへ行きますか？」となるように並び替えてください。",
-      "choices": ["go", "you", "do", "Where"],
-      "answer": "Wheredoyougo",
-      "explanation": "Where do you go? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「パーティーはいつ始まりますか？」\n(      ) does the party start?",
-      "choices": [],
-      "answer": "When",
-      "explanation": "When does the party start? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「これは誰のカバンですか？」\n(      ) bag is this?",
-      "choices": ["Whose", "Who", "Which", "What"],
-      "answer": "Whose",
-      "explanation": "Whose bag...? で「誰のカバン」となります。"
-    },
-    {
-      "type": "sort",
-      "question": "「なぜあなたは疲れているのですか？」となるように並び替えてください。",
-      "choices": ["tired", "you", "are", "Why"],
-      "answer": "Whyareyoutired",
-      "explanation": "Why are you tired? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「身長はどのくらいですか？」\n(      ) tall are you?",
-      "choices": [],
-      "answer": "How",
-      "explanation": "How tall...? で身長や高さを尋ねます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは何時におきますか？」\n(      ) time do you get up?",
-      "choices": ["What", "When", "Which", "How"],
-      "answer": "What",
-      "explanation": "What time do you get up? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私のメガネはどこですか？」となるように並び替えてください。",
-      "choices": ["glasses", "my", "are", "Where"],
-      "answer": "Wherearemyglasses",
-      "explanation": "Where are my glasses? Glassesは複数形なのでbe動詞はareを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「コーヒーと紅茶、どちらが好きですか？」\n(      ) do you like, coffee or tea?",
+      "question": "「あなたはどちらのチームが好きですか？」\n(      ) team do you like?",
       "choices": [],
       "answer": "Which",
-      "explanation": "Which do you like...? 二者択一の質問ではWhichを使います。"
+      "explanation": "Which（どちらの）。\n【🇺🇸 Cultural Note】\n野球ならヤンキース対レッドソックスのようなライバル関係が有名です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼はどうやってここに来ましたか？」\n(      ) did he come here?",
-      "choices": ["How", "What", "Who", "Which"],
+      "question": "「このペンはいくらですか？」\n(      ) much is this pen?",
+      "choices": ["How", "What", "Where", "Which"],
       "answer": "How",
-      "explanation": "How did he come here? 交通手段を聞いています。"
+      "explanation": "How much（いくら）。値段を尋ねます。\n【🇺🇸 Cultural Note】\nアメリカの表示価格は税抜き（Tax not included）が一般的で、レジで州ごとの消費税が加算されます。"
     },
     {
       "type": "sort",
-      "question": "「あれは何ですか？」となるように並び替えてください。",
-      "choices": ["that", "is", "What"],
-      "answer": "Whatisthat",
-      "explanation": "What is that? です。"
+      "question": "「グランドキャニオンはどこですか？」となるように並び替えてください。",
+      "choices": ["Grand", "Where", "Canyon", "is", "the"],
+      "answer": "WhereistheGrandCanyon",
+      "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\nアリゾナ州にあります。ラスベガスからツアーで行くのが一般的です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「あなたはいつ勉強しますか？」\n(      ) do you study?",
+      "question": "「独立記念日はいつですか？」\n(      ) is Independence Day?",
       "choices": [],
       "answer": "When",
-      "explanation": "When do you study? です。"
+      "explanation": "When（いつ）。\n【🇺🇸 Cultural Note】\n7月4日（July 4th）です。花火とバーベキューで祝います。"
     },
     {
       "type": "multiple_choice",
-      "question": "「誰があなたを手伝いますか？」\n(      ) helps you?",
-      "choices": ["Who", "What", "Where", "When"],
+      "question": "「あの男の人は誰ですか？」\n(      ) is that man?",
+      "choices": ["Who", "Which", "What", "Whose"],
       "answer": "Who",
-      "explanation": "Who helps you? Whoが主語の場合、動詞には三単現のsがつきます（誰か一人を想定する場合）。"
+      "explanation": "Who（誰）。\n【🇺🇸 Cultural Note】\n「アンクル・サム（Uncle Sam）」はアメリカ合衆国を擬人化した架空の男性キャラクターです。"
     },
     {
       "type": "sort",
-      "question": "「なぜあなたは走っているのですか？」となるように並び替えてください。",
-      "choices": ["running", "you", "are", "Why"],
-      "answer": "Whyareyourunning",
-      "explanation": "Why are you running? です。"
+      "question": "「あなたは何歳ですか？」となるように並び替えてください。",
+      "choices": ["old", "are", "How", "you"],
+      "answer": "Howoldareyou",
+      "explanation": "How old（どのくらい古い＝何歳）。\n【🇺🇸 Cultural Note】\nアメリカでは21歳にならないとお酒が飲めません（日本より遅いです）。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「これは何の種類の花ですか？」\n(      ) kind of flower is this?",
+      "question": "「あなたは朝食に何を食べますか？」\n(      ) do you eat for breakfast?",
       "choices": [],
       "answer": "What",
-      "explanation": "What kind of...? で「どんな種類の～」と尋ねます。"
+      "explanation": "What（何）。\n【🇺🇸 Cultural Note】\nシリアル、オートミール、パンケーキ、ベーコンエッグなどが定番です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「あなたはどこ出身ですか？」\n(      ) are you from?",
-      "choices": ["Where", "When", "Who", "What"],
+      "question": "「トイレはどこですか？」\n(      ) is the restroom?",
+      "choices": ["Where", "What", "When", "Who"],
       "answer": "Where",
-      "explanation": "Where are you from? 出身地を聞く定番フレーズです。"
+      "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\nアメリカではToiletではなくRestroomやBathroomと言うのがマナーです。"
     },
     {
       "type": "sort",
-      "question": "「あなたは何を探しているのですか？」となるように並び替えてください。",
-      "choices": ["for", "looking", "you", "are", "What"],
-      "answer": "Whatareyoulookingfor",
-      "explanation": "What are you looking for? です。"
+      "question": "「なぜシカゴは風が強いのですか？」となるように並び替えてください。",
+      "choices": ["Chicago", "Why", "windy", "is"],
+      "answer": "WhyisChicagowindy",
+      "explanation": "Why（なぜ）。\n【🇺🇸 Cultural Note】\nミシガン湖からの風が理由の一つですが、政治家の「大言壮語」を皮肉ったあだ名でもあります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「あの背の高い男性は誰ですか？」\n(      ) is that tall man?",
+      "question": "「誰がこの本を書きましたか？」\n(      ) wrote this book?",
       "choices": [],
       "answer": "Who",
-      "explanation": "Who is that tall man? です。"
+      "explanation": "Who（誰）。主語を尋ねる用法です。\n【🇺🇸 Cultural Note】\nマーク・トウェイン（Mark Twain）は「トム・ソーヤーの冒険」などを書いたアメリカ文学の父です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「兄弟は何人いますか？」\n(      ) many brothers do you have?",
-      "choices": ["How", "What", "Which", "Who"],
-      "answer": "How",
-      "explanation": "How many...? で数を尋ねます。"
-    },
-    {
-      "type": "sort",
-      "question": "「次のバスはいつ来ますか？」となるように並び替えてください。",
-      "choices": ["come", "bus", "next", "the", "does", "When"],
-      "answer": "Whendoesthenextbuscome",
-      "explanation": "When does the next bus come? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたはどちらが欲しいですか？」\n(      ) do you want?",
-      "choices": [],
-      "answer": "Which",
-      "explanation": "Which do you want? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたのカバンはどこですか？」\n(      ) is your bag?",
-      "choices": ["Where", "What", "Who", "When"],
-      "answer": "Where",
-      "explanation": "Where is your bag? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「なぜあなたはそんなに忙しいのですか？」となるように並び替えてください。",
-      "choices": ["busy", "so", "you", "are", "Why"],
-      "answer": "Whyareyousobusy",
-      "explanation": "Why are you so busy? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「この単語はどう発音しますか？」\n(      ) do you pronounce this word?",
-      "choices": [],
-      "answer": "How",
-      "explanation": "How do you pronounce...? 方法を聞くHowです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「誰が窓を割ったのですか？」\n(      ) broke the window?",
-      "choices": ["Who", "What", "Where", "Why"],
-      "answer": "Who",
-      "explanation": "Who broke the window? 犯人を尋ねています。"
-    },
-    {
-      "type": "sort",
-      "question": "「これは何の絵ですか？」となるように並び替えてください。",
-      "choices": ["picture", "this", "is", "of", "What"],
-      "answer": "Whatisthispictureof",
-      "explanation": "What is this picture of? 直訳すると「これは何の絵ですか」です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「いつ出発しましょうか？」\n(      ) shall we start?",
-      "choices": [],
-      "answer": "When",
-      "explanation": "When shall we start? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「郵便局はどこですか？」\n(      ) is the post office?",
-      "choices": ["Where", "What", "Who", "When"],
-      "answer": "Where",
-      "explanation": "Where is the post office? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「これは誰の自転車ですか？」となるように並び替えてください。",
-      "choices": ["bike", "this", "Whose", "is"],
-      "answer": "Whosebikeisthis",
-      "explanation": "Whose bike is this? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「どれくらいの長さですか？」\n(      ) long is it?",
-      "choices": [],
-      "answer": "How",
-      "explanation": "How long...? で時間や距離の長さを尋ねます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「なぜあなたは日本語を勉強するのですか？」\n(      ) do you study Japanese?",
-      "choices": ["Why", "Where", "Who", "What"],
-      "answer": "Why",
-      "explanation": "Why do you study Japanese? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「昨日は何をしましたか？」となるように並び替えてください。",
-      "choices": ["do", "yesterday", "you", "did", "What"],
-      "answer": "Whatdidyoudoyesterday",
-      "explanation": "What did you do yesterday? 過去のことを聞く時はdidを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「誰が部屋にいますか？」\n(      ) is in the room?",
-      "choices": [],
-      "answer": "Who",
-      "explanation": "Who is in the room? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「どのバスに乗ればいいですか？」\n(      ) bus should I take?",
-      "choices": ["Which", "Who", "Where", "When"],
-      "answer": "Which",
-      "explanation": "Which bus...? 特定の選択肢の中から選ぶ時はWhichを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「駅までどのくらい（距離）ですか？」となるように並び替えてください。",
-      "choices": ["far", "it", "is", "station", "to", "the", "How"],
-      "answer": "Howfarisitfromtothestation",
-      "explanation": "How far is it to the station? 距離を聞く時はHow farを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたはいつ寝ますか？」\n(      ) do you go to bed?",
-      "choices": [],
-      "answer": "When",
-      "explanation": "When do you go to bed? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「どうしてそんなことを言うの？」\n(      ) do you say that?",
-      "choices": ["Why", "Where", "Who", "When"],
-      "answer": "Why",
-      "explanation": "Why do you say that? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたはどこへ行きたいですか？」となるように並び替えてください。",
-      "choices": ["go", "to", "want", "you", "do", "Where"],
-      "answer": "Wheredoyouwanttogo",
-      "explanation": "Where do you want to go? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「誰がピアノを弾いていますか？」\n(      ) is playing the piano?",
-      "choices": [],
-      "answer": "Who",
-      "explanation": "Who is playing the piano? 誰が～しているのですか、という進行形の疑問文です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「これは何色ですか？」\n(      ) color is this?",
-      "choices": ["What", "Who", "Where", "How"],
-      "answer": "What",
-      "explanation": "What color is this? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたはそれをどうやって作りましたか？」となるように並び替えてください。",
-      "choices": ["make", "it", "did", "you", "How"],
-      "answer": "Howdidyoumakeit",
-      "explanation": "How did you make it? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「誰が勝ちましたか？」\n(      ) won?",
-      "choices": [],
-      "answer": "Who",
-      "explanation": "Who won? wonはwin（勝つ）の過去形です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「いつ帰ってきますか？」\n(      ) will you come back?",
+      "question": "「あなたの誕生日はいつですか？」\n(      ) is your birthday?",
       "choices": ["When", "Where", "Who", "Why"],
       "answer": "When",
-      "explanation": "When will you come back? 未来のことを聞く時はwillを使います。"
+      "explanation": "When（いつ）。\n【🇺🇸 Cultural Note】\nアメリカの子供の誕生会では、ピニャータ（お菓子が入ったくす玉人形）を叩き割るゲームをすることがあります。"
     },
     {
       "type": "sort",
-      "question": "「一番近い銀行はどこですか？」となるように並び替えてください。",
-      "choices": ["bank", "nearest", "the", "is", "Where"],
-      "answer": "Whereisthenearestbank",
-      "explanation": "Where is the nearest bank? Nearestは「一番近い」という意味です。"
+      "question": "「これはどのような味がしますか？」となるように並び替えてください。",
+      "choices": ["taste", "How", "does", "this"],
+      "answer": "Howdoesthistaste",
+      "explanation": "How（どのように）。\n【🇺🇸 Cultural Note】\nアメリカのチェリーパイやルートビア（湿布のような味の炭酸飲料）は、独特の味で好みが分かれます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「何を考えているの？」\n(      ) are you thinking?",
+      "question": "「あなたの州はどれですか（どの州ですか）？」\n(      ) state is yours?",
       "choices": [],
-      "answer": "What",
-      "explanation": "What are you thinking? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「どの本があなたのものですか？」\n(      ) book is yours?",
-      "choices": ["Which", "Who", "When", "Why"],
       "answer": "Which",
-      "explanation": "Which book is yours? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「なぜ空は青いのですか？」となるように並び替えてください。",
-      "choices": ["blue", "sky", "is", "the", "Why"],
-      "answer": "Whyistheskyblue",
-      "explanation": "Why is the sky blue? 子供がよくする質問です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「どういう意味ですか？」\n(      ) do you mean?",
-      "choices": [],
-      "answer": "What",
-      "explanation": "What do you mean? 相手の言ったことが分からない時に使います。"
+      "explanation": "Which（どちらの/どの）。選択肢（50州）の中から特定する場合に使います。\n【🇺🇸 Cultural Note】\nアメリカ人は出身地を聞かれた時、国名ではなく州名を答えるのが一般的です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「誰があなたの先生ですか？」\n(      ) is your teacher?",
+      "question": "「あなたの名前は何ですか？」\n(      ) is your name?",
+      "choices": ["What", "How", "Who", "Where"],
+      "answer": "What",
+      "explanation": "What（何）。\n【🇺🇸 Cultural Note】\nスターバックスなどで注文する際、カップに書くために名前を聞かれます。"
+    },
+    {
+      "type": "sort",
+      "question": "「ハリウッドはどこにありますか？」となるように並び替えてください。",
+      "choices": ["Where", "is", "Hollywood"],
+      "answer": "WhereisHollywood",
+      "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\nカリフォルニア州ロサンゼルス市にあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは誰を待っていますか？」\n(      ) are you waiting for?",
+      "choices": [],
+      "answer": "Who",
+      "explanation": "Who（誰）。目的語ですが口語ではWhomではなくWhoを使います。\n【🇺🇸 Cultural Note】\nUberやLyftなどの配車サービスを待つ人が増えています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「そのパレードはいつ始まりますか？」\n(      ) does the parade start?",
+      "choices": ["When", "Where", "Who", "What"],
+      "answer": "When",
+      "explanation": "When（いつ）。\n【🇺🇸 Cultural Note】\nニューヨークの「メイシーズ・サンクスギビング・デイ・パレード」は巨大なバルーンで有名です。"
+    },
+    {
+      "type": "sort",
+      "question": "「天気はどうですか？」となるように並び替えてください。",
+      "choices": ["weather", "How", "the", "is"],
+      "answer": "Howistheweather",
+      "explanation": "How（どう）。\n【🇺🇸 Cultural Note】\n\"What's the weather like?\"とも言います。アメリカは広いので、同じ日でもマイアミは夏、シカゴは冬のような天気になります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「なぜそれらは25セント硬貨（クォーター）と呼ばれるのですか？」\n(      ) are they called quarters?",
+      "choices": [],
+      "answer": "Why",
+      "explanation": "Why（なぜ）。\n【🇺🇸 Cultural Note】\n1ドルの4分の1（Quarter）の価値があるからです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「どの靴があなたのですか？」\n(      ) shoes are yours?",
+      "choices": ["Which", "What", "Who", "Where"],
+      "answer": "Which",
+      "explanation": "Which（どちらの）。\n【🇺🇸 Cultural Note】\nアメリカの家では、玄関で靴を脱ぐ習慣は一般的ではありませんが、最近は増えています。"
+    },
+    {
+      "type": "sort",
+      "question": "「そのカウボーイハットは誰のものですか？」となるように並び替えてください。",
+      "choices": ["hat", "Whose", "is", "cowboy", "that"],
+      "answer": "Whosecowboyhatisthat",
+      "explanation": "Whose（誰の）。\n【🇺🇸 Cultural Note】\nカウボーイハットはテキサスなどの西部や南部では正装の一部と見なされることもあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それは何のスポーツですか？」\n(      ) sport is it?",
+      "choices": [],
+      "answer": "What",
+      "explanation": "What（何の）。\n【🇺🇸 Cultural Note】\nアメリカの4大スポーツは、アメフト、野球、バスケ、アイスホッケーです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「最寄りのガソリンスタンドはどこですか？」\n(      ) is the nearest gas station?",
+      "choices": ["Where", "What", "When", "Who"],
+      "answer": "Where",
+      "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\nアメリカの道路標識には、次の出口にあるガソリンスタンドやレストランのロゴが表示されています。"
+    },
+    {
+      "type": "sort",
+      "question": "「キング牧師は誰ですか？」となるように並び替えてください。",
+      "choices": ["King", "is", "Who", "Dr."],
+      "answer": "WhoisDr.King",
+      "explanation": "Who（誰）。\n【🇺🇸 Cultural Note】\nマーティン・ルーサー・キング・ジュニア牧師。公民権運動の英雄です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ここからニューヨークまでどのくらい遠いですか？」\n(      ) far is it from here to New York?",
+      "choices": [],
+      "answer": "How",
+      "explanation": "How far（どのくらい遠い）。距離を尋ねます。\n【🇺🇸 Cultural Note】\nアメリカの距離単位はマイル（Mile）です。1マイルは約1.6kmです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「なぜあなたはチップを払うのですか？」\n(      ) do you tip?",
+      "choices": ["Why", "What", "Where", "When"],
+      "answer": "Why",
+      "explanation": "Why（なぜ）。\n【🇺🇸 Cultural Note】\nアメリカのサービス業の基本給は低く設定されており、チップが生活給の一部になっているためです。"
+    },
+    {
+      "type": "sort",
+      "question": "「どのバスがダウンタウンへ行きますか？」となるように並び替えてください。",
+      "choices": ["to", "Which", "bus", "downtown", "goes"],
+      "answer": "Whichbusgoestodowntown",
+      "explanation": "Which bus（どのバス）。\n【🇺🇸 Cultural Note】\n多くの都市で、バスは正確な時間に来ないことがあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは何時に起きますか？」\n(      ) time do you get up?",
+      "choices": [],
+      "answer": "What",
+      "explanation": "What time（何時）。\n【🇺🇸 Cultural Note】\nアメリカの学校や会社の始業時間は日本より早い傾向があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは夏休みにどこへ行きますか？」\n(      ) do you go for summer vacation?",
+      "choices": ["Where", "What", "When", "Who"],
+      "answer": "Where",
+      "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\n国立公園でのキャンプや、フロリダやハワイへのビーチ旅行が人気です。"
+    },
+    {
+      "type": "sort",
+      "question": "「ブラックフライデーはいつですか？」となるように並び替えてください。",
+      "choices": ["Black", "is", "Friday", "When"],
+      "answer": "WhenisBlackFriday",
+      "explanation": "When（いつ）。\n【🇺🇸 Cultural Note】\n感謝祭（木曜日）の翌日の金曜日です。一年で最大のセールが行われ、クリスマス商戦の開始日となります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それはいくつの州ですか？」\n(      ) many states are there?",
+      "choices": [],
+      "answer": "How",
+      "explanation": "How many（いくつ）。数を尋ねます。\n【🇺🇸 Cultural Note】\nアメリカには50の州があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「1ドル札に描かれているのは誰ですか？」\n(      ) is on the one dollar bill?",
       "choices": ["Who", "What", "Where", "When"],
       "answer": "Who",
-      "explanation": "Who is your teacher? です。"
+      "explanation": "Who（誰）。\n【🇺🇸 Cultural Note】\nジョージ・ワシントン（初代大統領）です。"
     },
     {
       "type": "sort",
-      "question": "「コンサートは何時に始まりますか？」となるように並び替えてください。",
-      "choices": ["concert", "the", "start", "does", "time", "What"],
-      "answer": "Whattimedoestheconcertstart",
-      "explanation": "What time does the concert start? です。"
+      "question": "「なぜあなたはその車が欲しいのですか？」となるように並び替えてください。",
+      "choices": ["want", "car", "do", "you", "that", "Why"],
+      "answer": "Whydoyouwantthatcar",
+      "explanation": "Why（なぜ）。\n【🇺🇸 Cultural Note】\nアメリカの高校生にとって、自分の車を持つことは自由と自立の象徴です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「どこへ行けばいいですか？（私はどこへ行くべきですか）」\n(      ) should I go?",
+      "question": "「出口はどこですか？」\n(      ) is the exit?",
       "choices": [],
       "answer": "Where",
-      "explanation": "Where should I go? です。"
+      "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\nアメリカの建物の出口表示（EXIT）は赤文字で書かれていることが多いです（日本は緑）。"
     },
     {
       "type": "multiple_choice",
-      "question": "「なぜそれが好きなのですか？」\n(      ) do you like it?",
-      "choices": ["Why", "Where", "Who", "When"],
-      "answer": "Why",
-      "explanation": "Why do you like it? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「どうやってそれを知ったのですか？」となるように並び替えてください。",
-      "choices": ["know", "that", "you", "did", "How"],
-      "answer": "Howdidyouknowthat",
-      "explanation": "How did you know that? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「誰と話しているのですか？」\n(      ) are you talking to?",
-      "choices": [],
-      "answer": "Who",
-      "explanation": "Who are you talking to? 文末の前置詞toを忘れないようにしましょう。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「これは誰のアイディアですか？」\n(      ) idea is this?",
-      "choices": ["Whose", "Who", "Which", "What"],
-      "answer": "Whose",
-      "explanation": "Whose idea is this? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「日本で一番高い山は何ですか？」となるように並び替えてください。",
-      "choices": ["mountain", "highest", "the", "is", "Japan", "in", "What"],
-      "answer": "WhatisthehighestmountaininJapan",
-      "explanation": "What is the highest mountain in Japan? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたはいつ暇ですか？」\n(      ) are you free?",
-      "choices": [],
-      "answer": "When",
-      "explanation": "When are you free? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「どうでしたか？（それはどうでしたか？）」\n(      ) was it?",
-      "choices": ["How", "What", "Who", "Where"],
-      "answer": "How",
-      "explanation": "How was it? 感想を聞く時の表現です。"
-    },
-    {
-      "type": "sort",
-      "question": "「どちらがあなたのペンですか、赤、それとも青？」となるように並び替えてください。",
-      "choices": ["blue", "or", "red", "pen", "your", "is", "Which"],
-      "answer": "Whichisyourpenredorblue",
-      "explanation": "Which is your pen, red or blue? 選択肢を提示する聞き方です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「何が起きたのですか？」\n(      ) happened?",
-      "choices": [],
-      "answer": "What",
-      "explanation": "What happened? 状況を尋ねる決まり文句です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「どこで会いましょうか？」\n(      ) shall we meet?",
-      "choices": ["Where", "What", "Who", "Why"],
-      "answer": "Where",
-      "explanation": "Where shall we meet? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは誰を待っているのですか？」となるように並び替えてください。",
-      "choices": ["for", "waiting", "you", "are", "Who"],
-      "answer": "Whoareyouwaitingfor",
-      "explanation": "Who are you waiting for? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「なぜだめなのですか？」\n(      ) not?",
-      "choices": [],
-      "answer": "Why",
-      "explanation": "Why not? 提案に賛成する時（もちろん！）や、禁止された理由を聞く時（なぜだめ？）に使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「調子はどうですか？」\n(      ) is it going?",
+      "question": "「あなたはどうやってステーキを焼きますか？」\n(      ) do you cook steak?",
       "choices": ["How", "What", "Where", "When"],
       "answer": "How",
-      "explanation": "How is it going? くだけた挨拶の表現です。"
+      "explanation": "How（どうやって）。方法を尋ねます。\n【🇺🇸 Cultural Note】\n裏庭でのBBQグリルで焼くのがアメリカンスタイルです。"
     },
     {
       "type": "sort",
-      "question": "「あなたはいつ宿題を終えましたか？」となるように並び替えてください。",
-      "choices": ["finish", "homework", "your", "did", "you", "When"],
-      "answer": "Whendidyoufinishyourhomework",
-      "explanation": "When did you finish your homework? です。"
+      "question": "「どちらの道が速いですか？」となるように並び替えてください。",
+      "choices": ["way", "faster", "Which", "is"],
+      "answer": "Whichwayisfaster",
+      "explanation": "Which way（どちらの道）。\n【🇺🇸 Cultural Note】\nアメリカの都市部では渋滞（Traffic jam）が激しいため、ナビアプリが必須です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「あなたのカバンの中には何が入っていますか？」\n(      ) is in your bag?",
+      "question": "「あなたの先生は誰ですか？」\n(      ) is your teacher?",
       "choices": [],
-      "answer": "What",
-      "explanation": "What is in your bag? です。"
+      "answer": "Who",
+      "explanation": "Who（誰）。\n【🇺🇸 Cultural Note】\nアメリカの学校では、先生が机の上に座ったり、フレンドリーに振る舞うことが多いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「どちらの道を行けばいいですか？」\n(      ) way should I go?",
-      "choices": ["Which", "What", "Who", "When"],
-      "answer": "Which",
-      "explanation": "Which way should I go? です。"
+      "question": "「パーティーは何時に始まりますか？」\n(      ) time does the party start?",
+      "choices": ["What", "When", "Where", "Which"],
+      "answer": "What",
+      "explanation": "What time（何時）。\n【🇺🇸 Cultural Note】\nホームパーティー（House party）はアメリカの社交の基本です。"
     },
     {
       "type": "sort",
-      "question": "「誰があなたの親友ですか？」となるように並び替えてください。",
-      "choices": ["friend", "best", "your", "is", "Who"],
-      "answer": "Whoisyourbestfriend",
-      "explanation": "Who is your best friend? です。"
+      "question": "「あなたはランチに何を食べますか？」となるように並び替えてください。",
+      "choices": ["lunch", "eat", "you", "What", "do", "for"],
+      "answer": "Whatdoyoueatforlunch",
+      "explanation": "What（何）。\n【🇺🇸 Cultural Note】\nPB&J（ピーナッツバター＆ジェリーサンドイッチ）は子供のランチの定番です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「そこまでどのくらいかかりますか（時間）？」\n(      ) long does it take?",
+      "question": "「あなたはどこ出身ですか？」\n(      ) are you from?",
+      "choices": [],
+      "answer": "Where",
+      "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\nアメリカ国内でこれを聞かれたら、州や都市名を答えます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それはどのくらいの長さですか？」\n(      ) long is it?",
+      "choices": ["How", "What", "Where", "Who"],
+      "answer": "How",
+      "explanation": "How long（どのくらいの長さ）。\n【🇺🇸 Cultural Note】\n長さの単位にはインチ（inch）、フィート（foot/feet）、ヤード（yard）を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「なぜ感謝祭に七面鳥を食べるのですか？」となるように並び替えてください。",
+      "choices": ["eat", "Thanksgiving", "turkey", "do", "Why", "you", "on"],
+      "answer": "WhydoyoueatturkeyonThanksgiving",
+      "explanation": "Why（なぜ）。\n【🇺🇸 Cultural Note】\n最初の入植者（Pilgrims）がネイティブアメリカンと収穫を祝った食事に由来するとされています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「リンカーン記念堂はどこにありますか？」\n(      ) is the Lincoln Memorial?",
+      "choices": [],
+      "answer": "Where",
+      "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\nワシントンD.C.のナショナル・モールにあります。巨大なリンカーン座像があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ハロウィンはいつですか？」\n(      ) is Halloween?",
+      "choices": ["When", "Where", "Who", "What"],
+      "answer": "When",
+      "explanation": "When（いつ）。\n【🇺🇸 Cultural Note】\n10月31日です。子供だけでなく大人も仮装をして楽しみます。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰がその映画を作りましたか？」となるように並び替えてください。",
+      "choices": ["made", "movie", "Who", "that"],
+      "answer": "Whomadethatmovie",
+      "explanation": "Who（誰）。\n【🇺🇸 Cultural Note】\nスティーブン・スピルバーグはアメリカを代表する映画監督の一人です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはどのようにコーヒーを飲みますか（飲み方は）？」\n(      ) do you take your coffee?",
       "choices": [],
       "answer": "How",
-      "explanation": "How long does it take? 所要時間を尋ねる表現です。"
+      "explanation": "How（どのように）。\"How do you take your coffee?\"は「砂糖やミルクはどうしますか？」という意味の決まり文句です。\n【🇺🇸 Cultural Note】\n\"Black\"（ブラック）や\"With cream and sugar\"（クリームと砂糖入り）と答えます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「アメリカの首都は何ですか？」\n(      ) is the capital of the United States?",
+      "choices": ["What", "Where", "Who", "When"],
+      "answer": "What",
+      "explanation": "What（何）。都市名を聞く場合、\"What is the capital?\"と言います（Where is...だと場所・位置を聞くことになるため）。\n【🇺🇸 Cultural Note】\n答えはワシントンD.C.です。"
+    },
+    {
+      "type": "sort",
+      "question": "「どの州が一番大きいですか？」となるように並び替えてください。",
+      "choices": ["state", "Which", "biggest", "is", "the"],
+      "answer": "Whichstateisthebiggest",
+      "explanation": "Which state（どの州）。\n【🇺🇸 Cultural Note】\n面積ではアラスカ州が最大、人口ではカリフォルニア州が最大です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「なぜ空は青いのですか？」\n(      ) is the sky blue?",
+      "choices": [],
+      "answer": "Why",
+      "explanation": "Why（なぜ）。\n【🇺🇸 Cultural Note】\n子供が親によくする質問の定番です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは何歳ですか？」\n(      ) old are you?",
+      "choices": ["How", "What", "Who", "Where"],
+      "answer": "How",
+      "explanation": "How old（何歳）。\n【🇺🇸 Cultural Note】\nアメリカでは年齢を聞くことは失礼とされる場合が多いですが、ID確認などの場面では聞かれます。"
+    },
+    {
+      "type": "sort",
+      "question": "「ナイアガラの滝はどこですか？」となるように並び替えてください。",
+      "choices": ["Falls", "Where", "Niagara", "is"],
+      "answer": "WhereisNiagaraFalls",
+      "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\nニューヨーク州とカナダのオンタリオ州の国境に位置しています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたの好きな色はどれ（何）ですか？」\n(      ) is your favorite color?",
+      "choices": [],
+      "answer": "What",
+      "explanation": "What（何）。特定の色見本から選ぶならWhichですが、漠然と聞くならWhatです。\n【🇺🇸 Cultural Note】\nアメリカのスクールバスの色は\"National School Bus Glossy Yellow\"と定められています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「次のバスはいつ来ますか？」\n(      ) does the next bus come?",
+      "choices": ["When", "Where", "Who", "What"],
+      "answer": "When",
+      "explanation": "When（いつ）。\n【🇺🇸 Cultural Note】\nアメリカのバス停には時刻表がないことも多く、現在はスマホアプリで位置を確認するのが主流です。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰が電話を発明しましたか？」となるように並び替えてください。",
+      "choices": ["invented", "Who", "telephone", "the"],
+      "answer": "Whoinventedthetelephone",
+      "explanation": "Who（誰）。\n【🇺🇸 Cultural Note】\nアレクサンダー・グラハム・ベルです。AT&T（アメリカの通信大手）の前身であるベル電話会社を設立しました。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これはいくらですか？」\n(      ) much is this?",
+      "choices": [],
+      "answer": "How",
+      "explanation": "How much（いくら）。\n【🇺🇸 Cultural Note】\nフリーマーケット（Flea market）などでは値切り交渉（Bargaining）をすることもあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「なぜ店は閉まっているのですか？」\n(      ) is the store closed?",
+      "choices": ["Why", "Where", "Who", "What"],
+      "answer": "Why",
+      "explanation": "Why（なぜ）。\n【🇺🇸 Cultural Note】\n\"Closed for the Holiday\"（祝日のため休業）という看板をよく見かけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「ラスベガスはどこにありますか？」となるように並び替えてください。",
+      "choices": ["Vegas", "Las", "is", "Where"],
+      "answer": "WhereisLasVegas",
+      "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\nネバダ州の砂漠の中にあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「大統領選挙はいつですか？」\n(      ) is the presidential election?",
+      "choices": [],
+      "answer": "When",
+      "explanation": "When（いつ）。\n【🇺🇸 Cultural Note】\n4年に一度、11月の第1月曜日の翌日の火曜日に行われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これは誰の車ですか？」\n(      ) car is this?",
+      "choices": ["Whose", "Who", "Whom", "Which"],
+      "answer": "Whose",
+      "explanation": "Whose（誰の）。\n【🇺🇸 Cultural Note】\nアメリカのティーンエイジャーが最初に乗る車は、親のお下がりの古いセダンやトラックであることが多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはどうやってピザを作りますか？」となるように並び替えてください。",
+      "choices": ["make", "you", "How", "pizza", "do"],
+      "answer": "Howdoyoumakepizza",
+      "explanation": "How（どうやって）。\n【🇺🇸 Cultural Note】\n生地を空中で回して広げるパフォーマンスは、ピザ職人（Pizzaiolo）の技です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「アラスカとテキサス、どちらが大きいですか？」\n(      ) is bigger, Alaska or Texas?",
+      "choices": [],
+      "answer": "Which",
+      "explanation": "Which（どちら）。二者択一なのでWhichです。\n【🇺🇸 Cultural Note】\n答えはアラスカです。テキサスは本土48州の中では最大ですが、アラスカは別格の大きさです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これ（について）はどう思いますか？」\n(      ) do you think about this?",
+      "choices": ["What", "How", "Why", "Where"],
+      "answer": "What",
+      "explanation": "What do you think（どう思う／何を思う）。日本語の「どう」に釣られてHowにしないよう注意です。\n【🇺🇸 Cultural Note】\n自分の意見（Opinion）をはっきり述べることが求められる文化です。"
+    },
+    {
+      "type": "sort",
+      "question": "「ルート66はどこですか？」となるように並び替えてください。",
+      "choices": ["Where", "66", "is", "Route"],
+      "answer": "WhereisRoute66",
+      "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\nシカゴからサンタモニカまでを結ぶ歴史的な国道です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「（電話で）どちら様ですか？」\n(      ) is this?",
+      "choices": [],
+      "answer": "Who",
+      "explanation": "Who is this? 電話やインターホン越しに相手を確認する時のフレーズです。\n【🇺🇸 Cultural Note】\n知らない番号からの電話には出ない人が多いですが、出た場合は\"Who is this?\"や\"May I ask who is calling?\"と聞きます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「なぜあなたは英語を学ぶのですか？」\n(      ) do you learn English?",
+      "choices": ["Why", "What", "Where", "When"],
+      "answer": "Why",
+      "explanation": "Why（なぜ）。\n【🇺🇸 Cultural Note】\n多くの留学生がアメリカの大学で学ぶために英語を勉強しています。"
     }
   ]
 }
