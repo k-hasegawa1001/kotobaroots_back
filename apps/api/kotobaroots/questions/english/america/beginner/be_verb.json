@@ -1,748 +1,812 @@
 {
   "learning_topic": "be動詞",
+  "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nI (      ) a student.",
-      "choices": ["am", "are", "is", "be"],
-      "answer": "am",
-      "explanation": "主語が「I（私）」の時は、必ず「am」を使います。「私は学生です」という意味になります。\n\n【実用】自己紹介のI am...は基本中の基本です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nYou (      ) a teacher.",
-      "choices": [],
-      "answer": "are",
-      "explanation": "主語が「You（あなた）」の時は「are」を使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nHe (      ) my friend.",
-      "choices": ["is", "am", "are", "be"],
-      "answer": "is",
-      "explanation": "主語が「He（彼）」のような三人称単数（IとYou以外のひとり）の時は「is」を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はケンです。」となるように並び替えてください。",
-      "choices": ["am", "Ken", "I"],
-      "answer": "IamKen",
-      "explanation": "I am Ken. です。\n\n【文化】英語圏では自分の名前を名乗るのが挨拶の基本です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nShe (      ) happy.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "主語が「She（彼女）」の時は「is」を使います。be動詞は「～です」という状態も表せます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nThis (      ) a pen.",
-      "choices": ["is", "am", "are", "be"],
-      "answer": "is",
-      "explanation": "「This（これ）」は単数（ひとつ）なので「is」を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは親切です。」となるように並び替えてください。",
-      "choices": ["kind", "are", "You"],
-      "answer": "Youarekind",
-      "explanation": "You are kind. です。be動詞は主語の性質（優しい、背が高いなど）を説明する働きがあります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「I am」を短縮すると？\nI(      )m",
-      "choices": [],
-      "answer": "'",
-      "explanation": "I'm です。アポストロフィー（'）を使って文字を省略します。\n\n【実用】会話では短縮形を使うのが普通です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nIt (      ) a cat.",
-      "choices": ["is", "am", "are", "do"],
-      "answer": "is",
-      "explanation": "「It（それ）」は単数なので「is」を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「これは本です。」となるように並び替えてください。",
-      "choices": ["book", "is", "a", "This"],
-      "answer": "Thisisabook",
-      "explanation": "This is a book. です。\n\n【注意】数えられる名詞（book）には、ひとつであることを示す「a」が必要です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nWe (      ) students.",
-      "choices": [],
-      "answer": "are",
-      "explanation": "主語が「We（私たち）」のように複数（ふたり以上）の時は、必ず「are」を使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nThey (      ) from Japan.",
-      "choices": ["are", "is", "am", "be"],
-      "answer": "are",
-      "explanation": "「They（彼ら/それら）」は複数なので「are」を使います。「～出身です」と言う時にもbe動詞を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「あれは私の犬です。」となるように並び替えてください。",
-      "choices": ["That", "dog", "my", "is"],
-      "answer": "Thatismydog",
-      "explanation": "That is my dog. です。遠くにあるものを指すときはThisではなくThatを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「You are」を短縮すると？\nYou(      )re",
-      "choices": [],
-      "answer": "'",
-      "explanation": "You're です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nMike and Tom (      ) friends.",
-      "choices": ["are", "is", "am", "was"],
-      "answer": "are",
-      "explanation": "「Mike and Tom」は2人（複数）なので、「are」を使います。Mike is...と間違えないように注意しましょう。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女は医者です。」となるように並び替えてください。",
-      "choices": ["doctor", "She", "a", "is"],
-      "answer": "Sheisadoctor",
-      "explanation": "She is a doctor. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「She is」を短縮すると？\nShe(      )s",
-      "choices": [],
-      "answer": "'",
-      "explanation": "She's です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nThe sky (      ) blue.",
-      "choices": ["is", "are", "am", "be"],
-      "answer": "is",
-      "explanation": "「The sky（空）」はひとつ（単数）扱いなので「is」を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちは幸せです。」となるように並び替えてください。",
-      "choices": ["We", "happy", "are"],
-      "answer": "Wearehappy",
-      "explanation": "We are happy. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「It is」を短縮すると？\nIt(      )s",
-      "choices": [],
-      "answer": "'",
-      "explanation": "It's です。\n\n【注意】Its（その～）と間違えやすいので、アポストロフィーの位置に気を付けましょう。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nMy name (      ) Sakura.",
-      "choices": ["is", "am", "are", "be"],
-      "answer": "is",
-      "explanation": "「My name（私の名前）」は「私」ではなく「もの（単数）」なので、amではなく「is」を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼は背が高いです。」となるように並び替えてください。",
-      "choices": ["tall", "He", "is"],
-      "answer": "Heistall",
-      "explanation": "He is tall. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nYou and I (      ) busy.",
-      "choices": [],
-      "answer": "are",
-      "explanation": "「You and I（あなたと私）」は2人なので複数扱いです。Iの後ろですがamではなく「are」を使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nThese (      ) my books.",
-      "choices": ["are", "is", "am", "this"],
-      "answer": "are",
-      "explanation": "「These（これら）」はThisの複数形なので「are」を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼らは先生です。」となるように並び替えてください。",
-      "choices": ["teachers", "They", "are"],
-      "answer": "Theyareteachers",
-      "explanation": "They are teachers. です。主語が複数なので、teacherにもsがつきます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「That is」を短縮すると？\nThat(      )s",
-      "choices": [],
-      "answer": "'",
-      "explanation": "That's です。「それは～ですね」と相槌を打つ時によく使います（例：That's good）。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nThose (      ) birds.",
-      "choices": ["are", "is", "that", "am"],
-      "answer": "are",
-      "explanation": "「Those（あれら）」はThatの複数形なので「are」を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はお腹が空いています。」となるように並び替えてください。",
-      "choices": ["hungry", "am", "I"],
-      "answer": "Iamhungry",
-      "explanation": "I am hungry. です。\n\n【文化】Hungry?（お腹すいた？）と聞かれたら、Yes, I am.と答えます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nThe dog (      ) cute.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "「The dog（その犬）」は単数なので「is」です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nJapan (      ) a beautiful country.",
-      "choices": ["is", "are", "am", "be"],
-      "answer": "is",
-      "explanation": "国名（Japan）は単数扱いなので「is」を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは私のヒーローです。」となるように並び替えてください。",
-      "choices": ["my", "hero", "You", "are"],
-      "answer": "Youaremyhero",
-      "explanation": "You are my hero. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nApples (      ) red.",
-      "choices": [],
-      "answer": "are",
-      "explanation": "Apples（リンゴたち）は複数形なので「are」を使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "be動詞の原形は？",
-      "choices": ["be", "am", "is", "are"],
-      "answer": "be",
-      "explanation": "am, is, areの元の形（原形）は「be」です。だから「be動詞」と呼ばれます。"
-    },
-    {
-      "type": "sort",
-      "question": "「それは面白いです。」となるように並び替えてください。",
-      "choices": ["interesting", "It", "is"],
-      "answer": "Itisinteresting",
-      "explanation": "It is interesting. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「He is」を短縮すると？\nHe(      )s",
-      "choices": [],
-      "answer": "'",
-      "explanation": "He's です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nMy father (      ) at home.",
-      "choices": ["is", "am", "are", "in"],
-      "answer": "is",
-      "explanation": "「My father（私の父）」は一人（三人称単数）なので「is」を使います。「～にいる」という場所を表す時にもbe動詞を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は日本出身です。」となるように並び替えてください。",
-      "choices": ["from", "am", "Japan", "I"],
-      "answer": "IamfromJapan",
-      "explanation": "I am from Japan. です。\n\n【実用】自己紹介で最もよく使うフレーズの一つです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nThe cars (      ) new.",
-      "choices": [],
-      "answer": "are",
-      "explanation": "Carsは複数形なので「are」を使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nEveryone (      ) here.",
-      "choices": ["is", "are", "am", "be"],
-      "answer": "is",
-      "explanation": "「Everyone（みんな）」は意味は複数っぽいですが、文法上は「単数扱い」をする単語なので「is」を使います。\n\n【重要】間違いやすいポイントです。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは遅刻です。」となるように並び替えてください。",
-      "choices": ["late", "You", "are"],
-      "answer": "Youarelate",
-      "explanation": "You are late. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nTime (      ) money.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "Time（時間）は数えられない名詞で、単数扱いなので「is」を使います。有名な諺です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nI (      ) tired.",
+      "question": "「私はアメリカ出身です」\nI (      ) from the United States.",
       "choices": ["am", "is", "are", "be"],
       "answer": "am",
-      "explanation": "I am tired.（私は疲れています）です。"
+      "explanation": "主語がIなのでamを使います。\n【🇺🇸 Cultural Note】\nアメリカ人は自己紹介で「I'm from the US」と言うよりも、具体的な州（State）や都市名を言うことが多いです（例: I'm from Texas.）。"
     },
     {
       "type": "sort",
-      "question": "「これは重要です。」となるように並び替えてください。",
-      "choices": ["important", "is", "This"],
-      "answer": "Thisisimportant",
-      "explanation": "This is important. です。"
+      "question": "「ニューヨークは首都ではありません。」となるように並び替えてください。",
+      "choices": ["not", "capital", "York", "is", "New", "the"],
+      "answer": "NewYorkisnotthecapital",
+      "explanation": "否定文なのでis notを使います。\n【🇺🇸 Cultural Note】\nよく勘違いされますが、アメリカの首都はワシントンD.C.です。ニューヨークは経済と文化の中心地ですが、首都機能はありません。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「We are」を短縮すると？\nWe(      )re",
+      "question": "「それらは自由の女神の写真ですか？」\n(      ) they pictures of the Statue of Liberty?",
       "choices": [],
-      "answer": "'",
-      "explanation": "We're です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nIt (      ) sunny today.",
-      "choices": ["is", "are", "am", "be"],
-      "answer": "is",
-      "explanation": "天気（Sunny, Rainyなど）を表す時の主語はItを使い、動詞は「is」になります。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼らは私の両親です。」となるように並び替えてください。",
-      "choices": ["parents", "my", "They", "are"],
-      "answer": "Theyaremyparents",
-      "explanation": "They are my parents. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nLondon (      ) in England.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "都市名（London）は単数扱いなので「is」です。「ロンドンはイギリスにあります」という意味です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nYour shoes (      ) nice.",
-      "choices": ["are", "is", "am", "be"],
-      "answer": "are",
-      "explanation": "Shoes（靴）は左右セットで複数形なので「are」を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は15歳です。」となるように並び替えてください。",
-      "choices": ["old", "15", "years", "I", "am"],
-      "answer": "Iam15yearsold",
-      "explanation": "I am 15 years old. です。年齢を言う時の決まり文句です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「They are」を短縮すると？\nThey(      )re",
-      "choices": [],
-      "answer": "'",
-      "explanation": "They're です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nThe water (      ) cold.",
-      "choices": ["is", "are", "am", "be"],
-      "answer": "is",
-      "explanation": "Water（水）は数えられない名詞で、単数扱いなので「is」を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちはチームです。」となるように並び替えてください。",
-      "choices": ["team", "a", "We", "are"],
-      "answer": "Weareateam",
-      "explanation": "We are a team. です。チームという「ひとつの集合体」なのでa teamとなります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nMr. Tanaka (      ) our teacher.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "Mr. Tanakaは三人称単数なので「is」を使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nYou and Tom (      ) good students.",
-      "choices": ["are", "is", "am", "be"],
-      "answer": "are",
-      "explanation": "You and Tomは「あなたたち」という複数扱いになるので「are」です。"
-    },
-    {
-      "type": "sort",
-      "question": "「それは箱の中にあります。」となるように並び替えてください。",
-      "choices": ["box", "the", "in", "is", "It"],
-      "answer": "Itisinthebox",
-      "explanation": "It is in the box. です。be動詞＋場所（in the box）で存在を表します。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「Who is」を短縮すると？\nWho(      )s",
-      "choices": [],
-      "answer": "'",
-      "explanation": "Who's（誰ですか）です。\n\n【注意】Whose（誰のもの）と発音が同じですが意味が違います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\n(      ) you ready?",
-      "choices": ["Are", "Is", "Am", "Be"],
       "answer": "Are",
-      "explanation": "疑問文でも主語がYouなら「Are」を使います。Are you...?の形です。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼は私の兄弟です。」となるように並び替えてください。",
-      "choices": ["brother", "He", "is", "my"],
-      "answer": "Heismybrother",
-      "explanation": "He is my brother. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nMy computer (      ) new.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "Computerは単数なので「is」です。"
+      "explanation": "They（それら）が主語なのでAreを使います。\n【🇺🇸 Cultural Note】\nStatue of Libertyはニューヨーク港に立つ自由の象徴です。1886年にアメリカ独立100周年を記念してフランスから贈られました。"
     },
     {
       "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nThe news (      ) good.",
-      "choices": ["is", "are", "am", "be"],
+      "question": "「彼は高校生です」\nHe (      ) a high school student.",
+      "choices": ["is", "am", "are", "be"],
       "answer": "is",
-      "explanation": "Newsは「s」がついていますが、単数扱いの名詞なので「is」を使います。\n\n【重要】よく出る引っかけ問題です。"
+      "explanation": "He（三人称単数）なのでisを使います。\n【🇺🇸 Cultural Note】\nアメリカの高校（High School）は通常9年生から12年生（日本の中3〜高3）の4年制で、義務教育に含まれます。"
     },
     {
       "type": "sort",
-      "question": "「その本は面白いです。」となるように並び替えてください。",
-      "choices": ["book", "interesting", "The", "is"],
-      "answer": "Thebookisinteresting",
-      "explanation": "The book is interesting. です。"
+      "question": "「野球は人気のあるスポーツです。」となるように並び替えてください。",
+      "choices": ["sport", "Baseball", "popular", "is", "a"],
+      "answer": "Baseballisapopularsport",
+      "explanation": "Baseball（単数）なのでisです。\n【🇺🇸 Cultural Note】\n野球は\"America's Pastime\"（アメリカの娯楽）と呼ばれ、歴史的に最も愛されてきたスポーツの一つです。メジャーリーグ（MLB）が最高峰です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nI (      ) a soccer player.",
+      "question": "「私たちは感謝祭で忙しい」\nWe (      ) busy with Thanksgiving.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "We（複数）なのでareを使います。\n【🇺🇸 Cultural Note】\n11月の第4木曜日はThanksgiving Day。家族で集まり、七面鳥（Turkey）を食べるアメリカ最大級の祝日です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ワシントンD.C.は東海岸にあります」\nWashington D.C. (      ) on the East Coast.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "都市名（単数）なのでisを使います。\n【🇺🇸 Cultural Note】\nアメリカは広大なため、East Coast（ニューヨークなど）とWest Coast（ロサンゼルスなど）では時差が3時間あり、文化の雰囲気も異なります。"
+    },
+    {
+      "type": "sort",
+      "question": "「ここはとても暑いです。」となるように並び替えてください。",
+      "choices": ["hot", "It", "very", "here", "is"],
+      "answer": "Itisveryhothere",
+      "explanation": "天候・寒暖を表すItなのでisです。\n【🇺🇸 Cultural Note】\nアメリカでは温度に「華氏（Fahrenheit）」を使います。「It is 100 degrees outside!」と言われたら、摂氏約38℃の猛暑のことです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは共和党員ですか、それとも民主党員ですか？」\n(      ) you a Republican or a Democrat?",
+      "choices": [],
+      "answer": "Are",
+      "explanation": "YouなのでAreです。\n【🇺🇸 Cultural Note】\nアメリカは二大政党制です。シンボルマークは、Republican（共和党）が「象」、Democrat（民主党）が「ロバ」です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「リンカーンは有名な大統領でした」\nLincoln (      ) a famous president.",
+      "choices": ["was", "were", "is", "are"],
+      "answer": "was",
+      "explanation": "過去の人物なのでwasを使います。\n【🇺🇸 Cultural Note】\nAbraham Lincolnは第16代大統領。奴隷解放宣言を行い、5ドル紙幣や1セント硬貨の肖像にもなっています。"
+    },
+    {
+      "type": "sort",
+      "question": "「それらはフライドポテトではありません。」となるように並び替えてください。",
+      "choices": ["French", "fries", "not", "They", "are"],
+      "answer": "TheyarenotFrenchfries",
+      "explanation": "They are not... です。\n【🇺🇸 Cultural Note】\nアメリカではフライドポテトを\"French fries\"（または単にfries）と呼びます。イギリス英語の\"Chips\"はアメリカではポテトチップスを指します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「テキサスは大きな州です」\nTexas (      ) a big state.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "Texas（単数）なのでisです。\n【🇺🇸 Cultural Note】\n\"Everything is bigger in Texas\"（テキサスでは何でもでかい）という言葉があるほど、土地、家、ステーキのサイズなどが大きいことで有名です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「イエローストーンは国立公園です」\nYellowstone (      ) a national park.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "場所の名前（単数）なのでisです。\n【🇺🇸 Cultural Note】\n世界初の国立公園です。アメリカには雄大な自然を保護するNational Parkが数多くあり、レンジャー（Park Ranger）が管理しています。"
+    },
+    {
+      "type": "sort",
+      "question": "「これらは25セント硬貨です。」となるように並び替えてください。",
+      "choices": ["These", "quarters", "are"],
+      "answer": "Thesearequarters",
+      "explanation": "複数形なのでThese are...です。\n【🇺🇸 Cultural Note】\nアメリカの硬貨には独自の呼び名があります。25セントは\"Quarter\"と呼ばれ、パーキングメーターやコインランドリーで最もよく使われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はお腹が空いています」\nI (      ) hungry.",
       "choices": [],
       "answer": "am",
-      "explanation": "主語がIなので「am」です。"
+      "explanation": "I am hungry. です。\n【🇺🇸 Cultural Note】\nアメリカのレストランでの食事量（Portion size）は日本よりかなり大きいです。食べきれない場合は\"To-go box\"（持ち帰り箱）をもらうのが一般的です。"
     },
     {
       "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nSnow (      ) white.",
+      "question": "「NASAの本部はどこですか？」\nWhere (      ) the NASA headquarters?",
       "choices": ["is", "are", "am", "be"],
       "answer": "is",
-      "explanation": "Snow（雪）は数えられない名詞で単数扱いなので「is」です。"
+      "explanation": "Headquarters（本部）はsがついていますが、一つの組織拠点として単数扱いする場合isを使います。\n【🇺🇸 Cultural Note】\nNASA（アメリカ航空宇宙局）の本部はワシントンD.C.にありますが、有名な管制センターはテキサス州ヒューストンにあります。"
     },
     {
       "type": "sort",
-      "question": "「彼女はカナダ出身です。」となるように並び替えてください。",
-      "choices": ["Canada", "from", "She", "is"],
-      "answer": "SheisfromCanada",
-      "explanation": "She is from Canada. です。"
+      "question": "「その店はメインストリートにあります。」となるように並び替えてください。",
+      "choices": ["Main", "is", "store", "Street", "on", "The"],
+      "answer": "ThestoreisonMainStreet",
+      "explanation": "通り沿いにある場合はonを使います。\n【🇺🇸 Cultural Note】\nアメリカの多くの町には\"Main Street\"という名前の通りがあり、そこが町の中心街（ダウンタウン）であることを示します。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nThat (      ) a big tree.",
+      "question": "「今日は独立記念日です」\nToday (      ) Independence Day.",
       "choices": [],
       "answer": "is",
-      "explanation": "Thatは単数なので「is」です。"
+      "explanation": "Today（単数）なのでisです。\n【🇺🇸 Cultural Note】\n7月4日（Fourth of July）。1776年にイギリスからの独立を宣言した日で、全米各地で花火やバーベキューが行われます。"
     },
     {
       "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nDogs (      ) smart animals.",
-      "choices": ["are", "is", "am", "be"],
-      "answer": "are",
-      "explanation": "Dogsは複数形なので「are」を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は眠いです。」となるように並び替えてください。",
-      "choices": ["sleepy", "I", "am"],
-      "answer": "Iamsleepy",
-      "explanation": "I am sleepy. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nThe bag (      ) heavy.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "The bagは単数なので「is」です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nToday (      ) Sunday.",
-      "choices": ["is", "are", "am", "be"],
-      "answer": "is",
-      "explanation": "Today（今日）は単数扱いなので「is」を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは正しい。」となるように並び替えてください。",
-      "choices": ["right", "You", "are"],
-      "answer": "Youareright",
-      "explanation": "You are right. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nMy eyes (      ) black.",
-      "choices": [],
-      "answer": "are",
-      "explanation": "Eyes（両目）は複数形なので「are」です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nMathematics (      ) difficult.",
-      "choices": ["is", "are", "am", "be"],
-      "answer": "is",
-      "explanation": "Mathematics（数学）は「s」がつきますが学問の名前で単数扱いなので「is」です。"
-    },
-    {
-      "type": "sort",
-      "question": "「ここは私の部屋です。」となるように並び替えてください。",
-      "choices": ["room", "my", "is", "This"],
-      "answer": "Thisismyroom",
-      "explanation": "This is my room. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「What is」を短縮すると？\nWhat(      )s",
-      "choices": [],
-      "answer": "'",
-      "explanation": "What's（何ですか）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nThe children (      ) in the park.",
-      "choices": ["are", "is", "am", "be"],
-      "answer": "are",
-      "explanation": "ChildrenはChildの複数形なので「are」を使います。\n\n【重要】不規則な変化をする複数形に注意しましょう。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちは家族です。」となるように並び替えてください。",
-      "choices": ["family", "a", "We", "are"],
-      "answer": "Weareafamily",
-      "explanation": "We are a family. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nIt (      ) 10 o'clock now.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "時間を表す時の主語はItで、動詞は「is」を使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\n(      ) I late?",
-      "choices": ["Am", "Is", "Are", "Be"],
-      "answer": "Am",
-      "explanation": "主語がIの疑問文は「Am I...?」となります。「私は遅刻ですか？」と聞く表現です。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼はとても親切です。」となるように並び替えてください。",
-      "choices": ["kind", "very", "He", "is"],
-      "answer": "Heisverykind",
-      "explanation": "He is very kind. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nThis book (      ) mine.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "This book（この本）は単数なので「is」です。Mineは「私のもの」という意味です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nThe rich (      ) happy.",
-      "choices": ["are", "is", "am", "be"],
-      "answer": "are",
-      "explanation": "「The + 形容詞（The rich）」で「～な人々（お金持ちの人々）」という複数の意味になるため、「are」を使います。\n\n【上級】少し難しいですが、覚えておくと役立ちます。"
-    },
-    {
-      "type": "sort",
-      "question": "「あの店は有名です。」となるように並び替えてください。",
-      "choices": ["famous", "shop", "That", "is"],
-      "answer": "Thatshopisfamous",
-      "explanation": "That shop is famous. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nWe (      ) ready.",
-      "choices": [],
-      "answer": "are",
-      "explanation": "We are ready.（準備完了です）という意味です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nAll of us (      ) students.",
-      "choices": ["are", "is", "am", "be"],
-      "answer": "are",
-      "explanation": "All of us（私たち全員）は複数なので「are」を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はとても嬉しいです。」となるように並び替えてください。",
-      "choices": ["glad", "very", "I", "am"],
-      "answer": "Iamveryglad",
-      "explanation": "I am very glad. です。Happyと似ていますが、Gladは感謝や安堵を含む嬉しさを表すことが多いです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nMy house (      ) small.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "My houseは単数なので「is」です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nFive dollars (      ) too much.",
-      "choices": ["is", "are", "am", "be"],
-      "answer": "is",
-      "explanation": "金額（Five dollars）は「まとまった一つの金額」とみなして単数扱い（is）にすることが多いです。"
-    },
-    {
-      "type": "sort",
-      "question": "「これは良いカメラです。」となるように並び替えてください。",
-      "choices": ["camera", "good", "a", "is", "This"],
-      "answer": "Thisisagoodcamera",
-      "explanation": "This is a good camera. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nThe moon (      ) round.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "The moon（月）は単数なので「is」です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nHis teeth (      ) white.",
-      "choices": ["are", "is", "am", "be"],
-      "answer": "are",
-      "explanation": "TeethはTooth（歯）の複数形なので「are」を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女は私の姉です。」となるように並び替えてください。",
-      "choices": ["sister", "my", "She", "is"],
-      "answer": "Sheismysister",
-      "explanation": "She is my sister. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nYou (      ) a good singer.",
-      "choices": [],
-      "answer": "are",
-      "explanation": "主語がYouなので「are」です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nTo see (      ) to believe.",
-      "choices": ["is", "are", "am", "be"],
-      "answer": "is",
-      "explanation": "「To see（見ること）」のような不定詞が主語の場合は、単数扱いになるので「is」を使います。「百聞は一見に如かず」という意味です。"
-    },
-    {
-      "type": "sort",
-      "question": "「これらは私のペンです。」となるように並び替えてください。",
-      "choices": ["pens", "These", "my", "are"],
-      "answer": "Thesearemypens",
-      "explanation": "These are my pens. です。複数形なのでThis is...を使わないよう注意しましょう。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nThe station (      ) near here.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "The station（駅）は単数なので「is」です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nA lot of people (      ) here.",
-      "choices": ["are", "is", "am", "be"],
-      "answer": "are",
-      "explanation": "People（人々）は複数扱いなので「are」を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は元気です。」となるように並び替えてください。",
-      "choices": ["fine", "am", "I"],
-      "answer": "Iamfine",
-      "explanation": "I am fine. です。\n\n【実用】How are you?と聞かれた時の定番の答えです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nIt (      ) rain.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "これは間違いやすい問題です！実は通常の文法では It rains.（一般動詞）を使いますが、進行形 It is raining. や It is rainy.（形容詞）ならisを使います。この問題は「It is a pen」のようなbe動詞の形を意図しています。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nPhysics (      ) my favorite subject.",
-      "choices": ["is", "are", "am", "be"],
-      "answer": "is",
-      "explanation": "Physics（物理学）も学問の名前で単数扱いなので「is」を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「その猫はかわいいです。」となるように並び替えてください。",
-      "choices": ["cute", "cat", "The", "is"],
-      "answer": "Thecatiscute",
-      "explanation": "The cat is cute. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nWe (      ) friends.",
-      "choices": [],
-      "answer": "are",
-      "explanation": "We are friends. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\nBread and butter (      ) my breakfast.",
-      "choices": ["is", "are", "am", "be"],
-      "answer": "is",
-      "explanation": "Bread and butter（バター付きパン）は2つの物ですが、セットで「1つの料理」とみなされるため、例外的に「is」を使うことが多いです。\n\n【上級】カレーライスなども同様です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは勇敢です。」となるように並び替えてください。",
-      "choices": ["brave", "You", "are"],
-      "answer": "Youarebrave",
-      "explanation": "You are brave. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "空欄を埋めてください。\nThe earth (      ) round.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "The earth（地球）は単数なので「is」です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "空欄に当てはまるbe動詞は？\n(      ) it difficult?",
+      "question": "「グランドキャニオンは美しいですか？」\n(      ) the Grand Canyon beautiful?",
       "choices": ["Is", "Are", "Am", "Be"],
       "answer": "Is",
-      "explanation": "Itが主語の疑問文なので「Is it...?」となります。"
+      "explanation": "固有名詞（単数）なのでIsです。\n【🇺🇸 Cultural Note】\nアリゾナ州にある巨大な峡谷です。その深さと色彩の美しさは圧倒的で、アメリカで最も人気のある観光地の一つです。"
     },
     {
       "type": "sort",
-      "question": "「私は日本人です。」となるように並び替えてください。",
-      "choices": ["Japanese", "am", "I"],
-      "answer": "IamJapanese",
-      "explanation": "I am Japanese. です。"
+      "question": "「私たちはルームメイトです。」となるように並び替えてください。",
+      "choices": ["roommates", "are", "We"],
+      "answer": "Weareroommates",
+      "explanation": "We are... です。\n【🇺🇸 Cultural Note】\nアメリカの大学では寮生活が一般的で、他人と部屋をシェアする\"Roommate\"（ルームメイト）文化が深く根付いています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ハリウッドはロサンゼルスにあります」\nHollywood (      ) in Los Angeles.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "地名なのでisです。\n【🇺🇸 Cultural Note】\n世界の映画産業の中心地です。丘の上に立つ\"HOLLYWOOD\"の白いサインは、もともと不動産会社の広告として建てられたものです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の父はガソリンスタンドにいます」\nMy father (      ) at the gas station.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "My father（単数）なのでisです。\n【🇺🇸 Cultural Note】\nアメリカ英語では\"Gas station\"と言います（イギリスではPetrol station）。広大な車社会アメリカにおいて、コンビニ併設の重要な施設です。"
+    },
+    {
+      "type": "sort",
+      "question": "「スーパーボウルは日曜日です。」となるように並び替えてください。",
+      "choices": ["Bowl", "is", "Sunday", "The", "on", "Super"],
+      "answer": "TheSuperBowlisonSunday",
+      "explanation": "曜日にはonを使います。\n【🇺🇸 Cultural Note】\nアメフト（NFL）の優勝決定戦で、アメリカで最も視聴率が高いテレビ番組です。ハーフタイムショーも世界的な注目を集めます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「そこには50の州があります」\nThere (      ) fifty states.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "States（複数）なのでareです。\n【🇺🇸 Cultural Note】\nアメリカ国旗（星条旗）にある50個の星は、現在の州の数（50 states）を表しています。赤と白の縞模様は独立時の13州を表します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは1年生ですか？」\n(      ) you a freshman?",
+      "choices": ["Are", "Is", "Am", "Be"],
+      "answer": "Are",
+      "explanation": "YouなのでAreです。\n【🇺🇸 Cultural Note】\nアメリカの高校・大学では学年を固有の名称で呼びます。1年=Freshman, 2年=Sophomore, 3年=Junior, 4年=Seniorです。"
+    },
+    {
+      "type": "sort",
+      "question": "「ここは地下鉄の駅ではありません。」となるように並び替えてください。",
+      "choices": ["station", "not", "is", "subway", "a", "This"],
+      "answer": "Thisisnotasubwaystation",
+      "explanation": "This is not... です。\n【🇺🇸 Cultural Note】\nアメリカ英語では地下鉄を\"Subway\"と言います（イギリスではUnderground）。ニューヨークの地下鉄は24時間運行で有名です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「シカゴは風が強いです」\nChicago (      ) windy.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "Chicago（単数）なのでisです。\n【🇺🇸 Cultural Note】\nシカゴの愛称は\"The Windy City\"。ミシガン湖からの風が強いだけでなく、政治家が「大言壮語を吹く（windy）」という歴史的な皮肉も込められています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の母は看護師です」\nMy mother (      ) a registered nurse.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "My mother（単数）なのでisです。\n【🇺🇸 Cultural Note】\nアメリカで正看護師は\"RN (Registered Nurse)\"と呼ばれ、日本よりも権限が広く、非常に社会的地位の高い専門職です。"
+    },
+    {
+      "type": "sort",
+      "question": "「それらはドーナツですか、それともベーグルですか？」となるように並び替えてください。",
+      "choices": ["bagels", "donuts", "they", "Are", "or"],
+      "answer": "Aretheydonutsorbagels",
+      "explanation": "Are they A or B? の形です。\n【🇺🇸 Cultural Note】\nどちらもアメリカの朝食の定番です。ドーナツはコーヒーと共に、ベーグルはクリームチーズを塗って食べられることが多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「フロリダはオレンジで有名です」\nFlorida (      ) famous for oranges.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "Be famous for...（～で有名だ）。Florida（単数）なのでisです。\n【🇺🇸 Cultural Note】\nフロリダ州は「サンシャイン・ステート」と呼ばれ、オレンジ産業が盛んです。州のナンバープレートにもオレンジの絵が描かれています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「カリフォルニアは西海岸にあります」\nCalifornia (      ) on the West Coast.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "州名（単数）なのでisです。\n【🇺🇸 Cultural Note】\nアメリカで最も人口が多い州です。ハリウッドやシリコンバレーがあり、単独の国であれば世界有数の経済大国になります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の先生はカナダ出身です。」となるように並び替えてください。",
+      "choices": ["teacher", "Canada", "from", "My", "is"],
+      "answer": "MyteacherisfromCanada",
+      "explanation": "My teacher（単数）なのでisです。\n【🇺🇸 Cultural Note】\nカナダはアメリカの北の隣国です。文化は似ていますが、カナダ人は「アメリカ人とは違う」というアイデンティティを強く持っています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ハワイは島です」\nHawaii (      ) an island.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "Hawaii（単数）なのでisです。\n【🇺🇸 Cultural Note】\nアメリカ50番目の州です。アロハシャツ（Aloha shirt）は正装として認められています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それらは私のスニーカーです」\nThey (      ) my sneakers.",
+      "choices": ["are", "is", "am", "be"],
+      "answer": "are",
+      "explanation": "They（複数）なのでareです。\n【🇺🇸 Cultural Note】\nアメリカ英語ではSneakersと言います（イギリスではTrainers）。コンバースやナイキなど、アメリカはスニーカー文化の中心地です。"
+    },
+    {
+      "type": "sort",
+      "question": "「その試験は難しくありませんでした。」となるように並び替えてください。",
+      "choices": ["exam", "difficult", "was", "not", "The"],
+      "answer": "Theexamwasnotdifficult",
+      "explanation": "The exam（単数・過去）なのでwas notです。\n【🇺🇸 Cultural Note】\nアメリカの大学入試にはSATやACTという標準テストが使われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はボストンにいます」\nI (      ) in Boston.",
+      "choices": [],
+      "answer": "am",
+      "explanation": "I am... です。\n【🇺🇸 Cultural Note】\nボストンはアメリカで最も古い都市の一つで、ハーバード大学やMITがある学術都市です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ジョージ・ワシントンは初代大統領でした」\nGeorge Washington (      ) the first president.",
+      "choices": ["was", "were", "is", "are"],
+      "answer": "was",
+      "explanation": "過去の人物なのでwasです。\n【🇺🇸 Cultural Note】\n「建国の父（Founding Fathers）」の一人。1ドル紙幣の肖像であり、首都の名前の由来でもあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「アラスカはとても寒いです。」となるように並び替えてください。",
+      "choices": ["very", "Alaska", "is", "cold"],
+      "answer": "Alaskaisverycold",
+      "explanation": "Alaska（単数）なのでisです。\n【🇺🇸 Cultural Note】\nアメリカ最大の面積を持つ州です。元々はロシアから購入した土地でした。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちはテキサス出身ではありません」\nWe (      ) not from Texas.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "We（複数）なのでareを使います。\n【🇺🇸 Cultural Note】\nテキサス州民（Texans）は郷土愛が非常に強く、州旗を星条旗と同じ高さに掲げることが許されています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「マクドナルドは人気があります」\nMcDonald's (      ) popular.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "店名（単数）なのでisです。\n【🇺🇸 Cultural Note】\nアメリカ発祥のファストフードチェーン。アメリカには他にもIn-N-Out（西海岸）やShake Shack（東海岸）など、地域ごとの人気バーガー店があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは獣医ですか？」となるように並び替えてください。",
+      "choices": ["vet", "you", "Are", "a"],
+      "answer": "Areyouavet",
+      "explanation": "Are you a vet? （vetはveterinarianの略）。\n【🇺🇸 Cultural Note】\nアメリカはペット大国なので、獣医（Vet）は非常に身近で重要な職業です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その本はテーブルの上にあります」\nThe book (      ) on the table.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "The book（単数）なのでisです。\n【🇺🇸 Cultural Note】\nアメリカの学校の教科書は非常に分厚く重い（そして高価な）ことで有名です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らはアメリカ人ですか？」\n(      ) they Americans?",
+      "choices": ["Are", "Is", "Am", "Be"],
+      "answer": "Are",
+      "explanation": "TheyなのでAreです。\n【🇺🇸 Cultural Note】\nアメリカは「人種のるつぼ（Melting Pot）」または「サラダボウル」と呼ばれ、様々な背景を持つ人々が\"Americans\"として暮らしています。"
+    },
+    {
+      "type": "sort",
+      "question": "「タイムズスクエアはニューヨークにあります。」となるように並び替えてください。",
+      "choices": ["Square", "Times", "York", "is", "in", "New"],
+      "answer": "TimesSquareisinNewYork",
+      "explanation": "地名なのでisです。\n【🇺🇸 Cultural Note】\n「世界の交差点」と呼ばれます。大晦日のカウントダウンイベント（Ball Drop）は世界的に有名です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は疲れていません」\nI (      ) not tired.",
+      "choices": [],
+      "answer": "am",
+      "explanation": "I am not... です。\n【🇺🇸 Cultural Note】\n\"I'm fine\"や\"I'm good\"は、元気かどうか聞かれた時の定番の返事です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ラスベガスはネバダ州にあります」\nLas Vegas (      ) in Nevada.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "都市名なのでisです。\n【🇺🇸 Cultural Note】\n砂漠の中に作られたカジノとエンターテイメントの街です。\"What happens in Vegas, stays in Vegas\"（旅の恥はかき捨て）という言葉があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「それは良い考えですね。」となるように並び替えてください。",
+      "choices": ["idea", "good", "a", "That", "is"],
+      "answer": "Thatisagoodidea",
+      "explanation": "That（単数）なのでisです。\n【🇺🇸 Cultural Note】\nアメリカのブレインストーミングでは、どんな意見もまずは肯定的に受け止める文化があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それらはカウボーイハットです」\nThose (      ) cowboy hats.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "Those（複数）なのでareです。\n【🇺🇸 Cultural Note】\n西部開拓時代の象徴です。テキサス州などでは現在でも日常的に被っている人を見かけます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ジョン・F・ケネディは若い大統領でした」\nJohn F. Kennedy (      ) a young president.",
+      "choices": ["was", "were", "is", "are"],
+      "answer": "was",
+      "explanation": "過去の人物なのでwasです。\n【🇺🇸 Cultural Note】\n第35代大統領。43歳での就任は選挙で選ばれた大統領としては最年少でした。「国があなたのために何ができるかではなく...」の演説で有名です。"
+    },
+    {
+      "type": "sort",
+      "question": "「バスケットボールは面白いです。」となるように並び替えてください。",
+      "choices": ["interesting", "is", "Basketball"],
+      "answer": "Basketballisinteresting",
+      "explanation": "Basketball（単数）なのでisです。\n【🇺🇸 Cultural Note】\nアメリカ発祥のスポーツです。NBAは世界最高峰のリーグで、マイケル・ジョーダンなどのスターを生みました。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは休暇中です」\nWe (      ) on vacation.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "We are on vacation.\n【🇺🇸 Cultural Note】\nアメリカ英語では「休暇」をVacationと言います（イギリスではHoliday）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ミシシッピ川は長いです」\nThe Mississippi River (      ) long.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "川の名前（単数）なのでisです。\n【🇺🇸 Cultural Note】\n北米大陸最長の川の一つです。「トム・ソーヤーの冒険」の舞台としても知られています。"
+    },
+    {
+      "type": "sort",
+      "question": "「これらは私のジーンズです。」となるように並び替えてください。",
+      "choices": ["These", "jeans", "my", "are"],
+      "answer": "Thesearemyjeans",
+      "explanation": "Jeansは複数扱い（脚が2本あるため）なのでareを使います。\n【🇺🇸 Cultural Note】\nジーンズ（Blue Jeans）はアメリカのゴールドラッシュ時代に、丈夫な作業着としてリーバイス社によって広められました。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ホワイトハウスは白いですか？」\n(      ) the White House white?",
+      "choices": [],
+      "answer": "Is",
+      "explanation": "The White House（単数）なのでIsです。\n【🇺🇸 Cultural Note】\n大統領の官邸です。1812年の戦争で焼け焦げた壁を隠すために白く塗られたことからこの名がついたと言われています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたはチアリーダーですか？」\n(      ) you a cheerleader?",
+      "choices": ["Are", "Is", "Am", "Be"],
+      "answer": "Are",
+      "explanation": "YouなのでAreです。\n【🇺🇸 Cultural Note】\nアメリカの学校スポーツ、特にアメフトにおいてチアリーディングは花形であり、競技としても確立されています。"
+    },
+    {
+      "type": "sort",
+      "question": "「ルート66は有名な道路です。」となるように並び替えてください。",
+      "choices": ["road", "famous", "is", "66", "Route", "a"],
+      "answer": "Route66isafamousroad",
+      "explanation": "Route 66（単数）なのでisです。\n【🇺🇸 Cultural Note】\nシカゴとサンタモニカを結んでいた歴史的な国道。「マザー・ロード」と呼ばれ、アメリカのポップカルチャーの象徴です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「昨日はハロウィンでした」\nYesterday (      ) Halloween.",
+      "choices": [],
+      "answer": "was",
+      "explanation": "Yesterday（過去）なのでwasです。\n【🇺🇸 Cultural Note】\n10月31日のお祭りです。カボチャをくり抜いたジャック・オー・ランタン（Jack-o'-lantern）を飾ります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「シリコンバレーはカリフォルニアにあります」\nSilicon Valley (      ) in California.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "地名なのでisです。\n【🇺🇸 Cultural Note】\nGoogle, Apple, FacebookなどのIT巨大企業が集中する地域です。イノベーションの聖地です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは観光客です。」となるように並び替えてください。",
+      "choices": ["tourists", "are", "They"],
+      "answer": "Theyaretourists",
+      "explanation": "They are... です。\n【🇺🇸 Cultural Note】\nアメリカは世界中から観光客が訪れます。ニューヨーク、ラスベガス、グランドキャニオンなどが人気です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ビル・ゲイツは金持ちです」\nBill Gates (      ) rich.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "人名（単数）なのでisです。\n【🇺🇸 Cultural Note】\nマイクロソフトの共同創業者です。アメリカン・ドリームの体現者であり、現在は慈善活動家としても知られています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ここはトイレですか？」\n(      ) this the restroom?",
+      "choices": ["Is", "Are", "Am", "Be"],
+      "answer": "Is",
+      "explanation": "This（単数）なのでIsです。\n【🇺🇸 Cultural Note】\nアメリカ英語では公共のトイレをRestroomと言います。Bathroomと言うこともあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「マイアミはフロリダにあります。」となるように並び替えてください。",
+      "choices": ["in", "Florida", "Miami", "is"],
+      "answer": "MiamiisinFlorida",
+      "explanation": "都市名なのでisです。\n【🇺🇸 Cultural Note】\n美しいビーチとラテン文化で有名なリゾート都市です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは今、ショッピングモールにいます」\nWe (      ) at the mall now.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "We are... です。\n【🇺🇸 Cultural Note】\n郊外の巨大なショッピングモール（Mall）は、アメリカ人の買い物の中心であり、ティーンエイジャーの社交場でもあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「アポロ11号は月面着陸ミッションでした」\nApollo 11 (      ) a moon landing mission.",
+      "choices": ["was", "were", "is", "are"],
+      "answer": "was",
+      "explanation": "過去の出来事なのでwasです。\n【🇺🇸 Cultural Note】\n1969年、ニール・アームストロング船長らが人類初の月面着陸に成功しました。\"One small step for man...\"の名言で知られます。"
+    },
+    {
+      "type": "sort",
+      "question": "「ホットドッグはおいしいです。」となるように並び替えてください。",
+      "choices": ["delicious", "Hot", "dogs", "are"],
+      "answer": "Hotdogsaredelicious",
+      "explanation": "Hot dogs（複数）なのでareです。\n【🇺🇸 Cultural Note】\n野球観戦や独立記念日のBBQに欠かせないアメリカのソウルフードです。ニューヨークの屋台も有名です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「アトランタはジョージア州にあります」\nAtlanta (      ) in Georgia.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "都市名なのでisです。\n【🇺🇸 Cultural Note】\nコカ・コーラやCNNの本社がある南部の大都市です。「風と共に去りぬ」の舞台でもあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは弁護士ですか？」\n(      ) you a lawyer?",
+      "choices": ["Are", "Is", "Am", "Be"],
+      "answer": "Are",
+      "explanation": "YouなのでAreです。\n【🇺🇸 Cultural Note】\nアメリカは訴訟社会（Litigious society）と言われ、弁護士（Lawyer）の数が非常に多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「ゴールデンゲートブリッジは赤いです。」となるように並び替えてください。",
+      "choices": ["Bridge", "Gate", "Golden", "red", "The", "is"],
+      "answer": "TheGoldenGateBridgeisred",
+      "explanation": "単数なのでisです。\n【🇺🇸 Cultural Note】\nサンフランシスコの象徴です。実際の色は「インターナショナルオレンジ」と呼ばれ、霧の中でも目立つように選ばれました。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は16歳です」\nI (      ) sixteen years old.",
+      "choices": [],
+      "answer": "am",
+      "explanation": "I am... です。\n【🇺🇸 Cultural Note】\nアメリカの多くの州では16歳で運転免許が取得できます。「Sweet Sixteen」といって16歳の誕生日は盛大に祝われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ジャズはアメリカの音楽です」\nJazz (      ) American music.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "Jazz（単数・不可算）なのでisです。\n【🇺🇸 Cultural Note】\nニューオーリンズ発祥の音楽スタイルです。アメリカが生んだ偉大な芸術形式（Art form）の一つです。"
+    },
+    {
+      "type": "sort",
+      "question": "「それらはバッファローウィングです。」となるように並び替えてください。",
+      "choices": ["Buffalo", "wings", "They", "are"],
+      "answer": "TheyareBuffalowings",
+      "explanation": "They are... です。\n【🇺🇸 Cultural Note】\nニューヨーク州バッファロー発祥の鶏手羽料理。辛いソースを絡めてブルーチーズドレッシングにつけて食べます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ロッキー山脈は高いです」\nThe Rocky Mountains (      ) high.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "Mountains（複数）なのでareです。\n【🇺🇸 Cultural Note】\n北米大陸を縦断する大山脈です。デンバーなどの都市があり、スキーリゾートとしても有名です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「マーティン・ルーサー・キング・ジュニアはリーダーでした」\nMartin Luther King Jr. (      ) a leader.",
+      "choices": ["was", "were", "is", "are"],
+      "answer": "was",
+      "explanation": "過去の人物なのでwasです。\n【🇺🇸 Cultural Note】\n公民権運動の指導者です。\"I Have a Dream\"の演説で知られ、人種差別の撤廃に尽力しました。彼の誕生日は祝日になっています。"
+    },
+    {
+      "type": "sort",
+      "question": "「ボストンは古い都市です。」となるように並び替えてください。",
+      "choices": ["old", "city", "Boston", "an", "is"],
+      "answer": "Bostonisanoldcity",
+      "explanation": "Boston（単数）なのでisです。\n【🇺🇸 Cultural Note】\nアメリカ建国の歴史において重要な役割を果たした都市です。ボストン茶会事件などが有名です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは同級生です」\nWe (      ) classmates.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "We are... です。\n【🇺🇸 Cultural Note】\nアメリカの学校では、生徒一人一人がロッカー（Locker）を持っており、そこで教科書を入れ替えたり友達と話したりします。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その試験は簡単ではありません」\nThe test (      ) not easy.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "The test（単数）なのでisです。\n【🇺🇸 Cultural Note】\nアメリカの学校では、選択式のテスト（Multiple choice）だけでなく、エッセイ（小論文）形式の課題も多く出されます。"
+    },
+    {
+      "type": "sort",
+      "question": "「それらはパンプキンパイです。」となるように並び替えてください。",
+      "choices": ["pies", "They", "are", "pumpkin"],
+      "answer": "Theyarepumpkinpies",
+      "explanation": "They are... です。\n【🇺🇸 Cultural Note】\n感謝祭（Thanksgiving）のデザートの定番です。シナモンやナツメグなどのスパイスが効いています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「五大湖は大きいです」\nThe Great Lakes (      ) big.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "Lakes（複数）なのでareです。\n【🇺🇸 Cultural Note】\nアメリカとカナダの国境にある5つの巨大な湖です。世界最大の淡水水系の一つです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ここはダウンタウンですか？」\n(      ) this downtown?",
+      "choices": ["Is", "Are", "Am", "Be"],
+      "answer": "Is",
+      "explanation": "This（単数）なのでIsです。\n【🇺🇸 Cultural Note】\nDowntownは都市の中心業務地区のこと。高層ビルが立ち並ぶエリアを指すことが多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「デトロイトはモーターシティ（自動車の街）です。」となるように並び替えてください。",
+      "choices": ["Motor", "Detroit", "City", "is", "the"],
+      "answer": "DetroitistheMotorCity",
+      "explanation": "Detroit（単数）なのでisです。\n【🇺🇸 Cultural Note】\nフォード、GM、クライスラーの「ビッグスリー」が拠点を置いたことから、自動車産業の中心地として発展しました。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はニューヨーカーです」\nI (      ) a New Yorker.",
+      "choices": [],
+      "answer": "am",
+      "explanation": "I am... です。\n【🇺🇸 Cultural Note】\nニューヨーク市に住む人のこと。歩くのが速く、率直な性格だというステレオタイプがあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これらはドル紙幣です」\nThese (      ) dollar bills.",
+      "choices": ["are", "is", "am", "be"],
+      "answer": "are",
+      "explanation": "These（複数）なのでareです。\n【🇺🇸 Cultural Note】\nアメリカの紙幣は全て同じサイズで緑色をしているため、慣れないと見分けにくいことがあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「オバマは44代大統領でした。」となるように並び替えてください。",
+      "choices": ["President", "Obama", "44th", "the", "was"],
+      "answer": "Obamawasthe44thPresident",
+      "explanation": "過去の人物（任期終了）なのでwasです。\n【🇺🇸 Cultural Note】\nバラク・オバマはアメリカ初のアフリカ系大統領です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ハーバードは大学です」\nHarvard (      ) a university.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "Harvard（単数）なのでisです。\n【🇺🇸 Cultural Note】\nマサチューセッツ州にあるアメリカ最古の大学です。アイビーリーグ（名門私立大学グループ）の一校です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「そこは暑いですか？」\n(      ) it hot there?",
+      "choices": ["Is", "Are", "Am", "Be"],
+      "answer": "Is",
+      "explanation": "It（天候・環境）なのでIsです。\n【🇺🇸 Cultural Note】\nデスバレー（Death Valley）はアメリカで最も暑い場所の一つで、夏には50℃を超えることもあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは遅れていますか？」となるように並び替えてください。",
+      "choices": ["We", "late", "Are"],
+      "answer": "AreWelate",
+      "explanation": "Are we late?\n【🇺🇸 Cultural Note】\nアメリカのビジネスシーンでは時間は厳守（Punctual）されますが、ホームパーティーなどは少し遅れて行くのがマナーとされることもあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その旗は赤、白、青です」\nThe flag (      ) red, white, and blue.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "The flag（単数）なのでisです。\n【🇺🇸 Cultural Note】\n星条旗（Stars and Stripes）の色です。愛国心の象徴として、家の玄関に掲げている家庭も多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「イーロン・マスクは起業家です」\nElon Musk (      ) an entrepreneur.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "人名（単数）なのでisです。\n【🇺🇸 Cultural Note】\nテスラやスペースXの創業者です。アメリカン・ドリームの現代的な象徴の一人です。"
+    },
+    {
+      "type": "sort",
+      "question": "「これらはベーグルです。」となるように並び替えてください。",
+      "choices": ["bagels", "These", "are"],
+      "answer": "Thesearebagels",
+      "explanation": "These are... です。\n【🇺🇸 Cultural Note】\n真ん中に穴の開いたパンです。ニューヨークのベーグルは、茹でてから焼くためモチモチした食感が特徴です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「アラスカはアメリカで一番大きいです」\nAlaska (      ) the biggest in the US.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "Alaska（単数）なのでisです。\n【🇺🇸 Cultural Note】\nアラスカ州は、テキサス州の2倍以上の面積があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らはハワイにいます」\nThey (      ) in Hawaii.",
+      "choices": ["are", "is", "am", "be"],
+      "answer": "are",
+      "explanation": "They（複数）なのでareです。\n【🇺🇸 Cultural Note】\nハワイはアメリカ唯一の熱帯の州です。真珠湾（Pearl Harbor）などの歴史的な場所もあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「ブロードウェイはニューヨークにあります。」となるように並び替えてください。",
+      "choices": ["in", "York", "Broadway", "New", "is"],
+      "answer": "BroadwayisinNewYork",
+      "explanation": "単数なのでisです。\n【🇺🇸 Cultural Note】\nマンハッタンを南北に走る通りで、ミュージカル劇場の代名詞となっています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は幸せです」\nI (      ) happy.",
+      "choices": [],
+      "answer": "am",
+      "explanation": "I am... です。\n【🇺🇸 Cultural Note】\nアメリカ独立宣言には「幸福の追求（Pursuit of Happiness）」が権利として記されています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これらは私のスナックです」\nThese (      ) my snacks.",
+      "choices": ["are", "is", "am", "be"],
+      "answer": "are",
+      "explanation": "These（複数）なのでareです。\n【🇺🇸 Cultural Note】\nアメリカのスナック菓子（ポテトチップスやドリトスなど）の袋は、日本に比べて非常に大きいです。"
+    },
+    {
+      "type": "sort",
+      "question": "「それは1ドルです。」となるように並び替えてください。",
+      "choices": ["one", "is", "dollar", "It"],
+      "answer": "Itisonedollar",
+      "explanation": "It is... です。\n【🇺🇸 Cultural Note】\n1ドルショップ（Dollar Store）は、日本の100円ショップのような存在です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは学生ですか？」\n(      ) you a student?",
+      "choices": [],
+      "answer": "Are",
+      "explanation": "YouなのでAreです。\n【🇺🇸 Cultural Note】\nアメリカの大学生は\"College student\"と呼ばれます。Universityに通っていてもCollegeと言うのが一般的です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その映画は面白かったですか？」\n(      ) the movie interesting?",
+      "choices": ["Was", "Were", "Is", "Are"],
+      "answer": "Was",
+      "explanation": "The movie（単数・過去）なのでWasです。\n【🇺🇸 Cultural Note】\nハリウッド映画はアメリカ最大の輸出品の一つです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の犬は家族の一員です。」となるように並び替えてください。",
+      "choices": ["family", "part", "My", "is", "dog", "of", "the"],
+      "answer": "Mydogispartofthefamily",
+      "explanation": "My dog（単数）なのでisです。\n【🇺🇸 Cultural Note】\nアメリカではペットを家族同然に扱います。「うちの子（My baby）」と呼ぶ人も多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ニューオーリンズはジャズで有名です」\nNew Orleans (      ) famous for jazz.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "都市名なのでisです。\n【🇺🇸 Cultural Note】\nルイジアナ州の都市です。マルディグラ（Mardi Gras）というカーニバルでも有名です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これらはカップケーキです」\nThese (      ) cupcakes.",
+      "choices": ["are", "is", "am", "be"],
+      "answer": "are",
+      "explanation": "These（複数）なのでareです。\n【🇺🇸 Cultural Note】\nカラフルなクリームが乗ったカップケーキは、アメリカのパーティーの人気デザートです。マグノリア・ベーカリーなどが有名です。"
+    },
+    {
+      "type": "sort",
+      "question": "「シアトルは雨が多いです（雨降りです）。」となるように並び替えてください。",
+      "choices": ["is", "rainy", "Seattle"],
+      "answer": "Seattleisrainy",
+      "explanation": "都市名なのでisです。\n【🇺🇸 Cultural Note】\nスターバックスやAmazonの発祥地です。雨が多いため、コーヒー文化が発達したと言われています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は疲れていませんでした」\nI (      ) not tired.",
+      "choices": [],
+      "answer": "was",
+      "explanation": "過去形なのでwasを使います。\n【🇺🇸 Cultural Note】\n時差ボケ（Jet lag）は、日本からアメリカへ旅行する際によく経験します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「グランド・セントラルは駅です」\nGrand Central (      ) a station.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "駅名（単数）なのでisです。\n【🇺🇸 Cultural Note】\nニューヨークにある巨大なターミナル駅です。映画のロケ地としても頻繁に使われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「これらは私の靴です。」となるように並び替えてください。",
+      "choices": ["shoes", "my", "These", "are"],
+      "answer": "Thesearemyshoes",
+      "explanation": "Shoes（複数）なのでareです。\n【🇺🇸 Cultural Note】\nアメリカの家では、靴を履いたまま中に入ることが多いですが、最近は脱ぐ家庭も増えています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「エルヴィス・プレスリーは歌手でした」\nElvis Presley (      ) a singer.",
+      "choices": [],
+      "answer": "was",
+      "explanation": "過去の人物なのでwasです。\n【🇺🇸 Cultural Note】\n「キング・オブ・ロックンロール」。テネシー州メンフィスの邸宅「グレイスランド」は観光名所です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「感謝祭は木曜日です」\nThanksgiving (      ) on a Thursday.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "祝日（単数）なのでisです。\n【🇺🇸 Cultural Note】\n毎年11月の第4木曜日と決まっています。翌日の金曜日は「ブラックフライデー」と呼ばれる大セールの日です。"
+    },
+    {
+      "type": "sort",
+      "question": "「自由の鐘はフィラデルフィアにあります。」となるように並び替えてください。",
+      "choices": ["in", "Philadelphia", "Liberty", "is", "Bell", "The"],
+      "answer": "TheLibertyBellisinPhiladelphia",
+      "explanation": "単数なのでisです。\n【🇺🇸 Cultural Note】\nアメリカ独立のシンボルです。大きなひび割れがあることで知られています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちはアメリカ市民です」\nWe (      ) American citizens.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "We are... です。\n【🇺🇸 Cultural Note】\nアメリカで生まれた人には自動的に市民権（Citizenship）が与えられます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ケネディ宇宙センターはフロリダにあります」\nKennedy Space Center (      ) in Florida.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "施設名（単数）なのでisです。\n【🇺🇸 Cultural Note】\nここからアポロ計画やスペースシャトルのロケットが打ち上げられました。"
+    },
+    {
+      "type": "sort",
+      "question": "「これらはパンケーキです。」となるように並び替えてください。",
+      "choices": ["pancakes", "These", "are"],
+      "answer": "Thesearepancakes",
+      "explanation": "These are... です。\n【🇺🇸 Cultural Note】\nアメリカのパンケーキは朝食の定番で、ベーコンや卵と一緒に、メープルシロップをたっぷりかけて食べます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「スミソニアンは博物館です」\nThe Smithsonian (      ) a museum.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "単数なのでisです。\n【🇺🇸 Cultural Note】\nワシントンD.C.にある世界最大級の博物館群です。航空宇宙博物館などが有名で、入場料は無料です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「モハベ砂漠は暑いです」\nThe Mojave Desert (      ) hot.",
+      "choices": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "地名（単数）なのでisです。\n【🇺🇸 Cultural Note】\nカリフォルニア州南部に広がる砂漠です。ジョシュアツリーという独特な植物が生えています。"
+    },
+    {
+      "type": "sort",
+      "question": "「それは良い映画でした。」となるように並び替えてください。",
+      "choices": ["good", "movie", "was", "a", "It"],
+      "answer": "Itwasagoodmovie",
+      "explanation": "過去の話なのでwasです。\n【🇺🇸 Cultural Note】\nアメリカ人は映画館（Movie theater）で映画を見るのが大好きです。ポップコーンとソーダは必須アイテムです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ナイアガラの滝は有名です」\nNiagara Falls (      ) famous.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "Fallsと複数形に見えますが、一つの地名として単数扱い（is）されるのが一般的です（areも使われますが、全体を一つと見る場合はis）。\n【🇺🇸 Cultural Note】\nアメリカ（ニューヨーク州）とカナダの国境にある巨大な滝です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは私の両親です」\nThey (      ) my parents.",
+      "choices": ["are", "is", "am", "be"],
+      "answer": "are",
+      "explanation": "They（複数）なのでareです。\n【🇺🇸 Cultural Note】\nアメリカでは、子供が自立した後も感謝祭やクリスマスには実家に帰って両親と過ごすのが伝統です。"
     }
   ]
 }
