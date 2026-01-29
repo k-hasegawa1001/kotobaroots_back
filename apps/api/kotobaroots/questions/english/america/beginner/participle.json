@@ -1,524 +1,707 @@
 {
-  "learning_topic": "分詞",
-  "difficulty": "Beginner",
+  "learning_topic": "分詞 (Participles)",
+  "learning_locale": "en_US",
+  "difficulty": "Intermediate",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "「私は走っている犬を見ました」\nI saw a (      ) dog.",
+      "question": "「向こうで走っている少年を見てください」\nLook at the boy (      ) over there.",
       "choices": ["running", "run", "ran", "runs"],
       "answer": "running",
-      "explanation": "「走っている（～している）」なので現在分詞runningを使います。名詞の前から修飾します。"
+      "explanation": "the boy running...（走っている少年）。現在分詞の後置修飾です。\n【🇺🇸 Cultural Note】\nアメリカの学校では、陸上競技（Track and Field）が盛んで、クロスカントリーも人気のあるスポーツです。"
     },
     {
       "type": "sort",
-      "question": "「あそこで眠っている赤ちゃんは私の妹です。」となるように並び替えてください。",
-      "choices": ["sleeping", "baby", "The", "there", "is", "sister", "my"],
-      "answer": "Thebabysleepingthereismysister",
-      "explanation": "The baby sleeping there... 「あそこで眠っている赤ちゃん」と後ろから詳しく説明します（後置修飾）。"
+      "question": "「これは日本で作られた車です。」となるように並び替えてください。",
+      "choices": ["car", "This", "made", "Japan", "is", "a", "in"],
+      "answer": "ThisisacarmadeinJapan",
+      "explanation": "a car made in Japan（日本で作られた車）。過去分詞の後置修飾です。\n【🇺🇸 Cultural Note】\nアメリカの道路では、日本車（Toyota, Honda, Nissanなど）が非常に多く走っており、信頼性の高さで評価されています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「眠っている赤ちゃんを起こさないで」\nDon't wake up the (      ) baby.",
+      "choices": [],
+      "answer": "sleeping",
+      "explanation": "the sleeping baby（眠っている赤ちゃん）。現在分詞の前置修飾です。\n【🇺🇸 Cultural Note】\nアメリカでは、赤ちゃんの自立を促すために、生後数ヶ月から別室のベビーベッド（Crib）で一人で寝かせる習慣があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はトムという名前の少年を知っています」\nI know a boy (      ) Tom.",
+      "choices": ["named", "name", "naming", "names"],
+      "answer": "named",
+      "explanation": "a boy named Tom（トムと名付けられた少年＝トムという名前の少年）。calledも使われます。\n【🇺🇸 Cultural Note】\nアメリカの男の子の名前では、Liam, Noah, Oliverなどが近年人気です。"
+    },
+    {
+      "type": "sort",
+      "question": "「ステージで歌っている少女は誰ですか？」となるように並び替えてください。",
+      "choices": ["girl", "Who", "singing", "is", "stage", "the", "on", "the"],
+      "answer": "Whoisthegirlsingingonthestage",
+      "explanation": "the girl singing...（歌っている少女）。現在分詞の後置修飾。\n【🇺🇸 Cultural Note】\n学校のタレントショー（Talent Show）は、生徒が特技を披露する大きなイベントで、歌やダンスが定番です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「割れた窓に気をつけて」\nBe careful of the (      ) window.",
+      "choices": [],
+      "answer": "broken",
+      "explanation": "the broken window（割れた窓）。過去分詞の前置修飾です。\n【🇺🇸 Cultural Note】\nアメリカの家屋は、防犯のために二重ガラス（Double-pane windows）や格子を使うことが多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「英語で書かれた本を持っていますか？」\nDo you have a book (      ) in English?",
+      "choices": ["written", "write", "writing", "wrote"],
+      "answer": "written",
+      "explanation": "a book written in English（英語で書かれた本）。過去分詞の後置修飾です。\n【🇺🇸 Cultural Note】\nペーパーバック（Paperback）と呼ばれる廉価版の本は、紙質は粗いですが安く、空港やスーパーでも売られています。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は中古車を買いました。」となるように並び替えてください。",
+      "choices": ["car", "bought", "I", "used", "a"],
+      "answer": "Iboughtausedcar",
+      "explanation": "a used car（使われた車＝中古車）。\n【🇺🇸 Cultural Note】\nアメリカの高校生にとって最初の車は「Hand-me-down（親からのお下がり）」や安い中古車が一般的です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「そのゲームはワクワクします（ワクワクさせるものです）」\nThe game is (      ).",
+      "choices": [],
+      "answer": "exciting",
+      "explanation": "exciting（興奮させるような）。主語が物（ゲーム）なので現在分詞を使います。\n【🇺🇸 Cultural Note】\nスーパーボウル（NFL優勝決定戦）は、アメリカで最もエキサイティングなスポーツイベントとされ、国民の祝日のような盛り上がりを見せます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はそのニュースに興奮しました（ワクワクしました）」\nHe was (      ) at the news.",
+      "choices": ["excited", "exciting", "excite", "excites"],
+      "answer": "excited",
+      "explanation": "excited（興奮させられた＝興奮した）。人が主語で感情を表す場合は過去分詞を使います。\n【🇺🇸 Cultural Note】\nプロム（卒業ダンスパーティー）の誘いを受けることは、高校生にとって非常にエキサイティングな出来事です。"
+    },
+    {
+      "type": "sort",
+      "question": "「ベンチに座っている男性は私の父です。」となるように並び替えてください。",
+      "choices": ["bench", "The", "man", "sitting", "on", "the", "is", "my", "father"],
+      "answer": "Themansittingonthebenchismyfather",
+      "explanation": "The man sitting on the bench（ベンチに座っている男性）が主語です。\n【🇺🇸 Cultural Note】\n映画『フォレスト・ガンプ』の有名なシーンは、バス停のベンチでの会話から始まります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は有名な作家によって書かれた手紙を持っています」\nShe has a letter (      ) by a famous writer.",
+      "choices": [],
+      "answer": "written",
+      "explanation": "a letter written by...（～によって書かれた手紙）。\n【🇺🇸 Cultural Note】\nアーネスト・ヘミングウェイやF・スコット・フィッツジェラルドは、アメリカ文学を代表する作家です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「茹で卵（茹でられた卵）が好きです」\nI like (      ) eggs.",
+      "choices": ["boiled", "boiling", "boil", "boils"],
+      "answer": "boiled",
+      "explanation": "boiled eggs（茹でられた卵＝ゆで卵）。\n【🇺🇸 Cultural Note】\nアメリカの朝食では、卵の焼き方（Scrambled, Fried, Poached, Boiled）を細かく注文できます。"
+    },
+    {
+      "type": "sort",
+      "question": "「公園で遊んでいる子供たちを見て。」となるように並び替えてください。",
+      "choices": ["at", "children", "Look", "playing", "the", "in", "the", "park"],
+      "answer": "Lookatthechildrenplayinginthepark",
+      "explanation": "the children playing...（遊んでいる子供たち）。\n【🇺🇸 Cultural Note】\nアメリカの公園にある遊具（Playground equipment）の下には、怪我防止のためにウッドチップやゴムマットが敷かれていることが多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これは退屈な映画です」\nThis is a (      ) movie.",
+      "choices": [],
+      "answer": "boring",
+      "explanation": "boring（退屈させるような）。映画（物）が主語なので現在分詞。\n【🇺🇸 Cultural Note】\nアメリカ人は映画がつまらないと、上映中でも平気で席を立って帰ることがあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は退屈しています」\nI am (      ).",
+      "choices": ["bored", "boring", "bore", "bores"],
+      "answer": "bored",
+      "explanation": "bored（退屈させられた＝退屈している）。人の感情なので過去分詞。\n【🇺🇸 Cultural Note】\n\"I'm bored to death\"（死ぬほど退屈だ）という大げさな表現があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「英語で話されている言語は何ですか？」となるように並び替えてください。",
+      "choices": ["language", "spoken", "What", "is", "the", "in", "America"],
+      "answer": "WhatisthelanguagespokeninAmerica",
+      "explanation": "the language spoken...（話されている言語）。\n【🇺🇸 Cultural Note】\nアメリカには公用語がありませんが、英語が事実上の共通語です。スペイン語話者も非常に多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「吠えている犬が怖いです」\nI am afraid of the (      ) dog.",
+      "choices": [],
+      "answer": "barking",
+      "explanation": "the barking dog（吠えている犬）。\n【🇺🇸 Cultural Note】\n\"His bark is worse than his bite\"（彼は口ほどにもない／見かけほど怖くない）ということわざがあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「盗まれた自転車が見つかりました」\nThe (      ) bike was found.",
+      "choices": ["stolen", "stealing", "stole", "steal"],
+      "answer": "stolen",
+      "explanation": "The stolen bike（盗まれた自転車）。\n【🇺🇸 Cultural Note】\n大学のキャンパスなどでは自転車盗難が多く、頑丈なU字ロックが推奨されています。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はあなたを驚かせるニュースを持っています。」となるように並び替えてください。",
+      "choices": ["have", "news", "I", "surprising", "you", "for"],
+      "answer": "Ihavesurprisingnewsforyou",
+      "explanation": "surprising news（驚くべきニュース）。\n【🇺🇸 Cultural Note】\n\"Guess what?\"（何だと思う？）と言ってから、驚くようなニュースを切り出すのが定番の会話パターンです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ドアのそばに立っている男性を知っていますか？」\nDo you know the man (      ) by the door?",
+      "choices": [],
+      "answer": "standing",
+      "explanation": "the man standing...（立っている男性）。\n【🇺🇸 Cultural Note】\nアメリカのパーティーでは、ドアのそばで立ってゲストを出迎える（Greet）のがホストの役割の一つです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「母によって作られたケーキはおいしいです」\nThe cake (      ) by my mother is delicious.",
+      "choices": ["made", "making", "make", "makes"],
+      "answer": "made",
+      "explanation": "The cake made by...（作られたケーキ）。baked（焼かれた）もよく使われます。\n【🇺🇸 Cultural Note】\n「ベイクセール（Bake Sale）」は、学校やチャリティのために手作りのお菓子を持ち寄って売る、アメリカの伝統的な資金集めイベントです。"
+    },
+    {
+      "type": "sort",
+      "question": "「落ち葉（落ちた葉）が地面にあります。」となるように並び替えてください。",
+      "choices": ["leaves", "There", "ground", "on", "are", "fallen", "the"],
+      "answer": "Therearefallenleavesontheground",
+      "explanation": "fallen leaves（落ちた葉＝落ち葉）。完了の意味を持つ過去分詞です。\n【🇺🇸 Cultural Note】\nニューイングランド地方の紅葉（Fall foliage）は非常に美しく、秋には多くの観光客が「リーフ・ピーピング（紅葉狩り）」に訪れます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はその結果に驚きました」\nI was (      ) at the result.",
+      "choices": [],
+      "answer": "surprised",
+      "explanation": "be surprised at...（～に驚く）。受動態の形ですが、分詞形容詞としても扱われます。\n【🇺🇸 Cultural Note】\n選挙の「サプライズ（October Surprise）」とは、投票直前の10月に起きる、選挙戦を揺るがすような大ニュースのことです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「燃えている家を見てください」\nLook at the (      ) house.",
+      "choices": ["burning", "burned", "burn", "burns"],
+      "answer": "burning",
+      "explanation": "the burning house（燃えている家）。現在分詞の前置修飾。\n【🇺🇸 Cultural Note】\n「バーニングマン（Burning Man）」は、ネバダ州の砂漠で行われる、巨大な木像を燃やすアートイベントです。"
+    },
+    {
+      "type": "sort",
+      "question": "「ボブと一緒に歩いている少年は誰ですか？」となるように並び替えてください。",
+      "choices": ["boy", "walking", "Who", "is", "Bob", "the", "with"],
+      "answer": "WhoistheboywalkingwithBob",
+      "explanation": "the boy walking with Bob（ボブと一緒に歩いている少年）。\n【🇺🇸 Cultural Note】\nアメリカの学校にはスクールカースト（Social hierarchy）が存在し、誰と一緒に歩いているか、どのテーブルでランチを食べるかが重要視されることがあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ドイツで作られた車は高いです」\nCars (      ) in Germany are expensive.",
+      "choices": [],
+      "answer": "made",
+      "explanation": "Cars made in...（～で作られた車）。\n【🇺🇸 Cultural Note】\nBMWやMercedes-Benzなどのドイツ車は、アメリカでも高級車の代名詞として人気があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「面白い（興味深い）本を探しています」\nI am looking for an (      ) book.",
+      "choices": ["interesting", "interested", "interest", "interests"],
+      "answer": "interesting",
+      "explanation": "interesting（面白い）。本（物）が主語の性質を表すので現在分詞。\n【🇺🇸 Cultural Note】\nアメリカの書店では、店員のおすすめ（Staff Picks）のポップが本選びの参考になります。"
+    },
+    {
+      "type": "sort",
+      "question": "「雪で覆われた山々が見えます。」となるように並び替えてください。",
+      "choices": ["mountains", "see", "covered", "can", "We", "snow", "with"],
+      "answer": "Wecanseemountainscoveredwithsnow",
+      "explanation": "mountains covered with snow（雪で覆われた山々）。\n【🇺🇸 Cultural Note】\nロッキー山脈（The Rockies）は北米大陸を縦断する巨大な山脈で、美しい雪景色が楽しめます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「バスを待っている人々がいます」\nThere are people (      ) for the bus.",
+      "choices": [],
+      "answer": "waiting",
+      "explanation": "people waiting for...（待っている人々）。\n【🇺🇸 Cultural Note】\nアメリカの路線バスは時間通りに来ないことが多いため、アプリでバスの位置を確認するのが必須です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はとても疲れています」\nI am very (      ).",
+      "choices": ["tired", "tiring", "tire", "tires"],
+      "answer": "tired",
+      "explanation": "tired（疲れさせられた＝疲れている）。自分が感じている場合は過去分詞。\n【🇺🇸 Cultural Note】\n\"I'm beat\" や \"I'm exhausted\" も「すごく疲れた」という意味でよく使われる口語表現です。"
+    },
+    {
+      "type": "sort",
+      "question": "「向こうでテニスをしている少年たちは誰ですか？」となるように並び替えてください。",
+      "choices": ["Who", "playing", "boys", "tennis", "are", "the", "over", "there"],
+      "answer": "Whoaretheboysplayingtennisoverthere",
+      "explanation": "the boys playing tennis（テニスをしている少年たち）。\n【🇺🇸 Cultural Note】\nウィリアムズ姉妹（ビーナスとセリーナ）は、アメリカのテニス界を変えた伝説的なプレイヤーです。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「これは壊れた時計です」\nThis is a (      ) watch.",
       "choices": [],
       "answer": "broken",
-      "explanation": "「壊された＝壊れた」という受動の意味なので過去分詞brokenを使います。"
+      "explanation": "a broken watch（壊れた時計）。\n【🇺🇸 Cultural Note】\nスマートウォッチ（Apple Watchなど）の普及率が非常に高く、健康管理に使われています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「こちらは夏目漱石によって書かれた本です」\nThis is a book (      ) by Soseki Natsume.",
-      "choices": ["written", "write", "writing", "wrote"],
-      "answer": "written",
-      "explanation": "「書かれた（～された）」なので過去分詞writtenを使います。Bookの後ろから修飾します。"
-    },
-    {
-      "type": "sort",
-      "question": "「ステージで歌っている少女を知っていますか？」となるように並び替えてください。",
-      "choices": ["girl", "Do", "singing", "know", "the", "you", "stage", "on", "the"],
-      "answer": "Doyouknowthegirlsingingonthestage",
-      "explanation": "Do you know the girl singing on the stage? The girlをsinging...が後ろから修飾しています。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼はゆで卵が好きです」\nHe likes (      ) eggs.",
-      "choices": [],
-      "answer": "boiled",
-      "explanation": "Boiled eggs（ゆでられた卵）。過去分詞が前から名詞を修飾します。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「向こうでテニスをしている少年はケンです」\nThe boy (      ) tennis over there is Ken.",
-      "choices": ["playing", "play", "played", "plays"],
-      "answer": "playing",
-      "explanation": "「テニスをしている」少年なのでplayingです。"
-    },
-    {
-      "type": "sort",
-      "question": "「これは英語で書かれた手紙です。」となるように並び替えてください。",
-      "choices": ["letter", "This", "written", "is", "English", "a", "in"],
-      "answer": "ThisisaletterwritteninEnglish",
-      "explanation": "This is a letter written in English. Letterをwritten in Englishが後ろから修飾します。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は空飛ぶ鳥を見ました」\nI saw a (      ) bird.",
-      "choices": [],
-      "answer": "flying",
-      "explanation": "Flying bird（飛んでいる鳥）。現在分詞です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「母によって作られたケーキはおいしかった」\nThe cake (      ) by my mother was delicious.",
-      "choices": ["made", "make", "making", "makes"],
-      "answer": "made",
-      "explanation": "「作られた」ケーキなので過去分詞madeを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは英語を話しているあの男性を知っていますか？」となるように並び替えてください。",
-      "choices": ["speaking", "man", "that", "know", "you", "Do", "English"],
-      "answer": "DoyouknowthatmanspeakingEnglish",
-      "explanation": "Do you know that man speaking English? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「中古車（使われた車）」\nA (      ) car",
-      "choices": [],
-      "answer": "used",
-      "explanation": "Used car（使われた車＝中古車）。過去分詞です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「公園で走っている犬を見て」\nLook at the dog (      ) in the park.",
-      "choices": ["running", "run", "ran", "runs"],
-      "answer": "running",
-      "explanation": "Dogを後ろから修飾するrunningです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はトムという名の少年を知っています。」となるように並び替えてください。",
-      "choices": ["boy", "a", "Tom", "know", "named", "I"],
-      "answer": "IknowaboynamedTom",
-      "explanation": "I know a boy named Tom. Named Tom（トムと名付けられた）がboyを修飾します。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「眠っている猫はかわいい」\nA (      ) cat is cute.",
-      "choices": [],
-      "answer": "sleeping",
-      "explanation": "Sleeping cat（眠っている猫）。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あの壊れた窓を見て」\nLook at that (      ) window.",
-      "choices": ["broken", "break", "breaking", "broke"],
-      "answer": "broken",
-      "explanation": "Broken window（壊された窓＝壊れた窓）。"
-    },
-    {
-      "type": "sort",
-      "question": "「ベンチに座っている女性は私の母です。」となるように並び替えてください。",
-      "choices": ["woman", "sitting", "mother", "The", "bench", "on", "the", "is", "my"],
-      "answer": "Thewomansittingonthebenchismymother",
-      "explanation": "The woman sitting on the bench is my mother. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼は有名な作家によって書かれた本を読みました」\nHe read a book (      ) by a famous writer.",
-      "choices": [],
-      "answer": "written",
-      "explanation": "Book written by...（～によって書かれた本）。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「ドアのところに立っている少年は誰ですか？」\nWho is the boy (      ) at the door?",
-      "choices": ["standing", "stand", "stood", "stands"],
-      "answer": "standing",
-      "explanation": "「立っている」なので現在分詞standingです。"
-    },
-    {
-      "type": "sort",
-      "question": "「これは私の父によって撮られた写真です。」となるように並び替えてください。",
-      "choices": ["picture", "taken", "This", "is", "father", "a", "by", "my"],
-      "answer": "Thisisapicturetakenbymyfather",
-      "explanation": "This is a picture taken by my father. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「泣いている赤ちゃん」\nA (      ) baby",
-      "choices": [],
-      "answer": "crying",
-      "explanation": "Crying baby（泣いている赤ちゃん）。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「その店で売られているカメラは高い」\nThe cameras (      ) at that shop are expensive.",
-      "choices": ["sold", "sell", "selling", "sells"],
-      "answer": "sold",
-      "explanation": "「売られている」なので過去分詞soldです。"
-    },
-    {
-      "type": "sort",
-      "question": "「向こうで本を読んでいる少女は私の妹です。」となるように並び替えてください。",
-      "choices": ["reading", "sister", "The", "girl", "a", "book", "over", "there", "is", "my"],
-      "answer": "Thegirlreadingabookoverthereismysister",
-      "explanation": "The girl reading a book over there is my sister. 長い主語を作ります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「ドイツ製のおもちゃ（ドイツで作られたおもちゃ）」\nA toy (      ) in Germany",
-      "choices": [],
-      "answer": "made",
-      "explanation": "A toy made in Germany. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はピアノを弾いている少年を知っています」\nI know the boy (      ) the piano.",
-      "choices": ["playing", "play", "played", "plays"],
-      "answer": "playing",
-      "explanation": "Playing the pianoがboyを修飾します。"
-    },
-    {
-      "type": "sort",
-      "question": "「招待された人々」となるように並び替えてください。",
-      "choices": ["people", "invited", "The"],
-      "answer": "Theinvitedpeople",
-      "explanation": "The invited people. 過去分詞が前から修飾するパターンです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「燃えている家」\nA (      ) house",
-      "choices": [],
-      "answer": "burning",
-      "explanation": "Burning house（燃えている家）。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は英語で書かれた手紙を受け取りました」\nI received a letter (      ) in English.",
-      "choices": ["written", "write", "writing", "wrote"],
-      "answer": "written",
-      "explanation": "Written in English（英語で書かれた）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「中国語を話しているあの女性は誰ですか？」となるように並び替えてください。",
-      "choices": ["speaking", "woman", "that", "is", "Chinese", "Who"],
-      "answer": "WhoisthatwomanspeakingChinese",
-      "explanation": "Who is that woman speaking Chinese? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「これは彼によって描かれた絵です」\nThis is a picture (      ) by him.",
-      "choices": [],
-      "answer": "painted",
-      "explanation": "Painted by him（彼によって描かれた）。Drawnでも可ですが文脈によります。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「ワクワクする試合（興奮させる試合）」\nAn (      ) game",
-      "choices": ["exciting", "excited", "excite", "excites"],
-      "answer": "exciting",
-      "explanation": "試合は人を興奮「させる」側なので現在分詞excitingを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は京都で撮られた写真をいくつか持っています。」となるように並び替えてください。",
-      "choices": ["pictures", "taken", "Kyoto", "some", "in", "have", "I"],
-      "answer": "IhavesomepicturestakeninKyoto",
-      "explanation": "I have some pictures taken in Kyoto. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は興奮した観客（興奮させられた観客）を見ました」\nShe saw the (      ) audience.",
-      "choices": [],
-      "answer": "excited",
-      "explanation": "観客は興奮「させられた」側なので過去分詞excitedを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「水泳をしているあの少年はトムです」\nThat boy (      ) is Tom.",
-      "choices": ["swimming", "swim", "swum", "swims"],
-      "answer": "swimming",
-      "explanation": "That boy swimming...（泳いでいるあの少年）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼はその結果に驚きました。」となるように並び替えてください。",
-      "choices": ["result", "surprised", "the", "at", "was", "He"],
-      "answer": "Hewassurprisedattheresult",
-      "explanation": "He was surprised at the result. 受動態の文ですが、surprisedは形容詞的に「驚いた」という状態を表す過去分詞です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「落ち葉」\n(      ) leaves",
-      "choices": [],
-      "answer": "Fallen",
-      "explanation": "Fallen leaves（落ちてしまった葉＝落ち葉）。完了の意味を持つ過去分詞です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「向こうを歩いている男性は私の先生です」\nThe man (      ) over there is my teacher.",
-      "choices": ["walking", "walk", "walked", "walks"],
-      "answer": "walking",
-      "explanation": "Walking over thereがmanを修飾します。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は沖縄で作られたガラスを買いました。」となるように並び替えてください。",
-      "choices": ["glass", "Okinawa", "bought", "made", "in", "I"],
-      "answer": "IboughtglassmadeinOkinawa",
-      "explanation": "I bought glass made in Okinawa. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「昇っている太陽（朝日）」\nThe (      ) sun",
-      "choices": [],
-      "answer": "rising",
-      "explanation": "The rising sun. 現在分詞です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼はみんなに愛されている歌手です」\nHe is a singer (      ) by everyone.",
-      "choices": ["loved", "love", "loving", "loves"],
-      "answer": "loved",
-      "explanation": "Loved by everyone（みんなに愛されている）がsingerを修飾します。"
-    },
-    {
-      "type": "sort",
-      "question": "「英語を勉強している学生たち」となるように並び替えてください。",
-      "choices": ["students", "English", "studying"],
-      "answer": "studentsstudyingEnglish",
-      "explanation": "students studying English. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「そのニュースは驚くべきものでした」\nThe news was (      ).",
-      "choices": [],
-      "answer": "surprising",
-      "explanation": "ニュースは人を「驚かせる」ものなのでsurprisingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はフライドチキン（揚げられた鶏肉）が好きです」\nI like (      ) chicken.",
-      "choices": ["fried", "fry", "frying", "fries"],
-      "answer": "fried",
-      "explanation": "Fried chicken. 過去分詞が形容詞化しています。"
-    },
-    {
-      "type": "sort",
-      "question": "「私の父によって修理された車」となるように並び替えてください。",
-      "choices": ["car", "repaired", "father", "the", "by", "my"],
-      "answer": "thecarrepairedbymyfather",
-      "explanation": "The car repaired by my father. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「沈みゆく太陽（夕日）」\nThe (      ) sun",
-      "choices": [],
-      "answer": "setting",
-      "explanation": "The setting sun. 現在分詞です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「これはジョンに使われた部屋です」\nThis is a room (      ) by John.",
-      "choices": ["used", "use", "using", "uses"],
-      "answer": "used",
-      "explanation": "Used by John（ジョンに使われた）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「その退屈な映画」となるように並び替えてください。",
-      "choices": ["movie", "boring", "the"],
-      "answer": "theboringmovie",
-      "explanation": "The boring movie. 映画は人を「退屈させる」のでboringです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は退屈しました（退屈させられました）」\nI was (      ).",
-      "choices": [],
-      "answer": "bored",
-      "explanation": "I was bored. 人が感情を受ける場合は過去分詞です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私と一緒に働いている人々」\nThe people (      ) with me",
-      "choices": ["working", "work", "worked", "works"],
-      "answer": "working",
-      "explanation": "Working with me（私と一緒に働いている）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「フランスで作られたワイン」となるように並び替えてください。",
-      "choices": ["wine", "in", "made", "France"],
-      "answer": "winemadeinFrance",
-      "explanation": "wine made in France. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「沸騰しているお湯」\n(      ) water",
-      "choices": [],
-      "answer": "Boiling",
-      "explanation": "Boiling water. 現在分詞です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は彼に招待された客です」\nI am a guest (      ) by him.",
-      "choices": ["invited", "invite", "inviting", "invites"],
-      "answer": "invited",
-      "explanation": "Invited by him（彼に招待された）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは何か面白いものを持っていますか？」となるように並び替えてください。",
-      "choices": ["anything", "interesting", "have", "Do", "you"],
-      "answer": "Doyouhaveanythinginteresting",
-      "explanation": "Do you have anything interesting? Interestingは現在分詞由来の形容詞です。Thingで終わる語は後ろから修飾します。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「英語を話している人々」\nPeople (      ) English",
-      "choices": [],
-      "answer": "speaking",
-      "explanation": "People speaking English. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「雪で覆われた山」\nA mountain (      ) with snow",
-      "choices": ["covered", "cover", "covering", "covers"],
-      "answer": "covered",
-      "explanation": "Covered with snowです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はその壊れたドアを直しました。」となるように並び替えてください。",
-      "choices": ["door", "fixed", "broken", "I", "the"],
-      "answer": "Ifixedthebrokendoor",
-      "explanation": "I fixed the broken door. Broken（壊れた）が前からdoorを修飾します。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼はその試合に興奮していました」\nHe was (      ) about the game.",
-      "choices": [],
-      "answer": "excited",
-      "explanation": "He was excited... 人が主語なので過去分詞です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私たちはその面白い映画を見ました」\nWe watched the (      ) movie.",
-      "choices": ["interesting", "interested", "interest", "interests"],
-      "answer": "interesting",
-      "explanation": "Interesting movie（面白い映画）。"
-    },
-    {
-      "type": "sort",
-      "question": "「ケンと話している少女」となるように並び替えてください。",
-      "choices": ["talking", "with", "girl", "the", "Ken"],
-      "answer": "thegirltalkingwithKen",
-      "explanation": "The girl talking with Ken. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「盗まれた自転車」\nA (      ) bike",
-      "choices": [],
-      "answer": "stolen",
-      "explanation": "Stolen bike. 過去分詞です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はその疲れた犬を見ました」\nI saw the (      ) dog.",
-      "choices": ["tired", "tiring", "tire", "tires"],
-      "answer": "tired",
-      "explanation": "Tired dog（疲れた犬）。動物が疲れている状態も過去分詞を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「この町に住んでいる人々」となるように並び替えてください。",
-      "choices": ["living", "town", "people", "this", "in"],
-      "answer": "peoplelivinginthistown",
-      "explanation": "People living in this town. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「割れたガラス（破片）」\n(      ) glass",
-      "choices": [],
-      "answer": "Broken",
-      "explanation": "Broken glass. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はその結果に失望しました」\nI was (      ) at the result.",
-      "choices": ["disappointed", "disappointing", "disappoint", "disappoints"],
-      "answer": "disappointed",
-      "explanation": "Disappointed（失望させられた＝がっかりした）。人が主語なので過去分詞です。"
-    },
-    {
-      "type": "sort",
-      "question": "「ポチと呼ばれる犬」となるように並び替えてください。",
-      "choices": ["dog", "called", "Pochi", "a"],
-      "answer": "adogcalledPochi",
-      "explanation": "A dog called Pochi. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「待っている人」\nA (      ) person",
-      "choices": [],
-      "answer": "waiting",
-      "explanation": "Waiting person. 現在分詞です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「公園へ歩いていく少年たち」\nBoys (      ) to the park",
-      "choices": ["walking", "walk", "walked", "walks"],
-      "answer": "walking",
-      "explanation": "Walking to the parkです。"
-    },
-    {
-      "type": "sort",
-      "question": "「たくさんの人々に愛されている歌」となるように並び替えてください。",
-      "choices": ["song", "loved", "a", "people", "by", "many"],
-      "answer": "asonglovedbymanypeople",
-      "explanation": "A song loved by many people. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「驚くべきニュース」\n(      ) news",
-      "choices": [],
-      "answer": "Surprising",
-      "explanation": "Surprising news. ニュースは人を驚かせるものなので現在分詞です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はその疲れる仕事をしたくありません」\nI don't want to do the (      ) job.",
+      "question": "「その仕事は疲れます（疲れさせるものです）」\nThe work is (      ).",
       "choices": ["tiring", "tired", "tire", "tires"],
       "answer": "tiring",
-      "explanation": "Tiring job（疲れさせる仕事＝きつい仕事）。仕事自体が原因なので現在分詞です。"
+      "explanation": "tiring（疲れさせるような）。仕事（物・事柄）が主語なので現在分詞。\n【🇺🇸 Cultural Note】\nアメリカでは「ハッスル・カルチャー（Hustle Culture）」といって、長時間働くことを美徳とする風潮もありますが、近年は見直されつつあります。"
     },
     {
       "type": "sort",
-      "question": "「壁にかかっている絵」となるように並び替えてください。",
-      "choices": ["on", "picture", "wall", "hanging", "the", "the"],
-      "answer": "thepicturehangingonthewall",
-      "explanation": "The picture hanging on the wall. Hang（かかる）の現在分詞です。"
+      "question": "「帽子をかぶっているあの男性を見てください。」となるように並び替えてください。",
+      "choices": ["at", "man", "wearing", "Look", "that", "hat", "a"],
+      "answer": "Lookatthatmanwearingahat",
+      "explanation": "that man wearing a hat（帽子をかぶっているあの男性）。\n【🇺🇸 Cultural Note】\nベースボールキャップはアメリカ人の普段着の定番で、室内でもかぶったままの人が多いです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「閉ざされたドア（閉まったドア）」\nA (      ) door",
+      "question": "「英語は多くの国で話されている言語です」\nEnglish is a language (      ) in many countries.",
       "choices": [],
-      "answer": "closed",
-      "explanation": "Closed door. 過去分詞です。"
+      "answer": "spoken",
+      "explanation": "a language spoken...（話されている言語）。\n【🇺🇸 Cultural Note】\nアメリカ英語、イギリス英語、オーストラリア英語など、同じ英語でも地域によって単語や発音が異なります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「日本で作られた製品」\nProducts (      ) in Japan",
-      "choices": ["made", "make", "making", "makes"],
-      "answer": "made",
-      "explanation": "Made in Japanです。"
+      "question": "「それは驚くべきニュースでした」\nIt was (      ) news.",
+      "choices": ["surprising", "surprised", "surprise", "surprises"],
+      "answer": "surprising",
+      "explanation": "surprising news（驚かせるようなニュース）。\n【🇺🇸 Cultural Note】\nニュース番組のオープニングでは \"Breaking News\"（速報）というテロップが頻繁に使われます。"
     },
     {
       "type": "sort",
-      "question": "「ベンチで寝ている男の人」となるように並び替えてください。",
-      "choices": ["man", "sleeping", "bench", "the", "on", "the"],
-      "answer": "themansleepingonthebench",
-      "explanation": "The man sleeping on the bench. です。"
+      "question": "「燃えている太陽の下で泳ぎました。」となるように並び替えてください。",
+      "choices": ["swam", "sun", "under", "We", "burning", "the"],
+      "answer": "Weswamundertheburningsun",
+      "explanation": "the burning sun（燃えている太陽＝灼熱の太陽）。\n【🇺🇸 Cultural Note】\nフロリダやカリフォルニアの日差しは強烈なので、日焼け止め（Sunscreen）は必須アイテムです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「盗まれたお金は見つかりませんでした」\nThe (      ) money was not found.",
+      "choices": [],
+      "answer": "stolen",
+      "explanation": "The stolen money（盗まれたお金）。\n【🇺🇸 Cultural Note】\nアメリカはキャッシュレス社会が進んでおり、現金を持ち歩かない人も多いため、現金の盗難よりもカード詐欺の方が問題になりやすいです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らはその結果に失望しました（がっかりさせられました）」\nThey were (      ) at the result.",
+      "choices": ["disappointed", "disappointing", "disappoint", "disappoints"],
+      "answer": "disappointed",
+      "explanation": "disappointed（がっかりした）。人が主語で感情を表すので過去分詞。\n【🇺🇸 Cultural Note】\nアメリカのスポーツファンは熱狂的で、応援するチームが負けると本気で落ち込みます。"
+    },
+    {
+      "type": "sort",
+      "question": "「公園で走っている少年は私の弟です。」となるように並び替えてください。",
+      "choices": ["park", "running", "boy", "The", "brother", "in", "the", "is", "my"],
+      "answer": "Theboyrunningintheparkismybrother",
+      "explanation": "The boy running in the park（公園で走っている少年）が主語です。\n【🇺🇸 Cultural Note】\nジョギングは非常に一般的な運動習慣で、セントラルパークなどでは早朝から多くのランナーを見かけます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これは英語で書かれた手紙です」\nThis is a letter (      ) in English.",
+      "choices": [],
+      "answer": "written",
+      "explanation": "a letter written in English（英語で書かれた手紙）。\n【🇺🇸 Cultural Note】\n独立宣言書（Declaration of Independence）は、アメリカで最も重要な「英語で書かれた文書」の一つです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それは感動的な映画でした」\nIt was a (      ) movie.",
+      "choices": ["touching", "touched", "touch", "touches"],
+      "answer": "touching",
+      "explanation": "touching（感動させるような、心に触れる）。movingも使われます。\n【🇺🇸 Cultural Note】\n『素晴らしき哉、人生!（It's a Wonderful Life）』は、クリスマスの時期に必ず放送される感動的な名作映画です。"
+    },
+    {
+      "type": "sort",
+      "question": "「その眠っている犬はかわいいです。」となるように並び替えてください。",
+      "choices": ["sleeping", "cute", "dog", "is", "The"],
+      "answer": "Thesleepingdogiscute",
+      "explanation": "The sleeping dog（眠っている犬）。\n【🇺🇸 Cultural Note】\n\"Let sleeping dogs lie\"（寝た子を起こすな）ということわざは英語にもあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はフライドチキン（揚げられた鶏肉）が好きです」\nI like (      ) chicken.",
+      "choices": [],
+      "answer": "fried",
+      "explanation": "fried chicken（揚げられた鶏肉）。fry（揚げる）の過去分詞。\n【🇺🇸 Cultural Note】\nフライドチキンは南部料理（Soul Food）の代表格です。ケンタッキー州が発祥の地として有名です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「バスを待っている人々がいます」\nThere are people (      ) for the bus.",
+      "choices": ["waiting", "waited", "wait", "waits"],
+      "answer": "waiting",
+      "explanation": "people waiting for...（待っている人々）。\n【🇺🇸 Cultural Note】\n黄色いスクールバスを待つ子供たちの姿は、アメリカの朝の典型的な風景です。"
+    },
+    {
+      "type": "sort",
+      "question": "「このカメラはアメリカで作られました。」となるように並び替えてください。",
+      "choices": ["made", "camera", "was", "This", "USA", "in", "the"],
+      "answer": "ThiscamerawasmadeintheUSA",
+      "explanation": "was made（作られた）。受動態の文ですが、madeは過去分詞形容詞としても機能します。\n【🇺🇸 Cultural Note】\nコダック（Kodak）はかつて写真業界を支配したアメリカ企業でした。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その説明は混乱させるものでした（わかりにくかったです）」\nThe explanation was (      ).",
+      "choices": [],
+      "answer": "confusing",
+      "explanation": "confusing（混乱させるような）。主語が説明（物）なので現在分詞。\n【🇺🇸 Cultural Note】\nアメリカの単位（ヤード・ポンド法）は、メートル法に慣れた人にとっては非常に confusing です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は混乱しています」\nI am (      ).",
+      "choices": ["confused", "confusing", "confuse", "confuses"],
+      "answer": "confused",
+      "explanation": "confused（混乱させられた＝混乱している）。感情を表す過去分詞。\n【🇺🇸 Cultural Note】\n英語のスペルと発音の不一致（through, though, thoughtなど）は、ネイティブスピーカーにとっても confused することがあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「泣いている赤ちゃんが見えますか？」となるように並び替えてください。",
+      "choices": ["crying", "Can", "baby", "you", "see", "the"],
+      "answer": "Canyouseethecryingbaby",
+      "explanation": "the crying baby（泣いている赤ちゃん）。\n【🇺🇸 Cultural Note】\nレストランなどで子供が騒いだ時、親がすぐに外に連れ出すのがマナーとされています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これはピカソによって描かれた絵です」\nThis is a picture (      ) by Picasso.",
+      "choices": [],
+      "answer": "painted",
+      "explanation": "a picture painted by...（～によって描かれた絵）。\n【🇺🇸 Cultural Note】\nニューヨークの近代美術館（MoMA）には、『アビニヨンの娘たち』などピカソの重要な作品が収蔵されています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「流れる水はありません（水道が止まっています）」\nThere is no (      ) water.",
+      "choices": ["running", "run", "ran", "runs"],
+      "answer": "running",
+      "explanation": "running water（流れている水＝水道水）。\n【🇺🇸 Cultural Note】\nアメリカの水道水は基本的に飲めます（potable）が、ボトル入り飲料水を買う人も多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「招待された客だけが入ることができます。」となるように並び替えてください。",
+      "choices": ["guests", "Only", "enter", "can", "invited"],
+      "answer": "Onlyinvitedguestscanenter",
+      "explanation": "invited guests（招待された客）。\n【🇺🇸 Cultural Note】\n結婚式や正式なパーティーでは、招待状のない飛び入り参加（Gatecrashing）は固く断られます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その結果は期待外れでした（がっかりさせるものでした）」\nThe result was (      ).",
+      "choices": [],
+      "answer": "disappointing",
+      "explanation": "disappointing（がっかりさせるような）。主語が結果（物）なので現在分詞。\n【🇺🇸 Cultural Note】\n選挙結果やスポーツの試合結果に対するリアクション動画は、YouTubeの人気ジャンルの一つです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「コーヒーを飲んでいるあの女性を知っていますか？」\nDo you know that woman (      ) coffee?",
+      "choices": ["drinking", "drank", "drunk", "drinks"],
+      "answer": "drinking",
+      "explanation": "that woman drinking coffee（コーヒーを飲んでいるあの女性）。\n【🇺🇸 Cultural Note】\nスターバックスの発祥地シアトルをはじめ、アメリカには「コーヒーを飲みながら歩く」文化が定着しています。"
+    },
+    {
+      "type": "sort",
+      "question": "「中古車を買うのは安いです。」となるように並び替えてください。",
+      "choices": ["cars", "cheap", "used", "buy", "It", "to", "is"],
+      "answer": "Itischeaptobuyusedcars",
+      "explanation": "used cars（使われた車＝中古車）。\n【🇺🇸 Cultural Note】\nCarMaxなどの大型中古車販売店チェーンがあり、中古車市場は非常に巨大です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は失恋しました（壊れた心を持っています）」\nShe has a (      ) heart.",
+      "choices": [],
+      "answer": "broken",
+      "explanation": "a broken heart（壊れた心＝失恋）。\n【🇺🇸 Cultural Note】\nカントリーミュージックの歌詞の多くは、失恋（Heartbreak）や人生の苦悩をテーマにしています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それは衝撃的なニュースでした」\nIt was (      ) news.",
+      "choices": ["shocking", "shocked", "shock", "shocks"],
+      "answer": "shocking",
+      "explanation": "shocking（衝撃を与えるような）。\n【🇺🇸 Cultural Note】\nタブロイド紙（ゴシップ新聞）は、スーパーのレジ横に置かれており、shockingな見出しで客の目を引きます。"
+    },
+    {
+      "type": "sort",
+      "question": "「図書館で勉強している生徒たちは静かです。」となるように並び替えてください。",
+      "choices": ["students", "library", "The", "quiet", "are", "studying", "in", "the"],
+      "answer": "Thestudentsstudyinginthelibraryarequiet",
+      "explanation": "The students studying in the library（図書館で勉強している生徒たち）が主語です。\n【🇺🇸 Cultural Note】\n試験期間中の大学図書館は24時間開いていることが多く、コーヒー片手に勉強する学生で溢れます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「冷凍食品（冷凍された食品）は便利です」\n(      ) food is convenient.",
+      "choices": [],
+      "answer": "Frozen",
+      "explanation": "Frozen food（凍らされた食品＝冷凍食品）。freeze（凍る）の過去分詞frozen。\n【🇺🇸 Cultural Note】\n「TVディナー」と呼ばれる、レンジで温めるだけのトレイ入り冷凍食品は、1950年代のアメリカで誕生しました。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はそのニュースを聞いてワクワクしました」\nI was (      ) to hear the news.",
+      "choices": ["excited", "exciting", "excite", "excites"],
+      "answer": "excited",
+      "explanation": "be excited to...（～して興奮する）。感情を表す過去分詞です。\n【🇺🇸 Cultural Note】\n高校のアメフトの試合（Homecoming game）は、町中が興奮に包まれる一大イベントです。"
+    },
+    {
+      "type": "sort",
+      "question": "「ギターを弾いている少年は私の友人です。」となるように並び替えてください。",
+      "choices": ["friend", "boy", "The", "guitar", "playing", "the", "is", "my"],
+      "answer": "Theboyplayingtheguitarismyfriend",
+      "explanation": "The boy playing the guitar（ギターを弾いている少年）が主語です。\n【🇺🇸 Cultural Note】\nガレージバンド（自宅の車庫で練習するバンド）からスタートして有名になったアメリカのロックバンドは数多く存在します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これは漱石によって書かれた有名な本です」\nThis is a famous book (      ) by Soseki.",
+      "choices": [],
+      "answer": "written",
+      "explanation": "a famous book written by...（～によって書かれた有名な本）。\n【🇺🇸 Cultural Note】\nアメリカの高校の英語（国語）の授業では、シェイクスピアやスタインベックなどの古典文学を深く読み解きます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その話は面白かったです（興味深いものでした）」\nThe story was (      ).",
+      "choices": ["interesting", "interested", "interest", "interests"],
+      "answer": "interesting",
+      "explanation": "interesting（面白い）。話（物）が主語なので現在分詞。\n【🇺🇸 Cultural Note】\nアメリカ先住民（Native Americans）には、部族の歴史や教訓を口承で伝える「ストーリーテリング」の伝統があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「空を飛んでいるあの鳥を見て。」となるように並び替えてください。",
+      "choices": ["bird", "Look", "flying", "that", "at", "in", "the", "sky"],
+      "answer": "Lookatthatbirdflyinginthesky",
+      "explanation": "that bird flying in the sky（空を飛んでいるあの鳥）。\n【🇺🇸 Cultural Note】\n白頭ワシ（Bald Eagle）はアメリカの国鳥であり、国の紋章にも使われています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はゆで卵（茹でられた卵）を朝食に食べました」\nI ate a (      ) egg for breakfast.",
+      "choices": [],
+      "answer": "boiled",
+      "explanation": "a boiled egg（ゆで卵）。\n【🇺🇸 Cultural Note】\nイースター（復活祭）には、ゆで卵をカラフルに染める「イースターエッグ作り」を家族で楽しみます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は微笑んでいる赤ちゃんを見ています」\nShe is looking at the (      ) baby.",
+      "choices": ["smiling", "smiled", "smile", "smiles"],
+      "answer": "smiling",
+      "explanation": "the smiling baby（微笑んでいる赤ちゃん）。\n【🇺🇸 Cultural Note】\nアメリカ人は写真に写る時、歯を見せて大きく笑う（Big smile）のが一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「向こうで本を読んでいる少女は誰ですか？」となるように並び替えてください。",
+      "choices": ["girl", "reading", "Who", "book", "is", "the", "a", "over", "there"],
+      "answer": "Whoisthegirlreadingabookoverthere",
+      "explanation": "the girl reading a book（本を読んでいる少女）。\n【🇺🇸 Cultural Note】\nアメリカの図書館は「静かにする場所」であると同時に、子供向けの読み聞かせやティーン向けのイベントが行われる活気ある場所でもあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は迷子になった犬（失われた犬）を見つけました」\nI found a (      ) dog.",
+      "choices": [],
+      "answer": "lost",
+      "explanation": "a lost dog（迷い犬）。lose（失う）の過去分詞lost。\n【🇺🇸 Cultural Note】\nペットにはマイクロチップの埋め込みが推奨されており、迷子になっても飼い主が見つかりやすくなっています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それは疲れさせる一日でした（疲れました）」\nIt was a (      ) day.",
+      "choices": ["tiring", "tired", "tire", "tires"],
+      "answer": "tiring",
+      "explanation": "a tiring day（疲れさせる一日）。日が主語なので現在分詞。\n【🇺🇸 Cultural Note】\nアメリカの祝日明けの仕事始めは、休みボケもあって特に tiring に感じられるものです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼によって描かれた絵は美しいです。」となるように並び替えてください。",
+      "choices": ["painted", "picture", "The", "him", "by", "beautiful", "is"],
+      "answer": "Thepicturepaintedbyhimisbeautiful",
+      "explanation": "The picture painted by him（彼によって描かれた絵）が主語です。\n【🇺🇸 Cultural Note】\nグラフィティ（落書き）も、バスキアやキース・ヘリングのようにアートとして認められる文化があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「落ち葉（落ちた葉）を掃除しなければなりません」\nI have to clean up the (      ) leaves.",
+      "choices": [],
+      "answer": "fallen",
+      "explanation": "fallen leaves（落ち葉）。fall（落ちる）の過去分詞fallen。\n【🇺🇸 Cultural Note】\n秋になると、各家庭の前には落ち葉を集めた大きなオレンジ色の袋（パンプキン柄など）が並びます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はその試合に興奮しました」\nI was (      ) at the game.",
+      "choices": ["excited", "exciting", "excite", "excites"],
+      "answer": "excited",
+      "explanation": "excited（興奮した）。\n【🇺🇸 Cultural Note】\nNBAの試合では、DJが音楽を流し、チアダンサーが踊り、観客を常に excite させます。"
+    },
+    {
+      "type": "sort",
+      "question": "「英語で書かれた手紙を受け取りました。」となるように並び替えてください。",
+      "choices": ["letter", "received", "I", "a", "English", "written", "in"],
+      "answer": "IreceivedaletterwritteninEnglish",
+      "explanation": "a letter written in English（英語で書かれた手紙）。\n【🇺🇸 Cultural Note】\nアメリカの大学への合格通知（Acceptance Letter）は、伝統的に分厚い封筒で届くのが良い知らせのサインと言われてきました（不合格は薄い）。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「昇る太陽（朝日）を見てください」\nLook at the (      ) sun.",
+      "choices": [],
+      "answer": "rising",
+      "explanation": "the rising sun（昇る太陽）。\n【🇺🇸 Cultural Note】\nニューオーリンズにある「The House of the Rising Sun（朝日のあたる家）」は、有名なフォークソングの題材になっています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「そのドアは閉まっています（閉ざされた状態です）」\nThe door is (      ).",
+      "choices": ["closed", "closing", "close", "closes"],
+      "answer": "closed",
+      "explanation": "closed（閉まっている）。形容詞的に使われる過去分詞です。\n【🇺🇸 Cultural Note】\n\"When one door closes, another opens\"（捨てる神あれば拾う神あり）は、前向きなアメリカ精神を表す言葉です。"
+    },
+    {
+      "type": "sort",
+      "question": "「ステージで踊っている少女たちはかわいいです。」となるように並び替えてください。",
+      "choices": ["girls", "dancing", "cute", "The", "stage", "on", "the", "are"],
+      "answer": "Thegirlsdancingonthestagearecute",
+      "explanation": "The girls dancing on the stage が主語です。\n【🇺🇸 Cultural Note】\nアメリカの子供たちは、バレエやタップダンス、ヒップホップなどのダンス教室に通うのが一般的です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ドライフルーツ（乾燥した果物）は健康的なおやつです」\n(      ) fruit is a healthy snack.",
+      "choices": [],
+      "answer": "Dried",
+      "explanation": "Dried fruit（乾燥した果物）。dry（乾かす）の過去分詞dried。\n【🇺🇸 Cultural Note】\nレーズンやクランベリーなどのドライフルーツは、トレイルミックス（ナッツと混ぜた行動食）の定番材料です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「このコンピュータは壊れています」\nThis computer is (      ).",
+      "choices": ["broken", "breaking", "broke", "break"],
+      "answer": "broken",
+      "explanation": "broken（壊れている）。\n【🇺🇸 Cultural Note】\nITサポートに電話すると、まず \"Have you tried turning it off and on again?\"（再起動してみましたか？）と聞かれるのがお決まりです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はあなたを驚かせるニュースを持っています。」となるように並び替えてください。",
+      "choices": ["news", "have", "surprising", "I", "you", "for"],
+      "answer": "Ihavesurprisingnewsforyou",
+      "explanation": "surprising news（驚くべきニュース）。\n【🇺🇸 Cultural Note】\nジェンダーリビールパーティー（赤ちゃんの性別発表会）では、ケーキの中身の色などで性別を発表する surprising な演出が人気です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私の父は中古車を買いました」\nMy father bought a (      ) car.",
+      "choices": [],
+      "answer": "used",
+      "explanation": "a used car（中古車）。\n【🇺🇸 Cultural Note】\nアメリカでは、16歳の誕生日に親から中古車をプレゼントされるのが、多くのティーンエイジャーの夢です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はその結果に満足しました」\nHe was (      ) with the result.",
+      "choices": ["pleased", "pleasing", "please", "pleases"],
+      "answer": "pleased",
+      "explanation": "be pleased with...（～に喜ぶ、満足する）。感情の過去分詞。\n【🇺🇸 Cultural Note】\n\"Pleased to meet you\" は、初対面の丁寧な挨拶です。"
+    },
+    {
+      "type": "sort",
+      "question": "「これは多くの人に愛されている歌です。」となるように並び替えてください。",
+      "choices": ["song", "This", "loved", "is", "a", "people", "by", "many"],
+      "answer": "Thisisasonglovedbymanypeople",
+      "explanation": "a song loved by many people（多くの人に愛されている歌）。\n【🇺🇸 Cultural Note】\n国歌「星条旗（The Star-Spangled Banner）」は、スポーツイベントの開始前に必ず歌われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その男の人は行方不明です（いなくなっています）」\nThe man is (      ).",
+      "choices": [],
+      "answer": "missing",
+      "explanation": "missing（行方不明の、欠けている）。現在分詞の形容詞的用法。\n【🇺🇸 Cultural Note】\n\"Missing person\"（行方不明者）の捜索には、アンバーアラート（Amber Alert）という緊急警報システムが使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は退屈しています」\nI am (      ).",
+      "choices": ["bored", "boring", "bore", "bores"],
+      "answer": "bored",
+      "explanation": "bored（退屈している）。I am boring だと「私は退屈な人間です」という意味になってしまいます。\n【🇺🇸 Cultural Note】\n夏休みの長いアメリカの子供たちが \"I'm bored!\" と叫ぶのは、親にとって頭の痛い問題です。"
+    },
+    {
+      "type": "sort",
+      "question": "「向こうで走っている犬を見てください。」となるように並び替えてください。",
+      "choices": ["dog", "Look", "running", "that", "at", "over", "there"],
+      "answer": "Lookatthatdogrunningoverthere",
+      "explanation": "that dog running over there（向こうで走っている犬）。\n【🇺🇸 Cultural Note】\nドッグラン（Dog run / Dog park）は、犬がリードなしで自由に走り回れる場所として人気があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「焼き芋（焼かれたジャガイモ）はいかがですか？」\nWould you like a (      ) potato?",
+      "choices": [],
+      "answer": "baked",
+      "explanation": "a baked potato（ベイクドポテト）。\n【🇺🇸 Cultural Note】\nアメリカのベイクドポテトは巨大で、サワークリーム、チーズ、ベーコンビッツなどをたっぷりトッピングして食べます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その映画は退屈でした」\nThe movie was (      ).",
+      "choices": ["boring", "bored", "bore", "bores"],
+      "answer": "boring",
+      "explanation": "boring（退屈な）。映画（物）が主語なので現在分詞。\n【🇺🇸 Cultural Note】\nハリウッド映画の試写会（Screening）では、観客の反応を見て編集を変えることもあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「これは私たちの学校で使われているコンピュータです。」となるように並び替えてください。",
+      "choices": ["computer", "is", "a", "This", "used", "school", "in", "our"],
+      "answer": "Thisisacomputerusedinourschool",
+      "explanation": "a computer used in our school（私たちの学校で使われているコンピュータ）。\n【🇺🇸 Cultural Note】\nChromebookは安価で管理しやすいため、多くのアメリカの学校で導入されています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「沈む太陽（夕日）がきれいでした」\nThe (      ) sun was beautiful.",
+      "choices": [],
+      "answer": "setting",
+      "explanation": "the setting sun（沈む太陽＝夕日）。rising sunの対義語。\n【🇺🇸 Cultural Note】\nカリフォルニアのサンタモニカ・ピアから見る太平洋に沈む夕日は絶景です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はその知らせに驚きました」\nHe was (      ) at the news.",
+      "choices": ["surprised", "surprising", "surprise", "surprises"],
+      "answer": "surprised",
+      "explanation": "surprised（驚いた）。\n【🇺🇸 Cultural Note】\nサプライズプロポーズ（フラッシュモブなど）は、動画サイトで人気のコンテンツです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はボブという名前の少年を知っています。」となるように並び替えてください。",
+      "choices": ["boy", "know", "a", "Bob", "named", "I"],
+      "answer": "IknowaboynamedBob",
+      "explanation": "a boy named Bob（ボブという名前の少年）。\n【🇺🇸 Cultural Note】\nアメリカでは、親や祖父母の名前をそのまま子供につける（Jr.をつける）ことがよくあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「フライドポテト（揚げられたジャガイモ）が好きです」\nI like (      ) potatoes.",
+      "choices": [],
+      "answer": "fried",
+      "explanation": "fried potatoes（フライドポテト）。アメリカ英語では通常 French fries と言いますが、調理法としては fried potatoes です。\n【🇺🇸 Cultural Note】\nハンバーガーにはフライドポテトが付き物です。ケチャップをたっぷりつけて食べます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その部屋には鍵がかかっています（鍵をかけられた状態です）」\nThe room is (      ).",
+      "choices": ["locked", "locking", "lock", "locks"],
+      "answer": "locked",
+      "explanation": "locked（鍵がかかっている）。過去分詞の形容詞的用法。\n【🇺🇸 Cultural Note】\nアメリカのホテルのドアはオートロックが基本なので、鍵（カードキー）を部屋に置いたまま外に出ると締め出されます（Lockout）。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はあなたを待っているタクシーを見ました。」となるように並び替えてください。",
+      "choices": ["taxi", "saw", "a", "you", "waiting", "for", "I"],
+      "answer": "Isawataxiwaitingforyou",
+      "explanation": "a taxi waiting for you（あなたを待っているタクシー）。\n【🇺🇸 Cultural Note】\nニューヨークのイエローキャブ（Yellow Cab）は街のアイコンですが、最近はUberやLyftなどの配車アプリが主流になりつつあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「割れたガラスに触らないで」\nDon't touch the (      ) glass.",
+      "choices": [],
+      "answer": "broken",
+      "explanation": "broken glass（割れたガラス）。\n【🇺🇸 Cultural Note】\nガラス瓶のリサイクル（Recycling）は州によってルールが異なり、デポジット制（瓶を返すと数セント戻ってくる）の州もあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これはわくわくする本です」\nThis is an (      ) book.",
+      "choices": ["exciting", "excited", "excite", "excites"],
+      "answer": "exciting",
+      "explanation": "an exciting book（わくわくさせる本）。\n【🇺🇸 Cultural Note】\nコミックブック（アメコミ）は子供だけでなく大人にもコレクターが多いジャンルです。"
+    },
+    {
+      "type": "sort",
+      "question": "「壁にかかっている絵を見てください。」となるように並び替えてください。",
+      "choices": ["picture", "Look", "at", "the", "wall", "on", "the", "hanging"],
+      "answer": "Lookatthepicturehangingonthewall",
+      "explanation": "the picture hanging on the wall（壁にかかっている絵）。hang（かかる）の現在分詞hanging。\n【🇺🇸 Cultural Note】\nアメリカの家では、家族写真（Family portrait）を壁にたくさん飾るのが一般的です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「中国で作られた製品は安いです」\nProducts (      ) in China are cheap.",
+      "choices": [],
+      "answer": "made",
+      "explanation": "Products made in China（中国で作られた製品）。\n【🇺🇸 Cultural Note】\nアメリカのスーパーに並ぶ日用品やおもちゃの多くは \"Made in China\" です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「怪我をした選手は運ばれました」\nThe (      ) player was carried away.",
+      "choices": ["injured", "injuring", "injure", "injures"],
+      "answer": "injured",
+      "explanation": "The injured player（怪我をした選手）。injure（怪我をさせる）の過去分詞。\n【🇺🇸 Cultural Note】\nアメフトは激しいスポーツなので怪我が絶えませんが、脳震盪（Concussion）対策などのルール改正が進んでいます。"
     }
   ]
 }
