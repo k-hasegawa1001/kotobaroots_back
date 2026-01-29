@@ -1,734 +1,735 @@
 {
   "learning_topic": "基本語彙",
+  "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "「おはよう」は英語で何と言いますか？",
-      "choices": ["Good morning", "Good afternoon", "Good evening", "Good night"],
-      "answer": "Good morning",
-      "explanation": "朝の挨拶です。\n\n【実用】家族や親しい友人の間では、単にMorning!とだけ言うこともよくあります。"
-    },
-    {
-      "type": "sort",
-      "question": "「ありがとう」を英語で綴ってください。",
-      "choices": ["k", "n", "h", "a", "T"],
-      "answer": "Thank",
-      "explanation": "感謝を伝える基本の言葉です。\n\n【文化】Thank youはコンビニのレジからビジネスまで、日本人が想像するより遥かに高い頻度で使われる「魔法の言葉」です。"
+      "question": "「エレベーター」はアメリカ英語で何と言いますか？",
+      "choices": ["elevator", "lift", "escalator", "stair"],
+      "answer": "elevator",
+      "explanation": "アメリカではelevatorと言います。イギリスではliftを使うのが一般的です。\n【🇺🇸 Cultural Note】\nアメリカの発明家オーチスが落下防止装置付きのエレベーターを開発し、摩天楼（Skyscraper）の建設が可能になりました。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「さようなら」の丁寧な言い方は？\nGood(      )",
+      "question": "「サッカー」を英語で書いてください。\n(      )",
       "choices": [],
-      "answer": "bye",
-      "explanation": "Goodbyeは「God be with ye（神があなたと共にありますように）」という古い英語が短くなったものです。"
+      "answer": "soccer",
+      "explanation": "アメリカでFootballと言うとアメフトを指すため、このスポーツはSoccerと呼びます。\n【🇺🇸 Cultural Note】\n近年、MLS（メジャーリーグサッカー）の人気が高まっていますが、依然として「4大スポーツ」に次ぐ位置づけです。"
+    },
+    {
+      "type": "sort",
+      "question": "「フライドポテト」を英語にしてください。",
+      "choices": ["French", "fries"],
+      "answer": "Frenchfries",
+      "explanation": "アメリカではFrench fries（または単にfries）と呼びます。\n【🇺🇸 Cultural Note】\nハンバーガーの付け合わせの定番です。イギリス英語の\"Chips\"はアメリカではポテトチップスを意味します。"
     },
     {
       "type": "multiple_choice",
-      "question": "数字の「1」を英語で綴ると？",
-      "choices": ["One", "On", "Won", "Wan"],
-      "answer": "One",
-      "explanation": "数字の1です。\n\n【発音】Won（勝った）と同じ発音です。"
-    },
-    {
-      "type": "sort",
-      "question": "「2」を英語で綴ってください。",
-      "choices": ["w", "o", "T"],
-      "answer": "Two",
-      "explanation": "数字の2です。\n\n【豆知識】Twin（双子）やTwice（2回）など、Twで始まる単語には「2」に関連する意味が含まれることが多いです。"
+      "question": "「地下鉄」はアメリカ英語で何と言いますか？",
+      "choices": ["subway", "underground", "tube", "metro"],
+      "answer": "subway",
+      "explanation": "アメリカではSubwayと言います。イギリスではUndergroundやTubeと呼ばれます。\n【🇺🇸 Cultural Note】\nニューヨークの地下鉄（NYC Subway）は24時間運行しており、ニューヨーカーの足として欠かせません。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "数字の「3」を英語で綴ると？\nTh(      )e",
+      "question": "「アパート」を英語で書いてください。\n(      )",
       "choices": [],
-      "answer": "re",
-      "explanation": "Threeです。\n\n【発音】thの音は舌を軽く噛んで息を出すため、日本人にとって最初の難関の一つです。"
+      "answer": "apartment",
+      "explanation": "アメリカではApartmentと言います。イギリスではFlatを使うことが多いです。\n【🇺🇸 Cultural Note】\nニューヨークなどでは、部屋をシェアして住む「ルームシェア」が一般的です。"
     },
     {
       "type": "multiple_choice",
-      "question": "週の始まり「日曜日」は英語で？",
-      "choices": ["Sunday", "Monday", "Saturday", "Sunnyday"],
-      "answer": "Sunday",
-      "explanation": "太陽（Sun）の日という意味です。\n\n【文化・歴史】古代ローマや北欧神話の神々が曜日の名前の由来になっています。"
+      "question": "「休暇」はアメリカ英語で何と言いますか？",
+      "choices": ["vacation", "holiday", "break", "rest"],
+      "answer": "vacation",
+      "explanation": "仕事や学校を休んで旅行に行くような「休暇」はVacationと言います。Holidayは「祝日」を指します。\n【🇺🇸 Cultural Note】\nアメリカには「有給休暇を完全消化する」文化はあまりなく、夏休み（Summer Vacation）も日本や欧州に比べると短めです。"
     },
     {
       "type": "sort",
-      "question": "「月曜日」を英語で綴ってください。",
-      "choices": ["n", "o", "M", "d", "a", "y"],
-      "answer": "Monday",
-      "explanation": "Moon（月）の日という意味から来ています。"
+      "question": "「ガソリンスタンド」を英語にしてください。",
+      "choices": ["station", "gas"],
+      "answer": "gasstation",
+      "explanation": "Gas stationと言います。GasはGasolineの略です。\n【🇺🇸 Cultural Note】\nアメリカは車社会なので、ガソリンスタンドはコンビニ（Convenience store）を併設した生活の拠点です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「火曜日」は英語で？\nTu(      )day",
+      "question": "「クッキー」を英語で書いてください。\n(      )",
       "choices": [],
-      "answer": "es",
-      "explanation": "Tuesdayです。\n\n【文化・歴史】北欧神話の軍神「Tiu（テュール）」の日が由来です。"
+      "answer": "cookie",
+      "explanation": "アメリカではCookieです。イギリスではBiscuit（ビスケット）と呼ぶ範囲が広いです。\n【🇺🇸 Cultural Note】\nチョコチップクッキーはアメリカの家庭の味（Comfort food）の代表格です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「水曜日」は英語で？",
-      "choices": ["Wednesday", "Wendsday", "Wenesday", "Wednesdey"],
-      "answer": "Wednesday",
-      "explanation": "綴りが難しい単語の代表格です。「d」は発音しません。\n\n【文化・歴史】北欧神話の主神「Woden（オーディン）」の日が由来です。"
-    },
-    {
-      "type": "sort",
-      "question": "「木曜日」を英語で綴ってください。",
-      "choices": ["u", "r", "s", "T", "h", "d", "a", "y"],
-      "answer": "Thursday",
-      "explanation": "雷神「Thor（トール）」の日が由来です。\n\n【発音】Tuesday（火曜）と聞き間違えやすいので注意が必要です。"
+      "question": "「ズボン」はアメリカ英語で何と言いますか？",
+      "choices": ["pants", "trousers", "jeans", "shorts"],
+      "answer": "pants",
+      "explanation": "アメリカではPantsと言います。イギリスでPantsと言うと「下着」を意味してしまいます。\n【🇺🇸 Cultural Note】\nジーンズ（Blue Jeans）はアメリカのゴールドラッシュ時代に作業着として生まれました。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「金曜日」は英語で？\nFr(      )day",
+      "question": "「消しゴム」を英語で書いてください。\n(      )",
       "choices": [],
-      "answer": "i",
-      "explanation": "Fridayです。\n\n【文化】TGIF (Thank God It's Friday) という言葉があるほど、週末を待つ喜びを表す日です。"
+      "answer": "eraser",
+      "explanation": "アメリカではEraserです。イギリスではRubberと言いますが、アメリカでRubberと言うとコンドームを意味するスラングになるので注意が必要です。\n【🇺🇸 Cultural Note】\nアメリカの学校では、鉛筆の後ろに小さな消しゴムがついているのが標準的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「秋」をアメリカ英語にしてください。",
+      "choices": ["Fall"],
+      "answer": "Fall",
+      "explanation": "アメリカではFallをよく使います（Autumnも通じます）。\n【🇺🇸 Cultural Note】\n\"Fall\"の由来は\"Leaf fall\"（落ち葉）から来ています。パンプキンスパイスの季節です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「土曜日」は英語で？",
-      "choices": ["Saturday", "Sunday", "Saterday", "Sataday"],
-      "answer": "Saturday",
-      "explanation": "ローマ神話の農業の神「Saturn（サターン）」の日です。\n\n【文化】土曜の夜にパーティーなどを楽しむことをSaturday Night Feverと言ったりします。"
-    },
-    {
-      "type": "sort",
-      "question": "「赤色」を英語で綴ってください。",
-      "choices": ["e", "d", "R"],
-      "answer": "Red",
-      "explanation": "最も基本的な色の一つです。\n\n【実用】赤字（Red ink）や赤信号など、危険や停止を表す色として世界共通で使われます。"
+      "question": "「列（待ち行列）」はアメリカ英語で何と言いますか？",
+      "choices": ["line", "queue", "row", "file"],
+      "answer": "line",
+      "explanation": "「列に並ぶ」はStand in lineと言います。イギリスではQueueを使います。\n【🇺🇸 Cultural Note】\nブラックフライデー（Black Friday）のセールでは、店の前にお客さんが長いLineを作ります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「青色」は英語で？\nBl(      )",
+      "question": "「映画」をアメリカ英語で書いてください。\n(      )",
       "choices": [],
-      "answer": "ue",
-      "explanation": "Blueです。\n\n【文化】I feel blue（憂鬱だ）のように、悲しみや落ち込んだ気分を表す色としても使われます。"
+      "answer": "movie",
+      "explanation": "アメリカではMovieが一般的です。Filmはより芸術的な作品を指す場合に使われます。\n【🇺🇸 Cultural Note】\n週末に映画館（Movie theater）に行き、ポップコーンを食べるのは定番のデートコースです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「黄色」は英語で？",
-      "choices": ["Yellow", "Yellows", "Yello", "Yerrow"],
-      "answer": "Yellow",
-      "explanation": "注意を促す色です。\n\n【文化】アメリカでは臆病者のことをYellowと呼ぶスラングがあります。"
+      "question": "「1階」はアメリカ英語で何と言いますか？",
+      "choices": ["first floor", "ground floor", "one floor", "base floor"],
+      "answer": "first floor",
+      "explanation": "アメリカでは地面にある階をFirst floorと呼びます。イギリスではGround floorと呼び、2階がFirst floorになります。\n【🇺🇸 Cultural Note】\nエレベーターのボタンもアメリカでは「1」が1階ですが、欧州では「0」や「G」が1階です。"
     },
     {
       "type": "sort",
-      "question": "「緑色」を英語で綴ってください。",
-      "choices": ["r", "e", "e", "n", "G"],
-      "answer": "Green",
-      "explanation": "Greenです。\n\n【文化】エコや環境保護（Go Green）を象徴する色です。"
+      "question": "「歩道」を英語にしてください。",
+      "choices": ["sidewalk"],
+      "answer": "sidewalk",
+      "explanation": "Sidewalk（道の脇）と言います。イギリスではPavementです。\n【🇺🇸 Cultural Note】\nハリウッドの\"Walk of Fame\"は、スターの名前が刻まれた有名なSidewalkです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「黒色」は英語で？\nBla(      )",
+      "question": "「ゴミ」をアメリカ英語で書いてください。\n(      )",
       "choices": [],
-      "answer": "ck",
-      "explanation": "Blackです。\n\n【実用】Black coffee（ブラックコーヒー）は砂糖やミルクを入れないコーヒーのことです。"
+      "answer": "trash",
+      "explanation": "TrashまたはGarbageと言います。イギリスではRubbishを使います。\n【🇺🇸 Cultural Note】\nアメリカの家庭用ゴミ箱（Trash can）は非常に大きく、週に一度巨大な収集車が回収に来ます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「白色」は英語で？",
-      "choices": ["White", "Wite", "Whight", "Wait"],
-      "answer": "White",
-      "explanation": "Whiteです。\n\n【文化】White lie（白い嘘）とは、相手を傷つけないための優しい嘘のことです。"
+      "question": "「薬局」はアメリカ英語で何と言いますか？",
+      "choices": ["drugstore", "chemist", "pharmacy", "clinic"],
+      "answer": "drugstore",
+      "explanation": "Drugstore（ドラッグストア）またはPharmacyと言います。イギリスではChemistです。\n【🇺🇸 Cultural Note】\nCVSやWalgreensなどのドラッグストアは、薬だけでなく食料品や日用品も売っているコンビニのような存在です。"
     },
     {
       "type": "sort",
-      "question": "「母」を英語で綴ってください。",
-      "choices": ["t", "h", "e", "r", "M", "o"],
-      "answer": "Mother",
-      "explanation": "フォーマルな言い方です。\n\n【実用】日常会話ではMom（米）やMum（英）と呼ぶのが一般的です。"
+      "question": "「スニーカー」を英語にしてください。",
+      "choices": ["sneakers"],
+      "answer": "sneakers",
+      "explanation": "Sneakersと言います。イギリスではTrainersです。\n【🇺🇸 Cultural Note】\nナイキやコンバースなど、アメリカのスニーカー文化（Sneakerhead culture）は世界中に影響を与えています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「父」は英語で？\nFa(      )er",
+      "question": "「数学」の略称をアメリカ英語で書いてください。\n(      )",
       "choices": [],
-      "answer": "th",
-      "explanation": "Fatherです。\n\n【実用】日常会話ではDadやDaddyと呼びます。"
+      "answer": "math",
+      "explanation": "アメリカではsをつけずにMathと言います。イギリスではMathsです。\n【🇺🇸 Cultural Note】\nアメリカの数学教育では、電卓（Calculator）の使用が早い段階から認められていることが多いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「兄弟（男）」は英語で？",
-      "choices": ["Brother", "Sister", "Mother", "Friend"],
-      "answer": "Brother",
-      "explanation": "兄も弟もBrotherです。区別したいときはOlder brother（兄）、Younger brother（弟）と言います。"
+      "question": "「色」のアメリカ英語のつづりはどれですか？",
+      "choices": ["color", "colour", "colur", "coler"],
+      "answer": "color",
+      "explanation": "アメリカ英語ではuを入れずにcolorと書きます。イギリス英語はcolourです。\n【🇺🇸 Cultural Note】\n独立時にノア・ウェブスターが辞書を作る際、合理的な綴りを採用したためアメリカ独特のスペルが生まれました。"
     },
     {
       "type": "sort",
-      "question": "「姉妹（女）」を英語で綴ってください。",
-      "choices": ["i", "s", "t", "e", "r", "S"],
-      "answer": "Sister",
-      "explanation": "姉も妹もSisterです。\n\n【文化】修道女（シスター）のことも指します。"
+      "question": "「お勘定（レストランで）」を英語にしてください。",
+      "choices": ["check"],
+      "answer": "check",
+      "explanation": "Checkと言います。イギリスではBillです。\n【🇺🇸 Cultural Note】\nアメリカのレストランではテーブル会計が基本です。担当のサーバーに\"Check, please.\"と伝えます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「友人」は英語で？\nFr(      )nd",
+      "question": "「トイレ（公共の）」をアメリカ英語で書いてください。\n(      )",
       "choices": [],
-      "answer": "ie",
-      "explanation": "Friendです。「終わり（end）まで一緒にいるのが友人（fri-end）」という覚え方があります。"
+      "answer": "restroom",
+      "explanation": "Restroom（休憩室）という婉曲的な表現を好みます。Bathroom（浴室）とも言います。Toiletは便器そのものを指すため、場所を指す言葉としてはあまり使いません。\n【🇺🇸 Cultural Note】\n「トイレを借りてもいいですか？」は\"May I use the restroom?\"と言うのが丁寧です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「先生」は英語で？",
-      "choices": ["Teacher", "Teachear", "Teecher", "Teachor"],
-      "answer": "Teacher",
-      "explanation": "Teach（教える）人（er）です。\n\n【文化】英語圏の学校では、先生を呼ぶ時にTeacher!とは言わず、Mr. Smithのように名前で呼ぶのが普通です。"
+      "question": "「庭」はアメリカ英語で何と言いますか？",
+      "choices": ["yard", "garden", "park", "lawn"],
+      "answer": "yard",
+      "explanation": "家の周りの芝生エリアはYard（Backyard/Front yard）と呼びます。Gardenと言うと「花壇」や「菜園」を指すことが多いです。\n【🇺🇸 Cultural Note】\n週末に芝刈り（Mowing the lawn）をするのは、アメリカの父親の典型的な仕事です。"
     },
     {
       "type": "sort",
-      "question": "「学校」を英語で綴ってください。",
-      "choices": ["c", "h", "o", "o", "l", "S"],
-      "answer": "School",
-      "explanation": "Schoolです。\n\n【語源】ギリシャ語のSchole（暇、余暇）が語源です。昔は暇な人だけが学問をできたからです。"
+      "question": "「携帯電話」をアメリカ英語にしてください。",
+      "choices": ["phone", "cell"],
+      "answer": "cellphone",
+      "explanation": "Cell phone（セルフォン）と言います。イギリスではMobile phoneです。\n【🇺🇸 Cultural Note】\nCellular phone（セル方式の電話）の略です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「学生」は英語で？\nStu(      )nt",
+      "question": "「郵便番号」をアメリカ英語で書いてください。\n(      ) code",
       "choices": [],
-      "answer": "de",
-      "explanation": "Studentです。\n\n【関連】Study（勉強する）から派生した言葉です。"
+      "answer": "zip",
+      "explanation": "Zip codeと言います。イギリスではPostcodeです。\n【🇺🇸 Cultural Note】\nクレジットカードを使う際、セキュリティのためにZip codeの入力を求められることがあります（ガソリンスタンドなど）。"
     },
     {
       "type": "multiple_choice",
-      "question": "「机」は英語で？",
-      "choices": ["Desk", "Table", "Chair", "Board"],
-      "answer": "Desk",
-      "explanation": "勉強や仕事をするための引き出し付きの机をDesk、食事などをする台をTableと呼び分けます。"
+      "question": "「（建物の）中心」のアメリカ英語のつづりはどれですか？",
+      "choices": ["center", "centre", "centar", "centor"],
+      "answer": "center",
+      "explanation": "アメリカ英語では-erで終わるcenterを使います。イギリス英語は-re（centre）です。\n【🇺🇸 Cultural Note】\nショッピングモール（Shopping center）はアメリカの郊外生活の中心です。"
     },
     {
       "type": "sort",
-      "question": "「椅子」を英語で綴ってください。",
-      "choices": ["a", "i", "r", "C", "h"],
-      "answer": "Chair",
-      "explanation": "Chairです。\n\n【実用】Chairman（議長）は「椅子に座る人」という意味から来ています。"
+      "question": "「トラック」を英語にしてください。",
+      "choices": ["truck"],
+      "answer": "truck",
+      "explanation": "Truckと言います。イギリスではLorryです。\n【🇺🇸 Cultural Note】\nアメリカでは、荷台のある「ピックアップトラック」が自家用車として非常に人気があります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「鉛筆」は英語で？\nPen(      )l",
-      "choices": [],
-      "answer": "ci",
-      "explanation": "Pencilです。\n\n【実用】試験などで「Please use a No.2 pencil」と言われたら、HBの鉛筆のことです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「消しゴム」は英語で？",
-      "choices": ["Eraser", "Rubber", "Delete", "Cleaner"],
-      "answer": "Eraser",
-      "explanation": "アメリカ英語ではEraserです。Erase（消す）もの（er）です。\n\n【文化】イギリス英語ではRubberと呼びます。"
-    },
-    {
-      "type": "sort",
-      "question": "「ノート」を英語で綴ってください。",
-      "choices": ["o", "t", "e", "b", "o", "o", "k", "N"],
-      "answer": "Notebook",
-      "explanation": "Notebookです。\n\n【注意】Noteだけだと「メモ書き」や「紙幣」という意味になることがあります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「辞書」は英語で？\nDic(      )onary",
-      "choices": [],
-      "answer": "ti",
-      "explanation": "Dictionaryです。\n\n【実用】電子辞書はElectronic dictionaryと言います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「コンピューター」の正しい綴りは？",
-      "choices": ["Computer", "Conputer", "Computar", "Compueter"],
-      "answer": "Computer",
-      "explanation": "Compute（計算する）もの（er）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「リンゴ」を英語で綴ってください。",
-      "choices": ["p", "p", "l", "e", "A"],
-      "answer": "Apple",
-      "explanation": "Appleです。\n\n【文化】An apple a day keeps the doctor away（1日1個のリンゴは医者いらず）という諺があります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「オレンジ」は英語で？\nOran(      )",
-      "choices": [],
-      "answer": "ge",
-      "explanation": "Orangeです。\n\n【豆知識】実は「オレンジ色」という言葉ができる前、オレンジ色はRed（赤）の一部として扱われていました。果物のオレンジが伝わってから色の名前になりました。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「バナナ」は英語で？",
-      "choices": ["Banana", "Bannana", "Bananna", "Bnana"],
-      "answer": "Banana",
-      "explanation": "Bananaです。\n\n【文化】Go bananasで「気が狂う、熱狂する」というスラングになります。"
-    },
-    {
-      "type": "sort",
-      "question": "「水」を英語で綴ってください。",
-      "choices": ["a", "t", "e", "r", "W"],
-      "answer": "Water",
-      "explanation": "Waterです。\n\n【実用】海外のレストランで水を頼むときは、Tap water（水道水＝無料）かMineral water（有料）かを区別する必要があります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「牛乳」は英語で？\nMi(      )k",
-      "choices": [],
-      "answer": "l",
-      "explanation": "Milkです。\n\n【文化】豆乳はSoy milk、アーモンドミルクはAlmond milkと言います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「コーヒー」の正しい綴りは？",
-      "choices": ["Coffee", "Cofee", "Coffeee", "Koffee"],
-      "answer": "Coffee",
-      "explanation": "fとeが2つずつあるのがポイントです。"
-    },
-    {
-      "type": "sort",
-      "question": "「朝食」を英語で綴ってください。",
-      "choices": ["r", "e", "a", "k", "f", "a", "s", "t", "B"],
-      "answer": "Breakfast",
-      "explanation": "Break（破る）+ Fast（断食）。寝ている間の断食状態を破って最初に食べる食事、という意味です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「昼食」は英語で？\nLun(      )",
-      "choices": [],
-      "answer": "ch",
-      "explanation": "Lunchです。\n\n【文化】日本語の「ランチ」と同じ感覚で使われます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「夕食」は英語で？",
-      "choices": ["Dinner", "Diner", "Lunch", "Snack"],
-      "answer": "Dinner",
-      "explanation": "一日のメインの食事をDinnerと呼びます。\n\n【注意】Diner（nが1つ）だと、アメリカの食堂・レストランという意味になります。"
-    },
-    {
-      "type": "sort",
-      "question": "「家」を英語で綴ってください。",
-      "choices": ["o", "u", "s", "e", "H"],
-      "answer": "House",
-      "explanation": "建物としての家をHouse、家庭や帰る場所としての家をHomeと使い分けます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「部屋」は英語で？\nRo(      )m",
+      "question": "「お母さん」のアメリカ英語のつづりを書いてください。\nM(      )m",
       "choices": [],
       "answer": "o",
-      "explanation": "Roomです。\n\n【実用】ホテルのSingle room（一人部屋）やDouble room（二人部屋）などで使われます。"
+      "explanation": "Mom（マム）と書きます。イギリスではMum（マム）です。\n【🇺🇸 Cultural Note】\n母の日は\"Mother's Day\"。アメリカ発祥の祝日です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「ドア」は英語で？",
-      "choices": ["Door", "Doar", "Dore", "Dorr"],
-      "answer": "Door",
-      "explanation": "Doorです。\n\n【実用】Outdoor（屋外）やIndoor（屋内）という言葉にも使われています。"
+      "question": "「持ち帰り（料理）」はアメリカ英語で何と言いますか？",
+      "choices": ["takeout", "takeaway", "parcel", "pack"],
+      "answer": "takeout",
+      "explanation": "Takeout（テイクアウト）と言います。イギリスではTakeawayです。\n【🇺🇸 Cultural Note】\n中華料理のTakeoutは、独特な白い紙箱（Oyster pail）に入っているのが定番です。"
     },
     {
       "type": "sort",
-      "question": "「窓」を英語で綴ってください。",
-      "choices": ["i", "n", "d", "o", "w", "W"],
-      "answer": "Window",
-      "explanation": "Windowです。\n\n【語源】Wind（風）のeye（目）＝風の通り穴、という意味が語源です。"
+      "question": "「炭酸飲料」をアメリカ英語にしてください。",
+      "choices": ["soda"],
+      "answer": "soda",
+      "explanation": "Soda（ソーダ）またはPopと言います。\n【🇺🇸 Cultural Note】\nレストランでは「リフィル（おかわり）無料」が一般的です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「台所」は英語で？\nKit(      )en",
+      "question": "「飴（あめ）」をアメリカ英語で書いてください。\n(      )",
       "choices": [],
-      "answer": "ch",
-      "explanation": "Kitchenです。\n\n【実用】アパート探しの際、Kitchenetteとあれば簡易キッチン（ミニキッチン）のことです。"
+      "answer": "candy",
+      "explanation": "Candyと言います。イギリスではSweetsです。\n【🇺🇸 Cultural Note】\nハロウィンでは\"Trick or Treat\"と言ってCandyをもらい歩きます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「庭」は英語で？",
-      "choices": ["Garden", "Park", "Yard", "Field"],
-      "answer": "Garden",
-      "explanation": "花や植物が植えられている庭をGardenと言います。芝生だけの庭はYardと言うこともあります。"
+      "question": "「高速道路」はアメリカ英語で何と言いますか？",
+      "choices": ["freeway", "motorway", "autobahn", "carway"],
+      "answer": "freeway",
+      "explanation": "Freeway（フリーウェイ）またはHighwayと言います。イギリスではMotorwayです。\n【🇺🇸 Cultural Note】\nアメリカの州間高速道路（Interstate Highway）は、原則として通行料が無料（Free）である区間が多いです。"
     },
     {
       "type": "sort",
-      "question": "「花」を英語で綴ってください。",
-      "choices": ["l", "o", "w", "e", "r", "F"],
-      "answer": "Flower",
-      "explanation": "Flowerです。\n\n【発音】Flour（小麦粉）と全く同じ発音です。"
+      "question": "「懐中電灯」をアメリカ英語にしてください。",
+      "choices": ["flashlight"],
+      "answer": "flashlight",
+      "explanation": "Flashlightと言います。イギリスではTorchです。\n【🇺🇸 Cultural Note】\n停電（Blackout）やキャンプの必需品です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「木」は英語で？\nTr(      )",
+      "question": "「（車の）ボンネット」をアメリカ英語で書いてください。\n(      )",
       "choices": [],
-      "answer": "ee",
-      "explanation": "Treeです。\n\n【発音】Three（3）と間違えないよう、舌を噛まずに発音します。"
+      "answer": "hood",
+      "explanation": "Hood（フード）と言います。イギリスではBonnetです。\n【🇺🇸 Cultural Note】\n車の後部トランクはTrunk（イギリスではBoot）と言います。"
     },
     {
       "type": "multiple_choice",
-      "question": "「川」は英語で？",
-      "choices": ["River", "Sea", "Lake", "Pond"],
-      "answer": "River",
-      "explanation": "Riverです。\n\n【文化】Amazon River（アマゾン川）など、固有名詞の一部としてよく使われます。"
+      "question": "「小切手」のアメリカ英語のつづりはどれですか？",
+      "choices": ["check", "cheque", "chek", "chec"],
+      "answer": "check",
+      "explanation": "Checkと書きます。イギリスではChequeです。\n【🇺🇸 Cultural Note】\nアメリカでは家賃や公共料金の支払いに、個人小切手（Personal check）を使う文化がまだ残っています。"
     },
     {
       "type": "sort",
-      "question": "「山」を英語で綴ってください。",
-      "choices": ["o", "u", "n", "t", "a", "i", "n", "M"],
-      "answer": "Mountain",
-      "explanation": "Mountainです。\n\n【実用】略してMt. Fuji（富士山）のように書きます。"
+      "question": "「缶（飲み物の）」をアメリカ英語にしてください。",
+      "choices": ["can"],
+      "answer": "can",
+      "explanation": "Canと言います。イギリスではTinを使うこともあります。\n【🇺🇸 Cultural Note】\n\"Soda can\"や\"Beer can\"など。アメリカのリサイクル意識は州によって異なります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「雨」は英語で？\nRa(      )n",
+      "question": "「10億」を英語で書いてください。\n(      )",
       "choices": [],
-      "answer": "i",
-      "explanation": "Rainです。\n\n【諺】Rain cats and dogsで「土砂降り」という意味になります。"
+      "answer": "billion",
+      "explanation": "Billion（1,000,000,000）です。\n【🇺🇸 Cultural Note】\nアメリカのビリオネア（億万長者）といえば、イーロン・マスクやビル・ゲイツなどが有名です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「雪」は英語で？",
-      "choices": ["Snow", "Snou", "Sno", "Snaw"],
-      "answer": "Snow",
-      "explanation": "Snowです。\n\n【文化】白雪姫はSnow Whiteと言います。"
+      "question": "「校長先生」はアメリカ英語で何と言いますか？",
+      "choices": ["principal", "headmaster", "master", "leader"],
+      "answer": "principal",
+      "explanation": "Principalと言います。イギリスではHeadmaster/Headmistressです。\n【🇺🇸 Cultural Note】\n生徒が問題を起こすと\"Sent to the principal's office\"（校長室送り）になります。"
     },
     {
       "type": "sort",
-      "question": "「春」を英語で綴ってください。",
-      "choices": ["p", "r", "i", "n", "g", "S"],
-      "answer": "Spring",
-      "explanation": "Springです。\n\n【多義語】植物が芽吹く季節としての「春」の他、「バネ」「泉」「跳ねる」という意味もあります。"
+      "question": "「クローゼット」を英語にしてください。",
+      "choices": ["closet"],
+      "answer": "closet",
+      "explanation": "Closetと言います。イギリスではWardrobeを使うことがあります。\n【🇺🇸 Cultural Note】\nアメリカの家のクローゼット、特に\"Walk-in closet\"（歩いて入れる収納）は非常に広いです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「夏」は英語で？\nSum(      )er",
+      "question": "「プログラム」のアメリカ英語のつづりを書いてください。\nProgra(      )",
       "choices": [],
       "answer": "m",
-      "explanation": "Summerです。\n\n【文化】サマータイム（夏時間）は英語でDaylight Saving Timeと言います。"
+      "explanation": "Programです。イギリス英語ではProgrammeとつづることがあります。\n【🇺🇸 Cultural Note】\nコンピュータのプログラム（Computer program）は世界共通でこのつづりが主流です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「秋」は英語で？",
-      "choices": ["Fall", "Winter", "Spring", "Hot"],
-      "answer": "Fall",
-      "explanation": "アメリカ英語では葉が落ちる（Fall）季節なのでFallと言います。イギリス英語ではAutumnを使います。"
+      "question": "「劇場」のアメリカ英語のつづりはどれですか？",
+      "choices": ["theater", "theatre", "theaterr", "teater"],
+      "answer": "theater",
+      "explanation": "-erで終わるTheaterがアメリカ式です。イギリス式は-re（Theatre）です。\n【🇺🇸 Cultural Note】\nブロードウェイ（Broadway）の劇場街はニューヨークの象徴です。"
     },
     {
       "type": "sort",
-      "question": "「冬」を英語で綴ってください。",
-      "choices": ["i", "n", "t", "e", "r", "W"],
-      "answer": "Winter",
-      "explanation": "Winterです。\n\n【文化】Winter sports（スキーやスケート）でおなじみです。"
+      "question": "「マイル（距離の単位）」を英語にしてください。",
+      "choices": ["mile"],
+      "answer": "mile",
+      "explanation": "Mile（約1.6キロメートル）。\n【🇺🇸 Cultural Note】\nアメリカの道路標識や車のスピードメーターは全てマイル表示（MPH）です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "数字の「4」は英語で？\nFo(      )r",
+      "question": "「ポンド（重さの単位）」を英語で書いてください。\n(      )",
       "choices": [],
-      "answer": "u",
-      "explanation": "Fourです。\n\n【発音】For（～のために）と同じ発音です。"
+      "answer": "pound",
+      "explanation": "Pound（約450グラム）。略号はlbです。\n【🇺🇸 Cultural Note】\n体重や野菜の量り売りはポンドを使います。通貨のポンド（イギリス）とは異なります。"
     },
     {
       "type": "multiple_choice",
-      "question": "数字の「5」は英語で？",
-      "choices": ["Five", "Fiv", "Hive", "Fife"],
-      "answer": "Five",
-      "explanation": "Fiveです。\n\n【注意】5番目（Fifth）や15（Fifteen）、50（Fifty）になるとvがfに変わります。"
+      "question": "「ガロン（液体の単位）」は約何リットルですか？",
+      "choices": ["約3.8リットル", "約1リットル", "約10リットル", "約500ミリリットル"],
+      "answer": "約3.8リットル",
+      "explanation": "1 Gallon ≒ 3.78 Liters。\n【🇺🇸 Cultural Note】\nアメリカのスーパーでは、牛乳やジュースが巨大な1ガロンボトルで売られています。"
     },
     {
       "type": "sort",
-      "question": "「6」を英語で綴ってください。",
-      "choices": ["i", "x", "S"],
-      "answer": "Six",
-      "explanation": "Sixです。"
+      "question": "「インチ（長さの単位）」を英語にしてください。",
+      "choices": ["inch"],
+      "answer": "inch",
+      "explanation": "Inch（約2.54センチメートル）。\n【🇺🇸 Cultural Note】\n身長やテレビの画面サイズなどに使われます。12インチで1フート（Foot）になります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "数字の「7」は英語で？\nSe(      )en",
+      "question": "「フィート（長さの単位）」を英語で書いてください。\n(      )",
       "choices": [],
-      "answer": "v",
-      "explanation": "Sevenです。\n\n【文化】Lucky sevenと言われるように、欧米でも幸運の数字とされることが多いです。"
+      "answer": "feet",
+      "explanation": "Feet（単数形はFoot）。約30センチメートル。\n【🇺🇸 Cultural Note】\n身長を表す時、\"I'm 5'10\"\"（5フィート10インチ）のように言います。"
     },
     {
       "type": "multiple_choice",
-      "question": "数字の「8」は英語で？",
-      "choices": ["Eight", "Eite", "Aight", "Eightt"],
-      "answer": "Eight",
-      "explanation": "ghは発音しません。\n\n【文化】横にすると∞（無限大）になりますが、英語でもInfinityと言います。"
+      "question": "「華氏（温度の単位）」の英語名は？",
+      "choices": ["Fahrenheit", "Celsius", "Kelvin", "Degree"],
+      "answer": "Fahrenheit",
+      "explanation": "Fahrenheit（ファーレンハイト）。記号は°F。\n【🇺🇸 Cultural Note】\n水が凍るのが32°F、沸騰するのが212°Fです。感覚的に慣れるまで時間がかかります。"
     },
     {
       "type": "sort",
-      "question": "「9」を英語で綴ってください。",
-      "choices": ["i", "n", "e", "N"],
-      "answer": "Nine",
-      "explanation": "Nineです。\n\n【注意】9番目になるときはeが消えてNinthになります。"
+      "question": "「セント（通貨の単位）」を英語にしてください。",
+      "choices": ["cent"],
+      "answer": "cent",
+      "explanation": "Cent。1ドルの100分の1です。\n【🇺🇸 Cultural Note】\n1セント硬貨は\"Penny\"という愛称で呼ばれます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "数字の「10」は英語で？\nT(      )n",
+      "question": "「ドル（通貨）」のスラング（俗語）を書いてください。\n(      )",
       "choices": [],
-      "answer": "e",
-      "explanation": "Tenです。\n\n【実用】Top 10ランキングなどでよく使われます。"
+      "answer": "buck",
+      "explanation": "Buck（バック）。\"10 bucks\"で10ドルの意味です。\n【🇺🇸 Cultural Note】\nかつて鹿皮（Buckskin）が取引に使われていたことに由来すると言われています。"
     },
     {
       "type": "multiple_choice",
-      "question": "数字の「11」は英語で？",
-      "choices": ["Eleven", "Onety-one", "Elevevn", "Ten-one"],
-      "answer": "Eleven",
-      "explanation": "Elevenです。12までは独自の単語を使います。\n\n【文化】セブン-イレブンは元々、朝7時から夜11時まで営業していたことに由来します。"
+      "question": "「素晴らしい！」を意味するアメリカの頻出単語は？",
+      "choices": ["Awesome", "Brilliant", "Lovely", "Fancy"],
+      "answer": "Awesome",
+      "explanation": "Awesome（オーサム）はアメリカ人が非常によく使う褒め言葉です。BrilliantやLovelyはイギリス的です。\n【🇺🇸 Cultural Note】\n日常会話で、相槌として「いいね！」という意味でも頻繁に使われます。"
     },
     {
       "type": "sort",
-      "question": "「12」を英語で綴ってください。",
-      "choices": ["w", "e", "l", "v", "e", "T"],
-      "answer": "Twelve",
-      "explanation": "Twelveです。\n\n【実用】1ダース（Dozen）は12個のことです。"
+      "question": "「相棒、君たち（呼びかけ）」を英語にしてください。",
+      "choices": ["guys"],
+      "answer": "guys",
+      "explanation": "Guys（ガイズ）。\"Hi guys\"のように、男女問わず親しいグループへの呼びかけとして使います。\n【🇺🇸 Cultural Note】\n男性だけでなく、女性グループに対しても\"You guys\"と呼びかけるのがアメリカ流です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "数字の「20」は英語で？\nTw(      )ty",
+      "question": "「なんてこった！（驚き）」を意味する感嘆詞を書いてください。\n(      )",
       "choices": [],
-      "answer": "en",
-      "explanation": "Twentyです。\n\n【発音】アメリカ英語では「トウェニィ」のように聞こえることが多いです。"
+      "answer": "gosh",
+      "explanation": "Oh my gosh（オーマイガッシュ）。Godと言うのを避けるための表現です。\n【🇺🇸 Cultural Note】\nアメリカは宗教的な国なので、神の名をみだりに口にすることを避ける表現（Euphemism）が多くあります。"
     },
     {
       "type": "multiple_choice",
-      "question": "数字の「100」は英語で？",
-      "choices": ["Hundred", "Thousand", "Million", "Billion"],
-      "answer": "Hundred",
-      "explanation": "One hundredです。0が2つ付きます。"
+      "question": "「調子はどう？」と聞かれた時のアメリカ的な返事は？",
+      "choices": ["I'm good.", "I'm fine.", "Not too bad.", "Mustn't grumble."],
+      "answer": "I'm good.",
+      "explanation": "I'm good. が最も一般的でカジュアルな返事です。Fineは少し堅苦しいか、元気がないように聞こえることもあります。\n【🇺🇸 Cultural Note】\nスーパーのレジ係など、知らない人同士でも\"How are you?\" \"Good, how are you?\"と挨拶を交わすのがアメリカ文化です。"
     },
     {
       "type": "sort",
-      "question": "「少年」を英語で綴ってください。",
-      "choices": ["o", "y", "B"],
-      "answer": "Boy",
-      "explanation": "Boyです。"
+      "question": "「またね（後で）」を英語にしてください。",
+      "choices": ["later"],
+      "answer": "later",
+      "explanation": "See you laterの略でLater（レイター）と言うことがあります。\n【🇺🇸 Cultural Note】\n別れ際に\"Have a nice day!\"と言うのもアメリカの定番です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「少女」は英語で？\nGi(      )l",
+      "question": "「かっこいい」を意味する基本単語を書いてください。\nC(      )l",
+      "choices": [],
+      "answer": "oo",
+      "explanation": "Cool（クール）。涼しいという意味ですが、会話では「いいね」「かっこいい」「了解」などの意味で多用されます。\n【🇺🇸 Cultural Note】\nジャズミュージシャンから広まったスラングと言われていますが、今や標準語に近い頻度で使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「本当に？」を意味するアメリカの頻出表現は？",
+      "choices": ["For real?", "Is it?", "Quite so.", "Indeed."],
+      "answer": "For real?",
+      "explanation": "For real?（マジで？）はカジュアルな会話でよく使われます。\n【🇺🇸 Cultural Note】\nReally? や Seriously? も同様によく使われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「どういたしまして（No problemの意）」を英語にしてください。",
+      "choices": ["sure"],
+      "answer": "sure",
+      "explanation": "Sure（シュア）。\"Thank you\"に対して\"Sure\"と返すのはアメリカ的でカジュアルな表現です。\n【🇺🇸 Cultural Note】\n\"You're welcome\"よりも軽く、友人同士や店員さんがよく使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「〜したい（want toの短縮形）」を書いてください。\nwan(      )",
+      "choices": [],
+      "answer": "na",
+      "explanation": "Wanna（ワナ）。Want toの口語的な短縮形です。\n【🇺🇸 Cultural Note】\n歌詞やSNS、親しい間柄での会話では頻繁に使われますが、フォーマルな書き言葉では避けます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「〜する予定だ（going toの短縮形）」は？",
+      "choices": ["gonna", "gotta", "wanna", "kinda"],
+      "answer": "gonna",
+      "explanation": "Gonna（ガナ）。Going toの短縮形です。\n【🇺🇸 Cultural Note】\n未来のことを話す時、ネイティブスピーカーはほぼ無意識にGonnaと発音しています。"
+    },
+    {
+      "type": "sort",
+      "question": "「しなければならない（have got toの短縮形）」を英語にしてください。",
+      "choices": ["gotta"],
+      "answer": "gotta",
+      "explanation": "Gotta（ガッタ）。\"I gotta go\"（もう行かなきゃ）のように使います。\n【🇺🇸 Cultural Note】\n映画やドラマのセリフで頻出する表現です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ベスト（衣服）」をアメリカ英語で書いてください。\n(      )",
+      "choices": [],
+      "answer": "vest",
+      "explanation": "Vestです。イギリスではWaistcoatと言います。イギリスでVestと言うと「肌着」になります。\n【🇺🇸 Cultural Note】\nスーツの三つ揃え（Three-piece suit）の一部です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「缶詰」はアメリカ英語で何と言いますか？",
+      "choices": ["canned food", "tinned food", "potted food", "jar food"],
+      "answer": "canned food",
+      "explanation": "Canned food（キャンド・フード）です。イギリスではTinned foodです。\n【🇺🇸 Cultural Note】\nアンディ・ウォーホルの「キャンベル・スープ缶」のアートは有名です。"
+    },
+    {
+      "type": "sort",
+      "question": "「蛇口」をアメリカ英語にしてください。",
+      "choices": ["faucet"],
+      "answer": "faucet",
+      "explanation": "Faucet（フォーセット）と言います。イギリスではTapです。\n【🇺🇸 Cultural Note】\nアメリカの水道水（Tap water）は多くの地域で飲めますが、ボトル入りの水を好む人も多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「横断歩道」をアメリカ英語で書いてください。\nCross(      )",
+      "choices": [],
+      "answer": "walk",
+      "explanation": "Crosswalk（クロスウォーク）と言います。イギリスではZebra crossingなどと言います。\n【🇺🇸 Cultural Note】\n歩行者優先（Pedestrians have the right of way）は厳格なルールです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「郵便」はアメリカ英語で何と言いますか？",
+      "choices": ["mail", "post", "letter", "send"],
+      "answer": "mail",
+      "explanation": "Mail（メール）です。イギリスではPostを使います（Postmanなど）。\n【🇺🇸 Cultural Note】\n家の前にある郵便受け（Mailbox）に旗がついているのがアメリカの特徴です。"
+    },
+    {
+      "type": "sort",
+      "question": "「切手」を英語にしてください。",
+      "choices": ["stamp"],
+      "answer": "stamp",
+      "explanation": "Stamp（スタンプ）と言います。\n【🇺🇸 Cultural Note】\n永遠に使える「Forever Stamp」という、郵便料金が値上がりしても追加料金不要の切手があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「映画館」をアメリカ英語で書いてください。\nMovie (      )",
+      "choices": [],
+      "answer": "theater",
+      "explanation": "Movie theaterです。イギリスではCinemaと言います。\n【🇺🇸 Cultural Note】\nドライブインシアター（車に乗ったまま映画を見る施設）はアメリカ文化のアイコンの一つです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「セーター」はアメリカ英語で何と言いますか？",
+      "choices": ["sweater", "jumper", "pullover", "jersey"],
+      "answer": "sweater",
+      "explanation": "Sweaterです。イギリスではJumperと言います。\n【🇺🇸 Cultural Note】\nクリスマスに「ダサいセーター（Ugly Christmas Sweater）」を着るパーティーが流行っています。"
+    },
+    {
+      "type": "sort",
+      "question": "「エビ」をアメリカ英語にしてください（大きいもの）。",
+      "choices": ["shrimp"],
+      "answer": "shrimp",
+      "explanation": "Shrimp（シュリンプ）と言います。イギリスやオーストラリアではPrawnを使うことが多いです。\n【🇺🇸 Cultural Note】\n映画「フォレスト・ガンプ」にも登場するように、アメリカ南部ではシュリンプ料理が有名です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ナス（野菜）」をアメリカ英語で書いてください。\nEgg(      )",
+      "choices": [],
+      "answer": "plant",
+      "explanation": "Eggplant（卵の植物）と言います。イギリスではAubergineです。\n【🇺🇸 Cultural Note】\n形が卵に似ている品種があったことから名付けられました。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ズッキーニ」のアメリカ英語のつづりは？",
+      "choices": ["zucchini", "courgette", "cucumber", "squash"],
+      "answer": "zucchini",
+      "explanation": "イタリア語由来のZucchiniを使います。イギリスではフランス語由来のCourgetteを使います。\n【🇺🇸 Cultural Note】\nアメリカの家庭菜園で育てやすく、夏には大量に収穫されて近所に配られることもあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「パクチー（香草）」をアメリカ英語にしてください。",
+      "choices": ["cilantro"],
+      "answer": "cilantro",
+      "explanation": "Cilantro（シラントロ：スペイン語由来）と言います。イギリスではCorianderです。\n【🇺🇸 Cultural Note】\nメキシコ料理（Tacosなど）がアメリカの食文化に深く浸透しているため、スペイン語名が定着しました。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「前菜」をアメリカ英語で書いてください。\nAppeti(      )er",
+      "choices": [],
+      "answer": "z",
+      "explanation": "Appetizer（アペタイザー）。イギリスではStarterと言います。\n【🇺🇸 Cultural Note】\nアメリカのレストランでは、アペタイザーだけでもメイン料理並みの量が出てくることがあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「主菜（メインディッシュ）」はアメリカ英語で何と言いますか？",
+      "choices": ["entree", "main course", "primary dish", "big dish"],
+      "answer": "entree",
+      "explanation": "Entree（アントレ）と言います。フランス語では「入り口（前菜）」の意味ですが、アメリカではなぜか「メイン料理」を指します。\n【🇺🇸 Cultural Note】\nこれはアメリカ英語特有の用法で、他の国の人をよく混乱させます。"
+    },
+    {
+      "type": "sort",
+      "question": "「請求書（紙幣）」をアメリカ英語にしてください。",
+      "choices": ["bill"],
+      "answer": "bill",
+      "explanation": "Dollar bill（ドル紙幣）のように使います。イギリスではNoteと言います。\n【🇺🇸 Cultural Note】\n100ドル札はベンジャミン・フランクリンの肖像から\"Benjamin\"と呼ばれることもあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「薬」を英語で書いてください。\nMedi(      )ine",
+      "choices": [],
+      "answer": "c",
+      "explanation": "Medicine（メディスン）。\n【🇺🇸 Cultural Note】\nアメリカの市販薬（OTC）は効果が強いものが多く、スーパーでも簡単に手に入ります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「予約」を英語で何と言いますか？",
+      "choices": ["reservation", "booking", "order", "keep"],
+      "answer": "reservation",
+      "explanation": "Reservationと言います。イギリスではBookingを使うことが多いです。\n【🇺🇸 Cultural Note】\nレストランやホテルの予約時に\"I'd like to make a reservation\"と言います。"
+    },
+    {
+      "type": "sort",
+      "question": "「エレベーター」のイギリス英語（※比較学習）を並べてください。",
+      "choices": ["lift"],
+      "answer": "lift",
+      "explanation": "Lift。アメリカでは使いませんが、違いを知っておくと便利です。\n【🇺🇸 Cultural Note】\n「乗せる（lift）」という意味から来ています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「飛行機」をアメリカ英語で書いてください。\nAir(      )lane",
+      "choices": [],
+      "answer": "p",
+      "explanation": "Airplane。イギリスではAeroplaneとつづります。\n【🇺🇸 Cultural Note】\nライト兄弟による初飛行はアメリカ・ノースカロライナ州で行われました。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「駐車場」はアメリカ英語で何と言いますか？",
+      "choices": ["parking lot", "car park", "garage", "stop"],
+      "answer": "parking lot",
+      "explanation": "Parking lotと言います。イギリスではCar parkです。\n【🇺🇸 Cultural Note】\nショッピングモールのParking lotは広大で、自分の車をどこに停めたか忘れてしまうこともあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「交差点」を英語にしてください。",
+      "choices": ["intersection"],
+      "answer": "intersection",
+      "explanation": "Intersectionと言います。イギリスではCrossroadsやJunctionを使います。\n【🇺🇸 Cultural Note】\nアメリカの信号は赤でも「右折（Right turn on red）」が許可されている場合が多いです（ニューヨーク市などを除く）。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「免許証」を英語で書いてください。\nLi(      )ense",
+      "choices": [],
+      "answer": "c",
+      "explanation": "License（Driver's license）。イギリスではLicenceとつづります（名詞の場合）。\n【🇺🇸 Cultural Note】\nアメリカでは16歳から運転免許が取れる州が多く、高校に車で通学する生徒もいます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「弁護士」はアメリカ英語で何と言いますか？",
+      "choices": ["lawyer", "solicitor", "barrister", "judge"],
+      "answer": "lawyer",
+      "explanation": "一般的にLawyer（またはAttorney）と言います。イギリスではSolicitorやBarristerと区別します。\n【🇺🇸 Cultural Note】\nアメリカは訴訟社会（Litigious society）と言われ、弁護士の数が非常に多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「同僚」を英語にしてください。",
+      "choices": ["coworker"],
+      "answer": "coworker",
+      "explanation": "Coworkerと言います。イギリスではColleagueを使うことが多いです。\n【🇺🇸 Cultural Note】\nアメリカの職場はファーストネームで呼び合うフラットな関係が一般的です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「社長、大統領」を英語で書いてください。\nPre(      )ident",
+      "choices": [],
+      "answer": "s",
+      "explanation": "President。\n【🇺🇸 Cultural Note】\n国のトップも企業のトップもPresidentと呼びます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「州知事」を英語で何と言いますか？",
+      "choices": ["Governor", "Mayor", "Senator", "Sheriff"],
+      "answer": "Governor",
+      "explanation": "Governor（ガバナー）。州の行政トップです。\n【🇺🇸 Cultural Note】\nアーノルド・シュワルツェネッガーがカリフォルニア州知事（The Governator）だったことは有名です。"
+    },
+    {
+      "type": "sort",
+      "question": "「市長」を英語にしてください。",
+      "choices": ["Mayor"],
+      "answer": "Mayor",
+      "explanation": "Mayor（メイヤー）。市のトップです。\n【🇺🇸 Cultural Note】\nアメリカの地方自治は強く、市長が警察の管理権など強い権限を持つことがあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「保安官」を英語で書いてください。\nShe(      )iff",
       "choices": [],
       "answer": "r",
-      "explanation": "Girlです。"
+      "explanation": "Sheriff（シェリフ）。郡（County）の法執行官です。\n【🇺🇸 Cultural Note】\n西部劇でおなじみの保安官バッジは、今でも地方の警察組織の象徴です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「医者」は英語で？",
-      "choices": ["Doctor", "Teacher", "Nurse", "Dentist"],
-      "answer": "Doctor",
-      "explanation": "Doctorです。\n\n【実用】博士号を持っている人のこともDoctorと呼びます。"
+      "question": "「小学校」はアメリカ英語で何と言いますか？",
+      "choices": ["elementary school", "primary school", "grade school", "junior school"],
+      "answer": "elementary school",
+      "explanation": "Elementary schoolと言います。イギリスではPrimary schoolです。\n【🇺🇸 Cultural Note】\nスクールバス（黄色いバス）での通学が一般的です。"
     },
     {
       "type": "sort",
-      "question": "「警察官」を英語で綴ってください。",
-      "choices": ["o", "l", "i", "c", "e", "P"],
-      "answer": "Police",
-      "explanation": "Police officerが現代的で丁寧な言い方です。"
+      "question": "「幼稚園」を英語にしてください（ドイツ語由来）。",
+      "choices": ["kindergarten"],
+      "answer": "kindergarten",
+      "explanation": "Kindergarten（キンダーガーテン）。義務教育の最初の1年（5歳児）を指します。\n【🇺🇸 Cultural Note】\n\"K-12\"（Kindergartenから12年生まで）がアメリカの初等中等教育期間です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「1月」は英語で？\nJan(      )ary",
+      "question": "「成績」を英語で書いてください。\nG(      )ade",
       "choices": [],
-      "answer": "u",
-      "explanation": "Januaryです。\n\n【文化】ローマ神話の「Janus（ヤヌス）」という、過去と未来を見る2つの顔を持つ神が由来です。年の始まりにふさわしい名前です。"
+      "answer": "r",
+      "explanation": "Grade（グレード）。学年もGradeと言います（1st Gradeなど）。\n【🇺🇸 Cultural Note】\n良い成績（Good grades）を取るために、GPA（Grade Point Average）を気にします。"
     },
     {
       "type": "multiple_choice",
-      "question": "「2月」は英語で？",
-      "choices": ["February", "Febuary", "Feburary", "Fabruary"],
-      "answer": "February",
-      "explanation": "Februaryです。「r」が2回入るのが綴りの注意点です。\n\n【文化】古代ローマの清めの儀式「Februa」が由来です。"
+      "question": "「学期」はアメリカ英語で何と言いますか？",
+      "choices": ["semester", "term", "period", "session"],
+      "answer": "semester",
+      "explanation": "Semester（セメスター：2学期制）が一般的です。イギリスではTermを使います。\n【🇺🇸 Cultural Note】\n秋学期（Fall semester）が新学年の始まりです。"
     },
     {
       "type": "sort",
-      "question": "「3月」を英語で綴ってください。",
-      "choices": ["a", "r", "c", "h", "M"],
-      "answer": "March",
-      "explanation": "Marchです。\n\n【文化】軍神Mars（マルス）の月です。暖かくなり軍隊が動き出す時期だからと言われています。"
+      "question": "「カフェテリア（学食）」を英語にしてください。",
+      "choices": ["cafeteria"],
+      "answer": "cafeteria",
+      "explanation": "Cafeteria（カフェテリア）。\n【🇺🇸 Cultural Note】\nアメリカの学校のランチでは、ピザやバーガー、そして牛乳（Chocolate milk）が定番です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「4月」は英語で？\nApr(      )l",
+      "question": "「卒業式」を英語で書いてください。\nGradua(      )ion",
       "choices": [],
-      "answer": "i",
-      "explanation": "Aprilです。\n\n【文化】April Fool's Day（エイプリルフール）で有名です。"
+      "answer": "t",
+      "explanation": "Graduation。\n【🇺🇸 Cultural Note】\n卒業式では四角い帽子（Cap）とガウン（Gown）を着用し、帽子の房（Tassel）を右から左へ移す儀式があります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「5月」は英語で？",
-      "choices": ["May", "Mai", "Mey", "Mei"],
-      "answer": "May",
-      "explanation": "Mayです。\n\n【実用】助動詞のmay（～かもしれない）と同じ綴りです。"
+      "question": "「プロム（高校のダンスパーティー）」のつづりは？",
+      "choices": ["Prom", "Plom", "Prome", "Prum"],
+      "answer": "Prom",
+      "explanation": "Promenadeの略でProm（プロム）です。\n【🇺🇸 Cultural Note】\n高校生活最大のイベントで、正装してパートナーと参加します。"
     },
     {
       "type": "sort",
-      "question": "「6月」を英語で綴ってください。",
-      "choices": ["u", "n", "e", "J"],
-      "answer": "June",
-      "explanation": "Juneです。\n\n【文化】結婚の女神Junoの月なので、June bride（6月の花嫁）は幸せになれると言われます。"
+      "question": "「同窓生（卒業生）」を英語にしてください。",
+      "choices": ["alumni"],
+      "answer": "alumni",
+      "explanation": "Alumni（アラムナイ）。単数形はAlumnus（男性）/Alumna（女性）。\n【🇺🇸 Cultural Note】\nアメリカの大学は卒業生（Alumni）からの寄付金で運営が支えられています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「7月」は英語で？\nJu(      )y",
+      "question": "「寮（大学の）」を英語で書いてください。\nDo(      )m",
       "choices": [],
-      "answer": "l",
-      "explanation": "Julyです。\n\n【歴史】ローマの英雄ユリウス・カエサル（Julius Caesar）がこの月生まれだったことに由来します。"
+      "answer": "r",
+      "explanation": "Dorm（ドーム）。Dormitoryの略です。\n【🇺🇸 Cultural Note】\n新入生は寮に入ることが義務付けられている大学が多いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「8月」は英語で？",
-      "choices": ["August", "Augast", "Agust", "Orgast"],
-      "answer": "August",
-      "explanation": "Augustです。\n\n【歴史】初代ローマ皇帝アウグストゥス（Augustus）の名前から付けられました。"
+      "question": "「専攻（大学の）」を英語で何と言いますか？",
+      "choices": ["major", "specialty", "degree", "subject"],
+      "answer": "major",
+      "explanation": "Major（メジャー）と言います。\n【🇺🇸 Cultural Note】\n\"What's your major?\"（専攻は何ですか？）は大学生同士の定番の会話です。"
     },
     {
       "type": "sort",
-      "question": "「9月」を英語で綴ってください。",
-      "choices": ["e", "p", "t", "e", "m", "b", "e", "r", "S"],
-      "answer": "September",
-      "explanation": "Septemberです。\n\n【語源】Septemはラテン語で「7」という意味です。昔のカレンダーでは7番目の月でした。"
+      "question": "「副専攻」を英語にしてください。",
+      "choices": ["minor"],
+      "answer": "minor",
+      "explanation": "Minor（マイナー）。\n【🇺🇸 Cultural Note】\nメジャーとマイナーを組み合わせて学ぶことで、幅広い知識を身につけます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「10月」は英語で？\nOct(      )ber",
+      "question": "「奨学金」を英語で書いてください。\nSchola(      )ship",
       "choices": [],
-      "answer": "o",
-      "explanation": "Octoberです。\n\n【語源】Octoは「8」という意味（Octopus＝タコも足が8本）。昔は8番目の月でした。"
+      "answer": "r",
+      "explanation": "Scholarship（スカラーシップ）。\n【🇺🇸 Cultural Note】\nアメリカの大学の学費は非常に高いため、多くの学生が奨学金や学生ローンを利用します。"
     },
     {
       "type": "multiple_choice",
-      "question": "「11月」は英語で？",
-      "choices": ["November", "Nobember", "Novemnber", "Novembar"],
-      "answer": "November",
-      "explanation": "Novemberです。\n\n【語源】Novemは「9」という意味です。"
+      "question": "「履歴書」はアメリカ英語で何と言いますか？",
+      "choices": ["resume", "CV", "profile", "history"],
+      "answer": "resume",
+      "explanation": "Resume（レジュメ）と言います。イギリスではCV（Curriculum Vitae）です。\n【🇺🇸 Cultural Note】\nアメリカの履歴書には、通常、顔写真や年齢、性別は記載しません（差別防止のため）。"
     },
     {
       "type": "sort",
-      "question": "「12月」を英語で綴ってください。",
-      "choices": ["e", "c", "e", "m", "b", "e", "r", "D"],
-      "answer": "December",
-      "explanation": "Decemberです。\n\n【語源】Decemは「10」という意味（Decade＝10年も同じ語源）。昔は10番目の月でした。"
+      "question": "「インターンシップ」を英語にしてください。",
+      "choices": ["internship"],
+      "answer": "internship",
+      "explanation": "Internship。\n【🇺🇸 Cultural Note】\n学生が企業で働く実務体験。アメリカでの就職活動において非常に重視されます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「誕生日」は英語で？\nBirth(      )ay",
+      "question": "「クビになる（解雇される）」を英語で書いてください。\nFi(      )ed",
       "choices": [],
-      "answer": "d",
-      "explanation": "Birthdayです。\n\n【実用】Happy Birthday! は誰もが知るお祝いの言葉です。"
+      "answer": "r",
+      "explanation": "Fired（ファイアード）。\"You're fired!\"（お前はクビだ）というフレーズは有名です。\n【🇺🇸 Cultural Note】\nアメリカの雇用契約は「随意雇用（At-will employment）」が多く、突然解雇されることもあります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「おめでとう」は英語で？",
-      "choices": ["Congratulations", "Thank you", "Good job", "Hello"],
-      "answer": "Congratulations",
-      "explanation": "お祝いの言葉です。\n\n【実用】長いので、カジュアルなメールなどではCongrats!と略すことがあります。"
-    },
-    {
-      "type": "sort",
-      "question": "「大きい」を英語で綴ってください。",
-      "choices": ["i", "g", "B"],
-      "answer": "Big",
-      "explanation": "Bigです。\n\n【対義語】反対はSmall（小さい）です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「小さい」は英語で？\nSm(      )ll",
-      "choices": [],
-      "answer": "a",
-      "explanation": "Smallです。\n\n【実用】服のサイズ（Sサイズ）はSmallの略です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「長い」は英語で？",
-      "choices": ["Long", "Short", "High", "Tall"],
-      "answer": "Long",
-      "explanation": "Longです。\n\n【対義語】反対はShort（短い）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「新しい」を英語で綴ってください。",
-      "choices": ["e", "w", "N"],
-      "answer": "New",
-      "explanation": "Newです。\n\n【実用】News（ニュース）はNew（新しいこと）の複数形から来ています。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「古い」は英語で？\nO(      )d",
-      "choices": [],
-      "answer": "l",
-      "explanation": "Oldです。\n\n【実用】How old are you?（何歳ですか？）と年齢を聞くときにも使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「幸せな」は英語で？",
-      "choices": ["Happy", "Sad", "Angry", "Tired"],
-      "answer": "Happy",
-      "explanation": "Happyです。\n\n【文化】Happy New Yearなど、行事の挨拶によく付きます。"
-    },
-    {
-      "type": "sort",
-      "question": "「悲しい」を英語で綴ってください。",
-      "choices": ["a", "d", "S"],
-      "answer": "Sad",
-      "explanation": "Sadです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「暑い」は英語で？\nH(      )t",
-      "choices": [],
-      "answer": "o",
-      "explanation": "Hotです。\n\n【実用】食べ物が「辛い」という意味でも使われます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「寒い」は英語で？",
-      "choices": ["Cold", "Cool", "Warm", "Hot"],
-      "answer": "Cold",
-      "explanation": "Coldです。\n\n【実用】I have a coldで「風邪をひいている」という意味になります。"
-    },
-    {
-      "type": "sort",
-      "question": "「好き」を英語で綴ってください。",
-      "choices": ["i", "k", "e", "L"],
-      "answer": "Like",
-      "explanation": "Likeです。\n\n【実用】SNSの「いいね！」ボタンは英語でLikeです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「食べる」は英語で？\nE(      )t",
-      "choices": [],
-      "answer": "a",
-      "explanation": "Eatです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「飲む」は英語で？",
-      "choices": ["Drink", "Eat", "Run", "Sleep"],
-      "answer": "Drink",
-      "explanation": "Drinkです。\n\n【実用】自動販売機で売っている飲み物をDrinkと呼びます。"
-    },
-    {
-      "type": "sort",
-      "question": "「走る」を英語で綴ってください。",
-      "choices": ["u", "n", "R"],
-      "answer": "Run",
-      "explanation": "Runです。\n\n【実用】Home run（ホームラン）は「本塁（Home）まで走る」ことです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「歩く」は英語で？\nWa(      )k",
-      "choices": [],
-      "answer": "l",
-      "explanation": "Walkです。\n\n【注意】lは発音せず「ウォーク」と読みます（Work「働く」と区別しましょう）。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「行く」は英語で？",
-      "choices": ["Go", "Come", "Stop", "Stay"],
-      "answer": "Go",
-      "explanation": "Goです。\n\n【実用】Let's go!（さあ行こう！）は定番のフレーズです。"
-    },
-    {
-      "type": "sort",
-      "question": "「来る」を英語で綴ってください。",
-      "choices": ["o", "m", "e", "C"],
-      "answer": "Come",
-      "explanation": "Comeです。"
+      "question": "「残業」を英語で何と言いますか？",
+      "choices": ["overtime", "extra work", "late work", "plus time"],
+      "answer": "overtime",
+      "explanation": "Overtime（オーバータイム）です。\n【🇺🇸 Cultural Note】\nアメリカ人は定時で帰るイメージがありますが、エリート層や職種によっては激務です。"
     }
   ]
 }
