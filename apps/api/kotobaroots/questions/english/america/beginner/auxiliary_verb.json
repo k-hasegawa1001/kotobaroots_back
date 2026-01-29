@@ -1,692 +1,581 @@
 {
   "learning_topic": "助動詞",
+  "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
     {
-      "type": "multiple_choice",
-      "question": "「私は速く泳ぐことができます」\nI (      ) swim fast.",
-      "choices": ["can", "am", "do", "play"],
+      "type": "fill_in_the_blank",
+      "question": "「私は車を運転できます（能力）」\nI (      ) drive a car.",
+      "choices": [],
       "answer": "can",
-      "explanation": "「～できる」という能力を表すときは助動詞canを使います。"
+      "explanation": "Can（〜できる）。\n【🇺🇸 Cultural Note】\nアメリカの多くの州では、16歳から運転免許（Driver's license）を取得できます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたはここで止まらなければなりません（義務）」\nYou (      ) stop here.",
+      "choices": ["must", "can", "may", "will"],
+      "answer": "must",
+      "explanation": "Must（しなければならない）。\n【🇺🇸 Cultural Note】\nアメリカの交差点にある\"STOP\"サイン（八角形）は、完全に停止（Full stop）しないとチケットを切られます。"
     },
     {
       "type": "sort",
-      "question": "「あなたはピアノを弾けますか？」となるように並び替えてください。",
-      "choices": ["piano", "the", "play", "you", "Can"],
-      "answer": "Canyouplaythepiano",
-      "explanation": "Can you play the piano? です。Canを文頭に出して疑問文にします。"
+      "question": "「私はあなたを手伝いましょうか？（申し出）」となるように並び替えてください。",
+      "choices": ["help", "you", "I", "Can"],
+      "answer": "CanIhelpyou",
+      "explanation": "Can I help you?\n【🇺🇸 Cultural Note】\nお店に入ると店員さんから必ずと言っていいほど聞かれるフレーズです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は漢字が読めません」\nI (      ) read Kanji.",
+      "question": "「私たちはチップを払うべきです（アドバイス）」\nWe (      ) leave a tip.",
+      "choices": [],
+      "answer": "should",
+      "explanation": "Should（〜したほうがよい／すべきだ）。\n【🇺🇸 Cultural Note】\nアメリカではチップは「感謝の印」であると同時に、サーバーの生活給の一部という社会的義務の側面が強いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「トイレに行ってもいいですか？（許可）」\n(      ) I go to the restroom?",
+      "choices": ["May", "Must", "Will", "Should"],
+      "answer": "May",
+      "explanation": "May（〜してもよい）。Can I...? よりも丁寧な表現です。\n【🇺🇸 Cultural Note】\n学校の授業中にトイレに行く際は、先生に\"May I...?\"と許可を求めるのが一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは21歳まで飲酒してはいけません（禁止）。」となるように並び替えてください。",
+      "choices": ["drink", "must", "not", "You", "until", "21"],
+      "answer": "Youmustnotdrinkuntil21",
+      "explanation": "Must not（してはいけない）。\n【🇺🇸 Cultural Note】\nアメリカの飲酒解禁年齢は21歳です。日本（20歳）や欧州よりも厳しく設定されています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「明日は晴れるでしょう（未来）」\nIt (      ) be sunny tomorrow.",
+      "choices": [],
+      "answer": "will",
+      "explanation": "Will（〜だろう）。未来の予測です。\n【🇺🇸 Cultural Note】\nカリフォルニア州などは「サンシャイン・ステート」と呼ばれるほど晴れの日が多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「英語を話せますか？」\n(      ) you speak English?",
+      "choices": ["Can", "May", "Must", "Should"],
+      "answer": "Can",
+      "explanation": "Can（できる）。能力を尋ねます。\n【🇺🇸 Cultural Note】\nアメリカは移民国家なので、英語が母国語でない人もたくさん住んでいます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちはリサイクルしなければなりません。」となるように並び替えてください。",
+      "choices": ["recycle", "have", "to", "We"],
+      "answer": "Wehavetorecycle",
+      "explanation": "Have to（しなければならない）。Mustとほぼ同じ意味です。\n【🇺🇸 Cultural Note】\nアメリカのゴミの量は世界最大級であり、リサイクル（Recycling）への取り組みが各自治体で進められています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「（店員が客に）何かお手伝いしましょうか？」\n(      ) I help you?",
+      "choices": [],
+      "answer": "May",
+      "explanation": "May I help you? は接客の定番フレーズです。\n【🇺🇸 Cultural Note】\nアメリカの店員は非常にフレンドリーで、\"How are you today?\"と続けてくることも多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは投票しなければなりません（義務・強い推奨）」\nYou (      ) vote.",
+      "choices": ["must", "may", "can", "will"],
+      "answer": "must",
+      "explanation": "Must（しなければならない）。市民としての義務感を伴う表現です。\n【🇺🇸 Cultural Note】\nアメリカ大統領選挙の際は、\"I Voted\"（投票しました）というステッカーを胸に貼るのがトレンドです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はピアノを弾くことができます。」となるように並び替えてください。",
+      "choices": ["can", "piano", "He", "play", "the"],
+      "answer": "Hecanplaythepiano",
+      "explanation": "Can play（弾くことができる）。\n【🇺🇸 Cultural Note】\n学校のタレントショー（Talent Show）で楽器演奏を披露するのは定番です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「おかわりをもらえますか？（依頼）」\n(      ) I have a refill?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can I...?（〜していいですか／もらえますか）。May Iでも可ですが、カジュアルな場面ではCanが多用されます。\n【🇺🇸 Cultural Note】\nアメリカのレストランでは、ソーダやコーヒーの「おかわり（Refill）」は無料であることが多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ドアを開けてくれませんか？（依頼）」\n(      ) you open the door?",
+      "choices": ["Will", "Must", "Should", "May"],
+      "answer": "Will",
+      "explanation": "Will you...?（〜してくれませんか）。Can you...? とも言えます。\n【🇺🇸 Cultural Note】\n公共の場で、後ろの人のためにドアを押さえておく（Hold the door）のは一般的なマナーです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは列に並ばなければなりません。」となるように並び替えてください。",
+      "choices": ["line", "wait", "You", "in", "must"],
+      "answer": "Youmustwaitinline",
+      "explanation": "Must wait in line.\n【🇺🇸 Cultural Note】\nブラックフライデーのセールや人気のアトラクションでは、長い列（Line）ができます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは医者に診てもらうべきです」\nYou (      ) see a doctor.",
+      "choices": [],
+      "answer": "should",
+      "explanation": "Should（〜したほうがよい）。アドバイスです。\n【🇺🇸 Cultural Note】\nアメリカの医療費は高額なので、軽症なら薬局（Drugstore）で済ませる人も多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はパーティーに行くつもりです（意志）」\nI (      ) go to the party.",
+      "choices": ["will", "can", "must", "should"],
+      "answer": "will",
+      "explanation": "Will（〜するつもりだ）。意志を表します。\n【🇺🇸 Cultural Note】\nプロム（Prom）やホームカミングなどのダンスパーティーは、アメリカの学生生活のハイライトです。"
+    },
+    {
+      "type": "sort",
+      "question": "「ここでタバコを吸ってはいけません。」となるように並び替えてください。",
+      "choices": ["smoke", "must", "here", "not", "You"],
+      "answer": "Youmustnotsmokehere",
+      "explanation": "Must not（してはいけない）。\n【🇺🇸 Cultural Note】\nアメリカの屋内施設はほぼ全面禁煙です。違反すると高額な罰金が科せられることがあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は上手に泳げません」\nI (      ) swim well.",
       "choices": [],
       "answer": "cannot",
-      "explanation": "can notと分けることもありますが、cannotと一語で書くのがフォーマルで一般的です。"
+      "explanation": "Can't または Cannot（できない）。\n【🇺🇸 Cultural Note】\nYMCAなどのコミュニティセンターにはプールがあり、水泳教室が開かれています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「手伝ってくれますか？」\n(      ) you help me?",
-      "choices": ["Can", "Are", "Do", "Is"],
-      "answer": "Can",
-      "explanation": "Can you...?は「～できますか？」だけでなく「～してくれますか？」という依頼にも使われます。"
+      "question": "「宿題をしなければなりませんか？」\n(      ) I have to do my homework?",
+      "choices": ["Do", "Must", "Should", "Can"],
+      "answer": "Do",
+      "explanation": "Have toの疑問文はDo/Doesを使います（Must I...? はあまり使いません）。\n【🇺🇸 Cultural Note】\nアメリカの学校の宿題は量が多く、成績（GPA）に直結するため重要です。"
     },
     {
       "type": "sort",
-      "question": "「私はスキーができます。」となるように並び替えてください。",
-      "choices": ["ski", "can", "I"],
-      "answer": "Icanski",
-      "explanation": "I can ski. です。Skiは動詞として使えます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「窓を開けてもいいですか？」\n(      ) I open the window?",
-      "choices": [],
-      "answer": "Can",
-      "explanation": "Can I...? は「（私が）～してもいいですか？」という許可を求める表現です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼は英語を話すことができます」\nHe (      ) speak English.",
-      "choices": ["can", "cans", "is", "does"],
-      "answer": "can",
-      "explanation": "助動詞canは主語がHe（三人称単数）でも「s」をつけません。常に原形canのままです。\n\n【重要】ここが一般動詞との大きな違いです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女は車の運転ができません。」となるように並び替えてください。",
-      "choices": ["drive", "can't", "car", "a", "She"],
-      "answer": "Shecan'tdriveacar",
-      "explanation": "She can't drive a car. です。cannotの短縮形can'tを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「はい、できます（主語：I）」\nYes, I (      ).",
-      "choices": [],
-      "answer": "can",
-      "explanation": "Can you...? と聞かれたら、Yes, I can. と答えます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「ここでは走ってはいけません（走ることはできません）」\nYou (      ) run here.",
-      "choices": ["cannot", "don't", "aren't", "not"],
-      "answer": "cannot",
-      "explanation": "You cannot...は「能力的に無理」という意味だけでなく、「ルールとして禁止」という意味でも使われます。"
-    },
-    {
-      "type": "sort",
-      "question": "「ここで写真を撮ってもいいですよ。」となるように並び替えてください。",
-      "choices": ["here", "take", "can", "pictures", "You"],
-      "answer": "Youcantakepictureshere",
-      "explanation": "You can take pictures here. です。「～できる＝～してもよい（許可）」という意味になります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「いいえ、できません（主語：he）」\nNo, he (      ).",
-      "choices": [],
-      "answer": "can't",
-      "explanation": "No, he can't. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "助動詞（canなど）の後ろに来る動詞の形は？",
-      "choices": ["原形", "sをつける", "ingをつける", "過去形"],
-      "answer": "原形",
-      "explanation": "助動詞の後ろは必ず「動詞の原形（元の形）」になります。He can swimsとは言いません。"
-    },
-    {
-      "type": "sort",
-      "question": "「私の父は上手に料理ができます。」となるように並び替えてください。",
-      "choices": ["well", "cook", "can", "father", "My"],
-      "answer": "Myfathercancookwell",
-      "explanation": "My father can cook well. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼らはここに来ることができません」\nThey (      ) come here.",
-      "choices": [],
-      "answer": "cannot",
-      "explanation": "They cannot come here. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「ペンを貸してくれますか？（使ってもいいですか？）」\n(      ) I use your pen?",
-      "choices": ["Can", "Am", "Do", "Are"],
-      "answer": "Can",
-      "explanation": "Can I use...? は「貸して」と言いたい時の定番フレーズです。"
-    },
-    {
-      "type": "sort",
-      "question": "「鳥は飛ぶことができます。」となるように並び替えてください。",
-      "choices": ["fly", "Birds", "can"],
-      "answer": "Birdscanfly",
-      "explanation": "Birds can fly. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「トイレに行ってもいいですか？」\n(      ) I go to the bathroom?",
-      "choices": [],
-      "answer": "Can",
-      "explanation": "Can I go to the bathroom? です。学校の授業中などに先生に聞くフレーズです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「そんなはずはない（それは真実でありえない）」\nIt (      ) be true.",
-      "choices": ["can't", "is", "doesn't", "not"],
-      "answer": "can't",
-      "explanation": "Can't be...で「～のはずがない（強い否定の推測）」という意味になります。\n\n【上級】It can be true（ありえる）の逆です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたのお母さんは自転車に乗れますか？」となるように並び替えてください。",
-      "choices": ["bike", "a", "ride", "mother", "your", "Can"],
-      "answer": "Canyourmotherrideabike",
-      "explanation": "Can your mother ride a bike? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「聞こえますか？」\n(      ) you hear me?",
-      "choices": [],
-      "answer": "Can",
-      "explanation": "Can you hear me? オンライン通話などで頻出のフレーズです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「誰でも間違いを犯すことはある（起こりうる）」\nAnyone (      ) make mistakes.",
-      "choices": ["can", "is", "does", "has"],
-      "answer": "can",
-      "explanation": "ここでのCanは「～しうる（可能性がある）」という意味です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はあなたが見えません。」となるように並び替えてください。",
-      "choices": ["you", "see", "can't", "I"],
-      "answer": "Ican'tseeyou",
-      "explanation": "I can't see you. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「そのドアを開けてくれますか？」\n(      ) you open the door?",
-      "choices": [],
-      "answer": "Can",
-      "explanation": "Can you open the door? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は英語を話せません」\nI (      ) speak English.",
-      "choices": ["cannot", "don't", "not", "am not"],
-      "answer": "cannot",
-      "explanation": "能力として話せない場合はcannotを使います。I don't speak...だと「（話せるけど）話さない」というニュアンスになることがあります。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちは勝てる！」となるように並び替えてください。",
-      "choices": ["win", "can", "We"],
-      "answer": "Wecanwin",
-      "explanation": "We can win. スポーツの応援などで使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「魚は泳げます」\nFish (      ) swim.",
-      "choices": [],
-      "answer": "can",
-      "explanation": "Fish can swim. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女はピアノを弾けません」\nShe (      ) play the piano.",
-      "choices": ["can't", "doesn't", "isn't", "not"],
-      "answer": "can't",
-      "explanation": "She can't play the piano. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はそれを信じられません。」となるように並び替えてください。",
-      "choices": ["it", "believe", "can't", "I"],
-      "answer": "Ican'tbelieveit",
-      "explanation": "I can't believe it. 驚いた時の決まり文句です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「入ってもいいですか？」\n(      ) I come in?",
-      "choices": [],
-      "answer": "Can",
-      "explanation": "Can I come in? 部屋に入る時のノックと共に使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「トムは速く走ることができますか？」\n(      ) Tom run fast?",
-      "choices": ["Can", "Does", "Is", "Has"],
-      "answer": "Can",
-      "explanation": "能力を聞いているのでCanを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは何かスポーツができますか？」となるように並び替えてください。",
-      "choices": ["sports", "any", "play", "you", "Can"],
-      "answer": "Canyouplayanysports",
-      "explanation": "Can you play any sports? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「ペンギンは飛べません」\nPenguins (      ) fly.",
-      "choices": [],
-      "answer": "cannot",
-      "explanation": "Penguins cannot fly. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は待てません」\nI (      ) wait.",
-      "choices": ["can't", "don't", "am not", "no"],
-      "answer": "can't",
-      "explanation": "I can't wait. 楽しみすぎて待てない、という意味でも使われます。"
-    },
-    {
-      "type": "sort",
-      "question": "「私に何ができますか？（手伝いましょうか？）」となるように並び替えてください。",
-      "choices": ["do", "I", "What", "can"],
-      "answer": "WhatcanIdo",
-      "explanation": "What can I do? です。疑問詞Whatと一緒に使うパターンです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「いつ会いましょうか？（いつ会えますか？）」\nWhen (      ) we meet?",
-      "choices": [],
-      "answer": "can",
-      "explanation": "When can we meet? 予定を調整する時によく使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「これを買ってもいいですか？」\n(      ) I buy this?",
-      "choices": ["Can", "Do", "Am", "Are"],
-      "answer": "Can",
-      "explanation": "Can I buy this? 親にねだる時などの表現です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは私の名前を覚えられますか？」となるように並び替えてください。",
-      "choices": ["name", "my", "remember", "you", "Can"],
-      "answer": "Canyouremembermyname",
-      "explanation": "Can you remember my name? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「もう歩けません（疲れすぎて）」\nI (      ) walk anymore.",
-      "choices": [],
-      "answer": "can't",
-      "explanation": "I can't walk anymore. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼はとても上手に歌えます」\nHe (      ) sing very well.",
-      "choices": ["can", "is", "does", "has"],
-      "answer": "can",
-      "explanation": "He can sing very well. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「誰がこの箱を開けられますか？」となるように並び替えてください。",
-      "choices": ["box", "this", "open", "Who", "can"],
-      "answer": "Whocanopenthisbox",
-      "explanation": "Who can open this box? 主語がWho（誰）の場合の疑問文です。"
+      "question": "「あなたはIDを見せなければなりません。」となるように並び替えてください。",
+      "choices": ["ID", "show", "must", "You", "your"],
+      "answer": "YoumustshowyourID",
+      "explanation": "Must show（見せなければならない）。\n【🇺🇸 Cultural Note】\nバーへの入店やお酒の購入時、年齢確認のためにID（運転免許証など）の提示が必須です。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「塩を取ってくれますか？」\n(      ) you pass me the salt?",
       "choices": [],
       "answer": "Can",
-      "explanation": "Can you pass me the salt? 食卓での定番フレーズです。"
+      "explanation": "Can you...?（〜してくれますか）。Will you...? でも可。\n【🇺🇸 Cultural Note】\n食事中に遠くの皿や調味料を自分で取るのはマナー違反（Reach over）とされ、近くの人に頼むのが礼儀です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は明日行くことができません」\nI (      ) go tomorrow.",
-      "choices": ["cannot", "don't", "am not", "won't"],
+      "question": "「彼らはすぐにここに来るでしょう」\nThey (      ) be here soon.",
+      "choices": ["will", "can", "must", "should"],
+      "answer": "will",
+      "explanation": "Will（〜だろう）。未来の予測です。\n【🇺🇸 Cultural Note】\n\"I'll be there in 5 minutes\"（あと5分で着くよ）というテキストメッセージは日常茶飯事です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはもっと野菜を食べるべきです。」となるように並び替えてください。",
+      "choices": ["should", "vegetables", "eat", "more", "You"],
+      "answer": "Youshouldeatmorevegetables",
+      "explanation": "Should eat（食べるべきだ）。\n【🇺🇸 Cultural Note】\nアメリカの食生活は肉や炭水化物に偏りがちで、肥満（Obesity）が社会問題になっています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ここでは駐車できません」\nYou (      ) park here.",
+      "choices": [],
       "answer": "cannot",
-      "explanation": "未来のことですが、現時点で「行けない（都合がつかない）」と判断しているのでcannotを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「どこでチケットを買えますか？」となるように並び替えてください。",
-      "choices": ["tickets", "buy", "I", "Where", "can"],
-      "answer": "WherecanIbuytickets",
-      "explanation": "Where can I buy tickets? 旅行で必須のフレーズです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたは見えますか？」\n(      ) you see it?",
-      "choices": [],
-      "answer": "Can",
-      "explanation": "Can you see it? です。"
+      "explanation": "Cannot / Can't（できない＝してはいけない）。許可がないことを表します。\n【🇺🇸 Cultural Note】\n縁石が赤く塗られている場所（Red curb）は駐車禁止エリアです。消火栓の前なども駐車厳禁です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「この部屋を使ってもいいですか？」\n(      ) we use this room?",
-      "choices": ["Can", "Do", "Are", "Have"],
-      "answer": "Can",
-      "explanation": "Can we use this room? です。"
+      "question": "「今夜、外食しませんか？（勧誘）」\n(      ) we eat out tonight?",
+      "choices": ["Shall", "Will", "Must", "May"],
+      "answer": "Shall",
+      "explanation": "Shall we...?（〜しましょうか）。勧誘の定番表現です。\n【🇺🇸 Cultural Note】\nアメリカ人は外食（Eating out）が大好きで、週に数回レストランやテイクアウトを利用する家庭も多いです。"
     },
     {
       "type": "sort",
-      "question": "「それは本当のはずがない。」となるように並び替えてください。",
-      "choices": ["true", "be", "can't", "It"],
-      "answer": "Itcan'tbetrue",
-      "explanation": "It can't be true. です。"
+      "question": "「あなたはスクールバスのために止まらなければなりません。」となるように並び替えてください。",
+      "choices": ["stop", "school", "must", "for", "bus", "You", "a"],
+      "answer": "Youmuststopforaschoolbus",
+      "explanation": "Must stop（止まらなければならない）。\n【🇺🇸 Cultural Note】\nスクールバスが赤いライトを点滅させて停車している時は、対向車線も含めて全車両が停止しなければならない厳しい法律があります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は日本語を少し話せます」\nI (      ) speak a little Japanese.",
+      "question": "「質問してもいいですか？」\n(      ) I ask a question?",
       "choices": [],
-      "answer": "can",
-      "explanation": "I can speak a little Japanese. です。"
+      "answer": "May",
+      "explanation": "May I...?（〜してもいいですか）。Can I...? よりもフォーマルです。\n【🇺🇸 Cultural Note】\nアメリカの授業では、手を挙げて積極的に質問すること（Participation）が評価されます。"
     },
     {
       "type": "multiple_choice",
+      "question": "「彼はピアノを弾けません」\nHe (      ) play the piano.",
+      "choices": ["can't", "mustn't", "shouldn't", "won't"],
+      "answer": "can't",
+      "explanation": "Can't（できない）。能力の否定です。\n【🇺🇸 Cultural Note】\n音楽教育は盛んですが、スポーツ（Athletics）の方が学校での優先度が高い場合もあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは税金を払わなければなりません。」となるように並び替えてください。",
+      "choices": ["taxes", "pay", "have", "to", "We"],
+      "answer": "Wehavetopaytaxes",
+      "explanation": "Have to pay（払わなければならない）。\n【🇺🇸 Cultural Note】\nアメリカの確定申告（Tax Return）の締め切りは通常4月15日です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「座ってもいいですか？」\n(      ) I sit down?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can I...?（〜してもいいですか）。May Iでも可。\n【🇺🇸 Cultural Note】\n公共の場所で隣の席が空いているか聞く時は、\"Is this seat taken?\"（この席は空いてますか？）と聞くのが自然です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは嘘をついてはいけません」\nYou (      ) tell a lie.",
+      "choices": ["must not", "don't have to", "cannot", "may not"],
+      "answer": "must not",
+      "explanation": "Must not（してはいけない）。強い禁止を表します。\n【🇺🇸 Cultural Note】\nジョージ・ワシントンの「桜の木」の逸話（\"I cannot tell a lie\"）は、アメリカの子供たちが教わる正直さの教訓です。"
+    },
+    {
+      "type": "sort",
+      "question": "「明日は雨が降るかもしれません。」となるように並び替えてください。",
+      "choices": ["rain", "may", "It", "tomorrow"],
+      "answer": "Itmayraintomorrow",
+      "explanation": "May（〜かもしれない）。推量を表します。\n【🇺🇸 Cultural Note】\nフロリダ州などでは、午後になると突然の激しい雷雨（Afternoon thunderstorm）が降ることがよくあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は英語を勉強するつもりです」\nI (      ) study English.",
+      "choices": [],
+      "answer": "will",
+      "explanation": "Will（〜するつもりだ）。意志を表します。\n【🇺🇸 Cultural Note】\nアメリカの大学には世界中から留学生が集まり、キャンパス内で多様な言語が飛び交っています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは傘を持っていくべきです」\nYou (      ) take an umbrella.",
+      "choices": ["should", "must", "can", "may"],
+      "answer": "should",
+      "explanation": "Should（〜したほうがよい）。アドバイスです。\n【🇺🇸 Cultural Note】\nシアトルの人は小雨程度なら傘をささずにフードを被って済ませることが多いと言われています。"
+    },
+    {
+      "type": "sort",
+      "question": "「ここで写真を撮ってもいいですか？」となるように並び替えてください。",
+      "choices": ["photos", "take", "Can", "here", "I"],
+      "answer": "CanItakephotoshere",
+      "explanation": "Can I take...?（〜してもいいですか）。\n【🇺🇸 Cultural Note】\n美術館や博物館でも、フラッシュなしなら撮影OKの場所が多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはこの本を読む必要はありません」\nYou (      ) have to read this book.",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "Don't have to（〜する必要はない）。Must not（してはいけない）との違いに注意です。\n【🇺🇸 Cultural Note】\n\"Required reading\"（必読書）と\"Recommended reading\"（推奨図書）の違いは、テストに出るかどうかです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はすぐに戻るでしょう」\nHe (      ) be back soon.",
+      "choices": ["will", "can", "should", "must"],
+      "answer": "will",
+      "explanation": "Will（〜だろう）。単純未来です。\n【🇺🇸 Cultural Note】\n\"I'll be back\"は映画「ターミネーター」の有名なセリフです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはヘルメットをかぶらなければなりません。」となるように並び替えてください。",
+      "choices": ["wear", "helmet", "must", "You", "a"],
+      "answer": "Youmustwearahelmet",
+      "explanation": "Must wear（着用しなければならない）。\n【🇺🇸 Cultural Note】\n自転車やバイクに乗る際のヘルメット着用義務は州によって法律が異なりますが、安全のため強く推奨されています。"
+    },
+    {
+      "type": "fill_in_the_blank",
       "question": "「メニューを見せてもらえますか？」\n(      ) I see the menu?",
-      "choices": ["Can", "Do", "Am", "Are"],
-      "answer": "Can",
-      "explanation": "Can I see the menu? レストランで使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたのお兄さんは泳げますか？」となるように並び替えてください。",
-      "choices": ["swim", "brother", "your", "Can"],
-      "answer": "Canyourbrotherswim",
-      "explanation": "Can your brother swim? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は箸を使えません」\nI (      ) use chopsticks.",
       "choices": [],
-      "answer": "cannot",
-      "explanation": "I cannot use chopsticks. です。"
+      "answer": "Can",
+      "explanation": "Can I...?（〜してもいいですか／できますか）。\n【🇺🇸 Cultural Note】\nアメリカのレストランのメニューは文字だけのことが多く、写真付きは少ないです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「後でかけ直してくれますか？（電話）」\n(      ) you call me back later?",
-      "choices": ["Can", "Do", "Are", "Is"],
-      "answer": "Can",
-      "explanation": "Can you call me back later? です。"
+      "question": "「あなたはパスポートを失くしてはいけません」\nYou (      ) lose your passport.",
+      "choices": ["must not", "don't have to", "cannot", "may not"],
+      "answer": "must not",
+      "explanation": "Must not（してはいけない）。強い禁止です。\n【🇺🇸 Cultural Note】\n海外でパスポートを失くすと、大使館で手続きが必要になり、旅行が台無しになります。"
     },
     {
       "type": "sort",
-      "question": "「あなたは何個リンゴを食べられますか？」となるように並び替えてください。",
-      "choices": ["eat", "you", "apples", "many", "How", "can"],
-      "answer": "Howmanyapplescanyoueat",
-      "explanation": "How many apples can you eat? 数を聞くHow manyとcanの組み合わせです。"
+      "question": "「それを試着してもいいですか？」となるように並び替えてください。",
+      "choices": ["on", "try", "it", "Can", "I"],
+      "answer": "CanItryiton",
+      "explanation": "Try it on（試着する）。\n【🇺🇸 Cultural Note】\nアメリカの試着室（Fitting room）は日本より自由で、店員もあまり干渉してきません。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「ここで野球をしてもいいですか？」\n(      ) we play baseball here?",
+      "question": "「私たちは明日、野球をするつもりです」\nWe (      ) play baseball tomorrow.",
       "choices": [],
-      "answer": "Can",
-      "explanation": "Can we play baseball here? です。"
+      "answer": "will",
+      "explanation": "Will（〜するつもりだ）。\n【🇺🇸 Cultural Note】\n野球（Baseball）は「アメリカの娯楽（America's Pastime）」と呼ばれる伝統的なスポーツです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「赤ちゃんは走れません」\nA baby (      ) run.",
-      "choices": ["can't", "don't", "isn't", "doesn't"],
-      "answer": "can't",
-      "explanation": "A baby can't run. です。"
+      "question": "「あなたはもっと水を飲むべきです」\nYou (      ) drink more water.",
+      "choices": ["should", "must", "can", "will"],
+      "answer": "should",
+      "explanation": "Should（〜したほうがよい）。健康へのアドバイスです。\n【🇺🇸 Cultural Note】\nアメリカでは大きなボトルで水を持ち歩き、常に水分補給（Hydration）をする習慣があります。"
     },
     {
       "type": "sort",
-      "question": "「私はすぐに戻れます。」となるように並び替えてください。",
-      "choices": ["soon", "back", "come", "can", "I"],
-      "answer": "Icancomebacksoon",
-      "explanation": "I can come back soon. です。"
+      "question": "「誰でも間違いを犯すことがあります（ありうる）。」となるように並び替えてください。",
+      "choices": ["Anyone", "mistakes", "make", "can"],
+      "answer": "Anyonecanmakemistakes",
+      "explanation": "Can（〜しうる/ありうる）。可能性を表します。\n【🇺🇸 Cultural Note】\n\"Everyone makes mistakes\"（誰でも失敗はある）と言って、失敗を許容し、再挑戦を促す文化があります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「試着してもいいですか？」\n(      ) I try it on?",
+      "question": "「図書館では静かにしなければなりません」\nYou (      ) be quiet in the library.",
       "choices": [],
-      "answer": "Can",
-      "explanation": "Can I try it on? 服屋さんで必須のフレーズです。"
+      "answer": "must",
+      "explanation": "Must（しなければならない）。ルールやマナーです。\n【🇺🇸 Cultural Note】\nアメリカの図書館（Public Library）は、ホームレスの人々も含め、誰にでも開かれた公共スペースとしての役割を重視しています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「駅まで歩けますか？」\n(      ) you walk to the station?",
-      "choices": ["Can", "Do", "Are", "Is"],
-      "answer": "Can",
-      "explanation": "Can you walk to the station?（歩ける距離/能力がありますか？）という意味です。"
+      "question": "「彼らはすぐに到着するはずです（〜するはずだ）」\nThey (      ) arrive soon.",
+      "choices": ["should", "can", "must", "may"],
+      "answer": "should",
+      "explanation": "Should（〜するはずだ）。確信度の高い推量を表します。\n【🇺🇸 Cultural Note】\nUberなどの配車アプリを使えば、到着予定時刻が正確にわかります。"
     },
     {
       "type": "sort",
-      "question": "「あなたは英語でそれを書けますか？」となるように並び替えてください。",
-      "choices": ["English", "in", "it", "write", "you", "Can"],
-      "answer": "CanyouwriteitinEnglish",
-      "explanation": "Can you write it in English? です。"
+      "question": "「クレジットカードは使えますか？（支払いできますか）」となるように並び替えてください。",
+      "choices": ["Can", "card", "pay", "credit", "by", "I"],
+      "answer": "CanIpaybycreditcard",
+      "explanation": "Can I pay by...（〜で支払えますか）。\n【🇺🇸 Cultural Note】\nアメリカはカード社会で、数ドルのコーヒーでもクレジットカードやデビットカードで支払うのが普通です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私はあなたのお名前を思い出せません」\nI (      ) remember your name.",
+      "question": "「あなたはパーティーに来ますか？」\n(      ) you come to the party?",
       "choices": [],
-      "answer": "can't",
-      "explanation": "I can't remember your name. です。"
+      "answer": "Will",
+      "explanation": "Will you...?（〜するつもりですか／来ますか）。未来の予定や意志を聞きます。\n【🇺🇸 Cultural Note】\n招待状に\"RSVP\"とあったら、出席するかどうかを返信する義務があります（フランス語のRepondez s'il vous plaitの略）。"
     },
     {
       "type": "multiple_choice",
-      "question": "「この水は飲めます（飲んでも安全です）」\nYou (      ) drink this water.",
-      "choices": ["can", "do", "are", "have"],
-      "answer": "can",
-      "explanation": "You can drink...で「飲める（可能・許可）」を表します。"
+      "question": "「そのニュースは本当かもしれません」\nThe news (      ) be true.",
+      "choices": ["may", "must", "should", "will"],
+      "answer": "may",
+      "explanation": "May（〜かもしれない）。不確実な推量です。\n【🇺🇸 Cultural Note】\n「フェイクニュース（Fake news）」という言葉が流行語になるほど、情報の真偽を見極めることが重要になっています。"
     },
     {
       "type": "sort",
-      "question": "「私たちはどこに行けますか？」となるように並び替えてください。",
-      "choices": ["go", "we", "can", "Where"],
-      "answer": "Wherecanwego",
-      "explanation": "Where can we go? です。"
+      "question": "「あなたはチップを置く必要はありません（ファストフード店などで）。」となるように並び替えてください。",
+      "choices": ["have", "to", "tip", "You", "don't"],
+      "answer": "Youdon'thavetotip",
+      "explanation": "Don't have to（する必要はない）。\n【🇺🇸 Cultural Note】\nマクドナルドなどのファストフード店では、基本的にチップは不要です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は自分のメガネが見つかりません」\nI (      ) find my glasses.",
+      "question": "「私たちは法律を守らなければなりません」\nWe (      ) obey the law.",
       "choices": [],
-      "answer": "cannot",
-      "explanation": "I cannot find my glasses. です。"
+      "answer": "must",
+      "explanation": "Must（しなければならない）。義務です。\n【🇺🇸 Cultural Note】\n「法の下の平等（Equality under the law）」はアメリカの司法制度の基本理念です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「教えてくれますか？」\n(      ) you tell me?",
-      "choices": ["Can", "Do", "Are", "Is"],
-      "answer": "Can",
-      "explanation": "Can you tell me? 道を聞く前などによく使います。"
+      "question": "「家に帰ってもいいですか？（許可）」\n(      ) I go home?",
+      "choices": ["May", "Must", "Will", "Should"],
+      "answer": "May",
+      "explanation": "May I...?（〜してもいいですか）。Can I...? も使えます。\n【🇺🇸 Cultural Note】\n体調不良で早退する場合は、上司や先生の許可を得ます。"
     },
     {
       "type": "sort",
-      "question": "「あなたはどのくらい速く走れますか？」となるように並び替えてください。",
-      "choices": ["run", "can", "fast", "you", "How"],
-      "answer": "Howfastcanyourun",
-      "explanation": "How fast can you run? 程度を聞くHow fastとcanの組み合わせです。"
+      "question": "「私はあなたに電話します。」となるように並び替えてください。",
+      "choices": ["call", "you", "will", "I"],
+      "answer": "Iwillcallyou",
+      "explanation": "I will call you. 意志未来です。\n【🇺🇸 Cultural Note】\n\"I'll call you\"と言って実際には電話しないのは、別れ際の社交辞令としてよくあることです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私はそれを持てません（重すぎて）」\nI (      ) hold it.",
+      "question": "「あなたは泳げますか？（能力）」\n(      ) you swim?",
       "choices": [],
-      "answer": "can't",
-      "explanation": "I can't hold it. です。"
+      "answer": "Can",
+      "explanation": "Can you...?（〜できますか）。\n【🇺🇸 Cultural Note】\nアメリカの家にはバックヤードプールがあることも多く、子供の頃から泳ぎを覚えるのが一般的です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「お母さんを手伝ってあげなさい（手伝ってあげてくれる？）」\n(      ) you help your mother?",
-      "choices": ["Can", "Do", "Are", "Is"],
-      "answer": "Can",
-      "explanation": "Can you help...? は親が子に頼む時などにも使われます。"
+      "question": "「あなたはシートベルトを締めなければなりません」\nYou (      ) wear a seatbelt.",
+      "choices": ["must", "may", "can", "will"],
+      "answer": "must",
+      "explanation": "Must（しなければならない）。法律上の義務です。\n【🇺🇸 Cultural Note】\n\"Click it or Ticket\"（カチッと締めるか、違反切符か）という標語が高速道路などで表示されています。"
     },
     {
       "type": "sort",
-      "question": "「それはここで買えます。」となるように並び替えてください。",
-      "choices": ["here", "it", "buy", "can", "You"],
-      "answer": "Youcanbuyithere",
-      "explanation": "You can buy it here. 主語をYou（一般の人）にして「ここではそれが買えますよ」と表現します。"
+      "question": "「私は箸を使うことができません。」となるように並び替えてください。",
+      "choices": ["use", "can't", "chopsticks", "I"],
+      "answer": "Ican'tusechopsticks",
+      "explanation": "Can't use（使えない）。\n【🇺🇸 Cultural Note】\nアメリカの中華料理店では、頼まないと箸が出てこないこともあります（フォークを使う人が多いため）。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「予約できますか？」\n(      ) I make a reservation?",
+      "question": "「休憩しましょうか？（提案）」\n(      ) we take a break?",
       "choices": [],
-      "answer": "Can",
-      "explanation": "Can I make a reservation? レストランの予約などで使います。"
+      "answer": "Shall",
+      "explanation": "Shall we...?（〜しましょうか）。\n【🇺🇸 Cultural Note】\n\"Let's take a break\"の丁寧な言い換えです。コーヒーブレイクは仕事の効率を上げるために重要です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼はまだ来られません」\nHe (      ) come yet.",
-      "choices": ["can't", "doesn't", "isn't", "not"],
-      "answer": "can't",
-      "explanation": "He can't come yet. です。"
+      "question": "「それはトムに違いありません（確信）」\nIt (      ) be Tom.",
+      "choices": ["must", "can", "should", "may"],
+      "answer": "must",
+      "explanation": "Must（〜に違いない）。強い確信を表す推量です。\n【🇺🇸 Cultural Note】\n遠くから歩いてくる人を見て推測する場合などに使います。"
     },
     {
       "type": "sort",
-      "question": "「私はそんなにたくさん食べられません。」となるように並び替えてください。",
-      "choices": ["much", "that", "eat", "can't", "I"],
-      "answer": "Ican'teatthatmuch",
-      "explanation": "I can't eat that much. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「窓を開けてくれませんか？」\n(      ) you open the window?",
-      "choices": [],
-      "answer": "Can",
-      "explanation": "Can you open the window? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私たちは明日テニスができます」\nWe (      ) play tennis tomorrow.",
-      "choices": ["can", "do", "are", "play"],
-      "answer": "can",
-      "explanation": "We can play tennis tomorrow. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「どうすれば英語を学べますか？」となるように並び替えてください。",
-      "choices": ["learn", "I", "can", "English", "How"],
-      "answer": "HowcanIlearnEnglish",
-      "explanation": "How can I learn English? 手段を聞くHowとcanの組み合わせです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「ちょっと質問してもいいですか？」\n(      ) I ask a question?",
-      "choices": [],
-      "answer": "Can",
-      "explanation": "Can I ask a question? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「誰もそれを否定できない」\nNo one (      ) deny it.",
-      "choices": ["can", "is", "does", "has"],
-      "answer": "can",
-      "explanation": "No one can...で「誰にも～できない」という強い否定になります。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はあなたなしでは生きられません。」となるように並び替えてください。",
-      "choices": ["without", "live", "can't", "you", "I"],
-      "answer": "Ican'tlivewithoutyou",
-      "explanation": "I can't live without you. 歌の歌詞などでよくある表現です。"
+      "question": "「あなたは医者になるつもりですか？」となるように並び替えてください。",
+      "choices": ["a", "doctor", "be", "you", "Will"],
+      "answer": "Willyoubeadoctor",
+      "explanation": "Will you be...（なるつもりですか/なる予定ですか）。\n【🇺🇸 Cultural Note】\nアメリカで医者になるには、大学卒業後にメディカルスクール（医科大学院）に進む必要があり、非常に長い道のりです。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「これを使ってもいいですか？」\n(      ) I use this?",
       "choices": [],
       "answer": "Can",
-      "explanation": "Can I use this? です。"
+      "explanation": "Can I...?（〜してもいいですか）。May I...? よりもカジュアルです。\n【🇺🇸 Cultural Note】\n他人の物を借りる時は必ず許可を取ります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼はまだ泳げません」\nHe (      ) swim yet.",
-      "choices": ["cannot", "don't", "not", "is"],
+      "question": "「彼らはここに来てはいけません」\nThey (      ) come here.",
+      "choices": ["must not", "don't have to", "cannot", "may not"],
+      "answer": "must not",
+      "explanation": "Must not（してはいけない）。禁止です。\n【🇺🇸 Cultural Note】\n\"Authorized Personnel Only\"（関係者以外立ち入り禁止）という看板はよく見かけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は一生懸命勉強するべきです。」となるように並び替えてください。",
+      "choices": ["study", "hard", "I", "should"],
+      "answer": "Ishouldstudyhard",
+      "explanation": "Should study（勉強するべきだ）。\n【🇺🇸 Cultural Note】\nアメリカの大学入試では、学力だけでなく課外活動やリーダーシップも評価されます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは英語を話さなければなりませんか？」\n(      ) you have to speak English?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Have toの疑問文はDoを使います。\n【🇺🇸 Cultural Note】\nアメリカで働く場合、多くの職種で英語力が必須要件となります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は病気かもしれません」\nHe (      ) be sick.",
+      "choices": ["may", "must", "should", "will"],
+      "answer": "may",
+      "explanation": "May（〜かもしれない）。推量です。\n【🇺🇸 Cultural Note】\nアメリカの会社では、病気の時は無理せず休む（Call in sick）ことが推奨される傾向にあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは自然を守らなければなりません。」となるように並び替えてください。",
+      "choices": ["protect", "nature", "must", "We"],
+      "answer": "Wemustprotectnature",
+      "explanation": "Must protect（守らなければならない）。\n【🇺🇸 Cultural Note】\nイエローストーンやヨセミテなどの国立公園（National Parks）は、自然保護の象徴です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「手伝ってくれませんか？（依頼）」\n(      ) you help me?",
+      "choices": [],
+      "answer": "Can",
+      "explanation": "Can you...?（〜してくれますか）。Will you...? でも可。\n【🇺🇸 Cultural Note】\n困っている人がいたら助ける精神（Good Samaritan）はアメリカ社会で称賛されます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その噂は本当のはずがありません（強い否定）」\nThe rumor (      ) be true.",
+      "choices": ["cannot", "must not", "may not", "should not"],
       "answer": "cannot",
-      "explanation": "He cannot swim yet. です。"
+      "explanation": "Cannot / Can't（〜のはずがない）。Must（〜に違いない）の反対の意味になります。\n【🇺🇸 Cultural Note】\nゴシップや噂話はタブロイド紙やSNSで拡散されやすいです。"
     },
     {
       "type": "sort",
-      "question": "「誰がこの問題を解けますか？」となるように並び替えてください。",
-      "choices": ["problem", "solve", "this", "can", "Who"],
-      "answer": "Whocansolvethisproblem",
-      "explanation": "Who can solve this problem? です。"
+      "question": "「あなたはもっと運動するべきです。」となるように並び替えてください。",
+      "choices": ["exercise", "should", "more", "You"],
+      "answer": "Youshouldexercisemore",
+      "explanation": "Should exercise（運動するべきだ）。\n【🇺🇸 Cultural Note】\nジョギングやジム通いは、アメリカ人の健康維持の一般的な方法です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私の宿題を手伝ってくれますか？」\n(      ) you help me with my homework?",
+      "question": "「私は明日、買い物に行くつもりです」\nI (      ) go shopping tomorrow.",
       "choices": [],
-      "answer": "Can",
-      "explanation": "Can you help me with...? で「～を手伝ってくれますか？」です。"
+      "answer": "will",
+      "explanation": "Will（〜するつもりだ）。\n【🇺🇸 Cultural Note】\nモールやアウトレットでのショッピングは週末の人気アクティビティです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「あなたはいつ来られますか？」\nWhen (      ) you come?",
-      "choices": ["can", "do", "are", "will"],
-      "answer": "can",
-      "explanation": "When can you come? 都合の良い時間を聞く表現です。"
+      "question": "「ここで待っていてもいいですか？（許可）」\n(      ) I wait here?",
+      "choices": ["May", "Must", "Will", "Should"],
+      "answer": "May",
+      "explanation": "May I...?（〜してもいいですか）。\n【🇺🇸 Cultural Note】\nレストランで席が用意されるまで、入り口付近で待つ（Wait to be seated）のがルールです。"
     },
     {
       "type": "sort",
-      "question": "「私はここで待てます。」となるように並び替えてください。",
-      "choices": ["wait", "can", "here", "I"],
-      "answer": "Icanwaithere",
-      "explanation": "I can wait here. です。"
+      "question": "「あなたは嘘をつく必要はありません。」となるように並び替えてください。",
+      "choices": ["have", "to", "You", "lie", "don't"],
+      "answer": "Youdon'thavetolie",
+      "explanation": "Don't have to lie（嘘をつく必要はない）。\n【🇺🇸 Cultural Note】\n正直さ（Honesty）は人間関係において最も重要な価値観の一つとされています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私はそれを説明できません」\nI (      ) explain it.",
+      "question": "「（ドアのノックに対して）入ってもいいですか？」\n(      ) I come in?",
       "choices": [],
-      "answer": "can't",
-      "explanation": "I can't explain it. です。"
+      "answer": "May",
+      "explanation": "May I come in? 部屋に入る時の決まり文句です。\n【🇺🇸 Cultural Note】\nアメリカのオフィスでは、ドアが開いていればノックなしで入っても良い（Open door policy）場合があります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「静かにしてくれますか？」\n(      ) you be quiet?",
-      "choices": ["Can", "Do", "Are", "Is"],
-      "answer": "Can",
-      "explanation": "Can you be quiet? 形容詞quietの前にはbe動詞の原形beが必要です。"
+      "question": "「彼は金持ちに違いありません」\nHe (      ) be rich.",
+      "choices": ["must", "can", "should", "will"],
+      "answer": "must",
+      "explanation": "Must（〜に違いない）。確信のある推量です。\n【🇺🇸 Cultural Note】\nビバリーヒルズのような高級住宅街には、広大な邸宅（Mansion）が立ち並んでいます。"
     },
     {
       "type": "sort",
-      "question": "「私はもっと上手くやれます。」となるように並び替えてください。",
-      "choices": ["better", "do", "can", "I"],
-      "answer": "Icandobetter",
-      "explanation": "I can do better. です。"
+      "question": "「私はあなたに真実を話さなければなりません。」となるように並び替えてください。",
+      "choices": ["tell", "truth", "must", "you", "the", "I"],
+      "answer": "Imusttellyouthetruth",
+      "explanation": "Must tell（話さなければならない）。\n【🇺🇸 Cultural Note】\n法廷での証言では、\"The truth, the whole truth, and nothing but the truth\"（真実、全き真実、そして真実のみ）を誓います。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「クレジットカードは使えますか？（私はカードで払えますか？）」\n(      ) I pay by credit card?",
+      "question": "「あなたはスキーができますか？」\n(      ) you ski?",
       "choices": [],
       "answer": "Can",
-      "explanation": "Can I pay by credit card? お店で支払う時の重要フレーズです。"
+      "explanation": "Can（できる）。能力を尋ねます。\n【🇺🇸 Cultural Note】\nコロラド州のアスペンやユタ州のパークシティは、世界的に有名なスキーリゾートです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「今日は外に出られません（雨などで）」\nWe (      ) go out today.",
-      "choices": ["can't", "don't", "aren't", "not"],
-      "answer": "can't",
-      "explanation": "We can't go out today. です。"
+      "question": "「私は彼に電話するべきですか？」\n(      ) I call him?",
+      "choices": ["Should", "Would", "May", "Will"],
+      "answer": "Should",
+      "explanation": "Should I...?（〜するべきですか／したほうがいいですか）。アドバイスを求めています。\n【🇺🇸 Cultural Note】\nデートの後、どちらから電話をするか（またはテキストを送るか）は恋愛の駆け引きの一つです。"
     },
     {
       "type": "sort",
-      "question": "「私は一日中寝ていられます。」となるように並び替えてください。",
-      "choices": ["day", "all", "sleep", "can", "I"],
-      "answer": "Icansleepallday",
-      "explanation": "I can sleep all day. です。"
+      "question": "「明日は雪が降るでしょう。」となるように並び替えてください。",
+      "choices": ["snow", "will", "tomorrow", "It"],
+      "answer": "Itwillsnowtomorrow",
+      "explanation": "Will snow（雪が降るだろう）。\n【🇺🇸 Cultural Note】\n大雪（Blizzard）が降ると学校が休みになること（Snow day）があり、子供たちは喜びます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「もう一度言ってくれますか？」\n(      ) you say that again?",
+      "question": "「この部屋を使ってはいけません」\nYou (      ) not use this room.",
       "choices": [],
-      "answer": "Can",
-      "explanation": "Can you say that again? 聞き取れなかった時に使います。"
+      "answer": "must",
+      "explanation": "Must not（してはいけない）。\n【🇺🇸 Cultural Note】\nプライバシーを重視するアメリカでは、他人の部屋に勝手に入ることは重大なマナー違反です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「そんなことはありえない」\nThat (      ) be.",
-      "choices": ["can't", "isn't", "don't", "won't"],
-      "answer": "can't",
-      "explanation": "That can't be.（そんなはずはない）という慣用表現です。"
+      "question": "「彼女は道に迷ったのかもしれません」\nShe (      ) be lost.",
+      "choices": ["may", "must", "should", "will"],
+      "answer": "may",
+      "explanation": "May（〜かもしれない）。推量です。\n【🇺🇸 Cultural Note】\nGPS（ナビ）が普及する前は、道に迷うことがよくありました。"
     },
     {
       "type": "sort",
-      "question": "「私は二度とあなたに会えません。」となるように並び替えてください。",
-      "choices": ["again", "you", "see", "never", "can", "I"],
-      "answer": "Icanneverseeyouagain",
-      "explanation": "I can never see you again. notの代わりにneverを使うと「二度と～できない」という強い否定になります。"
+      "question": "「あなたは最善を尽くすべきです。」となるように並び替えてください。",
+      "choices": ["do", "best", "should", "your", "You"],
+      "answer": "Youshoulddoyourbest",
+      "explanation": "Should do your best.\n【🇺🇸 Cultural Note】\n結果だけでなく、努力する過程（Effort）も評価されるべきという考え方があります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「お茶をいれてくれる？」\n(      ) you make some tea?",
+      "question": "「静かにしていただけますか？（丁寧な依頼）」\n(      ) you please be quiet?",
       "choices": [],
-      "answer": "Can",
-      "explanation": "Can you make some tea? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「この漢字を読めますか？」\n(      ) you read this Kanji?",
-      "choices": ["Can", "Do", "Are", "Is"],
-      "answer": "Can",
-      "explanation": "Can you read this Kanji? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は両手を使うことができます。」となるように並び替えてください。",
-      "choices": ["hands", "both", "use", "can", "I"],
-      "answer": "Icanusebothhands",
-      "explanation": "I can use both hands. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はあなたなしではできません」\nI (      ) do it without you.",
-      "choices": [],
-      "answer": "can't",
-      "explanation": "I can't do it without you. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はそれを直せます」\nI (      ) fix it.",
-      "choices": ["can", "am", "do", "will"],
-      "answer": "can",
-      "explanation": "I can fix it. 修理できる、という意味です。"
-    },
-    {
-      "type": "sort",
-      "question": "「どうすればそこへ行けますか？」となるように並び替えてください。",
-      "choices": ["there", "get", "I", "can", "How"],
-      "answer": "HowcanIgetthere",
-      "explanation": "How can I get there? 道案内の超重要フレーズです。"
+      "answer": "Will",
+      "explanation": "Will you please...?（〜していただけますか）。Can youよりも少し改まった響きがあります。\n【🇺🇸 Cultural Note】\n映画館や図書館では静かにするのがマナーです。"
     }
   ]
 }
