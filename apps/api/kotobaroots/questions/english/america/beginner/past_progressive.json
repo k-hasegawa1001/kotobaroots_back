@@ -1,622 +1,427 @@
 {
   "learning_topic": "過去進行形",
+  "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "「私はその時、テニスをしていました」\nI (      ) playing tennis then.",
-      "choices": ["was", "am", "were", "is"],
+      "question": "「私は午後7時に夕食を食べていました」\nI (      ) eating dinner at 7 p.m.",
+      "choices": ["was", "were", "am", "is"],
       "answer": "was",
-      "explanation": "過去進行形は「be動詞の過去形 + ing」です。主語がIなのでwasを使います。"
+      "explanation": "主語がIなのでbe動詞の過去形wasを使います。\n【🇺🇸 Cultural Note】\nアメリカの夕食（Dinner/Supper）の時間は家庭によりますが、一般的に午後6時から7時頃です。しかし、共働き家庭の増加や子供の課外活動（スポーツの練習など）のため、車の中でファストフードを食べる「ダッシュボード・ダイニング」も珍しくありません。"
     },
     {
       "type": "sort",
-      "question": "「彼は本を読んでいました。」となるように並び替えてください。",
-      "choices": ["reading", "was", "He", "a", "book"],
-      "answer": "Hewasreadingabook",
-      "explanation": "He was reading a book. です。"
+      "question": "「彼女はピアノを練習していました。」となるように並び替えてください。",
+      "choices": ["practicing", "She", "piano", "was", "the"],
+      "answer": "Shewaspracticingthepiano",
+      "explanation": "She was practicing...（彼女は練習していた）。\n【🇺🇸 Cultural Note】\nピアノはアメリカの子供たちの習い事として定番ですが、高校のマーチングバンド（Marching Band）に参加するために、トランペットやドラムなどの管楽器・打楽器を練習する生徒も非常に多いです。マーチングバンドはアメフトの試合のハーフタイムショーの主役です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼らは走っていました」\nThey (      ) running.",
+      "question": "「彼らはテレビを見ていました」\nThey (      ) watching TV.",
       "choices": [],
       "answer": "were",
-      "explanation": "主語がThey（複数）なのでwereを使います。"
+      "explanation": "They（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nアメリカのテレビ番組（TV shows）は、かつては「プライムタイム（夜8時〜11時）」に家族揃って見るものでしたが、現在はNetflixやHuluなどのストリーミングサービス（Streaming services）で、個々のデバイスを使って自分の好きな時間に一気見（Binge-watching）するスタイルが主流になっています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼女はピアノを弾いていました」\nShe (      ) playing the piano.",
-      "choices": ["was", "is", "were", "are"],
+      "question": "「トムは宿題をしていました」\nTom (      ) doing his homework.",
+      "choices": ["was", "were", "is", "did"],
       "answer": "was",
-      "explanation": "She（単数）なのでwasです。"
+      "explanation": "Tom（三人称単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nアメリカの学校の宿題（Homework）は、日本のようなドリル形式よりも、エッセイ（小論文）やプロジェクト（調べ学習や工作）が多く出されます。評価においては「クリティカル・シンキング（批判的思考）」、つまり自分の意見を論理的に述べる力が重視されます。"
     },
     {
       "type": "sort",
-      "question": "「私たちはテレビを見ていました。」となるように並び替えてください。",
-      "choices": ["watching", "were", "We", "TV"],
-      "answer": "WewerewatchingTV",
-      "explanation": "We were watching TV. です。"
+      "question": "「雪が降っていました。」となるように並び替えてください。",
+      "choices": ["snowing", "was", "It"],
+      "answer": "Itwassnowing",
+      "explanation": "It（天候）なのでwasを使います。\n【🇺🇸 Cultural Note】\nアメリカ北部や東海岸では、大雪（Blizzard）が降ると学校や職場が閉鎖される「スノー・デイ（Snow Day）」になります。子供たちにとっては、ソリ滑りをしたり雪だるまを作ったりできる最高に楽しい日ですが、親にとっては子供の世話と仕事の調整で大変な一日となります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私はその時、勉強していました」\nI was (      ) then.",
-      "choices": [],
-      "answer": "studying",
-      "explanation": "Studyにingをつけてstudyingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「ケンは宿題をしていました」\nKen (      ) doing his homework.",
-      "choices": ["was", "is", "were", "did"],
-      "answer": "was",
-      "explanation": "Kenは三人称単数なのでwasです。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは眠っていましたか？」となるように並び替えてください。",
-      "choices": ["sleeping", "Were", "you"],
-      "answer": "Wereyousleeping",
-      "explanation": "Were you sleeping? 過去進行形の疑問文です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「その時、雨が降っていました」\nIt (      ) raining then.",
-      "choices": [],
-      "answer": "was",
-      "explanation": "It was raining then. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼らは夕食を食べていました」\nThey (      ) eating dinner.",
-      "choices": ["were", "are", "was", "did"],
-      "answer": "were",
-      "explanation": "Theyなのでwereです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はその時、お風呂に入っていました。」となるように並び替えてください。",
-      "choices": ["taking", "was", "I", "bath", "a", "then"],
-      "answer": "Iwastakingabaththen",
-      "explanation": "I was taking a bath then. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は歌を歌っていました」\nShe was (      ) a song.",
-      "choices": [],
-      "answer": "singing",
-      "explanation": "Singにingをつけてsingingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたはその時、何をしていましたか？」\nWhat (      ) you doing then?",
-      "choices": ["were", "are", "was", "did"],
-      "answer": "were",
-      "explanation": "What were you doing? 過去進行形の定番の質問です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私の父は車を洗っていました。」となるように並び替えてください。",
-      "choices": ["washing", "father", "My", "was", "car", "the"],
-      "answer": "Myfatherwaswashingthecar",
-      "explanation": "My father was washing the car. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「鳥たちは空を飛んでいました」\nThe birds (      ) flying in the sky.",
+      "question": "「私たちはバスを待っていました」\nWe (      ) waiting for the bus.",
       "choices": [],
       "answer": "were",
-      "explanation": "The birds（複数）なのでwereです。"
+      "explanation": "We（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nアメリカの黄色いスクールバス（School bus）は、非常に頑丈に作られており、装甲車並みの強度があるとも言われます。また、生徒の乗降中に赤いストップサインを出して停車しているスクールバスを追い越すことは、対向車線であっても法律で厳しく禁止されており、重い罰金が科せられます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は眠っていませんでした」\nI (      ) sleeping.",
-      "choices": ["wasn't", "weren't", "am not", "don't"],
-      "answer": "wasn't",
-      "explanation": "was notの短縮形wasn'tを使います。"
+      "question": "「あなたは眠っていましたか？」\n(      ) you sleeping?",
+      "choices": ["Were", "Was", "Are", "Did"],
+      "answer": "Were",
+      "explanation": "Youの過去進行形疑問文なのでWereを使います。\n【🇺🇸 Cultural Note】\nアメリカの子供たちは、週末に友人の家に泊まりに行く「スリープオーバー（Sleepover）」を楽しみます。寝袋を持ってリビングルームで映画を見たり、夜遅くまでおしゃべりをしたりして過ごします。これは親からの自立の第一歩とも考えられています。"
     },
     {
       "type": "sort",
-      "question": "「彼らは英語を話していましたか？」となるように並び替えてください。",
-      "choices": ["speaking", "English", "they", "Were"],
-      "answer": "WeretheyspeakingEnglish",
-      "explanation": "Were they speaking English? です。"
+      "question": "「彼は働いていませんでした。」となるように並び替えてください。",
+      "choices": ["working", "wasn't", "He"],
+      "answer": "Hewasn'tworking",
+      "explanation": "Was notの短縮形wasn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカの労働文化では、有給休暇（PTO: Paid Time Off）の取得は権利ですが、実際には業務の忙しさから消化しきれない人も多いです。しかし、病気の時は無理せず休む（Call in sick）ことが、「同僚に風邪をうつさないためのマナー」として徹底されています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「トムは音楽を聴いていました」\nTom was (      ) to music.",
+      "question": "「私は本を読んでいました」\nI (      ) reading a book.",
       "choices": [],
-      "answer": "listening",
-      "explanation": "Listenにingをつけてlisteningです。"
+      "answer": "was",
+      "explanation": "I was reading... です。\n【🇺🇸 Cultural Note】\nアメリカの公共図書館（Public Library）は、単に本を貸し出すだけでなく、無料のWi-Fi提供、就職支援、英語学習クラス（ESL）、子供向けの読み聞かせなど、地域コミュニティの「生活支援センター」としての役割を強く持っています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私たちは公園で遊んでいました」\nWe (      ) playing in the park.",
+      "question": "「彼らはテニスをしていました」\nThey (      ) playing tennis.",
       "choices": ["were", "was", "are", "did"],
       "answer": "were",
-      "explanation": "We were playing... です。"
+      "explanation": "Theyなのでwereを使います。\n【🇺🇸 Cultural Note】\nアメリカには無料で使える公共のテニスコート（Public courts）が公園に多く整備されています。ウィリアムズ姉妹（ビーナスとセリーナ）も、カリフォルニア州コンプトンの公共コートで練習を積んで世界の頂点に立ちました。"
     },
     {
       "type": "sort",
-      "question": "「彼女は料理をしていませんでした。」となるように並び替えてください。",
-      "choices": ["cooking", "wasn't", "She"],
-      "answer": "Shewasn'tcooking",
-      "explanation": "She wasn't cooking. です。"
+      "question": "「彼女は料理をしていました。」となるように並び替えてください。",
+      "choices": ["cooking", "was", "She"],
+      "answer": "Shewascooking",
+      "explanation": "She was cooking.\n【🇺🇸 Cultural Note】\nアメリカのキッチンには、巨大なオーブンが標準装備されています。そのため、日本の「炒める・煮る」料理よりも、チキンやキャセロール（耐熱皿を使った蒸し焼き料理）をオーブンに入れて「焼く（Bake/Roast）」料理が家庭料理の主流です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「その猫は椅子の上で寝ていました」\nThe cat (      ) sleeping on the chair.",
+      "question": "「雨が降っていました」\nIt (      ) raining.",
       "choices": [],
       "answer": "was",
-      "explanation": "The cat（単数）なのでwasです。"
+      "explanation": "It was raining.\n【🇺🇸 Cultural Note】\nシアトルなどの北西部（Pacific Northwest）は雨が多いことで有名ですが、実際には「土砂降り」は少なく、霧雨（Drizzle）が多いため、地元の人々は傘をささずに高性能なレインジャケットのフードで済ませることが一般的です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「あなたは何を待っていたのですか？」\nWhat (      ) you waiting for?",
+      "question": "「あなたは何をしていましたか？」\nWhat (      ) you doing?",
       "choices": ["were", "was", "are", "did"],
       "answer": "were",
-      "explanation": "Youが主語なのでwereを使います。"
+      "explanation": "Youに対する過去のbe動詞なのでwereを使います。\n【🇺🇸 Cultural Note】\nこのフレーズは、歴史的な瞬間（9.11同時多発テロやケネディ暗殺など）に自分がどこで何をしていたかを語る際によく使われます（\"Where were you when...?\"）。それは世代ごとの共通記憶（Collective memory）となっています。"
     },
     {
       "type": "sort",
-      "question": "「私は手紙を書いていました。」となるように並び替えてください。",
-      "choices": ["writing", "was", "I", "letter", "a"],
-      "answer": "Iwaswritingaletter",
-      "explanation": "I was writing a letter. です。"
+      "question": "「犬たちは吠えていました。」となるように並び替えてください。",
+      "choices": ["barking", "were", "dogs", "The"],
+      "answer": "Thedogswerebarking",
+      "explanation": "Dogs（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nアメリカでは郵便配達員（Mail carrier）と犬の仲が悪いというのは定番のジョークですが、実際には配達員の安全のために、犬がいる家への配達ルールは非常に厳格です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼らは笑っていました」\nThey (      ) laughing.",
-      "choices": [],
-      "answer": "were",
-      "explanation": "They were laughing. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「雪が降っていましたか？」\n(      ) it snowing?",
-      "choices": ["Was", "Is", "Were", "Did"],
-      "answer": "Was",
-      "explanation": "Itが主語なのでWasを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちは掃除をしていませんでした。」となるように並び替えてください。",
-      "choices": ["cleaning", "We", "weren't"],
-      "answer": "Weweren'tcleaning",
-      "explanation": "We weren't cleaning. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私の母は電話で話していました」\nMy mother (      ) talking on the phone.",
+      "question": "「私はシャワーを浴びていました」\nI (      ) taking a shower.",
       "choices": [],
       "answer": "was",
-      "explanation": "My mother was talking... です。"
+      "explanation": "I was taking a shower.\n【🇺🇸 Cultural Note】\nアメリカのバスルームは、トイレとバスタブが同じ部屋にあるユニットバス形式が一般的です。また、日本のように「湯船に浸かる」習慣は少なく、朝に手早くシャワーを浴びて目を覚ますのが主流です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼らは泳いでいました」\nThey (      ) swimming.",
-      "choices": ["were", "was", "are", "did"],
-      "answer": "were",
-      "explanation": "They were swimming. です。"
+      "question": "「ジョンは車を運転していました」\nJohn (      ) driving a car.",
+      "choices": ["was", "were", "is", "drove"],
+      "answer": "was",
+      "explanation": "John（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nアメリカの運転免許試験（Road test）は、日本に比べて簡易的で費用も安いです。多くの高校生は、学校でドライバーズ・エデュケーション（Driver's Ed）という教習プログラムを受けて免許を取得します。"
     },
     {
       "type": "sort",
-      "question": "「誰がピアノを弾いていましたか？」となるように並び替えてください。",
-      "choices": ["piano", "playing", "was", "Who", "the"],
-      "answer": "Whowasplayingthepiano",
-      "explanation": "Who was playing the piano? 疑問詞Whoが主語の場合、単数扱い（was）にします。"
+      "question": "「私たちは買い物をしていました。」となるように並び替えてください。",
+      "choices": ["shopping", "were", "We"],
+      "answer": "Wewereshopping",
+      "explanation": "We were shopping.\n【🇺🇸 Cultural Note】\nアメリカのスーパーマーケットは非常に巨大で、カート（Shopping cart）も子供が二人乗れるほどの大きさです。まとめ買い（Buying in bulk）が基本で、コストコ（Costco）のような会員制倉庫型店が人気です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私はその時、コンピュータを使っていました」\nI was (      ) a computer then.",
+      "question": "「彼女は踊っていました」\nShe (      ) dancing.",
       "choices": [],
-      "answer": "using",
-      "explanation": "Useのeを取ってusingです。"
+      "answer": "was",
+      "explanation": "She was dancing.\n【🇺🇸 Cultural Note】\n高校の卒業パーティーである「プロム（Prom）」では、生徒たちはタキシードやドレスで正装し、パートナーとダンスを楽しみます。プロムキングとクイーンの選出は、学園生活のハイライトです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼女はダンスをしていましたか？」\n(      ) she dancing?",
-      "choices": ["Was", "Is", "Were", "Did"],
-      "answer": "Was",
-      "explanation": "Was she dancing? です。"
+      "question": "「彼らは歌っていました」\nThey (      ) singing.",
+      "choices": ["were", "was", "are", "sang"],
+      "answer": "were",
+      "explanation": "They（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nアメリカの教会では、ゴスペル（Gospel）や賛美歌を全員で歌うことが礼拝の重要な一部です。特に黒人教会のゴスペルクワイアは、アメリカ音楽のルーツの一つとして深い歴史を持っています。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は勉強していませんでした。」となるように並び替えてください。",
+      "choices": ["studying", "wasn't", "I"],
+      "answer": "Iwasn'tstudying",
+      "explanation": "Was notの短縮形wasn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカの大学生は「よく遊びよく学べ（Work hard, play hard）」を実践しています。平日は図書館にこもって猛勉強し、週末はフラタニティ（男子学生社交クラブ）やソロリティ（女子学生社交クラブ）のパーティーで発散するというライフスタイルが一般的です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その鳥は飛んでいました」\nThe bird (      ) flying.",
+      "choices": [],
+      "answer": "was",
+      "explanation": "The bird（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nアメリカの国鳥であるハクトウワシ（Bald Eagle）は、一度絶滅の危機に瀕しましたが、保護活動により個体数が回復しました。現在は強さと自由の象徴として、パスポートや国章に描かれています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは泣いていましたか？」\n(      ) you crying?",
+      "choices": ["Were", "Was", "Are", "Do"],
+      "answer": "Were",
+      "explanation": "Youの疑問文なのでWereを使います。\n【🇺🇸 Cultural Note】\n「男の子は泣いてはいけない（Boys don't cry）」という古い固定観念はアメリカにもありましたが、近年はメンタルヘルスへの理解が進み、感情を表現することの重要性が教育されています。"
+    },
+    {
+      "type": "sort",
+      "question": "「太陽は輝いていました。」となるように並び替えてください。",
+      "choices": ["shining", "was", "sun", "The"],
+      "answer": "Thesunwasshining",
+      "explanation": "The sun（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nカリフォルニア州やフロリダ州などの「サンベルト（Sun Belt）」と呼ばれる南部・西部地域は、温暖な気候を求めて北部の寒い地域から移住する人が絶えません。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは昼食を食べていました」\nWe (      ) having lunch.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "We（複数）なのでwereを使います。食事を「とる」はHavingを使います。\n【🇺🇸 Cultural Note】\nアメリカのビジネスパーソンにとって、昼食はデスクでサンドイッチをかじりながら仕事をする（Al desko dining）か、あるいはパワーランチ（Power lunch）として商談に使うかの二極化が見られます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は走っていました」\nHe (      ) running.",
+      "choices": ["was", "were", "is", "ran"],
+      "answer": "was",
+      "explanation": "He（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nジョギングブームは1970年代のアメリカで始まりました。ナイキ（Nike）の創業者フィル・ナイトも、オレゴン大学の陸上部出身であり、アメリカのランニング文化の普及に貢献しました。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは笑っていました。」となるように並び替えてください。",
+      "choices": ["laughing", "were", "They"],
+      "answer": "Theywerelaughing",
+      "explanation": "They（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nアメリカのコメディドラマ（Sitcom: Situation Comedy）では、観客の笑い声（Laugh track）が録音されているのが特徴的です（例：「フレンズ」や「フルハウス」など）。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は泳いでいました」\nI (      ) swimming.",
+      "choices": [],
+      "answer": "was",
+      "explanation": "I was swimming.\n【🇺🇸 Cultural Note】\nYMCA（Young Men's Christian Association）は、全米各地にプールやジムを持つコミュニティ施設です。ヴィレッジ・ピープルのヒット曲「Y.M.C.A.」でも有名です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は手紙を書いていました」\nShe (      ) writing a letter.",
+      "choices": ["was", "were", "is", "wrote"],
+      "answer": "was",
+      "explanation": "She（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nアメリカには「ペンパル（Pen pal）」という文化があり、学校の授業の一環として、他州や外国の子供たちと手紙のやり取りをすることがあります。"
     },
     {
       "type": "sort",
       "question": "「風が吹いていました。」となるように並び替えてください。",
-      "choices": ["blowing", "wind", "The", "was"],
+      "choices": ["blowing", "was", "wind", "The"],
       "answer": "Thewindwasblowing",
-      "explanation": "The wind was blowing. です。"
+      "explanation": "The wind（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nシカゴの愛称は\"The Windy City\"ですが、これは気象的な風だけでなく、かつての政治家たちの「大言壮語（windbag）」を皮肉ったものだという説が有力です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私たちは楽しい時を過ごしていました」\nWe (      ) having a good time.",
+      "question": "「私たちは音楽を聴いていました」\nWe (      ) listening to music.",
       "choices": [],
       "answer": "were",
-      "explanation": "We were having... です。"
+      "explanation": "We（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nアメリカはジャズ、ブルース、ロックンロール、ヒップホップの発祥地です。特にテネシー州ナッシュビルは「ミュージック・シティ」と呼ばれ、カントリーミュージックの中心地です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼は走っていませんでした」\nHe (      ) running.",
-      "choices": ["wasn't", "isn't", "didn't", "weren't"],
-      "answer": "wasn't",
-      "explanation": "He wasn't running. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は写真を撮っていました。」となるように並び替えてください。",
-      "choices": ["pictures", "taking", "I", "was"],
-      "answer": "Iwastakingpictures",
-      "explanation": "I was taking pictures. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたはどこへ行くところでしたか？」\nWhere (      ) you going?",
-      "choices": [],
-      "answer": "were",
-      "explanation": "Where were you going? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「その赤ちゃんは泣いていました」\nThe baby (      ) crying.",
-      "choices": ["was", "is", "were", "did"],
+      "question": "「メアリーは歩いていました」\nMary (      ) walking.",
+      "choices": ["was", "were", "is", "walked"],
       "answer": "was",
-      "explanation": "The baby（単数）なのでwasです。"
+      "explanation": "Mary（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nアメリカは車社会なので、歩道（Sidewalk）がない道路も郊外には多いです。しかし、\"Walkability\"（歩きやすさ）が高い都市（ニューヨークやボストンなど）は不動産価値が高い傾向にあります。"
     },
     {
       "type": "sort",
-      "question": "「彼らはベンチに座っていました。」となるように並び替えてください。",
-      "choices": ["bench", "sitting", "They", "on", "were", "the"],
-      "answer": "Theyweresittingonthebench",
-      "explanation": "They were sitting on the bench. です。"
+      "question": "「彼らは戦っていました。」となるように並び替えてください。",
+      "choices": ["fighting", "were", "They"],
+      "answer": "Theywerefighting",
+      "explanation": "They（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\n南北戦争（The Civil War, 1861-1865）は、アメリカ国内で北部（Union）と南部（Confederacy）が戦った歴史的な出来事です。奴隷制の是非が最大の争点でした。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私の兄は自分の部屋を掃除していました」\nMy brother was (      ) his room.",
+      "question": "「私は彼を探していました」\nI (      ) looking for him.",
       "choices": [],
-      "answer": "cleaning",
-      "explanation": "Cleanにingをつけてcleaningです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは朝食を食べていましたか？」\n(      ) you eating breakfast?",
-      "choices": ["Were", "Are", "Was", "Did"],
-      "answer": "Were",
-      "explanation": "Were you eating...? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は英語を話していませんでした。」となるように並び替えてください。",
-      "choices": ["speaking", "wasn't", "English", "I"],
-      "answer": "Iwasn'tspeakingEnglish",
-      "explanation": "I wasn't speaking English. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は微笑んでいました」\nShe was (      ).",
-      "choices": [],
-      "answer": "smiling",
-      "explanation": "Smileのeを取ってsmilingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼らは働いていましたか？」\n(      ) they working?",
-      "choices": ["Were", "Are", "Was", "Do"],
-      "answer": "Were",
-      "explanation": "Were they working? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「太陽が輝いていました。」となるように並び替えてください。",
-      "choices": ["shining", "was", "sun", "The"],
-      "answer": "Thesunwasshining",
-      "explanation": "The sun was shining. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はその時、本を読んでいませんでした」\nI (      ) reading a book then.",
-      "choices": [],
-      "answer": "wasn't",
-      "explanation": "I wasn't reading... です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「マイクとトムはサッカーをしていました」\nMike and Tom (      ) playing soccer.",
-      "choices": ["were", "was", "are", "is"],
-      "answer": "were",
-      "explanation": "Mike and Tom（2人）なのでwereです。"
-    },
-    {
-      "type": "sort",
-      "question": "「誰があなたを手伝っていましたか？」となるように並び替えてください。",
-      "choices": ["helping", "Who", "you", "was"],
-      "answer": "Whowashelpingyou",
-      "explanation": "Who was helping you? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私たちはバスを待っていました」\nWe were (      ) for the bus.",
-      "choices": [],
-      "answer": "waiting",
-      "explanation": "Waitにingをつけてwaitingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は自転車に乗っていました」\nShe (      ) riding a bike.",
-      "choices": ["was", "is", "were", "did"],
       "answer": "was",
-      "explanation": "She was riding... です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はラジオを聴いていました。」となるように並び替えてください。",
-      "choices": ["radio", "to", "listening", "I", "was", "the"],
-      "answer": "Iwaslisteningtotheradio",
-      "explanation": "I was listening to the radio. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼らはダンスをしていました」\nThey were (      ).",
-      "choices": [],
-      "answer": "dancing",
-      "explanation": "Danceのeを取ってdancingです。"
+      "explanation": "I was looking for...\n【🇺🇸 Cultural Note】\nアメリカの牛乳パックの側面には、かつて行方不明の子供（Missing children）の写真が掲載されていました。これは情報提供を呼びかけるための取り組みでした。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼は一生懸命勉強していましたか？」\n(      ) he studying hard?",
-      "choices": ["Was", "Is", "Were", "Did"],
-      "answer": "Was",
-      "explanation": "Was he studying...? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「その犬は走っていました。」となるように並び替えてください。",
-      "choices": ["running", "dog", "The", "was"],
-      "answer": "Thedogwasrunning",
-      "explanation": "The dog was running. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はコーヒーを飲んでいました」\nI was (      ) coffee.",
-      "choices": [],
-      "answer": "drinking",
-      "explanation": "Drinkにingをつけてdrinkingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたたちは何をしていましたか？」\nWhat (      ) you doing?",
-      "choices": ["were", "was", "are", "did"],
-      "answer": "were",
-      "explanation": "What were you doing? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼らは歌を歌っていませんでした。」となるように並び替えてください。",
-      "choices": ["singing", "weren't", "They", "songs"],
-      "answer": "Theyweren'tsingingsongs",
-      "explanation": "They weren't singing songs. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は赤いドレスを着ていました」\nShe was (      ) a red dress.",
-      "choices": [],
-      "answer": "wearing",
-      "explanation": "Wearにingをつけてwearingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「子供たちは公園で遊んでいました」\nThe children (      ) playing in the park.",
-      "choices": ["were", "was", "are", "did"],
-      "answer": "were",
-      "explanation": "The children（複数）なのでwereです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼は何と言っていましたか？」となるように並び替えてください。",
-      "choices": ["saying", "he", "What", "was"],
-      "answer": "Whatwashesaying",
-      "explanation": "What was he saying? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私たちは映画を見ていました」\nWe were (      ) a movie.",
-      "choices": [],
-      "answer": "watching",
-      "explanation": "Watchにingをつけてwatchingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は箱を運んでいました」\nShe (      ) carrying a box.",
-      "choices": ["was", "is", "were", "did"],
+      "question": "「その店は閉まろうとしていました」\nThe store (      ) closing.",
+      "choices": ["was", "were", "is", "closed"],
       "answer": "was",
-      "explanation": "She was carrying... です。"
+      "explanation": "The store（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nアメリカの小売店では、閉店時間になると客がまだ店内にいてもレジを閉めたり、照明を落としたりすることがあり、日本のような「お客様が帰るまで待つ」文化とは異なります。"
     },
     {
       "type": "sort",
-      "question": "「私は買い物をしていませんでした。」となるように並び替えてください。",
-      "choices": ["shopping", "wasn't", "I"],
-      "answer": "Iwasn'tshopping",
-      "explanation": "I wasn't shopping. です。"
+      "question": "「ケイトは座っていました。」となるように並び替えてください。",
+      "choices": ["sitting", "was", "Kate"],
+      "answer": "Katewassitting",
+      "explanation": "Kate（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\n1955年、ローザ・パークスがバスの白人専用席に座っていた白人に席を譲ることを拒否した行動は、公民権運動の象徴的な出来事となりました。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼らは夕食を作っていましたか？」\n(      ) they cooking dinner?",
-      "choices": [],
-      "answer": "Were",
-      "explanation": "Were they cooking...? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はその時、歩いていました」\nI (      ) walking then.",
-      "choices": ["was", "am", "were", "did"],
-      "answer": "was",
-      "explanation": "I was walking... です。"
-    },
-    {
-      "type": "sort",
-      "question": "「その男の人はベンチで寝ていました。」となるように並び替えてください。",
-      "choices": ["sleeping", "man", "bench", "The", "was", "on", "the"],
-      "answer": "Themanwassleepingonthebench",
-      "explanation": "The man was sleeping on the bench. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたは誰と話していたのですか？」\nWho (      ) you talking to?",
+      "question": "「私たちは話していました」\nWe (      ) talking.",
       "choices": [],
       "answer": "were",
-      "explanation": "Who were you talking to? Youが主語なのでwereです。"
+      "explanation": "We（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nアメリカ人は「スモールトーク（Small talk）」が得意です。エレベーターの中やレジ待ちの列など、知らない人同士でも天気やスポーツの話題で気軽に会話を始めます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私の妹は泣いていました」\nMy sister (      ) crying.",
-      "choices": ["was", "is", "were", "did"],
+      "question": "「彼はピザを作っていました」\nHe (      ) making pizza.",
+      "choices": ["was", "were", "is", "made"],
       "answer": "was",
-      "explanation": "My sister（単数）なのでwasです。"
+      "explanation": "He（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nアメリカのピザ消費量は凄まじく、特にスーパーボウルの日曜日には全米で数千万枚のピザがデリバリーされると言われています。ドミノ・ピザなどの大手チェーンは大忙しです。"
     },
     {
       "type": "sort",
-      "question": "「彼らはその本を楽しんでいました。」となるように並び替えてください。",
-      "choices": ["enjoying", "book", "were", "They", "the"],
-      "answer": "Theywereenjoyingthebook",
-      "explanation": "They were enjoying the book. です。"
+      "question": "「彼らは勉強していました。」となるように並び替えてください。",
+      "choices": ["studying", "were", "They"],
+      "answer": "Theywerestudying",
+      "explanation": "They（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nアメリカの大学入試（College Admission）では、SATやACTといった統一テストのスコアだけでなく、高校の成績（GPA）やエッセイ、課外活動の実績が総合的に評価されます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は髪を切っていました」\nShe was (      ) her hair.",
+      "question": "「私はジムに行っていました（向かっていました）」\nI (      ) going to the gym.",
       "choices": [],
-      "answer": "cutting",
-      "explanation": "Cutはtを重ねてcuttingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは何を探していたのですか？」\nWhat (      ) you looking for?",
-      "choices": ["were", "was", "are", "did"],
-      "answer": "were",
-      "explanation": "What were you looking for? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はシャワーを浴びていませんでした。」となるように並び替えてください。",
-      "choices": ["shower", "taking", "wasn't", "a", "I"],
-      "answer": "Iwasn'ttakingashower",
-      "explanation": "I wasn't taking a shower. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「その生徒たちは先生の話を聞いていました」\nThe students were (      ) to the teacher.",
-      "choices": [],
-      "answer": "listening",
-      "explanation": "Listen toの進行形、listening toです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼はその時、家に帰るところでした」\nHe (      ) going home then.",
-      "choices": ["was", "is", "were", "did"],
       "answer": "was",
-      "explanation": "He was going home... です。"
+      "explanation": "I was going...\n【🇺🇸 Cultural Note】\nアメリカはフィットネス大国で、早朝（仕事前）にジムでワークアウトをするのがエリート層の習慣とされています。24時間営業のジムも多く存在します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女はコーヒーを飲んでいました」\nShe (      ) drinking coffee.",
+      "choices": ["was", "were", "is", "drank"],
+      "answer": "was",
+      "explanation": "She（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nアメリカのコーヒーサイズは巨大です。スターバックスの「ベンティ（Venti）」サイズは約590mlもあり、これを飲みながら街を歩く姿は典型的です。"
     },
     {
       "type": "sort",
-      "question": "「なぜ彼女は笑っていたのですか？」となるように並び替えてください。",
-      "choices": ["laughing", "she", "was", "Why"],
-      "answer": "Whywasshelaughing",
-      "explanation": "Why was she laughing? です。"
+      "question": "「その赤ちゃんは泣いていました。」となるように並び替えてください。",
+      "choices": ["crying", "was", "baby", "The"],
+      "answer": "Thebabywascrying",
+      "explanation": "The baby（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nアメリカでは、赤ちゃんを別室で一人で寝かせる（Sleep training）習慣が一般的です。ベビーモニターを使って親が別室から様子を確認します。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私たちは将来について話していました」\nWe (      ) talking about the future.",
+      "question": "「私たちは旅行していました」\nWe (      ) traveling.",
       "choices": [],
       "answer": "were",
-      "explanation": "We were talking... です。"
+      "explanation": "We（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nアメリカ人の休暇スタイルは、RV（キャンピングカー）で国立公園を巡るロードトリップが伝統的に人気です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「お湯が沸いていました」\nThe water (      ) boiling.",
-      "choices": ["was", "is", "were", "did"],
+      "question": "「彼は写真を撮っていました」\nHe (      ) taking a picture.",
+      "choices": ["was", "were", "is", "took"],
       "answer": "was",
-      "explanation": "The water（単数）なのでwasです。"
+      "explanation": "He（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nアンセル・アダムスは、ヨセミテ国立公園などの壮大な自然を撮影した、アメリカを代表する写真家です。"
     },
     {
       "type": "sort",
-      "question": "「彼らは写真を撮っていましたか？」となるように並び替えてください。",
-      "choices": ["pictures", "taking", "Were", "they"],
-      "answer": "Weretheytakingpictures",
-      "explanation": "Were they taking pictures? です。"
+      "question": "「彼らはサッカーをしていました。」となるように並び替えてください。",
+      "choices": ["soccer", "playing", "They", "were"],
+      "answer": "Theywereplayingsoccer",
+      "explanation": "They（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nアメリカで\"Football\"と言えばアメフトを指すため、日本で言うサッカーは必ず\"Soccer\"と呼びます。女子サッカーの人気と実力は世界トップクラスです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私はその時、コンピュータを使っていませんでした」\nI (      ) using a computer then.",
+      "question": "「私はあなたに尋ねていました」\nI (      ) asking you.",
       "choices": [],
-      "answer": "wasn't",
-      "explanation": "I wasn't using... です。"
+      "answer": "was",
+      "explanation": "I was asking...\n【🇺🇸 Cultural Note】\n\"I was just asking.\"（ちょっと聞いてみただけだよ）は、相手が質問に対して不快感を示した時などに、場を和ませるために使うフレーズです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼女は友達を待っていました」\nShe (      ) waiting for her friend.",
-      "choices": ["was", "is", "were", "did"],
+      "question": "「彼女はジーンズを履いていました」\nShe (      ) wearing jeans.",
+      "choices": ["was", "were", "is", "wore"],
       "answer": "was",
-      "explanation": "She was waiting... です。"
+      "explanation": "She（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nリーバイス（Levi's）の501ジーンズは、アメリカン・カルチャーのアイコンであり、もともとはゴールドラッシュの鉱夫のための丈夫な作業着でした。"
     },
     {
       "type": "sort",
-      "question": "「私は英語を勉強していました。」となるように並び替えてください。",
-      "choices": ["studying", "English", "was", "I"],
-      "answer": "IwasstudyingEnglish",
-      "explanation": "I was studying English. です。"
+      "question": "「トムはコンピュータを使っていました。」となるように並び替えてください。",
+      "choices": ["using", "was", "Tom", "computer", "a"],
+      "answer": "Tomwasusingacomputer",
+      "explanation": "Tom（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nスティーブ・ジョブズとスティーブ・ウォズニアックがガレージでAppleを創業したストーリーは、アメリカン・ドリームの象徴として語り継がれています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼らは嘘をついていました」\nThey were (      ).",
+      "question": "「私たちは掃除をしていました」\nWe (      ) cleaning.",
       "choices": [],
-      "answer": "lying",
-      "explanation": "Lieのieをyに変えてlyingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私たちはテニスをしていました」\nWe (      ) playing tennis.",
-      "choices": ["were", "are", "was", "did"],
       "answer": "were",
-      "explanation": "We were playing... です。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼は何を作っていたのですか？」となるように並び替えてください。",
-      "choices": ["making", "he", "was", "What"],
-      "answer": "Whatwashemaking",
-      "explanation": "What was he making? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は彼に話しかけていました」\nI was (      ) to him.",
-      "choices": [],
-      "answer": "talking",
-      "explanation": "Talking to himです。"
+      "explanation": "We（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nガレージセール（Garage Sale）の準備のために、週末にガレージや地下室を掃除して不用品を整理するのは、多くのアメリカ家庭の習慣です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「その鳥は飛んでいましたか？」\n(      ) the bird flying?",
-      "choices": ["Was", "Is", "Were", "Did"],
-      "answer": "Was",
-      "explanation": "Was the bird flying? です。"
+      "question": "「彼らはクッキーを売っていました」\nThey (      ) selling cookies.",
+      "choices": ["were", "was", "are", "sold"],
+      "answer": "were",
+      "explanation": "They（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nガールスカウト（Girl Scouts）のクッキー販売は春の風物詩です。子供たちがスーパーの前などにブースを出して販売し、活動資金を集めるのと同時にビジネススキルを学びます。"
     },
     {
       "type": "sort",
-      "question": "「彼らは自分の車を売ろうとしていました。」となるように並び替えてください。",
-      "choices": ["selling", "were", "car", "They", "their"],
-      "answer": "Theyweresellingtheircar",
-      "explanation": "They were selling their car. です。"
+      "question": "「その男の人は待っていました。」となるように並び替えてください。",
+      "choices": ["man", "was", "waiting", "The"],
+      "answer": "Themanwaswaiting",
+      "explanation": "The man（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nアメリカのレストランでは、席に案内されるまで入り口で待つ（Wait to be seated）のがルールです。勝手に座ってはいけません。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「その時、電話は鳴っていませんでした」\nThe phone (      ) ringing then.",
+      "question": "「私は水を飲んでいました」\nI (      ) drinking water.",
       "choices": [],
-      "answer": "wasn't",
-      "explanation": "The phone wasn't ringing then. です。"
+      "answer": "was",
+      "explanation": "I was drinking...\n【🇺🇸 Cultural Note】\nアメリカのレストランでは、水（Tap water）は氷たっぷりで大きなグラスで無料で提供されます。なくなるとウェイターがすぐに注ぎ足してくれます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼女は箱を持っていませんでした」\nShe (      ) holding a box.",
-      "choices": ["wasn't", "isn't", "didn't", "weren't"],
-      "answer": "wasn't",
-      "explanation": "She wasn't holding... です。"
+      "question": "「彼女は微笑んでいました」\nShe (      ) smiling.",
+      "choices": ["was", "were", "is", "smiled"],
+      "answer": "was",
+      "explanation": "She（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nアメリカの接客業では、\"Service with a smile\"（笑顔のサービス）が基本です。店員も客も、笑顔で挨拶を交わすことがマナーとされています。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは家を建てていました。」となるように並び替えてください。",
+      "choices": ["house", "were", "They", "building", "a"],
+      "answer": "Theywerebuildingahouse",
+      "explanation": "They（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nアーミッシュ（Amish）のコミュニティでは、地域全員が協力して一日で納屋などを建てる「バーン・レイジング（Barn raising）」という伝統行事があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は冗談を言っていました」\nI (      ) kidding.",
+      "choices": [],
+      "answer": "was",
+      "explanation": "I was kidding.\n【🇺🇸 Cultural Note】\nエイプリルフール（April Fools' Day）には、メディアや企業も参加して大掛かりなジョークや嘘のニュースを流すのがアメリカ流の楽しみ方です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ボブは泳いでいました」\nBob (      ) swimming.",
+      "choices": ["was", "were", "is", "swam"],
+      "answer": "was",
+      "explanation": "Bob（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\n夏になると、子供たちは地域のコミュニティプールやサマーキャンプで水泳を楽しみます。"
+    },
+    {
+      "type": "sort",
+      "question": "「雨が止もうとしていました。」となるように並び替えてください。",
+      "choices": ["rain", "was", "stopping", "The"],
+      "answer": "Therainwasstopping",
+      "explanation": "The rain（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\n野球の試合などが雨で中断・延期されることを\"Rain check\"と言います。日常会話でも「またの機会に」という意味で\"Can I get a rain check?\"と使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は歌っていました」\nShe (      ) singing.",
+      "choices": [],
+      "answer": "was",
+      "explanation": "She（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nブロードウェイのミュージカル俳優を目指す若者たちは、ニューヨークのレストランでウェイターとして働きながらオーディションを受け、夢を追いかけています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは急いでいました」\nWe (      ) hurrying.",
+      "choices": ["were", "was", "are", "hurried"],
+      "answer": "were",
+      "explanation": "We（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\n\"In a New York minute\"（ニューヨークの1分間）という表現があるほど、大都市の時間は目まぐるしく過ぎ去っていきます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はギターを弾いていました。」となるように並び替えてください。",
+      "choices": ["guitar", "was", "He", "playing", "the"],
+      "answer": "Hewasplayingtheguitar",
+      "explanation": "He（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nジミ・ヘンドリックスは、1969年のウッドストック・フェスティバルでの伝説的なギター演奏で知られる、アメリカのロックアイコンです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは日本語を話していました」\nThey (      ) speaking Japanese.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "They（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nハワイ州には日系移民の歴史があり、\"Bento\"（弁当）や\"Shoyu\"（醤油）など、日本語由来の単語が現地語（ピジン英語）として定着しています。"
     }
   ]
 }
