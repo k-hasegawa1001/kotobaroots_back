@@ -1,559 +1,637 @@
 {
-  "learning_topic": "比較",
+  "learning_topic": "比較 (Comparison)",
+  "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "「私はケンより背が高い」\nI am (      ) than Ken.",
-      "choices": ["taller", "tall", "tallest", "more tall"],
-      "answer": "taller",
-      "explanation": "「～より背が高い」は比較級を使います。Tallにerをつけてtallerです。"
+      "question": "「テキサスは日本より大きいです」\nTexas is (      ) than Japan.",
+      "choices": ["bigger", "big", "biggest", "more big"],
+      "answer": "bigger",
+      "explanation": "bigの比較級はgを重ねてbiggerにします。\n【🇺🇸 Cultural Note】\nテキサス州の面積は日本の約1.8倍あります。\"Everything is bigger in Texas\"（テキサスでは何でもでかい）という言葉が有名です。"
     },
     {
       "type": "sort",
-      "question": "「この本はあの本より古いです。」となるように並び替えてください。",
-      "choices": ["than", "older", "book", "that", "This", "is", "one"],
-      "answer": "Thisbookisolderthanthatone",
-      "explanation": "This book is older than that one. Oldの比較級olderを使います。"
+      "question": "「この車はあの車より新しいです。」となるように並び替えてください。",
+      "choices": ["car", "newer", "that", "This", "is", "than", "one"],
+      "answer": "Thiscarisnewerthanthatone",
+      "explanation": "newer than...（～より新しい）。\n【🇺🇸 Cultural Note】\nアメリカは車社会（Car culture）で、高校生が誕生日に中古車を買ってもらうのはよくある話です。16歳で免許が取れます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「アラスカはアメリカで一番大きな州です」\nAlaska is the (      ) state in the US.",
+      "choices": [],
+      "answer": "largest",
+      "explanation": "largeの最上級はlargest（またはbiggest）です。\n【🇺🇸 Cultural Note】\nアラスカ州はあまりに巨大なため、地図上では縮小して表示されることが多いですが、実際はアメリカ本土の約半分ほどの大きさがあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「野球はサッカーより人気があります」\nBaseball is (      ) popular than soccer in the US.",
+      "choices": ["more", "most", "much", "many"],
+      "answer": "more",
+      "explanation": "popularのような長い単語の比較級は more popular とします。\n【🇺🇸 Cultural Note】\nアメリカで「Football」といえばアメフトのことです。サッカーも人気上昇中ですが、まだアメフト、バスケ、野球には及びません。"
+    },
+    {
+      "type": "sort",
+      "question": "「夏は冬より暑いです。」となるように並び替えてください。",
+      "choices": ["hotter", "Summer", "than", "winter", "is"],
+      "answer": "Summerishotterthanwinter",
+      "explanation": "hotter than...（～より暑い）。tを重ねることに注意。\n【🇺🇸 Cultural Note】\nアリゾナ州やネバダ州の夏は非常に暑く、摂氏40度を超えることも珍しくありませんが、湿度は低いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は私と同じくらいの背の高さです」\nHe is as (      ) as me.",
+      "choices": [],
+      "answer": "tall",
+      "explanation": "as tall as...（～と同じくらいの高さ）。asとasの間は原級（元の形）です。\n【🇺🇸 Cultural Note】\nアメリカ人の平均身長は日本人より高い傾向にあります。NBA選手のような極端に背の高い人もテレビでよく見かけます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「このピザはあのハンバーガーよりおいしいです」\nThis pizza is (      ) than that hamburger.",
+      "choices": ["better", "gooder", "more good", "best"],
+      "answer": "better",
+      "explanation": "good（良い、おいしい）の比較級は不規則変化で better になります。\n【🇺🇸 Cultural Note】\nニューヨークスタイル（薄い生地）とシカゴスタイル（深皿で分厚い）のピザ論争は、アメリカの食文化における永遠のテーマです。"
+    },
+    {
+      "type": "sort",
+      "question": "「ナイル川は世界で一番長い川です。」となるように並び替えてください。",
+      "choices": ["longest", "river", "The", "Nile", "is", "the", "in", "the", "world"],
+      "answer": "TheNileisthelongestriverintheworld",
+      "explanation": "the longest（一番長い）。最上級にはtheをつけます。\n【🇺🇸 Cultural Note】\nアメリカで一番長い川はミズーリ川ですが、水量が最も多いのはミシシッピ川です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「英語は日本語より簡単だと思います」\nI think English is (      ) than Japanese.",
+      "choices": [],
+      "answer": "easier",
+      "explanation": "easyの比較級はyをiに変えてerをつけ、easierにします。\n【🇺🇸 Cultural Note】\nアメリカ国務省の分類では、英語話者にとって日本語は「習得するのが最も難しい言語（Super-hard languages）」の一つとされています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これは店の中で最も高い（高価な）バッグです」\nThis is the (      ) expensive bag in the store.",
+      "choices": ["most", "more", "best", "much"],
+      "answer": "most",
+      "explanation": "expensive（高価な）の最上級は the most expensive です。\n【🇺🇸 Cultural Note】\nニューヨークの5番街（Fifth Avenue）には、世界中の高級ブランド店が立ち並んでいます。"
+    },
+    {
+      "type": "sort",
+      "question": "「今日、私は昨日よりも忙しいです。」となるように並び替えてください。",
+      "choices": ["than", "busier", "I", "yesterday", "am", "today"],
+      "answer": "Iambusiertodaythanyesterday",
+      "explanation": "busier than...（～より忙しい）。yをiに変えます。\n【🇺🇸 Cultural Note】\n\"Busy as a bee\"（ハチのように忙しい）という慣用句があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はクラスで一番速く走ることができます」\nHe can run the (      ) in his class.",
+      "choices": [],
+      "answer": "fastest",
+      "explanation": "fastの最上級はfastestです。副詞の最上級のtheは省略されることもありますが、ここではtheがあります。\n【🇺🇸 Cultural Note】\nアメリカの学校の運動会（Field Day）は、日本の運動会ほど形式ばっておらず、レクリエーションの要素が強いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「北海道は沖縄より寒いです」\nHokkaido is (      ) than Okinawa.",
+      "choices": ["colder", "cold", "coldest", "more cold"],
+      "answer": "colder",
+      "explanation": "coldの比較級はcolderです。\n【🇺🇸 Cultural Note】\nアメリカでも、北のアラスカやミネソタと、南のフロリダやハワイでは気候が全く異なります。"
+    },
+    {
+      "type": "sort",
+      "question": "「ジョンはトムと同じくらい年をとっています（同い年です）。」となるように並び替えてください。",
+      "choices": ["old", "as", "John", "is", "Tom", "as"],
+      "answer": "JohnisasoldasTom",
+      "explanation": "as old as...（～と同じ年齢）。\n【🇺🇸 Cultural Note】\nアメリカでは年齢を聞くことは失礼とされることが多いですが、ID確認（お酒を買う時など）では厳格にチェックされます。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「富士山は日本で一番高い山です」\nMt. Fuji is the (      ) mountain in Japan.",
       "choices": [],
       "answer": "highest",
-      "explanation": "「一番～」は最上級を使います。Highにestをつけてhighestです。最上級には通常theがつきます。"
+      "explanation": "highの最上級はhighestです。\n【🇺🇸 Cultural Note】\n北米大陸で一番高い山はアラスカ州にあるデナリ（旧マッキンリー）で、標高は6,190mです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼は私より速く走ります」\nHe runs (      ) than I.",
-      "choices": ["faster", "fast", "fastest", "more fast"],
-      "answer": "faster",
-      "explanation": "Fast（速く）の比較級fasterです。"
+      "question": "「この映画はその本よりも面白いです」\nThis movie is (      ) interesting than the book.",
+      "choices": ["more", "most", "much", "very"],
+      "answer": "more",
+      "explanation": "interestingの比較級は more interesting です。\n【🇺🇸 Cultural Note】\n「ハリー・ポッター」や「ハンガー・ゲーム」など、人気小説の映画化（Film adaptation）はハリウッドの定番です。"
     },
     {
       "type": "sort",
-      "question": "「彼女はクラスで一番背が高いです。」となるように並び替えてください。",
-      "choices": ["tallest", "class", "is", "She", "the", "in", "her"],
-      "answer": "Sheisthetallestinherclass",
-      "explanation": "She is the tallest in her class. 場所や範囲を表す時はinを使います（in her class）。"
+      "question": "「彼女は彼よりも上手に歌います。」となるように並び替えてください。",
+      "choices": ["than", "better", "sings", "him", "She"],
+      "answer": "Shesingsbetterthanhim",
+      "explanation": "well（上手に）の比較級はbetterです。than he ではなく than him が口語では一般的です。\n【🇺🇸 Cultural Note】\nタレントショー（Talent Show）は学校の定番行事で、生徒たちが歌やダンス、マジックなどを披露します。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「この箱はあの箱と同じくらい大きいです」\nThis box is as (      ) as that one.",
+      "question": "「これが全ての選択肢の中で最悪です」\nThis is the (      ) option of all.",
       "choices": [],
-      "answer": "big",
-      "explanation": "as ～ as ...（...と同じくらい～）の間には形容詞・副詞の「原級（元の形）」が入ります。"
+      "answer": "worst",
+      "explanation": "bad（悪い）の最上級は不規則変化で worst になります。\n【🇺🇸 Cultural Note】\n\"Worst-case scenario\"（最悪のシナリオ）という言葉は、ビジネスや危機管理でよく使われます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「夏は冬より暑い」\nSummer is (      ) than winter.",
-      "choices": ["hotter", "hoter", "hot", "hottest"],
-      "answer": "hotter",
-      "explanation": "Hot（短母音+子音字）はtを重ねてerをつけ、hotterにします。"
+      "question": "「数学は理科よりも難しいですか？」\nIs math (      ) difficult than science?",
+      "choices": ["more", "most", "much", "many"],
+      "answer": "more",
+      "explanation": "difficultの比較級は more difficult です。\n【🇺🇸 Cultural Note】\nアメリカではSTEM教育（Science, Technology, Engineering, Math）が国策として推進されています。"
     },
     {
       "type": "sort",
-      "question": "「数学は英語より難しいですか？」となるように並び替えてください。",
-      "choices": ["English", "difficult", "Is", "math", "more", "than"],
-      "answer": "IsmathmoredifficultthanEnglish",
-      "explanation": "Is math more difficult than English? 長い単語（difficult）はerではなくmoreを前につけます。"
+      "question": "「健康はお金よりも大切です。」となるように並び替えてください。",
+      "choices": ["Health", "important", "money", "is", "more", "than"],
+      "answer": "Healthismoreimportantthanmoney",
+      "explanation": "more important than...（～より重要だ）。\n【🇺🇸 Cultural Note】\nアメリカの医療費は非常に高額で、健康保険（Health Insurance）の有無が生活に大きく影響します。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「これはすべての中で一番良い本です」\nThis is the (      ) book of all.",
+      "question": "「エンパイアステートビルは東京タワーよりも古いです」\nThe Empire State Building is (      ) than Tokyo Tower.",
+      "choices": [],
+      "answer": "older",
+      "explanation": "oldの比較級はolderです。\n【🇺🇸 Cultural Note】\nエンパイアステートビルは1931年完成、東京タワーは1958年完成です。ニューヨークの象徴的な摩天楼（Skyscraper）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「チーターは全ての動物の中で一番速いです」\nThe cheetah is the (      ) of all animals.",
+      "choices": ["fastest", "faster", "fast", "most fast"],
+      "answer": "fastest",
+      "explanation": "fastの最上級はfastestです。\n【🇺🇸 Cultural Note】\nアメリカの動物園（San Diego Zooなど）は非常に広く、動物たちが自然に近い環境で飼育されています。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたのカバンは私のものより重いです。」となるように並び替えてください。",
+      "choices": ["bag", "heavier", "is", "Your", "mine", "than"],
+      "answer": "Yourbagisheavierthanmine",
+      "explanation": "heavyの比較級はheavier。mine（私のもの）と比較します。\n【🇺🇸 Cultural Note】\nアメリカの教科書はハードカバーで分厚いものが多く、生徒のバックパック（Backpack）は非常に重くなります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は世界で最も有名な歌手の一人です」\nHe is one of the (      ) famous singers in the world.",
+      "choices": [],
+      "answer": "most",
+      "explanation": "one of the most famous...（最も有名な～の一人）。famousの最上級はmost famous。\n【🇺🇸 Cultural Note】\nマイケル・ジャクソンやマドンナ、最近ではテイラー・スウィフトなど、アメリカのポップスターは世界的な影響力を持っています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「コーヒーと紅茶、どちらが好きですか？」\nWhich do you like (      ), coffee or tea?",
+      "choices": ["better", "best", "good", "well"],
+      "answer": "better",
+      "explanation": "二者択一で「どちらが好きか」を聞くときは better を使います。\n【🇺🇸 Cultural Note】\nアメリカは圧倒的にコーヒー文化です。朝食、仕事中、食後と一日中コーヒーを飲みます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私のコンピュータはあなたのものほど新しくありません。」となるように並び替えてください。",
+      "choices": ["not", "My", "computer", "as", "yours", "is", "new", "as"],
+      "answer": "Mycomputerisnotasnewasyours",
+      "explanation": "not as ... as ～（～ほど...ではない）。劣等比較の表現です。\n【🇺🇸 Cultural Note】\nアメリカの大学生にとってラップトップは必須アイテムで、授業中のノート取りもPCで行うのが一般的です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「2月は1年で一番短い月です」\nFebruary is the (      ) month of the year.",
+      "choices": [],
+      "answer": "shortest",
+      "explanation": "shortの最上級はshortestです。\n【🇺🇸 Cultural Note】\n2月には大統領の日（Presidents' Day）という祝日があり、ワシントンとリンカーンの誕生日を祝います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「カリフォルニアの人口はニューヨークの人口より多いです」\nThe population of California is (      ) than that of New York.",
+      "choices": ["larger", "large", "largest", "more large"],
+      "answer": "larger",
+      "explanation": "人口（population）の多さは large/small で表します。比較級はlarger。\n【🇺🇸 Cultural Note】\nカリフォルニア州は全米で最も人口が多い州（約3900万人）です。ニューヨーク州は4番目です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は父よりも早く起きます。」となるように並び替えてください。",
+      "choices": ["earlier", "get", "up", "I", "my", "than", "father"],
+      "answer": "Igetupearlierthanmyfather",
+      "explanation": "earlyの比較級はearlier。thanの後ろは比較対象です。\n【🇺🇸 Cultural Note】\nアメリカの高校は始業時間が早く、朝7時台から授業が始まることも珍しくありません。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これが今まで見た中で最高のアニメです」\nThis is the (      ) anime I have ever seen.",
       "choices": [],
       "answer": "best",
-      "explanation": "Goodの最上級はbestです（不規則変化）。Of all（すべての中で）も最上級のキーワードです。"
+      "explanation": "good（良い）の最上級はbestです。\n【🇺🇸 Cultural Note】\n日本のアニメ（Anime）はアメリカでも大人気です。『NARUTO』や『ドラゴンボール』、『鬼滅の刃』などは広く知られています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私のカバンはあなたのより重い」\nMy bag is (      ) than yours.",
-      "choices": ["heavier", "heavyer", "heavy", "more heavy"],
-      "answer": "heavier",
-      "explanation": "Heavyは「子音+y」なのでyをiに変えてerをつけます。"
+      "question": "「この花はあの花より美しいです」\nThis flower is (      ) beautiful than that one.",
+      "choices": ["more", "most", "much", "very"],
+      "answer": "more",
+      "explanation": "beautifulは長い単語なので、比較級はmore beautifulとなります。\n【🇺🇸 Cultural Note】\nアメリカの国花（National Flower）は「バラ（Rose）」です。ホワイトハウスにはローズガーデンがあります。"
     },
     {
       "type": "sort",
-      "question": "「彼は私より年上です。」となるように並び替えてください。",
-      "choices": ["me", "than", "older", "is", "He"],
-      "answer": "Heisolderthanme",
-      "explanation": "He is older than me. 比較対象に目的格（me）を使うのは口語で一般的です（than Iとも言います）。"
+      "question": "「東京はニューヨークより安全です。」となるように並び替えてください。",
+      "choices": ["safer", "Tokyo", "New", "is", "York", "than"],
+      "answer": "TokyoissaferthanNewYork",
+      "explanation": "safeの比較級はsaferです。\n【🇺🇸 Cultural Note】\nニューヨークなどの大都市では、夜遅くに地下鉄に乗らない、人通りの少ない道を避けるなど、自分の身を守る意識（Street smarts）が必要です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は私よりも上手に歌います」\nShe sings (      ) than I.",
+      "question": "「ミシシッピ川はアメリカで一番長い川です（※諸説あり）」\nThe Mississippi River is the (      ) river in the US.",
+      "choices": [],
+      "answer": "longest",
+      "explanation": "longの最上級はlongestです。（支流を含めるとミズーリ川が最長とされることもありますが、一般的にミシシッピ川が代表格です）\n【🇺🇸 Cultural Note】\n「トム・ソーヤーの冒険」の舞台となった川です。アメリカの物流の大動脈でもあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は私よりも一生懸命勉強します」\nHe studies (      ) than me.",
+      "choices": ["harder", "hard", "hardest", "more hard"],
+      "answer": "harder",
+      "explanation": "hard（一生懸命に）という副詞の比較級もharderです。\n【🇺🇸 Cultural Note】\nアメリカのトップ大学（アイビーリーグなど）に入学するためには、成績だけでなく、リーダーシップや課外活動の実績も非常に重要です。"
+    },
+    {
+      "type": "sort",
+      "question": "「中国はカナダよりも大きいです（人口・面積など）。」となるように並び替えてください。",
+      "choices": ["larger", "China", "than", "is", "Canada"],
+      "answer": "ChinaislargerthanCanada",
+      "explanation": "largeの比較級はlargerです。\n【🇺🇸 Cultural Note】\nカナダはアメリカの隣国で、面積は世界2位（アメリカは3位または4位）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「このコンピュータはあのコンピュータよりも便利です」\nThis computer is (      ) useful than that one.",
+      "choices": [],
+      "answer": "more",
+      "explanation": "usefulの比較級はmore usefulです。\n【🇺🇸 Cultural Note】\nAppleやMicrosoftなど、世界を変えたIT企業の多くはアメリカ西海岸で生まれました。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「誰が一番上手に歌いますか？」\nWho sings the (      )?",
+      "choices": ["best", "better", "good", "well"],
+      "answer": "best",
+      "explanation": "well（上手に）の最上級はbestです。\n【🇺🇸 Cultural Note】\nスーパーボウルのハーフタイムショーに出演することは、歌手にとって最大の名誉の一つとされています。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の犬はあなたの犬より大きいです。」となるように並び替えてください。",
+      "choices": ["bigger", "dog", "yours", "is", "My", "than"],
+      "answer": "Mydogisbiggerthanyours",
+      "explanation": "bigの比較級はbigger。yours（あなたのもの＝your dog）と比較します。\n【🇺🇸 Cultural Note】\nゴールデンレトリバーやラブラドールレトリバーなどの大型犬が、アメリカの家庭では特に人気があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は夏よりも冬の方が好きです」\nI like winter (      ) than summer.",
       "choices": [],
       "answer": "better",
-      "explanation": "Well（上手に）の比較級はbetterです（不規則変化）。Goodの比較級と同じ形です。"
+      "explanation": "like ... better than ～（～より...が好きだ）。moreも使えますが、betterがよく使われます。\n【🇺🇸 Cultural Note】\n冬のホリデーシーズン（感謝祭からクリスマス、新年）は、アメリカ人が一年で最も盛り上がる時期です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「この花はあの花よりも美しい」\nThis flower is (      ) beautiful than that one.",
-      "choices": ["more", "much", "very", "most"],
+      "question": "「これは世界で最も古い建物の一つです」\nThis is one of the (      ) buildings in the world.",
+      "choices": ["oldest", "older", "old", "most old"],
+      "answer": "oldest",
+      "explanation": "one of the 最上級 ＋ 複数名詞（最も～なものの一つ）。\n【🇺🇸 Cultural Note】\nアメリカは比較的若い国なので、ヨーロッパや日本に比べると歴史的建造物は新しいですが、プエブロ族の集落など古代の遺跡も存在します。"
+    },
+    {
+      "type": "sort",
+      "question": "「英語を話すことは書くことより難しいです。」となるように並び替えてください。",
+      "choices": ["difficult", "Speaking", "writing", "English", "is", "more", "than"],
+      "answer": "SpeakingEnglishismoredifficultthanwriting",
+      "explanation": "more difficult than...。比較対象は動名詞（speakingとwriting）で揃えます。\n【🇺🇸 Cultural Note】\nアメリカ人は一般的に、文法の間違いを気にするよりも、自分の意見をはっきり伝えることを重視します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「今日は昨日ほど寒くありません」\nToday is not (      ) cold as yesterday.",
+      "choices": [],
+      "answer": "as",
+      "explanation": "not as ... as ～（～ほど...ではない）。so ... as とすることもあります。\n【🇺🇸 Cultural Note】\nアメリカでは温度の単位に華氏（°F）を使うため、氷点下は「32度以下」となります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は彼より注意深く運転します」\nShe drives (      ) carefully than him.",
+      "choices": ["more", "most", "much", "very"],
       "answer": "more",
-      "explanation": "Beautifulのような長い単語はmoreを使って比較級を作ります。"
+      "explanation": "carefully（注意深く）は副詞で、比較級は more carefully となります。\n【🇺🇸 Cultural Note】\nアメリカの道路は右側通行です。赤信号でも安全なら右折して良い（Right turn on red）というルールが多くの州で採用されています。"
     },
     {
       "type": "sort",
-      "question": "「誰が一番速く泳げますか？」となるように並び替えてください。",
-      "choices": ["fastest", "can", "swim", "Who"],
-      "answer": "Whocanswimfastest",
-      "explanation": "Who can swim fastest? 副詞の最上級にはtheをつけないこともあります。"
+      "question": "「これが店で一番安いカメラです。」となるように並び替えてください。",
+      "choices": ["cheapest", "camera", "the", "This", "is", "in", "the", "store"],
+      "answer": "Thisisthecheapestcamerainthestore",
+      "explanation": "cheap（安い）の最上級はcheapestです。\n【🇺🇸 Cultural Note】\nウォルマート（Walmart）などの大型スーパーでは、電化製品から食料品まで何でも安く揃います。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「今日は昨日より寒いです」\nIt is (      ) today than yesterday.",
-      "choices": [],
-      "answer": "colder",
-      "explanation": "Coldの比較級colderです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「ロシアは世界で一番大きな国です」\nRussia is the (      ) country in the world.",
-      "choices": ["largest", "large", "larger", "most large"],
-      "answer": "largest",
-      "explanation": "Largeの最上級largestです（eで終わる語はstだけつけます）。"
-    },
-    {
-      "type": "sort",
-      "question": "「トムはケンほど背が高くありません。」となるように並び替えてください。",
-      "choices": ["as", "Tom", "is", "tall", "not", "Ken", "as"],
-      "answer": "TomisnotastallasKen",
-      "explanation": "Tom is not as tall as Ken. not as ... as ～ で「～ほど...ではない」という比較の否定（劣等比較）になります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「この問題はあの問題より簡単です」\nThis question is (      ) than that one.",
-      "choices": [],
-      "answer": "easier",
-      "explanation": "Easyの比較級easierです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼は日本で最も有名な歌手の一人です」\nHe is one of the most famous (      ) in Japan.",
-      "choices": ["singers", "singer", "sing", "sings"],
-      "answer": "singers",
-      "explanation": "One of the + 最上級 + 複数名詞（最も～なうちの一人）という重要構文です。"
-    },
-    {
-      "type": "sort",
-      "question": "「どちらが長いですか、これ、それともあれ？」となるように並び替えてください。",
-      "choices": ["longer", "Which", "this", "is", "or", "that"],
-      "answer": "Whichislongerthisorthat",
-      "explanation": "Which is longer, this or that? 2つのものを比べる疑問文です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はあなたより若いです」\nI am (      ) than you.",
-      "choices": [],
-      "answer": "younger",
-      "explanation": "Youngの比較級youngerです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「2月は1年で一番短い月です」\nFebruary is the (      ) month of the year.",
-      "choices": ["shortest", "shorter", "short", "most short"],
-      "answer": "shortest",
-      "explanation": "Shortの最上級shortestです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私のコンピュータはあなたのより新しい。」となるように並び替えてください。",
-      "choices": ["yours", "newer", "is", "computer", "than", "My"],
-      "answer": "Mycomputerisnewerthanyours",
-      "explanation": "My computer is newer than yours. Newの比較級newerです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼は私と同じくらい一生懸命勉強します」\nHe studies as (      ) as I.",
-      "choices": [],
-      "answer": "hard",
-      "explanation": "as hard as... 副詞hardの原級を使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「この映画はその映画より面白い」\nThis movie is (      ) interesting than that one.",
-      "choices": ["more", "much", "very", "most"],
-      "answer": "more",
-      "explanation": "Interestingは長い単語なのでmoreを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「これは店で一番高いカメラです。」となるように並び替えてください。",
-      "choices": ["camera", "expensive", "is", "This", "most", "store", "the", "the", "in"],
-      "answer": "Thisisthemostexpensivecamerainthestore",
-      "explanation": "This is the most expensive camera in the store. Expensive（高価な）の最上級はmost expensiveです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたは彼より早く起きましたか？」\nDid you get up (      ) than him?",
+      "question": "「あなたは私より早く起きなければなりません」\nYou have to get up (      ) than me.",
       "choices": [],
       "answer": "earlier",
-      "explanation": "Earlyの比較級earlierです。"
+      "explanation": "earlyの比較級はearlierです。\n【🇺🇸 Cultural Note】\nサマータイム（Daylight Saving Time）の期間中は、時計の針を1時間進めるため、開始日は睡眠時間が1時間減って辛い思いをします。"
     },
     {
       "type": "multiple_choice",
-      "question": "「信濃川は日本で一番長い川です」\nThe Shinano River is the (      ) river in Japan.",
-      "choices": ["longest", "long", "longer", "most long"],
-      "answer": "longest",
-      "explanation": "Longの最上級longestです。"
+      "question": "「トムはクラスで一番背が高い少年のうちの一人です」\nTom is one of the (      ) boys in his class.",
+      "choices": ["tallest", "taller", "tall", "most tall"],
+      "answer": "tallest",
+      "explanation": "one of the tallest boys（複数形boysを忘れないように）。\n【🇺🇸 Cultural Note】\nアメリカの学校の教室には、歴代大統領の肖像画や星条旗が飾られていることが多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「数学は私にとって歴史より面白いです。」となるように並び替えてください。",
+      "choices": ["interesting", "Math", "history", "is", "more", "than", "to", "me"],
+      "answer": "Mathismoreinterestingtohistorythanme",
+      "explanation": "正しくは Math is more interesting than history to me ですが、文脈上 to me の位置は文末が多いです。並び替えの選択肢に to, me があるので注意。\n【🇺🇸 Cultural Note】\nアメリカの歴史教育では、独立戦争、南北戦争、公民権運動などが重点的に扱われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はチームで一番優れた選手です」\nShe is the (      ) player on the team.",
+      "choices": [],
+      "answer": "best",
+      "explanation": "goodの最上級はbestです。\n【🇺🇸 Cultural Note】\nアメリカの女子サッカー代表チームは世界最強豪の一つであり、女子選手は少女たちの憧れの的です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「どの科目が一番好きですか？」\nWhich subject do you like the (      )?",
+      "choices": ["best", "better", "good", "well"],
+      "answer": "best",
+      "explanation": "like ... the best（一番好きだ）。\n【🇺🇸 Cultural Note】\nアメリカの高校では選択科目が充実しており、演劇、写真、自動車整備、プログラミングなどを選べる学校もあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「健康でいることは金持ちになることより良いです。」となるように並び替えてください。",
+      "choices": ["Being", "better", "healthy", "rich", "is", "than", "being"],
+      "answer": "Beinghealthyisbetterthanbeingrich",
+      "explanation": "Being healthy（健康であること）と Being rich（金持ちであること）を比較しています。\n【🇺🇸 Cultural Note】\nオーガニック食品スーパー（Whole Foodsなど）の人気が高まっており、健康志向の人は食費にお金をかけます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「この問題はあの問題よりも重要です」\nThis problem is (      ) important than that one.",
+      "choices": [],
+      "answer": "more",
+      "explanation": "more important than...。\n【🇺🇸 Cultural Note】\nアメリカ社会では、気候変動（Climate Change）や人種平等（Racial Equality）が重要な議題として議論されています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「東京は日本で最も大きな都市です」\nTokyo is the (      ) city in Japan.",
+      "choices": ["largest", "larger", "large", "most large"],
+      "answer": "largest",
+      "explanation": "largeの最上級はlargest（またはbiggest）です。\n【🇺🇸 Cultural Note】\nアメリカ最大の都市はニューヨークですが、首都はワシントンD.C.です。政治と経済の中心が分かれています。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は私と同じくらいゆっくり歩きます。」となるように並び替えてください。",
+      "choices": ["slowly", "walks", "He", "as", "me", "as"],
+      "answer": "Hewalksasslowlyasme",
+      "explanation": "as slowly as...（～と同じくらいゆっくり）。slowlyは副詞です。\n【🇺🇸 Cultural Note】\n南部（サウス）の人々は話し方がゆっくりでフレンドリーだと言われることがあります（Southern Drawl）。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これは私が今まで読んだ中で一番面白い本です」\nThis is the most interesting book I have (      ) read.",
+      "choices": [],
+      "answer": "ever",
+      "explanation": "have ever read（今までに読んだことがある）。現在完了形と最上級の組み合わせです。\n【🇺🇸 Cultural Note】\n『ライ麦畑でつかまえて（The Catcher in the Rye）』は、アメリカの青春文学の金字塔です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「飛行機で行くのと電車で行くのと、どちらが速いですか？」\nWhich is (      ), going by plane or by train?",
+      "choices": ["faster", "fastest", "fast", "more fast"],
+      "answer": "faster",
+      "explanation": "二者比較なので比較級 faster を使います。\n【🇺🇸 Cultural Note】\nアメリカの鉄道（Amtrak）は飛行機に比べて時間がかかることが多いですが、景色を楽しむ旅として人気があります。"
     },
     {
       "type": "sort",
       "question": "「私の父は家族の中で一番年上です。」となるように並び替えてください。",
-      "choices": ["family", "the", "My", "oldest", "father", "our", "in", "is"],
-      "answer": "Myfatheristheoldestinourfamily",
-      "explanation": "My father is the oldest in our family. Oldの最上級oldestです。"
+      "choices": ["oldest", "My", "in", "family", "father", "the", "is", "my"],
+      "answer": "Myfatheristheoldestinmyfamily",
+      "explanation": "the oldest（一番年上）。\n【🇺🇸 Cultural Note】\nアメリカでは、18歳になると家を出て自立することが強く奨励される文化があります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「健康は富よりも大切です」\nHealth is more (      ) than wealth.",
+      "question": "「この部屋はあの部屋よりきれいです」\nThis room is (      ) than that one.",
       "choices": [],
-      "answer": "important",
-      "explanation": "Important（大切な）です。More important than... の形になります。"
+      "answer": "cleaner",
+      "explanation": "cleanの比較級はcleanerです。\n【🇺🇸 Cultural Note】\nアメリカのホテルでは、部屋を掃除してくれたハウスキーパーのために、枕元にチップ（数ドル）を置くのがマナーです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「この犬はあの犬より大きい」\nThis dog is (      ) than that one.",
-      "choices": ["bigger", "biger", "more big", "biggest"],
-      "answer": "bigger",
-      "explanation": "Big（短母音+子音字）はgを重ねてbiggerにします。"
-    },
-    {
-      "type": "sort",
-      "question": "「東京は日本で一番大きな都市です。」となるように並び替えてください。",
-      "choices": ["city", "Japan", "is", "Tokyo", "in", "largest", "the"],
-      "answer": "TokyoisthelargestcityinJapan",
-      "explanation": "Tokyo is the largest city in Japan. Largeの最上級largestです（biggestでも可ですが選択肢に従います）。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたの自転車は私のと同じくらい良いです」\nYour bike is as (      ) as mine.",
-      "choices": [],
-      "answer": "good",
-      "explanation": "as good as... です。原級goodを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は私より忙しい」\nShe is (      ) than I.",
-      "choices": ["busier", "more busy", "busyer", "busyest"],
-      "answer": "busier",
-      "explanation": "Busyの比較級busierです。"
-    },
-    {
-      "type": "sort",
-      "question": "「これは3つの中で一番小さい箱です。」となるように並び替えてください。",
-      "choices": ["smallest", "This", "three", "is", "box", "the", "of", "the"],
-      "answer": "Thisisthesmallestboxofthethree",
-      "explanation": "This is the smallest box of the three. 数や集団を表す時はofを使います（of the three）。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「昨日は今年一番暑い日でした」\nYesterday was the (      ) day of the year.",
-      "choices": [],
-      "answer": "hottest",
-      "explanation": "Hotの最上級hottestです（tを重ねます）。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「サッカーは野球より人気があります」\nSoccer is (      ) popular than baseball.",
-      "choices": ["more", "much", "very", "most"],
+      "question": "「彼女は彼より有名です」\nShe is (      ) famous than him.",
+      "choices": ["more", "most", "much", "very"],
       "answer": "more",
-      "explanation": "Popularは長い単語なのでmoreを使います。"
+      "explanation": "famousの比較級は more famous です。\n【🇺🇸 Cultural Note】\nマリリン・モンローは、今でもアメリカのポップカルチャーのアイコンとして世界中で有名です。"
     },
     {
       "type": "sort",
-      "question": "「光は音よりずっと速く進みます。」となるように並び替えてください。",
-      "choices": ["than", "Light", "sound", "faster", "travels", "much"],
-      "answer": "Lighttravelsmuchfasterthansound",
-      "explanation": "Light travels much faster than sound. Muchは比較級を強調する「ずっと」という意味で使われます。"
+      "question": "「あなたのテストの結果は私のものより悪かったです。」となるように並び替えてください。",
+      "choices": ["worse", "test", "was", "Your", "mine", "result", "than"],
+      "answer": "Yourtestresultwasworsethanmine",
+      "explanation": "badの比較級は不規則変化で worse になります。\n【🇺🇸 Cultural Note】\nアメリカの学校の成績は、A, B, C, D, F（落第）の5段階評価が一般的です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼はクラスで一番速く走ります」\nHe runs the (      ) in his class.",
+      "question": "「これが全てのケーキの中で一番おいしいです」\nThis is the (      ) cake of all.",
       "choices": [],
+      "answer": "best",
+      "explanation": "good（おいしい）の最上級はbestです。\n【🇺🇸 Cultural Note】\nニューヨークチーズケーキや、赤い色が特徴のレッドベルベットケーキがアメリカの定番スイーツです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「このテストは前のものより難しいです」\nThis test is (      ) than the last one.",
+      "choices": ["more difficult", "difficult", "difficulter", "most difficult"],
+      "answer": "more difficult",
+      "explanation": "difficultの比較級は more difficult です。\n【🇺🇸 Cultural Note】\nアメリカの大学入試（SAT）は、日本のセンター試験（共通テスト）とは異なり、年に何度も受けることができ、一番良いスコアを使えます。"
+    },
+    {
+      "type": "sort",
+      "question": "「健康は富よりも大切です。」となるように並び替えてください。",
+      "choices": ["Health", "important", "wealth", "is", "more", "than"],
+      "answer": "Healthismoreimportantthanwealth",
+      "explanation": "more important than...（～より大切だ）。wealthは富、財産。\n【🇺🇸 Cultural Note】\nアメリカの医療制度は複雑で高額なため、良い仕事を選ぶ基準として「健康保険（Benefits）の内容」が非常に重視されます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は私より上手に英語を話します」\nHe speaks English (      ) than me.",
+      "choices": [],
+      "answer": "better",
+      "explanation": "well（上手に）の比較級はbetterです。\n【🇺🇸 Cultural Note】\nアメリカには公用語が法律で定められていませんが、移民試験（Citizenship Test）には基本的な英語の読み書きと会話が含まれます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この湖はあの湖より深いです」\nThis lake is (      ) than that one.",
+      "choices": ["deeper", "deep", "deepest", "more deep"],
+      "answer": "deeper",
+      "explanation": "deepの比較級はdeeperです。\n【🇺🇸 Cultural Note】\nオレゴン州にあるクレーターレイク（Crater Lake）はアメリカで最も深い湖で、その青さで有名です。"
+    },
+    {
+      "type": "sort",
+      "question": "「マイクは家族の中で一番若いです。」となるように並び替えてください。",
+      "choices": ["youngest", "Mike", "family", "is", "the", "in", "his"],
+      "answer": "Mikeistheyoungestinhisfamily",
+      "explanation": "youngの最上級はyoungestです。\n【🇺🇸 Cultural Note】\n「末っ子（The baby of the family）」は、大人になっても家族から甘やかされる傾向があると言われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「今日は昨日より暑いです」\nToday is (      ) than yesterday.",
+      "choices": [],
+      "answer": "hotter",
+      "explanation": "hotの比較級はtを重ねてhotterにします。\n【🇺🇸 Cultural Note】\nデスバレー（Death Valley）は世界で最も暑い場所の一つとして知られ、最高気温56.7℃を記録したことがあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「このコンピュータは世界で最も速いものの一つです」\nThis computer is one of the (      ) in the world.",
+      "choices": ["fastest", "faster", "fast", "most fast"],
       "answer": "fastest",
-      "explanation": "Fastの最上級fastestです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「この家はあの家より大きい」\nThis house is (      ) than that one.",
-      "choices": ["larger", "large", "largest", "more large"],
-      "answer": "larger",
-      "explanation": "Largeの比較級largerです。"
+      "explanation": "one of the fastest...（最も速いもののうちの一つ）。\n【🇺🇸 Cultural Note】\nシリコンバレーやMIT（マサチューセッツ工科大学）は、コンピュータ技術の最先端を走り続けています。"
     },
     {
       "type": "sort",
-      "question": "「私はあなたほどお金を持っていません。」となるように並び替えてください。",
-      "choices": ["much", "have", "you", "money", "as", "don't", "as", "I"],
-      "answer": "Idon'thaveasmuchmoneyasyou",
-      "explanation": "I don't have as much money as you. As much ... asで量の比較をします。"
+      "question": "「猫は犬より静かです。」となるように並び替えてください。",
+      "choices": ["quieter", "Cats", "than", "are", "dogs"],
+      "answer": "Catsarequieterthandogs",
+      "explanation": "quietの比較級はquieterです（more quietも使われますが、quieterが一般的）。\n【🇺🇸 Cultural Note】\nアメリカで最も飼育数が多いペットは犬ですが、猫も非常に人気があります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は日本で最も人気のある歌手の一人です」\nShe is one of the most (      ) singers in Japan.",
+      "question": "「これが店で一番高い（値段の）ドレスです」\nThis is the (      ) expensive dress in the store.",
       "choices": [],
-      "answer": "popular",
-      "explanation": "One of the most popular singers. 最上級で形容詞の原級popularを使います。"
+      "answer": "most",
+      "explanation": "expensiveの最上級は most expensive です。\n【🇺🇸 Cultural Note】\n高校の卒業ダンスパーティー「プロム」のために、女子生徒たちは何ヶ月も前からドレス選びに奔走します。"
     },
     {
       "type": "multiple_choice",
-      "question": "「誰が一番年下ですか？」\nWho is the (      )?",
-      "choices": ["youngest", "younger", "young", "most young"],
-      "answer": "youngest",
-      "explanation": "Youngの最上級youngestです。"
+      "question": "「私は母と同じくらい忙しいです」\nI am (      ) busy as my mother.",
+      "choices": ["as", "so", "more", "very"],
+      "answer": "as",
+      "explanation": "as ... as ～（～と同じくらい...）。\n【🇺🇸 Cultural Note】\nアメリカの共働き家庭では、子供の送り迎えや習い事の送迎（Soccer Momと呼ばれることもあります）で親は非常に多忙です。"
     },
     {
       "type": "sort",
-      "question": "「この質問は3つの中で一番難しい。」となるように並び替えてください。",
-      "choices": ["question", "difficult", "the", "of", "most", "three", "This", "is", "the"],
-      "answer": "Thisquestionisthemostdifficultofthethree",
-      "explanation": "This question is the most difficult of the three. です。"
+      "question": "「冬は一年で一番寒い季節です。」となるように並び替えてください。",
+      "choices": ["coldest", "Winter", "is", "season", "the", "the", "year", "of"],
+      "answer": "Winteristhecoldestseasonoftheyear",
+      "explanation": "the coldest season（一番寒い季節）。\n【🇺🇸 Cultural Note】\nミネソタ州やノースダコタ州の冬は極寒で、湖の上で車を運転できるほど氷が厚くなります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「今日は昨日より少し暖かい」\nIt is a (      ) warmer today than yesterday.",
-      "choices": [],
-      "answer": "little",
-      "explanation": "A little（少し）で比較級を修飾できます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたのテストは私のより悪かった」\nYour test was (      ) than mine.",
-      "choices": ["worse", "badder", "bad", "worst"],
-      "answer": "worse",
-      "explanation": "Bad（悪い）の比較級はworseです（不規則変化）。"
-    },
-    {
-      "type": "sort",
-      "question": "「できるだけ早く来てください。」となるように並び替えてください。",
-      "choices": ["as", "come", "Please", "possible", "soon", "as"],
-      "answer": "Pleasecomeassoonaspossible",
-      "explanation": "Please come as soon as possible. as ... as possible（できるだけ～）という熟語です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼は私の一番の親友です」\nHe is my (      ) friend.",
-      "choices": [],
-      "answer": "best",
-      "explanation": "My best friend. Goodの最上級bestです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「この車はあの車より高い」\nThis car is (      ) expensive than that one.",
-      "choices": ["more", "much", "very", "most"],
-      "answer": "more",
-      "explanation": "More expensiveです。"
-    },
-    {
-      "type": "sort",
-      "question": "「その知らせを聞いて、私は前より幸せになりました。」となるように並び替えてください。",
-      "choices": ["happier", "news", "made", "me", "The", "than", "before"],
-      "answer": "Thenewsmademehappierthanbefore",
-      "explanation": "The news made me happier than before. Make A B（AをBにする）の構文でBが比較級になっています。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「これが一番簡単な方法です」\nThis is the (      ) way.",
-      "choices": [],
-      "answer": "easiest",
-      "explanation": "Easyの最上級easiestです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「英語は一番役に立つ教科です」\nEnglish is the most (      ) subject.",
-      "choices": ["useful", "use", "using", "used"],
-      "answer": "useful",
-      "explanation": "Useful（役に立つ）の最上級the most usefulです。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは私と同じくらい上手に泳げます。」となるように並び替えてください。",
-      "choices": ["swim", "well", "me", "can", "as", "You", "as"],
-      "answer": "Youcanswimaswellasme",
-      "explanation": "You can swim as well as me. Wellの原級を使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼は家族の中で一番早起きです」\nHe gets up the (      ) in his family.",
-      "choices": [],
-      "answer": "earliest",
-      "explanation": "Earlyの最上級earliestです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「どちらが安いですか？」\nWhich is (      )?",
-      "choices": ["cheaper", "cheap", "cheapest", "more cheap"],
-      "answer": "cheaper",
-      "explanation": "2つの比較なので比較級cheaperを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「それは私が今まで見た中で一番面白い映画です。」となるように並び替えてください。",
-      "choices": ["movie", "seen", "ever", "most", "interesting", "It", "have", "is", "the", "I"],
-      "answer": "ItisthemostinterestingmovieIhaveeverseen",
-      "explanation": "It is the most interesting movie I have ever seen. 最上級 + 現在完了（経験）の定番表現です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼は私より注意深いです」\nHe is (      ) careful than I.",
-      "choices": [],
-      "answer": "more",
-      "explanation": "Carefulは長い単語なのでmoreを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「これはあれより良い」\nThis is (      ) than that.",
-      "choices": ["better", "gooder", "good", "best"],
-      "answer": "better",
-      "explanation": "Goodの比較級betterです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女は彼よりずっとたくさん本を持っています。」となるように並び替えてください。",
-      "choices": ["books", "many", "has", "more", "him", "She", "than"],
-      "answer": "Shehasmanymorebooksthanhim",
-      "explanation": "She has many more books than him. 数の多さを強調する時はmuchではなくmany moreを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「世界で一番長い川は何ですか？」\nWhat is the (      ) river in the world?",
-      "choices": [],
-      "answer": "longest",
-      "explanation": "Longestです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私の犬はあなたの犬と同じくらい大きいです」\nMy dog is as (      ) as yours.",
-      "choices": ["big", "bigger", "biggest", "more big"],
-      "answer": "big",
-      "explanation": "as...asの間は原級bigです。"
-    },
-    {
-      "type": "sort",
-      "question": "「より多くの人々がインターネットを使っています。」となるように並び替えてください。",
-      "choices": ["people", "using", "More", "Internet", "and", "more", "are", "the"],
-      "answer": "MoreandmorepeopleareusingtheInternet",
-      "explanation": "More and more people...（ますます多くの人々）という表現です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女はクラスで一番歌が上手です」\nShe sings the (      ) in her class.",
-      "choices": [],
-      "answer": "best",
-      "explanation": "Well（上手に）の最上級bestです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼はクラスの他のどの少年よりも背が高い」\nHe is taller than (      ) other boy in his class.",
-      "choices": ["any", "all", "other", "some"],
-      "answer": "any",
-      "explanation": "any other + 単数名詞（他のどの～よりも）という、比較級で最上級の意味を表す表現です。"
-    },
-    {
-      "type": "sort",
-      "question": "「日がますます短くなっています。」となるように並び替えてください。",
-      "choices": ["getting", "shorter", "The", "days", "are", "shorter", "and"],
-      "answer": "Thedaysaregettingshorterandshorter",
-      "explanation": "The days are getting shorter and shorter. 比較級 and 比較級（だんだん～になる）です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は猫よりも犬が好きです」\nI like dogs (      ) than cats.",
-      "choices": [],
-      "answer": "better",
-      "explanation": "Like ... better than ～（～より...が好きだ）です。Moreでも通じますがBetterがよく使われます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「これが一番安いです」\nThis is the (      ).",
-      "choices": ["cheapest", "cheaper", "cheap", "most cheap"],
-      "answer": "cheapest",
-      "explanation": "Cheapestです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女は彼より3歳年下です。」となるように並び替えてください。",
-      "choices": ["younger", "years", "him", "three", "She", "is", "than"],
-      "answer": "Sheisthreeyearsyoungerthanhim",
-      "explanation": "She is three years younger than him. 差を表す語句は比較級の前に置きます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はすべての科目の中で理科が一番好きです」\nI like science the (      ) of all subjects.",
-      "choices": [],
-      "answer": "best",
-      "explanation": "Like ... best（一番好きだ）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「健康ほど大切なものはない」\nNothing is more important (      ) health.",
-      "choices": ["than", "as", "of", "in"],
-      "answer": "than",
-      "explanation": "Nothing is more ... than ～（～ほど...なものはない）という最上級の意味を表す比較級です。"
-    },
-    {
-      "type": "sort",
-      "question": "「できるだけ早く」となるように並び替えてください。",
-      "choices": ["soon", "possible", "as", "as"],
-      "answer": "assoonaspossible",
-      "explanation": "as soon as possible です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「このコンピュータはあのコンピュータの2倍の高さ（値段）です」\nThis computer is (      ) as expensive as that one.",
-      "choices": [],
-      "answer": "twice",
-      "explanation": "Twice as ... as ～（～の2倍...だ）。倍数表現です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼は私よりずっと忙しい」\nHe is (      ) busier than I.",
-      "choices": ["much", "very", "more", "many"],
-      "answer": "much",
-      "explanation": "比較級を強める時はveryではなくmuch（またはfar, a lot）を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「この湖はここが一番深い。」となるように並び替えてください。",
-      "choices": ["lake", "This", "deepest", "here", "is"],
-      "answer": "Thislakeisdeepesthere",
-      "explanation": "This lake is deepest here. 同一のものの中での比較（他との比較ではない）の場合、theをつけないことがあります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたは2人のうちで背が高い方です」\nYou are the (      ) of the two.",
+      "question": "「彼女はクラスの他のどの生徒よりも背が高いです」\nShe is (      ) than any other student in her class.",
       "choices": [],
       "answer": "taller",
-      "explanation": "The taller of the two. 2人の中での比較なので比較級を使いますが、特定されるのでtheがつきます。"
+      "explanation": "taller than any other...（他のどの～よりも背が高い）。比較級を使って最上級の意味を表す構文です。\n【🇺🇸 Cultural Note】\nアメリカの学校では、スポーツ奨学金（Athletic Scholarship）を得るために、高校時代からアスリートとしての活躍を目指す生徒が多いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼は私たちの中で一番の働き者です」\nHe is the hardest (      ) of us.",
-      "choices": ["worker", "work", "working", "works"],
-      "answer": "worker",
-      "explanation": "Hardest worker（一番の働き者）です。"
+      "question": "「この問題はあの問題より簡単です」\nThis question is (      ) than that one.",
+      "choices": ["easier", "easy", "easiest", "more easy"],
+      "answer": "easier",
+      "explanation": "easyの比較級はyをiに変えてeasierにします。\n【🇺🇸 Cultural Note】\n\"Easy as pie\"（パイのように簡単＝朝飯前）というイディオムがあります。"
     },
     {
       "type": "sort",
-      "question": "「彼女は実際よりも若く見えます。」となるように並び替えてください。",
-      "choices": ["looks", "is", "younger", "she", "than", "really", "She"],
-      "answer": "Shelooksyoungerthanshereallyis",
-      "explanation": "She looks younger than she really is. 比較対象が節（she really is）になるパターンです。"
+      "question": "「アラスカはテキサスより大きいです。」となるように並び替えてください。",
+      "choices": ["bigger", "Alaska", "is", "Texas", "than"],
+      "answer": "AlaskaisbiggerthanTexas",
+      "explanation": "bigの比較級はbigger。\n【🇺🇸 Cultural Note】\nアラスカ州民は「テキサスを半分に切れば、アラスカは2番目に大きい州になる」というジョークでテキサスに対抗意識を燃やします。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は最悪の事態に備えています」\nI am prepared for the (      ).",
+      "question": "「誰がクラスで一番頭が良いですか？」\nWho is the (      ) student in the class?",
       "choices": [],
-      "answer": "worst",
-      "explanation": "The worst（最悪）。Badの最上級です。"
+      "answer": "smartest",
+      "explanation": "smart（頭が良い）の最上級はsmartestです。\n【🇺🇸 Cultural Note】\nアメリカの成績優秀者は「Honor Roll」として張り出されたり、卒業式で「Valedictorian（総代）」としてスピーチを行います。"
     },
     {
       "type": "multiple_choice",
-      "question": "「年を取れば取るほど、賢くなる」\nThe older you get, the (      ) you become.",
-      "choices": ["wiser", "wise", "wisest", "more wise"],
-      "answer": "wiser",
-      "explanation": "The + 比較級, the + 比較級（～すればするほどますます...）の構文です。"
+      "question": "「このバッグは私のものほど重くありません」\nThis bag is not (      ) heavy as mine.",
+      "choices": ["as", "more", "than", "so"],
+      "answer": "as",
+      "explanation": "not as ... as ～（～ほど...ではない）。\n【🇺🇸 Cultural Note】\n飛行機の預け入れ荷物には重量制限（通常50ポンド＝約23kg）があり、カウンターで詰め直している人をよく見かけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「どちらが強いですか、ライオンですか、それともトラですか？」となるように並び替えてください。",
+      "choices": ["stronger", "a", "Which", "lion", "is", "a", "tiger", "or"],
+      "answer": "Whichisstrongeralionoratiger",
+      "explanation": "Which is stronger, A or B? の形です。\n【🇺🇸 Cultural Note】\nデトロイト・タイガース（野球）やデトロイト・ライオンズ（アメフト）など、猛獣はスポーツチームの名前として人気です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「気分は前より悪いです」\nI feel (      ) than before.",
+      "choices": [],
+      "answer": "worse",
+      "explanation": "bad（悪い）やill（具合が悪い）の比較級はworseです。\n【🇺🇸 Cultural Note】\nアメリカの薬局（Drugstore）では、非常に強力な風邪薬や鎮痛剤が処方箋なしで買えます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これは今までで最高の日です！」\nThis is the (      ) day ever!",
+      "choices": ["best", "better", "good", "well"],
+      "answer": "best",
+      "explanation": "goodの最上級はbestです。the best day ever は定番フレーズです。\n【🇺🇸 Cultural Note】\nディズニーワールドなどのテーマパークでは、キャストがゲストに \"Have a magical day!\" と声をかけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「英語は世界で最も役に立つ言語の一つです。」となるように並び替えてください。",
+      "choices": ["languages", "useful", "English", "of", "is", "most", "one", "the", "in", "the", "world"],
+      "answer": "Englishisoneofthemostusefullanguagesintheworld",
+      "explanation": "one of the most useful languages（最も役立つ言語の一つ）。languagesと複数形になる点に注意。\n【🇺🇸 Cultural Note】\nアメリカ国内でもスペイン語人口が増えており、ATMや自動音声案内では英語とスペイン語を選べるのが普通です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「この映画はあの映画よりワクワクします」\nThis movie is (      ) exciting than that one.",
+      "choices": [],
+      "answer": "more",
+      "explanation": "excitingの比較級は more exciting です。\n【🇺🇸 Cultural Note】\nスーパーヒーロー映画（マーベルやDC）は、アメリカ映画産業の最大の稼ぎ頭であり、巨額の予算が投じられます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の車はあなたの車ほど速くありません」\nMy car is not (      ) fast as yours.",
+      "choices": ["as", "than", "more", "very"],
+      "answer": "as",
+      "explanation": "not as ... as ～（～ほど...ではない）。\n【🇺🇸 Cultural Note】\nインディ500などのカーレースはアメリカで非常に人気があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「富士山はエベレスト山より低いです。」となるように並び替えてください。",
+      "choices": ["lower", "Mt.", "Everest", "Fuji", "than", "is", "Mt."],
+      "answer": "MtFujiislowerthanMtEverest",
+      "explanation": "lowの比較級はlowerです。\n【🇺🇸 Cultural Note】\nアメリカ人はフィート（feet）で高さを表すため、標高などの数字はメートル法を使う日本人より大きく感じられます（1メートル≒3.28フィート）。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これは日本で最も古いお寺です」\nThis is the (      ) temple in Japan.",
+      "choices": [],
+      "answer": "oldest",
+      "explanation": "oldの最上級はoldestです。\n【🇺🇸 Cultural Note】\nアメリカ人観光客にとって、京都や奈良の古い寺院（Temples）や神社（Shrines）は、日本文化の深さを感じる一番のスポットです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「テニスとサッカー、どちらが好きですか？」\nWhich do you like (      ), tennis or soccer?",
+      "choices": ["better", "best", "good", "well"],
+      "answer": "better",
+      "explanation": "二者択一なのでbetterを使います。\n【🇺🇸 Cultural Note】\nアメリカでは「サッカーマム（Soccer Mom）」という言葉があり、子供のスポーツの送迎に熱心な教育熱心な母親を指します。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は私よりもたくさんの本を持っています。」となるように並び替えてください。",
+      "choices": ["books", "has", "He", "more", "me", "than"],
+      "answer": "Hehasmorebooksthanme",
+      "explanation": "more books than me（私より多くの本）。many books の比較級として more books を使います。\n【🇺🇸 Cultural Note】\nアメリカの家は広いので、壁一面の本棚や専用の書斎（Home library）を持つことも夢ではありません。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたの自転車は私のものより新しいですか？」\nIs your bike (      ) than mine?",
+      "choices": [],
+      "answer": "newer",
+      "explanation": "newの比較級はnewerです。\n【🇺🇸 Cultural Note】\nアメリカでは、環境意識の高まりとともに、ポートランドやシアトルなど自転車通勤（Bike commuting）を推奨する都市が増えています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「グランドキャニオンは、私が今まで見た中で最も美しい場所です」\nThe Grand Canyon is the most beautiful place I have (      ) seen.",
+      "choices": ["ever", "never", "always", "yet"],
+      "answer": "ever",
+      "explanation": "have ever seen（今までに見たことがある）。最上級と一緒に使って経験を強調します。\n【🇺🇸 Cultural Note】\nグランドキャニオンの雄大さは写真では伝わらないと言われ、実際に訪れてそのスケールに圧倒される人が多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「言うは行うより易し（口で言うのは簡単です）。」となるように並び替えてください。",
+      "choices": ["done", "Easier", "than", "said"],
+      "answer": "Easiersaidthandone",
+      "explanation": "有名なことわざです。「行われる（done）よりも言われる（said）ほうが簡単（Easier）」という構造です。\n【🇺🇸 Cultural Note】\nこのことわざは日常会話で頻繁に使われます。プランを実行に移す難しさを表します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は世界で一番幸せな男です」\nHe is the (      ) man in the world.",
+      "choices": [],
+      "answer": "happiest",
+      "explanation": "happyの最上級はyをiに変えてhappiestにします。\n【🇺🇸 Cultural Note】\nアメリカ独立宣言にある「幸福の追求（Pursuit of Happiness）」は、アメリカ人の人生観の根幹をなす権利です。"
     }
   ]
 }
