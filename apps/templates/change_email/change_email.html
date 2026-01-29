@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>こんにちは、</p>
+
+    <p>メールアドレス変更リクエストを受け取りました。</p>
+    <p>下記URLをクリックしてメールアドレスを確認してください：</p>
+
+    <!-- <p>{{ confirm_url }}</p> -->
+    <p><a href="{{ confirm_url }}">パスワードを再設定する</a></p>
+    <p>
+      リンクが開かない場合は、以下のURLをブラウザに貼り付けてください：<br />
+      {{ reset_url }}
+    </p>
+
+    <p>もし心当たりがない場合は、このメールは無視してください。</p>
+  </body>
+</html>

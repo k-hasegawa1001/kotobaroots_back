@@ -1,0 +1,909 @@
+{
+  "learning_topic": "アルファベット",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "アルファベットの最初の文字は何ですか？",
+      "choices": ["A", "B", "C", "Z"],
+      "answer": "A",
+      "explanation": "アルファベットの始まりは「A」です。\n\n【文化・歴史】「A」の起源は、フェニキア文字の「アレフ（牛）」と言われています。逆さまにすると、角の生えた牛の顔に見えませんか？牛は古代において重要な家畜（財産）だったため、最初の文字になったという説があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "アルファベットの2番目の文字は何ですか？",
+      "choices": ["A", "B", "C", "D"],
+      "answer": "B",
+      "explanation": "「A」の次は「B」です。\n\n【文化・歴史】「B」の起源は「家」の形だと言われています。ギリシャ文字の「アルファ（Alpha）」と「ベータ（Beta）」が組み合わさって「アルファベット（Alphabet）」という言葉が生まれました。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "大文字「E」に対応する小文字はどれですか？",
+      "choices": ["e", "c", "o", "a"],
+      "answer": "e",
+      "explanation": "Eの小文字は「e」です。英語で最も頻繁に使われる文字と言われています。\n\n【実用】英文タイプライターやPCのキーボードでも、最も打ちやすい位置や頻度を考慮して配置されています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「D」の次はどの文字ですか？",
+      "choices": ["E", "F", "C", "G"],
+      "answer": "E",
+      "explanation": "ABCDE...の順です。\n\n【豆知識】学校の成績評価で「A, B, C, D」の次が「E」ではなく「F (Fail:不合格)」になる国もありますが、順序としてはEが正解です。"
+    },
+    {
+      "type": "sort",
+      "question": "アルファベット順に並べ替えてください。",
+      "choices": ["B", "A", "C"],
+      "answer": "ABC",
+      "explanation": "基本のABC順です。\n\n【実用】辞書や電話帳、ファイル整理など、世界中で「アルファベット順（Alphabetical order）」は整理整頓の基本ルールとして使われています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄に入る文字は？\nA, B, C, (      ), E",
+      "choices": [],
+      "answer": "D",
+      "explanation": "CとEの間は「D」です。\n\n【文化・歴史】「D」は元々「扉」の形から来ていると言われています。ギリシャ文字では「デルタ（Δ）」にあたり、三角形の形をしています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「G」の小文字はどれですか？",
+      "choices": ["g", "q", "p", "b"],
+      "answer": "g",
+      "explanation": "Gの小文字は「g」です。\n\n【書体】「g」には2通りの書き方（眼鏡のような形と、手書き風の形）がありますが、どちらも同じ文字です。PCのフォントによって形が変わる代表的な文字です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "アメリカ合衆国を表す略称はどれですか？",
+      "choices": ["USA", "USB", "UK", "UAE"],
+      "answer": "USA",
+      "explanation": "United States of America の略です。\n\n【文化】国名をアルファベットの頭文字（アクロニム）で呼ぶのは英語圏で一般的です。オリンピックやニュースでよく目にする表現です。"
+    },
+    {
+      "type": "sort",
+      "question": "「犬」を英語で綴ってください。",
+      "choices": ["O", "G", "D"],
+      "answer": "DOG",
+      "explanation": "DOG（ドッグ）です。\n\n【実用】海外ではペットの名前を呼ぶだけでなく、迷子札を作る際などにスペルを伝える機会があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "空欄に入る文字は？\nH, I, (      ), K",
+      "choices": [],
+      "answer": "J",
+      "explanation": "H, I, J, K...の順です。\n\n【文化・歴史】実は「J」はアルファベットの中でかなり新しい文字です。元々は「I」と同じ文字でしたが、音を区別するために中世以降に分かれました。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「Q」と一緒に使われることが多い文字はどれですか？",
+      "choices": ["U", "A", "Z", "X"],
+      "answer": "U",
+      "explanation": "英語では「Queen」「Question」「Quick」のように、Qの後ろにはほぼ必ず「U」が来ます。\n\n【歴史】これはラテン語の綴りのルールがそのまま英語に残っているためです。"
+    },
+    {
+      "type": "sort",
+      "question": "「猫」を英語で綴ってください。",
+      "choices": ["A", "T", "C"],
+      "answer": "CAT",
+      "explanation": "CAT（キャット）です。\n\n【発音】Cは「カ行」の音（Cat）と「サ行」の音（City）の2つの音を持つ便利な文字です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "自分のことを指す「私」を英語1文字で表すと？",
+      "choices": ["I", "Me", "My", "You"],
+      "answer": "I",
+      "explanation": "「私」は「I」です。文の途中でも必ず大文字で書く特別なルールがあります。\n\n【文化】英語圏では「個」を尊重する文化があり、自分自身を表す「I」を大文字にすることで存在感を強調しているとも言われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "インターネット上の場所を示す「ワールド・ワイド・ウェブ」の略称は？\n(      ) W W",
+      "choices": [],
+      "answer": "W",
+      "explanation": "WWW (World Wide Web) です。\n\n【発音】「W」は「ダブリュー」と読みますが、これは「Double U（Uが2つ）」という意味です。文字の形を見るとVが2つ（Double V）に見える国（フランスなど）もあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「Z」のアメリカ英語での読み方は？",
+      "choices": ["ズィー", "ゼッド", "ジージー", "ゼータ"],
+      "answer": "ズィー",
+      "explanation": "アメリカでは「ズィー」、イギリスや日本では「ゼッド」と読むことが一般的です。\n\n【文化】「XYZ」は「終わり」や「これ以上ない」という意味でカクテルの名前などに使われることもあります。"
+    },
+    {
+      "type": "sort",
+      "question": "キーボードの左上の文字の並び順（一般的な配列）は？",
+      "choices": ["W", "Q", "E"],
+      "answer": "QWE",
+      "explanation": "一般的なキーボードは「QWERTY（クワーティ）配列」と呼ばれます。\n\n【歴史】タイプライター時代、早く打ちすぎてハンマーが絡まるのを防ぐために、あえてよく使う文字をバラバラに配置したという説が有名です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "肯定や承認を表す「オッケー」のスペルは？\n(      ) K",
+      "choices": [],
+      "answer": "O",
+      "explanation": "OKです。\n\n【文化】世界中で通じる言葉ですが、元々は「All Correct（すべて正しい）」をふざけて「Oll Korrect」と書いた誤字から始まったという説が有力です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「X」が表すことのある意味は？",
+      "choices": ["キス", "ハグ", "さよなら", "こんにちは"],
+      "answer": "キス",
+      "explanation": "手紙やメッセージの末尾に「XOXO」と書くと「Hugs and Kisses（ハグとキス）」という意味になります。Xがキス（口の形や十字架の誓い）、Oがハグ（腕を回した形）を表します。"
+    },
+    {
+      "type": "sort",
+      "question": "「バス」を英語で綴ってください。",
+      "choices": ["U", "S", "B"],
+      "answer": "BUS",
+      "explanation": "BUSです。\n\n【実用】海外旅行中、最も探すことの多い看板の一つです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "母音（ぼいん）ではない文字はどれですか？",
+      "choices": ["T", "A", "I", "O"],
+      "answer": "T",
+      "explanation": "英語の母音は基本的に「A, I, U, E, O」の5つです。Tは子音（しいん）です。\n\n【発音】母音は口を開けて喉を鳴らす音、子音は舌や唇で空気の流れを調節する音です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "未確認飛行物体（UFO）の「F」は何の略？\nUnidentified (      ) Object",
+      "choices": [],
+      "answer": "Flying",
+      "explanation": "Flying（空飛ぶ）です。\n\n【文化】頭文字を取った略語は日常会話にあふれています。FBI, CIA, NASAなどもすべてアルファベットの略称です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「R」と「L」、日本人が発音を区別しにくいのは有名ですが、舌を巻くのはどっち？",
+      "choices": ["R", "L", "どちらも巻く", "どちらも巻かない"],
+      "answer": "R",
+      "explanation": "一般的に舌を奥に引いて（巻くように）発音するのがR、舌先を上の歯茎につけるのがLです。\n\n【実用】Rice（ご飯）とLice（シラミ）のように、1文字違うだけで意味が大きく変わるため重要です。"
+    },
+    {
+      "type": "sort",
+      "question": "アルファベットの最後の3文字を並べてください。",
+      "choices": ["Y", "X", "Z"],
+      "answer": "XYZ",
+      "explanation": "最後はXYZです。\n\n【歴史】実はローマ字の歴史において、Zは一度不要だとして削除され、後にギリシャ語を取り入れるために復活し、一番最後に配置されたという経緯があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "クリスマスを「Xmas」と書くときの「X」の意味は？",
+      "choices": ["キリスト", "十字架", "未知", "雪の結晶"],
+      "answer": "キリスト",
+      "explanation": "ギリシャ語でキリスト（Christos）の頭文字が「X（カイ）」の形をしていることに由来します。\n\n【文化】英語圏ではMerry Christmasと書くのが丁寧ですが、デザインや略記としてXmasも使われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "テレビのことを2文字で略すと？\nT (      )",
+      "choices": [],
+      "answer": "V",
+      "explanation": "Televisionの略でTVです。\n\n【実用】家電製品のリモコンやホテルの案内で必ず目にする表記です。"
+    },
+    {
+      "type": "sort",
+      "question": "「箱」を英語で綴ってください。",
+      "choices": ["O", "B", "X"],
+      "answer": "BOX",
+      "explanation": "BOXです。\n\n【発音】Xは「クス」という2つの音が混ざった音を出します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「H」の読み方は？",
+      "choices": ["エイチ", "エッチ", "ヘイ", "ホー"],
+      "answer": "エイチ",
+      "explanation": "正しくは「エイチ」です。「エッチ」は日本独自の崩れた読み方です。\n\n【文化】病院の地図記号「H」はHospital（病院）の頭文字から来ています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "お笑い芸人や司会者を指す「MC」は何の略？\nMaster of (      )",
+      "choices": [],
+      "answer": "Ceremony",
+      "explanation": "Ceremony（儀式・式典）のMaster（主人）、つまり司会進行役のことです。\n\n【文化】ヒップホップ文化ではラッパーのことをMCと呼ぶこともあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「ペン」を英語で綴ってください。",
+      "choices": ["N", "P", "E"],
+      "answer": "PEN",
+      "explanation": "PENです。\n\n【実用】入国審査の書類を書く際など、May I have a pen?（ペンを貸してもらえますか？）は役立つフレーズです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「b」と見間違えやすい小文字はどれ？",
+      "choices": ["d", "a", "c", "e"],
+      "answer": "d",
+      "explanation": "b（右膨らみ）とd（左膨らみ）は鏡写しの形をしており、ネイティブの子供でもよく間違えます。\n\n【覚え方】bed（ベッド）という単語の形を思い浮かべると、寝具の形に見えるので覚えやすいと言われています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "SOSは何の略？\n(      ) Our Souls / Ships",
+      "choices": [],
+      "answer": "Save",
+      "explanation": "Save Our Souls（我々の魂を救え）などの略と言われますが、実はモールス信号で打ちやすい「・・・ －－－ ・・・」というリズムを選んだだけで、元々単語の略ではなかったという説が有力です。"
+    },
+    {
+      "type": "sort",
+      "question": "「カップ」を英語で綴ってください。",
+      "choices": ["U", "P", "C"],
+      "answer": "CUP",
+      "explanation": "CUPです。\n\n【文化】カフェ文化の盛んな欧米では、サイズ表記などで目にします。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「P.S.」の意味は？",
+      "choices": ["追伸", "重要", "返信", "パスワード"],
+      "answer": "追伸",
+      "explanation": "ラテン語のPost Script（書いた後）の略です。\n\n【文化】手紙やメールの最後に、書き忘れたことや、ちょっとしたメッセージを添えるときに使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "日本円を表す記号「¥」は、どのアルファベットが元？\n(      )",
+      "choices": [],
+      "answer": "Y",
+      "explanation": "Yenの頭文字「Y」に、等号（＝）のような二重線を引いて通貨記号にしました。ドル（$）やポンド（£）も同様に線が入っています。"
+    },
+    {
+      "type": "sort",
+      "question": "「地図」を英語で綴ってください。",
+      "choices": ["A", "M", "P"],
+      "answer": "MAP",
+      "explanation": "MAPです。\n\n【実用】スマホのGoogle Mapsなど、現代生活に欠かせない単語です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「M」の起源と言われるものは？",
+      "choices": ["水（波）", "山", "男", "口"],
+      "answer": "水（波）",
+      "explanation": "古代文字で「水」を表す波線がＭの形になったと言われています。\n\n【豆知識】Mは閉じた唇を象徴し、Mum（ママ）のように母親を表す言葉に使われることが多いという言語学の説もあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "VIPは何の略？\nVery (      ) Person",
+      "choices": [],
+      "answer": "Important",
+      "explanation": "Very Important Person（とても重要な人）です。\n\n【実用】空港のラウンジやイベント会場などで特別な待遇を受ける人を指します。"
+    },
+    {
+      "type": "sort",
+      "question": "「男の子」を英語で綴ってください。",
+      "choices": ["Y", "B", "O"],
+      "answer": "BOY",
+      "explanation": "BOYです。\n\n【実用】トイレの表記などでも使われます（MenやGentlemenの場合もあります）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「V」を使って写真を撮るときのポーズは？",
+      "choices": ["ピースサイン", "ガッツポーズ", "敬礼", "握手"],
+      "answer": "ピースサイン",
+      "explanation": "Victory（勝利）のVです。\n\n【文化】チャーチル首相が第二次世界大戦中に勝利のサインとして広め、後に平和（Peace）のサインとして定着しました。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "DIYは何の略？\nDo It (      )",
+      "choices": [],
+      "answer": "Yourself",
+      "explanation": "Do It Yourself（自分でやろう）です。\n\n【文化】欧米では家の修理や改装を自分で行う文化が根付いており、日本でも日曜大工の意味で定着しています。"
+    },
+    {
+      "type": "sort",
+      "question": "「女の子」を英語で綴ってください。",
+      "choices": ["R", "L", "I", "G"],
+      "answer": "GIRL",
+      "explanation": "GIRLです。\n\n【発音】IRの発音は、舌を巻くRの音が強く出るため、日本人には発音が少し難しい単語の一つです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「S」の起源と言われる動物は？",
+      "choices": ["蛇", "白鳥", "猿", "羊"],
+      "answer": "蛇",
+      "explanation": "「歯」や「弓」など諸説ありますが、その形と「スーッ」という音から「蛇」を連想させる文字として扱われることが多いです。\n\n【文化】スーパーマンの胸のSはSupermanのSですが、映画の設定によっては「希望」を表す紋章とされることもあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "午前を表す「AM」は何の略？\nAnte (      )",
+      "choices": [],
+      "answer": "Meridiem",
+      "explanation": "ラテン語で「正午（Meridiem）の前（Ante）」という意味です。午後のPMはPost（後） Meridiemです。"
+    },
+    {
+      "type": "sort",
+      "question": "「本」を英語で綴ってください。",
+      "choices": ["O", "K", "B", "O"],
+      "answer": "BOOK",
+      "explanation": "BOOKです。\n\n【実用】Facebook（顔名簿）やNotebook（ノート）など、多くの複合語に使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「K」の文字が表す単位は？",
+      "choices": ["1000", "100", "10000", "500"],
+      "answer": "1000",
+      "explanation": "Kilo（キロ）の頭文字で、1000を表します。\n\n【実用】SNSのフォロワー数などで「10k（1万人）」のように使われるのが現代的です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "CEOは何の略？\nChief (      ) Officer",
+      "choices": [],
+      "answer": "Executive",
+      "explanation": "最高経営責任者のことです。\n\n【実用】ビジネスニュースや企業紹介で頻出する肩書きです。"
+    },
+    {
+      "type": "sort",
+      "question": "「太陽」を英語で綴ってください。",
+      "choices": ["N", "U", "S"],
+      "answer": "SUN",
+      "explanation": "SUNです。\n\n【文化】Sunday（日曜日）は太陽の日という意味です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「N」の小文字は？",
+      "choices": ["n", "m", "u", "h"],
+      "answer": "n",
+      "explanation": "Nの小文字は「n」です。\n\n【形状】u（ユー）と逆さまの形をしているので、手書きの際は混同しないよう注意が必要です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "世界保健機関の略称は？\nW (      ) O",
+      "choices": [],
+      "answer": "H",
+      "explanation": "World Health Organizationの略でWHOです。\n\n【実用】ニュースで頻繁に耳にする国際機関の名前です。"
+    },
+    {
+      "type": "sort",
+      "question": "「月」を英語で綴ってください。",
+      "choices": ["N", "O", "O", "M"],
+      "answer": "MOON",
+      "explanation": "MOONです。\n\n【文化】Monday（月曜日）は月の日という意味です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「p」を逆さまにすると似ている文字は？",
+      "choices": ["d", "b", "q", "g"],
+      "answer": "d",
+      "explanation": "180度回転させるとdに似ています。p, d, b, qは形が似ているため、学習者が最も混乱しやすいグループです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "NGは何の略？\nNo (      )",
+      "choices": [],
+      "answer": "Good",
+      "explanation": "No Good（良くない）の略です。\n\n【文化】実は和製英語に近い使われ方をしており、英語圏ではあまり「NG」とは言わず、「Not allowed」や「Fail」などと言うことが多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「星」を英語で綴ってください。",
+      "choices": ["R", "A", "T", "S"],
+      "answer": "STAR",
+      "explanation": "STARです。\n\n【文化】有名人や主役のことをスターと呼ぶのは日本と同じです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「J」の元になった文字は？",
+      "choices": ["I", "L", "Y", "K"],
+      "answer": "I",
+      "explanation": "JはIの変形で、中世に「i」の下を伸ばして作られました。そのため、IとJは辞書でも近くに並んでいます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "SNSは何の略？\nSocial (      ) Service",
+      "choices": [],
+      "answer": "Networking",
+      "explanation": "Social Networking Serviceです。\n\n【実用】英語圏では単に「Social Media（ソーシャルメディア）」と呼ぶ方が一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「愛」を英語で綴ってください。",
+      "choices": ["V", "O", "L", "E"],
+      "answer": "LOVE",
+      "explanation": "LOVEです。\n\n【文化】手紙の結びに「With Love」と添えるなど、非常に広く使われる言葉です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「U」の元になった文字は？",
+      "choices": ["V", "O", "Y", "W"],
+      "answer": "V",
+      "explanation": "古代ローマでは「V」が「ウ」という音も表していました。後に形が丸くなって「U」が独立しました。高級ブランドのロゴなどでUをVと表記する（BVLGARIなど）のはこの名残です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "ATMは何の略？\nAutomated Teller (      )",
+      "choices": [],
+      "answer": "Machine",
+      "explanation": "自動（Automated）金銭出納係（Teller）機（Machine）です。\n\n【実用】海外旅行でお金を引き出す際に必須の単語です。"
+    },
+    {
+      "type": "sort",
+      "question": "「魚」を英語で綴ってください。",
+      "choices": ["H", "S", "I", "F"],
+      "answer": "FISH",
+      "explanation": "FISHです。\n\n【実用】Fish & Chipsはイギリスの代表的な料理です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「O」の起源と言われる体の部位は？",
+      "choices": ["目", "口", "耳", "指"],
+      "answer": "目",
+      "explanation": "「O」は目の形に由来すると言われています。\n\n【豆知識】驚いたときに目を見開いて口を丸くする様子からも「オー」という音が連想されやすい文字です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "AIは何の略？\nArtificial (      )",
+      "choices": [],
+      "answer": "Intelligence",
+      "explanation": "人工（Artificial）知能（Intelligence）です。\n\n【実用】現在最も注目されている技術用語の一つです。"
+    },
+    {
+      "type": "sort",
+      "question": "「鳥」を英語で綴ってください。",
+      "choices": ["R", "D", "I", "B"],
+      "answer": "BIRD",
+      "explanation": "BIRDです。\n\n【文化】Twitter（現X）のロゴが鳥だったのは、tweet（さえずる）という意味から来ています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「f」の横棒がないと似ている文字は？",
+      "choices": ["t", "l", "j", "i"],
+      "answer": "l",
+      "explanation": "長い棒状の形が「l（エル）」に似ています。\n\n【書体】筆記体や一部のフォントではfとlが繋がって見えることもあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "IDカードのIDは何の略？\n(      ) / Document",
+      "choices": [],
+      "answer": "Identity",
+      "explanation": "Identity（身分証明）です。\n\n【実用】海外でお酒を買う時やクラブに入る時に「Show me your ID」と言われることがあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「手」を英語で綴ってください。",
+      "choices": ["N", "A", "H", "D"],
+      "answer": "HAND",
+      "explanation": "HANDです。\n\n【文化】Shake hands（握手する）は欧米の基本的な挨拶です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「C」と同じ発音（カ行）になることが多い文字は？",
+      "choices": ["K", "S", "G", "Q"],
+      "answer": "K",
+      "explanation": "CatとKiteのように、CとKは同じ「ク」という音を出すことが多いです。\n\n【歴史】元々は同じ音を表していましたが、使い分けが進んで現在の形になりました。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "トイレを表すWCは何の略？\nWater (      )",
+      "choices": [],
+      "answer": "Closet",
+      "explanation": "水洗（Water）小部屋（Closet）という少し古い言い方です。\n\n【実用】英語圏ではRestroomやBathroomと言う方が一般的ですが、標識ではWCも使われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「王様」を英語で綴ってください。",
+      "choices": ["G", "I", "N", "K"],
+      "answer": "KING",
+      "explanation": "KINGです。\n\n【文化】トランプのKはKingを表しています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "大文字と小文字の形が「大きさ以外ほぼ同じ」文字は？",
+      "choices": ["O", "A", "R", "D"],
+      "answer": "O",
+      "explanation": "Oとo、Cとc、Sとsなどは大きさが違うだけで形はほぼ同じです。これらは覚えやすい文字です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "DJは何の略？\nDisc (      )",
+      "choices": [],
+      "answer": "Jockey",
+      "explanation": "ディスク（レコード）を操る人（Jockey：騎手）という意味です。\n\n【文化】ラジオのDJやクラブのDJなど、音楽文化に欠かせない存在です。"
+    },
+    {
+      "type": "sort",
+      "question": "「女王」を英語で綴ってください。",
+      "choices": ["E", "E", "Q", "U", "N"],
+      "answer": "QUEEN",
+      "explanation": "QUEENです。\n\n【文化】イギリスのエリザベス女王など、英語圏の歴史で重要な役割を果たしています。トランプのQです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「y」は母音ですか？子音ですか？",
+      "choices": ["子音だが母音の働きもする", "完全に母音", "完全に子音", "どちらでもない"],
+      "answer": "子音だが母音の働きもする",
+      "explanation": "基本は子音ですが、Sky（スカイ）のようにアイと読む場合などは母音の働きをします。「半母音」と呼ばれることもあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "PR活動のPRは何の略？\nPublic (      )",
+      "choices": [],
+      "answer": "Relations",
+      "explanation": "公衆（Public）との関係（Relations）作りという意味です。「自己PR」という言葉は日本独自の使い方で、英語ではSelf-promotionなどが近いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「名前」を英語で綴ってください。",
+      "choices": ["M", "A", "E", "N"],
+      "answer": "NAME",
+      "explanation": "NAMEです。\n\n【実用】What is your name? は英会話の最初の一歩です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「&」は何という文字の変化形？",
+      "choices": ["Eとt", "Aとn", "Sとo", "Plus"],
+      "answer": "Eとt",
+      "explanation": "ラテン語で「〜と」を意味する「Et」の文字を続けて書いた（合字）のが「&（アンパサンド）」の起源です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "VSは何の略？\n(      )",
+      "choices": [],
+      "answer": "Versus",
+      "explanation": "ラテン語で「対」という意味です。\n\n【実用】スポーツの試合（Japan vs Brazil）や格闘ゲームなどで必ず目にします。"
+    },
+    {
+      "type": "sort",
+      "question": "「時間」を英語で綴ってください。",
+      "choices": ["M", "I", "T", "E"],
+      "answer": "TIME",
+      "explanation": "TIMEです。\n\n【諺】Time is money（時は金なり）は有名な英語の諺です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「A」や「An」は元々どんな意味？",
+      "choices": ["1つの", "あの", "すべての", "私の"],
+      "answer": "1つの",
+      "explanation": "One（1つ）が弱まって「an」や「a」になりました。だから「a book」は「一冊の本」という意味になります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "PCは何の略？\nPersonal (      )",
+      "choices": [],
+      "answer": "Computer",
+      "explanation": "個人用（Personal）コンピュータです。\n\n【歴史】以前は大型で企業しか持てなかったコンピュータが、個人で持てるようになった革命的な出来事からこの名がつきました。"
+    },
+    {
+      "type": "sort",
+      "question": "「年」を英語で綴ってください。",
+      "choices": ["R", "A", "Y", "E"],
+      "answer": "YEAR",
+      "explanation": "YEARです。\n\n【文化】Happy New Year（明けましておめでとう）で馴染み深い単語です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "キーボードで「@」はどこにあることが多い？",
+      "choices": ["Pの右側など", "Aの隣", "スペースキーの隣", "一番左上"],
+      "answer": "Pの右側など",
+      "explanation": "日本語配列キーボードではPの右側にあります。\n\n【実用】アットマーク（at sign）は、メールアドレスやSNSのメンションで必須の記号です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "FAQは何の略？\nFrequently Asked (      )",
+      "choices": [],
+      "answer": "Questions",
+      "explanation": "頻繁に（Frequently）尋ねられる（Asked）質問（Questions）、つまり「よくある質問」のことです。\n\n【実用】ウェブサイトのヘルプページで必ず見かける表記です。"
+    },
+    {
+      "type": "sort",
+      "question": "「道」を英語で綴ってください。",
+      "choices": ["A", "Y", "W"],
+      "answer": "WAY",
+      "explanation": "WAYです。\n\n【文化】No way!（まさか！/ありえない！）というフレーズは日常会話で頻繁に使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「#」の名前は？",
+      "choices": ["ハッシュ / シャープ", "スクエア", "クロス", "スター"],
+      "answer": "ハッシュ / シャープ",
+      "explanation": "英語ではNumber signやHashと言います。\n\n【実用】SNSの「ハッシュタグ（#）」でおなじみです。音楽記号のシャープ（♯）とは厳密には形が少し違いますが、代用されることが多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "アプリ（App）は何の略？\n(      )",
+      "choices": [],
+      "answer": "Application",
+      "explanation": "Application software（応用ソフト）の略です。\n\n【実用】iPhoneのApp Storeなどで使われる現代の必須単語です。"
+    },
+    {
+      "type": "sort",
+      "question": "「日（ひ）」を英語で綴ってください。",
+      "choices": ["A", "D", "Y"],
+      "answer": "DAY",
+      "explanation": "DAYです。\n\n【実用】Have a nice day!（よい一日を！）は別れ際の定番の挨拶です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「w」のフランス語での呼び名は「ドゥブルヴェ」ですが、意味は？",
+      "choices": ["ダブルのV", "ダブルのU", "波", "山"],
+      "answer": "ダブルのV",
+      "explanation": "英語ではDouble U（Uが2つ）ですが、フランス語やイタリア語では「Vが2つ」という意味で呼ばれます。書体によってはVが重なっているように見えるためです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "PDFは何の略？\nPortable Document (      )",
+      "choices": [],
+      "answer": "Format",
+      "explanation": "持ち運び可能な（Portable）文書（Document）形式（Format）です。\n\n【実用】どんな端末でも同じレイアウトで見られるため、ビジネスや公的書類で標準的に使われています。"
+    },
+    {
+      "type": "sort",
+      "question": "「仕事」を英語で綴ってください。",
+      "choices": ["O", "J", "B"],
+      "answer": "JOB",
+      "explanation": "JOBです。\n\n【文化】スティーブ・ジョブズ（Jobs）の名前にも入っています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「abc...」の歌（キラキラ星のメロディ）の最後は何て言ってる？",
+      "choices": ["Next time won't you sing with me?", "Happy happy every day", "This is the end of the song", "A B C D E F G"],
+      "answer": "Next time won't you sing with me?",
+      "explanation": "「次は私と一緒に歌ってくれませんか？」と歌っています。\n\n【文化】英語圏の子供たちが最初に習う歌（Nursery Rhyme）の代表です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "TPOは何の略？\nTime, (      ), Occasion",
+      "choices": [],
+      "answer": "Place",
+      "explanation": "時（Time）、場所（Place）、場合（Occasion）に応じた服装や振る舞いのことです。\n\n【文化】実はこれ、日本で作られた「和製英語」です。海外では通じにくいので注意が必要です。"
+    },
+    {
+      "type": "sort",
+      "question": "「ゼロ」を英語で綴ってください。",
+      "choices": ["E", "Z", "R", "O"],
+      "answer": "ZERO",
+      "explanation": "ZEROです。\n\n【歴史】数字の概念に「0」が導入されたことは数学史上の大発見でした。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「i」の上にある点の名前は？",
+      "choices": ["ティトル", "ドット", "スポット", "ポインタ"],
+      "answer": "ティトル",
+      "explanation": "専門用語で「Tittle（ティトル）」と呼びます。\n\n【豆知識】昔はiと他の文字を区別するために点を打ち始めたのが起源と言われています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "URLは何の略？\nUniform Resource (      )",
+      "choices": [],
+      "answer": "Locator",
+      "explanation": "情報の「場所（Locator）」を示すものです。\n\n【実用】インターネット上の住所のようなものです。"
+    },
+    {
+      "type": "sort",
+      "question": "「良い」を英語で綴ってください。",
+      "choices": ["O", "O", "G", "D"],
+      "answer": "GOOD",
+      "explanation": "GOODです。\n\n【実用】Good morning（おはよう）など挨拶に欠かせません。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "英語の文章で、単語と単語の間に入れる空白を何という？",
+      "choices": ["スペース", "ギャップ", "ブランク", "ホール"],
+      "answer": "スペース",
+      "explanation": "Space（スペース）です。\n\n【歴史】古代のラテン語などでは単語を続けて書いていましたが、読みやすくするためにスペースを入れる発明がなされました。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "BGMは何の略？\n(      ) Ground Music",
+      "choices": [],
+      "answer": "Back",
+      "explanation": "背景（Background）で流れる音楽です。\n\n【文化】これも和製英語に近く、英語圏ではBackground musicと略さずに言うことが多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「新しい」を英語で綴ってください。",
+      "choices": ["E", "W", "N"],
+      "answer": "NEW",
+      "explanation": "NEWです。\n\n【実用】New York（ニューヨーク）は「新しいヨーク（イギリスの地名）」という意味です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「C」の右下に髭がついた記号（Ç）は英語で使う？",
+      "choices": ["基本使わない", "よく使う", "毎日使う", "数字として使う"],
+      "answer": "基本使わない",
+      "explanation": "セディーユという記号で、フランス語（façadeなど）やポルトガル語などで使われます。英語では借用語以外では使いません。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "KOは何の略？\nKnock (      )",
+      "choices": [],
+      "answer": "Out",
+      "explanation": "Knock Out（打ち倒す）です。\n\n【文化】ボクシング用語から広まり、圧倒的に勝つことなどを指して日常でも使われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「古い」を英語で綴ってください。",
+      "choices": ["L", "D", "O"],
+      "answer": "OLD",
+      "explanation": "OLDです。\n\n【実用】How old are you?（何歳ですか？）で年齢を聞くときに使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「CD」は何の略？",
+      "choices": ["Compact Disc", "Computer Data", "Circle Disc", "Central Drive"],
+      "answer": "Compact Disc",
+      "explanation": "Compact Discの略です。\n\n【歴史】カセットテープに代わって音楽を普及させた記録媒体です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "DVDは何の略？\nDigital Versatile (      )",
+      "choices": [],
+      "answer": "Disc",
+      "explanation": "Digital Versatile Disc（多用途デジタルディスク）です。\n\n【実用】元々はVideo Discでしたが、データなど多目的に使えるため名称が変わりました。"
+    },
+    {
+      "type": "sort",
+      "question": "「卵」を英語で綴ってください。",
+      "choices": ["G", "G", "E"],
+      "answer": "EGG",
+      "explanation": "EGGです。\n\n【文化】Easter Egg（イースターエッグ）は復活祭の象徴です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「Ant」の意味は？",
+      "choices": ["アリ", "おばさん", "リンゴ", "芸術"],
+      "answer": "アリ",
+      "explanation": "アリのことです。Aから始まる単語の代表例です。\n\n【注意】Aunt（おばさん）と発音が似ているので注意が必要です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "USBは何の略？\nUniversal Serial (      )",
+      "choices": [],
+      "answer": "Bus",
+      "explanation": "Universal Serial Busです。\n\n【実用】パソコン周辺機器を接続する世界共通の規格です。"
+    },
+    {
+      "type": "sort",
+      "question": "「車」を英語で綴ってください。",
+      "choices": ["R", "A", "C"],
+      "answer": "CAR",
+      "explanation": "CARです。\n\n【実用】Rent-a-car（レンタカー）は和製英語っぽく聞こえますが、実は正しい英語です（Car rentalとも言います）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「Bed」の意味は？",
+      "choices": ["ベッド", "悪い", "賭け", "コウモリ"],
+      "answer": "ベッド",
+      "explanation": "寝るためのベッドです。\n\n【発音】Bad（悪い）と音が似ていますが、Bedは口を横にあまり開かずに発音します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "ITは何の略？\nInformation (      )",
+      "choices": [],
+      "answer": "Technology",
+      "explanation": "Information Technology（情報技術）です。\n\n【実用】現代社会のインフラを支える重要な分野です。"
+    },
+    {
+      "type": "sort",
+      "question": "「帽子」を英語で綴ってください。",
+      "choices": ["A", "T", "H"],
+      "answer": "HAT",
+      "explanation": "HATです。\n\n【文化】ハットは縁（つば）がある帽子、キャップ（Cap）は野球帽のような帽子を指します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「Ink」の意味は？",
+      "choices": ["インク", "中へ", "病気", "氷"],
+      "answer": "インク",
+      "explanation": "ペンに使うインクです。\n\n【実用】プリンターのインク切れ（Out of ink）などで使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "CMは何の略？\nCommercial (      )",
+      "choices": [],
+      "answer": "Message",
+      "explanation": "Commercial Messageです。\n\n【文化】英語圏では単にCommercialやAd（Advertisement）と言う方が一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「ジャム」を英語で綴ってください。",
+      "choices": ["M", "A", "J"],
+      "answer": "JAM",
+      "explanation": "JAMです。\n\n【文化】Traffic jam（交通渋滞）という熟語でも使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「Key」の意味は？",
+      "choices": ["鍵", "王様", "子供", "凧"],
+      "answer": "鍵",
+      "explanation": "鍵のことです。\n\n【比喩】Key to success（成功への鍵）のように、重要な手がかりという意味でも使われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "FIFAは何の略？\nInternational Federation of Association (      )",
+      "choices": [],
+      "answer": "Football",
+      "explanation": "国際サッカー連盟のことです。フランス語の略称がそのまま世界中で使われています。"
+    },
+    {
+      "type": "sort",
+      "question": "「脚」を英語で綴ってください。",
+      "choices": ["E", "G", "L"],
+      "answer": "LEG",
+      "explanation": "LEGです。\n\n【実用】足首から下の部分はFoot、それより上の脚全体をLegと呼び分けます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「Man」の意味は？",
+      "choices": ["男性", "月", "地図", "マット"],
+      "answer": "男性",
+      "explanation": "大人の男性、または人間全体を指します。\n\n【文化】Spider-Manのようにヒーローの名前によく使われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "NASAは何の略？\nNational Aeronautics and (      ) Administration",
+      "choices": [],
+      "answer": "Space",
+      "explanation": "アメリカ航空宇宙局のことです。\n\n【実用】宇宙開発のニュースで必ず登場する名前です。"
+    },
+    {
+      "type": "sort",
+      "question": "「網」を英語で綴ってください。",
+      "choices": ["T", "N", "E"],
+      "answer": "NET",
+      "explanation": "NETです。\n\n【実用】Internet（インターネット）はInter（相互の）Net（網）という意味です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「Owl」の意味は？",
+      "choices": ["フクロウ", "牛", "油", "玉ねぎ"],
+      "answer": "フクロウ",
+      "explanation": "フクロウのことです。\n\n【文化】西洋では「知恵の象徴」とされています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "IOCは何の略？\nInternational (      ) Committee",
+      "choices": [],
+      "answer": "Olympic",
+      "explanation": "国際オリンピック委員会のことです。"
+    },
+    {
+      "type": "sort",
+      "question": "「豚」を英語で綴ってください。",
+      "choices": ["G", "I", "P"],
+      "answer": "PIG",
+      "explanation": "PIGです。\n\n【実用】食用になった豚肉はPorkと呼び方が変わります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「Red」の意味は？",
+      "choices": ["赤", "ネズミ", "走る", "雨"],
+      "answer": "赤",
+      "explanation": "赤色です。\n\n【文化】Red carpet（レッドカーペット）は歓迎や特別扱いの象徴です。"
+    },
+    {
+      "type": "sort",
+      "question": "「海」を英語で綴ってください。",
+      "choices": ["A", "S", "E"],
+      "answer": "SEA",
+      "explanation": "SEAです。\n\n【発音】See（見る）と全く同じ発音です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「Tea」の意味は？",
+      "choices": ["お茶", "つま先", "2", "木"],
+      "answer": "お茶",
+      "explanation": "お茶、特に紅茶を指します。\n\n【文化】イギリスのAfternoon Teaは有名な文化です。"
+    },
+    {
+      "type": "sort",
+      "question": "「小型トラック/ワゴン車」を英語で綴ってください。",
+      "choices": ["N", "V", "A"],
+      "answer": "VAN",
+      "explanation": "VANです。\n\n【実用】荷物を運ぶ屋根付きの車を指します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「Web」の意味は？",
+      "choices": ["クモの巣", "濡れた", "かつら", "道"],
+      "answer": "クモの巣",
+      "explanation": "元々はクモの巣という意味です。そこから、世界中に張り巡らされた「ウェブ（インターネット）」の意味になりました。"
+    },
+    {
+      "type": "sort",
+      "question": "「はい」を英語で綴ってください。",
+      "choices": ["E", "S", "Y"],
+      "answer": "YES",
+      "explanation": "YESです。\n\n【実用】肯定の返事の基本です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「Zoo」の意味は？",
+      "choices": ["動物園", "ゼロ", "ジッパー", "ゾーン"],
+      "answer": "動物園",
+      "explanation": "動物園です。\n\n【豆知識】Zoology（動物学）という言葉が短くなってZooになりました。"
+    }
+  ]
+}
