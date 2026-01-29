@@ -502,7 +502,7 @@
     },
     {
       "type": "sort",
-      "question": "「パクチー（香草）」をアメリカ英語にしてください。",
+      "question": "「パクチー」をアメリカ英語にしてください。",
       "choices": ["cilantro"],
       "answer": "cilantro",
       "explanation": "Cilantro（シラントロ：スペイン語由来）と言います。イギリスではCorianderです。\n【🇺🇸 Cultural Note】\nメキシコ料理（Tacosなど）がアメリカの食文化に深く浸透しているため、スペイン語名が定着しました。"
@@ -541,13 +541,6 @@
       "choices": ["reservation", "booking", "order", "keep"],
       "answer": "reservation",
       "explanation": "Reservationと言います。イギリスではBookingを使うことが多いです。\n【🇺🇸 Cultural Note】\nレストランやホテルの予約時に\"I'd like to make a reservation\"と言います。"
-    },
-    {
-      "type": "sort",
-      "question": "「エレベーター」のイギリス英語（※比較学習）を並べてください。",
-      "choices": ["lift"],
-      "answer": "lift",
-      "explanation": "Lift。アメリカでは使いませんが、違いを知っておくと便利です。\n【🇺🇸 Cultural Note】\n「乗せる（lift）」という意味から来ています。"
     },
     {
       "type": "fill_in_the_blank",
