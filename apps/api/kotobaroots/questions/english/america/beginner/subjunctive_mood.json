@@ -1,440 +1,707 @@
 {
-  "learning_topic": "仮定法",
-  "difficulty": "Beginner",
+  "learning_topic": "仮定法 (Subjunctive Mood)",
+  "learning_locale": "en_US",
+  "difficulty": "Intermediate",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "「もし私が鳥なら、あなたのところに飛んでいけるのに」\nIf I (      ) a bird, I could fly to you.",
+      "question": "「もし私が鳥なら、あなたのもとへ飛んでいけるのに」\nIf I (      ) a bird, I could fly to you.",
       "choices": ["were", "am", "was", "be"],
       "answer": "were",
-      "explanation": "現在の事実と異なる仮定をする場合、be動詞は主語に関わらずwereを使うのが原則です（口語ではwasも使われますが、学習上はwereが基本です）。"
+      "explanation": "現在の事実に反する仮定（仮定法過去）では、be動詞は主語に関係なく were を使うのが原則です。\n【🇺🇸 Cultural Note】\nアメリカの国鳥は「ハクトウワシ（Bald Eagle）」です。強さと自由の象徴とされています。"
     },
     {
       "type": "sort",
-      "question": "「もしもっとお金があれば、それが買えるのに。」となるように並び替えてください。",
-      "choices": ["money", "buy", "had", "could", "I", "If", "it", "more", "I"],
-      "answer": "IfIhadmoremoneyIcouldbuyit",
-      "explanation": "If I had more money, I could buy it. 動詞を過去形（had）にすることで「現実ではない仮定」を表します。"
+      "question": "「もし私にお金があれば、その車を買うのに。」となるように並び替えてください。",
+      "choices": ["money", "had", "buy", "car", "I", "would", "the", "If", "I"],
+      "answer": "IfIhadmoneyIwouldbuythecar",
+      "explanation": "If I had money, I would buy...。動詞を過去形（had）にし、主節に助動詞の過去形（would）を使います。\n【🇺🇸 Cultural Note】\nアメリカのティーンエイジャーは、16歳になると自分の車を持つことを夢見てアルバイトに励みます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「もっと時間があればいいのに」\nI wish I (      ) more time.",
+      "question": "「もっと時間があればいいのになあ」\nI wish I (      ) more time.",
       "choices": [],
       "answer": "had",
-      "explanation": "I wish + 過去形（～であればいいのに）。実際には時間がないことを示します。"
+      "explanation": "I wish + 仮定法過去（～であればいいのに）。実際には時間がないため、haveの過去形hadを使います。\n【🇺🇸 Cultural Note】\nアメリカのビジネスマンは「Time is money（時は金なり）」を意識し、効率を重視します。"
     },
     {
       "type": "multiple_choice",
-      "question": "「もし私があなたなら、そんなことはしないでしょう」\nIf I (      ) you, I wouldn't do such a thing.",
-      "choices": ["were", "am", "was", "are"],
+      "question": "「もし私があなたなら、医者に行くでしょう」\nIf I (      ) you, I would go to the doctor.",
+      "choices": ["were", "am", "was", "be"],
       "answer": "were",
-      "explanation": "If I were you（もし私があなたなら）という定型表現です。"
+      "explanation": "If I were you...（もし私があなたなら）。相手にアドバイスをする時の定番表現です。\n【🇺🇸 Cultural Note】\nアメリカの医療費は非常に高額なため、軽症であれば病院に行かずにドラッグストアの薬で済ませる人が多いです。"
     },
     {
       "type": "sort",
-      "question": "「彼がここにいればいいのに。」となるように並び替えてください。",
-      "choices": ["here", "were", "wish", "he", "I"],
-      "answer": "Iwishhewerehere",
-      "explanation": "I wish he were here. 彼が実際にはここにいない状況で使います。"
+      "question": "「もし雨でなければ、私たちは野球ができるのに。」となるように並び替えてください。",
+      "choices": ["rainy", "play", "not", "were", "we", "could", "baseball", "it", "If"],
+      "answer": "Ifitwerenotrainywecouldplaybaseball",
+      "explanation": "If it were not rainy...（もし雨でなければ）。be動詞はwereを使います。\n【🇺🇸 Cultural Note】\nメジャーリーグの球場の中には、雨天でも試合ができる開閉式屋根（Retractable roof）を持つスタジアムがあります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「もし車を持っていれば、そこへ行けるのに」\nIf I had a car, I (      ) go there.",
+      "question": "「ギターが弾けたらいいのになあ」\nI wish I (      ) play the guitar.",
       "choices": [],
       "answer": "could",
-      "explanation": "仮定法の帰結節（後半）では、wouldやcouldなどの助動詞の過去形を使います。"
+      "explanation": "I wish I could...（～できればいいのに）。canの過去形couldを使います。\n【🇺🇸 Cultural Note】\nフェンダーやギブソンなどのエレキギターは、アメリカのロックンロール文化の象徴です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「泳げたらいいのに（実際は泳げない）」\nI wish I (      ) swim.",
-      "choices": ["could", "can", "will", "may"],
-      "answer": "could",
-      "explanation": "Canの過去形couldを使って「（能力的に）できたらいいのに」を表します。"
+      "question": "「もし彼がここにいれば、私たちを助けてくれるだろう」\nIf he (      ) here, he would help us.",
+      "choices": ["were", "is", "was", "be"],
+      "answer": "were",
+      "explanation": "仮定法過去なのでbe動詞はwereを使います（口語ではwasも使われますが、テストではwereが安全です）。\n【🇺🇸 Cultural Note】\nスーパーヒーロー映画（アベンジャーズなど）は、困った時に助けてくれる存在への憧れを反映しています。"
     },
     {
       "type": "sort",
-      "question": "「もし明日晴れなら、ピクニックに行きます（これは仮定法ではなく条件）。」となるように並び替えてください。",
-      "choices": ["sunny", "go", "is", "If", "picnic", "it", "tomorrow", "will", "on", "a", "we"],
-      "answer": "Ifitissunnytomorrowwewillgoonapicnic",
-      "explanation": "If it is sunny tomorrow... 未来の可能性が十分ある場合は、仮定法（過去形）ではなく現在形を使います。"
+      "question": "「もし私が宝くじに当たったら、大きな家を買うのに。」となるように並び替えてください。",
+      "choices": ["lottery", "won", "house", "big", "buy", "I", "a", "would", "the", "If", "I"],
+      "answer": "IfIwonthelotteryIwouldbuyabighouse",
+      "explanation": "If I won...（もし勝ったら＝当たったら）。winの過去形wonを使います。\n【🇺🇸 Cultural Note】\nアメリカの宝くじ（Powerballなど）の当選金額は桁外れで、数億ドル（数百億円）になることもあります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「もし私が金持ちなら、その家を買うのに」\nIf I (      ) rich, I would buy the house.",
+      "question": "「もし今日が日曜日ならいいのになあ」\nI wish it (      ) Sunday today.",
       "choices": [],
       "answer": "were",
-      "explanation": "be動詞の仮定法過去はwereです。"
+      "explanation": "I wish it were...。実際は日曜日ではないので仮定法過去を使います。\n【🇺🇸 Cultural Note】\nアメリカンフットボール（NFL）の試合の多くは日曜日に行われるため、ファンにとって日曜日は特別な日です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「英語が話せたらいいのに」\nI wish I (      ) speak English.",
-      "choices": ["could", "can", "speak", "spoke"],
-      "answer": "could",
-      "explanation": "I wish I could speak... です。"
-    },
-    {
-      "type": "sort",
-      "question": "「もし彼が答えを知っていれば、私に教えてくれるだろう。」となるように並び替えてください。",
-      "choices": ["answer", "knew", "he", "would", "tell", "If", "me", "the", "he"],
-      "answer": "Ifheknewtheanswerhewouldtellme",
-      "explanation": "If he knew the answer, he would tell me. Knowの過去形knewを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「もし暇があれば、君を手伝えるのに」\nIf I (      ) free, I could help you.",
-      "choices": [],
-      "answer": "were",
-      "explanation": "If I were free... です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女が私の姉ならいいのに」\nI wish she (      ) my sister.",
-      "choices": ["were", "is", "was", "been"],
-      "answer": "were",
-      "explanation": "I wish she were... です。"
-    },
-    {
-      "type": "sort",
-      "question": "「もし雨が降っていなければ、サッカーができるのに。」となるように並び替えてください。",
-      "choices": ["play", "soccer", "weren't", "raining", "could", "it", "we", "If"],
-      "answer": "Ifitweren'trainingwecouldplaysoccer",
-      "explanation": "If it weren't raining... 進行形の仮定法です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「もし電話番号を知っていれば、彼に電話するのに」\nIf I (      ) his phone number, I would call him.",
-      "choices": [],
+      "question": "「もし私があなたの電話番号を知っていたら、電話するのに」\nIf I (      ) your phone number, I would call you.",
+      "choices": ["knew", "know", "known", "knows"],
       "answer": "knew",
-      "explanation": "Knowの過去形knewです。"
+      "explanation": "実際には知らないので、knowの過去形knewを使って仮定法にします。\n【🇺🇸 Cultural Note】\nアメリカの電話番号は3桁のエリアコード（市外局番）から始まります（例：212-555-1234）。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし私がハワイに住んでいたら、毎日サーフィンをするのに。」となるように並び替えてください。",
+      "choices": ["lived", "every", "I", "Hawaii", "surf", "would", "in", "If", "I", "day"],
+      "answer": "IfIlivedinHawaiiIwouldsurfeveryday",
+      "explanation": "If I lived... I would surf...。liveの過去形livedを使います。\n【🇺🇸 Cultural Note】\nサーフィンはハワイ発祥のスポーツで、かつては王族だけが楽しむことができました。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もっとお金持ちならいいのになあ」\nI wish I (      ) rich.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "I wish I were rich. 実際はお金持ちではないという願望を表します。\n【🇺🇸 Cultural Note】\n「アメリカンドリーム」とは、出自に関わらず努力すれば誰でも成功と富を手にできるという理想のことです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「もっとお金を持っていたらなあ」\nI wish I (      ) more money.",
-      "choices": ["had", "have", "has", "having"],
+      "question": "「もし彼がもっと一生懸命勉強すれば、試験に合格できるのに」\nIf he (      ) harder, he could pass the exam.",
+      "choices": ["studied", "studies", "study", "studying"],
+      "answer": "studied",
+      "explanation": "If he studied...。実際には勉強していないことを仮定しているので過去形を使います。\n【🇺🇸 Cultural Note】\nアメリカの大学入試（College Admission）では、学力だけでなく、エッセイやボランティア活動なども総合的に評価されます。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし私が車を持っていれば、あなたをそこへ連れて行けるのに。」となるように並び替えてください。",
+      "choices": ["car", "had", "take", "you", "could", "I", "a", "there", "If", "I"],
+      "answer": "IfIhadacarIcouldtakeyouthere",
+      "explanation": "If I had a car... I could take you...。\n【🇺🇸 Cultural Note】\n公共交通機関が少ない地域では、車がないと生活が成り立たないため、高校生同士で車に乗せ合うこともよくあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私が英語を上手に話せればいいのになあ」\nI wish I (      ) speak English well.",
+      "choices": [],
+      "answer": "could",
+      "explanation": "I wish I could...（～できればいいのに）。\n【🇺🇸 Cultural Note】\nアメリカは移民国家であり、スペイン語訛りやアジア訛りの英語も日常的に耳にします。完璧でなくても通じればOKという文化です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし明日晴れなら、私たちはピクニックに行くのですが（実際は予報が雨などで難しい）」\nIf it (      ) sunny tomorrow, we would go on a picnic.",
+      "choices": ["were", "is", "was", "be"],
+      "answer": "were",
+      "explanation": "未来のことでも、実現可能性が低いと考える場合は仮定法過去（were）を使います。\n【🇺🇸 Cultural Note】\nセントラルパークなどの大きな公園でのピクニックは、ニューヨーカーの春夏の楽しみです。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし私が映画スターなら、ハリウッドに住むのに。」となるように並び替えてください。",
+      "choices": ["star", "movie", "live", "Hollywood", "would", "a", "in", "were", "I", "If", "I"],
+      "answer": "IfIwereamoviestarIwouldliveinHollywood",
+      "explanation": "If I were a movie star...。\n【🇺🇸 Cultural Note】\nハリウッドの高級住宅街ビバリーヒルズは、多くの映画スターやセレブが住むエリアとして有名です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女が私の彼女ならいいのになあ」\nI wish she (      ) my girlfriend.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "I wish she were...。実際はそうではない願望です。\n【🇺🇸 Cultural Note】\nアメリカの高校では「プロム（卒業ダンスパーティー）」に誰を誘うかが、生徒たちにとって最大の関心事の一つです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし私があなたなら、そんなことはしないでしょう」\nIf I were you, I (      ) not do such a thing.",
+      "choices": ["would", "will", "do", "did"],
+      "answer": "would",
+      "explanation": "仮定法過去の主節（結果の文）には、would, could, mightなどの助動詞の過去形を使います。\n【🇺🇸 Cultural Note】\n個人の自由を尊重するアメリカ文化でも、倫理的でない行動や不公平なこと（Unfair）に対しては厳しく批判されます。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし私に翼があれば、あなたのところへ飛んでいくのに。」となるように並び替えてください。",
+      "choices": ["fly", "wings", "you", "I", "had", "to", "would", "If", "I"],
+      "answer": "IfIhadwingsIwouldflytoyou",
+      "explanation": "If I had wings...。\n【🇺🇸 Cultural Note】\nこのフレーズは多くのラブソングや詩で使われてきた古典的な表現です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私がもっと背が高ければいいのになあ」\nI wish I (      ) taller.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "I wish I were taller. 形容詞tallerの前にはbe動詞（were）が必要です。\n【🇺🇸 Cultural Note】\nバスケットボール（NBA）はアメリカで大人気のスポーツで、背が高いことはスポーツにおいて大きなアドバンテージとされます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし彼が忙しくなければ、パーティーに来られるのに」\nIf he (      ) not busy, he could come to the party.",
+      "choices": ["were", "is", "was", "be"],
+      "answer": "were",
+      "explanation": "If he were not...。実際は忙しいという状況を仮定しています。\n【🇺🇸 Cultural Note】\nアメリカ人は「Busy（忙しい）」であることをポジティブに捉える傾向があり、充実している証拠とみなすこともあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし世界が平和なら、私たちは幸せなのに。」となるように並び替えてください。",
+      "choices": ["peaceful", "world", "happy", "were", "be", "If", "the", "would", "we"],
+      "answer": "Iftheworldwerepeacefulwewouldbehappy",
+      "explanation": "If the world were peaceful...。\n【🇺🇸 Cultural Note】\nニューヨークの国連本部前には「剣を鋤（すき）に打ち直す男」の像があり、世界平和を象徴しています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もっと自由な時間があればいいのになあ」\nI wish I (      ) more free time.",
+      "choices": [],
       "answer": "had",
-      "explanation": "Haveの過去形hadを使います。"
+      "explanation": "I wish I had...（持っていればいいのに）。\n【🇺🇸 Cultural Note】\nアメリカの労働者は有給休暇（Vacation days）をまとめて取り、家族旅行に行くのが一般的です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし私がピアノを弾けたら、バンドに入るのに」\nIf I (      ) play the piano, I would join a band.",
+      "choices": ["could", "can", "am", "was"],
+      "answer": "could",
+      "explanation": "「弾けたら（能力）」なので can play の過去形 could play を使います。\n【🇺🇸 Cultural Note】\n高校や大学のマーチングバンドは非常に人気があり、アメフトの試合のハーフタイムショーで演奏します。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし私が大統領なら、世界を変えるのに。」となるように並び替えてください。",
+      "choices": ["President", "change", "would", "were", "the", "world", "I", "If", "the", "I"],
+      "answer": "IfIwerethePresidentIwouldchangetheworld",
+      "explanation": "If I were the President...。\n【🇺🇸 Cultural Note】\n「If I were President...」というお題は、学校の作文やスピーチのコンテストでよく使われるテーマです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ここに私の自転車があればいいのになあ」\nI wish my bike (      ) here.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "I wish my bike were here.\n【🇺🇸 Cultural Note】\nポートランドなどの都市では自転車専用レーンが整備され、自転車通勤が推奨されています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし彼女が地図を持っていれば、迷わないのに」\nIf she (      ) a map, she wouldn't get lost.",
+      "choices": ["had", "has", "have", "having"],
+      "answer": "had",
+      "explanation": "If she had...。実際には持っていない状況です。\n【🇺🇸 Cultural Note】\n現在はスマホのGoogle Mapsが主流ですが、広大な国立公園などでは電波が届かず、紙の地図が必須になることがあります。"
     },
     {
       "type": "sort",
       "question": "「もし私があなたなら、彼に謝るでしょう。」となるように並び替えてください。",
-      "choices": ["apologize", "you", "would", "him", "were", "to", "I", "If", "I"],
+      "choices": ["you", "apologize", "would", "were", "to", "him", "I", "If", "I"],
       "answer": "IfIwereyouIwouldapologizetohim",
-      "explanation": "If I were you, I would apologize to him. です。"
+      "explanation": "If I were you, I would apologize...。\n【🇺🇸 Cultural Note】\n「I'm sorry」と言うことは大切ですが、訴訟社会のアメリカでは、交通事故などの現場で不用意に謝ると責任を認めたとみなされるリスクがあるため注意が必要です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「もし今日が日曜日ならいいのに」\nI wish it (      ) Sunday today.",
-      "choices": [],
-      "answer": "were",
-      "explanation": "I wish it were... です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「もし彼がここにいたら、私たちを手伝えるのに」\nIf he (      ) here, he could help us.",
-      "choices": ["were", "is", "was", "be"],
-      "answer": "were",
-      "explanation": "He were... です。"
-    },
-    {
-      "type": "sort",
-      "question": "「もし彼女が真実を知っていたら、怒るだろう。」となるように並び替えてください。",
-      "choices": ["truth", "she", "knew", "angry", "If", "be", "would", "the", "she"],
-      "answer": "Ifsheknewthetruthshewouldbeangry",
-      "explanation": "If she knew the truth, she would be angry. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「ピアノが弾けたらいいのに」\nI wish I (      ) play the piano.",
+      "question": "「宇宙旅行ができればいいのになあ」\nI wish I (      ) travel to space.",
       "choices": [],
       "answer": "could",
-      "explanation": "I wish I could play... です。"
+      "explanation": "I wish I could travel...（旅行できればいいのに）。\n【🇺🇸 Cultural Note】\nスペースXやブルーオリジンなどの民間企業により、一般人の宇宙旅行が現実味を帯びてきています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「もし十分な時間があれば、そこへ行けるのに」\nIf we (      ) enough time, we could go there.",
-      "choices": ["had", "have", "has", "having"],
-      "answer": "had",
-      "explanation": "If we had... です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はパリに住んでいればいいのになあ。」となるように並び替えてください。",
-      "choices": ["lived", "Paris", "in", "wish", "I", "I"],
-      "answer": "IwishIlivedinParis",
-      "explanation": "I wish I lived in Paris. Liveの過去形livedを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「もし私が猫なら、一日中寝ているのに」\nIf I (      ) a cat, I would sleep all day.",
-      "choices": [],
-      "answer": "were",
-      "explanation": "If I were a cat... です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼がもっと親切ならいいのに」\nI wish he (      ) kinder.",
-      "choices": ["were", "is", "was", "be"],
-      "answer": "were",
-      "explanation": "I wish he were... です。"
-    },
-    {
-      "type": "sort",
-      "question": "「もしその本を持っていれば、あなたに貸せるのに。」となるように並び替えてください。",
-      "choices": ["book", "had", "lend", "you", "it", "could", "I", "If", "the", "I"],
-      "answer": "IfIhadthebookIcouldlendittoyou",
-      "explanation": "If I had the book, I could lend it to you. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「もし明日晴れたら、野球をします（条件）」\nIf it (      ) sunny tomorrow, we will play baseball.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "これは仮定法ではなく、起こりうる未来の条件（直説法）なので現在形isを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「もし彼が忙しくなければ、パーティーに来るだろう」\nIf he (      ) not busy, he would come to the party.",
-      "choices": ["were", "is", "was", "are"],
-      "answer": "were",
-      "explanation": "If he were not busy... です。"
-    },
-    {
-      "type": "sort",
-      "question": "「背がもっと高ければいいのに。」となるように並び替えてください。",
-      "choices": ["taller", "were", "I", "wish", "I"],
-      "answer": "IwishIweretaller",
-      "explanation": "I wish I were taller. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「もし地図を持っていれば、迷わないのに」\nIf I (      ) a map, I wouldn't get lost.",
-      "choices": [],
-      "answer": "had",
-      "explanation": "If I had a map... です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「もし彼女がここに住んでいれば、毎日会えるのに」\nIf she (      ) here, I could see her every day.",
-      "choices": ["lived", "lives", "living", "live"],
+      "question": "「もし私がアラスカに住んでいたら、オーロラが見られるのに」\nIf I (      ) in Alaska, I could see the aurora.",
+      "choices": ["lived", "live", "lives", "living"],
       "answer": "lived",
-      "explanation": "Liveの過去形livedを使います。"
+      "explanation": "現在の事実に反する仮定なので、過去形livedを使います。\n【🇺🇸 Cultural Note】\nアラスカ州の冬は極夜（太陽が昇らない期間）があり、オーロラ（Northern Lights）観測のベストシーズンです。"
     },
     {
       "type": "sort",
-      "question": "「もし私があなたなら、そのコートを買うでしょう。」となるように並び替えてください。",
-      "choices": ["coat", "buy", "you", "would", "I", "If", "were", "I", "the"],
-      "answer": "IfIwereyouIwouldbuythecoat",
-      "explanation": "If I were you, I would buy the coat. です。"
+      "question": "「泳げたらいいのになあ。」となるように並び替えてください。",
+      "choices": ["wish", "could", "I", "swim", "I"],
+      "answer": "IwishIcouldswim",
+      "explanation": "I wish I could swim.（泳げたらいいのに）。\n【🇺🇸 Cultural Note】\nアメリカの公立学校にはプールがないことが多く、水泳は地域のコミュニティセンターやYMCAで習うのが一般的です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「自分の部屋があればいいのに」\nI wish I (      ) my own room.",
+      "question": "「もしカメラを持っていたら、写真を撮るのに」\nIf I (      ) a camera, I would take pictures.",
       "choices": [],
       "answer": "had",
-      "explanation": "I wish I had... です。"
+      "explanation": "If I had...（もし持っていたら）。haveの過去形です。\n【🇺🇸 Cultural Note】\n国立公園などでは、野生動物に近づきすぎて写真を撮ろうとする観光客が問題になることがあります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「もし雨がやめば、出かけられるのに」\nIf the rain (      ), we could go out.",
-      "choices": ["stopped", "stop", "stops", "stopping"],
-      "answer": "stopped",
-      "explanation": "Stopの過去形stoppedを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「空を飛べたらいいのになあ。」となるように並び替えてください。",
-      "choices": ["fly", "sky", "could", "I", "the", "wish", "in", "I"],
-      "answer": "IwishIcouldflyinthesky",
-      "explanation": "I wish I could fly in the sky. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「もし彼が先生なら、それを説明できるだろう」\nIf he (      ) a teacher, he could explain it.",
-      "choices": [],
-      "answer": "were",
-      "explanation": "If he were a teacher... です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「もっと勉強していればよかった（後悔：仮定法過去完了）」\nI wish I (      ) studied harder. (※発展学習)",
-      "choices": ["had", "have", "has", "did"],
-      "answer": "had",
-      "explanation": "過去の事実に対する後悔は「had + 過去分詞」を使います。Beginnerレベルでは難しいですが、wishの用法として紹介されることがあります。"
-    },
-    {
-      "type": "sort",
-      "question": "「もし住所を知っていれば、手紙を書くのに。」となるように並び替えてください。",
-      "choices": ["write", "letter", "knew", "would", "address", "his", "If", "a", "I", "I"],
-      "answer": "IfIknewhisaddressIwouldwritealetter",
-      "explanation": "If I knew his address, I would write a letter. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「もっと近くに住んでいればいいのに」\nI wish you (      ) nearer.",
-      "choices": [],
-      "answer": "lived",
-      "explanation": "I wish you lived nearer. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「もし私が総理大臣なら、税金を下げるのに」\nIf I (      ) the Prime Minister, I would lower taxes.",
+      "question": "「もし私が医者なら、人々を助けられるのに」\nIf I (      ) a doctor, I could help people.",
       "choices": ["were", "am", "was", "be"],
       "answer": "were",
-      "explanation": "If I were... です。"
+      "explanation": "仮定法過去のbe動詞はwereを使います。\n【🇺🇸 Cultural Note】\nアメリカの医療ドラマ（『グレイズ・アナトミー』など）は人気があり、医療現場の過酷さや人間模様が描かれています。"
     },
     {
       "type": "sort",
-      "question": "「もし雪がたくさん降れば、スキーに行けるのに。」となるように並び替えてください。",
-      "choices": ["skiing", "go", "lot", "snowed", "could", "a", "it", "If", "we"],
-      "answer": "Ifitsnowedalotwecouldgoskiing",
-      "explanation": "If it snowed a lot, we could go skiing. です。"
+      "question": "「答えを知っていればいいのになあ。」となるように並び替えてください。",
+      "choices": ["knew", "answer", "I", "wish", "I", "the"],
+      "answer": "IwishIknewtheanswer",
+      "explanation": "I wish I knew...（知っていればいいのに）。knowの過去形knew。\n【🇺🇸 Cultural Note】\nクイズ番組『Jeopardy!』は、答えが提示され、それに対する質問を答えるという逆転の発想で有名です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「コンピューターがあればいいのに」\nI wish I (      ) a computer.",
+      "question": "「もしもっと速く走れれば、レースに勝てるのに」\nIf I could run faster, I (      ) win the race.",
       "choices": [],
-      "answer": "had",
-      "explanation": "I wish I had a computer. です。"
+      "answer": "could",
+      "explanation": "could win（勝てるのに）。主節には助動詞の過去形を使います。\n【🇺🇸 Cultural Note】\nボストンマラソンは世界で最も古く、権威あるマラソン大会の一つです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「もし時間があれば、あなたと一緒に行けるのに」\nIf I (      ) time, I could go with you.",
-      "choices": ["had", "have", "has", "having"],
-      "answer": "had",
-      "explanation": "If I had time... です。"
-    },
-    {
-      "type": "sort",
-      "question": "「テストがそんなに難しくなければいいのに。」となるように並び替えてください。",
-      "choices": ["difficult", "weren't", "test", "so", "the", "wish", "I"],
-      "answer": "Iwishthetestweren'tsodifficult",
-      "explanation": "I wish the test weren't so difficult. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「もし彼女がここにいれば、喜ぶだろう」\nIf she (      ) here, she would be glad.",
-      "choices": [],
-      "answer": "were",
-      "explanation": "If she were here... です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「若ければいいのに」\nI wish I (      ) young.",
+      "question": "「もし私が透明人間なら、何をするだろう？」\nIf I (      ) invisible, what would I do?",
       "choices": ["were", "am", "was", "be"],
       "answer": "were",
-      "explanation": "I wish I were young. です。"
+      "explanation": "If I were invisible...（もし私が透明なら）。\n【🇺🇸 Cultural Note】\nスーパーヒーローの能力として「透明化（Invisibility）」は、「空を飛ぶ」「怪力」と並んで人気があります。"
     },
     {
       "type": "sort",
-      "question": "「もし私があなたなら、医者に診てもらうでしょう。」となるように並び替えてください。",
-      "choices": ["doctor", "you", "a", "were", "see", "would", "I", "If", "I"],
-      "answer": "IfIwereyouIwouldseeadoctor",
-      "explanation": "If I were you, I would see a doctor. です。"
+      "question": "「私に姉妹がいればいいのになあ。」となるように並び替えてください。",
+      "choices": ["sister", "had", "wish", "I", "a", "I"],
+      "answer": "IwishIhadasister",
+      "explanation": "I wish I had...（いればいいのに）。兄弟姉妹がいる・いないはhaveで表します。\n【🇺🇸 Cultural Note】\n「オルセン姉妹」のような有名な姉妹セレブは、ファッションアイコンとして注目されます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼が嘘をついていなければいいのに」\nI wish he (      ) telling a lie.",
-      "choices": [],
-      "answer": "weren't",
-      "explanation": "I wish he weren't telling a lie. 進行形の仮定法否定です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「もし翼があれば、あなたのところへ飛んでいくのに」\nIf I (      ) wings, I would fly to you.",
-      "choices": ["had", "have", "has", "having"],
-      "answer": "had",
-      "explanation": "If I had wings... です。"
-    },
-    {
-      "type": "sort",
-      "question": "「今日が日曜日だったらいいのになあ。」となるように並び替えてください。",
-      "choices": ["Sunday", "were", "it", "wish", "today", "I"],
-      "answer": "IwishitwereSundaytoday",
-      "explanation": "I wish it were Sunday today. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「もしお金があれば、世界中を旅行するのに」\nIf I had money, I (      ) travel around the world.",
+      "question": "「もし19世紀に住んでいたら、カウボーイになるのに」\nIf I lived in the 19th century, I (      ) become a cowboy.",
       "choices": [],
       "answer": "would",
-      "explanation": "意志や推量を表すwouldを使います。"
+      "explanation": "I would become...（なるのに）。意志や結果を表すwould。\n【🇺🇸 Cultural Note】\n西部開拓時代（Wild West）のカウボーイ文化は、アメリカ人の「フロンティアスピリット」の象徴です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私の父が家にいればいいのに」\nI wish my father (      ) at home.",
+      "question": "「もし私があなたなら、それを買います」\nIf I (      ) you, I would buy it.",
+      "choices": ["were", "am", "was", "be"],
+      "answer": "were",
+      "explanation": "If I were you...（私ならそれを買うよ）。買い物を迷っている友人へのアドバイスです。\n【🇺🇸 Cultural Note】\nアメリカは消費社会であり、ブラックフライデーやサイバーマンデーなどのセール期間には爆発的な買い物がされます。"
+    },
+    {
+      "type": "sort",
+      "question": "「雪が降っていればいいのになあ。」となるように並び替えてください。",
+      "choices": ["snowing", "were", "wish", "it", "I"],
+      "answer": "Iwishitweresnowing",
+      "explanation": "I wish it were snowing. 天候を表すitに対してもwereを使います。\n【🇺🇸 Cultural Note】\n「ホワイトクリスマス」を夢見るのはアメリカ人も同じで、雪が降るとクリスマスの雰囲気が盛り上がります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もしロボットを持っていたら、部屋を掃除させるのに」\nIf I (      ) a robot, I would make it clean my room.",
+      "choices": [],
+      "answer": "had",
+      "explanation": "If I had...（持っていたら）。\n【🇺🇸 Cultural Note】\nお掃除ロボット「ルンバ（Roomba）」はアメリカのアイロボット社が開発しました。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし私が魚なら、海で泳げるのに」\nIf I (      ) a fish, I could swim in the sea.",
+      "choices": ["were", "am", "was", "be"],
+      "answer": "were",
+      "explanation": "If I were a fish...。あり得ない仮定の典型です。\n【🇺🇸 Cultural Note】\nディズニー映画『リトル・マーメイド』や『ファインディング・ニモ』は、海の世界への憧れをかき立てます。"
+    },
+    {
+      "type": "sort",
+      "question": "「もっと上手に歌えたらいいのになあ。」となるように並び替えてください。",
+      "choices": ["sing", "could", "I", "better", "wish", "I"],
+      "answer": "IwishIcouldsingbetter",
+      "explanation": "I wish I could sing better.\n【🇺🇸 Cultural Note】\n『アメリカン・アイドル』などのオーディション番組は、普通の人がスターになるチャンスを提供しています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もしGPS（地図アプリ）を持っていれば、迷わないのに」\nIf I (      ) a GPS, I wouldn't get lost.",
+      "choices": [],
+      "answer": "had",
+      "explanation": "If I had...（持っていれば）。\n【🇺🇸 Cultural Note】\nアメリカの道路は「Interstate 95 North」のように番号と方角で案内されるため、方角がわからないとGPSなしでは迷いやすいです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし私が暇なら、釣りに行くのに」\nIf I (      ) free, I would go fishing.",
+      "choices": ["were", "am", "was", "be"],
+      "answer": "were",
+      "explanation": "If I were free...（もし暇なら）。\n【🇺🇸 Cultural Note】\nアーネスト・ヘミングウェイの小説『老人と海』にあるように、釣りはアメリカ文学や文化において男らしさや自然との対峙を象徴することがあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「もう少し年上ならいいのになあ。」となるように並び替えてください。",
+      "choices": ["older", "wish", "little", "a", "were", "I", "I"],
+      "answer": "IwishIwerealittleolder",
+      "explanation": "I wish I were a little older.\n【🇺🇸 Cultural Note】\nアメリカでは16歳で運転免許、18歳で選挙権、21歳で飲酒解禁と、年齢によって得られる権利が段階的に増えていきます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もし彼のEメールアドレスを知っていれば、メッセージを送るのに」\nIf I (      ) his email address, I would send him a message.",
+      "choices": [],
+      "answer": "knew",
+      "explanation": "If I knew...（知っていれば）。\n【🇺🇸 Cultural Note】\nアメリカのビジネスシーンでは、電話よりもEメールやテキストメッセージでの連絡が好まれる傾向があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし魔法の鍵を持っていれば、どんなドアでも開けられるのに」\nIf I (      ) a magic key, I could open any door.",
+      "choices": ["had", "have", "has", "having"],
+      "answer": "had",
+      "explanation": "If I had...（持っていれば）。\n【🇺🇸 Cultural Note】\n「Key to the City（市の鍵）」は、市への貢献者や名誉市民に贈られる象徴的な鍵です。"
+    },
+    {
+      "type": "sort",
+      "question": "「魔法が使えたらいいのになあ。」となるように並び替えてください。",
+      "choices": ["use", "magic", "could", "I", "wish", "I"],
+      "answer": "IwishIcouldusemagic",
+      "explanation": "I wish I could use magic.\n【🇺🇸 Cultural Note】\nハリー・ポッターシリーズの人気により、フロリダのユニバーサル・スタジオにある魔法界のテーマパークは大人気です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もし私が州知事なら、税金を下げるのに」\nIf I (      ) the Governor, I would lower taxes.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "If I were the Governor...。王様（King）ではなく州知事（Governor）にするのがアメリカ的です。\n【🇺🇸 Cultural Note】\nアーノルド・シュワルツェネッガーがカリフォルニア州知事になったように、有名人が政治家に転身することは珍しくありません。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もしプライベートジェットを持っていれば、世界中を旅するのに」\nIf I (      ) a private jet, I would travel around the world.",
+      "choices": ["had", "have", "has", "having"],
+      "answer": "had",
+      "explanation": "If I had...（持っていれば）。\n【🇺🇸 Cultural Note】\nアメリカの超富裕層にとって、プライベートジェットは移動時間を節約するための必需品です。"
+    },
+    {
+      "type": "sort",
+      "question": "「アインシュタインのように頭が良ければいいのになあ。」となるように並び替えてください。",
+      "choices": ["smart", "Einstein", "were", "as", "as", "I", "wish", "I"],
+      "answer": "IwishIwereassmartasEinstein",
+      "explanation": "I wish I were as smart as Einstein.（アインシュタインと同じくらい賢ければいいのに）。\n【🇺🇸 Cultural Note】\nアルバート・アインシュタインは晩年をアメリカのプリンストンで過ごしました。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もし公園の近くに住んでいれば、毎日犬の散歩ができるのに」\nIf I (      ) near the park, I could walk my dog every day.",
+      "choices": [],
+      "answer": "lived",
+      "explanation": "If I lived...（住んでいれば）。\n【🇺🇸 Cultural Note】\nセントラルパーク周辺のアパートメントは、ニューヨークで最も家賃が高いエリアの一つです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし私が猫なら、一日中寝ているだろう」\nIf I (      ) a cat, I would sleep all day.",
+      "choices": ["were", "am", "was", "be"],
+      "answer": "were",
+      "explanation": "If I were a cat...。\n【🇺🇸 Cultural Note】\n「Grumpy Cat（不機嫌な猫）」など、インターネット・ミーム（Meme）になった猫はアメリカで社会現象になりました。"
+    },
+    {
+      "type": "sort",
+      "question": "「野球ができればいいのになあ。」となるように並び替えてください。",
+      "choices": ["play", "could", "I", "wish", "baseball", "I"],
+      "answer": "IwishIcouldplaybaseball",
+      "explanation": "I wish I could play baseball.\n【🇺🇸 Cultural Note】\n父と息子が庭でキャッチボール（Playing catch）をするのは、アメリカの親子像の典型的なシーンです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もし十分なお金があれば、島を買うのに」\nIf I (      ) enough money, I would buy an island.",
+      "choices": [],
+      "answer": "had",
+      "explanation": "If I had enough money...。\n【🇺🇸 Cultural Note】\nハワイのラナイ島は、オラクル創業者のラリー・エリソンが島の98%を購入したことで有名です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし私があなたなら、タクシーに乗るでしょう」\nIf I (      ) you, I would take a taxi.",
+      "choices": ["were", "am", "was", "be"],
+      "answer": "were",
+      "explanation": "If I were you...（私なら～する）。アドバイスの表現。\n【🇺🇸 Cultural Note】\nニューヨークのイエローキャブは手を挙げて止めますが、最近はUberなどの配車アプリを使うのが主流です。"
+    },
+    {
+      "type": "sort",
+      "question": "「料理の仕方を知っていればいいのになあ。」となるように並び替えてください。",
+      "choices": ["knew", "to", "cook", "how", "wish", "I", "I"],
+      "answer": "IwishIknewhowtocook",
+      "explanation": "I wish I knew how to cook（料理の仕方を知っていればいいのに）。\n【🇺🇸 Cultural Note】\nアメリカのキッチンは広く、オーブンが標準装備されているため、ターキーの丸焼きなどのオーブン料理が一般的です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もしタイムマシンを持っていれば、過去に行けるのに」\nIf I (      ) a time machine, I could go to the past.",
+      "choices": [],
+      "answer": "had",
+      "explanation": "If I had...（持っていれば）。\n【🇺🇸 Cultural Note】\n映画『バック・トゥ・ザ・フューチャー』は、デロリアンという車型タイムマシンで過去や未来を旅する大ヒット作です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし私がスーパーヒーローなら、世界を救うのに」\nIf I (      ) a superhero, I would save the world.",
+      "choices": ["were", "am", "was", "be"],
+      "answer": "were",
+      "explanation": "If I were a superhero...。\n【🇺🇸 Cultural Note】\nスーパーマンやスパイダーマンなどのアメコミヒーローは、アメリカのポップカルチャーの象徴であり、正義と力の理想像です。"
+    },
+    {
+      "type": "sort",
+      "question": "「明日がクリスマスならいいのになあ。」となるように並び替えてください。",
+      "choices": ["Christmas", "wish", "it", "tomorrow", "were", "I"],
+      "answer": "IwishitwereChristmastomorrow",
+      "explanation": "I wish it were Christmas tomorrow.\n【🇺🇸 Cultural Note】\nアメリカのクリスマス商戦は11月の感謝祭直後から始まり、街中がホリデー一色になります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もし地図を持っていれば、道に迷わないのに」\nIf I (      ) a map, I wouldn't get lost.",
+      "choices": [],
+      "answer": "had",
+      "explanation": "If I had...（持っていれば）。\n【🇺🇸 Cultural Note】\nアメリカの道路標識は東西南北（East/West/North/South）で示されることが多く、方角の感覚が重要です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし彼がここにいたら、何と言うだろう？」\nIf he (      ) here, what would he say?",
       "choices": ["were", "is", "was", "be"],
       "answer": "were",
-      "explanation": "I wish my father were... です。"
+      "explanation": "If he were here...。\n【🇺🇸 Cultural Note】\n故人を偲んで「彼ならどうしただろう（What would he do?）」と考えることは、リーダーシップの継承などでよく語られます。"
     },
     {
       "type": "sort",
-      "question": "「もし私が上手なら、そのチームに入れるのに。」となるように並び替えてください。",
-      "choices": ["team", "good", "join", "were", "could", "the", "I", "If", "I"],
-      "answer": "IfIweregoodIcouldjointheteam",
-      "explanation": "If I were good, I could join the team. です。"
+      "question": "「もし私がもっと若ければ、世界中を旅するのに。」となるように並び替えてください。",
+      "choices": ["travel", "younger", "were", "world", "I", "around", "If", "would", "the", "I"],
+      "answer": "IfIwereyoungerIwouldtravelaroundtheworld",
+      "explanation": "If I were younger...（もしもっと若ければ）。\n【🇺🇸 Cultural Note】\n「ギャップイヤー（Gap Year）」といって、高校卒業後や大学卒業後にすぐ就職・進学せず、世界を旅して見聞を広める習慣があります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「宿題がなければいいのに」\nI wish I (      ) have any homework.",
-      "choices": [],
-      "answer": "didn't",
-      "explanation": "I wish I didn't have... 持っていない状態を願うので否定の過去形didn'tを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「もし彼がその本を読んでいれば、その話を知っているだろう」\nIf he (      ) the book, he would know the story.",
-      "choices": ["read", "reads", "reading", "reader"],
-      "answer": "read",
-      "explanation": "Readの過去形read（レッド）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「ペットを飼えたらいいのになあ。」となるように並び替えてください。",
-      "choices": ["pet", "a", "have", "could", "wish", "I", "I"],
-      "answer": "IwishIcouldhaveapet",
-      "explanation": "I wish I could have a pet. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「もし私が魔法を使えたら、あなたを助けるのに」\nIf I (      ) use magic, I would help you.",
+      "question": "「空を飛べたらいいのになあ」\nI wish I (      ) fly.",
       "choices": [],
       "answer": "could",
-      "explanation": "If I could use... 「使えたら（能力）」なのでcouldを使います。"
+      "explanation": "I wish I could fly. 能力への願望なのでcouldを使います。\n【🇺🇸 Cultural Note】\nライト兄弟が人類初の動力飛行に成功したのは、ノースカロライナ州のキティホークです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「毎日が休日ならいいのに」\nI wish every day (      ) a holiday.",
-      "choices": ["were", "is", "was", "be"],
-      "answer": "were",
-      "explanation": "I wish every day were... です。"
+      "question": "「もし十分な時間があれば、もっと本を読むのに」\nIf I (      ) enough time, I would read more books.",
+      "choices": ["had", "have", "has", "having"],
+      "answer": "had",
+      "explanation": "If I had enough time...（十分な時間があれば）。\n【🇺🇸 Cultural Note】\nビル・ゲイツなどの成功者は、多忙な中でも「Think Week（考える週）」を設けて大量の読書をすることで知られています。"
     },
     {
       "type": "sort",
-      "question": "「もし彼が本当のことを言えば、許してあげるのに。」となるように並び替えてください。",
-      "choices": ["forgive", "truth", "him", "would", "told", "he", "If", "the", "I"],
-      "answer": "IfhetoldthetruthIwouldforgivehim",
-      "explanation": "If he told the truth, I would forgive him. Tellの過去形toldです。"
+      "question": "「もし私があなたなら、もっと野菜を食べるでしょう。」となるように並び替えてください。",
+      "choices": ["vegetables", "would", "you", "eat", "more", "were", "I", "If", "I"],
+      "answer": "IfIwereyouIwouldeatmorevegetables",
+      "explanation": "If I were you... I would eat...。\n【🇺🇸 Cultural Note】\nアメリカの食生活指針「MyPlate」では、皿の半分を野菜と果物にすることを推奨しています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「もし私があなたなら、そんなことは言わないでしょう」\nIf I were you, I (      ) say such a thing.",
+      "question": "「フランス語が話せたらいいのになあ」\nI wish I (      ) speak French.",
       "choices": [],
-      "answer": "wouldn't",
-      "explanation": "would notの短縮形wouldn't（言わないだろう）です。"
+      "answer": "could",
+      "explanation": "I wish I could speak...（話せたらいいのに）。\n【🇺🇸 Cultural Note】\nルイジアナ州のニューオーリンズには、フランス植民地時代の名残であるフレンチ・クォーターがあり、独特の文化が息づいています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼女が私の先生ならいいのに」\nI wish she (      ) my teacher.",
-      "choices": ["were", "is", "was", "be"],
+      "question": "「もし私がパイロットなら、あなたをどこへでも連れて行けるのに」\nIf I (      ) a pilot, I could take you anywhere.",
+      "choices": ["were", "am", "was", "be"],
       "answer": "were",
-      "explanation": "I wish she were my teacher. です。"
+      "explanation": "If I were a pilot...。\n【🇺🇸 Cultural Note】\n映画『トップガン』の影響で、海軍のパイロットに憧れる若者が急増した時期がありました。"
     },
     {
       "type": "sort",
-      "question": "「もし私が金持ちなら、世界中を旅行するのに。」となるように並び替えてください。",
-      "choices": ["rich", "world", "the", "were", "around", "would", "I", "If", "travel", "I"],
-      "answer": "IfIwererichIwouldtravelaroundtheworld",
-      "explanation": "If I were rich, I would travel around the world. です。"
+      "question": "「彼が私の先生ならいいのになあ。」となるように並び替えてください。",
+      "choices": ["teacher", "were", "my", "he", "wish", "I"],
+      "answer": "Iwishhewerebyteacher",
+      "explanation": "I wish he were my teacher.\n【🇺🇸 Cultural Note】\n映画『いまを生きる（Dead Poets Society）』のキーティング先生のような、人生を変える教師との出会いは多くの人の理想です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もし天気が良ければ、ビーチに行けるのに」\nIf the weather (      ) nice, we could go to the beach.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "If the weather were nice...。be動詞はwere。\n【🇺🇸 Cultural Note】\nカリフォルニアやフロリダのビーチカルチャーは、サーフィンやビーチバレーなど独自のライフスタイルを生み出しました。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし彼が答えを知っていれば、教えてくれるでしょう」\nIf he (      ) the answer, he would tell us.",
+      "choices": ["knew", "know", "known", "knows"],
+      "answer": "knew",
+      "explanation": "If he knew...（知っていれば）。\n【🇺🇸 Cultural Note】\n「知るのが力なり（Knowledge is power）」は、アメリカの教育や自己啓発でよく引用されるフランシス・ベーコンの言葉です。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし私が100万ドル持っていれば、世界中を旅するのに。」となるように並び替えてください。",
+      "choices": ["million", "travel", "dollars", "world", "had", "a", "I", "around", "If", "would", "the", "I"],
+      "answer": "IfIhadamilliondollarsIwouldtravelaroundtheworld",
+      "explanation": "If I had a million dollars...。\n【🇺🇸 Cultural Note】\n「ミリオネア（百万長者）」はかつてのお金持ちの代名詞でしたが、インフレが進んだ現在では「ビリオネア（億万長者）」が超富裕層を指す言葉になっています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私がもっと賢ければいいのになあ」\nI wish I (      ) smarter.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "I wish I were smarter. 形容詞smartの前にはbe動詞が必要です。\n【🇺🇸 Cultural Note】\n「Smart」は単に勉強ができるだけでなく、機転が利く、賢く立ち回れるという意味でも使われます（Street smart vs Book smart）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし私があなたなら、彼に真実を話すでしょう」\nIf I (      ) you, I would tell him the truth.",
+      "choices": ["were", "am", "was", "be"],
+      "answer": "were",
+      "explanation": "If I were you...。\n【🇺🇸 Cultural Note】\nジョージ・ワシントンの桜の木の逸話のように、「正直さ（Honesty）」はアメリカで最も重視される徳目の一つです。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし彼がもっと練習すれば、試合に勝てるのに。」となるように並び替えてください。",
+      "choices": ["practiced", "he", "match", "more", "win", "he", "If", "could", "the"],
+      "answer": "Ifhepracticedmorehecouldwinthematch",
+      "explanation": "If he practiced more...。\n【🇺🇸 Cultural Note】\n「Practice makes perfect（練習は裏切らない／継続は力なり）」は、スポーツや習い事の現場で必ず言われる格言です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もっと友達がいればいいのになあ」\nI wish I (      ) more friends.",
+      "choices": [],
+      "answer": "had",
+      "explanation": "I wish I had...（持っていれば＝いれば）。\n【🇺🇸 Cultural Note】\nアメリカの学校では、カフェテリアで誰と座るかがソーシャルグループ（Clique）を決める重要な要素になります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし私が魔法使いなら、空を飛べるのに」\nIf I (      ) a wizard, I could fly in the sky.",
+      "choices": ["were", "am", "was", "be"],
+      "answer": "were",
+      "explanation": "If I were a wizard...。\n【🇺🇸 Cultural Note】\n『オズの魔法使い』はアメリカの児童文学の古典であり、竜巻でカンザスから魔法の国へ飛ばされる物語です。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし時間があれば、お手伝いするのですが。」となるように並び替えてください。",
+      "choices": ["help", "had", "time", "you", "would", "I", "If", "I"],
+      "answer": "IfIhadtimeIwouldhelpyou",
+      "explanation": "If I had time, I would help you.（時間があれば手伝うのですが＝時間がないので手伝えない）。\n【🇺🇸 Cultural Note】\nボランティア精神が根付いているアメリカでは、週末にフードバンクや教会の活動に参加する人が多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「明日晴れたらいいのになあ」\nI wish it (      ) sunny tomorrow.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "I wish it were sunny. 仮定法過去で現在の願望や実現可能性の低い未来の願望を表します。\n【🇺🇸 Cultural Note】\n野外コンサートやBBQなど、アメリカのアウトドア・イベントは天気に大きく左右されます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし彼女が住所を知っていれば、手紙を書けるのに」\nIf she (      ) the address, she could write a letter.",
+      "choices": ["knew", "know", "known", "knows"],
+      "answer": "knew",
+      "explanation": "If she knew...（知っていれば）。\n【🇺🇸 Cultural Note】\nホリデーシーズンには、家族写真入りのクリスマスカードを親戚や友人に送る習慣が今も残っています。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし私が自分のボートを持っていたら、釣りに行くのに。」となるように並び替えてください。",
+      "choices": ["boat", "fishing", "own", "go", "had", "my", "I", "would", "If", "I"],
+      "answer": "IfIhadmyownboatIwouldgofishing",
+      "explanation": "If I had my own boat...。\n【🇺🇸 Cultural Note】\nフロリダ州や五大湖周辺では、週末にボートをトレーラーで牽引して湖や海に出かけるのが人気です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼がもっと親切ならいいのになあ」\nI wish he (      ) kinder.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "I wish he were kinder. 形容詞kinderの前はbe動詞。\n【🇺🇸 Cultural Note】\n「Kindness（親切）」をテーマにした学校のプロジェクトやキャンペーン（Random Acts of Kindness Dayなど）がよく行われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし私が月に行けたら、地球を見るのに」\nIf I (      ) go to the moon, I would see the earth.",
+      "choices": ["could", "can", "will", "may"],
+      "answer": "could",
+      "explanation": "If I could go...（行けたら）。能力・可能性の仮定。\n【🇺🇸 Cultural Note】\nアポロ計画で人類が初めて月に降り立った時、アメリカ中がテレビに釘付けになりました。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし私が猫を飼っていれば、一緒に遊ぶのに。」となるように並び替えてください。",
+      "choices": ["cat", "with", "had", "play", "a", "it", "I", "would", "If", "I"],
+      "answer": "IfIhadacatIwouldplaywithit",
+      "explanation": "If I had a cat...。\n【🇺🇸 Cultural Note】\nアメリカでは犬派と猫派の論争は永遠のテーマですが、統計的には犬を飼っている世帯の方が多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もしあなたがもっと一生懸命働けば、成功できるのに」\nIf you (      ) harder, you could succeed.",
+      "choices": [],
+      "answer": "worked",
+      "explanation": "If you worked harder...。workの過去形worked。\n【🇺🇸 Cultural Note】\n「ハードワーク（Hard work）」と「成功（Success）」の結びつきは、プロテスタントの労働倫理としてアメリカ文化の根底にあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし私があなたなら、新しい車を買わないでしょう」\nIf I (      ) you, I wouldn't buy a new car.",
+      "choices": ["were", "am", "was", "be"],
+      "answer": "were",
+      "explanation": "If I were you...。\n【🇺🇸 Cultural Note】\nアメリカの新車価格は上昇傾向にあり、リース契約（Leasing）を利用して数年ごとに車を乗り換える人も多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「ピアノが弾けたらいいのになあ。」となるように並び替えてください。",
+      "choices": ["piano", "could", "I", "play", "wish", "the", "I"],
+      "answer": "IwishIcouldplaythepiano",
+      "explanation": "I wish I could play the piano.\n【🇺🇸 Cultural Note】\nジャズやブルースの発祥地であるアメリカでは、ピアノは多くの音楽ジャンルの中心的な楽器です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もし彼がここにいれば、私たちを手伝ってくれるのに」\nIf he (      ) here, he would help us.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "If he were here...。\n【🇺🇸 Cultural Note】\nDIYで家を修理する際、友人や近所の人に手伝ってもらい、お礼にピザとビールを振る舞うのは定番です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし私がニューヨークに住んでいたら、ブロードウェイに行くのに」\nIf I (      ) in New York, I would go to Broadway.",
+      "choices": ["lived", "live", "lives", "living"],
+      "answer": "lived",
+      "explanation": "If I lived in...（住んでいたら）。\n【🇺🇸 Cultural Note】\nブロードウェイミュージカルのチケットは高額ですが、「TKTS」ブースに並べば当日券を割引価格で購入できます。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし私が背が高ければ、バスケットボール選手になるのに。」となるように並び替えてください。",
+      "choices": ["player", "become", "taller", "basketball", "would", "a", "I", "were", "If", "I"],
+      "answer": "IfIweretallerIwouldbecomeabasketballplayer",
+      "explanation": "If I were taller...。\n【🇺🇸 Cultural Note】\nマイケル・ジョーダンは、バスケットボールの枠を超えて世界的な文化的アイコンとなりました。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「未来が見えたらいいのになあ」\nI wish I (      ) see the future.",
+      "choices": [],
+      "answer": "could",
+      "explanation": "I wish I could see...（見ることができればいいのに）。\n【🇺🇸 Cultural Note】\nシリコンバレーの起業家たちは、テクノロジーによって「未来を創る（Invent the future）」ことを目指しています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし私があなたなら、彼に電話するでしょう」\nIf I (      ) you, I would call him.",
+      "choices": ["were", "am", "was", "be"],
+      "answer": "were",
+      "explanation": "If I were you...。\n【🇺🇸 Cultural Note】\n「Call me maybe」というヒット曲がありましたが、現代では電話よりもテキストメッセージの方が気軽に連絡できる手段です。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし十分なお金があれば、世界一周旅行をするのに。」となるように並び替えてください。",
+      "choices": ["money", "travel", "enough", "world", "had", "around", "I", "If", "the", "would", "I"],
+      "answer": "IfIhadenoughmoneyIwouldtravelaroundtheworld",
+      "explanation": "If I had enough money...。\n【🇺🇸 Cultural Note】\n世界一周クルーズは、リタイア後の富裕層にとって究極のバケーションの一つです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もし彼女がここに来れば、私たちは会えるのに」\nIf she (      ) here, we could meet her.",
+      "choices": [],
+      "answer": "came",
+      "explanation": "If she came...。comeの過去形came。\n【🇺🇸 Cultural Note】\nサプライズパーティー（Surprise party）で、主役が部屋に入ってきた瞬間に \"Surprise!\" と叫ぶのはアメリカの伝統芸能です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし私が有名人なら、サインをするのに」\nIf I (      ) famous, I would sign autographs.",
+      "choices": ["were", "am", "was", "be"],
+      "answer": "were",
+      "explanation": "If I were famous...。\n【🇺🇸 Cultural Note】\nハリウッドのウォーク・オブ・フェームには、有名人の名前が刻まれた星型のプレートが埋め込まれています。"
+    },
+    {
+      "type": "sort",
+      "question": "「もっと時間があればいいのになあ。」となるように並び替えてください。",
+      "choices": ["time", "more", "had", "wish", "I", "I"],
+      "answer": "IwishIhadmoretime",
+      "explanation": "I wish I had more time.\n【🇺🇸 Cultural Note】\n「9 to 5」という映画や歌があるように、定時で仕事を終えて自分の時間を持つことは労働者の長年の願いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もし今日が土曜日なら、学校に行かなくていいのに」\nIf it (      ) Saturday today, I wouldn't have to go to school.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "If it were Saturday...。\n【🇺🇸 Cultural Note】\n「Saturday Morning Cartoons」といって、かつては土曜日の朝に子供向けアニメが集中して放送されていました。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし彼がもっと勉強すれば、良い成績が取れるのに」\nIf he (      ) harder, he could get good grades.",
+      "choices": ["studied", "studies", "study", "studying"],
+      "answer": "studied",
+      "explanation": "If he studied...。studyの過去形studied。\n【🇺🇸 Cultural Note】\nアメリカの学校の成績は「A, B, C, D, F」で評価され、FはFail（落第）を意味します。"
     }
   ]
 }
