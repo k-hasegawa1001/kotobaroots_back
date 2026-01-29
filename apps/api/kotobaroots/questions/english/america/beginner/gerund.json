@@ -1,0 +1,566 @@
+{
+  "learning_topic": "動名詞",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「私はテニスをすることが好きです」\nI like (      ) tennis.",
+      "choices": ["playing", "play", "played", "plays"],
+      "answer": "playing",
+      "explanation": "Likeの後ろには動名詞（playing）を置くことができます。「テニスをすること」という意味になります。"
+    },
+    {
+      "type": "sort",
+      "question": "「泳ぐことは楽しい。」となるように並び替えてください。",
+      "choices": ["Swimming", "fun", "is"],
+      "answer": "Swimmingisfun",
+      "explanation": "Swimming is fun. 動名詞は主語になることができます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は音楽を聴くことを楽しみました」\nHe enjoyed (      ) to music.",
+      "choices": [],
+      "answer": "listening",
+      "explanation": "Enjoyの後ろは必ず動名詞（~ing）になります。to listenとは言いません。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は宿題をし終えました」\nShe finished (      ) her homework.",
+      "choices": ["doing", "to do", "do", "did"],
+      "answer": "doing",
+      "explanation": "Finishの後ろも必ず動名詞（~ing）をとります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の趣味は切手を集めることです。」となるように並び替えてください。",
+      "choices": ["collecting", "is", "hobby", "stamps", "My"],
+      "answer": "Myhobbyiscollectingstamps",
+      "explanation": "My hobby is collecting stamps. 補語（～ということ）になる動名詞です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「話すのをやめなさい」\nStop (      ).",
+      "choices": [],
+      "answer": "talking",
+      "explanation": "Stop talking（話すことをやめる）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「英語を話すことは大切です」\n(      ) English is important.",
+      "choices": ["Speaking", "Speak", "Spoke", "Speaks"],
+      "answer": "Speaking",
+      "explanation": "Speaking English（英語を話すこと）が主語になっています。"
+    },
+    {
+      "type": "sort",
+      "question": "「来てくれてありがとう。」となるように並び替えてください。",
+      "choices": ["coming", "for", "you", "Thank"],
+      "answer": "Thankyouforcoming",
+      "explanation": "Thank you for coming. 前置詞（for）の後ろは必ず動名詞（~ing）になります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は料理が得意です」\nI am good at (      ).",
+      "choices": [],
+      "answer": "cooking",
+      "explanation": "Be good at...（～が得意だ）。atは前置詞なので後ろはing形です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は走るのが速い（走ることが速い）」\nHe is fast at (      ).",
+      "choices": ["running", "run", "to run", "ran"],
+      "answer": "running",
+      "explanation": "前置詞atの後ろなのでrunningです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はピアノを弾く練習をしました。」となるように並び替えてください。",
+      "choices": ["practiced", "piano", "playing", "She", "the"],
+      "answer": "Shepracticedplayingthepiano",
+      "explanation": "She practiced playing the piano. Practiceも後ろに動名詞をとる動詞です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「テレビを見るのはどうですか？」\nHow about (      ) TV?",
+      "choices": [],
+      "answer": "watching",
+      "explanation": "How about...?（～してはどうですか？）Aboutは前置詞なのでwatchingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の父は釣りが好きです」\nMy father likes (      ).",
+      "choices": ["fishing", "fish", "fishes", "to fish"],
+      "answer": "fishing",
+      "explanation": "Likes fishingです（Likes to fishでも正解ですが、選択肢にある場合はfishingを選びます）。"
+    },
+    {
+      "type": "sort",
+      "question": "「写真を撮ることは面白い。」となるように並び替えてください。",
+      "choices": ["Taking", "interesting", "pictures", "is"],
+      "answer": "Takingpicturesisinteresting",
+      "explanation": "Taking pictures is interesting. 主語がTaking pictures（複数形の名詞を含んでいる）でも、動詞は「～すること（単数扱い）」に合わせてisを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はその手紙を書き終えました」\nHe finished (      ) the letter.",
+      "choices": [],
+      "answer": "writing",
+      "explanation": "Finish writingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は食べることが好きです」\nI like (      ).",
+      "choices": ["eating", "eat", "ate", "eats"],
+      "answer": "eating",
+      "explanation": "Like eatingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はダンスを習い始めました。」となるように並び替えてください。",
+      "choices": ["started", "dancing", "learning", "She"],
+      "answer": "Shestartedlearningdancing",
+      "explanation": "She started learning dancing. Startはto不定詞も動名詞もとれます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「招待してくれてありがとう」\nThank you for (      ) me.",
+      "choices": [],
+      "answer": "inviting",
+      "explanation": "For inviting me. 前置詞forの後ろなのでingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「川で泳ぐのは危険です」\n(      ) in the river is dangerous.",
+      "choices": ["Swimming", "Swim", "Swims", "Swam"],
+      "answer": "Swimming",
+      "explanation": "Swimming... is dangerous. 主語になる動名詞です。"
+    },
+    {
+      "type": "sort",
+      "question": "「泣くのをやめなさい。」となるように並び替えてください。",
+      "choices": ["crying", "Stop"],
+      "answer": "Stopcrying",
+      "explanation": "Stop crying. 「泣いている状態をやめる」という意味です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたに会えるのを楽しみにしています」\nI look forward to (      ) you.",
+      "choices": [],
+      "answer": "seeing",
+      "explanation": "Look forward to（～を楽しみに待つ）のtoは前置詞なので、後ろは動詞の原形ではなく動名詞seeingになります。非常に間違いやすい重要ポイントです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は朝食を食べずに学校へ行きました」\nHe went to school without (      ) breakfast.",
+      "choices": ["eating", "eat", "eaten", "ate"],
+      "answer": "eating",
+      "explanation": "Without（～しないで）は前置詞なので、後ろはeatingになります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の仕事は英語を教えることです。」となるように並び替えてください。",
+      "choices": ["teaching", "English", "job", "is", "My"],
+      "answer": "MyjobisteachingEnglish",
+      "explanation": "My job is teaching English. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ごめんなさい、遅れました（遅れてすみません）」\nI am sorry for (      ) late.",
+      "choices": [],
+      "answer": "being",
+      "explanation": "For being late. Lateは形容詞なのでbe動詞の動名詞beingが必要です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「雨が降り始めました」\nIt started (      ).",
+      "choices": ["raining", "rain", "rains", "rained"],
+      "answer": "raining",
+      "explanation": "Start rainingです（Start to rainでも可）。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は走るのをあきらめました。」となるように並び替えてください。",
+      "choices": ["gave", "running", "up", "He"],
+      "answer": "Hegaveuprunning",
+      "explanation": "He gave up running. Give up（あきらめる）の後ろは動名詞です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は手紙を書くのを終えました」\nI finished (      ) the letter.",
+      "choices": [],
+      "answer": "writing",
+      "explanation": "Finished writingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は歌うのが上手ではありません」\nShe is not good at (      ).",
+      "choices": ["singing", "sing", "sings", "sang"],
+      "answer": "singing",
+      "explanation": "Good at singingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「早く起きることは健康に良い。」となるように並び替えてください。",
+      "choices": ["getting", "health", "for", "early", "good", "is", "up", "your"],
+      "answer": "Gettingupearlyisgoodforyourhealth",
+      "explanation": "Getting up early is good for your health. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「そこへ行くのはどうですか？」\nHow about (      ) there?",
+      "choices": [],
+      "answer": "going",
+      "explanation": "How about going there? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はお風呂に入るのが好きです」\nI like (      ) a bath.",
+      "choices": ["taking", "take", "took", "takes"],
+      "answer": "taking",
+      "explanation": "Like taking a bathです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らはゲームをして楽しみました。」となるように並び替えてください。",
+      "choices": ["playing", "enjoyed", "game", "They", "the"],
+      "answer": "Theyenjoyedplayingthegame",
+      "explanation": "They enjoyed playing the game. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は本を読むことに興味があります」\nHe is interested in (      ) books.",
+      "choices": [],
+      "answer": "reading",
+      "explanation": "Interested in...（～に興味がある）。Inは前置詞なのでreadingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「外国語を学ぶことは面白い」\n(      ) foreign languages is interesting.",
+      "choices": ["Learning", "Learn", "Learns", "Learned"],
+      "answer": "Learning",
+      "explanation": "Learning foreign languages... が主語です。"
+    },
+    {
+      "type": "sort",
+      "question": "「タバコを吸うのをやめてくれませんか？」となるように並び替えてください。",
+      "choices": ["smoking", "stop", "you", "Will"],
+      "answer": "Willyoustopsmoking",
+      "explanation": "Will you stop smoking? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼と話すのを楽しみました」\nI enjoyed (      ) with him.",
+      "choices": [],
+      "answer": "talking",
+      "explanation": "Enjoyed talkingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は泳ぎに行きました」\nShe went (      ).",
+      "choices": ["swimming", "swim", "to swim", "swam"],
+      "answer": "swimming",
+      "explanation": "Go swimming（泳ぎに行く）、Go shopping（買い物に行く）などは慣用表現です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の夢は世界中を旅することです。」となるように並び替えてください。",
+      "choices": ["traveling", "around", "world", "is", "My", "dream", "the"],
+      "answer": "Mydreamistravelingaroundtheworld",
+      "explanation": "My dream is traveling...（現在進行形ではなく「～すること」という名詞的用法）です。To travelでも可。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「手伝ってくれてありがとう」\nThank you for (      ) me.",
+      "choices": [],
+      "answer": "helping",
+      "explanation": "Thank you for helping me. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼を見るのをやめなさい」\nStop (      ) at him.",
+      "choices": ["looking", "look", "to look", "looks"],
+      "answer": "looking",
+      "explanation": "Stop looking at him. Stop to lookだと「見るために立ち止まる」という意味になります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは映画を見るのを楽しみました。」となるように並び替えてください。",
+      "choices": ["movie", "watching", "enjoyed", "We", "the"],
+      "answer": "Weenjoyedwatchingthemovie",
+      "explanation": "We enjoyed watching the movie. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は絵を描くのが好きではありません」\nI don't like (      ) pictures.",
+      "choices": [],
+      "answer": "drawing",
+      "explanation": "Like drawing / painting pictures. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は何も言わずに去りました」\nHe left without (      ) anything.",
+      "choices": ["saying", "say", "said", "says"],
+      "answer": "saying",
+      "explanation": "Without saying（言わずに）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「英語を勉強し始めよう。」となるように並び替えてください。",
+      "choices": ["studying", "start", "Let's", "English"],
+      "answer": "Let'sstartstudyingEnglish",
+      "explanation": "Let's start studying English. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは昼食を食べ終えました」\nThey finished (      ) lunch.",
+      "choices": [],
+      "answer": "eating",
+      "explanation": "Finished eatingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の好きな娯楽は釣りです」\nMy favorite pastime is (      ).",
+      "choices": ["fishing", "fish", "to fish", "fished"],
+      "answer": "fishing",
+      "explanation": "is fishing（釣りをすること）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「新しい自転車を買うのはどう？」となるように並び替えてください。",
+      "choices": ["buying", "bike", "about", "How", "new", "a"],
+      "answer": "Howaboutbuyinganewbike",
+      "explanation": "How about buying a new bike? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はテニスをするのが得意ではありません」\nShe is not good at (      ) tennis.",
+      "choices": [],
+      "answer": "playing",
+      "explanation": "Not good at playingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは料理をするのが好きですか？」\nDo you like (      )?",
+      "choices": ["cooking", "cook", "cooked", "cooks"],
+      "answer": "cooking",
+      "explanation": "Like cookingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「お皿を洗ってくれてありがとう。」となるように並び替えてください。",
+      "choices": ["dishes", "washing", "for", "you", "Thank", "the"],
+      "answer": "Thankyouforwashingthedishes",
+      "explanation": "Thank you for washing the dishes. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はサッカーを練習し始めました」\nI started (      ) soccer.",
+      "choices": [],
+      "answer": "practicing",
+      "explanation": "Started practicingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ここで写真を撮ることは禁止されています」\n(      ) pictures is prohibited here.",
+      "choices": ["Taking", "Take", "Took", "Takes"],
+      "answer": "Taking",
+      "explanation": "Taking pictures... が主語です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は走るのをやめました。」となるように並び替えてください。",
+      "choices": ["stopped", "running", "He"],
+      "answer": "Hestoppedrunning",
+      "explanation": "He stopped running. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は泳ぎに行くのが好きです」\nI like (      ) swimming.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "Like going swimming. Go swimmingという熟語を動名詞にしています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「手伝ってくれてありがとう」\nThanks for (      ) me.",
+      "choices": ["helping", "help", "helped", "helps"],
+      "answer": "helping",
+      "explanation": "Thanks for helping me. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「このコンピュータを使うのは簡単です。」となるように並び替えてください。",
+      "choices": ["easy", "using", "computer", "is", "This"],
+      "answer": "Usingthiscomputeriseasy",
+      "explanation": "Using this computer is easy. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はまだ掃除を終えていません」\nShe hasn't finished (      ) yet.",
+      "choices": [],
+      "answer": "cleaning",
+      "explanation": "Finished cleaningです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は日本語を話すのが得意です」\nHe is good at (      ) Japanese.",
+      "choices": ["speaking", "speak", "spoke", "speaks"],
+      "answer": "speaking",
+      "explanation": "Good at speakingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼からの便りを楽しみにしています。」となるように並び替えてください。",
+      "choices": ["hearing", "from", "looking", "am", "I", "forward", "to", "him"],
+      "answer": "Iamlookingforwardtohearingfromhim",
+      "explanation": "I am looking forward to hearing from him. Hear from（～から便りがある）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ここで待っていてくれませんか？」\nWould you mind (      ) here?",
+      "choices": [],
+      "answer": "waiting",
+      "explanation": "Would you mind -ing?（～していただけませんか/～するのは嫌ですか）という丁寧な依頼表現です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は部屋を掃除するのを終えました」\nI finished (      ) the room.",
+      "choices": ["cleaning", "clean", "cleaned", "cleans"],
+      "answer": "cleaning",
+      "explanation": "Finished cleaningです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はピアノを弾くのが好きです。」となるように並び替えてください。",
+      "choices": ["likes", "piano", "She", "playing", "the"],
+      "answer": "Shelikesplayingthepiano",
+      "explanation": "She likes playing the piano. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は寝る前に本を読みます」\nI read a book before (      ) to bed.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "Before going to bed. Beforeは接続詞としても使えますが、前置詞として使う場合は動名詞goingになります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は窓を開けるのを気にしますか？（窓を開けてもいいですか？）」\nDoes he mind (      ) the window?",
+      "choices": ["opening", "open", "opened", "opens"],
+      "answer": "opening",
+      "explanation": "Mind opening... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちの家を訪れてくれてありがとう。」となるように並び替えてください。",
+      "choices": ["visiting", "for", "Thank", "house", "our", "you"],
+      "answer": "Thankyouforvisitingourhouse",
+      "explanation": "Thank you for visiting our house. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は早起きすることに慣れています」\nI am used to (      ) up early.",
+      "choices": [],
+      "answer": "getting",
+      "explanation": "Be used to -ing（～することに慣れている）。ここのtoも前置詞なのでgettingになります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その本を読むのをやめた」\nI stopped (      ) the book.",
+      "choices": ["reading", "read", "to read", "reads"],
+      "answer": "reading",
+      "explanation": "Stopped readingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「そのことについて話すのはやめましょう。」となるように並び替えてください。",
+      "choices": ["talking", "Let's", "it", "about", "stop"],
+      "answer": "Let'sstoptalkingaboutit",
+      "explanation": "Let's stop talking about it. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は何も言わずに去りました」\nHe left without (      ) anything.",
+      "choices": [],
+      "answer": "saying",
+      "explanation": "Without sayingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は切手を集めることに興味があります」\nI am interested in (      ) stamps.",
+      "choices": ["collecting", "collect", "collected", "collects"],
+      "answer": "collecting",
+      "explanation": "Interested in collectingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「毎日走ることは健康に良い。」となるように並び替えてください。",
+      "choices": ["health", "good", "Running", "day", "every", "is", "for"],
+      "answer": "Runningeverydayisgoodforhealth",
+      "explanation": "Running every day is good for health. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は料理を楽しんだ」\nI enjoyed (      ).",
+      "choices": [],
+      "answer": "cooking",
+      "explanation": "Enjoyed cookingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は宿題をするのを忘れました」\nHe forgot (      ) his homework.",
+      "choices": ["to do", "doing", "do", "did"],
+      "answer": "to do",
+      "explanation": "Forget to do（～し忘れる）です。（※Forget doingは「したことを忘れる」）"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は笑うのをやめられませんでした。」となるように並び替えてください。",
+      "choices": ["laughing", "stop", "couldn't", "She"],
+      "answer": "Shecouldn'tstoplaughing",
+      "explanation": "She couldn't stop laughing. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は働くのをやめました（引退しました）」\nHe stopped (      ).",
+      "choices": [],
+      "answer": "working",
+      "explanation": "Stopped workingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「泳ぎに行きませんか？」\nWhy don't we go (      )?",
+      "choices": ["swimming", "swim", "to swim", "swam"],
+      "answer": "swimming",
+      "explanation": "Go swimmingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼と話すのを楽しみました。」となるように並び替えてください。",
+      "choices": ["talking", "him", "enjoyed", "with", "I"],
+      "answer": "Ienjoyedtalkingwithhim",
+      "explanation": "I enjoyed talking with him. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は寝袋が必要です」\nI need a (      ) bag.",
+      "choices": [],
+      "answer": "sleeping",
+      "explanation": "Sleeping bag（寝るための袋＝寝袋）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「待たせてごめんなさい」\nI am sorry for (      ) you waiting.",
+      "choices": ["keeping", "keep", "kept", "keeps"],
+      "answer": "keeping",
+      "explanation": "Keep you waiting（待たせる）の動名詞keepingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「雨が降りやみました。」となるように並び替えてください。",
+      "choices": ["raining", "It", "stopped"],
+      "answer": "Itstoppedraining",
+      "explanation": "It stopped raining. です。"
+    }
+  ]
+}

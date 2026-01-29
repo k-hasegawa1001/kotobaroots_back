@@ -1,0 +1,671 @@
+{
+  "learning_topic": "過去形",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「私は昨日、テニスをしました」\nI (      ) tennis yesterday.",
+      "choices": ["played", "play", "plays", "playing"],
+      "answer": "played",
+      "explanation": "Playにedをつけて過去形playedにします。Yesterday（昨日）という言葉が過去形の目印です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は昨日、テレビを見ました。」となるように並び替えてください。",
+      "choices": ["watched", "yesterday", "TV", "He"],
+      "answer": "HewatchedTVyesterday",
+      "explanation": "He watched TV yesterday. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は昨夜、夕食を料理しました」\nShe (      ) dinner last night.",
+      "choices": [],
+      "answer": "cooked",
+      "explanation": "Cookにedをつけてcookedにします。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は公園へ行きました」\nI (      ) to the park.",
+      "choices": ["went", "go", "goed", "gone"],
+      "answer": "went",
+      "explanation": "Goの過去形はwentです。不規則に変化する重要な動詞です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは昨晩、英語を勉強しました。」となるように並び替えてください。",
+      "choices": ["studied", "night", "English", "We", "last"],
+      "answer": "WestudiedEnglishlastnight",
+      "explanation": "We studied English last night. Studyはyをiに変えてedをつけます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は今朝、早く起きました」\nI (      ) up early this morning.",
+      "choices": [],
+      "answer": "got",
+      "explanation": "Getの過去形はgotです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は新しい車を買いました」\nHe (      ) a new car.",
+      "choices": ["bought", "buyed", "brought", "buys"],
+      "answer": "bought",
+      "explanation": "Buyの過去形はboughtです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は昨日、忙しかったです。」となるように並び替えてください。",
+      "choices": ["busy", "was", "yesterday", "I"],
+      "answer": "Iwasbusyyesterday",
+      "explanation": "I was busy yesterday. I amの過去形はI wasです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは昨日、ここにいました」\nThey (      ) here yesterday.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "They areの過去形はThey wereです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女はここに来ました」\nShe (      ) here.",
+      "choices": ["came", "come", "comed", "coming"],
+      "answer": "came",
+      "explanation": "Comeの過去形はcameです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はその映画を見ました。」となるように並び替えてください。",
+      "choices": ["saw", "movie", "the", "I"],
+      "answer": "Isawthemovie",
+      "explanation": "I saw the movie. Seeの過去形はsawです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは昼食を食べました」\nWe (      ) lunch.",
+      "choices": [],
+      "answer": "ate",
+      "explanation": "Eatの過去形はateです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は私にペンをくれました」\nHe (      ) me a pen.",
+      "choices": ["gave", "give", "gived", "given"],
+      "answer": "gave",
+      "explanation": "Giveの過去形はgaveです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は昨日、学校にいませんでした。」となるように並び替えてください。",
+      "choices": ["school", "was", "yesterday", "at", "not", "I"],
+      "answer": "Iwasnotatschoolyesterday",
+      "explanation": "I was not at school yesterday. be動詞の過去形の否定文です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は先週、病気でした」\nHe (      ) sick last week.",
+      "choices": [],
+      "answer": "was",
+      "explanation": "He isの過去形He wasを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はそのニュースを知っていました」\nI (      ) the news.",
+      "choices": ["knew", "knowed", "know", "known"],
+      "answer": "knew",
+      "explanation": "Knowの過去形はknewです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はあなたに会いたがっていました。」となるように並び替えてください。",
+      "choices": ["wanted", "you", "see", "to", "She"],
+      "answer": "Shewantedtoseeyou",
+      "explanation": "She wanted to see you. Wantにedをつけてwantedです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は昨日、テニスをしませんでした」\nI (      ) play tennis yesterday.",
+      "choices": [],
+      "answer": "didn't",
+      "explanation": "一般動詞の過去形の否定文はdidn't (did not) を使い、動詞は原形に戻します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は3年前に日本に住んでいました」\nHe (      ) in Japan three years ago.",
+      "choices": ["lived", "live", "lives", "living"],
+      "answer": "lived",
+      "explanation": "Liveはdだけをつけてlivedにします。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は宿題をしました。」となるように並び替えてください。",
+      "choices": ["did", "homework", "my", "I"],
+      "answer": "Ididmyhomework",
+      "explanation": "I did my homework. Doの過去形はdidです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はたくさんの写真を撮りました」\nHe (      ) many pictures.",
+      "choices": [],
+      "answer": "took",
+      "explanation": "Takeの過去形はtookです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちはとても楽しみました」\nWe (      ) a lot of fun.",
+      "choices": ["had", "have", "has", "haved"],
+      "answer": "had",
+      "explanation": "Haveの過去形はhadです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは昨日、学校へ行きましたか？」となるように並び替えてください。",
+      "choices": ["school", "go", "Did", "you", "yesterday", "to"],
+      "answer": "Didyougotoschoolyesterday",
+      "explanation": "Did you go to school yesterday? 過去形の疑問文はDidを文頭に置き、動詞は原形にします。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「雨が降りました」\nIt (      ).",
+      "choices": [],
+      "answer": "rained",
+      "explanation": "Rainにedをつけてrainedです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は昨日、彼に会いました」\nI (      ) him yesterday.",
+      "choices": ["met", "meet", "meeting", "meeted"],
+      "answer": "met",
+      "explanation": "Meetの過去形はmetです（eが1つ減ります）。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の父は私のために自転車を作りました。」となるように並び替えてください。",
+      "choices": ["made", "bike", "me", "father", "a", "My"],
+      "answer": "Myfathermademeabike",
+      "explanation": "My father made me a bike. Makeの過去形はmadeです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は手紙を書きました」\nShe (      ) a letter.",
+      "choices": [],
+      "answer": "wrote",
+      "explanation": "Writeの過去形はwroteです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「バスはここで止まりました」\nThe bus (      ) here.",
+      "choices": ["stopped", "stoped", "stops", "stop"],
+      "answer": "stopped",
+      "explanation": "Stopはpを重ねてedをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたたちは昨晩、どこにいましたか？」となるように並び替えてください。",
+      "choices": ["were", "night", "you", "Where", "last"],
+      "answer": "Wherewereyoulastnight",
+      "explanation": "Where were you last night? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は美しい鳥を見つけました」\nI (      ) a beautiful bird.",
+      "choices": [],
+      "answer": "found",
+      "explanation": "Findの過去形はfoundです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は一生懸命働きました」\nHe (      ) hard.",
+      "choices": ["worked", "work", "works", "working"],
+      "answer": "worked",
+      "explanation": "Workにedをつけてworkedです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はその本を読みました。」となるように並び替えてください。",
+      "choices": ["read", "book", "the", "I"],
+      "answer": "Ireadthebook",
+      "explanation": "I read the book. Readの過去形は綴りは同じreadですが、発音は「レッド」になります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は昨日、ここに来ませんでした」\nHe (      ) come here yesterday.",
+      "choices": [],
+      "answer": "didn't",
+      "explanation": "He didn't come here yesterday. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は英語を話しました」\nI (      ) English.",
+      "choices": ["spoke", "speak", "speaked", "spoken"],
+      "answer": "spoke",
+      "explanation": "Speakの過去形はspokeです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は昨日、忙しくありませんでした。」となるように並び替えてください。",
+      "choices": ["wasn't", "yesterday", "busy", "She"],
+      "answer": "Shewasn'tbusyyesterday",
+      "explanation": "She wasn't busy yesterday. was notの短縮形wasn'tを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼に『こんにちは』と言いました」\nI (      ) hello to him.",
+      "choices": [],
+      "answer": "said",
+      "explanation": "Sayの過去形はsaid（セッド）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らはその部屋を使いました」\nThey (      ) the room.",
+      "choices": ["used", "use", "using", "uses"],
+      "answer": "used",
+      "explanation": "Useにdをつけてusedです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはそれを楽しめましたか？」となるように並び替えてください。",
+      "choices": ["enjoy", "Did", "it", "you"],
+      "answer": "Didyouenjoyit",
+      "explanation": "Did you enjoy it? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は駅まで歩きました」\nI (      ) to the station.",
+      "choices": [],
+      "answer": "walked",
+      "explanation": "Walkにedをつけてwalkedです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の父は私に英語を教えてくれました」\nMy father (      ) me English.",
+      "choices": ["taught", "teach", "teached", "teaches"],
+      "answer": "taught",
+      "explanation": "Teachの過去形はtaughtです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は昨日、外出しました。」となるように並び替えてください。",
+      "choices": ["out", "went", "I", "yesterday"],
+      "answer": "Iwentoutyesterday",
+      "explanation": "I went out yesterday. Go outの過去形です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は歌を歌いました」\nShe (      ) a song.",
+      "choices": [],
+      "answer": "sang",
+      "explanation": "Singの過去形はsangです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは川で泳ぎました」\nWe (      ) in the river.",
+      "choices": ["swam", "swim", "swimmed", "swum"],
+      "answer": "swam",
+      "explanation": "Swimの過去形はswamです。"
+    },
+    {
+      "type": "sort",
+      "question": "「その店は昨日、開いていましたか？」となるように並び替えてください。",
+      "choices": ["open", "shop", "Was", "yesterday", "the"],
+      "answer": "Wastheshopopenyesterday",
+      "explanation": "Was the shop open yesterday? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は先月、京都を訪れました」\nI (      ) Kyoto last month.",
+      "choices": [],
+      "answer": "visited",
+      "explanation": "Visitにedをつけてvisitedです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はその箱を運びました」\nHe (      ) the box.",
+      "choices": ["carried", "carryed", "carries", "carry"],
+      "answer": "carried",
+      "explanation": "Carryはyをiに変えてedをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は今朝、朝食を食べませんでした。」となるように並び替えてください。",
+      "choices": ["breakfast", "eat", "didn't", "morning", "this", "I"],
+      "answer": "Ididn'teatbreakfastthismorning",
+      "explanation": "I didn't eat breakfast this morning. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは10年前にここに引っ越してきました」\nWe (      ) here ten years ago.",
+      "choices": [],
+      "answer": "moved",
+      "explanation": "Moveにdをつけてmovedです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼にその本を貸しました」\nI (      ) him the book.",
+      "choices": ["lent", "lend", "lended", "lending"],
+      "answer": "lent",
+      "explanation": "Lendの過去形はlentです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は昨日、何をしましたか？」となるように並び替えてください。",
+      "choices": ["do", "did", "What", "she", "yesterday"],
+      "answer": "Whatdidshedoyesterday",
+      "explanation": "What did she do yesterday? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はそのバッグを売りました」\nI (      ) the bag.",
+      "choices": [],
+      "answer": "sold",
+      "explanation": "Sellの過去形はsoldです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちはコーヒーを飲みました」\nWe (      ) coffee.",
+      "choices": ["drank", "drink", "drinked", "drunk"],
+      "answer": "drank",
+      "explanation": "Drinkの過去形はdrankです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は自分のメガネをなくしました。」となるように並び替えてください。",
+      "choices": ["lost", "glasses", "my", "I"],
+      "answer": "Ilostmyglasses",
+      "explanation": "I lost my glasses. Loseの過去形はlostです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はドアを閉めました」\nHe (      ) the door.",
+      "choices": [],
+      "answer": "closed",
+      "explanation": "Closeにdをつけてclosedです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の兄は早く帰宅しました」\nMy brother (      ) home early.",
+      "choices": ["came", "come", "comed", "coming"],
+      "answer": "came",
+      "explanation": "Comeの過去形はcameです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は彼に何も言いませんでした。」となるように並び替えてください。",
+      "choices": ["him", "say", "to", "didn't", "She", "anything"],
+      "answer": "Shedidn'tsayanythingtohim",
+      "explanation": "She didn't say anything to him. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は電車に乗りました」\nI (      ) a train.",
+      "choices": [],
+      "answer": "took",
+      "explanation": "Take a trainの過去形took a trainです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは部屋を掃除しました」\nThey (      ) the room.",
+      "choices": ["cleaned", "clean", "cleans", "cleaning"],
+      "answer": "cleaned",
+      "explanation": "Cleanにedをつけてcleanedです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はピアノを練習しました。」となるように並び替えてください。",
+      "choices": ["practiced", "She", "piano", "the"],
+      "answer": "Shepracticedthepiano",
+      "explanation": "She practiced the piano. Practiceにdをつけてpracticedです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は昨夜、よく眠りました」\nI (      ) well last night.",
+      "choices": [],
+      "answer": "slept",
+      "explanation": "Sleepの過去形はsleptです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「誰がこの絵を描いたのですか？」\nWho (      ) this picture?",
+      "choices": ["painted", "paint", "paints", "painting"],
+      "answer": "painted",
+      "explanation": "Paintにedをつけてpaintedです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは昨日、サッカーをしましたか？」となるように並び替えてください。",
+      "choices": ["play", "yesterday", "Did", "soccer", "they"],
+      "answer": "Didtheyplaysocceryesterday",
+      "explanation": "Did they play soccer yesterday? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はあなたにメールを送りました」\nI (      ) you an email.",
+      "choices": [],
+      "answer": "sent",
+      "explanation": "Sendの過去形はsentです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の母は昨日、家にいました」\nMy mother (      ) at home yesterday.",
+      "choices": ["was", "is", "were", "been"],
+      "answer": "was",
+      "explanation": "My mother（単数）の過去形なのでwasを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はとても一生懸命走りました。」となるように並び替えてください。",
+      "choices": ["hard", "ran", "very", "He"],
+      "answer": "Heranveryhard",
+      "explanation": "He ran very hard. Runの過去形はranです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はそのバッグが好きでした」\nI (      ) the bag.",
+      "choices": [],
+      "answer": "liked",
+      "explanation": "Likeにdをつけてlikedです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は部屋に入りました」\nHe (      ) the room.",
+      "choices": ["entered", "enter", "enterd", "entred"],
+      "answer": "entered",
+      "explanation": "Enterにedをつけてenteredです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼らを待ちました。」となるように並び替えてください。",
+      "choices": ["waited", "them", "I", "for"],
+      "answer": "Iwaitedforthem",
+      "explanation": "I waited for them. Waitにedをつけてwaitedです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は窓を開けました」\nShe (      ) the window.",
+      "choices": [],
+      "answer": "opened",
+      "explanation": "Openにedをつけてopenedです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼について考えました」\nI (      ) about him.",
+      "choices": ["thought", "think", "thinked", "thaught"],
+      "answer": "thought",
+      "explanation": "Thinkの過去形はthoughtです。"
+    },
+    {
+      "type": "sort",
+      "question": "「昨日、雨は降りませんでした。」となるように並び替えてください。",
+      "choices": ["yesterday", "didn't", "rain", "It"],
+      "answer": "Itdidn'trainyesterday",
+      "explanation": "It didn't rain yesterday. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は自分の車を洗いました」\nHe (      ) his car.",
+      "choices": [],
+      "answer": "washed",
+      "explanation": "Washにedをつけてwashedです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はあなたに電話しました」\nI (      ) you.",
+      "choices": ["called", "call", "calld", "cals"],
+      "answer": "called",
+      "explanation": "Callにedをつけてcalledです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちはそのパーティーを楽しみました。」となるように並び替えてください。",
+      "choices": ["enjoyed", "We", "party", "the"],
+      "answer": "Weenjoyedtheparty",
+      "explanation": "We enjoyed the party. Enjoyにedをつけてenjoyedです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はそのお金を使いました」\nHe (      ) the money.",
+      "choices": [],
+      "answer": "spent",
+      "explanation": "Spendの過去形はspentです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は昨日、彼を見かけませんでした」\nI (      ) see him yesterday.",
+      "choices": ["didn't", "don't", "not", "wasn't"],
+      "answer": "didn't",
+      "explanation": "過去の否定なのでdidn'tを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「その男の人は立ち上がりました。」となるように並び替えてください。",
+      "choices": ["up", "man", "stood", "The"],
+      "answer": "Themanstoodup",
+      "explanation": "The man stood up. Standの過去形はstoodです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はダンスをしました」\nShe (      ).",
+      "choices": [],
+      "answer": "danced",
+      "explanation": "Danceにdをつけてdancedです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼を信じました」\nI (      ) him.",
+      "choices": ["believed", "believe", "believes", "belief"],
+      "answer": "believed",
+      "explanation": "Believeにdをつけてbelievedです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはいつこれを買いましたか？」となるように並び替えてください。",
+      "choices": ["did", "buy", "you", "When", "this"],
+      "answer": "Whendidyoubuythis",
+      "explanation": "When did you buy this? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は帽子をかぶっていました」\nHe (      ) a hat.",
+      "choices": [],
+      "answer": "wore",
+      "explanation": "Wearの過去形はworeです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちはタクシーに乗りました」\nWe (      ) a taxi.",
+      "choices": ["took", "take", "taked", "taken"],
+      "answer": "took",
+      "explanation": "Takeの過去形はtookです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は昨日、それを必要としていました。」となるように並び替えてください。",
+      "choices": ["needed", "it", "I", "yesterday"],
+      "answer": "Ineededityesterday",
+      "explanation": "I needed it yesterday. Needにedをつけてneededです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は私に微笑みました」\nShe (      ) at me.",
+      "choices": [],
+      "answer": "smiled",
+      "explanation": "Smileにdをつけてsmiledです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はそのドアを壊しました」\nHe (      ) the door.",
+      "choices": ["broke", "break", "breaked", "broken"],
+      "answer": "broke",
+      "explanation": "Breakの過去形はbrokeです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼の名前を忘れました。」となるように並び替えてください。",
+      "choices": ["forgot", "name", "his", "I"],
+      "answer": "Iforgothisname",
+      "explanation": "I forgot his name. Forgetの過去形はforgotです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は私に触れました」\nHe (      ) me.",
+      "choices": [],
+      "answer": "touched",
+      "explanation": "Touchにedをつけてtouchedです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちはそこへ歩いて行きました」\nWe (      ) there.",
+      "choices": ["walked", "walk", "walks", "walking"],
+      "answer": "walked",
+      "explanation": "Walkにedをつけてwalkedです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はたくさんお金を使いました。」となるように並び替えてください。",
+      "choices": ["money", "spent", "of", "She", "lot", "a"],
+      "answer": "Shespentalotofmoney",
+      "explanation": "She spent a lot of money. Spendの過去形はspentです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はそれを落としました」\nI (      ) it.",
+      "choices": [],
+      "answer": "dropped",
+      "explanation": "Dropはpを重ねてedをつけ、droppedにします。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はそれをキャッチしました」\nHe (      ) it.",
+      "choices": ["caught", "catched", "catch", "cought"],
+      "answer": "caught",
+      "explanation": "Catchの過去形はcaughtです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は昨日、彼を訪ねました。」となるように並び替えてください。",
+      "choices": ["him", "visited", "I", "yesterday"],
+      "answer": "Ivisitedhimyesterday",
+      "explanation": "I visited him yesterday. Visitにedをつけてvisitedです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは海で泳ぎました」\nThey (      ) in the sea.",
+      "choices": [],
+      "answer": "swam",
+      "explanation": "Swimの過去形はswamです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はそのテストに合格しました」\nI (      ) the test.",
+      "choices": ["passed", "pass", "pased", "passing"],
+      "answer": "passed",
+      "explanation": "Passにedをつけてpassedです。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰がここに来ましたか？」となるように並び替えてください。",
+      "choices": ["came", "here", "Who"],
+      "answer": "Whocamehere",
+      "explanation": "Who came here? です。"
+    }
+  ]
+}

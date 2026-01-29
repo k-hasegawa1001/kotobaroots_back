@@ -1,0 +1,671 @@
+{
+  "learning_topic": "疑問文",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは学生ですか？」\n(      ) you a student?",
+      "choices": ["Are", "Do", "Is", "Am"],
+      "answer": "Are",
+      "explanation": "be動詞の文を疑問文にする時は、be動詞（Are）を主語（you）の前に出します。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはテニスをしますか？」となるように並び替えてください。",
+      "choices": ["tennis", "play", "you", "Do"],
+      "answer": "Doyouplaytennis",
+      "explanation": "Do you play tennis? です。一般動詞（play）の疑問文は文頭にDoを置きます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は先生ですか？」\n(      ) he a teacher?",
+      "choices": [],
+      "answer": "Is",
+      "explanation": "Is he a teacher? 主語がHeなのでIsを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らはここに来ますか？」\n(      ) they come here?",
+      "choices": ["Do", "Are", "Is", "Does"],
+      "answer": "Do",
+      "explanation": "Come（来る）は一般動詞なので、Doを使って疑問文にします。"
+    },
+    {
+      "type": "sort",
+      "question": "「これはあなたの本ですか？」となるように並び替えてください。",
+      "choices": ["book", "your", "this", "Is"],
+      "answer": "Isthisyourbook",
+      "explanation": "Is this your book? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「はい、そうです（主語：it）」\nYes, it (      ).",
+      "choices": [],
+      "answer": "is",
+      "explanation": "Is this...? と聞かれたら、Yes, it is. と答えます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは忙しいですか？」\n(      ) you busy?",
+      "choices": ["Are", "Do", "Is", "Am"],
+      "answer": "Are",
+      "explanation": "Busy（忙しい）は状態を表す形容詞なので、be動詞（Are）を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはコーヒーが好きですか？」となるように並び替えてください。",
+      "choices": ["coffee", "like", "you", "Do"],
+      "answer": "Doyoulikecoffee",
+      "explanation": "Do you like coffee? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「いいえ、違います（主語：I）」\nNo, I (      ) not.",
+      "choices": [],
+      "answer": "am",
+      "explanation": "No, I am not. または短縮してNo, I'm not. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは知っていますか？」\n(      ) you know?",
+      "choices": ["Do", "Are", "Is", "Does"],
+      "answer": "Do",
+      "explanation": "Know（知っている）は一般動詞なのでDoを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「それは面白いですか？」となるように並び替えてください。",
+      "choices": ["interesting", "it", "Is"],
+      "answer": "Isitinteresting",
+      "explanation": "Is it interesting? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「はい、します（主語：I）」\nYes, I (      ).",
+      "choices": [],
+      "answer": "do",
+      "explanation": "Do you...? と聞かれたら、Yes, I do. と答えます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は親切ですか？」\n(      ) she kind?",
+      "choices": ["Is", "Do", "Does", "Are"],
+      "answer": "Is",
+      "explanation": "Sheが主語なのでIsを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは日本出身ですか？」となるように並び替えてください。",
+      "choices": ["Japan", "from", "you", "Are"],
+      "answer": "AreyoufromJapan",
+      "explanation": "Are you from Japan? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「いいえ、しません（主語：I）」\nNo, I (      ).",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "No, I don't. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らはサッカーをしますか？」\n(      ) they play soccer?",
+      "choices": ["Do", "Are", "Is", "Does"],
+      "answer": "Do",
+      "explanation": "Playは一般動詞なのでDoを使います。Are they play...とは言いません。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは空腹ですか？」となるように並び替えてください。",
+      "choices": ["hungry", "you", "Are"],
+      "answer": "Areyouhungry",
+      "explanation": "Are you hungry? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは本を読みますか？」\n(      ) you read books?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Do you read books? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これはペンですか？」\n(      ) this a pen?",
+      "choices": ["Is", "Do", "Are", "Does"],
+      "answer": "Is",
+      "explanation": "Thisが主語なのでIsを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは疲れていますか？」となるように並び替えてください。",
+      "choices": ["tired", "you", "Are"],
+      "answer": "Areyoutired",
+      "explanation": "Are you tired? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「はい、そうです（主語：she）」\nYes, she (      ).",
+      "choices": [],
+      "answer": "is",
+      "explanation": "Is she...? の答えは Yes, she is. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは準備できていますか？」\n(      ) we ready?",
+      "choices": ["Are", "Do", "Is", "Does"],
+      "answer": "Are",
+      "explanation": "We（私たち）は複数なのでAreを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは犬を飼っていますか？」となるように並び替えてください。",
+      "choices": ["dog", "a", "have", "you", "Do"],
+      "answer": "Doyouhaveadog",
+      "explanation": "Do you have a dog? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「いいえ、違います（主語：he）」\nNo, he (      ).",
+      "choices": [],
+      "answer": "isn't",
+      "explanation": "No, he isn't. (is not) です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは理解しましたか？」\n(      ) you understand?",
+      "choices": ["Do", "Are", "Is", "Am"],
+      "answer": "Do",
+      "explanation": "Understand（理解する）は一般動詞なのでDoを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あれはあなたの車ですか？」となるように並び替えてください。",
+      "choices": ["car", "your", "that", "Is"],
+      "answer": "Isthatyourcar",
+      "explanation": "Is that your car? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはここに住んでいますか？」\n(      ) you live here?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Do you live here? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それらは新しいですか？」\n(      ) they new?",
+      "choices": ["Are", "Do", "Is", "Does"],
+      "answer": "Are",
+      "explanation": "They（それら）は複数なのでAreを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは英語を話しますか？」となるように並び替えてください。",
+      "choices": ["English", "speak", "you", "Do"],
+      "answer": "DoyouspeakEnglish",
+      "explanation": "Do you speak English? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「いいえ、しません（主語：they）」\nNo, they (      ).",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "No, they don't. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは幸せですか？」\n(      ) you happy?",
+      "choices": ["Are", "Do", "Is", "Am"],
+      "answer": "Are",
+      "explanation": "Happyは形容詞なのでAreを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は医者ですか？」となるように並び替えてください。",
+      "choices": ["doctor", "a", "he", "Is"],
+      "answer": "Isheadoctor",
+      "explanation": "Is he a doctor? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それを使ってもいいですか？（私はそれを使いますか？）」\n(      ) I use it?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Do I use it? です。\n\n【実用】許可を求める場合はCan I...?を使いますが、文法的にはDo I...?も成り立ちます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これらはあなたのバッグですか？」\n(      ) these your bags?",
+      "choices": ["Are", "Is", "Do", "Does"],
+      "answer": "Are",
+      "explanation": "These（これら）は複数なのでAreを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは毎日走りますか？」となるように並び替えてください。",
+      "choices": ["day", "every", "run", "you", "Do"],
+      "answer": "Doyouruneveryday",
+      "explanation": "Do you run every day? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「はい、そうです（主語：you）」\nYes, you (      ).",
+      "choices": [],
+      "answer": "are",
+      "explanation": "Are I...?（私は～ですか？）と聞かれた場合の答えは、Yes, you are. になります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その本は面白いですか？」\n(      ) the book interesting?",
+      "choices": ["Is", "Are", "Do", "Does"],
+      "answer": "Is",
+      "explanation": "The book（その本）は単数なのでIsを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは友人ですか？」となるように並び替えてください。",
+      "choices": ["friends", "they", "Are"],
+      "answer": "Aretheyfriends",
+      "explanation": "Are they friends? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはこれが好きですか？」\n(      ) you like this?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Do you like this? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は遅刻ですか？」\n(      ) I late?",
+      "choices": ["Am", "Do", "Are", "Is"],
+      "answer": "Am",
+      "explanation": "主語がIのbe動詞疑問文はAm I...?です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは納豆を食べますか？」となるように並び替えてください。",
+      "choices": ["natto", "eat", "you", "Do"],
+      "answer": "Doyoueatnatto",
+      "explanation": "Do you eat natto? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「はい、そうです（主語：they）」\nYes, they (      ).",
+      "choices": [],
+      "answer": "are",
+      "explanation": "Are they...? の答えは Yes, they are. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたたちは生徒ですか？」\n(      ) you students?",
+      "choices": ["Are", "Do", "Is", "Does"],
+      "answer": "Are",
+      "explanation": "You（あなたたち）が主語なのでAreを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「それは難しいですか？」となるように並び替えてください。",
+      "choices": ["difficult", "it", "Is"],
+      "answer": "Isitdifficult",
+      "explanation": "Is it difficult? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは車を持っていますか？」\n(      ) you have a car?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Do you have a car? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「今日は寒いですか？」\n(      ) it cold today?",
+      "choices": ["Is", "Are", "Do", "Does"],
+      "answer": "Is",
+      "explanation": "天候を表すItが主語なのでIsを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは音楽が好きですか？」となるように並び替えてください。",
+      "choices": ["music", "like", "you", "Do"],
+      "answer": "Doyoulikemusic",
+      "explanation": "Do you like music? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「はい、します（主語：they）」\nYes, they (      ).",
+      "choices": [],
+      "answer": "do",
+      "explanation": "Do they...? の答えは Yes, they do. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は正しいですか？」\n(      ) I right?",
+      "choices": ["Am", "Do", "Are", "Is"],
+      "answer": "Am",
+      "explanation": "Am I right?（合ってますか？）という確認のフレーズです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは大丈夫ですか？」となるように並び替えてください。",
+      "choices": ["okay", "you", "Are"],
+      "answer": "Areyouokay",
+      "explanation": "Are you okay? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「いいえ、違います（主語：it）」\nNo, it (      ).",
+      "choices": [],
+      "answer": "isn't",
+      "explanation": "No, it isn't. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは勉強しますか？」\n(      ) you study?",
+      "choices": ["Do", "Are", "Is", "Am"],
+      "answer": "Do",
+      "explanation": "Studyは一般動詞なのでDoを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「このペンを使いますか？」となるように並び替えてください。",
+      "choices": ["pen", "this", "use", "you", "Do"],
+      "answer": "Doyouusethispen",
+      "explanation": "Do you use this pen? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あれは鳥ですか？」\n(      ) that a bird?",
+      "choices": [],
+      "answer": "Is",
+      "explanation": "Is that a bird? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは日本人ですか？」\n(      ) they Japanese?",
+      "choices": ["Are", "Do", "Is", "Does"],
+      "answer": "Are",
+      "explanation": "Theyが主語なのでAreを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは泳ぎますか？」となるように並び替えてください。",
+      "choices": ["swim", "you", "Do"],
+      "answer": "Doyouswim",
+      "explanation": "Do you swim? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「いいえ、違います（主語：they）」\nNo, they (      ).",
+      "choices": [],
+      "answer": "aren't",
+      "explanation": "Are they...? の答えは No, they aren't. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その部屋はきれいですか？」\n(      ) the room clean?",
+      "choices": ["Is", "Do", "Are", "Does"],
+      "answer": "Is",
+      "explanation": "The roomは単数なのでIsを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は夢を見ていますか？」となるように並び替えてください。",
+      "choices": ["dreaming", "I", "Am"],
+      "answer": "AmIdreaming",
+      "explanation": "Am I dreaming? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは彼を知っていますか？」\n(      ) you know him?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Do you know him? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたのお父さんは背が高いですか？」\n(      ) your father tall?",
+      "choices": ["Is", "Are", "Do", "Does"],
+      "answer": "Is",
+      "explanation": "Your father（あなたのお父さん）は一人（三人称単数）なので、AreではなくIsを使います。\n\n【注意】YouにつられてAreにしないよう注意！"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはリンゴが好きですか？」となるように並び替えてください。",
+      "choices": ["apples", "like", "you", "Do"],
+      "answer": "Doyoulikeapples",
+      "explanation": "Do you like apples? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「いいえ、違います（主語：we）」\nNo, we (      ).",
+      "choices": [],
+      "answer": "aren't",
+      "explanation": "No, we aren't. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは歌手ですか？」\n(      ) you a singer?",
+      "choices": ["Are", "Do", "Is", "Am"],
+      "answer": "Are",
+      "explanation": "Are you a singer? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はあなたの妹ですか？」となるように並び替えてください。",
+      "choices": ["sister", "your", "she", "Is"],
+      "answer": "Issheyoursister",
+      "explanation": "Is she your sister? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはテレビを見ますか？」\n(      ) you watch TV?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Do you watch TV? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは遅れていますか？」\n(      ) we late?",
+      "choices": ["Are", "Do", "Is", "Am"],
+      "answer": "Are",
+      "explanation": "Are we late? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは私を愛していますか？」となるように並び替えてください。",
+      "choices": ["me", "love", "you", "Do"],
+      "answer": "Doyouloveme",
+      "explanation": "Do you love me? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それは本当ですか？」\n(      ) it true?",
+      "choices": [],
+      "answer": "Is",
+      "explanation": "Is it true? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは毎日料理しますか？」\n(      ) you cook every day?",
+      "choices": ["Do", "Are", "Is", "Am"],
+      "answer": "Do",
+      "explanation": "Cookは一般動詞なのでDoを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは準備できていますか？」となるように並び替えてください。",
+      "choices": ["ready", "you", "Are"],
+      "answer": "Areyouready",
+      "explanation": "Are you ready? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「いいえ、しません（主語：you）」\nNo, you (      ).",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "Do I...?（私は～しますか？）と聞かれた場合の答えです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは怒っていますか？」\n(      ) they angry?",
+      "choices": ["Are", "Do", "Is", "Does"],
+      "answer": "Are",
+      "explanation": "Are they angry? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはそれを必要としていますか？」となるように並び替えてください。",
+      "choices": ["it", "need", "you", "Do"],
+      "answer": "Doyouneedit",
+      "explanation": "Do you need it? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これはあなたのバッグですか？」\n(      ) this your bag?",
+      "choices": [],
+      "answer": "Is",
+      "explanation": "Is this your bag? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは魚を食べますか？」\n(      ) you eat fish?",
+      "choices": ["Do", "Are", "Is", "Does"],
+      "answer": "Do",
+      "explanation": "Do you eat fish? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は親切ですか？」となるように並び替えてください。",
+      "choices": ["kind", "he", "Is"],
+      "answer": "Ishekind",
+      "explanation": "Is he kind? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは疲れていますか？」\n(      ) you tired?",
+      "choices": [],
+      "answer": "Are",
+      "explanation": "Are you tired? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それらは同じですか？」\n(      ) they the same?",
+      "choices": ["Are", "Do", "Is", "Does"],
+      "answer": "Are",
+      "explanation": "Are they the same? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはお金が欲しいですか？」となるように並び替えてください。",
+      "choices": ["money", "want", "you", "Do"],
+      "answer": "Doyouwantmoney",
+      "explanation": "Do you want money? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「はい、そうです（主語：he）」\nYes, he (      ).",
+      "choices": [],
+      "answer": "is",
+      "explanation": "Yes, he is. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは眠いですか？」\n(      ) you sleepy?",
+      "choices": ["Are", "Do", "Is", "Does"],
+      "answer": "Are",
+      "explanation": "Are you sleepy? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あれは私の猫ですか？」となるように並び替えてください。",
+      "choices": ["cat", "my", "that", "Is"],
+      "answer": "Isthatmycat",
+      "explanation": "Is that my cat? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは走りますか？」\n(      ) you run?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Do you run? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これは安全ですか？」\n(      ) this safe?",
+      "choices": ["Is", "Do", "Are", "Does"],
+      "answer": "Is",
+      "explanation": "Is this safe? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは英語を勉強しますか？」となるように並び替えてください。",
+      "choices": ["English", "study", "you", "Do"],
+      "answer": "DoyoustudyEnglish",
+      "explanation": "Do you study English? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「はい、そうです（主語：I）」\nYes, I (      ).",
+      "choices": [],
+      "answer": "am",
+      "explanation": "Are you...? の答えは Yes, I am. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたとトムは友人ですか？」\n(      ) you and Tom friends?",
+      "choices": ["Are", "Do", "Is", "Am"],
+      "answer": "Are",
+      "explanation": "You and Tomは複数なのでAreを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「それは無料ですか？」となるように並び替えてください。",
+      "choices": ["free", "it", "Is"],
+      "answer": "Isitfree",
+      "explanation": "Is it free? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは朝食を食べますか？」\n(      ) you eat breakfast?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Do you eat breakfast? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは家にいますか？」\n(      ) they at home?",
+      "choices": ["Are", "Do", "Is", "Does"],
+      "answer": "Are",
+      "explanation": "Are they at home? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「この席は空いていますか？」となるように並び替えてください。",
+      "choices": ["taken", "seat", "this", "Is"],
+      "answer": "Isthis-seattaken",
+      "explanation": "Is this seat taken?（この席は取られていますか＝空いていませんか？）という定番フレーズです。\n\n【実用】空いているか聞く時はIs this seat free? とも言います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはそれが欲しいですか？」\n(      ) you want it?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Do you want it? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その店は開いていますか？」\n(      ) the shop open?",
+      "choices": ["Is", "Do", "Are", "Does"],
+      "answer": "Is",
+      "explanation": "Is the shop open? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは彼らを信じますか？」となるように並び替えてください。",
+      "choices": ["them", "believe", "you", "Do"],
+      "answer": "Doyoubelievethem",
+      "explanation": "Do you believe them? です。"
+    }
+  ]
+}

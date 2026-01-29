@@ -1,0 +1,734 @@
+{
+  "learning_topic": "基本語彙",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「おはよう」は英語で何と言いますか？",
+      "choices": ["Good morning", "Good afternoon", "Good evening", "Good night"],
+      "answer": "Good morning",
+      "explanation": "朝の挨拶です。\n\n【実用】家族や親しい友人の間では、単にMorning!とだけ言うこともよくあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「ありがとう」を英語で綴ってください。",
+      "choices": ["k", "n", "h", "a", "T"],
+      "answer": "Thank",
+      "explanation": "感謝を伝える基本の言葉です。\n\n【文化】Thank youはコンビニのレジからビジネスまで、日本人が想像するより遥かに高い頻度で使われる「魔法の言葉」です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「さようなら」の丁寧な言い方は？\nGood(      )",
+      "choices": [],
+      "answer": "bye",
+      "explanation": "Goodbyeは「God be with ye（神があなたと共にありますように）」という古い英語が短くなったものです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "数字の「1」を英語で綴ると？",
+      "choices": ["One", "On", "Won", "Wan"],
+      "answer": "One",
+      "explanation": "数字の1です。\n\n【発音】Won（勝った）と同じ発音です。"
+    },
+    {
+      "type": "sort",
+      "question": "「2」を英語で綴ってください。",
+      "choices": ["w", "o", "T"],
+      "answer": "Two",
+      "explanation": "数字の2です。\n\n【豆知識】Twin（双子）やTwice（2回）など、Twで始まる単語には「2」に関連する意味が含まれることが多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "数字の「3」を英語で綴ると？\nTh(      )e",
+      "choices": [],
+      "answer": "re",
+      "explanation": "Threeです。\n\n【発音】thの音は舌を軽く噛んで息を出すため、日本人にとって最初の難関の一つです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "週の始まり「日曜日」は英語で？",
+      "choices": ["Sunday", "Monday", "Saturday", "Sunnyday"],
+      "answer": "Sunday",
+      "explanation": "太陽（Sun）の日という意味です。\n\n【文化・歴史】古代ローマや北欧神話の神々が曜日の名前の由来になっています。"
+    },
+    {
+      "type": "sort",
+      "question": "「月曜日」を英語で綴ってください。",
+      "choices": ["n", "o", "M", "d", "a", "y"],
+      "answer": "Monday",
+      "explanation": "Moon（月）の日という意味から来ています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「火曜日」は英語で？\nTu(      )day",
+      "choices": [],
+      "answer": "es",
+      "explanation": "Tuesdayです。\n\n【文化・歴史】北欧神話の軍神「Tiu（テュール）」の日が由来です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「水曜日」は英語で？",
+      "choices": ["Wednesday", "Wendsday", "Wenesday", "Wednesdey"],
+      "answer": "Wednesday",
+      "explanation": "綴りが難しい単語の代表格です。「d」は発音しません。\n\n【文化・歴史】北欧神話の主神「Woden（オーディン）」の日が由来です。"
+    },
+    {
+      "type": "sort",
+      "question": "「木曜日」を英語で綴ってください。",
+      "choices": ["u", "r", "s", "T", "h", "d", "a", "y"],
+      "answer": "Thursday",
+      "explanation": "雷神「Thor（トール）」の日が由来です。\n\n【発音】Tuesday（火曜）と聞き間違えやすいので注意が必要です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「金曜日」は英語で？\nFr(      )day",
+      "choices": [],
+      "answer": "i",
+      "explanation": "Fridayです。\n\n【文化】TGIF (Thank God It's Friday) という言葉があるほど、週末を待つ喜びを表す日です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「土曜日」は英語で？",
+      "choices": ["Saturday", "Sunday", "Saterday", "Sataday"],
+      "answer": "Saturday",
+      "explanation": "ローマ神話の農業の神「Saturn（サターン）」の日です。\n\n【文化】土曜の夜にパーティーなどを楽しむことをSaturday Night Feverと言ったりします。"
+    },
+    {
+      "type": "sort",
+      "question": "「赤色」を英語で綴ってください。",
+      "choices": ["e", "d", "R"],
+      "answer": "Red",
+      "explanation": "最も基本的な色の一つです。\n\n【実用】赤字（Red ink）や赤信号など、危険や停止を表す色として世界共通で使われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「青色」は英語で？\nBl(      )",
+      "choices": [],
+      "answer": "ue",
+      "explanation": "Blueです。\n\n【文化】I feel blue（憂鬱だ）のように、悲しみや落ち込んだ気分を表す色としても使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「黄色」は英語で？",
+      "choices": ["Yellow", "Yellows", "Yello", "Yerrow"],
+      "answer": "Yellow",
+      "explanation": "注意を促す色です。\n\n【文化】アメリカでは臆病者のことをYellowと呼ぶスラングがあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「緑色」を英語で綴ってください。",
+      "choices": ["r", "e", "e", "n", "G"],
+      "answer": "Green",
+      "explanation": "Greenです。\n\n【文化】エコや環境保護（Go Green）を象徴する色です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「黒色」は英語で？\nBla(      )",
+      "choices": [],
+      "answer": "ck",
+      "explanation": "Blackです。\n\n【実用】Black coffee（ブラックコーヒー）は砂糖やミルクを入れないコーヒーのことです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「白色」は英語で？",
+      "choices": ["White", "Wite", "Whight", "Wait"],
+      "answer": "White",
+      "explanation": "Whiteです。\n\n【文化】White lie（白い嘘）とは、相手を傷つけないための優しい嘘のことです。"
+    },
+    {
+      "type": "sort",
+      "question": "「母」を英語で綴ってください。",
+      "choices": ["t", "h", "e", "r", "M", "o"],
+      "answer": "Mother",
+      "explanation": "フォーマルな言い方です。\n\n【実用】日常会話ではMom（米）やMum（英）と呼ぶのが一般的です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「父」は英語で？\nFa(      )er",
+      "choices": [],
+      "answer": "th",
+      "explanation": "Fatherです。\n\n【実用】日常会話ではDadやDaddyと呼びます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「兄弟（男）」は英語で？",
+      "choices": ["Brother", "Sister", "Mother", "Friend"],
+      "answer": "Brother",
+      "explanation": "兄も弟もBrotherです。区別したいときはOlder brother（兄）、Younger brother（弟）と言います。"
+    },
+    {
+      "type": "sort",
+      "question": "「姉妹（女）」を英語で綴ってください。",
+      "choices": ["i", "s", "t", "e", "r", "S"],
+      "answer": "Sister",
+      "explanation": "姉も妹もSisterです。\n\n【文化】修道女（シスター）のことも指します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「友人」は英語で？\nFr(      )nd",
+      "choices": [],
+      "answer": "ie",
+      "explanation": "Friendです。「終わり（end）まで一緒にいるのが友人（fri-end）」という覚え方があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「先生」は英語で？",
+      "choices": ["Teacher", "Teachear", "Teecher", "Teachor"],
+      "answer": "Teacher",
+      "explanation": "Teach（教える）人（er）です。\n\n【文化】英語圏の学校では、先生を呼ぶ時にTeacher!とは言わず、Mr. Smithのように名前で呼ぶのが普通です。"
+    },
+    {
+      "type": "sort",
+      "question": "「学校」を英語で綴ってください。",
+      "choices": ["c", "h", "o", "o", "l", "S"],
+      "answer": "School",
+      "explanation": "Schoolです。\n\n【語源】ギリシャ語のSchole（暇、余暇）が語源です。昔は暇な人だけが学問をできたからです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「学生」は英語で？\nStu(      )nt",
+      "choices": [],
+      "answer": "de",
+      "explanation": "Studentです。\n\n【関連】Study（勉強する）から派生した言葉です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「机」は英語で？",
+      "choices": ["Desk", "Table", "Chair", "Board"],
+      "answer": "Desk",
+      "explanation": "勉強や仕事をするための引き出し付きの机をDesk、食事などをする台をTableと呼び分けます。"
+    },
+    {
+      "type": "sort",
+      "question": "「椅子」を英語で綴ってください。",
+      "choices": ["a", "i", "r", "C", "h"],
+      "answer": "Chair",
+      "explanation": "Chairです。\n\n【実用】Chairman（議長）は「椅子に座る人」という意味から来ています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「鉛筆」は英語で？\nPen(      )l",
+      "choices": [],
+      "answer": "ci",
+      "explanation": "Pencilです。\n\n【実用】試験などで「Please use a No.2 pencil」と言われたら、HBの鉛筆のことです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「消しゴム」は英語で？",
+      "choices": ["Eraser", "Rubber", "Delete", "Cleaner"],
+      "answer": "Eraser",
+      "explanation": "アメリカ英語ではEraserです。Erase（消す）もの（er）です。\n\n【文化】イギリス英語ではRubberと呼びます。"
+    },
+    {
+      "type": "sort",
+      "question": "「ノート」を英語で綴ってください。",
+      "choices": ["o", "t", "e", "b", "o", "o", "k", "N"],
+      "answer": "Notebook",
+      "explanation": "Notebookです。\n\n【注意】Noteだけだと「メモ書き」や「紙幣」という意味になることがあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「辞書」は英語で？\nDic(      )onary",
+      "choices": [],
+      "answer": "ti",
+      "explanation": "Dictionaryです。\n\n【実用】電子辞書はElectronic dictionaryと言います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「コンピューター」の正しい綴りは？",
+      "choices": ["Computer", "Conputer", "Computar", "Compueter"],
+      "answer": "Computer",
+      "explanation": "Compute（計算する）もの（er）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「リンゴ」を英語で綴ってください。",
+      "choices": ["p", "p", "l", "e", "A"],
+      "answer": "Apple",
+      "explanation": "Appleです。\n\n【文化】An apple a day keeps the doctor away（1日1個のリンゴは医者いらず）という諺があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「オレンジ」は英語で？\nOran(      )",
+      "choices": [],
+      "answer": "ge",
+      "explanation": "Orangeです。\n\n【豆知識】実は「オレンジ色」という言葉ができる前、オレンジ色はRed（赤）の一部として扱われていました。果物のオレンジが伝わってから色の名前になりました。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「バナナ」は英語で？",
+      "choices": ["Banana", "Bannana", "Bananna", "Bnana"],
+      "answer": "Banana",
+      "explanation": "Bananaです。\n\n【文化】Go bananasで「気が狂う、熱狂する」というスラングになります。"
+    },
+    {
+      "type": "sort",
+      "question": "「水」を英語で綴ってください。",
+      "choices": ["a", "t", "e", "r", "W"],
+      "answer": "Water",
+      "explanation": "Waterです。\n\n【実用】海外のレストランで水を頼むときは、Tap water（水道水＝無料）かMineral water（有料）かを区別する必要があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「牛乳」は英語で？\nMi(      )k",
+      "choices": [],
+      "answer": "l",
+      "explanation": "Milkです。\n\n【文化】豆乳はSoy milk、アーモンドミルクはAlmond milkと言います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「コーヒー」の正しい綴りは？",
+      "choices": ["Coffee", "Cofee", "Coffeee", "Koffee"],
+      "answer": "Coffee",
+      "explanation": "fとeが2つずつあるのがポイントです。"
+    },
+    {
+      "type": "sort",
+      "question": "「朝食」を英語で綴ってください。",
+      "choices": ["r", "e", "a", "k", "f", "a", "s", "t", "B"],
+      "answer": "Breakfast",
+      "explanation": "Break（破る）+ Fast（断食）。寝ている間の断食状態を破って最初に食べる食事、という意味です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「昼食」は英語で？\nLun(      )",
+      "choices": [],
+      "answer": "ch",
+      "explanation": "Lunchです。\n\n【文化】日本語の「ランチ」と同じ感覚で使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「夕食」は英語で？",
+      "choices": ["Dinner", "Diner", "Lunch", "Snack"],
+      "answer": "Dinner",
+      "explanation": "一日のメインの食事をDinnerと呼びます。\n\n【注意】Diner（nが1つ）だと、アメリカの食堂・レストランという意味になります。"
+    },
+    {
+      "type": "sort",
+      "question": "「家」を英語で綴ってください。",
+      "choices": ["o", "u", "s", "e", "H"],
+      "answer": "House",
+      "explanation": "建物としての家をHouse、家庭や帰る場所としての家をHomeと使い分けます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「部屋」は英語で？\nRo(      )m",
+      "choices": [],
+      "answer": "o",
+      "explanation": "Roomです。\n\n【実用】ホテルのSingle room（一人部屋）やDouble room（二人部屋）などで使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ドア」は英語で？",
+      "choices": ["Door", "Doar", "Dore", "Dorr"],
+      "answer": "Door",
+      "explanation": "Doorです。\n\n【実用】Outdoor（屋外）やIndoor（屋内）という言葉にも使われています。"
+    },
+    {
+      "type": "sort",
+      "question": "「窓」を英語で綴ってください。",
+      "choices": ["i", "n", "d", "o", "w", "W"],
+      "answer": "Window",
+      "explanation": "Windowです。\n\n【語源】Wind（風）のeye（目）＝風の通り穴、という意味が語源です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「台所」は英語で？\nKit(      )en",
+      "choices": [],
+      "answer": "ch",
+      "explanation": "Kitchenです。\n\n【実用】アパート探しの際、Kitchenetteとあれば簡易キッチン（ミニキッチン）のことです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「庭」は英語で？",
+      "choices": ["Garden", "Park", "Yard", "Field"],
+      "answer": "Garden",
+      "explanation": "花や植物が植えられている庭をGardenと言います。芝生だけの庭はYardと言うこともあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「花」を英語で綴ってください。",
+      "choices": ["l", "o", "w", "e", "r", "F"],
+      "answer": "Flower",
+      "explanation": "Flowerです。\n\n【発音】Flour（小麦粉）と全く同じ発音です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「木」は英語で？\nTr(      )",
+      "choices": [],
+      "answer": "ee",
+      "explanation": "Treeです。\n\n【発音】Three（3）と間違えないよう、舌を噛まずに発音します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「川」は英語で？",
+      "choices": ["River", "Sea", "Lake", "Pond"],
+      "answer": "River",
+      "explanation": "Riverです。\n\n【文化】Amazon River（アマゾン川）など、固有名詞の一部としてよく使われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「山」を英語で綴ってください。",
+      "choices": ["o", "u", "n", "t", "a", "i", "n", "M"],
+      "answer": "Mountain",
+      "explanation": "Mountainです。\n\n【実用】略してMt. Fuji（富士山）のように書きます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「雨」は英語で？\nRa(      )n",
+      "choices": [],
+      "answer": "i",
+      "explanation": "Rainです。\n\n【諺】Rain cats and dogsで「土砂降り」という意味になります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「雪」は英語で？",
+      "choices": ["Snow", "Snou", "Sno", "Snaw"],
+      "answer": "Snow",
+      "explanation": "Snowです。\n\n【文化】白雪姫はSnow Whiteと言います。"
+    },
+    {
+      "type": "sort",
+      "question": "「春」を英語で綴ってください。",
+      "choices": ["p", "r", "i", "n", "g", "S"],
+      "answer": "Spring",
+      "explanation": "Springです。\n\n【多義語】植物が芽吹く季節としての「春」の他、「バネ」「泉」「跳ねる」という意味もあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「夏」は英語で？\nSum(      )er",
+      "choices": [],
+      "answer": "m",
+      "explanation": "Summerです。\n\n【文化】サマータイム（夏時間）は英語でDaylight Saving Timeと言います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「秋」は英語で？",
+      "choices": ["Fall", "Winter", "Spring", "Hot"],
+      "answer": "Fall",
+      "explanation": "アメリカ英語では葉が落ちる（Fall）季節なのでFallと言います。イギリス英語ではAutumnを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「冬」を英語で綴ってください。",
+      "choices": ["i", "n", "t", "e", "r", "W"],
+      "answer": "Winter",
+      "explanation": "Winterです。\n\n【文化】Winter sports（スキーやスケート）でおなじみです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "数字の「4」は英語で？\nFo(      )r",
+      "choices": [],
+      "answer": "u",
+      "explanation": "Fourです。\n\n【発音】For（～のために）と同じ発音です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "数字の「5」は英語で？",
+      "choices": ["Five", "Fiv", "Hive", "Fife"],
+      "answer": "Five",
+      "explanation": "Fiveです。\n\n【注意】5番目（Fifth）や15（Fifteen）、50（Fifty）になるとvがfに変わります。"
+    },
+    {
+      "type": "sort",
+      "question": "「6」を英語で綴ってください。",
+      "choices": ["i", "x", "S"],
+      "answer": "Six",
+      "explanation": "Sixです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "数字の「7」は英語で？\nSe(      )en",
+      "choices": [],
+      "answer": "v",
+      "explanation": "Sevenです。\n\n【文化】Lucky sevenと言われるように、欧米でも幸運の数字とされることが多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "数字の「8」は英語で？",
+      "choices": ["Eight", "Eite", "Aight", "Eightt"],
+      "answer": "Eight",
+      "explanation": "ghは発音しません。\n\n【文化】横にすると∞（無限大）になりますが、英語でもInfinityと言います。"
+    },
+    {
+      "type": "sort",
+      "question": "「9」を英語で綴ってください。",
+      "choices": ["i", "n", "e", "N"],
+      "answer": "Nine",
+      "explanation": "Nineです。\n\n【注意】9番目になるときはeが消えてNinthになります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "数字の「10」は英語で？\nT(      )n",
+      "choices": [],
+      "answer": "e",
+      "explanation": "Tenです。\n\n【実用】Top 10ランキングなどでよく使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "数字の「11」は英語で？",
+      "choices": ["Eleven", "Onety-one", "Elevevn", "Ten-one"],
+      "answer": "Eleven",
+      "explanation": "Elevenです。12までは独自の単語を使います。\n\n【文化】セブン-イレブンは元々、朝7時から夜11時まで営業していたことに由来します。"
+    },
+    {
+      "type": "sort",
+      "question": "「12」を英語で綴ってください。",
+      "choices": ["w", "e", "l", "v", "e", "T"],
+      "answer": "Twelve",
+      "explanation": "Twelveです。\n\n【実用】1ダース（Dozen）は12個のことです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "数字の「20」は英語で？\nTw(      )ty",
+      "choices": [],
+      "answer": "en",
+      "explanation": "Twentyです。\n\n【発音】アメリカ英語では「トウェニィ」のように聞こえることが多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "数字の「100」は英語で？",
+      "choices": ["Hundred", "Thousand", "Million", "Billion"],
+      "answer": "Hundred",
+      "explanation": "One hundredです。0が2つ付きます。"
+    },
+    {
+      "type": "sort",
+      "question": "「少年」を英語で綴ってください。",
+      "choices": ["o", "y", "B"],
+      "answer": "Boy",
+      "explanation": "Boyです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「少女」は英語で？\nGi(      )l",
+      "choices": [],
+      "answer": "r",
+      "explanation": "Girlです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「医者」は英語で？",
+      "choices": ["Doctor", "Teacher", "Nurse", "Dentist"],
+      "answer": "Doctor",
+      "explanation": "Doctorです。\n\n【実用】博士号を持っている人のこともDoctorと呼びます。"
+    },
+    {
+      "type": "sort",
+      "question": "「警察官」を英語で綴ってください。",
+      "choices": ["o", "l", "i", "c", "e", "P"],
+      "answer": "Police",
+      "explanation": "Police officerが現代的で丁寧な言い方です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「1月」は英語で？\nJan(      )ary",
+      "choices": [],
+      "answer": "u",
+      "explanation": "Januaryです。\n\n【文化】ローマ神話の「Janus（ヤヌス）」という、過去と未来を見る2つの顔を持つ神が由来です。年の始まりにふさわしい名前です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「2月」は英語で？",
+      "choices": ["February", "Febuary", "Feburary", "Fabruary"],
+      "answer": "February",
+      "explanation": "Februaryです。「r」が2回入るのが綴りの注意点です。\n\n【文化】古代ローマの清めの儀式「Februa」が由来です。"
+    },
+    {
+      "type": "sort",
+      "question": "「3月」を英語で綴ってください。",
+      "choices": ["a", "r", "c", "h", "M"],
+      "answer": "March",
+      "explanation": "Marchです。\n\n【文化】軍神Mars（マルス）の月です。暖かくなり軍隊が動き出す時期だからと言われています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「4月」は英語で？\nApr(      )l",
+      "choices": [],
+      "answer": "i",
+      "explanation": "Aprilです。\n\n【文化】April Fool's Day（エイプリルフール）で有名です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「5月」は英語で？",
+      "choices": ["May", "Mai", "Mey", "Mei"],
+      "answer": "May",
+      "explanation": "Mayです。\n\n【実用】助動詞のmay（～かもしれない）と同じ綴りです。"
+    },
+    {
+      "type": "sort",
+      "question": "「6月」を英語で綴ってください。",
+      "choices": ["u", "n", "e", "J"],
+      "answer": "June",
+      "explanation": "Juneです。\n\n【文化】結婚の女神Junoの月なので、June bride（6月の花嫁）は幸せになれると言われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「7月」は英語で？\nJu(      )y",
+      "choices": [],
+      "answer": "l",
+      "explanation": "Julyです。\n\n【歴史】ローマの英雄ユリウス・カエサル（Julius Caesar）がこの月生まれだったことに由来します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「8月」は英語で？",
+      "choices": ["August", "Augast", "Agust", "Orgast"],
+      "answer": "August",
+      "explanation": "Augustです。\n\n【歴史】初代ローマ皇帝アウグストゥス（Augustus）の名前から付けられました。"
+    },
+    {
+      "type": "sort",
+      "question": "「9月」を英語で綴ってください。",
+      "choices": ["e", "p", "t", "e", "m", "b", "e", "r", "S"],
+      "answer": "September",
+      "explanation": "Septemberです。\n\n【語源】Septemはラテン語で「7」という意味です。昔のカレンダーでは7番目の月でした。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「10月」は英語で？\nOct(      )ber",
+      "choices": [],
+      "answer": "o",
+      "explanation": "Octoberです。\n\n【語源】Octoは「8」という意味（Octopus＝タコも足が8本）。昔は8番目の月でした。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「11月」は英語で？",
+      "choices": ["November", "Nobember", "Novemnber", "Novembar"],
+      "answer": "November",
+      "explanation": "Novemberです。\n\n【語源】Novemは「9」という意味です。"
+    },
+    {
+      "type": "sort",
+      "question": "「12月」を英語で綴ってください。",
+      "choices": ["e", "c", "e", "m", "b", "e", "r", "D"],
+      "answer": "December",
+      "explanation": "Decemberです。\n\n【語源】Decemは「10」という意味（Decade＝10年も同じ語源）。昔は10番目の月でした。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「誕生日」は英語で？\nBirth(      )ay",
+      "choices": [],
+      "answer": "d",
+      "explanation": "Birthdayです。\n\n【実用】Happy Birthday! は誰もが知るお祝いの言葉です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「おめでとう」は英語で？",
+      "choices": ["Congratulations", "Thank you", "Good job", "Hello"],
+      "answer": "Congratulations",
+      "explanation": "お祝いの言葉です。\n\n【実用】長いので、カジュアルなメールなどではCongrats!と略すことがあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「大きい」を英語で綴ってください。",
+      "choices": ["i", "g", "B"],
+      "answer": "Big",
+      "explanation": "Bigです。\n\n【対義語】反対はSmall（小さい）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「小さい」は英語で？\nSm(      )ll",
+      "choices": [],
+      "answer": "a",
+      "explanation": "Smallです。\n\n【実用】服のサイズ（Sサイズ）はSmallの略です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「長い」は英語で？",
+      "choices": ["Long", "Short", "High", "Tall"],
+      "answer": "Long",
+      "explanation": "Longです。\n\n【対義語】反対はShort（短い）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「新しい」を英語で綴ってください。",
+      "choices": ["e", "w", "N"],
+      "answer": "New",
+      "explanation": "Newです。\n\n【実用】News（ニュース）はNew（新しいこと）の複数形から来ています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「古い」は英語で？\nO(      )d",
+      "choices": [],
+      "answer": "l",
+      "explanation": "Oldです。\n\n【実用】How old are you?（何歳ですか？）と年齢を聞くときにも使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「幸せな」は英語で？",
+      "choices": ["Happy", "Sad", "Angry", "Tired"],
+      "answer": "Happy",
+      "explanation": "Happyです。\n\n【文化】Happy New Yearなど、行事の挨拶によく付きます。"
+    },
+    {
+      "type": "sort",
+      "question": "「悲しい」を英語で綴ってください。",
+      "choices": ["a", "d", "S"],
+      "answer": "Sad",
+      "explanation": "Sadです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「暑い」は英語で？\nH(      )t",
+      "choices": [],
+      "answer": "o",
+      "explanation": "Hotです。\n\n【実用】食べ物が「辛い」という意味でも使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「寒い」は英語で？",
+      "choices": ["Cold", "Cool", "Warm", "Hot"],
+      "answer": "Cold",
+      "explanation": "Coldです。\n\n【実用】I have a coldで「風邪をひいている」という意味になります。"
+    },
+    {
+      "type": "sort",
+      "question": "「好き」を英語で綴ってください。",
+      "choices": ["i", "k", "e", "L"],
+      "answer": "Like",
+      "explanation": "Likeです。\n\n【実用】SNSの「いいね！」ボタンは英語でLikeです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「食べる」は英語で？\nE(      )t",
+      "choices": [],
+      "answer": "a",
+      "explanation": "Eatです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「飲む」は英語で？",
+      "choices": ["Drink", "Eat", "Run", "Sleep"],
+      "answer": "Drink",
+      "explanation": "Drinkです。\n\n【実用】自動販売機で売っている飲み物をDrinkと呼びます。"
+    },
+    {
+      "type": "sort",
+      "question": "「走る」を英語で綴ってください。",
+      "choices": ["u", "n", "R"],
+      "answer": "Run",
+      "explanation": "Runです。\n\n【実用】Home run（ホームラン）は「本塁（Home）まで走る」ことです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「歩く」は英語で？\nWa(      )k",
+      "choices": [],
+      "answer": "l",
+      "explanation": "Walkです。\n\n【注意】lは発音せず「ウォーク」と読みます（Work「働く」と区別しましょう）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「行く」は英語で？",
+      "choices": ["Go", "Come", "Stop", "Stay"],
+      "answer": "Go",
+      "explanation": "Goです。\n\n【実用】Let's go!（さあ行こう！）は定番のフレーズです。"
+    },
+    {
+      "type": "sort",
+      "question": "「来る」を英語で綴ってください。",
+      "choices": ["o", "m", "e", "C"],
+      "answer": "Come",
+      "explanation": "Comeです。"
+    }
+  ]
+}

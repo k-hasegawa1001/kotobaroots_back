@@ -1,0 +1,468 @@
+{
+  "learning_topic": "間接疑問文",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "sort",
+      "question": "「私は彼が誰か知っています。」となるように並び替えてください。",
+      "choices": ["is", "he", "who", "know", "I"],
+      "answer": "Iknowwhoheis",
+      "explanation": "I know who he is. 疑問詞whoの後ろは「主語(he) + 動詞(is)」の語順になります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女がどこに住んでいるか知っていますか？」\nDo you know (      ) she lives?",
+      "choices": ["where", "what", "who", "when"],
+      "answer": "where",
+      "explanation": "「どこに」なのでwhereを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼がいつ来るかわかりません」\nI don't know (      ) he will come.",
+      "choices": [],
+      "answer": "when",
+      "explanation": "「いつ」なのでwhenを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「これが何か教えてください。」となるように並び替えてください。",
+      "choices": ["is", "what", "me", "this", "Tell"],
+      "answer": "Tellmewhatthisis",
+      "explanation": "Tell me what this is. 「What + 主語(this) + 動詞(is)」です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼が何歳か知りたい」\nI want to know (      ) old he is.",
+      "choices": ["how", "what", "where", "who"],
+      "answer": "how",
+      "explanation": "How old（何歳）という疑問詞の塊を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼がなぜ遅れたのか知っていますか？」となるように並び替えてください。",
+      "choices": ["late", "know", "why", "was", "he", "you", "Do"],
+      "answer": "Doyouknowwhyhewaslate",
+      "explanation": "Do you know why he was late? 「Why + 主語(he) + 動詞(was)」です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼がどこに行ったか知っています」\nI know (      ) he went.",
+      "choices": [],
+      "answer": "where",
+      "explanation": "Where he went（彼がどこへ行ったか）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼が何を欲しがっているのかわかりません」\nI don't know what (      ).",
+      "choices": ["he wants", "does he want", "wants he", "he want"],
+      "answer": "he wants",
+      "explanation": "肯定文の語順「主語(he) + 動詞(wants)」にします。Doesは使いません。"
+    },
+    {
+      "type": "sort",
+      "question": "「今何時か知っていますか？」となるように並び替えてください。",
+      "choices": ["it", "know", "is", "time", "you", "Do", "what"],
+      "answer": "Doyouknowwhattimeitis",
+      "explanation": "Do you know what time it is? What time it isの語順に注意です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼が誰か知りません」\nI don't know (      ) he is.",
+      "choices": [],
+      "answer": "who",
+      "explanation": "Who he is（彼が誰か）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼が来るかどうか知っていますか？」\nDo you know (      ) he will come?",
+      "choices": ["if", "what", "where", "who"],
+      "answer": "if",
+      "explanation": "Yes/Noで答える内容を間接疑問文にする時は、if（またはwhether）を使って「～かどうか」とします。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼がそれをどうやって作ったのか不思議です。」となるように並び替えてください。",
+      "choices": ["it", "he", "made", "how", "wonder", "I"],
+      "answer": "Iwonderhowhemadeit",
+      "explanation": "I wonder how he made it. I wonder...（～かなあと思う/不思議に思う）は間接疑問文とよく一緒に使われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「駅がどこにあるか教えてください」\nPlease tell me (      ) the station is.",
+      "choices": [],
+      "answer": "where",
+      "explanation": "Where the station is（駅がどこにあるか）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼が何のスポーツが好きか知っています」\nI know (      ) sport he likes.",
+      "choices": ["what", "how", "where", "who"],
+      "answer": "what",
+      "explanation": "What sport（何のスポーツ）をまとめて文頭に置きます。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰がその窓を割ったのか知っていますか？」となるように並び替えてください。",
+      "choices": ["window", "know", "broke", "who", "the", "Do", "you"],
+      "answer": "Doyouknowwhobrokethewindow",
+      "explanation": "Do you know who broke the window? 疑問詞who自体が主語の場合、語順は変わりません（Who + 動詞）。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼が家にいるかどうかわかりません」\nI don't know (      ) he is at home.",
+      "choices": [],
+      "answer": "if",
+      "explanation": "If he is at home（彼が家にいるかどうか）。Whetherでも可。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それがいつ始まったか教えて」\nTell me when (      ).",
+      "choices": ["it started", "did it start", "started it", "does it start"],
+      "answer": "it started",
+      "explanation": "「主語(it) + 動詞(started)」の語順です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼が何を言ったか忘れました。」となるように並び替えてください。",
+      "choices": ["forgot", "said", "he", "what", "I"],
+      "answer": "Iforgotwhathesaid",
+      "explanation": "I forgot what he said. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「どのバスに乗ればいいか教えてください」\nPlease tell me (      ) bus I should take.",
+      "choices": [],
+      "answer": "which",
+      "explanation": "Which bus（どのバス）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼がどこ出身か知りたい」\nI want to know where (      ).",
+      "choices": ["he is from", "is he from", "he from is", "from he is"],
+      "answer": "he is from",
+      "explanation": "Where he is from（彼がどこ出身か）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼が結婚しているかどうか知っていますか？」となるように並び替えてください。",
+      "choices": ["married", "is", "he", "if", "know", "you", "Do"],
+      "answer": "Doyouknowifheismarried",
+      "explanation": "Do you know if he is married? 「～かどうか」のifです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「なぜ彼が怒っているのか理解できない」\nI can't understand (      ) he is angry.",
+      "choices": [],
+      "answer": "why",
+      "explanation": "Why he is angry（なぜ彼が怒っているのか）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼が何を買ったのか見ていません」\nI didn't see (      ).",
+      "choices": ["what he bought", "what did he buy", "what bought he", "he bought what"],
+      "answer": "what he bought",
+      "explanation": "What he bought（彼が何を買ったのか）。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰がその絵を描いたのか私に教えて。」となるように並び替えてください。",
+      "choices": ["picture", "painted", "me", "who", "the", "Tell"],
+      "answer": "Tellmewhopaintedthepicture",
+      "explanation": "Tell me who painted the picture. Whoが主語のパターンです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「明日晴れるかどうか不思議だ」\nI wonder (      ) it will be sunny tomorrow.",
+      "choices": [],
+      "answer": "if",
+      "explanation": "I wonder if...（～かなあ/～かどうか）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼がいつ来るか知っています」\nI know (      ) he will come.",
+      "choices": ["when", "where", "what", "who"],
+      "answer": "when",
+      "explanation": "「いつ」なのでwhenです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はそれをどうやって使うのか知りません。」となるように並び替えてください。",
+      "choices": ["use", "I", "how", "know", "it", "to", "don't"],
+      "answer": "Idon'tknowhowtouseit",
+      "explanation": "I don't know how to use it. 「疑問詞 + to不定詞」も間接疑問文の一種として扱われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その本が誰のものか知っていますか？」\nDo you know (      ) book this is?",
+      "choices": [],
+      "answer": "whose",
+      "explanation": "Whose book（誰の本）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女が何を必要としているか知っていますか？」\nDo you know what (      )?",
+      "choices": ["she needs", "does she need", "needs she", "she need"],
+      "answer": "she needs",
+      "explanation": "What she needs. 肯定文の語順で、三単現のsを忘れないようにします。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女がなぜ泣いているのか私に教えて。」となるように並び替えてください。",
+      "choices": ["is", "why", "me", "crying", "she", "Tell"],
+      "answer": "Tellmewhysheiscrying",
+      "explanation": "Tell me why she is crying. Why + S(she) + V(is crying) です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼らがどこに行ったのか不思議です」\nI wonder (      ) they went.",
+      "choices": [],
+      "answer": "where",
+      "explanation": "Where they went（どこへ行ったのか）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「何が起きたのか私に教えて」\nTell me (      ).",
+      "choices": ["what happened", "what did happen", "what happen", "happened what"],
+      "answer": "what happened",
+      "explanation": "Whatが主語の場合、語順は変わりません（What + 動詞）。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼が正しいかどうか確信がありません。」となるように並び替えてください。",
+      "choices": ["if", "not", "is", "sure", "I", "right", "am", "he"],
+      "answer": "Iamnotsureifheisright",
+      "explanation": "I am not sure if he is right. I am not sure if...（～かどうかわからない）という慣用表現です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はそれをどこで見つけたか忘れました」\nI forgot (      ) I found it.",
+      "choices": [],
+      "answer": "where",
+      "explanation": "Where I found it（どこで見つけたか）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「どのチームが勝つと思いますか？」\n(      ) team do you think will win?",
+      "choices": ["Which", "What", "Who", "Where"],
+      "answer": "Which",
+      "explanation": "これは連鎖疑問文と呼ばれる形ですが、間接疑問文の応用です。Do you thinkが挿入されています。Which team will win?が元です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼が何をしているか知りたい。」となるように並び替えてください。",
+      "choices": ["know", "doing", "is", "he", "what", "to", "want", "I"],
+      "answer": "Iwanttoknowwhatheisdoing",
+      "explanation": "I want to know what he is doing. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼が誰と話しているのか知りません」\nI don't know (      ) he is talking to.",
+      "choices": [],
+      "answer": "who",
+      "explanation": "Who he is talking to. Whomでも可ですが、口語ではWhoが一般的です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼がいつ出発するか知っていますか？」\nDo you know when (      )?",
+      "choices": ["he will start", "will he start", "he start", "starts he"],
+      "answer": "he will start",
+      "explanation": "When he will start. 未来のことなのでwillを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「これが何なのか見てみよう。」となるように並び替えてください。",
+      "choices": ["what", "see", "is", "Let's", "this"],
+      "answer": "Let'sseewhatthisis",
+      "explanation": "Let's see what this is. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はどうすればいいのかわかりません」\nI don't know (      ) to do.",
+      "choices": [],
+      "answer": "what",
+      "explanation": "What to do（何をすべきか＝どうすればいいか）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「誰がそのケーキを食べたのかわかりません」\nI don't know (      ) ate the cake.",
+      "choices": ["who", "what", "which", "whom"],
+      "answer": "who",
+      "explanation": "Who ate the cake（誰が食べたのか）。Whoが主語です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女がどこに住んでいるか知っていますか？」となるように並び替えてください。",
+      "choices": ["lives", "she", "know", "where", "you", "Do"],
+      "answer": "Doyouknowwhereshelives",
+      "explanation": "Do you know where she lives? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それが本当かどうか疑わしい」\nI doubt (      ) it is true.",
+      "choices": [],
+      "answer": "if",
+      "explanation": "I doubt if...（～かどうか疑う）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「どんな種類の音楽が好きか教えて」\nTell me (      ) kind of music you like.",
+      "choices": ["what", "how", "where", "who"],
+      "answer": "what",
+      "explanation": "What kind of music（どんな種類の音楽）。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼がいつ来るのか不思議です。」となるように並び替えてください。",
+      "choices": ["come", "will", "wonder", "he", "when", "I"],
+      "answer": "Iwonderwhenhewillcome",
+      "explanation": "I wonder when he will come. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「どれがあなたのものか知っていますか？」\nDo you know (      ) is yours?",
+      "choices": [],
+      "answer": "which",
+      "explanation": "Which is yours（どれがあなたのものか）。Whichが主語です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「どうやってそこへ行くか教えてください」\nPlease tell me (      ) I can get there.",
+      "choices": ["how", "what", "where", "who"],
+      "answer": "how",
+      "explanation": "How I can get there（どうやってそこへ行けるか）。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼が試験に合格するかどうかわかりません。」となるように並び替えてください。",
+      "choices": ["know", "exam", "pass", "if", "don't", "he", "I", "will", "the"],
+      "answer": "Idon'tknowifhewillpasstheexam",
+      "explanation": "I don't know if he will pass the exam. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女が何歳か知っていますか？」\nDo you know (      ) old she is?",
+      "choices": [],
+      "answer": "how",
+      "explanation": "How old she is. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼がなぜそう言ったのか理解しました」\nI understood (      ) he said so.",
+      "choices": ["why", "what", "how", "where"],
+      "answer": "why",
+      "explanation": "Why he said so（なぜ彼がそう言ったのか）。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はあなたたちが何を話しているのかわかりません。」となるように並び替えてください。",
+      "choices": ["talking", "know", "you", "about", "are", "what", "don't", "I"],
+      "answer": "Idon'tknowwhatyouaretalkingabout",
+      "explanation": "I don't know what you are talking about. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はそれがいくらか尋ねました」\nHe asked (      ) much it was.",
+      "choices": [],
+      "answer": "how",
+      "explanation": "How much it was（それがいくらか）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「問題は誰がそれをするかだ」\nThe problem is (      ) will do it.",
+      "choices": ["who", "what", "which", "whom"],
+      "answer": "who",
+      "explanation": "Who will do it（誰がそれをするか）。Whoが主語です。"
+    },
+    {
+      "type": "sort",
+      "question": "「その店がいつ開くか知っていますか？」となるように並び替えてください。",
+      "choices": ["shop", "opens", "when", "know", "you", "Do", "the"],
+      "answer": "Doyouknowwhentheshopopens",
+      "explanation": "Do you know when the shop opens? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はどこへ行けばいいかわかりません」\nI don't know (      ) to go.",
+      "choices": [],
+      "answer": "where",
+      "explanation": "Where to go（どこへ行くべきか）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼が成功するかどうかは彼次第だ」\n(      ) he succeeds depends on him.",
+      "choices": ["Whether", "If", "What", "Who"],
+      "answer": "Whether",
+      "explanation": "文頭（主語）で「～かどうか」を作る場合はIfではなくWhetherを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「なぜ空が青いのか知っていますか？」となるように並び替えてください。",
+      "choices": ["blue", "sky", "is", "why", "the", "know", "Do", "you"],
+      "answer": "Doyouknowwhytheskyisblue",
+      "explanation": "Do you know why the sky is blue? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼が何と言っているのか聞こえません」\nI can't hear (      ) he is saying.",
+      "choices": [],
+      "answer": "what",
+      "explanation": "What he is saying（彼が何と言っているか）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はそれをいつ買ったか覚えていません」\nI don't remember (      ) I bought it.",
+      "choices": ["when", "where", "what", "who"],
+      "answer": "when",
+      "explanation": "When I bought it（いつ買ったか）。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はどうやってこの問題を解くかわかりません。」となるように並び替えてください。",
+      "choices": ["solve", "how", "problem", "know", "to", "this", "don't", "I"],
+      "answer": "Idon'tknowhowtosolvethisproblem",
+      "explanation": "I don't know how to solve this problem. How to ～（～のやり方）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼が誰だか知っていますか？」\nDo you know (      ) he is?",
+      "choices": [],
+      "answer": "who",
+      "explanation": "Who he is. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼がコーヒーが好きかどうか知りたい」\nI want to know (      ) he likes coffee.",
+      "choices": ["if", "what", "where", "who"],
+      "answer": "if",
+      "explanation": "If he likes coffee（彼がコーヒーが好きかどうか）。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はどのバスに乗るべきかわかりません。」となるように並び替えてください。",
+      "choices": ["bus", "should", "know", "don't", "which", "take", "I", "I"],
+      "answer": "Idon'tknowwhichbusIshouldtake",
+      "explanation": "I don't know which bus I should take. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちはどこに泊まるか決めなければなりません」\nWe must decide (      ) to stay.",
+      "choices": [],
+      "answer": "where",
+      "explanation": "Where to stay（どこに泊まるべきか）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼が来るかどうかわかりません」\nI'm not sure (      ) he will come or not.",
+      "choices": ["whether", "what", "where", "who"],
+      "answer": "whether",
+      "explanation": "Whether ... or not（～かどうか）の形です（ifでも可）。"
+    },
+    {
+      "type": "sort",
+      "question": "「郵便局がどこにあるか教えてくれませんか？」となるように並び替えてください。",
+      "choices": ["is", "me", "office", "post", "where", "tell", "you", "the", "Could"],
+      "answer": "Couldyoutellmewherethepostofficeis",
+      "explanation": "Could you tell me where the post office is? 丁寧な聞き方です。"
+    }
+  ]
+}

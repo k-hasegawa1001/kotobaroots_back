@@ -1,0 +1,503 @@
+{
+  "learning_topic": "存在構文(There is/are)",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「テーブルの上に本があります」\nThere (      ) a book on the table.",
+      "choices": ["is", "are", "have", "be"],
+      "answer": "is",
+      "explanation": "後ろの名詞が「a book（単数）」なのでisを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「公園にたくさんの子供たちがいます。」となるように並び替えてください。",
+      "choices": ["children", "are", "park", "There", "many", "in", "the"],
+      "answer": "Therearemanychildreninthepark",
+      "explanation": "There are many children in the park. Children（複数）なのでareです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「冷蔵庫の中に卵はありますか？」\n(      ) there any eggs in the fridge?",
+      "choices": [],
+      "answer": "Are",
+      "explanation": "Eggs（複数）なのでAreで始めます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「部屋には誰もいません」\nThere (      ) no one in the room.",
+      "choices": ["is", "are", "isn't", "aren't"],
+      "answer": "is",
+      "explanation": "No one（誰も～ない）は単数扱いなのでisを使います。「is no one」で「いない」という意味になります。"
+    },
+    {
+      "type": "sort",
+      "question": "「壁に絵がかかっています。」となるように並び替えてください。",
+      "choices": ["picture", "wall", "is", "a", "on", "There", "the"],
+      "answer": "Thereisapictureonthewall",
+      "explanation": "There is a picture on the wall. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私の学校の近くに古い寺があります」\nThere (      ) an old temple near my school.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "An old temple（単数）なのでisです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「箱の中には何もありませんでした」\nThere (      ) nothing in the box.",
+      "choices": ["was", "were", "is", "are"],
+      "answer": "was",
+      "explanation": "過去のことなのでwasを使います。Nothingは単数扱いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「一週間は7日です（一週間には7日あります）。」となるように並び替えてください。",
+      "choices": ["days", "week", "seven", "There", "in", "are", "a"],
+      "answer": "Therearesevendaysinaweek",
+      "explanation": "There are seven days in a week. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「コップの中に水は少しもありません」\nThere isn't (      ) water in the cup.",
+      "choices": [],
+      "answer": "any",
+      "explanation": "否定文で「少しも～ない」という時はanyを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その木の下に猫が2匹います」\n(      ) two cats under the tree.",
+      "choices": ["There are", "There is", "There have", "There be"],
+      "answer": "There are",
+      "explanation": "Two cats（複数）なのでThere areです。"
+    },
+    {
+      "type": "sort",
+      "question": "「日本にはいくつの季節がありますか？」となるように並び替えてください。",
+      "choices": ["seasons", "Japan", "many", "How", "are", "in", "there"],
+      "answer": "HowmanyseasonsarethereinJapan",
+      "explanation": "How many seasons are there in Japan? 数を聞く疑問文の語順です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「庭に大きな木がありました」\nThere (      ) a big tree in the garden.",
+      "choices": [],
+      "answer": "was",
+      "explanation": "過去のこと（ありました）で単数なのでwasです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「図書館に生徒はいませんでした」\nThere (      ) no students in the library.",
+      "choices": ["were", "was", "aren't", "isn't"],
+      "answer": "were",
+      "explanation": "Students（複数）で過去のことなのでwereを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「この近くに郵便局はありますか？」となるように並び替えてください。",
+      "choices": ["office", "post", "Is", "near", "there", "a", "here"],
+      "answer": "Isthereapostofficenearhere",
+      "explanation": "Is there a post office near here? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「空にはたくさんの星があります」\nThere (      ) a lot of stars in the sky.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "Stars（複数）なのでareです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「間違いがいくつかあります」\nThere are (      ) mistakes.",
+      "choices": ["some", "any", "much", "little"],
+      "answer": "some",
+      "explanation": "肯定文で「いくつか」という時はsomeを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたのクラスには何人の生徒がいますか？」となるように並び替えてください。",
+      "choices": ["students", "class", "How", "many", "in", "are", "there", "your"],
+      "answer": "Howmanystudentsarethereinyourclass",
+      "explanation": "How many students are there in your class? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「バス停にたくさんの人がいました」\nThere (      ) a lot of people at the bus stop.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "People（人々）は複数扱いなので、過去形はwereです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「質問はありますか？」\n(      ) there any questions?",
+      "choices": ["Are", "Is", "Do", "Have"],
+      "answer": "Are",
+      "explanation": "Questions（複数）なのでAreです。"
+    },
+    {
+      "type": "sort",
+      "question": "「空には雲一つありません。」となるように並び替えてください。",
+      "choices": ["clouds", "sky", "any", "There", "aren't", "in", "the"],
+      "answer": "Therearen'tanycloudsinthesky",
+      "explanation": "There aren't any clouds in the sky. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「机の上にペンが1本あります」\nThere (      ) a pen on the desk.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "A pen（単数）なのでisです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「昔、あるところに正直な男がいました」\nOnce upon a time, there (      ) an honest man.",
+      "choices": ["was", "is", "were", "lived"],
+      "answer": "was",
+      "explanation": "昔話の決まり文句です。An honest man（単数）なのでwasです（Livedも使えますが、There構文としてはwasが基本です）。"
+    },
+    {
+      "type": "sort",
+      "question": "「テレビで何か面白い番組はありますか？」となるように並び替えてください。",
+      "choices": ["TV", "interesting", "anything", "Is", "there", "on"],
+      "answer": "IsthereanythinginterestingonTV",
+      "explanation": "Is there anything interesting on TV? Anything interestingの語順に注意です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「冷蔵庫には食べ物が何もありません」\nThere is (      ) food in the fridge.",
+      "choices": [],
+      "answer": "no",
+      "explanation": "There is no... で「何もない」を表します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この町にはコンビニがたくさんあります」\nThere (      ) many convenience stores in this town.",
+      "choices": ["are", "is", "have", "be"],
+      "answer": "are",
+      "explanation": "Stores（複数）なのでareです。"
+    },
+    {
+      "type": "sort",
+      "question": "「その部屋には3人の男の子がいます。」となるように並び替えてください。",
+      "choices": ["boys", "room", "three", "There", "are", "in", "the"],
+      "answer": "Therearethreeboysintheroom",
+      "explanation": "There are three boys in the room. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「昨日、ここで事故がありました」\nThere (      ) an accident here yesterday.",
+      "choices": [],
+      "answer": "was",
+      "explanation": "An accident（単数）で過去のことなのでwasです。「（出来事が）あった」という意味でも使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「何か問題はありますか？」\nIs there (      ) problem?",
+      "choices": ["any", "some", "many", "no"],
+      "answer": "any",
+      "explanation": "疑問文ではanyを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あそこに犬はいません。」となるように並び替えてください。",
+      "choices": ["dog", "isn't", "There", "a", "over", "there"],
+      "answer": "Thereisn'tadogoverthere",
+      "explanation": "There isn't a dog over there. 文頭のThere（そこへ）と文末のthere（あそこで）は役割が違います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたの家族は何人ですか？」\nHow many people (      ) there in your family?",
+      "choices": [],
+      "answer": "are",
+      "explanation": "People（人々）は複数扱いなのでareです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この近くに駅はありますか？」\n(      ) there a station near here?",
+      "choices": ["Is", "Are", "Was", "Were"],
+      "answer": "Is",
+      "explanation": "A station（単数）なのでIsです。"
+    },
+    {
+      "type": "sort",
+      "question": "「テーブルの下に猫がいました。」となるように並び替えてください。",
+      "choices": ["cat", "table", "was", "under", "a", "There", "the"],
+      "answer": "Therewasacatunderthetable",
+      "explanation": "There was a cat under the table. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ここにあなたのための手紙があります」\nThere (      ) a letter for you.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "A letter（単数）なのでisです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その木には葉が一枚もありません」\nThere are (      ) leaves on the tree.",
+      "choices": ["no", "not", "any", "some"],
+      "answer": "no",
+      "explanation": "There are no leaves... で「葉が一枚もない」を表します。"
+    },
+    {
+      "type": "sort",
+      "question": "「池に魚はいますか？」となるように並び替えてください。",
+      "choices": ["fish", "pond", "Are", "any", "there", "in", "the"],
+      "answer": "Arethereanyfishinthepond",
+      "explanation": "Are there any fish in the pond? Fishは単複同形ですが、anyがついているので複数扱いとしてAreを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私の部屋には窓が2つあります」\nThere (      ) two windows in my room.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "Two windows（複数）なのでareです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「そこに行くのにバスはありますか？」\n(      ) there a bus to get there?",
+      "choices": ["Is", "Are", "Does", "Has"],
+      "answer": "Is",
+      "explanation": "A bus（単数）なのでIsです。"
+    },
+    {
+      "type": "sort",
+      "question": "「今年は雪があまり降りませんでした（雪があまりありませんでした）。」となるように並び替えてください。",
+      "choices": ["snow", "wasn't", "much", "There", "year", "this"],
+      "answer": "Therewasn'tmuchsnowthisyear",
+      "explanation": "There wasn't much snow this year. Snowは数えられない名詞なのでwasn't（単数扱い）とmuchを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「この本には美しい写真がたくさんあります」\nThere (      ) many beautiful pictures in this book.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "Pictures（複数）なのでareです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「コップに水が入っています」\nThere is (      ) water in the cup.",
+      "choices": ["some", "any", "many", "few"],
+      "answer": "some",
+      "explanation": "水（数えられない名詞）が「いくらかある」場合はsomeを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「このクラスに男の子は何人いますか？」となるように並び替えてください。",
+      "choices": ["boys", "class", "many", "this", "How", "are", "in", "there"],
+      "answer": "Howmanyboysarethereinthisclass",
+      "explanation": "How many boys are there in this class? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「するべきことはたくさんあります」\nThere are a lot of things to (      ).",
+      "choices": [],
+      "answer": "do",
+      "explanation": "Things to do（すべきこと）。不定詞の形容詞的用法との組み合わせです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この通りには店がほとんどありません」\nThere are (      ) shops on this street.",
+      "choices": ["few", "little", "much", "a lot"],
+      "answer": "few",
+      "explanation": "Few（ほとんどない：数えられる名詞用）を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「公園には誰もいませんでした。」となるように並び替えてください。",
+      "choices": ["one", "no", "park", "was", "There", "the", "in"],
+      "answer": "Therewasnooneinthepark",
+      "explanation": "There was no one in the park. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「そのチームには11人の選手がいます」\nThere (      ) eleven players on the team.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "Players（複数）なのでareです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「昨夜は月が出ていませんでした」\nThere (      ) no moon last night.",
+      "choices": ["was", "were", "is", "are"],
+      "answer": "was",
+      "explanation": "Moon（単数）で過去なのでwasです。"
+    },
+    {
+      "type": "sort",
+      "question": "「何か冷たい飲み物はありますか？」となるように並び替えてください。",
+      "choices": ["drinks", "cold", "any", "Are", "there"],
+      "answer": "Arethereanycolddrinks",
+      "explanation": "Are there any cold drinks? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その部屋には椅子がいくつかありました」\nThere (      ) some chairs in the room.",
+      "choices": [],
+      "answer": "were",
+      "explanation": "Chairs（複数）で過去なのでwereです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「間違いはありません」\nThere (      ) no mistakes.",
+      "choices": ["are", "is", "have", "be"],
+      "answer": "are",
+      "explanation": "Mistakes（複数）なのでareです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたの学校には図書館がありますか？」となるように並び替えてください。",
+      "choices": ["library", "school", "Is", "a", "your", "in", "there"],
+      "answer": "Istherealibraryinyourschool",
+      "explanation": "Is there a library in your school? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ここから駅までは長い道のりです（遠いです）」\nIt is a long way from here to the station. （※There構文ではないが、距離を表すItとの対比）\nThere (      ) a long way to go.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "There is a long way to go.（行くべき長い道のりがある）という表現です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この近くに本屋はありますか？」\nAre there (      ) bookstores near here?",
+      "choices": ["any", "some", "much", "little"],
+      "answer": "any",
+      "explanation": "疑問文なのでanyを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「空にたくさんの鳥がいました。」となるように並び替えてください。",
+      "choices": ["birds", "sky", "were", "There", "many", "in", "the"],
+      "answer": "Thereweremanybirdsinthesky",
+      "explanation": "There were many birds in the sky. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「日本にはたくさんの火山があります」\nThere (      ) many volcanoes in Japan.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "Volcanoes（複数）なのでareです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「言うべきことはもう何もありません」\nThere is (      ) more to say.",
+      "choices": ["nothing", "anything", "something", "everything"],
+      "answer": "nothing",
+      "explanation": "There is nothing...（何もない）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「バスにはたくさんの乗客がいました。」となるように並び替えてください。",
+      "choices": ["passengers", "bus", "were", "There", "many", "on", "the"],
+      "answer": "Thereweremanypassengersonthebus",
+      "explanation": "There were many passengers on the bus. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「今夜は良い映画があります」\nThere (      ) a good movie on TV tonight.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "A good movie（単数）なのでisです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「そのかごの中にはリンゴが3つあります」\n(      ) three apples in the basket.",
+      "choices": ["There are", "There is", "They are", "It is"],
+      "answer": "There are",
+      "explanation": "「～がある」はThere is/areを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたの町には美術館がありますか？」となるように並び替えてください。",
+      "choices": ["museum", "town", "Is", "a", "your", "in", "there"],
+      "answer": "Isthereamuseuminyourtown",
+      "explanation": "Is there a museum in your town? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「机の下に何もありません」\nThere (      ) nothing under the desk.",
+      "choices": [],
+      "answer": "is",
+      "explanation": "Nothingは単数扱いなのでisです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この階にトイレはありますか？」\nIs there a restroom on this (      )?",
+      "choices": ["floor", "ground", "step", "stage"],
+      "answer": "floor",
+      "explanation": "On this floor（この階に）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「カレンダーに予定は何もありません。」となるように並び替えてください。",
+      "choices": ["plans", "calendar", "There", "no", "on", "are", "the"],
+      "answer": "Therearenoplansonthecalendar",
+      "explanation": "There are no plans on the calendar. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「この問題には3つの答えがあります」\nThere (      ) three answers to this question.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "Three answers（複数）なのでareです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その部屋には古い家具がいくつかありました」\nThere (      ) some old furniture in the room.",
+      "choices": ["was", "were", "is", "are"],
+      "answer": "was",
+      "explanation": "Furniture（家具）は英語では数えられない名詞（単数扱い）なので、過去形はwasになります。これは間違いやすいポイントです。"
+    },
+    {
+      "type": "sort",
+      "question": "「ここから学校まで3キロあります。」となるように並び替えてください。",
+      "choices": ["kilometers", "school", "three", "It", "is", "to", "from", "here"],
+      "answer": "Itisthreekilometersfromheretoschool",
+      "explanation": "It is three kilometers... 距離を表す時はThere isではなくIt isを使います（There is/areとの混同に注意）。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「空には星が一つもありません」\nThere aren't (      ) stars in the sky.",
+      "choices": [],
+      "answer": "any",
+      "explanation": "否定文（aren't）なのでanyを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちの学校にはプールがありません」\nThere (      ) a pool in our school.",
+      "choices": ["isn't", "aren't", "wasn't", "weren't"],
+      "answer": "isn't",
+      "explanation": "A pool（単数）なのでisn'tです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたのポケットに何か入っていますか？」となるように並び替えてください。",
+      "choices": ["in", "pocket", "anything", "Is", "there", "your"],
+      "answer": "Isthereanythinginyourpocket",
+      "explanation": "Is there anything in your pocket? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「そこへ行くためのバスがあります」\nThere is a bus (      ) go there.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Bus to go（行くためのバス）。不定詞の形容詞的用法との組み合わせです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「北海道には多くのスキー場があります」\nThere (      ) many ski resorts in Hokkaido.",
+      "choices": ["are", "is", "have", "has"],
+      "answer": "are",
+      "explanation": "Resorts（複数）なのでareです。"
+    },
+    {
+      "type": "sort",
+      "question": "「世界にはたくさんの国があります。」となるように並び替えてください。",
+      "choices": ["countries", "world", "many", "There", "in", "are", "the"],
+      "answer": "Therearemanycountriesintheworld",
+      "explanation": "There are many countries in the world. です。"
+    }
+  ]
+}

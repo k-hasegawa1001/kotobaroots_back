@@ -1,0 +1,524 @@
+{
+  "learning_topic": "分詞",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「私は走っている犬を見ました」\nI saw a (      ) dog.",
+      "choices": ["running", "run", "ran", "runs"],
+      "answer": "running",
+      "explanation": "「走っている（～している）」なので現在分詞runningを使います。名詞の前から修飾します。"
+    },
+    {
+      "type": "sort",
+      "question": "「あそこで眠っている赤ちゃんは私の妹です。」となるように並び替えてください。",
+      "choices": ["sleeping", "baby", "The", "there", "is", "sister", "my"],
+      "answer": "Thebabysleepingthereismysister",
+      "explanation": "The baby sleeping there... 「あそこで眠っている赤ちゃん」と後ろから詳しく説明します（後置修飾）。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これは壊れた時計です」\nThis is a (      ) watch.",
+      "choices": [],
+      "answer": "broken",
+      "explanation": "「壊された＝壊れた」という受動の意味なので過去分詞brokenを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「こちらは夏目漱石によって書かれた本です」\nThis is a book (      ) by Soseki Natsume.",
+      "choices": ["written", "write", "writing", "wrote"],
+      "answer": "written",
+      "explanation": "「書かれた（～された）」なので過去分詞writtenを使います。Bookの後ろから修飾します。"
+    },
+    {
+      "type": "sort",
+      "question": "「ステージで歌っている少女を知っていますか？」となるように並び替えてください。",
+      "choices": ["girl", "Do", "singing", "know", "the", "you", "stage", "on", "the"],
+      "answer": "Doyouknowthegirlsingingonthestage",
+      "explanation": "Do you know the girl singing on the stage? The girlをsinging...が後ろから修飾しています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はゆで卵が好きです」\nHe likes (      ) eggs.",
+      "choices": [],
+      "answer": "boiled",
+      "explanation": "Boiled eggs（ゆでられた卵）。過去分詞が前から名詞を修飾します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「向こうでテニスをしている少年はケンです」\nThe boy (      ) tennis over there is Ken.",
+      "choices": ["playing", "play", "played", "plays"],
+      "answer": "playing",
+      "explanation": "「テニスをしている」少年なのでplayingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「これは英語で書かれた手紙です。」となるように並び替えてください。",
+      "choices": ["letter", "This", "written", "is", "English", "a", "in"],
+      "answer": "ThisisaletterwritteninEnglish",
+      "explanation": "This is a letter written in English. Letterをwritten in Englishが後ろから修飾します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は空飛ぶ鳥を見ました」\nI saw a (      ) bird.",
+      "choices": [],
+      "answer": "flying",
+      "explanation": "Flying bird（飛んでいる鳥）。現在分詞です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「母によって作られたケーキはおいしかった」\nThe cake (      ) by my mother was delicious.",
+      "choices": ["made", "make", "making", "makes"],
+      "answer": "made",
+      "explanation": "「作られた」ケーキなので過去分詞madeを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは英語を話しているあの男性を知っていますか？」となるように並び替えてください。",
+      "choices": ["speaking", "man", "that", "know", "you", "Do", "English"],
+      "answer": "DoyouknowthatmanspeakingEnglish",
+      "explanation": "Do you know that man speaking English? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「中古車（使われた車）」\nA (      ) car",
+      "choices": [],
+      "answer": "used",
+      "explanation": "Used car（使われた車＝中古車）。過去分詞です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「公園で走っている犬を見て」\nLook at the dog (      ) in the park.",
+      "choices": ["running", "run", "ran", "runs"],
+      "answer": "running",
+      "explanation": "Dogを後ろから修飾するrunningです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はトムという名の少年を知っています。」となるように並び替えてください。",
+      "choices": ["boy", "a", "Tom", "know", "named", "I"],
+      "answer": "IknowaboynamedTom",
+      "explanation": "I know a boy named Tom. Named Tom（トムと名付けられた）がboyを修飾します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「眠っている猫はかわいい」\nA (      ) cat is cute.",
+      "choices": [],
+      "answer": "sleeping",
+      "explanation": "Sleeping cat（眠っている猫）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あの壊れた窓を見て」\nLook at that (      ) window.",
+      "choices": ["broken", "break", "breaking", "broke"],
+      "answer": "broken",
+      "explanation": "Broken window（壊された窓＝壊れた窓）。"
+    },
+    {
+      "type": "sort",
+      "question": "「ベンチに座っている女性は私の母です。」となるように並び替えてください。",
+      "choices": ["woman", "sitting", "mother", "The", "bench", "on", "the", "is", "my"],
+      "answer": "Thewomansittingonthebenchismymother",
+      "explanation": "The woman sitting on the bench is my mother. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は有名な作家によって書かれた本を読みました」\nHe read a book (      ) by a famous writer.",
+      "choices": [],
+      "answer": "written",
+      "explanation": "Book written by...（～によって書かれた本）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ドアのところに立っている少年は誰ですか？」\nWho is the boy (      ) at the door?",
+      "choices": ["standing", "stand", "stood", "stands"],
+      "answer": "standing",
+      "explanation": "「立っている」なので現在分詞standingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「これは私の父によって撮られた写真です。」となるように並び替えてください。",
+      "choices": ["picture", "taken", "This", "is", "father", "a", "by", "my"],
+      "answer": "Thisisapicturetakenbymyfather",
+      "explanation": "This is a picture taken by my father. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「泣いている赤ちゃん」\nA (      ) baby",
+      "choices": [],
+      "answer": "crying",
+      "explanation": "Crying baby（泣いている赤ちゃん）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その店で売られているカメラは高い」\nThe cameras (      ) at that shop are expensive.",
+      "choices": ["sold", "sell", "selling", "sells"],
+      "answer": "sold",
+      "explanation": "「売られている」なので過去分詞soldです。"
+    },
+    {
+      "type": "sort",
+      "question": "「向こうで本を読んでいる少女は私の妹です。」となるように並び替えてください。",
+      "choices": ["reading", "sister", "The", "girl", "a", "book", "over", "there", "is", "my"],
+      "answer": "Thegirlreadingabookoverthereismysister",
+      "explanation": "The girl reading a book over there is my sister. 長い主語を作ります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ドイツ製のおもちゃ（ドイツで作られたおもちゃ）」\nA toy (      ) in Germany",
+      "choices": [],
+      "answer": "made",
+      "explanation": "A toy made in Germany. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はピアノを弾いている少年を知っています」\nI know the boy (      ) the piano.",
+      "choices": ["playing", "play", "played", "plays"],
+      "answer": "playing",
+      "explanation": "Playing the pianoがboyを修飾します。"
+    },
+    {
+      "type": "sort",
+      "question": "「招待された人々」となるように並び替えてください。",
+      "choices": ["people", "invited", "The"],
+      "answer": "Theinvitedpeople",
+      "explanation": "The invited people. 過去分詞が前から修飾するパターンです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「燃えている家」\nA (      ) house",
+      "choices": [],
+      "answer": "burning",
+      "explanation": "Burning house（燃えている家）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は英語で書かれた手紙を受け取りました」\nI received a letter (      ) in English.",
+      "choices": ["written", "write", "writing", "wrote"],
+      "answer": "written",
+      "explanation": "Written in English（英語で書かれた）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「中国語を話しているあの女性は誰ですか？」となるように並び替えてください。",
+      "choices": ["speaking", "woman", "that", "is", "Chinese", "Who"],
+      "answer": "WhoisthatwomanspeakingChinese",
+      "explanation": "Who is that woman speaking Chinese? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これは彼によって描かれた絵です」\nThis is a picture (      ) by him.",
+      "choices": [],
+      "answer": "painted",
+      "explanation": "Painted by him（彼によって描かれた）。Drawnでも可ですが文脈によります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ワクワクする試合（興奮させる試合）」\nAn (      ) game",
+      "choices": ["exciting", "excited", "excite", "excites"],
+      "answer": "exciting",
+      "explanation": "試合は人を興奮「させる」側なので現在分詞excitingを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は京都で撮られた写真をいくつか持っています。」となるように並び替えてください。",
+      "choices": ["pictures", "taken", "Kyoto", "some", "in", "have", "I"],
+      "answer": "IhavesomepicturestakeninKyoto",
+      "explanation": "I have some pictures taken in Kyoto. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は興奮した観客（興奮させられた観客）を見ました」\nShe saw the (      ) audience.",
+      "choices": [],
+      "answer": "excited",
+      "explanation": "観客は興奮「させられた」側なので過去分詞excitedを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「水泳をしているあの少年はトムです」\nThat boy (      ) is Tom.",
+      "choices": ["swimming", "swim", "swum", "swims"],
+      "answer": "swimming",
+      "explanation": "That boy swimming...（泳いでいるあの少年）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はその結果に驚きました。」となるように並び替えてください。",
+      "choices": ["result", "surprised", "the", "at", "was", "He"],
+      "answer": "Hewassurprisedattheresult",
+      "explanation": "He was surprised at the result. 受動態の文ですが、surprisedは形容詞的に「驚いた」という状態を表す過去分詞です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「落ち葉」\n(      ) leaves",
+      "choices": [],
+      "answer": "Fallen",
+      "explanation": "Fallen leaves（落ちてしまった葉＝落ち葉）。完了の意味を持つ過去分詞です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「向こうを歩いている男性は私の先生です」\nThe man (      ) over there is my teacher.",
+      "choices": ["walking", "walk", "walked", "walks"],
+      "answer": "walking",
+      "explanation": "Walking over thereがmanを修飾します。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は沖縄で作られたガラスを買いました。」となるように並び替えてください。",
+      "choices": ["glass", "Okinawa", "bought", "made", "in", "I"],
+      "answer": "IboughtglassmadeinOkinawa",
+      "explanation": "I bought glass made in Okinawa. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「昇っている太陽（朝日）」\nThe (      ) sun",
+      "choices": [],
+      "answer": "rising",
+      "explanation": "The rising sun. 現在分詞です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はみんなに愛されている歌手です」\nHe is a singer (      ) by everyone.",
+      "choices": ["loved", "love", "loving", "loves"],
+      "answer": "loved",
+      "explanation": "Loved by everyone（みんなに愛されている）がsingerを修飾します。"
+    },
+    {
+      "type": "sort",
+      "question": "「英語を勉強している学生たち」となるように並び替えてください。",
+      "choices": ["students", "English", "studying"],
+      "answer": "studentsstudyingEnglish",
+      "explanation": "students studying English. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「そのニュースは驚くべきものでした」\nThe news was (      ).",
+      "choices": [],
+      "answer": "surprising",
+      "explanation": "ニュースは人を「驚かせる」ものなのでsurprisingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はフライドチキン（揚げられた鶏肉）が好きです」\nI like (      ) chicken.",
+      "choices": ["fried", "fry", "frying", "fries"],
+      "answer": "fried",
+      "explanation": "Fried chicken. 過去分詞が形容詞化しています。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の父によって修理された車」となるように並び替えてください。",
+      "choices": ["car", "repaired", "father", "the", "by", "my"],
+      "answer": "thecarrepairedbymyfather",
+      "explanation": "The car repaired by my father. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「沈みゆく太陽（夕日）」\nThe (      ) sun",
+      "choices": [],
+      "answer": "setting",
+      "explanation": "The setting sun. 現在分詞です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これはジョンに使われた部屋です」\nThis is a room (      ) by John.",
+      "choices": ["used", "use", "using", "uses"],
+      "answer": "used",
+      "explanation": "Used by John（ジョンに使われた）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「その退屈な映画」となるように並び替えてください。",
+      "choices": ["movie", "boring", "the"],
+      "answer": "theboringmovie",
+      "explanation": "The boring movie. 映画は人を「退屈させる」のでboringです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は退屈しました（退屈させられました）」\nI was (      ).",
+      "choices": [],
+      "answer": "bored",
+      "explanation": "I was bored. 人が感情を受ける場合は過去分詞です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私と一緒に働いている人々」\nThe people (      ) with me",
+      "choices": ["working", "work", "worked", "works"],
+      "answer": "working",
+      "explanation": "Working with me（私と一緒に働いている）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「フランスで作られたワイン」となるように並び替えてください。",
+      "choices": ["wine", "in", "made", "France"],
+      "answer": "winemadeinFrance",
+      "explanation": "wine made in France. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「沸騰しているお湯」\n(      ) water",
+      "choices": [],
+      "answer": "Boiling",
+      "explanation": "Boiling water. 現在分詞です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼に招待された客です」\nI am a guest (      ) by him.",
+      "choices": ["invited", "invite", "inviting", "invites"],
+      "answer": "invited",
+      "explanation": "Invited by him（彼に招待された）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは何か面白いものを持っていますか？」となるように並び替えてください。",
+      "choices": ["anything", "interesting", "have", "Do", "you"],
+      "answer": "Doyouhaveanythinginteresting",
+      "explanation": "Do you have anything interesting? Interestingは現在分詞由来の形容詞です。Thingで終わる語は後ろから修飾します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「英語を話している人々」\nPeople (      ) English",
+      "choices": [],
+      "answer": "speaking",
+      "explanation": "People speaking English. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「雪で覆われた山」\nA mountain (      ) with snow",
+      "choices": ["covered", "cover", "covering", "covers"],
+      "answer": "covered",
+      "explanation": "Covered with snowです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はその壊れたドアを直しました。」となるように並び替えてください。",
+      "choices": ["door", "fixed", "broken", "I", "the"],
+      "answer": "Ifixedthebrokendoor",
+      "explanation": "I fixed the broken door. Broken（壊れた）が前からdoorを修飾します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はその試合に興奮していました」\nHe was (      ) about the game.",
+      "choices": [],
+      "answer": "excited",
+      "explanation": "He was excited... 人が主語なので過去分詞です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちはその面白い映画を見ました」\nWe watched the (      ) movie.",
+      "choices": ["interesting", "interested", "interest", "interests"],
+      "answer": "interesting",
+      "explanation": "Interesting movie（面白い映画）。"
+    },
+    {
+      "type": "sort",
+      "question": "「ケンと話している少女」となるように並び替えてください。",
+      "choices": ["talking", "with", "girl", "the", "Ken"],
+      "answer": "thegirltalkingwithKen",
+      "explanation": "The girl talking with Ken. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「盗まれた自転車」\nA (      ) bike",
+      "choices": [],
+      "answer": "stolen",
+      "explanation": "Stolen bike. 過去分詞です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はその疲れた犬を見ました」\nI saw the (      ) dog.",
+      "choices": ["tired", "tiring", "tire", "tires"],
+      "answer": "tired",
+      "explanation": "Tired dog（疲れた犬）。動物が疲れている状態も過去分詞を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「この町に住んでいる人々」となるように並び替えてください。",
+      "choices": ["living", "town", "people", "this", "in"],
+      "answer": "peoplelivinginthistown",
+      "explanation": "People living in this town. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「割れたガラス（破片）」\n(      ) glass",
+      "choices": [],
+      "answer": "Broken",
+      "explanation": "Broken glass. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はその結果に失望しました」\nI was (      ) at the result.",
+      "choices": ["disappointed", "disappointing", "disappoint", "disappoints"],
+      "answer": "disappointed",
+      "explanation": "Disappointed（失望させられた＝がっかりした）。人が主語なので過去分詞です。"
+    },
+    {
+      "type": "sort",
+      "question": "「ポチと呼ばれる犬」となるように並び替えてください。",
+      "choices": ["dog", "called", "Pochi", "a"],
+      "answer": "adogcalledPochi",
+      "explanation": "A dog called Pochi. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「待っている人」\nA (      ) person",
+      "choices": [],
+      "answer": "waiting",
+      "explanation": "Waiting person. 現在分詞です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「公園へ歩いていく少年たち」\nBoys (      ) to the park",
+      "choices": ["walking", "walk", "walked", "walks"],
+      "answer": "walking",
+      "explanation": "Walking to the parkです。"
+    },
+    {
+      "type": "sort",
+      "question": "「たくさんの人々に愛されている歌」となるように並び替えてください。",
+      "choices": ["song", "loved", "a", "people", "by", "many"],
+      "answer": "asonglovedbymanypeople",
+      "explanation": "A song loved by many people. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「驚くべきニュース」\n(      ) news",
+      "choices": [],
+      "answer": "Surprising",
+      "explanation": "Surprising news. ニュースは人を驚かせるものなので現在分詞です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はその疲れる仕事をしたくありません」\nI don't want to do the (      ) job.",
+      "choices": ["tiring", "tired", "tire", "tires"],
+      "answer": "tiring",
+      "explanation": "Tiring job（疲れさせる仕事＝きつい仕事）。仕事自体が原因なので現在分詞です。"
+    },
+    {
+      "type": "sort",
+      "question": "「壁にかかっている絵」となるように並び替えてください。",
+      "choices": ["on", "picture", "wall", "hanging", "the", "the"],
+      "answer": "thepicturehangingonthewall",
+      "explanation": "The picture hanging on the wall. Hang（かかる）の現在分詞です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「閉ざされたドア（閉まったドア）」\nA (      ) door",
+      "choices": [],
+      "answer": "closed",
+      "explanation": "Closed door. 過去分詞です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「日本で作られた製品」\nProducts (      ) in Japan",
+      "choices": ["made", "make", "making", "makes"],
+      "answer": "made",
+      "explanation": "Made in Japanです。"
+    },
+    {
+      "type": "sort",
+      "question": "「ベンチで寝ている男の人」となるように並び替えてください。",
+      "choices": ["man", "sleeping", "bench", "the", "on", "the"],
+      "answer": "themansleepingonthebench",
+      "explanation": "The man sleeping on the bench. です。"
+    }
+  ]
+}

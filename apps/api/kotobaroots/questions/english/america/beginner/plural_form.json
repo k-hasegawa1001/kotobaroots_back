@@ -1,0 +1,685 @@
+{
+  "learning_topic": "複数形",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "cat（猫）の複数形は？",
+      "choices": ["cats", "cates", "catts", "cates"],
+      "answer": "cats",
+      "explanation": "基本ルールは語尾に「s」をつけるだけです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は2匹の犬を飼っています。」となるように並び替えてください。",
+      "choices": ["dogs", "two", "have", "I"],
+      "answer": "Ihavetwodogs",
+      "explanation": "I have two dogs. です。2以上（two）なのでdogにsがつきます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "book（本）の複数形は？\nbook(      )",
+      "choices": [],
+      "answer": "s",
+      "explanation": "booksです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "bus（バス）の複数形は？",
+      "choices": ["buses", "buss", "bues", "busies"],
+      "answer": "buses",
+      "explanation": "語尾がs, sh, ch, x, oで終わる名詞には「es」をつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「テーブルの上に3つの箱があります。」となるように並び替えてください。",
+      "choices": ["boxes", "three", "are", "There"],
+      "answer": "Therearethreeboxes",
+      "explanation": "There are three boxes. です。boxはxで終わるためboxesになります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "apple（リンゴ）の複数形は？\napple(      )",
+      "choices": [],
+      "answer": "s",
+      "explanation": "applesです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "city（都市）の複数形は？",
+      "choices": ["cities", "citys", "cityes", "citties"],
+      "answer": "cities",
+      "explanation": "「子音字 + y」で終わる語は、yをiに変えてesをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はたくさんのペンを持っています。」となるように並び替えてください。",
+      "choices": ["pens", "many", "has", "She"],
+      "answer": "Shehasmanypens",
+      "explanation": "She has many pens. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "dish（皿）の複数形は？\ndish(      )",
+      "choices": [],
+      "answer": "es",
+      "explanation": "dishesです。shで終わる語にはesをつけます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "man（男性）の複数形は？",
+      "choices": ["men", "mans", "mens", "manes"],
+      "answer": "men",
+      "explanation": "不規則に変化する名詞です。AがEに変わります。\n\n【注意】発音も「マン」から「メン」に変わります。"
+    },
+    {
+      "type": "sort",
+      "question": "「公園に何人の子供がいますか？」となるように並び替えてください。",
+      "choices": ["children", "many", "How", "are"],
+      "answer": "Howmanychildrenare",
+      "explanation": "How many children are... です。childの複数形childrenを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "woman（女性）の複数形は？\nwo(      )n",
+      "choices": [],
+      "answer": "me",
+      "explanation": "womenです。発音は「ウィミン」のように変わるので注意が必要です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "child（子供）の複数形は？",
+      "choices": ["children", "childs", "childes", "childrens"],
+      "answer": "children",
+      "explanation": "renをつける珍しい変化をします。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はいくつかのオレンジを買いました。」となるように並び替えてください。",
+      "choices": ["oranges", "some", "bought", "I"],
+      "answer": "Iboughtsomeoranges",
+      "explanation": "I bought some oranges. です。Some（いくつか）の後ろは複数形になります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "foot（足）の複数形は？\nf(      )t",
+      "choices": [],
+      "answer": "ee",
+      "explanation": "feetです。ooがeeに変わります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "tooth（歯）の複数形は？",
+      "choices": ["teeth", "tooths", "toothes", "teeths"],
+      "answer": "teeth",
+      "explanation": "Footと同じく、ooがeeに変わるパターンです。"
+    },
+    {
+      "type": "sort",
+      "question": "「5本の木が見えます。」となるように並び替えてください。",
+      "choices": ["trees", "five", "see", "can", "I"],
+      "answer": "Icanseefivetrees",
+      "explanation": "I can see five trees. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "watch（腕時計）の複数形は？\nwatch(      )",
+      "choices": [],
+      "answer": "es",
+      "explanation": "watchesです。chで終わる語にはesをつけます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "leaf（葉）の複数形は？",
+      "choices": ["leaves", "leafs", "leafes", "leavs"],
+      "answer": "leaves",
+      "explanation": "fやfeで終わる語は、fをvに変えてesをつけることが多いです（例：knife→knives）。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は2人の姉妹がいます。」となるように並び替えてください。",
+      "choices": ["sisters", "two", "have", "I"],
+      "answer": "Ihavetwosisters",
+      "explanation": "I have two sisters. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "fish（魚）の複数形は？\nfi(      )",
+      "choices": [],
+      "answer": "sh",
+      "explanation": "fishです。単数形と複数形が同じ形（単複同形）です。fishesと言うと「魚の種類」を指すことになります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "mouse（ネズミ）の複数形は？",
+      "choices": ["mice", "mouses", "mices", "mouse"],
+      "answer": "mice",
+      "explanation": "形が大きく変わる不規則変化です。"
+    },
+    {
+      "type": "sort",
+      "question": "「これらの花は美しい。」となるように並び替えてください。",
+      "choices": ["flowers", "These", "beautiful", "are"],
+      "answer": "Theseflowersarebeautiful",
+      "explanation": "These flowers are beautiful. です。主語が複数なのでbe動詞はareです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "boy（少年）の複数形は？\nboy(      )",
+      "choices": [],
+      "answer": "s",
+      "explanation": "boysです。yの前が母音（o）なので、そのままsをつけます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "potato（ジャガイモ）の複数形は？",
+      "choices": ["potatoes", "potatos", "potates", "potatos"],
+      "answer": "potatoes",
+      "explanation": "oで終わる名詞にはesをつけることが多いです（Tomato→Tomatoesなど）。"
+    },
+    {
+      "type": "sort",
+      "question": "「たくさんの鳥が空にいます。」となるように並び替えてください。",
+      "choices": ["birds", "many", "are", "There"],
+      "answer": "Therearemanybirds",
+      "explanation": "There are many birds. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "class（授業）の複数形は？\nclass(      )",
+      "choices": [],
+      "answer": "es",
+      "explanation": "classesです。ssで終わる語にはesをつけます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "water（水）の複数形は？",
+      "choices": ["複数形はない（waterのまま）", "waters", "wateres", "wator"],
+      "answer": "複数形はない（waterのまま）",
+      "explanation": "水、空気、お金などは数えられない名詞（不可数名詞）なので、原則としてsをつけません。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はいくつかの卵が必要です。」となるように並び替えてください。",
+      "choices": ["eggs", "some", "need", "I"],
+      "answer": "Ineedsomeeggs",
+      "explanation": "I need some eggs. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "sheep（羊）の複数形は？\nsh(      )p",
+      "choices": [],
+      "answer": "ee",
+      "explanation": "sheepです。単複同形の名詞です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "knife（ナイフ）の複数形は？",
+      "choices": ["knives", "knifes", "knifs", "knive"],
+      "answer": "knives",
+      "explanation": "feをvに変えてesをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは学生です。」となるように並び替えてください。",
+      "choices": ["students", "They", "are"],
+      "answer": "Theyarestudents",
+      "explanation": "They are students. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "friend（友達）の複数形は？\nfriend(      )",
+      "choices": [],
+      "answer": "s",
+      "explanation": "friendsです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "country（国）の複数形は？",
+      "choices": ["countries", "countrys", "countris", "countrees"],
+      "answer": "countries",
+      "explanation": "子音+yなので、yをiに変えてesです。"
+    },
+    {
+      "type": "sort",
+      "question": "「それらは新しい車です。」となるように並び替えてください。",
+      "choices": ["cars", "new", "They", "are"],
+      "answer": "Theyarenewcars",
+      "explanation": "They are new cars. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "box（箱）の複数形は？\nbox(      )",
+      "choices": [],
+      "answer": "es",
+      "explanation": "boxesです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "day（日）の複数形は？",
+      "choices": ["days", "daies", "dayes", "dais"],
+      "answer": "days",
+      "explanation": "母音+yなので、そのままsをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは良い友達です。」となるように並び替えてください。",
+      "choices": ["friends", "good", "We", "are"],
+      "answer": "Wearegoodfriends",
+      "explanation": "We are good friends. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "money（お金）の複数形は？\n(      )",
+      "choices": [],
+      "answer": "money",
+      "explanation": "お金は数えられない名詞なので、sはつきません。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "hero（英雄）の複数形は？",
+      "choices": ["heroes", "heros", "heroes", "herous"],
+      "answer": "heroes",
+      "explanation": "oで終わる語にesをつけるパターンです。"
+    },
+    {
+      "type": "sort",
+      "question": "「4つのリンゴ」となるように並び替えてください。",
+      "choices": ["apples", "four"],
+      "answer": "fourapples",
+      "explanation": "four apples です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "teacher（先生）の複数形は？\nteacher(      )",
+      "choices": [],
+      "answer": "s",
+      "explanation": "teachersです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "baby（赤ちゃん）の複数形は？",
+      "choices": ["babies", "babys", "babyes", "babis"],
+      "answer": "babies",
+      "explanation": "子音+yなので、yをiに変えてesです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あれらは私の靴です。」となるように並び替えてください。",
+      "choices": ["shoes", "my", "Those", "are"],
+      "answer": "Thosearemyshoes",
+      "explanation": "Those are my shoes. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "key（鍵）の複数形は？\nkey(      )",
+      "choices": [],
+      "answer": "s",
+      "explanation": "keysです。母音+yなのでsだけです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "pencil（鉛筆）の複数形は？",
+      "choices": ["pencils", "penciles", "pencills", "pencil"],
+      "answer": "pencils",
+      "explanation": "sをつけるだけの規則変化です。"
+    },
+    {
+      "type": "sort",
+      "question": "「たくさんの人々がいます。」となるように並び替えてください。",
+      "choices": ["people", "of", "lot", "A", "are", "there"],
+      "answer": "Therearealotofpeople",
+      "explanation": "There are a lot of people. です。Peopleは形は単数に見えますが、意味は複数（人々）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "glass（コップ）の複数形は？\nglass(      )",
+      "choices": [],
+      "answer": "es",
+      "explanation": "glassesです。ssで終わる語にはesです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Japan（日本）の複数形は？",
+      "choices": ["複数形はない", "Japans", "Japanes", "Japannes"],
+      "answer": "複数形はない",
+      "explanation": "国名などの固有名詞にはsをつけません。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は眼（両目）を閉じた。」となるように並び替えてください。",
+      "choices": ["eyes", "my", "closed", "I"],
+      "answer": "Iclosedmyeyes",
+      "explanation": "I closed my eyes. 目は通常2つあるので複数形にします。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "family（家族）の複数形は？\nfamil(      )",
+      "choices": [],
+      "answer": "ies",
+      "explanation": "familiesです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "cup（カップ）の複数形は？",
+      "choices": ["cups", "cupes", "cuppes", "cup"],
+      "answer": "cups",
+      "explanation": "sをつけるだけです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はイチゴが好きです。」となるように並び替えてください。",
+      "choices": ["strawberries", "like", "I"],
+      "answer": "Ilikestrawberries",
+      "explanation": "I like strawberries. 果物全般を指すときは複数形を使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "bench（ベンチ）の複数形は？\nbench(      )",
+      "choices": [],
+      "answer": "es",
+      "explanation": "benchesです。chで終わる語にはesです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Japanese（日本人）の複数形は？",
+      "choices": ["Japanese", "Japaneses", "Japanes", "Japanis"],
+      "answer": "Japanese",
+      "explanation": "JapaneseやChineseなど、-eseで終わる国籍の言葉は単複同形です。"
+    },
+    {
+      "type": "sort",
+      "question": "「たくさんの本」となるように並び替えてください。",
+      "choices": ["books", "many"],
+      "answer": "manybooks",
+      "explanation": "many books です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "life（生命/生活）の複数形は？\nli(      )",
+      "choices": [],
+      "answer": "ves",
+      "explanation": "livesです。feをvに変えてesです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "dog（犬）の複数形は？",
+      "choices": ["dogs", "doges", "doggs", "dog"],
+      "answer": "dogs",
+      "explanation": "sをつけるだけです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の足（両足）は大きいです。」となるように並び替えてください。",
+      "choices": ["feet", "my", "big", "are"],
+      "answer": "Myfeetarebig",
+      "explanation": "My feet are big. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "monkey（猿）の複数形は？\nmonkey(      )",
+      "choices": [],
+      "answer": "s",
+      "explanation": "monkeysです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "tomato（トマト）の複数形は？",
+      "choices": ["tomatoes", "tomatos", "tomato", "tomatose"],
+      "answer": "tomatoes",
+      "explanation": "oで終わる語にはesです。"
+    },
+    {
+      "type": "sort",
+      "question": "「10人の男の人たち」となるように並び替えてください。",
+      "choices": ["men", "ten"],
+      "answer": "tenmen",
+      "explanation": "ten men です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "chair（椅子）の複数形は？\nchair(      )",
+      "choices": [],
+      "answer": "s",
+      "explanation": "chairsです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "piano（ピアノ）の複数形は？",
+      "choices": ["pianos", "pianoes", "piannos", "piano"],
+      "answer": "pianos",
+      "explanation": "oで終わる語ですが、pianoやphotoは例外的にsだけをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「これらはバスです。」となるように並び替えてください。",
+      "choices": ["buses", "are", "These"],
+      "answer": "Thesearebuses",
+      "explanation": "These are buses. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "milk（牛乳）の複数形は？\n(      )",
+      "choices": [],
+      "answer": "milk",
+      "explanation": "液体は数えられないのでsはつきません。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "wolf（狼）の複数形は？",
+      "choices": ["wolves", "wolfs", "wolfes", "wolvs"],
+      "answer": "wolves",
+      "explanation": "fをvに変えてesです。"
+    },
+    {
+      "type": "sort",
+      "question": "「2つのコップ」となるように並び替えてください。",
+      "choices": ["glasses", "two"],
+      "answer": "twoglasses",
+      "explanation": "two glasses です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "way（道/方法）の複数形は？\nway(      )",
+      "choices": [],
+      "answer": "s",
+      "explanation": "waysです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "church（教会）の複数形は？",
+      "choices": ["churches", "churchs", "churche", "churchies"],
+      "answer": "churches",
+      "explanation": "chで終わる語にはesです。"
+    },
+    {
+      "type": "sort",
+      "question": "「たくさんの都市」となるように並び替えてください。",
+      "choices": ["cities", "many"],
+      "answer": "manycities",
+      "explanation": "many cities です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "bread（パン）の複数形は？\n(      )",
+      "choices": [],
+      "answer": "bread",
+      "explanation": "パンは数えられない名詞扱いなのでsはつきません。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "story（物語）の複数形は？",
+      "choices": ["stories", "storys", "storyes", "stries"],
+      "answer": "stories",
+      "explanation": "yをiに変えてesです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは医者たちです。」となるように並び替えてください。",
+      "choices": ["doctors", "They", "are"],
+      "answer": "Theyaredoctors",
+      "explanation": "They are doctors. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "name（名前）の複数形は？\nname(      )",
+      "choices": [],
+      "answer": "s",
+      "explanation": "namesです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "photo（写真）の複数形は？",
+      "choices": ["photos", "photoes", "photoss", "photo"],
+      "answer": "photos",
+      "explanation": "oで終わりますがsだけをつける例外です。"
+    },
+    {
+      "type": "sort",
+      "question": "「6匹のネズミ」となるように並び替えてください。",
+      "choices": ["mice", "six"],
+      "answer": "sixmice",
+      "explanation": "six mice です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "star（星）の複数形は？\nstar(      )",
+      "choices": [],
+      "answer": "s",
+      "explanation": "starsです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "wife（妻）の複数形は？",
+      "choices": ["wives", "wifes", "wifs", "wive"],
+      "answer": "wives",
+      "explanation": "feをvに変えてesです。"
+    },
+    {
+      "type": "sort",
+      "question": "「2匹の魚」となるように並び替えてください。",
+      "choices": ["fish", "two"],
+      "answer": "twofish",
+      "explanation": "two fish です。fishは単複同形です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "house（家）の複数形は？\nhouse(      )",
+      "choices": [],
+      "answer": "s",
+      "explanation": "housesです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "deer（鹿）の複数形は？",
+      "choices": ["deer", "deers", "deeres", "deares"],
+      "answer": "deer",
+      "explanation": "deerも単複同形の名詞です。"
+    },
+    {
+      "type": "sort",
+      "question": "「いくつかの問題」となるように並び替えてください。",
+      "choices": ["problems", "some"],
+      "answer": "someproblems",
+      "explanation": "some problems です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "party（パーティー）の複数形は？\npart(      )",
+      "choices": [],
+      "answer": "ies",
+      "explanation": "partiesです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "fox（キツネ）の複数形は？",
+      "choices": ["foxes", "foxs", "foxies", "fox"],
+      "answer": "foxes",
+      "explanation": "xで終わる語にはesです。"
+    },
+    {
+      "type": "sort",
+      "question": "「12個の卵」となるように並び替えてください。",
+      "choices": ["eggs", "twelve"],
+      "answer": "twelveeggs",
+      "explanation": "twelve eggs です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "toy（おもちゃ）の複数形は？\ntoy(      )",
+      "choices": [],
+      "answer": "s",
+      "explanation": "toysです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "goose（ガチョウ）の複数形は？",
+      "choices": ["geese", "gooses", "geeses", "goose"],
+      "answer": "geese",
+      "explanation": "foot→feetのようにooがeeに変わります。"
+    },
+    {
+      "type": "sort",
+      "question": "「これらの写真」となるように並び替えてください。",
+      "choices": ["photos", "These"],
+      "answer": "Thesephotos",
+      "explanation": "These photos です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "radio（ラジオ）の複数形は？\nradio(      )",
+      "choices": [],
+      "answer": "s",
+      "explanation": "radiosです。oで終わりますがsだけです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "person（人）の複数形は？",
+      "choices": ["people", "persons", "peoples", "persones"],
+      "answer": "people",
+      "explanation": "personの複数形はpeopleを使うのが一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「7日間」となるように並び替えてください。",
+      "choices": ["days", "seven"],
+      "answer": "sevendays",
+      "explanation": "seven days です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "computer（コンピュータ）の複数形は？\ncomputer(      )",
+      "choices": [],
+      "answer": "s",
+      "explanation": "computersです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "coffee（コーヒー）の複数形は？",
+      "choices": ["複数形はない", "coffees", "coffes", "coffeees"],
+      "answer": "複数形はない",
+      "explanation": "液体なので数えられません（「一杯のコーヒー」と言う時はa cup of coffeeと数えます）。"
+    },
+    {
+      "type": "sort",
+      "question": "「多くの国々」となるように並び替えてください。",
+      "choices": ["countries", "many"],
+      "answer": "manycountries",
+      "explanation": "many countries です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "dictionary（辞書）の複数形は？\ndictionar(      )",
+      "choices": [],
+      "answer": "ies",
+      "explanation": "dictionariesです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "video（ビデオ）の複数形は？",
+      "choices": ["videos", "videoes", "vidios", "video"],
+      "answer": "videos",
+      "explanation": "videosです。sだけをつけます。"
+    }
+  ]
+}

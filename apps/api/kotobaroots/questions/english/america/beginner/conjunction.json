@@ -1,0 +1,643 @@
+{
+  "learning_topic": "接続詞",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「私は犬と猫が好きです」\nI like dogs (      ) cats.",
+      "choices": ["and", "but", "or", "so"],
+      "answer": "and",
+      "explanation": "「AとB」と並列につなぐ時はandを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は貧しいですが、幸せです。」となるように並び替えてください。",
+      "choices": ["happy", "poor", "but", "am", "I"],
+      "answer": "Iampoorbuthappy",
+      "explanation": "I am poor but happy. 「～しかし…」と逆の内容をつなぐ時はbutを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「急げ、さもないと遅れるぞ」\nHurry up, (      ) you will be late.",
+      "choices": [],
+      "answer": "or",
+      "explanation": "命令文 + or ... で「～しなさい、さもないと…」という意味になります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「コーヒーか紅茶、どちらが欲しいですか？」\nDo you want coffee (      ) tea?",
+      "choices": ["or", "and", "but", "so"],
+      "answer": "or",
+      "explanation": "「AかB（または）」という選択を表す時はorを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は病気だったので、学校に行きませんでした。」となるように並び替えてください。",
+      "choices": ["school", "sick", "go", "didn't", "I", "so", "to", "was", "I"],
+      "answer": "IwassicksoIdidn'tgotoschool",
+      "explanation": "I was sick, so I didn't go to school. 「だから（結果）」を表す時はsoを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もし明日晴れたら、ピクニックに行こう」\n(      ) it is sunny tomorrow, let's go on a picnic.",
+      "choices": [],
+      "answer": "If",
+      "explanation": "If（もし～なら）で条件を表します。未来のことでも条件節の中では現在形を使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私が帰宅した時、母は料理をしていました」\n(      ) I came home, my mother was cooking.",
+      "choices": ["When", "If", "Because", "Before"],
+      "answer": "When",
+      "explanation": "When（～する時）で時を表します。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼が良い先生だと思います。」となるように並び替えてください。",
+      "choices": ["is", "teacher", "think", "good", "a", "that", "he", "I"],
+      "answer": "Ithinkthatheisagoodteacher",
+      "explanation": "I think that he is a good teacher. 「～ということ」を表す接続詞thatです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は忙しいので行けません」\nI can't go (      ) I am busy.",
+      "choices": [],
+      "answer": "because",
+      "explanation": "Because（なぜなら～なので）で理由を表します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「夕食の前にお風呂に入りなさい」\nTake a bath (      ) dinner.",
+      "choices": ["before", "after", "when", "if"],
+      "answer": "before",
+      "explanation": "Before（～の前に）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「昼食を食べた後、私たちはサッカーをしました。」となるように並び替えてください。",
+      "choices": ["soccer", "lunch", "played", "We", "after", "we", "ate"],
+      "answer": "Weplayedsoccerafterweatelunch",
+      "explanation": "We played soccer after we ate lunch. After（～の後で）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私かあなたのどちらかが行かねばなりません」\nEither you (      ) I must go.",
+      "choices": [],
+      "answer": "or",
+      "explanation": "Either A or B（AかBのどちらか）という熟語的な接続詞です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は金持ちだが、幸せではない」\nHe is rich, (      ) he isn't happy.",
+      "choices": ["but", "and", "so", "or"],
+      "answer": "but",
+      "explanation": "逆接のbutです。"
+    },
+    {
+      "type": "sort",
+      "question": "「一生懸命勉強しなさい、そうすれば合格します。」となるように並び替えてください。",
+      "choices": ["pass", "Study", "hard", "you", "and", "will"],
+      "answer": "Studyhardandyouwillpass",
+      "explanation": "Study hard, and you will pass. 命令文 + and ... で「～しなさい、そうすれば…」という意味になります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は英語とフランス語を話します」\nShe speaks English (      ) French.",
+      "choices": [],
+      "answer": "and",
+      "explanation": "並列のandです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「雨が降っていたので、家にいました」\nIt was raining, (      ) I stayed home.",
+      "choices": ["so", "because", "but", "or"],
+      "answer": "so",
+      "explanation": "So（だから）です。Becauseを使う場合は文の構造が変わります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼が正しいことを知っています。」となるように並び替えてください。",
+      "choices": ["right", "know", "is", "that", "he", "I"],
+      "answer": "Iknowthatheisright",
+      "explanation": "I know that he is right. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたが疲れているなら、休みなさい」\n(      ) you are tired, take a rest.",
+      "choices": [],
+      "answer": "If",
+      "explanation": "If（もし～なら）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私が子供だった頃、私は納豆が好きではありませんでした」\n(      ) I was a child, I didn't like natto.",
+      "choices": ["When", "If", "Because", "So"],
+      "answer": "When",
+      "explanation": "When（～だった時）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたも彼も悪くない。」となるように並び替えてください。",
+      "choices": ["wrong", "are", "Neither", "you", "nor", "he"],
+      "answer": "Neitheryounorheiswrong",
+      "explanation": "Neither A nor B（AもBも～ない）という相関接続詞です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は親切なだけでなく、美しい」\nShe is not only kind (      ) also beautiful.",
+      "choices": [],
+      "answer": "but",
+      "explanation": "not only A but also B（AだけでなくBもまた）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼が来ることを望みます」\nI hope (      ) he comes.",
+      "choices": ["that", "what", "which", "if"],
+      "answer": "that",
+      "explanation": "I hope (that)... で「～であることを望む」です。"
+    },
+    {
+      "type": "sort",
+      "question": "「宿題が終わるまで待ちなさい。」となるように並び替えてください。",
+      "choices": ["you", "Wait", "finish", "homework", "until", "your"],
+      "answer": "Waituntilyoufinishyourhomework",
+      "explanation": "Wait until... で「～するまで待て」です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は忙しかったが、楽しかった」\nI was busy, (      ) I had fun.",
+      "choices": [],
+      "answer": "but",
+      "explanation": "逆接のbutです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「りんごとみかん、どっちが好き？」\nWhich do you like, apples (      ) oranges?",
+      "choices": ["or", "and", "but", "so"],
+      "answer": "or",
+      "explanation": "疑問文での選択はorを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼が来る前に宿題を終えなさい。」となるように並び替えてください。",
+      "choices": ["comes", "he", "homework", "Finish", "before", "your"],
+      "answer": "Finishyourhomeworkbeforehecomes",
+      "explanation": "Finish your homework before he comes. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はとても疲れていたので、早く寝ました」\nShe was very tired, (      ) she went to bed early.",
+      "choices": [],
+      "answer": "so",
+      "explanation": "結果を表すsoです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「もし時間があれば、手伝って」\n(      ) you have time, please help me.",
+      "choices": ["If", "When", "Because", "Though"],
+      "answer": "If",
+      "explanation": "条件のIfです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼がどこに住んでいるか知りません。」となるように並び替えてください。",
+      "choices": ["lives", "where", "know", "he", "don't", "I"],
+      "answer": "Idon'tknowwherehelives",
+      "explanation": "I don't know where he lives. 疑問詞whereが接続詞のような働きをします（間接疑問文）。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼が正直（honest）だと信じています」\nI believe (      ) he is honest.",
+      "choices": [],
+      "answer": "that",
+      "explanation": "I believe that... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「起きたとき、雨が降っていた」\n(      ) I got up, it was raining.",
+      "choices": ["When", "If", "While", "Because"],
+      "answer": "When",
+      "explanation": "When I got up（起きた時）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼も私もそれを知りません。」となるように並び替えてください。",
+      "choices": ["know", "Neither", "nor", "it", "he", "I"],
+      "answer": "NeitherhenorIknowit",
+      "explanation": "Neither he nor I know it. 「彼も私も～ない」です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「早起きしなさい、さもないと電車に乗り遅れるよ」\nGet up early, (      ) you will miss the train.",
+      "choices": [],
+      "answer": "or",
+      "explanation": "命令文 + or（さもないと）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私が勉強している間、母はテレビを見ていた」\n(      ) I was studying, my mother was watching TV.",
+      "choices": ["While", "When", "If", "Because"],
+      "answer": "While",
+      "explanation": "While（～している間）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はその本が面白いとわかりました。」となるように並び替えてください。",
+      "choices": ["interesting", "book", "found", "was", "the", "that", "I"],
+      "answer": "Ifoundthatthebookwasinteresting",
+      "explanation": "I found that the book was interesting. Find that...（～だとわかる）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ここへ来て私を手伝ってください」\nCome here (      ) help me.",
+      "choices": [],
+      "answer": "and",
+      "explanation": "「来て、そして手伝って」という並列のandです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「雨が降ったので、私たちは外出しまんでした」\nWe didn't go out (      ) it rained.",
+      "choices": ["because", "so", "but", "if"],
+      "answer": "because",
+      "explanation": "Becauseは理由を後ろに置きます。"
+    },
+    {
+      "type": "sort",
+      "question": "「手を洗いなさい、そうすれば食べられます。」となるように並び替えてください。",
+      "choices": ["can", "eat", "Wash", "and", "hands", "you", "your"],
+      "answer": "Washyourhandsandyoucaneat",
+      "explanation": "Wash your hands, and you can eat. 命令文 + and（そうすれば）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼が来る前に帰ります」\nI will leave (      ) he comes.",
+      "choices": [],
+      "answer": "before",
+      "explanation": "Before（～する前に）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたと私の両方が間違っています」\n(      ) you and I are wrong.",
+      "choices": ["Both", "Either", "Neither", "All"],
+      "answer": "Both",
+      "explanation": "Both A and B（AとBの両方）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼女が明日来ることを望みます。」となるように並び替えてください。",
+      "choices": ["tomorrow", "she", "will", "come", "hope", "that", "I"],
+      "answer": "Ihopethatshewillcometomorrow",
+      "explanation": "I hope that she will come tomorrow. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はピアノもギターも弾けません」\nShe plays neither the piano (      ) the guitar.",
+      "choices": [],
+      "answer": "nor",
+      "explanation": "neither A nor B（AもBも～ない）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「夏が好きですか、それとも冬が好きですか？」\nDo you like summer (      ) winter?",
+      "choices": ["or", "and", "but", "so"],
+      "answer": "or",
+      "explanation": "選択のorです。"
+    },
+    {
+      "type": "sort",
+      "question": "「暗くなる前に家に帰りなさい。」となるように並び替えてください。",
+      "choices": ["dark", "home", "it", "Go", "gets", "before"],
+      "answer": "Gohomebeforeitgetsdark",
+      "explanation": "Go home before it gets dark. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はとても疲れています、だからもう歩けません」\nI am very tired, (      ) I can't walk anymore.",
+      "choices": [],
+      "answer": "so",
+      "explanation": "結果のsoです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼が部屋に入ってきたとき、私は本を読んでいました」\nI was reading a book (      ) he entered the room.",
+      "choices": ["when", "if", "because", "so"],
+      "answer": "when",
+      "explanation": "When（～した時）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは彼が医者だと知っていますか？」となるように並び替えてください。",
+      "choices": ["know", "is", "that", "doctor", "Do", "you", "a", "he"],
+      "answer": "Doyouknowthatheisadoctor",
+      "explanation": "Do you know that he is a doctor? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「もし彼が来なければ、私たちは出発します」\n(      ) he doesn't come, we will start.",
+      "choices": [],
+      "answer": "If",
+      "explanation": "If（もし～なら）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼に会った、しかし話さなかった」\nI saw him, (      ) I didn't speak to him.",
+      "choices": ["but", "and", "so", "or"],
+      "answer": "but",
+      "explanation": "逆接のbutです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼がなぜ怒っているのか理解できません。」となるように並び替えてください。",
+      "choices": ["angry", "understand", "he", "can't", "is", "why", "I"],
+      "answer": "Ican'tunderstandwhyheisangry",
+      "explanation": "I can't understand why he is angry. 疑問詞whyが接続詞的に使われています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼だけでなく私も招待されました」\nNot only he (      ) also I was invited.",
+      "choices": [],
+      "answer": "but",
+      "explanation": "not only... but also... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「テレビを見終わったら宿題をしなさい」\nDo your homework (      ) you watch TV.",
+      "choices": ["after", "before", "when", "if"],
+      "answer": "after",
+      "explanation": "After（～した後で）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼が来るまで待ちます。」となるように並び替えてください。",
+      "choices": ["wait", "comes", "will", "he", "until", "I"],
+      "answer": "Iwillwaituntilhecomes",
+      "explanation": "I will wait until he comes. Until（～までずっと）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はそのニュースを聞いてうれしいです」\nI am glad (      ) I heard the news.",
+      "choices": [],
+      "answer": "that",
+      "explanation": "I am glad (that)... 感情の原因を表すthat節です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は貧しいが正直だ」\nHe is poor (      ) honest.",
+      "choices": ["but", "and", "so", "or"],
+      "answer": "but",
+      "explanation": "Poor（マイナス）とHonest（プラス）をつなぐ逆接のbutです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼が帰宅したとき、彼の母は料理をしていました。」となるように並び替えてください。",
+      "choices": ["home", "mother", "came", "cooking", "he", "When", "was", "his"],
+      "answer": "Whenhecamehomehismotherwascooking",
+      "explanation": "When he came home, his mother was cooking. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私か私の妹が手伝います」\nEither I (      ) my sister will help you.",
+      "choices": [],
+      "answer": "or",
+      "explanation": "Either A or Bです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「一生懸命勉強しました、だから試験に合格しました」\nI studied hard, (      ) I passed the exam.",
+      "choices": ["so", "because", "but", "or"],
+      "answer": "so",
+      "explanation": "結果のsoです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼が本当のことを言っていると思いますか？」となるように並び替えてください。",
+      "choices": ["truth", "telling", "think", "is", "he", "you", "that", "Do", "the"],
+      "answer": "Doyouthinkthatheistellingthetruth",
+      "explanation": "Do you think that he is telling the truth? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は走りましたが、バスに間に合いませんでした」\nHe ran, (      ) he missed the bus.",
+      "choices": [],
+      "answer": "but",
+      "explanation": "逆接のbutです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「お腹が空いていたので、パンを食べました」\nI ate bread (      ) I was hungry.",
+      "choices": ["because", "so", "if", "that"],
+      "answer": "because",
+      "explanation": "理由のBecauseです。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし雨が降ったら、私たちは家にいます。」となるように並び替えてください。",
+      "choices": ["stay", "will", "rains", "home", "If", "it", "we", "at"],
+      "answer": "Ifitrainswewillstayathome",
+      "explanation": "If it rains, we will stay at home. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は賢いだけでなく、美しい」\nShe is not only smart (      ) also beautiful.",
+      "choices": [],
+      "answer": "but",
+      "explanation": "not only... but also... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私が電話したとき、彼は寝ていました」\nHe was sleeping (      ) I called him.",
+      "choices": ["when", "if", "because", "so"],
+      "answer": "when",
+      "explanation": "時のWhenです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたが正しいと言わざるを得ません。」となるように並び替えてください。",
+      "choices": ["say", "right", "I", "must", "you", "that", "are"],
+      "answer": "Imustsaythatyouareright",
+      "explanation": "I must say that you are right. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「急ぎなさい、そうすれば間に合います」\nHurry up, (      ) you will be in time.",
+      "choices": [],
+      "answer": "and",
+      "explanation": "命令文 + and（そうすれば）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼も私もそれを知りません」\n(      ) he nor I know it.",
+      "choices": ["Neither", "Either", "Both", "All"],
+      "answer": "Neither",
+      "explanation": "Neither A nor Bです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼が来るまでここで待ちましょう。」となるように並び替えてください。",
+      "choices": ["wait", "until", "Let's", "here", "comes", "he"],
+      "answer": "Let'swaithereuntilhecomes",
+      "explanation": "Let's wait here until he comes. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたが好きなのは夏ですか、それとも冬ですか？」\nDo you like summer (      ) winter?",
+      "choices": [],
+      "answer": "or",
+      "explanation": "選択のorです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「朝食の前に歯を磨きなさい」\nBrush your teeth (      ) breakfast.",
+      "choices": ["before", "after", "when", "if"],
+      "answer": "before",
+      "explanation": "Before（～の前に）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼が先生だと知っています。」となるように並び替えてください。",
+      "choices": ["teacher", "know", "is", "a", "he", "I", "that"],
+      "answer": "Iknowthatheisateacher",
+      "explanation": "I know that he is a teacher. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は行きたかったが、行けなかった」\nI wanted to go, (      ) I couldn't.",
+      "choices": [],
+      "answer": "but",
+      "explanation": "逆接のbutです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「宿題が終わった後、テレビを見ました」\nI watched TV (      ) I finished my homework.",
+      "choices": ["after", "before", "when", "if"],
+      "answer": "after",
+      "explanation": "After（～した後で）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「バスか電車のどちらかで行けます。」となるように並び替えてください。",
+      "choices": ["by", "go", "can", "train", "or", "bus", "You", "either"],
+      "answer": "Youcangoeitherbybusortrain",
+      "explanation": "You can go either by bus or train. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はとても忙しいので、来られません」\nHe is very busy, (      ) he can't come.",
+      "choices": [],
+      "answer": "so",
+      "explanation": "結果のsoです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼女が親切だと信じています」\nI believe (      ) she is kind.",
+      "choices": ["that", "what", "which", "if"],
+      "answer": "that",
+      "explanation": "I believe that... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「もし彼に会ったら、よろしく伝えてください。」となるように並び替えてください。",
+      "choices": ["him", "to", "see", "hello", "say", "If", "him", "you"],
+      "answer": "Ifyouseehimsayhellotohim",
+      "explanation": "If you see him, say hello to him. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は犬と猫の両方が好きです」\nI like (      ) dogs and cats.",
+      "choices": [],
+      "answer": "both",
+      "explanation": "both A and Bです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼が部屋に入ってきた時、みんな立ち上がった」\n(      ) he entered the room, everyone stood up.",
+      "choices": ["When", "If", "Because", "So"],
+      "answer": "When",
+      "explanation": "When（～した時）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は病気だったので、寝ていました。」となるように並び替えてください。",
+      "choices": ["bed", "was", "sick", "in", "He", "he", "because", "stayed"],
+      "answer": "Hestayedinbedbecausehewassick",
+      "explanation": "He stayed in bed because he was sick. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は泳げないし、走ることもできません」\nShe can (      ) swim nor run.",
+      "choices": [],
+      "answer": "neither",
+      "explanation": "neither A nor Bです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「静かにしなさい、さもないとここを出ていってもらいます」\nBe quiet, (      ) you have to leave.",
+      "choices": ["or", "and", "but", "so"],
+      "answer": "or",
+      "explanation": "命令文 + or（さもないと）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼が何歳か知りません。」となるように並び替えてください。",
+      "choices": ["old", "how", "don't", "is", "he", "know", "I"],
+      "answer": "Idon'tknowhowoldheis",
+      "explanation": "I don't know how old he is. 間接疑問文です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それが終わるまでここで待っています」\nI will wait here (      ) it is over.",
+      "choices": [],
+      "answer": "until",
+      "explanation": "Until（～まで）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼が正直だと確信しています」\nI am sure (      ) he is honest.",
+      "choices": ["that", "what", "which", "if"],
+      "answer": "that",
+      "explanation": "I am sure (that)...（～だと確信している）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はこの本もあの本も読みました。」となるように並び替えてください。",
+      "choices": ["book", "this", "both", "read", "that", "and", "book", "I"],
+      "answer": "Ireadboththisbookandthatbook",
+      "explanation": "I read both this book and that book. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「雨が降ったけれど、私たちは出かけました」\nIt rained, (      ) we went out.",
+      "choices": [],
+      "answer": "but",
+      "explanation": "逆接のbutです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼が来る前に掃除をしましょう」\nLet's clean (      ) he comes.",
+      "choices": ["before", "after", "when", "if"],
+      "answer": "before",
+      "explanation": "Before（～する前に）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼が忙しいので、手伝えません。」となるように並び替えてください。",
+      "choices": ["busy", "can't", "is", "him", "he", "because", "help", "I"],
+      "answer": "Ican'thelphimbecauseheisbusy",
+      "explanation": "I can't help him because he is busy. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「一生懸命練習しなさい、そうすれば勝てます」\nPractice hard, (      ) you can win.",
+      "choices": [],
+      "answer": "and",
+      "explanation": "命令文 + and（そうすれば）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼が来るとは思いません」\nI don't think (      ) he will come.",
+      "choices": ["that", "what", "if", "when"],
+      "answer": "that",
+      "explanation": "I don't think that... 否定の内容はthinkの前にdon'tを置くのが一般的です。"
+    }
+  ]
+}

@@ -1,0 +1,678 @@
+{
+  "learning_topic": "疑問詞",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「これは何ですか？」\n(      ) is this?",
+      "choices": ["What", "Who", "Where", "When"],
+      "answer": "What",
+      "explanation": "「何」と物を尋ねる時はWhatを使います。What is this? は基本中の基本です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたの名前は何ですか？」となるように並び替えてください。",
+      "choices": ["name", "your", "is", "What"],
+      "answer": "Whatisyourname",
+      "explanation": "What is your name? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あの少年は誰ですか？」\n(      ) is that boy?",
+      "choices": [],
+      "answer": "Who",
+      "explanation": "「誰」と人を尋ねる時はWhoを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたはどこに住んでいますか？」\n(      ) do you live?",
+      "choices": ["Where", "When", "Who", "What"],
+      "answer": "Where",
+      "explanation": "「どこ」と場所を尋ねる時はWhereを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたの誕生日はいつですか？」となるように並び替えてください。",
+      "choices": ["birthday", "your", "is", "When"],
+      "answer": "Whenisyourbirthday",
+      "explanation": "When is your birthday? 「いつ」と時を尋ねる時はWhenを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「元気ですか？（どのようにしていますか？）」\n(      ) are you?",
+      "choices": [],
+      "answer": "How",
+      "explanation": "How are you? 「どのように（状態）」を尋ねる時はHowを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「なぜあなたは泣いているのですか？」\n(      ) are you crying?",
+      "choices": ["Why", "Where", "Who", "What"],
+      "answer": "Why",
+      "explanation": "「なぜ（理由）」を尋ねる時はWhyを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「これは誰のペンですか？」となるように並び替えてください。",
+      "choices": ["pen", "is", "Whose", "this"],
+      "answer": "Whosepenisthis",
+      "explanation": "Whose pen is this? 「誰の」と所有者を尋ねる時はWhoseを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「今、何時ですか？」\n(      ) time is it now?",
+      "choices": [],
+      "answer": "What",
+      "explanation": "What time...? で時刻を尋ねる決まり文句です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「どちらがあなたの車ですか？」\n(      ) is your car?",
+      "choices": ["Which", "What", "Who", "Where"],
+      "answer": "Which",
+      "explanation": "「どちら（選択）」を尋ねる時はWhichを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「駅はどこですか？」となるように並び替えてください。",
+      "choices": ["station", "the", "Where", "is"],
+      "answer": "Whereisthestation",
+      "explanation": "Where is the station? 道を聞く時の基本フレーズです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は何歳ですか？」\n(      ) old is he?",
+      "choices": [],
+      "answer": "How",
+      "explanation": "How old...? で年齢を尋ねます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は誰ですか？」\n(      ) is she?",
+      "choices": ["Who", "What", "Which", "When"],
+      "answer": "Who",
+      "explanation": "Who is she? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは何をしているのですか？」となるように並び替えてください。",
+      "choices": ["doing", "you", "are", "What"],
+      "answer": "Whatareyoudoing",
+      "explanation": "What are you doing? 現在進行形と一緒に使い、相手の行動を尋ねます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「夏休みはいつですか？」\n(      ) is summer vacation?",
+      "choices": [],
+      "answer": "When",
+      "explanation": "When is summer vacation? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「どうやって学校に行きますか？（手段）」\n(      ) do you go to school?",
+      "choices": ["How", "What", "Where", "Who"],
+      "answer": "How",
+      "explanation": "How do you go...? で交通手段や方法を尋ねます。"
+    },
+    {
+      "type": "sort",
+      "question": "「なぜあなたは英語を勉強するのですか？」となるように並び替えてください。",
+      "choices": ["study", "English", "you", "do", "Why"],
+      "answer": "WhydoyoustudyEnglish",
+      "explanation": "Why do you study English? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは何が好きですか？」\n(      ) do you like?",
+      "choices": [],
+      "answer": "What",
+      "explanation": "What do you like? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「トイレはどこですか？」\n(      ) is the bathroom?",
+      "choices": ["Where", "What", "Who", "When"],
+      "answer": "Where",
+      "explanation": "Where is the bathroom? 海外旅行で最も重要なフレーズの一つです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あの女性は誰ですか？」となるように並び替えてください。",
+      "choices": ["woman", "that", "Who", "is"],
+      "answer": "Whoisthatwoman",
+      "explanation": "Who is that woman? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「どのくらい（値段）ですか？」\n(      ) much is it?",
+      "choices": [],
+      "answer": "How",
+      "explanation": "How much...? で値段や量を尋ねます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたのお気に入りの色は何ですか？」\n(      ) is your favorite color?",
+      "choices": ["What", "Which", "Who", "How"],
+      "answer": "What",
+      "explanation": "What is your favorite...? は相手の好みを尋ねる定番の質問です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはいつ宿題をしますか？」となるように並び替えてください。",
+      "choices": ["homework", "your", "do", "you", "do", "When"],
+      "answer": "Whendoyoudoyourhomework",
+      "explanation": "When do you do your homework? 疑問詞When + 疑問文の語順です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「なぜ遅刻したのですか？」\n(      ) are you late?",
+      "choices": [],
+      "answer": "Why",
+      "explanation": "Why are you late? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「誰がこのケーキを作りましたか？」\n(      ) made this cake?",
+      "choices": ["Who", "What", "Where", "When"],
+      "answer": "Who",
+      "explanation": "Whoが主語になる場合、後ろにはすぐに動詞が来ます（肯定文と同じ語順）。"
+    },
+    {
+      "type": "sort",
+      "question": "「あの男の人は誰ですか？」となるように並び替えてください。",
+      "choices": ["man", "that", "is", "Who"],
+      "answer": "Whoisthatman",
+      "explanation": "Who is that man? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「天気はどうですか？」\n(      ) is the weather?",
+      "choices": [],
+      "answer": "How",
+      "explanation": "How is the weather? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは何が欲しいですか？」\n(      ) do you want?",
+      "choices": ["What", "Where", "When", "Who"],
+      "answer": "What",
+      "explanation": "What do you want? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはどこへ行きますか？」となるように並び替えてください。",
+      "choices": ["go", "you", "do", "Where"],
+      "answer": "Wheredoyougo",
+      "explanation": "Where do you go? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「パーティーはいつ始まりますか？」\n(      ) does the party start?",
+      "choices": [],
+      "answer": "When",
+      "explanation": "When does the party start? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これは誰のカバンですか？」\n(      ) bag is this?",
+      "choices": ["Whose", "Who", "Which", "What"],
+      "answer": "Whose",
+      "explanation": "Whose bag...? で「誰のカバン」となります。"
+    },
+    {
+      "type": "sort",
+      "question": "「なぜあなたは疲れているのですか？」となるように並び替えてください。",
+      "choices": ["tired", "you", "are", "Why"],
+      "answer": "Whyareyoutired",
+      "explanation": "Why are you tired? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「身長はどのくらいですか？」\n(      ) tall are you?",
+      "choices": [],
+      "answer": "How",
+      "explanation": "How tall...? で身長や高さを尋ねます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは何時におきますか？」\n(      ) time do you get up?",
+      "choices": ["What", "When", "Which", "How"],
+      "answer": "What",
+      "explanation": "What time do you get up? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私のメガネはどこですか？」となるように並び替えてください。",
+      "choices": ["glasses", "my", "are", "Where"],
+      "answer": "Wherearemyglasses",
+      "explanation": "Where are my glasses? Glassesは複数形なのでbe動詞はareを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「コーヒーと紅茶、どちらが好きですか？」\n(      ) do you like, coffee or tea?",
+      "choices": [],
+      "answer": "Which",
+      "explanation": "Which do you like...? 二者択一の質問ではWhichを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はどうやってここに来ましたか？」\n(      ) did he come here?",
+      "choices": ["How", "What", "Who", "Which"],
+      "answer": "How",
+      "explanation": "How did he come here? 交通手段を聞いています。"
+    },
+    {
+      "type": "sort",
+      "question": "「あれは何ですか？」となるように並び替えてください。",
+      "choices": ["that", "is", "What"],
+      "answer": "Whatisthat",
+      "explanation": "What is that? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはいつ勉強しますか？」\n(      ) do you study?",
+      "choices": [],
+      "answer": "When",
+      "explanation": "When do you study? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「誰があなたを手伝いますか？」\n(      ) helps you?",
+      "choices": ["Who", "What", "Where", "When"],
+      "answer": "Who",
+      "explanation": "Who helps you? Whoが主語の場合、動詞には三単現のsがつきます（誰か一人を想定する場合）。"
+    },
+    {
+      "type": "sort",
+      "question": "「なぜあなたは走っているのですか？」となるように並び替えてください。",
+      "choices": ["running", "you", "are", "Why"],
+      "answer": "Whyareyourunning",
+      "explanation": "Why are you running? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これは何の種類の花ですか？」\n(      ) kind of flower is this?",
+      "choices": [],
+      "answer": "What",
+      "explanation": "What kind of...? で「どんな種類の～」と尋ねます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたはどこ出身ですか？」\n(      ) are you from?",
+      "choices": ["Where", "When", "Who", "What"],
+      "answer": "Where",
+      "explanation": "Where are you from? 出身地を聞く定番フレーズです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは何を探しているのですか？」となるように並び替えてください。",
+      "choices": ["for", "looking", "you", "are", "What"],
+      "answer": "Whatareyoulookingfor",
+      "explanation": "What are you looking for? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あの背の高い男性は誰ですか？」\n(      ) is that tall man?",
+      "choices": [],
+      "answer": "Who",
+      "explanation": "Who is that tall man? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「兄弟は何人いますか？」\n(      ) many brothers do you have?",
+      "choices": ["How", "What", "Which", "Who"],
+      "answer": "How",
+      "explanation": "How many...? で数を尋ねます。"
+    },
+    {
+      "type": "sort",
+      "question": "「次のバスはいつ来ますか？」となるように並び替えてください。",
+      "choices": ["come", "bus", "next", "the", "does", "When"],
+      "answer": "Whendoesthenextbuscome",
+      "explanation": "When does the next bus come? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはどちらが欲しいですか？」\n(      ) do you want?",
+      "choices": [],
+      "answer": "Which",
+      "explanation": "Which do you want? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたのカバンはどこですか？」\n(      ) is your bag?",
+      "choices": ["Where", "What", "Who", "When"],
+      "answer": "Where",
+      "explanation": "Where is your bag? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「なぜあなたはそんなに忙しいのですか？」となるように並び替えてください。",
+      "choices": ["busy", "so", "you", "are", "Why"],
+      "answer": "Whyareyousobusy",
+      "explanation": "Why are you so busy? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「この単語はどう発音しますか？」\n(      ) do you pronounce this word?",
+      "choices": [],
+      "answer": "How",
+      "explanation": "How do you pronounce...? 方法を聞くHowです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「誰が窓を割ったのですか？」\n(      ) broke the window?",
+      "choices": ["Who", "What", "Where", "Why"],
+      "answer": "Who",
+      "explanation": "Who broke the window? 犯人を尋ねています。"
+    },
+    {
+      "type": "sort",
+      "question": "「これは何の絵ですか？」となるように並び替えてください。",
+      "choices": ["picture", "this", "is", "of", "What"],
+      "answer": "Whatisthispictureof",
+      "explanation": "What is this picture of? 直訳すると「これは何の絵ですか」です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「いつ出発しましょうか？」\n(      ) shall we start?",
+      "choices": [],
+      "answer": "When",
+      "explanation": "When shall we start? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「郵便局はどこですか？」\n(      ) is the post office?",
+      "choices": ["Where", "What", "Who", "When"],
+      "answer": "Where",
+      "explanation": "Where is the post office? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「これは誰の自転車ですか？」となるように並び替えてください。",
+      "choices": ["bike", "this", "Whose", "is"],
+      "answer": "Whosebikeisthis",
+      "explanation": "Whose bike is this? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「どれくらいの長さですか？」\n(      ) long is it?",
+      "choices": [],
+      "answer": "How",
+      "explanation": "How long...? で時間や距離の長さを尋ねます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「なぜあなたは日本語を勉強するのですか？」\n(      ) do you study Japanese?",
+      "choices": ["Why", "Where", "Who", "What"],
+      "answer": "Why",
+      "explanation": "Why do you study Japanese? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「昨日は何をしましたか？」となるように並び替えてください。",
+      "choices": ["do", "yesterday", "you", "did", "What"],
+      "answer": "Whatdidyoudoyesterday",
+      "explanation": "What did you do yesterday? 過去のことを聞く時はdidを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「誰が部屋にいますか？」\n(      ) is in the room?",
+      "choices": [],
+      "answer": "Who",
+      "explanation": "Who is in the room? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「どのバスに乗ればいいですか？」\n(      ) bus should I take?",
+      "choices": ["Which", "Who", "Where", "When"],
+      "answer": "Which",
+      "explanation": "Which bus...? 特定の選択肢の中から選ぶ時はWhichを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「駅までどのくらい（距離）ですか？」となるように並び替えてください。",
+      "choices": ["far", "it", "is", "station", "to", "the", "How"],
+      "answer": "Howfarisitfromtothestation",
+      "explanation": "How far is it to the station? 距離を聞く時はHow farを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはいつ寝ますか？」\n(      ) do you go to bed?",
+      "choices": [],
+      "answer": "When",
+      "explanation": "When do you go to bed? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「どうしてそんなことを言うの？」\n(      ) do you say that?",
+      "choices": ["Why", "Where", "Who", "When"],
+      "answer": "Why",
+      "explanation": "Why do you say that? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはどこへ行きたいですか？」となるように並び替えてください。",
+      "choices": ["go", "to", "want", "you", "do", "Where"],
+      "answer": "Wheredoyouwanttogo",
+      "explanation": "Where do you want to go? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「誰がピアノを弾いていますか？」\n(      ) is playing the piano?",
+      "choices": [],
+      "answer": "Who",
+      "explanation": "Who is playing the piano? 誰が～しているのですか、という進行形の疑問文です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これは何色ですか？」\n(      ) color is this?",
+      "choices": ["What", "Who", "Where", "How"],
+      "answer": "What",
+      "explanation": "What color is this? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはそれをどうやって作りましたか？」となるように並び替えてください。",
+      "choices": ["make", "it", "did", "you", "How"],
+      "answer": "Howdidyoumakeit",
+      "explanation": "How did you make it? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「誰が勝ちましたか？」\n(      ) won?",
+      "choices": [],
+      "answer": "Who",
+      "explanation": "Who won? wonはwin（勝つ）の過去形です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「いつ帰ってきますか？」\n(      ) will you come back?",
+      "choices": ["When", "Where", "Who", "Why"],
+      "answer": "When",
+      "explanation": "When will you come back? 未来のことを聞く時はwillを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「一番近い銀行はどこですか？」となるように並び替えてください。",
+      "choices": ["bank", "nearest", "the", "is", "Where"],
+      "answer": "Whereisthenearestbank",
+      "explanation": "Where is the nearest bank? Nearestは「一番近い」という意味です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「何を考えているの？」\n(      ) are you thinking?",
+      "choices": [],
+      "answer": "What",
+      "explanation": "What are you thinking? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「どの本があなたのものですか？」\n(      ) book is yours?",
+      "choices": ["Which", "Who", "When", "Why"],
+      "answer": "Which",
+      "explanation": "Which book is yours? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「なぜ空は青いのですか？」となるように並び替えてください。",
+      "choices": ["blue", "sky", "is", "the", "Why"],
+      "answer": "Whyistheskyblue",
+      "explanation": "Why is the sky blue? 子供がよくする質問です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「どういう意味ですか？」\n(      ) do you mean?",
+      "choices": [],
+      "answer": "What",
+      "explanation": "What do you mean? 相手の言ったことが分からない時に使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「誰があなたの先生ですか？」\n(      ) is your teacher?",
+      "choices": ["Who", "What", "Where", "When"],
+      "answer": "Who",
+      "explanation": "Who is your teacher? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「コンサートは何時に始まりますか？」となるように並び替えてください。",
+      "choices": ["concert", "the", "start", "does", "time", "What"],
+      "answer": "Whattimedoestheconcertstart",
+      "explanation": "What time does the concert start? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「どこへ行けばいいですか？（私はどこへ行くべきですか）」\n(      ) should I go?",
+      "choices": [],
+      "answer": "Where",
+      "explanation": "Where should I go? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「なぜそれが好きなのですか？」\n(      ) do you like it?",
+      "choices": ["Why", "Where", "Who", "When"],
+      "answer": "Why",
+      "explanation": "Why do you like it? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「どうやってそれを知ったのですか？」となるように並び替えてください。",
+      "choices": ["know", "that", "you", "did", "How"],
+      "answer": "Howdidyouknowthat",
+      "explanation": "How did you know that? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「誰と話しているのですか？」\n(      ) are you talking to?",
+      "choices": [],
+      "answer": "Who",
+      "explanation": "Who are you talking to? 文末の前置詞toを忘れないようにしましょう。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これは誰のアイディアですか？」\n(      ) idea is this?",
+      "choices": ["Whose", "Who", "Which", "What"],
+      "answer": "Whose",
+      "explanation": "Whose idea is this? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「日本で一番高い山は何ですか？」となるように並び替えてください。",
+      "choices": ["mountain", "highest", "the", "is", "Japan", "in", "What"],
+      "answer": "WhatisthehighestmountaininJapan",
+      "explanation": "What is the highest mountain in Japan? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはいつ暇ですか？」\n(      ) are you free?",
+      "choices": [],
+      "answer": "When",
+      "explanation": "When are you free? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「どうでしたか？（それはどうでしたか？）」\n(      ) was it?",
+      "choices": ["How", "What", "Who", "Where"],
+      "answer": "How",
+      "explanation": "How was it? 感想を聞く時の表現です。"
+    },
+    {
+      "type": "sort",
+      "question": "「どちらがあなたのペンですか、赤、それとも青？」となるように並び替えてください。",
+      "choices": ["blue", "or", "red", "pen", "your", "is", "Which"],
+      "answer": "Whichisyourpenredorblue",
+      "explanation": "Which is your pen, red or blue? 選択肢を提示する聞き方です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「何が起きたのですか？」\n(      ) happened?",
+      "choices": [],
+      "answer": "What",
+      "explanation": "What happened? 状況を尋ねる決まり文句です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「どこで会いましょうか？」\n(      ) shall we meet?",
+      "choices": ["Where", "What", "Who", "Why"],
+      "answer": "Where",
+      "explanation": "Where shall we meet? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは誰を待っているのですか？」となるように並び替えてください。",
+      "choices": ["for", "waiting", "you", "are", "Who"],
+      "answer": "Whoareyouwaitingfor",
+      "explanation": "Who are you waiting for? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「なぜだめなのですか？」\n(      ) not?",
+      "choices": [],
+      "answer": "Why",
+      "explanation": "Why not? 提案に賛成する時（もちろん！）や、禁止された理由を聞く時（なぜだめ？）に使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「調子はどうですか？」\n(      ) is it going?",
+      "choices": ["How", "What", "Where", "When"],
+      "answer": "How",
+      "explanation": "How is it going? くだけた挨拶の表現です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはいつ宿題を終えましたか？」となるように並び替えてください。",
+      "choices": ["finish", "homework", "your", "did", "you", "When"],
+      "answer": "Whendidyoufinishyourhomework",
+      "explanation": "When did you finish your homework? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたのカバンの中には何が入っていますか？」\n(      ) is in your bag?",
+      "choices": [],
+      "answer": "What",
+      "explanation": "What is in your bag? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「どちらの道を行けばいいですか？」\n(      ) way should I go?",
+      "choices": ["Which", "What", "Who", "When"],
+      "answer": "Which",
+      "explanation": "Which way should I go? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰があなたの親友ですか？」となるように並び替えてください。",
+      "choices": ["friend", "best", "your", "is", "Who"],
+      "answer": "Whoisyourbestfriend",
+      "explanation": "Who is your best friend? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「そこまでどのくらいかかりますか（時間）？」\n(      ) long does it take?",
+      "choices": [],
+      "answer": "How",
+      "explanation": "How long does it take? 所要時間を尋ねる表現です。"
+    }
+  ]
+}

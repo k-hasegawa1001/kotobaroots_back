@@ -1,0 +1,664 @@
+{
+  "learning_topic": "現在進行形",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「私は今、テニスをしています」\nI (      ) playing tennis now.",
+      "choices": ["am", "is", "are", "do"],
+      "answer": "am",
+      "explanation": "現在進行形の公式は「be動詞 + ~ing」です。主語がIなのでamを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は走っています。」となるように並び替えてください。",
+      "choices": ["running", "is", "He"],
+      "answer": "Heisrunning",
+      "explanation": "He is running. です。Runはnを重ねてrunningにします。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はピアノを弾いています」\nShe is (      ) the piano.",
+      "choices": [],
+      "answer": "playing",
+      "explanation": "Playにingをつけてplayingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは英語を勉強しています」\nWe (      ) studying English.",
+      "choices": ["are", "is", "am", "do"],
+      "answer": "are",
+      "explanation": "We（私たち）は複数なのでareを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは昼食を食べています。」となるように並び替えてください。",
+      "choices": ["eating", "lunch", "are", "They"],
+      "answer": "Theyareeatinglunch",
+      "explanation": "They are eating lunch. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ケンは本を読んでいます」\nKen is (      ) a book.",
+      "choices": [],
+      "answer": "reading",
+      "explanation": "Readにingをつけてreadingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は手紙を書いています」\nI am (      ) a letter.",
+      "choices": ["writing", "writeing", "writting", "writes"],
+      "answer": "writing",
+      "explanation": "Write（eで終わる語）は、eを取ってingをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは今、何をしていますか？」となるように並び替えてください。",
+      "choices": ["doing", "now", "you", "are", "What"],
+      "answer": "Whatareyoudoingnow",
+      "explanation": "What are you doing now? 現在進行形の疑問文です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は泳いでいます」\nHe is (      ).",
+      "choices": [],
+      "answer": "swimming",
+      "explanation": "Swim（短母音+子音字）は、最後の子音を重ねてswimmingにします。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は料理をしていますか？」\n(      ) she cooking?",
+      "choices": ["Is", "Does", "Do", "Are"],
+      "answer": "Is",
+      "explanation": "現在進行形の疑問文はbe動詞（Is）を文頭に出します。Doesではありません。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はテレビを見ていません。」となるように並び替えてください。",
+      "choices": ["watching", "not", "TV", "am", "I"],
+      "answer": "IamnotwatchingTV",
+      "explanation": "I am not watching TV. 否定文はbe動詞の後ろにnotを置きます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは歌を歌っています」\nThey are (      ) a song.",
+      "choices": [],
+      "answer": "singing",
+      "explanation": "Singにingをつけてsingingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「トムは自分の部屋を掃除しています」\nTom (      ) cleaning his room.",
+      "choices": ["is", "are", "am", "does"],
+      "answer": "is",
+      "explanation": "Tomは三人称単数なのでisを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「雨が降っています。」となるように並び替えてください。",
+      "choices": ["raining", "It", "is"],
+      "answer": "Itisraining",
+      "explanation": "It is raining. 天気のItを使って進行形で表します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私の父は車を洗っています」\nMy father is (      ) the car.",
+      "choices": [],
+      "answer": "washing",
+      "explanation": "Washにingをつけてwashingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは公園で走っていますか？」\n(      ) they running in the park?",
+      "choices": ["Are", "Do", "Is", "Does"],
+      "answer": "Are",
+      "explanation": "Theyが主語なのでAreを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は音楽を聴いています。」となるように並び替えてください。",
+      "choices": ["listening", "to", "music", "am", "I"],
+      "answer": "Iamlisteningtomusic",
+      "explanation": "I am listening to music. Listen toの形を崩さないように注意です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは朝食を作っています」\nWe are (      ) breakfast.",
+      "choices": [],
+      "answer": "making",
+      "explanation": "Makeのeを取ってmakingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「鳥が空を飛んでいます」\nA bird is (      ) in the sky.",
+      "choices": ["flying", "fliing", "flyying", "flieing"],
+      "answer": "flying",
+      "explanation": "Flyはそのままingをつけてflyingです（yをiに変えるのは三単現や過去形の時です）。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰がピアノを弾いていますか？」となるように並び替えてください。",
+      "choices": ["piano", "playing", "the", "Who", "is"],
+      "answer": "Whoisplayingthepiano",
+      "explanation": "Who is playing the piano? 疑問詞Whoが主語になるパターンです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は来ていますか？」\nIs she (      )?",
+      "choices": [],
+      "answer": "coming",
+      "explanation": "Comeのeを取ってcomingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは今、勉強していません」\nThey (      ) studying now.",
+      "choices": ["aren't", "don't", "isn't", "not"],
+      "answer": "aren't",
+      "explanation": "They are not... の短縮形aren'tを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「その猫は眠っています。」となるように並び替えてください。",
+      "choices": ["sleeping", "cat", "is", "The"],
+      "answer": "Thecatissleeping",
+      "explanation": "The cat is sleeping. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は写真を撮っています」\nI am (      ) pictures.",
+      "choices": [],
+      "answer": "taking",
+      "explanation": "Takeのeを取ってtakingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは何を待っていますか？」\nWhat are you (      ) for?",
+      "choices": ["waiting", "wait", "waitting", "waiter"],
+      "answer": "waiting",
+      "explanation": "Waitにingをつけてwaitingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はベンチに座っています。」となるように並び替えてください。",
+      "choices": ["sitting", "bench", "on", "He", "is", "the"],
+      "answer": "Heissittingonthebench",
+      "explanation": "He is sitting on the bench. Sitはtを重ねてsittingにします。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私の母は夕食を料理しています」\nMy mother is (      ) dinner.",
+      "choices": [],
+      "answer": "cooking",
+      "explanation": "Cookにingをつけてcookingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「雪が降っていますか？」\n(      ) it snowing?",
+      "choices": ["Is", "Does", "Do", "Are"],
+      "answer": "Is",
+      "explanation": "Itが主語なのでIsで始めます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はコンピュータを使っています。」となるように並び替えてください。",
+      "choices": ["using", "computer", "a", "am", "I"],
+      "answer": "Iamusingacomputer",
+      "explanation": "I am using a computer. Useのeを取ってusingです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは笑っています」\nThey are (      ).",
+      "choices": [],
+      "answer": "laughing",
+      "explanation": "Laugh（笑う）にingをつけてlaughingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の兄は今、働いています」\nMy brother is (      ) now.",
+      "choices": ["working", "work", "works", "workking"],
+      "answer": "working",
+      "explanation": "Workにingをつけてworkingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは英語を話していますか？」となるように並び替えてください。",
+      "choices": ["speaking", "English", "you", "Are"],
+      "answer": "AreyouspeakingEnglish",
+      "explanation": "Are you speaking English? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はダンスをしています」\nShe is (      ).",
+      "choices": [],
+      "answer": "dancing",
+      "explanation": "Danceのeを取ってdancingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちはバスを待っています」\nWe are waiting (      ) the bus.",
+      "choices": ["for", "to", "at", "in"],
+      "answer": "for",
+      "explanation": "Wait for（～を待つ）という熟語の進行形です。"
+    },
+    {
+      "type": "sort",
+      "question": "「子供たちは公園で遊んでいます。」となるように並び替えてください。",
+      "choices": ["playing", "park", "children", "The", "are", "in", "the"],
+      "answer": "Thechildrenareplayinginthepark",
+      "explanation": "The children are playing in the park. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「太陽が輝いています」\nThe sun is (      ).",
+      "choices": [],
+      "answer": "shining",
+      "explanation": "Shine（輝く）のeを取ってshiningです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは泳いでいません」\nThey (      ) swimming.",
+      "choices": ["aren't", "isn't", "don't", "doesn't"],
+      "answer": "aren't",
+      "explanation": "They aren't swimming. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「どこへ行くところですか？」となるように並び替えてください。",
+      "choices": ["going", "you", "are", "Where"],
+      "answer": "Whereareyougoing",
+      "explanation": "Where are you going? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「マイクは自転車に乗っています」\nMike is (      ) a bike.",
+      "choices": [],
+      "answer": "riding",
+      "explanation": "Rideのeを取ってridingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は微笑んでいます」\nShe is (      ).",
+      "choices": ["smiling", "smileing", "smilling", "smiles"],
+      "answer": "smiling",
+      "explanation": "Smileのeを取ってsmilingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は一生懸命勉強しています。」となるように並び替えてください。",
+      "choices": ["hard", "studying", "is", "He"],
+      "answer": "Heisstudyinghard",
+      "explanation": "He is studying hard. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は宿題をしています」\nI am (      ) my homework.",
+      "choices": [],
+      "answer": "doing",
+      "explanation": "Doにingをつけてdoingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ジョンとメアリーは話しています」\nJohn and Mary (      ) talking.",
+      "choices": ["are", "is", "am", "do"],
+      "answer": "are",
+      "explanation": "主語が2人（複数）なのでareを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はお皿を洗っています。」となるように並び替えてください。",
+      "choices": ["washing", "dishes", "is", "She", "the"],
+      "answer": "Sheiswashingthedishes",
+      "explanation": "She is washing the dishes. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「そのバスは止まりかけています（止まろうとしています）」\nThe bus is (      ).",
+      "choices": [],
+      "answer": "stopping",
+      "explanation": "Stopはpを重ねてstoppingにします。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは冗談を言っているのですか？」\n(      ) you joking?",
+      "choices": ["Are", "Do", "Is", "Have"],
+      "answer": "Are",
+      "explanation": "Are you joking? Joke（冗談を言う）のeを取ってjokingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は本を読んでいません。」となるように並び替えてください。",
+      "choices": ["reading", "a", "not", "book", "am", "I"],
+      "answer": "Iamnotreadingabook",
+      "explanation": "I am not reading a book. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らはコーヒーを飲んでいます」\nThey are (      ) coffee.",
+      "choices": [],
+      "answer": "drinking",
+      "explanation": "Drinkにingをつけてdrinkingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は泣いていますか？」\nIs she (      )?",
+      "choices": ["crying", "cryying", "criing", "cries"],
+      "answer": "crying",
+      "explanation": "Cryはそのままingをつけてcryingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は歯を磨いています。」となるように並び替えてください。",
+      "choices": ["brushing", "teeth", "He", "his", "is"],
+      "answer": "Heisbrushinghisteeth",
+      "explanation": "He is brushing his teeth. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は今、出発するところです」\nI am (      ) now.",
+      "choices": [],
+      "answer": "leaving",
+      "explanation": "Leaveのeを取ってleavingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちはテレビを見ています」\nWe are (      ) TV.",
+      "choices": ["watching", "looking", "seeing", "watch"],
+      "answer": "watching",
+      "explanation": "テレビを見る時はwatchを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰が夕食を作っていますか？」となるように並び替えてください。",
+      "choices": ["dinner", "cooking", "Who", "is"],
+      "answer": "Whoiscookingdinner",
+      "explanation": "Who is cooking dinner? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは楽しんでいます（楽しい時を過ごしています）」\nThey are (      ) a good time.",
+      "choices": [],
+      "answer": "having",
+      "explanation": "Have a good timeの進行形、having a good timeです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その赤ちゃんは寝ています」\nThe baby is (      ).",
+      "choices": ["sleeping", "sleep", "sleeps", "sleepping"],
+      "answer": "sleeping",
+      "explanation": "Sleepにingをつけてsleepingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は箱を運んでいます。」となるように並び替えてください。",
+      "choices": ["carrying", "box", "a", "She", "is"],
+      "answer": "Sheiscarryingabox",
+      "explanation": "She is carrying a box. Carryはそのままingをつけてcarryingです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はシャワーを浴びています」\nI am (      ) a shower.",
+      "choices": [],
+      "answer": "taking",
+      "explanation": "Take a showerの進行形です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は自分の車を洗っていますか？」\nIs he (      ) his car?",
+      "choices": ["washing", "wash", "washes", "washed"],
+      "answer": "washing",
+      "explanation": "Is he washing...? です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは映画を見ています。」となるように並び替えてください。",
+      "choices": ["movie", "watching", "a", "We", "are"],
+      "answer": "Wearewatchingamovie",
+      "explanation": "We are watching a movie. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は買い物に行っています」\nShe is (      ) shopping.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "Go shoppingの進行形です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の父は釣りに行っています」\nMy father is (      ) fishing.",
+      "choices": ["going", "go", "gone", "went"],
+      "answer": "going",
+      "explanation": "Go fishingの進行形です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼を探しています。」となるように並び替えてください。",
+      "choices": ["looking", "him", "for", "am", "I"],
+      "answer": "Iamlookingforhim",
+      "explanation": "I am looking for him. Look for（探す）の進行形です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「風が吹いています」\nThe wind is (      ).",
+      "choices": [],
+      "answer": "blowing",
+      "explanation": "Blow（吹く）にingをつけてblowingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは嘘をついている」\nYou are (      ) a lie.",
+      "choices": ["telling", "saying", "speaking", "talking"],
+      "answer": "telling",
+      "explanation": "Tell a lie（嘘をつく）の進行形です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は死にかけています（死につつあります）。」となるように並び替えてください。",
+      "choices": ["dying", "is", "He"],
+      "answer": "Heisdying",
+      "explanation": "He is dying. Die（死ぬ）はieをyに変えてingをつける特殊な変化をします。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らはサッカーをしています」\nThey are (      ) soccer.",
+      "choices": [],
+      "answer": "playing",
+      "explanation": "Playにingをつけてplayingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はただ見ているだけです（お店などで）」\nI am just (      ).",
+      "choices": ["looking", "watching", "seeing", "viewing"],
+      "answer": "looking",
+      "explanation": "I am just looking. 店員に話しかけられた時の定番の返事です。"
+    },
+    {
+      "type": "sort",
+      "question": "「日が沈みかけています。」となるように並び替えてください。",
+      "choices": ["setting", "sun", "is", "The"],
+      "answer": "Thesunissetting",
+      "explanation": "The sun is setting. Setはtを重ねてsettingにします。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は花を買っています」\nShe is (      ) flowers.",
+      "choices": [],
+      "answer": "buying",
+      "explanation": "Buyにingをつけてbuyingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは京都を訪れています」\nWe are (      ) Kyoto.",
+      "choices": ["visiting", "visit", "visits", "visitting"],
+      "answer": "visiting",
+      "explanation": "Visitはtを重ねず、そのままingをつけます（アクセントが前の音節にあるため）。"
+    },
+    {
+      "type": "sort",
+      "question": "「なぜあなたは泣いているのですか？」となるように並び替えてください。",
+      "choices": ["crying", "you", "are", "Why"],
+      "answer": "Whyareyoucrying",
+      "explanation": "Why are you crying? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は走っていません」\nHe isn't (      ).",
+      "choices": [],
+      "answer": "running",
+      "explanation": "Runはnを重ねてrunningです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は赤いコートを着ています」\nShe is (      ) a red coat.",
+      "choices": ["wearing", "wear", "wears", "putting"],
+      "answer": "wearing",
+      "explanation": "Wear（着ている）の進行形です。Put onは「着る動作」を表しますが、状態ならwearingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の妹は一生懸命勉強しています。」となるように並び替えてください。",
+      "choices": ["studying", "hard", "sister", "My", "is"],
+      "answer": "Mysisterisstudyinghard",
+      "explanation": "My sister is studying hard. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はあなたに話しかけています」\nI am (      ) to you.",
+      "choices": [],
+      "answer": "talking",
+      "explanation": "Talk to...の進行形です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは計画を立てています」\nThey are (      ) a plan.",
+      "choices": ["making", "doing", "taking", "getting"],
+      "answer": "making",
+      "explanation": "Make a plan（計画を立てる）の進行形です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の英語は良くなっています。」となるように並び替えてください。",
+      "choices": ["better", "getting", "is", "English", "My"],
+      "answer": "MyEnglishisgettingbetter",
+      "explanation": "My English is getting better. Getはtを重ねてgettingにします。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は部屋で踊っています」\nShe is (      ) in the room.",
+      "choices": [],
+      "answer": "dancing",
+      "explanation": "Danceのeを取ってdancingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは楽しみですか？（ワクワクしていますか？）」\nAre you (      ) excited?",
+      "choices": ["getting", "get", "got", "geting"],
+      "answer": "getting",
+      "explanation": "Get excited（興奮する、ワクワクする）の進行形です。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰かがドアをノックしています。」となるように並び替えてください。",
+      "choices": ["door", "knocking", "Someone", "on", "is", "the"],
+      "answer": "Someoneisknockingonthedoor",
+      "explanation": "Someone is knocking on the door. Knockにingをつけてknockingです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はサンドイッチを食べています」\nI am (      ) a sandwich.",
+      "choices": [],
+      "answer": "eating",
+      "explanation": "Eatにingをつけてeatingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は自分の車を売ろうとしています」\nHe is (      ) his car.",
+      "choices": ["selling", "sell", "sells", "sold"],
+      "answer": "selling",
+      "explanation": "Sell（売る）にingをつけてsellingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは歌を歌っていますか？」となるように並び替えてください。",
+      "choices": ["singing", "songs", "Are", "they"],
+      "answer": "Aretheysingingsongs",
+      "explanation": "Are they singing songs? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はその本を楽しんでいます」\nI am (      ) the book.",
+      "choices": [],
+      "answer": "enjoying",
+      "explanation": "Enjoyにingをつけてenjoyingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は髪を切っています」\nShe is (      ) her hair.",
+      "choices": ["cutting", "cuting", "cut", "cutes"],
+      "answer": "cutting",
+      "explanation": "Cutはtを重ねてcuttingにします。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは嘘をついています。」となるように並び替えてください。",
+      "choices": ["lying", "are", "You"],
+      "answer": "Youarelying",
+      "explanation": "You are lying. Lie（嘘をつく）はieをyに変えてlyingにします。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは家へ帰る途中です（家へ向かっています）」\nWe are (      ) home.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "We are going home. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は何と言っているのですか？」\nWhat is he (      )?",
+      "choices": ["saying", "telling", "speaking", "talking"],
+      "answer": "saying",
+      "explanation": "Saying（言っている）を使います。What is he saying?"
+    },
+    {
+      "type": "sort",
+      "question": "「お湯が沸いています。」となるように並び替えてください。",
+      "choices": ["boiling", "water", "is", "The"],
+      "answer": "Thewaterisboiling",
+      "explanation": "The water is boiling. Boil（沸騰する）の進行形です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は今、電話を使っていません」\nShe isn't (      ) the phone now.",
+      "choices": [],
+      "answer": "using",
+      "explanation": "Useのeを取ってusingです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは何を考えているのですか？」\nWhat are you (      )?",
+      "choices": ["thinking", "think", "thinks", "thanking"],
+      "answer": "thinking",
+      "explanation": "Thinkにingをつけてthinkingです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは将来について話しています。」となるように並び替えてください。",
+      "choices": ["future", "talking", "about", "We", "are", "the"],
+      "answer": "Wearetalkingaboutthefuture",
+      "explanation": "We are talking about the future. Talkにingをつけてtalkingです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は箱を持っています（抱えています）」\nHe is (      ) a box.",
+      "choices": [],
+      "answer": "holding",
+      "explanation": "Hold（持つ）にingをつけてholdingです。Havingも文脈によっては使えますが、動作や一時的な状態としてはholdingが適しています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは家を建てています」\nThey are (      ) a house.",
+      "choices": ["building", "making", "creating", "doing"],
+      "answer": "building",
+      "explanation": "Build（建てる）にingをつけてbuildingです。"
+    }
+  ]
+}

@@ -1,0 +1,566 @@
+{
+  "learning_topic": "未来表現",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「私は明日、東京へ行きます（意志）」\nI (      ) go to Tokyo tomorrow.",
+      "choices": ["will", "am", "do", "going"],
+      "answer": "will",
+      "explanation": "未来を表す助動詞willを使います。Willの後ろは動詞の原形です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は医者になるつもりです。」となるように並び替えてください。",
+      "choices": ["be", "will", "doctor", "a", "I"],
+      "answer": "Iwillbeadoctor",
+      "explanation": "I will be a doctor. 状態を表すbe動詞の原形beを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は次の日曜日、テニスをする予定です」\nHe is (      ) to play tennis next Sunday.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "be going to ～ で「～する予定だ」という決まった未来を表します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「明日は雨が降るでしょう」\nIt (      ) rain tomorrow.",
+      "choices": ["will", "is", "does", "has"],
+      "answer": "will",
+      "explanation": "天気の予測にはwillをよく使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は明日、彼に会う予定です。」となるように並び替えてください。",
+      "choices": ["going", "him", "see", "to", "am", "I", "tomorrow"],
+      "answer": "Iamgoingtoseehimtomorrow",
+      "explanation": "I am going to see him tomorrow. 予定が決まっている場合はbe going toを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はそれをしません（拒絶の意志）」\nI (      ) do it.",
+      "choices": [],
+      "answer": "won't",
+      "explanation": "will notの短縮形won'tを使います。「絶対に～しない」という強い意志を表すことがあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたはパーティーに来ますか？」\n(      ) you come to the party?",
+      "choices": ["Will", "Do", "Are", "Is"],
+      "answer": "Will",
+      "explanation": "Will you...? で相手の意志や予定を尋ねます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は来月、15歳になります。」となるように並び替えてください。",
+      "choices": ["be", "She", "month", "will", "next", "15"],
+      "answer": "Shewillbe15nextmonth",
+      "explanation": "She will be 15 next month. 自然にそうなる未来（単純未来）にはwillを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは来週、京都を訪れる予定です」\nWe are (      ) to visit Kyoto next week.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "We are going to visit... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は明日、忙しくなるでしょう」\nHe (      ) be busy tomorrow.",
+      "choices": ["will", "is", "going", "does"],
+      "answer": "will",
+      "explanation": "He will be busy... 形容詞busyの前にはbe動詞の原形beが必要です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はあなたを忘れません。」となるように並び替えてください。",
+      "choices": ["you", "forget", "won't", "I"],
+      "answer": "Iwon'tforgetyou",
+      "explanation": "I won't forget you. 強い否定の意志です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは新しい車を買うつもりです」\nThey are (      ) to buy a new car.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "They are going to buy... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「窓を開けましょうか？（私がしましょうか？）」\n(      ) I open the window?",
+      "choices": ["Shall", "Will", "Do", "Am"],
+      "answer": "Shall",
+      "explanation": "Shall I...? は「（私が）～しましょうか？」と申し出る時の表現です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはいつ宿題をするつもりですか？」となるように並び替えてください。",
+      "choices": ["homework", "going", "do", "When", "are", "you", "to", "your"],
+      "answer": "Whenareyougoingtodoyourhomework",
+      "explanation": "When are you going to do your homework? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「はい、します（主語：I）」\nYes, I (      ).",
+      "choices": [],
+      "answer": "will",
+      "explanation": "Will you...? と聞かれたら、Yes, I will. と答えます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らはここには来ないでしょう」\nThey (      ) not come here.",
+      "choices": ["will", "do", "are", "have"],
+      "answer": "will",
+      "explanation": "They will not come here. 未来の否定予測です。"
+    },
+    {
+      "type": "sort",
+      "question": "「踊りませんか？（一緒にしましょう）」となるように並び替えてください。",
+      "choices": ["dance", "we", "Shall"],
+      "answer": "Shallwedance",
+      "explanation": "Shall we dance? 「（一緒に）～しましょうか？」と誘う表現です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は留学するつもりです」\nI am (      ) to study abroad.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "I am going to study abroad. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは明日、家にいますか？」\n(      ) you be at home tomorrow?",
+      "choices": ["Will", "Do", "Are", "Have"],
+      "answer": "Will",
+      "explanation": "Will you be...? 所在を聞く未来の質問です。"
+    },
+    {
+      "type": "sort",
+      "question": "「今夜は雪が降るでしょう。」となるように並び替えてください。",
+      "choices": ["snow", "will", "It", "tonight"],
+      "answer": "Itwillsnowtonight",
+      "explanation": "It will snow tonight. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はそれを気に入るでしょう」\nShe (      ) like it.",
+      "choices": [],
+      "answer": "will",
+      "explanation": "She will like it. 推測のwillです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はその本を買うつもりはありません」\nI am (      ) going to buy the book.",
+      "choices": ["not", "no", "don't", "won't"],
+      "answer": "not",
+      "explanation": "be going toの否定文はbe動詞の後ろにnotを置きます。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは何をするつもりですか？」となるように並び替えてください。",
+      "choices": ["going", "do", "to", "What", "are", "you"],
+      "answer": "Whatareyougoingtodo",
+      "explanation": "What are you going to do? 予定を聞く定番フレーズです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「手伝ってくれますか？（依頼）」\n(      ) you help me?",
+      "choices": [],
+      "answer": "Will",
+      "explanation": "Will you help me? はCan you help me? とほぼ同じ意味で使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「すぐに良くなるよ」\nYou (      ) get well soon.",
+      "choices": ["will", "are", "do", "have"],
+      "answer": "will",
+      "explanation": "You will get well soon. 相手を励ます言葉です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は遅れません。」となるように並び替えてください。",
+      "choices": ["late", "be", "won't", "I"],
+      "answer": "Iwon'tbelate",
+      "explanation": "I won't be late. 遅刻しません（約束します）という意味です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はテニス選手になる予定です」\nShe is (      ) to be a tennis player.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "She is going to be... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らはいつ到着しますか？」\nWhen (      ) they arrive?",
+      "choices": ["will", "do", "are", "have"],
+      "answer": "will",
+      "explanation": "When will they arrive? 未来の時間を聞く表現です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は最善を尽くします。」となるように並び替えてください。",
+      "choices": ["best", "my", "do", "will", "I"],
+      "answer": "Iwilldomybest",
+      "explanation": "I will do my best. 決意表明のwillです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは買い物に行くつもりです」\nWe (      ) going to go shopping.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "We（複数）なのでareを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ドアを開けてくれませんか？」\n(      ) you please open the door?",
+      "choices": ["Will", "Do", "Are", "Shall"],
+      "answer": "Will",
+      "explanation": "Will you please...? で丁寧な依頼になります。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は私に会いに来るでしょう。」となるように並び替えてください。",
+      "choices": ["me", "see", "come", "will", "to", "She"],
+      "answer": "Shewillcometoseeme",
+      "explanation": "She will come to see me. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は試験に合格しないでしょう」\nHe (      ) pass the exam.",
+      "choices": [],
+      "answer": "won't",
+      "explanation": "He won't pass the exam. 未来の否定予測です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは6時に出発します」\nWe (      ) start at six.",
+      "choices": ["will", "are", "do", "have"],
+      "answer": "will",
+      "explanation": "We will start... 予定や意志を表します。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはいつ宿題を終えるつもりですか？」となるように並び替えてください。",
+      "choices": ["finish", "homework", "will", "you", "When", "your"],
+      "answer": "Whenwillyoufinishyourhomework",
+      "explanation": "When will you finish your homework? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼に電話するつもりです」\nI am (      ) to call him.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "I am going to call him. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「公園に行きましょうか？」\n(      ) we go to the park?",
+      "choices": ["Shall", "Will", "Do", "Are"],
+      "answer": "Shall",
+      "explanation": "Shall we...? で「～しましょうか（勧誘）」です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は素晴らしい先生になるでしょう。」となるように並び替えてください。",
+      "choices": ["teacher", "great", "be", "will", "a", "She"],
+      "answer": "Shewillbeagreatteacher",
+      "explanation": "She will be a great teacher. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それは簡単ではないでしょう」\nIt (      ) be easy.",
+      "choices": [],
+      "answer": "won't",
+      "explanation": "It won't be easy. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はただ見ているだけにするつもりです」\nI am just (      ) to look.",
+      "choices": ["going", "go", "will", "gonna"],
+      "answer": "going",
+      "explanation": "I am just going to look. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「それはすぐに止む（雨などが）でしょう。」となるように並び替えてください。",
+      "choices": ["stop", "soon", "will", "It"],
+      "answer": "Itwillstopsoon",
+      "explanation": "It will stop soon. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はあなたに真実を話します」\nI (      ) tell you the truth.",
+      "choices": [],
+      "answer": "will",
+      "explanation": "I will tell you the truth. 意志を表すwillです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は英語を勉強するつもりですか？」\n(      ) he going to study English?",
+      "choices": ["Is", "Does", "Will", "Was"],
+      "answer": "Is",
+      "explanation": "be going toの疑問文で、主語がHeなのでIsを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「どこで会いましょうか？」となるように並び替えてください。",
+      "choices": ["meet", "Where", "we", "shall"],
+      "answer": "Whereshallwemeet",
+      "explanation": "Where shall we meet? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは電車で行くつもりです」\nWe are (      ) to go by train.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "We are going to go... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「明日、晴れるといいな」\nI hope it (      ) be sunny tomorrow.",
+      "choices": ["will", "is", "does", "has"],
+      "answer": "will",
+      "explanation": "I hope it will be sunny... 願望を表す文の中の未来形です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は二度としません。」となるように並び替えてください。",
+      "choices": ["again", "do", "it", "won't", "I"],
+      "answer": "Iwon'tdoitagain",
+      "explanation": "I won't do it again. 反省の弁としてよく使われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはいつ出発するつもりですか？」\nWhen are you (      ) to leave?",
+      "choices": [],
+      "answer": "going",
+      "explanation": "When are you going to leave? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「誰がそのゲームに勝つでしょうか？」\nWho (      ) win the game?",
+      "choices": ["will", "is", "does", "has"],
+      "answer": "will",
+      "explanation": "Who will win the game? 予測のwillです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は自分の車を売るつもりです。」となるように並び替えてください。",
+      "choices": ["sell", "going", "car", "my", "to", "am", "I"],
+      "answer": "Iamgoingtosellmycar",
+      "explanation": "I am going to sell my car. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はあなたのためにそれをしましょうか？」\n(      ) I do it for you?",
+      "choices": [],
+      "answer": "Shall",
+      "explanation": "Shall I do it for you? 申し出の表現です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは来週、忙しいでしょう」\nThey (      ) be busy next week.",
+      "choices": ["will", "are", "do", "have"],
+      "answer": "will",
+      "explanation": "They will be busy... です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の父はタバコをやめるつもりです。」となるように並び替えてください。",
+      "choices": ["smoking", "stop", "going", "father", "My", "is", "to"],
+      "answer": "Myfatherisgoingtostopsmoking",
+      "explanation": "My father is going to stop smoking. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは家にいますか？」\n(      ) you be at home?",
+      "choices": [],
+      "answer": "Will",
+      "explanation": "Will you be at home? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は歌を歌うつもりですか？」\n(      ) she going to sing a song?",
+      "choices": ["Is", "Will", "Does", "Was"],
+      "answer": "Is",
+      "explanation": "be going toの疑問文（主語She）なのでIsです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼に真実を話すつもりはありません。」となるように並び替えてください。",
+      "choices": ["him", "tell", "not", "truth", "going", "to", "am", "I", "the"],
+      "answer": "Iamnotgoingtotellhimthetruth",
+      "explanation": "I am not going to tell him the truth. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「そのドアは開かないでしょう（どうしても開かない）」\nThe door (      ) open.",
+      "choices": [],
+      "answer": "won't",
+      "explanation": "The door won't open. 物の「拒絶（どうしても～しない）」を表す用法です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは将来、何になるでしょうか？」\nWhat (      ) we be in the future?",
+      "choices": ["will", "are", "do", "have"],
+      "answer": "will",
+      "explanation": "What will we be...? 未来の予測です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはいつか理解するでしょう。」となるように並び替えてください。",
+      "choices": ["understand", "will", "someday", "You"],
+      "answer": "Youwillunderstandsomeday",
+      "explanation": "You will understand someday. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼を招待するつもりです」\nI am (      ) to invite him.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "I am going to invite him. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これを運ぶのを手伝ってくれませんか？」\n(      ) you help me carry this?",
+      "choices": ["Will", "Do", "Are", "Shall"],
+      "answer": "Will",
+      "explanation": "Will you help me...? 依頼の表現です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はすぐに戻ってくるでしょう。」となるように並び替えてください。",
+      "choices": ["back", "He", "come", "will", "soon"],
+      "answer": "Hewillcomebacksoon",
+      "explanation": "He will come back soon. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「何か飲み物を持ってきましょうか？」\n(      ) I get you something to drink?",
+      "choices": [],
+      "answer": "Shall",
+      "explanation": "Shall I get you...? 相手のために何かをしようかと提案する表現です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは来ないつもりですか？」\nAre they (      ) going to come?",
+      "choices": ["not", "no", "don't", "won't"],
+      "answer": "not",
+      "explanation": "Are they not going to come? 否定の疑問文です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はいつか世界を旅するつもりです。」となるように並び替えてください。",
+      "choices": ["world", "going", "the", "around", "travel", "to", "am", "I", "someday"],
+      "answer": "Iamgoingtotravelaroundtheworldsomeday",
+      "explanation": "I am going to travel around the world someday. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は怒るでしょう」\nShe (      ) be angry.",
+      "choices": [],
+      "answer": "will",
+      "explanation": "She will be angry. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「お茶にしますか、それともコーヒーにしますか？（どちらにする意志がありますか？）」\n(      ) you have tea or coffee?",
+      "choices": ["Will", "Do", "Are", "Shall"],
+      "answer": "Will",
+      "explanation": "Will you have...? 相手の意向を尋ねています。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰がその猫の世話をするのですか？」となるように並び替えてください。",
+      "choices": ["care", "cat", "of", "take", "going", "is", "Who", "to", "the"],
+      "answer": "Whoisgoingtotakecareofthecat",
+      "explanation": "Who is going to take care of the cat? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はあなたに後でメールします」\nI (      ) email you later.",
+      "choices": [],
+      "answer": "will",
+      "explanation": "I will email you later. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは遅れるつもりはありません」\nWe are (      ) going to be late.",
+      "choices": ["not", "no", "don't", "won't"],
+      "answer": "not",
+      "explanation": "We are not going to be late. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「それは大した問題にはならないでしょう。」となるように並び替えてください。",
+      "choices": ["problem", "won't", "It", "big", "a", "be"],
+      "answer": "Itwon'tbeabigproblem",
+      "explanation": "It won't be a big problem. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは何時に出発する予定ですか？」\nWhat time are you (      ) to start?",
+      "choices": [],
+      "answer": "going",
+      "explanation": "What time are you going to start? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私があなたに駅への道を教えましょう」\nI (      ) show you the way to the station.",
+      "choices": ["will", "am", "do", "have"],
+      "answer": "will",
+      "explanation": "I will show you... 「～してあげましょう」という申し出のwillです。"
+    },
+    {
+      "type": "sort",
+      "question": "「みんなそのアイディアを気に入るでしょう。」となるように並び替えてください。",
+      "choices": ["idea", "Everyone", "like", "will", "the"],
+      "answer": "Everyonewillliketheidea",
+      "explanation": "Everyone will like the idea. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は何をするつもりですか？」\nWhat is he (      ) to do?",
+      "choices": [],
+      "answer": "going",
+      "explanation": "What is he going to do? です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちはもう二度と会えないでしょう」\nWe (      ) never meet again.",
+      "choices": ["will", "are", "do", "have"],
+      "answer": "will",
+      "explanation": "We will never meet again. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰が次の大統領になるでしょうか？」となるように並び替えてください。",
+      "choices": ["President", "Who", "next", "the", "be", "will"],
+      "answer": "WhowillbethenextPresident",
+      "explanation": "Who will be the next President? です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は今夜、外出するつもりはありません」\nI am not (      ) to go out tonight.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "I am not going to go out... です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたはそれを気に入るでしょう」\nYou (      ) like it.",
+      "choices": ["will", "do", "are", "have"],
+      "answer": "will",
+      "explanation": "You will like it. 未来の予測です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはいつか後悔するでしょう。」となるように並び替えてください。",
+      "choices": ["someday", "regret", "will", "it", "You"],
+      "answer": "Youwillregretitsomeday",
+      "explanation": "You will regret it someday. です。"
+    }
+  ]
+}

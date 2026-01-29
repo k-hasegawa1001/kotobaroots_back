@@ -1,0 +1,559 @@
+{
+  "learning_topic": "比較",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「私はケンより背が高い」\nI am (      ) than Ken.",
+      "choices": ["taller", "tall", "tallest", "more tall"],
+      "answer": "taller",
+      "explanation": "「～より背が高い」は比較級を使います。Tallにerをつけてtallerです。"
+    },
+    {
+      "type": "sort",
+      "question": "「この本はあの本より古いです。」となるように並び替えてください。",
+      "choices": ["than", "older", "book", "that", "This", "is", "one"],
+      "answer": "Thisbookisolderthanthatone",
+      "explanation": "This book is older than that one. Oldの比較級olderを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「富士山は日本で一番高い山です」\nMt. Fuji is the (      ) mountain in Japan.",
+      "choices": [],
+      "answer": "highest",
+      "explanation": "「一番～」は最上級を使います。Highにestをつけてhighestです。最上級には通常theがつきます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は私より速く走ります」\nHe runs (      ) than I.",
+      "choices": ["faster", "fast", "fastest", "more fast"],
+      "answer": "faster",
+      "explanation": "Fast（速く）の比較級fasterです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はクラスで一番背が高いです。」となるように並び替えてください。",
+      "choices": ["tallest", "class", "is", "She", "the", "in", "her"],
+      "answer": "Sheisthetallestinherclass",
+      "explanation": "She is the tallest in her class. 場所や範囲を表す時はinを使います（in her class）。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「この箱はあの箱と同じくらい大きいです」\nThis box is as (      ) as that one.",
+      "choices": [],
+      "answer": "big",
+      "explanation": "as ～ as ...（...と同じくらい～）の間には形容詞・副詞の「原級（元の形）」が入ります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「夏は冬より暑い」\nSummer is (      ) than winter.",
+      "choices": ["hotter", "hoter", "hot", "hottest"],
+      "answer": "hotter",
+      "explanation": "Hot（短母音+子音字）はtを重ねてerをつけ、hotterにします。"
+    },
+    {
+      "type": "sort",
+      "question": "「数学は英語より難しいですか？」となるように並び替えてください。",
+      "choices": ["English", "difficult", "Is", "math", "more", "than"],
+      "answer": "IsmathmoredifficultthanEnglish",
+      "explanation": "Is math more difficult than English? 長い単語（difficult）はerではなくmoreを前につけます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これはすべての中で一番良い本です」\nThis is the (      ) book of all.",
+      "choices": [],
+      "answer": "best",
+      "explanation": "Goodの最上級はbestです（不規則変化）。Of all（すべての中で）も最上級のキーワードです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私のカバンはあなたのより重い」\nMy bag is (      ) than yours.",
+      "choices": ["heavier", "heavyer", "heavy", "more heavy"],
+      "answer": "heavier",
+      "explanation": "Heavyは「子音+y」なのでyをiに変えてerをつけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は私より年上です。」となるように並び替えてください。",
+      "choices": ["me", "than", "older", "is", "He"],
+      "answer": "Heisolderthanme",
+      "explanation": "He is older than me. 比較対象に目的格（me）を使うのは口語で一般的です（than Iとも言います）。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は私よりも上手に歌います」\nShe sings (      ) than I.",
+      "choices": [],
+      "answer": "better",
+      "explanation": "Well（上手に）の比較級はbetterです（不規則変化）。Goodの比較級と同じ形です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この花はあの花よりも美しい」\nThis flower is (      ) beautiful than that one.",
+      "choices": ["more", "much", "very", "most"],
+      "answer": "more",
+      "explanation": "Beautifulのような長い単語はmoreを使って比較級を作ります。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰が一番速く泳げますか？」となるように並び替えてください。",
+      "choices": ["fastest", "can", "swim", "Who"],
+      "answer": "Whocanswimfastest",
+      "explanation": "Who can swim fastest? 副詞の最上級にはtheをつけないこともあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「今日は昨日より寒いです」\nIt is (      ) today than yesterday.",
+      "choices": [],
+      "answer": "colder",
+      "explanation": "Coldの比較級colderです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ロシアは世界で一番大きな国です」\nRussia is the (      ) country in the world.",
+      "choices": ["largest", "large", "larger", "most large"],
+      "answer": "largest",
+      "explanation": "Largeの最上級largestです（eで終わる語はstだけつけます）。"
+    },
+    {
+      "type": "sort",
+      "question": "「トムはケンほど背が高くありません。」となるように並び替えてください。",
+      "choices": ["as", "Tom", "is", "tall", "not", "Ken", "as"],
+      "answer": "TomisnotastallasKen",
+      "explanation": "Tom is not as tall as Ken. not as ... as ～ で「～ほど...ではない」という比較の否定（劣等比較）になります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「この問題はあの問題より簡単です」\nThis question is (      ) than that one.",
+      "choices": [],
+      "answer": "easier",
+      "explanation": "Easyの比較級easierです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は日本で最も有名な歌手の一人です」\nHe is one of the most famous (      ) in Japan.",
+      "choices": ["singers", "singer", "sing", "sings"],
+      "answer": "singers",
+      "explanation": "One of the + 最上級 + 複数名詞（最も～なうちの一人）という重要構文です。"
+    },
+    {
+      "type": "sort",
+      "question": "「どちらが長いですか、これ、それともあれ？」となるように並び替えてください。",
+      "choices": ["longer", "Which", "this", "is", "or", "that"],
+      "answer": "Whichislongerthisorthat",
+      "explanation": "Which is longer, this or that? 2つのものを比べる疑問文です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はあなたより若いです」\nI am (      ) than you.",
+      "choices": [],
+      "answer": "younger",
+      "explanation": "Youngの比較級youngerです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「2月は1年で一番短い月です」\nFebruary is the (      ) month of the year.",
+      "choices": ["shortest", "shorter", "short", "most short"],
+      "answer": "shortest",
+      "explanation": "Shortの最上級shortestです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私のコンピュータはあなたのより新しい。」となるように並び替えてください。",
+      "choices": ["yours", "newer", "is", "computer", "than", "My"],
+      "answer": "Mycomputerisnewerthanyours",
+      "explanation": "My computer is newer than yours. Newの比較級newerです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は私と同じくらい一生懸命勉強します」\nHe studies as (      ) as I.",
+      "choices": [],
+      "answer": "hard",
+      "explanation": "as hard as... 副詞hardの原級を使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この映画はその映画より面白い」\nThis movie is (      ) interesting than that one.",
+      "choices": ["more", "much", "very", "most"],
+      "answer": "more",
+      "explanation": "Interestingは長い単語なのでmoreを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「これは店で一番高いカメラです。」となるように並び替えてください。",
+      "choices": ["camera", "expensive", "is", "This", "most", "store", "the", "the", "in"],
+      "answer": "Thisisthemostexpensivecamerainthestore",
+      "explanation": "This is the most expensive camera in the store. Expensive（高価な）の最上級はmost expensiveです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは彼より早く起きましたか？」\nDid you get up (      ) than him?",
+      "choices": [],
+      "answer": "earlier",
+      "explanation": "Earlyの比較級earlierです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「信濃川は日本で一番長い川です」\nThe Shinano River is the (      ) river in Japan.",
+      "choices": ["longest", "long", "longer", "most long"],
+      "answer": "longest",
+      "explanation": "Longの最上級longestです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の父は家族の中で一番年上です。」となるように並び替えてください。",
+      "choices": ["family", "the", "My", "oldest", "father", "our", "in", "is"],
+      "answer": "Myfatheristheoldestinourfamily",
+      "explanation": "My father is the oldest in our family. Oldの最上級oldestです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「健康は富よりも大切です」\nHealth is more (      ) than wealth.",
+      "choices": [],
+      "answer": "important",
+      "explanation": "Important（大切な）です。More important than... の形になります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この犬はあの犬より大きい」\nThis dog is (      ) than that one.",
+      "choices": ["bigger", "biger", "more big", "biggest"],
+      "answer": "bigger",
+      "explanation": "Big（短母音+子音字）はgを重ねてbiggerにします。"
+    },
+    {
+      "type": "sort",
+      "question": "「東京は日本で一番大きな都市です。」となるように並び替えてください。",
+      "choices": ["city", "Japan", "is", "Tokyo", "in", "largest", "the"],
+      "answer": "TokyoisthelargestcityinJapan",
+      "explanation": "Tokyo is the largest city in Japan. Largeの最上級largestです（biggestでも可ですが選択肢に従います）。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたの自転車は私のと同じくらい良いです」\nYour bike is as (      ) as mine.",
+      "choices": [],
+      "answer": "good",
+      "explanation": "as good as... です。原級goodを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は私より忙しい」\nShe is (      ) than I.",
+      "choices": ["busier", "more busy", "busyer", "busyest"],
+      "answer": "busier",
+      "explanation": "Busyの比較級busierです。"
+    },
+    {
+      "type": "sort",
+      "question": "「これは3つの中で一番小さい箱です。」となるように並び替えてください。",
+      "choices": ["smallest", "This", "three", "is", "box", "the", "of", "the"],
+      "answer": "Thisisthesmallestboxofthethree",
+      "explanation": "This is the smallest box of the three. 数や集団を表す時はofを使います（of the three）。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「昨日は今年一番暑い日でした」\nYesterday was the (      ) day of the year.",
+      "choices": [],
+      "answer": "hottest",
+      "explanation": "Hotの最上級hottestです（tを重ねます）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「サッカーは野球より人気があります」\nSoccer is (      ) popular than baseball.",
+      "choices": ["more", "much", "very", "most"],
+      "answer": "more",
+      "explanation": "Popularは長い単語なのでmoreを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「光は音よりずっと速く進みます。」となるように並び替えてください。",
+      "choices": ["than", "Light", "sound", "faster", "travels", "much"],
+      "answer": "Lighttravelsmuchfasterthansound",
+      "explanation": "Light travels much faster than sound. Muchは比較級を強調する「ずっと」という意味で使われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はクラスで一番速く走ります」\nHe runs the (      ) in his class.",
+      "choices": [],
+      "answer": "fastest",
+      "explanation": "Fastの最上級fastestです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この家はあの家より大きい」\nThis house is (      ) than that one.",
+      "choices": ["larger", "large", "largest", "more large"],
+      "answer": "larger",
+      "explanation": "Largeの比較級largerです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はあなたほどお金を持っていません。」となるように並び替えてください。",
+      "choices": ["much", "have", "you", "money", "as", "don't", "as", "I"],
+      "answer": "Idon'thaveasmuchmoneyasyou",
+      "explanation": "I don't have as much money as you. As much ... asで量の比較をします。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は日本で最も人気のある歌手の一人です」\nShe is one of the most (      ) singers in Japan.",
+      "choices": [],
+      "answer": "popular",
+      "explanation": "One of the most popular singers. 最上級で形容詞の原級popularを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「誰が一番年下ですか？」\nWho is the (      )?",
+      "choices": ["youngest", "younger", "young", "most young"],
+      "answer": "youngest",
+      "explanation": "Youngの最上級youngestです。"
+    },
+    {
+      "type": "sort",
+      "question": "「この質問は3つの中で一番難しい。」となるように並び替えてください。",
+      "choices": ["question", "difficult", "the", "of", "most", "three", "This", "is", "the"],
+      "answer": "Thisquestionisthemostdifficultofthethree",
+      "explanation": "This question is the most difficult of the three. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「今日は昨日より少し暖かい」\nIt is a (      ) warmer today than yesterday.",
+      "choices": [],
+      "answer": "little",
+      "explanation": "A little（少し）で比較級を修飾できます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたのテストは私のより悪かった」\nYour test was (      ) than mine.",
+      "choices": ["worse", "badder", "bad", "worst"],
+      "answer": "worse",
+      "explanation": "Bad（悪い）の比較級はworseです（不規則変化）。"
+    },
+    {
+      "type": "sort",
+      "question": "「できるだけ早く来てください。」となるように並び替えてください。",
+      "choices": ["as", "come", "Please", "possible", "soon", "as"],
+      "answer": "Pleasecomeassoonaspossible",
+      "explanation": "Please come as soon as possible. as ... as possible（できるだけ～）という熟語です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は私の一番の親友です」\nHe is my (      ) friend.",
+      "choices": [],
+      "answer": "best",
+      "explanation": "My best friend. Goodの最上級bestです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この車はあの車より高い」\nThis car is (      ) expensive than that one.",
+      "choices": ["more", "much", "very", "most"],
+      "answer": "more",
+      "explanation": "More expensiveです。"
+    },
+    {
+      "type": "sort",
+      "question": "「その知らせを聞いて、私は前より幸せになりました。」となるように並び替えてください。",
+      "choices": ["happier", "news", "made", "me", "The", "than", "before"],
+      "answer": "Thenewsmademehappierthanbefore",
+      "explanation": "The news made me happier than before. Make A B（AをBにする）の構文でBが比較級になっています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これが一番簡単な方法です」\nThis is the (      ) way.",
+      "choices": [],
+      "answer": "easiest",
+      "explanation": "Easyの最上級easiestです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「英語は一番役に立つ教科です」\nEnglish is the most (      ) subject.",
+      "choices": ["useful", "use", "using", "used"],
+      "answer": "useful",
+      "explanation": "Useful（役に立つ）の最上級the most usefulです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは私と同じくらい上手に泳げます。」となるように並び替えてください。",
+      "choices": ["swim", "well", "me", "can", "as", "You", "as"],
+      "answer": "Youcanswimaswellasme",
+      "explanation": "You can swim as well as me. Wellの原級を使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は家族の中で一番早起きです」\nHe gets up the (      ) in his family.",
+      "choices": [],
+      "answer": "earliest",
+      "explanation": "Earlyの最上級earliestです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「どちらが安いですか？」\nWhich is (      )?",
+      "choices": ["cheaper", "cheap", "cheapest", "more cheap"],
+      "answer": "cheaper",
+      "explanation": "2つの比較なので比較級cheaperを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「それは私が今まで見た中で一番面白い映画です。」となるように並び替えてください。",
+      "choices": ["movie", "seen", "ever", "most", "interesting", "It", "have", "is", "the", "I"],
+      "answer": "ItisthemostinterestingmovieIhaveeverseen",
+      "explanation": "It is the most interesting movie I have ever seen. 最上級 + 現在完了（経験）の定番表現です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は私より注意深いです」\nHe is (      ) careful than I.",
+      "choices": [],
+      "answer": "more",
+      "explanation": "Carefulは長い単語なのでmoreを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これはあれより良い」\nThis is (      ) than that.",
+      "choices": ["better", "gooder", "good", "best"],
+      "answer": "better",
+      "explanation": "Goodの比較級betterです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は彼よりずっとたくさん本を持っています。」となるように並び替えてください。",
+      "choices": ["books", "many", "has", "more", "him", "She", "than"],
+      "answer": "Shehasmanymorebooksthanhim",
+      "explanation": "She has many more books than him. 数の多さを強調する時はmuchではなくmany moreを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「世界で一番長い川は何ですか？」\nWhat is the (      ) river in the world?",
+      "choices": [],
+      "answer": "longest",
+      "explanation": "Longestです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の犬はあなたの犬と同じくらい大きいです」\nMy dog is as (      ) as yours.",
+      "choices": ["big", "bigger", "biggest", "more big"],
+      "answer": "big",
+      "explanation": "as...asの間は原級bigです。"
+    },
+    {
+      "type": "sort",
+      "question": "「より多くの人々がインターネットを使っています。」となるように並び替えてください。",
+      "choices": ["people", "using", "More", "Internet", "and", "more", "are", "the"],
+      "answer": "MoreandmorepeopleareusingtheInternet",
+      "explanation": "More and more people...（ますます多くの人々）という表現です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はクラスで一番歌が上手です」\nShe sings the (      ) in her class.",
+      "choices": [],
+      "answer": "best",
+      "explanation": "Well（上手に）の最上級bestです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はクラスの他のどの少年よりも背が高い」\nHe is taller than (      ) other boy in his class.",
+      "choices": ["any", "all", "other", "some"],
+      "answer": "any",
+      "explanation": "any other + 単数名詞（他のどの～よりも）という、比較級で最上級の意味を表す表現です。"
+    },
+    {
+      "type": "sort",
+      "question": "「日がますます短くなっています。」となるように並び替えてください。",
+      "choices": ["getting", "shorter", "The", "days", "are", "shorter", "and"],
+      "answer": "Thedaysaregettingshorterandshorter",
+      "explanation": "The days are getting shorter and shorter. 比較級 and 比較級（だんだん～になる）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は猫よりも犬が好きです」\nI like dogs (      ) than cats.",
+      "choices": [],
+      "answer": "better",
+      "explanation": "Like ... better than ～（～より...が好きだ）です。Moreでも通じますがBetterがよく使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これが一番安いです」\nThis is the (      ).",
+      "choices": ["cheapest", "cheaper", "cheap", "most cheap"],
+      "answer": "cheapest",
+      "explanation": "Cheapestです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は彼より3歳年下です。」となるように並び替えてください。",
+      "choices": ["younger", "years", "him", "three", "She", "is", "than"],
+      "answer": "Sheisthreeyearsyoungerthanhim",
+      "explanation": "She is three years younger than him. 差を表す語句は比較級の前に置きます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はすべての科目の中で理科が一番好きです」\nI like science the (      ) of all subjects.",
+      "choices": [],
+      "answer": "best",
+      "explanation": "Like ... best（一番好きだ）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「健康ほど大切なものはない」\nNothing is more important (      ) health.",
+      "choices": ["than", "as", "of", "in"],
+      "answer": "than",
+      "explanation": "Nothing is more ... than ～（～ほど...なものはない）という最上級の意味を表す比較級です。"
+    },
+    {
+      "type": "sort",
+      "question": "「できるだけ早く」となるように並び替えてください。",
+      "choices": ["soon", "possible", "as", "as"],
+      "answer": "assoonaspossible",
+      "explanation": "as soon as possible です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「このコンピュータはあのコンピュータの2倍の高さ（値段）です」\nThis computer is (      ) as expensive as that one.",
+      "choices": [],
+      "answer": "twice",
+      "explanation": "Twice as ... as ～（～の2倍...だ）。倍数表現です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は私よりずっと忙しい」\nHe is (      ) busier than I.",
+      "choices": ["much", "very", "more", "many"],
+      "answer": "much",
+      "explanation": "比較級を強める時はveryではなくmuch（またはfar, a lot）を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「この湖はここが一番深い。」となるように並び替えてください。",
+      "choices": ["lake", "This", "deepest", "here", "is"],
+      "answer": "Thislakeisdeepesthere",
+      "explanation": "This lake is deepest here. 同一のものの中での比較（他との比較ではない）の場合、theをつけないことがあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは2人のうちで背が高い方です」\nYou are the (      ) of the two.",
+      "choices": [],
+      "answer": "taller",
+      "explanation": "The taller of the two. 2人の中での比較なので比較級を使いますが、特定されるのでtheがつきます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は私たちの中で一番の働き者です」\nHe is the hardest (      ) of us.",
+      "choices": ["worker", "work", "working", "works"],
+      "answer": "worker",
+      "explanation": "Hardest worker（一番の働き者）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は実際よりも若く見えます。」となるように並び替えてください。",
+      "choices": ["looks", "is", "younger", "she", "than", "really", "She"],
+      "answer": "Shelooksyoungerthanshereallyis",
+      "explanation": "She looks younger than she really is. 比較対象が節（she really is）になるパターンです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は最悪の事態に備えています」\nI am prepared for the (      ).",
+      "choices": [],
+      "answer": "worst",
+      "explanation": "The worst（最悪）。Badの最上級です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「年を取れば取るほど、賢くなる」\nThe older you get, the (      ) you become.",
+      "choices": ["wiser", "wise", "wisest", "more wise"],
+      "answer": "wiser",
+      "explanation": "The + 比較級, the + 比較級（～すればするほどますます...）の構文です。"
+    }
+  ]
+}

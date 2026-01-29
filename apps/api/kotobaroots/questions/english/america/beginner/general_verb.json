@@ -1,0 +1,706 @@
+{
+  "learning_topic": "一般動詞",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「私はテニスをします」の動詞は？\nI (      ) tennis.",
+      "choices": ["play", "go", "have", "am"],
+      "answer": "play",
+      "explanation": "スポーツや楽器を演奏する時はplayを使います。\n\n【注意】I am tennisと言うと「私はテニスという人間です」という意味になってしまいます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は猫が好きです。」となるように並び替えてください。",
+      "choices": ["cats", "like", "I"],
+      "answer": "Ilikecats",
+      "explanation": "I like cats. です。一般的に猫全体を指すので複数形catsを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はペンを持っています」\nI (      ) a pen.",
+      "choices": [],
+      "answer": "have",
+      "explanation": "Haveは「持っている」という状態を表す一般動詞です。\n\n【実用】「兄弟がいる」や「ペットを飼っている」という時もhaveを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はあなたを知っています」\nI (      ) you.",
+      "choices": ["know", "no", "now", "not"],
+      "answer": "know",
+      "explanation": "Know（知っている）です。kは発音しません。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はサッカーをします。」となるように並び替えてください。",
+      "choices": ["soccer", "play", "I"],
+      "answer": "Iplaysoccer",
+      "explanation": "I play soccer. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は東京に住んでいます」\nI (      ) in Tokyo.",
+      "choices": [],
+      "answer": "live",
+      "explanation": "Live in ～で「～に住んでいる」というセットで覚えると便利です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は新しい車が欲しい」\nI (      ) a new car.",
+      "choices": ["want", "went", "what", "wait"],
+      "answer": "want",
+      "explanation": "Want（欲しい）です。\n\n【実用】I want to ～（～したい）という表現でもよく使われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は毎日勉強します。」となるように並び替えてください。",
+      "choices": ["day", "every", "study", "I"],
+      "answer": "Istudyeveryday",
+      "explanation": "I study every day. です。時を表す言葉（every day）は文の最後に置くのが基本です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「学校へ行く」\nGo (      ) school",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Go to ～で「～へ行く」です。Toは矢印（→）のイメージです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは上手に泳ぐね」\nYou (      ) well.",
+      "choices": ["swim", "run", "fly", "walk"],
+      "answer": "swim",
+      "explanation": "Swim（泳ぐ）です。Wellは「上手に」という意味の副詞です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はピアノを弾きます。」となるように並び替えてください。",
+      "choices": ["piano", "the", "play", "I"],
+      "answer": "Iplaythepiano",
+      "explanation": "I play the piano. です。\n\n【重要】スポーツにはtheをつけませんが、楽器にはtheをつけるルールがあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「英語を話す」\n(      ) English",
+      "choices": [],
+      "answer": "Speak",
+      "explanation": "Speak（話す）です。言語を話すときはSpeakを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは夕食を作ります」\nWe (      ) dinner.",
+      "choices": ["cook", "cock", "cake", "coke"],
+      "answer": "cook",
+      "explanation": "Cook（料理する）です。\n\n【注意】Cookerと言うと「料理人」ではなく「調理器具（鍋など）」になるので注意が必要です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は本を読みます。」となるように並び替えてください。",
+      "choices": ["books", "read", "I"],
+      "answer": "Ireadbooks",
+      "explanation": "I read books. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「テレビを見る」\n(      ) TV",
+      "choices": [],
+      "answer": "Watch",
+      "explanation": "Watchは「動いているものを注意して見る」というニュアンスがあります。SeeやLookとの使い分けが重要です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は音楽を聴きます」\nI (      ) to music.",
+      "choices": ["listen", "hear", "list", "sound"],
+      "answer": "listen",
+      "explanation": "Listen to ～で「～を（意識して）聴く」です。Toを忘れないようにしましょう。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はあなたを愛しています。」となるように並び替えてください。",
+      "choices": ["love", "you", "I"],
+      "answer": "Iloveyou",
+      "explanation": "I love you. です。最も有名なSVO（主語・動詞・目的語）の文型です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「コーヒーを飲む」\n(      ) coffee",
+      "choices": [],
+      "answer": "Drink",
+      "explanation": "Drink（飲む）です。\n\n【文化】薬を飲むときはDrinkではなくTakeを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らはここに来ます」\nThey (      ) here.",
+      "choices": ["come", "go", "home", "cam"],
+      "answer": "come",
+      "explanation": "Come（来る）です。Here（ここへ）にはToが含まれているので、Come to hereとは言いません。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は納豆を食べます。」となるように並び替えてください。",
+      "choices": ["eat", "natto", "I"],
+      "answer": "Ieatnatto",
+      "explanation": "I eat natto. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「手を洗う」\n(      ) my hands",
+      "choices": [],
+      "answer": "Wash",
+      "explanation": "Wash（洗う）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はコンピュータを使います」\nI (      ) a computer.",
+      "choices": ["use", "us", "user", "used"],
+      "answer": "use",
+      "explanation": "Use（使う）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は英語が好きです。」となるように並び替えてください。",
+      "choices": ["English", "like", "I"],
+      "answer": "IlikeEnglish",
+      "explanation": "I like English. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「朝食を作る」\n(      ) breakfast",
+      "choices": [],
+      "answer": "Make",
+      "explanation": "Make（作る）です。Cookも使えますが、Make breakfast（食事の支度をする）という表現も一般的です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは一生懸命働きます」\nWe (      ) hard.",
+      "choices": ["work", "walk", "word", "wake"],
+      "answer": "work",
+      "explanation": "Work（働く）です。\n\n【発音】Walk（歩く）と区別しましょう。Workは口をあまり開けずに発音します。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼を知っています。」となるように並び替えてください。",
+      "choices": ["him", "know", "I"],
+      "answer": "Iknowhim",
+      "explanation": "I know him. です。Heではなく「彼を」にあたるHimを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「お皿を洗う」\nDo the (      )",
+      "choices": [],
+      "answer": "dishes",
+      "explanation": "Do the dishesで「皿洗いをする」という決まり文句です。Wash the dishesとも言います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は早く起きます」\nI (      ) up early.",
+      "choices": ["get", "go", "got", "give"],
+      "answer": "get",
+      "explanation": "Get upで「起きる」という熟語です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はあなたが必要です。」となるように並び替えてください。",
+      "choices": ["need", "you", "I"],
+      "answer": "Ineedyou",
+      "explanation": "I need you. です。Want（欲しい）より切実な必要性を表します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「写真を撮る」\n(      ) a picture",
+      "choices": [],
+      "answer": "Take",
+      "explanation": "Take a pictureです。Takeには「（自分のところに）取り込む」というイメージがあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らはたくさん走ります」\nThey (      ) a lot.",
+      "choices": ["run", "ran", "ren", "rum"],
+      "answer": "run",
+      "explanation": "Run（走る）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は犬を2匹飼っています。」となるように並び替えてください。",
+      "choices": ["two", "dogs", "have", "I"],
+      "answer": "Ihavetwodogs",
+      "explanation": "I have two dogs. です。Haveは「飼う」という意味でも使えます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「宿題をする」\n(      ) my homework",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Do my homeworkです。MakeではなくDoを使うのがポイントです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は毎日ここに来ます」\nI (      ) here every day.",
+      "choices": ["come", "go", "came", "comb"],
+      "answer": "come",
+      "explanation": "Come（来る）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は手紙を書きます。」となるように並び替えてください。",
+      "choices": ["a", "write", "letter", "I"],
+      "answer": "Iwritealetter",
+      "explanation": "I write a letter. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「歌を歌う」\n(      ) a song",
+      "choices": [],
+      "answer": "Sing",
+      "explanation": "Sing（歌う）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちはその公園で遊びます」\nWe (      ) in the park.",
+      "choices": ["play", "pray", "prey", "pay"],
+      "answer": "play",
+      "explanation": "Play（遊ぶ）です。\n\n【注意】Pray（祈る）、Pay（払う）と間違えないようにしましょう。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は速く泳ぎます。」となるように並び替えてください。",
+      "choices": ["fast", "swim", "I"],
+      "answer": "Iswimfast",
+      "explanation": "I swim fast. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ドアを開ける」\n(      ) the door",
+      "choices": [],
+      "answer": "Open",
+      "explanation": "Open（開ける）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「窓を閉める」\n(      ) the window.",
+      "choices": ["Close", "Open", "Clean", "Break"],
+      "answer": "Close",
+      "explanation": "Close（閉める）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はあなたを助けます。」となるように並び替えてください。",
+      "choices": ["help", "you", "I"],
+      "answer": "Ihelpyou",
+      "explanation": "I help you. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「自転車に乗る」\n(      ) a bike",
+      "choices": [],
+      "answer": "Ride",
+      "explanation": "Ride（またがって乗る）です。車に乗る（Get in）とは違う単語を使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼らが好きです」\nI (      ) them.",
+      "choices": ["like", "love", "hate", "know"],
+      "answer": "like",
+      "explanation": "Like（好き）です。Themは「彼らを」という意味です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは日本に住んでいます。」となるように並び替えてください。",
+      "choices": ["Japan", "live", "in", "We"],
+      "answer": "WeliveinJapan",
+      "explanation": "We live in Japan. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「お風呂に入る」\nTake a (      )",
+      "choices": [],
+      "answer": "bath",
+      "explanation": "Take a bathです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は10時に寝ます」\nI (      ) to bed at ten.",
+      "choices": ["go", "sleep", "get", "walk"],
+      "answer": "go",
+      "explanation": "Go to bedで「寝る（ベッドに向かう）」という動作を表します。Sleepは「眠っている状態」です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はリンゴを2つ食べます。」となるように並び替えてください。",
+      "choices": ["eat", "apples", "two", "I"],
+      "answer": "Ieattwoapples",
+      "explanation": "I eat two apples. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「立ち上がる」\nStand (      )",
+      "choices": [],
+      "answer": "up",
+      "explanation": "Stand upです。\n\n【対義語】Sit down（座る）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「座る」\n(      ) down",
+      "choices": ["Sit", "Seat", "Set", "Stand"],
+      "answer": "Sit",
+      "explanation": "Sit（座る）です。Seatは「座席」という名詞です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は数学を勉強します。」となるように並び替えてください。",
+      "choices": ["math", "study", "I"],
+      "answer": "Istudymath",
+      "explanation": "I study math. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「英語を教える」\n(      ) English",
+      "choices": [],
+      "answer": "Teach",
+      "explanation": "Teach（教える）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この本を読む」\n(      ) this book.",
+      "choices": ["Read", "Lead", "Look", "Watch"],
+      "answer": "Read",
+      "explanation": "Read（読む）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は車を持っています。」となるように並び替えてください。",
+      "choices": ["have", "car", "a", "I"],
+      "answer": "Ihaveacar",
+      "explanation": "I have a car. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「鳥のように飛ぶ」\n(      ) like a bird",
+      "choices": [],
+      "answer": "Fly",
+      "explanation": "Fly（飛ぶ）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は毎朝走ります」\nI (      ) every morning.",
+      "choices": ["run", "walk", "sleep", "eat"],
+      "answer": "run",
+      "explanation": "Run（走る）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちはテニスをします。」となるように並び替えてください。",
+      "choices": ["tennis", "play", "We"],
+      "answer": "Weplaytennis",
+      "explanation": "We play tennis. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「バスに乗る」\n(      ) a bus",
+      "choices": [],
+      "answer": "Take",
+      "explanation": "Take a bus（バスを利用する）と言います。Ride a busとも言いますが、Takeが一般的です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はその答えを知っています」\nI (      ) the answer.",
+      "choices": ["know", "think", "guess", "say"],
+      "answer": "know",
+      "explanation": "I know the answer. です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は水が欲しい。」となるように並び替えてください。",
+      "choices": ["want", "water", "I"],
+      "answer": "Iwantwater",
+      "explanation": "I want water. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「夕食を食べる」\n(      ) dinner",
+      "choices": [],
+      "answer": "Eat",
+      "explanation": "Eat dinner、またはHave dinnerとも言います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は緑茶を飲みます」\nI (      ) green tea.",
+      "choices": ["drink", "eat", "cook", "make"],
+      "answer": "drink",
+      "explanation": "Drink（飲む）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは家へ帰ります。」となるように並び替えてください。",
+      "choices": ["home", "go", "They"],
+      "answer": "Theygohome",
+      "explanation": "They go home. です。\n\n【注意】Homeは「家へ」という副詞の意味を含むので、go to homeとは言いません。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「質問する」\n(      ) a question",
+      "choices": [],
+      "answer": "Ask",
+      "explanation": "Ask（尋ねる）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はそう思う」\nI (      ) so.",
+      "choices": ["think", "sink", "thank", "sing"],
+      "answer": "think",
+      "explanation": "Think（思う、考える）です。thの発音に注意です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは野球をします。」となるように並び替えてください。",
+      "choices": ["baseball", "play", "We"],
+      "answer": "Weplaybaseball",
+      "explanation": "We play baseball. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「学校へ歩いていく」\n(      ) to school",
+      "choices": [],
+      "answer": "Walk",
+      "explanation": "Walk to schoolです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「名前を書く」\n(      ) your name.",
+      "choices": ["Write", "Read", "Right", "Light"],
+      "answer": "Write",
+      "explanation": "Write（書く）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は毎日料理します。」となるように並び替えてください。",
+      "choices": ["day", "every", "cook", "I"],
+      "answer": "Icookeveryday",
+      "explanation": "I cook every day. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「歯を磨く」\n(      ) my teeth",
+      "choices": [],
+      "answer": "Brush",
+      "explanation": "Brush（ブラシをかける＝磨く）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はバッグを買います」\nI (      ) a bag.",
+      "choices": ["buy", "by", "bye", "bay"],
+      "answer": "buy",
+      "explanation": "Buy（買う）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は新しい靴を持っています。」となるように並び替えてください。",
+      "choices": ["shoes", "new", "have", "I"],
+      "answer": "Ihavenewshoes",
+      "explanation": "I have new shoes. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その本を閉じる」\n(      ) the book",
+      "choices": [],
+      "answer": "Close",
+      "explanation": "Close the bookです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はこの歌が好きです」\nI (      ) this song.",
+      "choices": ["like", "look", "listen", "sing"],
+      "answer": "like",
+      "explanation": "Like（好き）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは歌を歌います。」となるように並び替えてください。",
+      "choices": ["songs", "sing", "We"],
+      "answer": "Wesingsongs",
+      "explanation": "We sing songs. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「箱を作る」\n(      ) a box",
+      "choices": [],
+      "answer": "Make",
+      "explanation": "Make（作る）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はコンピュータを使います」\nI (      ) a computer.",
+      "choices": ["use", "us", "play", "do"],
+      "answer": "use",
+      "explanation": "Use（使う）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はアイスクリームが欲しい。」となるように並び替えてください。",
+      "choices": ["ice cream", "want", "I"],
+      "answer": "Iwanticecream",
+      "explanation": "I want ice cream. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「部屋を掃除する」\n(      ) the room",
+      "choices": [],
+      "answer": "Clean",
+      "explanation": "Clean（掃除する）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女に電話する」\n(      ) her.",
+      "choices": ["Call", "Cool", "Cell", "Tell"],
+      "answer": "Call",
+      "explanation": "Call（呼ぶ、電話する）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は毎日働きます。」となるように並び替えてください。",
+      "choices": ["every", "work", "I", "day"],
+      "answer": "Iworkeveryday",
+      "explanation": "I work every day. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「映画を見る」\n(      ) a movie",
+      "choices": [],
+      "answer": "Watch",
+      "explanation": "Watch a movieです。映画館で見る場合はSee a movieと言うこともあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は鍵を見つける」\nI (      ) the key.",
+      "choices": ["find", "look", "search", "watch"],
+      "answer": "find",
+      "explanation": "Find（見つける）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは英語を話します。」となるように並び替えてください。",
+      "choices": ["English", "speak", "We"],
+      "answer": "WespeakEnglish",
+      "explanation": "We speak English. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「車を洗う」\n(      ) the car",
+      "choices": [],
+      "answer": "Wash",
+      "explanation": "Wash the car（洗車する）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は朝食を食べる」\nI (      ) breakfast.",
+      "choices": ["eat", "cook", "make", "buy"],
+      "answer": "eat",
+      "explanation": "Eat（食べる）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はテニスが好きです。」となるように並び替えてください。",
+      "choices": ["tennis", "I", "like"],
+      "answer": "Iliketennis",
+      "explanation": "I like tennis. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「顔を洗う」\nWash my (      )",
+      "choices": [],
+      "answer": "face",
+      "explanation": "Wash my faceです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はあなたを待つ」\nI (      ) for you.",
+      "choices": ["wait", "want", "watch", "wish"],
+      "answer": "wait",
+      "explanation": "Wait for ～で「～を待つ」です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はたくさん本を読みます。」となるように並び替えてください。",
+      "choices": ["a lot", "read", "books", "I"],
+      "answer": "Ireadbooksalot",
+      "explanation": "I read books a lot. です。A lot（たくさん）は文の最後に置きます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「お金を使う」\n(      ) money",
+      "choices": [],
+      "answer": "Spend",
+      "explanation": "Spend（（お金や時間を）使う）です。Use moneyとも言えますが、Spendが一般的です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は大阪を訪れる」\nI (      ) Osaka.",
+      "choices": ["visit", "go", "come", "travel"],
+      "answer": "visit",
+      "explanation": "Visit（訪れる）です。Visit to Osakaとは言わず、直接Osakaを続けます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らはギターを弾きます。」となるように並び替えてください。",
+      "choices": ["guitar", "the", "play", "They"],
+      "answer": "Theyplaytheguitar",
+      "explanation": "They play the guitar. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「踊る」\n(      )",
+      "choices": [],
+      "answer": "Dance",
+      "explanation": "Dance（踊る）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は日本を出発する」\nI (      ) Japan.",
+      "choices": ["leave", "live", "love", "like"],
+      "answer": "leave",
+      "explanation": "Leave（去る、出発する）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はここに住んでいます。」となるように並び替えてください。",
+      "choices": ["here", "live", "I"],
+      "answer": "Ilivehere",
+      "explanation": "I live here. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「英語を学ぶ」\n(      ) English",
+      "choices": [],
+      "answer": "Learn",
+      "explanation": "Learn（学ぶ、習得する）です。Study（勉強する）と似ていますが、身につけるニュアンスが強いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ボールをキャッチする」\n(      ) a ball.",
+      "choices": ["Catch", "Cat", "Cut", "Call"],
+      "answer": "Catch",
+      "explanation": "Catch（捕まえる）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はペンを使います。」となるように並び替えてください。",
+      "choices": ["pen", "a", "use", "I"],
+      "answer": "Iuseapen",
+      "explanation": "I use a pen. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ドアを閉める」\n(      ) the door",
+      "choices": [],
+      "answer": "Shut",
+      "explanation": "Shut（閉める）です。Closeとほぼ同じ意味ですが、勢いよく閉めるニュアンスがあることもあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はそれを楽しむ」\nI (      ) it.",
+      "choices": ["enjoy", "play", "funny", "happy"],
+      "answer": "enjoy",
+      "explanation": "Enjoy（楽しむ）です。"
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "learning_topic": "文型 (SVOO/SVOC)",
+  "difficulty": "Beginner",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「私にあなたの写真を見せて」\nShow (      ) your picture.",
+      "choices": ["me", "my", "I", "mine"],
+      "answer": "me",
+      "explanation": "Show + 人 + 物（人に物を見せる）の語順です。人は目的格（me）を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼にペンをあげました。」となるように並び替えてください。",
+      "choices": ["gave", "him", "pen", "a", "I"],
+      "answer": "Igavehimapen",
+      "explanation": "I gave him a pen. Give + 人 + 物（SVOO）の形です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らはその犬をポチと呼びます」\nThey call the dog (      ).",
+      "choices": [],
+      "answer": "Pochi",
+      "explanation": "Call A B（AをBと呼ぶ）のSVOC文型です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「父は私に新しい自転車を買ってくれました」\nMy father bought (      ) a new bike.",
+      "choices": ["me", "to me", "for me", "I"],
+      "answer": "me",
+      "explanation": "Buy + 人 + 物（人に物を買ってやる）のSVOO文型では、人の前に前置詞は不要です。"
+    },
+    {
+      "type": "sort",
+      "question": "「そのニュースは彼女を悲しませました。」となるように並び替えてください。",
+      "choices": ["sad", "news", "made", "The", "her"],
+      "answer": "Thenewsmadehersad",
+      "explanation": "The news made her sad. Make + O + C（OをCの状態にする）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私に英語を教えてください」\nTeach (      ) English.",
+      "choices": [],
+      "answer": "me",
+      "explanation": "Teach + 人 + 物（人に物を教える）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は私にその本をくれました（SVOへの書き換え）」\nHe gave the book (      ) me.",
+      "choices": ["to", "for", "with", "at"],
+      "answer": "to",
+      "explanation": "Give 物 to 人。Giveは相手に到達するイメージなのでtoを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは彼をトムと呼びます。」となるように並び替えてください。",
+      "choices": ["Tom", "call", "him", "We"],
+      "answer": "WecallhimTom",
+      "explanation": "We call him Tom. Call + O + C（O=C）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「母は私にケーキを作ってくれました（SVOへの書き換え）」\nMy mother made a cake (      ) me.",
+      "choices": [],
+      "answer": "for",
+      "explanation": "Make 物 for 人。MakeやBuyなど「相手のためにしてあげる」行為はforを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたの名前を教えてくれますか？」\nWill you tell (      ) your name?",
+      "choices": ["me", "to me", "for me", "I"],
+      "answer": "me",
+      "explanation": "Tell + 人 + 物（人に物を言う/教える）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼が親切だとわかりました。」となるように並び替えてください。",
+      "choices": ["kind", "found", "I", "him"],
+      "answer": "Ifoundhimkind",
+      "explanation": "I found him kind. Find + O + C（OがCだとわかる/気づく）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私にその塩を取ってくれますか？」\nPlease pass (      ) the salt.",
+      "choices": [],
+      "answer": "me",
+      "explanation": "Pass + 人 + 物（人に物を手渡す）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は彼に手紙を書きました（SVOへの書き換え）」\nShe wrote a letter (      ) him.",
+      "choices": ["to", "for", "with", "at"],
+      "answer": "to",
+      "explanation": "Write 物 to 人（人に手紙を書く）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「その部屋を暖かくしておいてください。」となるように並び替えてください。",
+      "choices": ["room", "warm", "Keep", "the"],
+      "answer": "Keeptheroomwarm",
+      "explanation": "Keep the room warm. Keep + O + C（OをCの状態に保つ）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は彼にプレゼントを送りました」\nShe sent (      ) a present.",
+      "choices": [],
+      "answer": "him",
+      "explanation": "Send + 人 + 物（人に物を送る）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたにいくつか質問をしてもいいですか？」\nMay I ask (      ) some questions?",
+      "choices": ["you", "to you", "for you", "your"],
+      "answer": "you",
+      "explanation": "Ask + 人 + 物（人に物を尋ねる）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の父は私に彼の車を使わせてくれました。」となるように並び替えてください。",
+      "choices": ["car", "use", "let", "his", "me", "My", "father"],
+      "answer": "Myfatherletmeusehiscar",
+      "explanation": "My father let me use his car. Let + 人 + 動詞の原形（使役動詞：人に～させる）もSVOCの一種として扱われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼に新しい時計を買ってあげました」\nI bought (      ) a new watch.",
+      "choices": [],
+      "answer": "him",
+      "explanation": "Buy + 人 + 物（人に物を買ってあげる）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はその猫をタマと名付けました」\nHe named the cat (      ).",
+      "choices": ["Tama", "to Tama", "for Tama", "as Tama"],
+      "answer": "Tama",
+      "explanation": "Name A B（AをBと名付ける）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私に水を持ってきてください（SVOO）。」となるように並び替えてください。",
+      "choices": ["water", "me", "some", "Bring"],
+      "answer": "Bringmesomewater",
+      "explanation": "Bring me some water. Bring + 人 + 物（人に物を持ってくる）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「この歌はいつも私を幸せにします」\nThis song always makes (      ) happy.",
+      "choices": [],
+      "answer": "me",
+      "explanation": "Make me happy. Make + O + Cです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は私に素敵なネクタイを選んでくれました（SVO）」\nShe chose a nice tie (      ) me.",
+      "choices": ["for", "to", "with", "of"],
+      "answer": "for",
+      "explanation": "Choose 物 for 人（人のために選んであげる）。Chooseはforを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「ドアを開けたままにしておいてはいけません。」となるように並び替えてください。",
+      "choices": ["open", "leave", "door", "Don't", "the"],
+      "answer": "Don'tleavethedooropen",
+      "explanation": "Don't leave the door open. Leave + O + C（OをCの状態のままにしておく）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私に地図を見せてください（SVO）」\nPlease show the map (      ) me.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Show 物 to 人（人に物を見せる）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは自分たちの犬をシロと呼びます」\nWe (      ) our dog Shiro.",
+      "choices": ["call", "make", "tell", "say"],
+      "answer": "call",
+      "explanation": "Call + O + C（呼ぶ）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は彼女に指輪をあげました（SVOO）。」となるように並び替えてください。",
+      "choices": ["ring", "gave", "a", "He", "her"],
+      "answer": "Hegaveheraring",
+      "explanation": "He gave her a ring. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その知らせは彼を喜ばせました（彼を幸せにしました）」\nThe news made (      ) happy.",
+      "choices": [],
+      "answer": "him",
+      "explanation": "Make him happy. Him（目的格）を使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼に真実を話して」\nTell (      ) the truth.",
+      "choices": ["him", "to him", "for him", "he"],
+      "answer": "him",
+      "explanation": "Tell + 人 + 物（人に物を言う）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼に夕食を作ってあげました。」となるように並び替えてください。",
+      "choices": ["cooked", "dinner", "I", "him"],
+      "answer": "Icookedhimdinner",
+      "explanation": "I cooked him dinner. Cook + 人 + 物（人に料理を作ってあげる）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは彼女をアンと呼びます」\nWe call (      ) Anne.",
+      "choices": [],
+      "answer": "her",
+      "explanation": "Call her Anne. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は私に辞書を貸してくれました（SVO）」\nHe lent his dictionary (      ) me.",
+      "choices": ["to", "for", "with", "at"],
+      "answer": "to",
+      "explanation": "Lend 物 to 人（人に物を貸す）。移動を伴うのでtoです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らはその赤ちゃんを太郎と名付けました。」となるように並び替えてください。",
+      "choices": ["baby", "named", "Taro", "They", "the"],
+      "answer": "TheynamedthebabyTaro",
+      "explanation": "They named the baby Taro. Name + O + Cです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私にあなたの宿題を見せないで」\nDon't show (      ) your homework.",
+      "choices": [],
+      "answer": "me",
+      "explanation": "Show me your homework. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼に手紙を送りました（SVO）」\nI sent a letter (      ) him.",
+      "choices": ["to", "for", "with", "at"],
+      "answer": "to",
+      "explanation": "Send 物 to 人です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はいつも部屋をきれいにしておきます。」となるように並び替えてください。",
+      "choices": ["clean", "room", "keeps", "She", "her", "always"],
+      "answer": "Shealwayskeepsherroomclean",
+      "explanation": "She always keeps her room clean. Keep + O + Cです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「誰があなたに英語を教えていますか？」\nWho teaches (      ) English?",
+      "choices": [],
+      "answer": "you",
+      "explanation": "Teaches you English. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はあなたにこれをあげます」\nI will give (      ) this.",
+      "choices": ["you", "to you", "for you", "your"],
+      "answer": "you",
+      "explanation": "Give you this. Give + 人 + 物です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私に一杯のお茶を持ってきてください（SVOO）。」となるように並び替えてください。",
+      "choices": ["me", "Bring", "tea", "cup", "of", "a"],
+      "answer": "Bringmeacupoftea",
+      "explanation": "Bring me a cup of tea. です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は私に面白い本を見つけてくれました（SVO）」\nHe found an interesting book (      ) me.",
+      "choices": [],
+      "answer": "for",
+      "explanation": "Find 物 for 人（人のために見つけてあげる）。Findはforを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その映画は彼を有名にしました」\nThe movie made (      ) famous.",
+      "choices": ["him", "he", "his", "himself"],
+      "answer": "him",
+      "explanation": "Make him famous. Make + O + Cです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼にお金をいくらか貸しました。」となるように並び替えてください。",
+      "choices": ["money", "him", "I", "lent", "some"],
+      "answer": "Ilenthimsomemoney",
+      "explanation": "I lent him some money. Lend + 人 + 物（人に物を貸す）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は私にプレゼントをくれました（SVO）」\nShe gave a present (      ) me.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Give a present to me. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼を一人にしておいてあげなさい」\nLeave (      ) alone.",
+      "choices": ["him", "he", "his", "to him"],
+      "answer": "him",
+      "explanation": "Leave him alone. Leave + O + C（OをCの状態にする）です。Alone（一人で）は形容詞です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私にあの箱を取ってください（Getを使って）。」となるように並び替えてください。",
+      "choices": ["box", "me", "Get", "that"],
+      "answer": "Getmethatbox",
+      "explanation": "Get me that box. Get + 人 + 物（人に物を取ってくる/手に入れる）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼女に花を買いました（SVO）」\nI bought some flowers (      ) her.",
+      "choices": [],
+      "answer": "for",
+      "explanation": "Buy flowers for her. Buyはforを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「なぜあなたは怒っているのですか？（何があなたを怒らせたのですか？）」\nWhat made (      ) angry?",
+      "choices": ["you", "your", "yours", "to you"],
+      "answer": "you",
+      "explanation": "What made you angry? 無生物主語の構文です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは彼女をリーダーに選びました。」となるように並び替えてください。",
+      "choices": ["leader", "elected", "her", "We", "our"],
+      "answer": "Weelectedherourleader",
+      "explanation": "We elected her our leader. Elect + O + C（OをCに選出する）です。Chooseも同様に使えます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私に塩を回して（手渡して）くれますか？」\nWill you pass (      ) the salt?",
+      "choices": [],
+      "answer": "me",
+      "explanation": "Pass me the salt. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼に新しい帽子を作ってあげました」\nI made (      ) a new hat.",
+      "choices": ["him", "to him", "for him", "he"],
+      "answer": "him",
+      "explanation": "Make him a new hat. SVOOの語順です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは壁を白く塗りました。」となるように並び替えてください。",
+      "choices": ["painted", "wall", "white", "They", "the"],
+      "answer": "Theypaintedthewallwhite",
+      "explanation": "They painted the wall white. Paint + O + C（OをC（色）に塗る）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼に真実を教えてあげなさい（SVO）」\nTell the truth (      ) him.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Tell the truth to him. Tellはtoを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その仕事を秘密にしておいて」\nKeep the work (      ) secret.",
+      "choices": ["a", "the", "to", "for"],
+      "answer": "a",
+      "explanation": "Keep the work a secret. Keep + O + C（OをCにしておく）です。Secretは名詞ですが、形容詞的に使われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼にクッキーを焼いてあげました（Bakeを使って）。」となるように並び替えてください。",
+      "choices": ["him", "baked", "cookies", "some", "I"],
+      "answer": "Ibakedhimsomecookies",
+      "explanation": "I baked him some cookies. Bake + 人 + 物（人に物を焼いてあげる）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼に座る椅子を見つけてあげよう」\nI will find (      ) a chair to sit on.",
+      "choices": [],
+      "answer": "him",
+      "explanation": "Find him a chair. SVOOです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は私に良い知らせを持ってきました」\nShe brought (      ) good news.",
+      "choices": ["me", "to me", "for me", "I"],
+      "answer": "me",
+      "explanation": "Bring me good news. Bring + 人 + 物（人に物を持ってくる）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「冷めないうちに召し上がれ（それを温かいままにしておきなさい）。」となるように並び替えてください。",
+      "choices": ["warm", "it", "Keep"],
+      "answer": "Keepitwarm",
+      "explanation": "Keep it warm. 食事の場面などで使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼にメッセージを送りました（SVO）」\nI sent a message (      ) him.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Send a message to him. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らはその発見を重要だと考えました」\nThey thought the discovery (      ).",
+      "choices": ["important", "importance", "importantly", "import"],
+      "answer": "important",
+      "explanation": "Think + O + C（OをCだと考える）。Cには形容詞が来ます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はあなたにいくつか質問をします。」となるように並び替えてください。",
+      "choices": ["you", "ask", "questions", "will", "some", "I"],
+      "answer": "Iwillaskyousomequestions",
+      "explanation": "I will ask you some questions. Ask + 人 + 物（質問）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼にコーヒーをいれてあげました（Makeを使って）」\nI made (      ) some coffee.",
+      "choices": [],
+      "answer": "him",
+      "explanation": "Made him some coffee. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その音で私は目が覚めました（私を起きている状態にしました）」\nThe noise made (      ) awake.",
+      "choices": ["me", "I", "my", "mine"],
+      "answer": "me",
+      "explanation": "Make me awake. Awakeは形容詞です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は私にプレゼントをくれました。」となるように並び替えてください。",
+      "choices": ["present", "gave", "me", "a", "She"],
+      "answer": "Shegavemeapresent",
+      "explanation": "She gave me a present. 基本のSVOOです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼にタクシーを呼んであげましょう（Callを使って）」\nI will call (      ) a taxi.",
+      "choices": [],
+      "answer": "him",
+      "explanation": "Call him a taxi. Callは「～と呼ぶ（SVOC）」だけでなく「～を呼んであげる（SVOO）」としても使えます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼に夕食をご馳走しました（料理しました）（SVO）」\nI cooked dinner (      ) him.",
+      "choices": ["for", "to", "with", "at"],
+      "answer": "for",
+      "explanation": "Cook dinner for him. Cookはforを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは彼女を天才と呼びます。」となるように並び替えてください。",
+      "choices": ["genius", "call", "We", "her", "a"],
+      "answer": "Wecallheragenius",
+      "explanation": "We call her a genius. Call + O + Cです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼にその写真を見せてください（SVO）」\nPlease show the picture (      ) him.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "Show the picture to him. です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼に新しいカバンを買ってあげました（SVO）」\nI bought a new bag (      ) him.",
+      "choices": ["for", "to", "with", "of"],
+      "answer": "for",
+      "explanation": "Buy a bag for him. Buyはforを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私にその本を貸してくれますか？」となるように並び替えてください。",
+      "choices": ["lend", "me", "you", "book", "the", "Will"],
+      "answer": "Willyoulendmethebook",
+      "explanation": "Will you lend me the book? Lend + 人 + 物です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「この部屋をきれいにしておきなさい」\nKeep this room (      ).",
+      "choices": [],
+      "answer": "clean",
+      "explanation": "Keep this room clean. 形容詞cleanを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼に水を一杯持ってきて（SVO）」\nBring a cup of water (      ) him.",
+      "choices": ["to", "for", "with", "at"],
+      "answer": "to",
+      "explanation": "Bring 物 to 人です。（Forを使うこともありますが、相手の所へ持っていくニュアンスならToが基本です。教科書的にはToが多いです）"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は私に面白い話をしてくれました。」となるように並び替えてください。",
+      "choices": ["story", "told", "interesting", "me", "He", "an"],
+      "answer": "Hetoldmeaninterestingstory",
+      "explanation": "He told me an interesting story. Tell + 人 + 物です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はその窓を開けたままにしておきました」\nI left the window (      ).",
+      "choices": [],
+      "answer": "open",
+      "explanation": "Left the window open. 形容詞openです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「誰があなたにそれを教えたのですか？」\nWho taught (      ) that?",
+      "choices": ["you", "your", "to you", "for you"],
+      "answer": "you",
+      "explanation": "Who taught you that? Teach + 人 + 物です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼を怒らせてしまいました。」となるように並び替えてください。",
+      "choices": ["angry", "him", "made", "I"],
+      "answer": "Imadehimangry",
+      "explanation": "I made him angry. Make + O + Cです。"
+    }
+  ]
+}
