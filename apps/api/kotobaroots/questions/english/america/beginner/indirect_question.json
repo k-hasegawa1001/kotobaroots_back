@@ -1,468 +1,707 @@
 {
-  "learning_topic": "間接疑問文",
-  "difficulty": "Beginner",
+  "learning_topic": "間接疑問文 (Indirect Questions)",
+  "learning_locale": "en_US",
+  "difficulty": "Intermediate",
   "questions": [
     {
-      "type": "sort",
-      "question": "「私は彼が誰か知っています。」となるように並び替えてください。",
-      "choices": ["is", "he", "who", "know", "I"],
-      "answer": "Iknowwhoheis",
-      "explanation": "I know who he is. 疑問詞whoの後ろは「主語(he) + 動詞(is)」の語順になります。"
-    },
-    {
       "type": "multiple_choice",
-      "question": "「彼女がどこに住んでいるか知っていますか？」\nDo you know (      ) she lives?",
-      "choices": ["where", "what", "who", "when"],
-      "answer": "where",
-      "explanation": "「どこに」なのでwhereを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は彼がいつ来るかわかりません」\nI don't know (      ) he will come.",
-      "choices": [],
-      "answer": "when",
-      "explanation": "「いつ」なのでwhenを使います。"
+      "question": "「彼がどこに住んでいるか知っていますか？」\nDo you know where (      ) ?",
+      "choices": ["he lives", "does he live", "lives he", "is he living"],
+      "answer": "he lives",
+      "explanation": "間接疑問文では、語順は「疑問詞＋主語＋動詞」になります。\n【🇺🇸 Cultural Note】\nアメリカの住所表記は「番地、通り名、市、州、郵便番号（Zip Code）」の順になります。"
     },
     {
       "type": "sort",
-      "question": "「これが何か教えてください。」となるように並び替えてください。",
-      "choices": ["is", "what", "me", "this", "Tell"],
-      "answer": "Tellmewhatthisis",
-      "explanation": "Tell me what this is. 「What + 主語(this) + 動詞(is)」です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は彼が何歳か知りたい」\nI want to know (      ) old he is.",
-      "choices": ["how", "what", "where", "who"],
-      "answer": "how",
-      "explanation": "How old（何歳）という疑問詞の塊を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼がなぜ遅れたのか知っていますか？」となるように並び替えてください。",
-      "choices": ["late", "know", "why", "was", "he", "you", "Do"],
-      "answer": "Doyouknowwhyhewaslate",
-      "explanation": "Do you know why he was late? 「Why + 主語(he) + 動詞(was)」です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は彼がどこに行ったか知っています」\nI know (      ) he went.",
-      "choices": [],
-      "answer": "where",
-      "explanation": "Where he went（彼がどこへ行ったか）。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は彼が何を欲しがっているのかわかりません」\nI don't know what (      ).",
-      "choices": ["he wants", "does he want", "wants he", "he want"],
-      "answer": "he wants",
-      "explanation": "肯定文の語順「主語(he) + 動詞(wants)」にします。Doesは使いません。"
-    },
-    {
-      "type": "sort",
-      "question": "「今何時か知っていますか？」となるように並び替えてください。",
-      "choices": ["it", "know", "is", "time", "you", "Do", "what"],
-      "answer": "Doyouknowwhattimeitis",
-      "explanation": "Do you know what time it is? What time it isの語順に注意です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は彼が誰か知りません」\nI don't know (      ) he is.",
-      "choices": [],
-      "answer": "who",
-      "explanation": "Who he is（彼が誰か）。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼が来るかどうか知っていますか？」\nDo you know (      ) he will come?",
-      "choices": ["if", "what", "where", "who"],
-      "answer": "if",
-      "explanation": "Yes/Noで答える内容を間接疑問文にする時は、if（またはwhether）を使って「～かどうか」とします。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は彼がそれをどうやって作ったのか不思議です。」となるように並び替えてください。",
-      "choices": ["it", "he", "made", "how", "wonder", "I"],
-      "answer": "Iwonderhowhemadeit",
-      "explanation": "I wonder how he made it. I wonder...（～かなあと思う/不思議に思う）は間接疑問文とよく一緒に使われます。"
+      "question": "「私は今何時かわかりません。」となるように並び替えてください。",
+      "choices": ["know", "is", "what", "I", "it", "don't", "time"],
+      "answer": "Idontknowwhattimeitis",
+      "explanation": "what time it is（今何時か）。is it ではなく it is の語順になります。\n【🇺🇸 Cultural Note】\nアメリカ本土には4つのタイムゾーン（時間帯）があり、東海岸と西海岸では3時間の時差があります。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「駅がどこにあるか教えてください」\nPlease tell me (      ) the station is.",
       "choices": [],
       "answer": "where",
-      "explanation": "Where the station is（駅がどこにあるか）。"
+      "explanation": "Please tell me where...（どこに～があるか教えてください）。\n【🇺🇸 Cultural Note】\nアムトラック（Amtrak）の駅は、街の中心部にあることが多く、歴史的な建造物であることも珍しくありません（例：NYのグランドセントラル）。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は彼が何のスポーツが好きか知っています」\nI know (      ) sport he likes.",
-      "choices": ["what", "how", "where", "who"],
-      "answer": "what",
-      "explanation": "What sport（何のスポーツ）をまとめて文頭に置きます。"
+      "question": "「彼女がいつ来るか知っていますか？」\nDo you know (      ) she will come?",
+      "choices": ["when", "where", "who", "what"],
+      "answer": "when",
+      "explanation": "「いつ」なのでwhenを使います。\n【🇺🇸 Cultural Note】\nホームパーティーなどでは、招待状に書かれた開始時間よりも少し遅れて到着するのが一般的なマナーとされることがあります（Fashionably late）。"
     },
     {
       "type": "sort",
-      "question": "「誰がその窓を割ったのか知っていますか？」となるように並び替えてください。",
-      "choices": ["window", "know", "broke", "who", "the", "Do", "you"],
-      "answer": "Doyouknowwhobrokethewindow",
-      "explanation": "Do you know who broke the window? 疑問詞who自体が主語の場合、語順は変わりません（Who + 動詞）。"
+      "question": "「彼が何を買ったか知りたいです。」となるように並び替えてください。",
+      "choices": ["bought", "know", "I", "to", "he", "what", "want"],
+      "answer": "Iwanttoknowwhathebought",
+      "explanation": "what he bought（彼が何を買ったか）。did buy とはしません。\n【🇺🇸 Cultural Note】\nアメリカのレシートには返品（Return）に必要な情報が書かれているため、プレゼントを贈る際に値段を隠した「ギフトレシート」を添える習慣があります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は彼が家にいるかどうかわかりません」\nI don't know (      ) he is at home.",
+      "question": "「私は彼が誰だか知りません」\nI don't know (      ) he is.",
+      "choices": [],
+      "answer": "who",
+      "explanation": "who he is（彼が誰か）。\n【🇺🇸 Cultural Note】\nハロウィンの仮装パーティーでは、マスクを被っている相手に \"I don't know who you are!\" と言うのがお決まりの会話です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「そのチケットがいくらか知っていますか？」\nDo you know how much (      ) ?",
+      "choices": ["the ticket is", "is the ticket", "the ticket does", "does the ticket"],
+      "answer": "the ticket is",
+      "explanation": "how much the ticket is（そのチケットがいくらか）。語順はS+V。\n【🇺🇸 Cultural Note】\nアメリカの表示価格は税抜きのことが多く、レジで州税（Sales Tax）が加算されるため、支払い額が少し高くなります。"
+    },
+    {
+      "type": "sort",
+      "question": "「なぜ彼女が泣いているのかわかりません。」となるように並び替えてください。",
+      "choices": ["is", "know", "why", "she", "don't", "crying", "I"],
+      "answer": "Idontknowwhysheiscrying",
+      "explanation": "why she is crying（なぜ彼女が泣いているのか）。\n【🇺🇸 Cultural Note】\n\"It's okay to cry\"（泣いてもいいんだよ）と感情を表に出すことを肯定的に捉える文化があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「明日晴れるかどうかはわかりません」\nI don't know (      ) it will be sunny tomorrow.",
       "choices": [],
       "answer": "if",
-      "explanation": "If he is at home（彼が家にいるかどうか）。Whetherでも可。"
+      "explanation": "if（～かどうか）。whetherでも可。\n【🇺🇸 Cultural Note】\n天気予報（Weather forecast）で「30% chance of rain」と言われたら、アメリカ人は傘を持たずに出かけることが多いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「それがいつ始まったか教えて」\nTell me when (      ).",
-      "choices": ["it started", "did it start", "started it", "does it start"],
-      "answer": "it started",
-      "explanation": "「主語(it) + 動詞(started)」の語順です。"
+      "question": "「私は彼が何歳か知りません」\nI don't know how old (      ).",
+      "choices": ["he is", "is he", "he was", "does he"],
+      "answer": "he is",
+      "explanation": "how old he is（彼が何歳か）。\n【🇺🇸 Cultural Note】\nアメリカでも女性に年齢を聞くのは失礼とされますが、お酒を買う際のIDチェックでは年齢確認が必須です。"
     },
     {
       "type": "sort",
-      "question": "「私は彼が何を言ったか忘れました。」となるように並び替えてください。",
-      "choices": ["forgot", "said", "he", "what", "I"],
-      "answer": "Iforgotwhathesaid",
-      "explanation": "I forgot what he said. です。"
+      "question": "「彼女がどこに行ったか知っていますか？」となるように並び替えてください。",
+      "choices": ["she", "Do", "know", "went", "where", "you"],
+      "answer": "Doyouknowwhereshewent",
+      "explanation": "where she went（彼女がどこへ行ったか）。過去形wentを使います。\n【🇺🇸 Cultural Note】\n夏休み（Summer vacation）に家族でロードトリップに出かけたり、サマーキャンプに行ったりするのは定番の過ごし方です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「どのバスに乗ればいいか教えてください」\nPlease tell me (      ) bus I should take.",
+      "question": "「私は彼が来るかどうか知りたいです」\nI want to know (      ) he will come.",
+      "choices": [],
+      "answer": "if",
+      "explanation": "if（～かどうか）。whetherでも可。\n【🇺🇸 Cultural Note】\nパーティーの招待状にある \"RSVP\" は出席の返事を求めるものですが、実際に来るかどうかは直前までわからないこともあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「誰がそのケーキを作ったか知っていますか？」\nDo you know (      ) made the cake?",
+      "choices": ["who", "whom", "whose", "which"],
+      "answer": "who",
+      "explanation": "疑問詞whoが主語の場合は、そのまま「who + 動詞」の語順になります。\n【🇺🇸 Cultural Note】\n「ベティ・クロッカー（Betty Crocker）」は実在しない人物ですが、アメリカの家庭料理やケーキミックスの象徴的なブランド名です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はその店がいつ開店するか知っています。」となるように並び替えてください。",
+      "choices": ["store", "know", "opens", "when", "the", "I"],
+      "answer": "Iknowwhenthestoreopens",
+      "explanation": "when the store opens（いつその店が開くか）。\n【🇺🇸 Cultural Note】\n多くのスーパーマーケットは朝早くから夜遅くまで開いており、ウォルマートなどは24時間営業の店舗も多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これが何であるか私に教えてください」\nPlease tell me (      ) this is.",
+      "choices": [],
+      "answer": "what",
+      "explanation": "what this is（これが何か）。\n【🇺🇸 Cultural Note】\nアメリカの「ポットラック（持ち寄り）パーティー」では、見たことのない多国籍な料理に出会うことがよくあり、\"What is this?\" と尋ねる会話が生まれます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼が医者かどうかわかりません」\nI don't know (      ) he is a doctor.",
+      "choices": ["if", "what", "who", "which"],
+      "answer": "if",
+      "explanation": "if he is a doctor（彼が医者かどうか）。Yes/Noで答えられる内容を間接疑問文にする場合はifを使います。\n【🇺🇸 Cultural Note】\nアメリカの医療ドラマ（『ER』や『グレイズ・アナトミー』など）は非常に人気があり、専門用語も日常会話に浸透しています。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼がどのスポーツが好きか知っています。」となるように並び替えてください。",
+      "choices": ["likes", "sport", "know", "which", "he", "I"],
+      "answer": "Iknowwhichsporthelikes",
+      "explanation": "which sport he likes（彼がどのスポーツが好きか）。\n【🇺🇸 Cultural Note】\nアメリカの四大スポーツといえば、アメフト（NFL）、野球（MLB）、バスケ（NBA）、アイスホッケー（NHL）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「トイレがどこか教えていただけますか？」\nCould you tell me (      ) the restroom is?",
+      "choices": [],
+      "answer": "where",
+      "explanation": "where the restroom is（トイレがどこにあるか）。丁寧な依頼表現です。\n【🇺🇸 Cultural Note】\nアメリカでは一般的に \"Toilet\" ではなく \"Restroom\"（公共）や \"Bathroom\"（家庭）という言葉を使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「何が起こったか知っていますか？」\nDo you know what (      ) ?",
+      "choices": ["happened", "did happen", "happen", "happens"],
+      "answer": "happened",
+      "explanation": "疑問詞whatが主語の場合、語順は変わりません。what happened（何が起きたか）。\n【🇺🇸 Cultural Note】\n\"What happened?\" は、誰かが怪我をしていたり、散らかった部屋を見た時などに使われる定番フレーズです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はなぜ彼が遅れたのか不思議に思います。」となるように並び替えてください。",
+      "choices": ["was", "why", "wonder", "I", "late", "he"],
+      "answer": "Iwonderwhyhewaslate",
+      "explanation": "I wonder why...（なぜ～かなあと思う）。why he was late（なぜ彼は遅れたのか）。\n【🇺🇸 Cultural Note】\n\"I wonder...\" は直接質問するのではなく、独り言のように疑問を投げかける柔らかい表現です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「どちらがあなたの車か教えてください」\nPlease tell me (      ) is your car.",
       "choices": [],
       "answer": "which",
-      "explanation": "Which bus（どのバス）です。"
+      "explanation": "which is your car（どちらがあなたの車か）。whichが主語として使われています。\n【🇺🇸 Cultural Note】\n巨大なショッピングモールの駐車場では、自分の車をどこに停めたか忘れてしまい、リモコンキーを鳴らして探す人をよく見かけます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は彼がどこ出身か知りたい」\nI want to know where (      ).",
-      "choices": ["he is from", "is he from", "he from is", "from he is"],
-      "answer": "he is from",
-      "explanation": "Where he is from（彼がどこ出身か）です。"
+      "question": "「私は彼がどこ出身か知りません」\nI don't know where (      ) from.",
+      "choices": ["he is", "is he", "he comes", "does he come"],
+      "answer": "he is",
+      "explanation": "where he is from（彼がどこ出身か）。comesを使うなら where he comes from となります。\n【🇺🇸 Cultural Note】\nアメリカ人は自己紹介で出身地（州や都市）を言うことが多く、そこから地元のスポーツチームの話などで盛り上がります。"
     },
     {
       "type": "sort",
-      "question": "「彼が結婚しているかどうか知っていますか？」となるように並び替えてください。",
-      "choices": ["married", "is", "he", "if", "know", "you", "Do"],
-      "answer": "Doyouknowifheismarried",
-      "explanation": "Do you know if he is married? 「～かどうか」のifです。"
+      "question": "「私たちは誰がそのレースに勝つかわかりません。」となるように並び替えてください。",
+      "choices": ["win", "race", "know", "don't", "We", "who", "will", "the"],
+      "answer": "Wedontknowwhowillwintherace",
+      "explanation": "who will win the race（誰がレースに勝つか）。whoが主語です。\n【🇺🇸 Cultural Note】\nケンタッキーダービー（競馬）やインディ500（カーレース）は、アメリカの国民的なレースイベントです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「なぜ彼が怒っているのか理解できない」\nI can't understand (      ) he is angry.",
+      "question": "「彼女が何を言っているのか理解できません」\nI can't understand (      ) she is saying.",
+      "choices": [],
+      "answer": "what",
+      "explanation": "what she is saying（彼女が何を言っているか）。\n【🇺🇸 Cultural Note】\nアメリカは多民族国家なので、様々なアクセントの英語が飛び交っており、聞き返すこと（Pardon? / Excuse me?）は失礼ではありません。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼が結婚しているかどうか知っていますか？」\nDo you know (      ) he is married?",
+      "choices": ["if", "what", "who", "where"],
+      "answer": "if",
+      "explanation": "if he is married（彼が結婚しているかどうか）。\n【🇺🇸 Cultural Note】\n左手の薬指に指輪（Wedding ring）をしているかどうかで、既婚者かどうかを判断するのが一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はそのチケットをどこで買えるか知りたいです。」となるように並び替えてください。",
+      "choices": ["can", "buy", "ticket", "I", "know", "where", "want", "to", "I", "the"],
+      "answer": "IwanttoknowwhereIcanbuytheticket",
+      "explanation": "where I can buy...（どこで私が買えるか）。助動詞canも主語の後ろに来ます。\n【🇺🇸 Cultural Note】\nブロードウェイミュージカルの当日券を安く買える「TKTS」というチケット売り場がタイムズスクエアにあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その建物がどれくらいの高さか知っていますか？」\nDo you know how (      ) the building is?",
+      "choices": [],
+      "answer": "high",
+      "explanation": "how high/tall the building is（その建物がどれくらい高いか）。tallでも可。\n【🇺🇸 Cultural Note】\nワン・ワールド・トレード・センターは、アメリカ独立の年にちなんで1776フィート（約541メートル）の高さになっています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼が何をしているのか見てみます」\nI will see what (      ).",
+      "choices": ["he is doing", "is he doing", "does he do", "he does"],
+      "answer": "he is doing",
+      "explanation": "what he is doing（彼が何をしているか）。進行形の間接疑問文です。\n【🇺🇸 Cultural Note】\n\"What are you doing?\" は挨拶としても使われますが、間接疑問文にすることで様子を伺うニュアンスになります。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰がその窓を割ったか教えてください。」となるように並び替えてください。",
+      "choices": ["me", "broke", "window", "Please", "tell", "who", "the"],
+      "answer": "Pleasetellmewhobrokethewindow",
+      "explanation": "who broke the window（誰が窓を割ったか）。whoが主語です。\n【🇺🇸 Cultural Note】\n正直に名乗り出れば許されることが多いですが、嘘をつくこと（Lying）は厳しく叱られます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼がなぜ怒っているのかわかりません」\nI don't know (      ) he is angry.",
       "choices": [],
       "answer": "why",
-      "explanation": "Why he is angry（なぜ彼が怒っているのか）。"
+      "explanation": "why he is angry（なぜ彼が怒っているのか）。\n【🇺🇸 Cultural Note】\nアメリカ人は感情表現が豊か（Expressive）で、嬉しい時も怒っている時もはっきりと態度に示す傾向があります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は彼が何を買ったのか見ていません」\nI didn't see (      ).",
-      "choices": ["what he bought", "what did he buy", "what bought he", "he bought what"],
-      "answer": "what he bought",
-      "explanation": "What he bought（彼が何を買ったのか）。"
+      "question": "「あの建物が何歳か（築何年か）知っていますか？」\nDo you know how old (      ) ?",
+      "choices": ["that building is", "is that building", "that building was", "was that building"],
+      "answer": "that building is",
+      "explanation": "how old that building is（あの建物がどれくらい古いか）。語順はS+V。\n【🇺🇸 Cultural Note】\nアメリカには築100年を超える住宅（Historic homes）も多く、リノベーションしながら大切に住み継がれています。"
     },
     {
       "type": "sort",
-      "question": "「誰がその絵を描いたのか私に教えて。」となるように並び替えてください。",
-      "choices": ["picture", "painted", "me", "who", "the", "Tell"],
-      "answer": "Tellmewhopaintedthepicture",
-      "explanation": "Tell me who painted the picture. Whoが主語のパターンです。"
+      "question": "「私は彼が何と言ったか聞こえませんでした。」となるように並び替えてください。",
+      "choices": ["said", "hear", "what", "didn't", "he", "I"],
+      "answer": "Ididnthearwhathesaid",
+      "explanation": "what he said（彼が何と言ったか）。\n【🇺🇸 Cultural Note】\n相手の言葉が聞き取れなかった時は、\"Say that again?\" や \"Come again?\" などと言って聞き返します。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「明日晴れるかどうか不思議だ」\nI wonder (      ) it will be sunny tomorrow.",
-      "choices": [],
-      "answer": "if",
-      "explanation": "I wonder if...（～かなあ/～かどうか）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は彼がいつ来るか知っています」\nI know (      ) he will come.",
-      "choices": ["when", "where", "what", "who"],
-      "answer": "when",
-      "explanation": "「いつ」なのでwhenです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はそれをどうやって使うのか知りません。」となるように並び替えてください。",
-      "choices": ["use", "I", "how", "know", "it", "to", "don't"],
-      "answer": "Idon'tknowhowtouseit",
-      "explanation": "I don't know how to use it. 「疑問詞 + to不定詞」も間接疑問文の一種として扱われます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「その本が誰のものか知っていますか？」\nDo you know (      ) book this is?",
-      "choices": [],
-      "answer": "whose",
-      "explanation": "Whose book（誰の本）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女が何を必要としているか知っていますか？」\nDo you know what (      )?",
-      "choices": ["she needs", "does she need", "needs she", "she need"],
-      "answer": "she needs",
-      "explanation": "What she needs. 肯定文の語順で、三単現のsを忘れないようにします。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女がなぜ泣いているのか私に教えて。」となるように並び替えてください。",
-      "choices": ["is", "why", "me", "crying", "she", "Tell"],
-      "answer": "Tellmewhysheiscrying",
-      "explanation": "Tell me why she is crying. Why + S(she) + V(is crying) です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は彼らがどこに行ったのか不思議です」\nI wonder (      ) they went.",
-      "choices": [],
-      "answer": "where",
-      "explanation": "Where they went（どこへ行ったのか）。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「何が起きたのか私に教えて」\nTell me (      ).",
-      "choices": ["what happened", "what did happen", "what happen", "happened what"],
-      "answer": "what happened",
-      "explanation": "Whatが主語の場合、語順は変わりません（What + 動詞）。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は彼が正しいかどうか確信がありません。」となるように並び替えてください。",
-      "choices": ["if", "not", "is", "sure", "I", "right", "am", "he"],
-      "answer": "Iamnotsureifheisright",
-      "explanation": "I am not sure if he is right. I am not sure if...（～かどうかわからない）という慣用表現です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はそれをどこで見つけたか忘れました」\nI forgot (      ) I found it.",
-      "choices": [],
-      "answer": "where",
-      "explanation": "Where I found it（どこで見つけたか）。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「どのチームが勝つと思いますか？」\n(      ) team do you think will win?",
-      "choices": ["Which", "What", "Who", "Where"],
-      "answer": "Which",
-      "explanation": "これは連鎖疑問文と呼ばれる形ですが、間接疑問文の応用です。Do you thinkが挿入されています。Which team will win?が元です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は彼が何をしているか知りたい。」となるように並び替えてください。",
-      "choices": ["know", "doing", "is", "he", "what", "to", "want", "I"],
-      "answer": "Iwanttoknowwhatheisdoing",
-      "explanation": "I want to know what he is doing. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は彼が誰と話しているのか知りません」\nI don't know (      ) he is talking to.",
-      "choices": [],
-      "answer": "who",
-      "explanation": "Who he is talking to. Whomでも可ですが、口語ではWhoが一般的です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼がいつ出発するか知っていますか？」\nDo you know when (      )?",
-      "choices": ["he will start", "will he start", "he start", "starts he"],
-      "answer": "he will start",
-      "explanation": "When he will start. 未来のことなのでwillを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「これが何なのか見てみよう。」となるように並び替えてください。",
-      "choices": ["what", "see", "is", "Let's", "this"],
-      "answer": "Let'sseewhatthisis",
-      "explanation": "Let's see what this is. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はどうすればいいのかわかりません」\nI don't know (      ) to do.",
-      "choices": [],
-      "answer": "what",
-      "explanation": "What to do（何をすべきか＝どうすればいいか）。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「誰がそのケーキを食べたのかわかりません」\nI don't know (      ) ate the cake.",
-      "choices": ["who", "what", "which", "whom"],
-      "answer": "who",
-      "explanation": "Who ate the cake（誰が食べたのか）。Whoが主語です。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女がどこに住んでいるか知っていますか？」となるように並び替えてください。",
-      "choices": ["lives", "she", "know", "where", "you", "Do"],
-      "answer": "Doyouknowwhereshelives",
-      "explanation": "Do you know where she lives? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「それが本当かどうか疑わしい」\nI doubt (      ) it is true.",
-      "choices": [],
-      "answer": "if",
-      "explanation": "I doubt if...（～かどうか疑う）。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「どんな種類の音楽が好きか教えて」\nTell me (      ) kind of music you like.",
-      "choices": ["what", "how", "where", "who"],
-      "answer": "what",
-      "explanation": "What kind of music（どんな種類の音楽）。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は彼がいつ来るのか不思議です。」となるように並び替えてください。",
-      "choices": ["come", "will", "wonder", "he", "when", "I"],
-      "answer": "Iwonderwhenhewillcome",
-      "explanation": "I wonder when he will come. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「どれがあなたのものか知っていますか？」\nDo you know (      ) is yours?",
-      "choices": [],
-      "answer": "which",
-      "explanation": "Which is yours（どれがあなたのものか）。Whichが主語です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「どうやってそこへ行くか教えてください」\nPlease tell me (      ) I can get there.",
-      "choices": ["how", "what", "where", "who"],
-      "answer": "how",
-      "explanation": "How I can get there（どうやってそこへ行けるか）。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼が試験に合格するかどうかわかりません。」となるように並び替えてください。",
-      "choices": ["know", "exam", "pass", "if", "don't", "he", "I", "will", "the"],
-      "answer": "Idon'tknowifhewillpasstheexam",
-      "explanation": "I don't know if he will pass the exam. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女が何歳か知っていますか？」\nDo you know (      ) old she is?",
+      "question": "「そこへ行くのにどれくらい時間がかかるか教えてください」\nPlease tell me (      ) long it takes to get there.",
       "choices": [],
       "answer": "how",
-      "explanation": "How old she is. です。"
+      "explanation": "how long it takes（どれくらい時間がかかるか）。\n【🇺🇸 Cultural Note】\nアメリカは車社会なので、距離を尋ねられた時に「マイル」ではなく「車で〇〇分（20 minutes away）」と時間で答えることがよくあります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は彼がなぜそう言ったのか理解しました」\nI understood (      ) he said so.",
+      "question": "「彼女が日本料理が好きかどうか知りたいです」\nI want to know (      ) she likes Japanese food.",
+      "choices": ["if", "what", "which", "who"],
+      "answer": "if",
+      "explanation": "if（～かどうか）。Yes/No疑問文の内容を組み込む時に使います。\n【🇺🇸 Cultural Note】\n寿司（Sushi）やラーメン（Ramen）はアメリカで非常に人気がありますが、ラーメンはズズッと音を立てずに食べるのがマナーです。"
+    },
+    {
+      "type": "sort",
+      "question": "「郵便局がどこにあるか知っていますか？」となるように並び替えてください。",
+      "choices": ["office", "is", "where", "post", "know", "Do", "you", "the"],
+      "answer": "Doyouknowwherethepostofficeis",
+      "explanation": "where the post office is（郵便局がどこにあるか）。isが最後に来ます。\n【🇺🇸 Cultural Note】\nアメリカの郵便ポストは青色で、投函口がドライブスルーのように車から届く高さに設置されているものもあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼が誰なのか忘れました」\nI forgot (      ) he is.",
+      "choices": [],
+      "answer": "who",
+      "explanation": "who he is（彼が誰なのか）。\n【🇺🇸 Cultural Note】\nアメリカの学校では、学年の初めに \"Name game\" などのゲームを通してクラスメートの名前を覚える活動をよく行います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はなぜ空が青いのか不思議に思います」\nI wonder (      ) the sky is blue.",
       "choices": ["why", "what", "how", "where"],
       "answer": "why",
-      "explanation": "Why he said so（なぜ彼がそう言ったのか）。"
+      "explanation": "why the sky is blue（なぜ空が青いのか）。\n【🇺🇸 Cultural Note】\n\"Why?\" を連発する子供の好奇心（Curiosity）を育てる教育が推奨されています。"
     },
     {
       "type": "sort",
-      "question": "「私はあなたたちが何を話しているのかわかりません。」となるように並び替えてください。",
-      "choices": ["talking", "know", "you", "about", "are", "what", "don't", "I"],
-      "answer": "Idon'tknowwhatyouaretalkingabout",
-      "explanation": "I don't know what you are talking about. です。"
+      "question": "「彼がどこに住んでいるか私に教えてください。」となるように並び替えてください。",
+      "choices": ["lives", "me", "where", "Tell", "he"],
+      "answer": "Tellmewherehelives",
+      "explanation": "where he lives（彼がどこに住んでいるか）。does he live とはしません。\n【🇺🇸 Cultural Note】\n住所を書く際、アパートの部屋番号は \"Apt #101\" のように表記します。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼はそれがいくらか尋ねました」\nHe asked (      ) much it was.",
-      "choices": [],
-      "answer": "how",
-      "explanation": "How much it was（それがいくらか）。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「問題は誰がそれをするかだ」\nThe problem is (      ) will do it.",
-      "choices": ["who", "what", "which", "whom"],
-      "answer": "who",
-      "explanation": "Who will do it（誰がそれをするか）。Whoが主語です。"
-    },
-    {
-      "type": "sort",
-      "question": "「その店がいつ開くか知っていますか？」となるように並び替えてください。",
-      "choices": ["shop", "opens", "when", "know", "you", "Do", "the"],
-      "answer": "Doyouknowwhentheshopopens",
-      "explanation": "Do you know when the shop opens? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はどこへ行けばいいかわかりません」\nI don't know (      ) to go.",
-      "choices": [],
-      "answer": "where",
-      "explanation": "Where to go（どこへ行くべきか）。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼が成功するかどうかは彼次第だ」\n(      ) he succeeds depends on him.",
-      "choices": ["Whether", "If", "What", "Who"],
-      "answer": "Whether",
-      "explanation": "文頭（主語）で「～かどうか」を作る場合はIfではなくWhetherを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「なぜ空が青いのか知っていますか？」となるように並び替えてください。",
-      "choices": ["blue", "sky", "is", "why", "the", "know", "Do", "you"],
-      "answer": "Doyouknowwhytheskyisblue",
-      "explanation": "Do you know why the sky is blue? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は彼が何と言っているのか聞こえません」\nI can't hear (      ) he is saying.",
+      "question": "「この単語が何を意味するか知っていますか？」\nDo you know (      ) this word means?",
       "choices": [],
       "answer": "what",
-      "explanation": "What he is saying（彼が何と言っているか）。"
+      "explanation": "what this word means（この単語が何を意味するか）。\n【🇺🇸 Cultural Note】\nスペリング・ビー（単語の綴りを当てる大会）では、出場者が審判に \"Definition, please?\"（意味をお願いします）と尋ねることができます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私はそれをいつ買ったか覚えていません」\nI don't remember (      ) I bought it.",
-      "choices": ["when", "where", "what", "who"],
-      "answer": "when",
-      "explanation": "When I bought it（いつ買ったか）。"
+      "question": "「私は彼が来るかどうかわかりません」\nI am not sure (      ) he will come.",
+      "choices": ["whether", "what", "which", "who"],
+      "answer": "whether",
+      "explanation": "whether（～かどうか）。ifと同じように使えますが、よりフォーマルです。\n【🇺🇸 Cultural Note】\n\"I'm not sure\" は「わかりません」と言う時に \"I don't know\" よりも柔らかく丁寧な響きがあるため、よく使われます。"
     },
     {
       "type": "sort",
-      "question": "「私はどうやってこの問題を解くかわかりません。」となるように並び替えてください。",
-      "choices": ["solve", "how", "problem", "know", "to", "this", "don't", "I"],
-      "answer": "Idon'tknowhowtosolvethisproblem",
-      "explanation": "I don't know how to solve this problem. How to ～（～のやり方）です。"
+      "question": "「今何時か知っていますか？」となるように並び替えてください。",
+      "choices": ["time", "know", "is", "it", "Do", "what", "you"],
+      "answer": "Doyouknowwhattimeitis",
+      "explanation": "what time it is（今何時か）。what time is it? という直接疑問文の語順にならないよう注意。\n【🇺🇸 Cultural Note】\nアメリカでは時間にルーズなことを \"Running on CP time\" (Colored People's time - スラング) や \"Island time\" などと地域や文化に関連付けて表現することがありますが、ビジネスでは厳禁です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼が誰だか知っていますか？」\nDo you know (      ) he is?",
+      "question": "「私はそのチケットがいくらか知りません」\nI don't know (      ) much the ticket is.",
       "choices": [],
-      "answer": "who",
-      "explanation": "Who he is. です。"
+      "answer": "how",
+      "explanation": "how much（いくら）。値段を聞く表現です。\n【🇺🇸 Cultural Note】\nブロードウェイのチケットは高額ですが、当日に売れ残った席を安く売る「ラッシュチケット」や抽選（Lottery）があります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は彼がコーヒーが好きかどうか知りたい」\nI want to know (      ) he likes coffee.",
-      "choices": ["if", "what", "where", "who"],
-      "answer": "if",
-      "explanation": "If he likes coffee（彼がコーヒーが好きかどうか）。"
+      "question": "「誰がその窓を壊したか見ていましたか？」\nDid you see (      ) broke the window?",
+      "choices": ["who", "whom", "whose", "which"],
+      "answer": "who",
+      "explanation": "whoが主語なので、語順は変わりません。who broke...\n【🇺🇸 Cultural Note】\n近所の監視活動「Neighborhood Watch」のサインがある地域では、住民がお互いの安全を見守っています。"
     },
     {
       "type": "sort",
-      "question": "「私はどのバスに乗るべきかわかりません。」となるように並び替えてください。",
-      "choices": ["bus", "should", "know", "don't", "which", "take", "I", "I"],
-      "answer": "Idon'tknowwhichbusIshouldtake",
-      "explanation": "I don't know which bus I should take. です。"
+      "question": "「私は彼が何をしているのか知りたいです。」となるように並び替えてください。",
+      "choices": ["doing", "is", "know", "what", "want", "to", "I", "he"],
+      "answer": "Iwanttoknowwhatheisdoing",
+      "explanation": "what he is doing（彼が何をしているか）。進行形の間接疑問文です。\n【🇺🇸 Cultural Note】\nSNSで \"WYD\" と送られてきたら \"What (are) you doing?\"（何してるの？）の略語です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私たちはどこに泊まるか決めなければなりません」\nWe must decide (      ) to stay.",
+      "question": "「そのバスがいつ出発するか教えてください」\nPlease tell me (      ) the bus leaves.",
+      "choices": [],
+      "answer": "when",
+      "explanation": "when the bus leaves（いつバスが出発するか）。\n【🇺🇸 Cultural Note】\nアメリカのスクールバスは非常に時間に正確で、朝のルートが決まっています。乗り遅れると親が学校まで送らなければなりません。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はどの道を行けばいいのかわかりません」\nI don't know (      ) way to go.",
+      "choices": ["which", "what", "where", "who"],
+      "answer": "which",
+      "explanation": "which way to go（どちらの道を行くべきか）。疑問詞＋to不定詞の形です。\n【🇺🇸 Cultural Note】\nアメリカの高速道路（Interstate）は、南北に走る道路が奇数、東西に走る道路が偶数の番号になっています。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女が昨日どこへ行ったか知っていますか？」となるように並び替えてください。",
+      "choices": ["yesterday", "she", "where", "know", "Do", "went", "you"],
+      "answer": "Doyouknowwhereshewentyesterday",
+      "explanation": "where she went（彼女がどこへ行ったか）。過去形wentを使います。\n【🇺🇸 Cultural Note】\nブラックフライデーの翌日、ショッピングモールで何を買ったか（どこに行ったか）を見せ合うのが楽しみの一つです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼が医者かどうかわかりません」\nI am not sure (      ) he is a doctor.",
+      "choices": [],
+      "answer": "if",
+      "explanation": "if（～かどうか）。whetherでも可。\n【🇺🇸 Cultural Note】\nアメリカで医者になるには、大学4年＋メディカルスクール4年＋研修期間（レジデンシー）と、非常に長い時間がかかります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「何が起こったか教えてください」\nPlease tell me what (      ).",
+      "choices": ["happened", "did happen", "happen", "happens"],
+      "answer": "happened",
+      "explanation": "what happened（何が起きたか）。whatが主語なので語順はそのまま。\n【🇺🇸 Cultural Note】\n交通事故などで警察に状況を説明する際、目撃者の証言（Witness statement）は非常に重要です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は、なぜ彼が遅れたのか不思議です。」となるように並び替えてください。",
+      "choices": ["late", "was", "why", "he", "wonder", "I"],
+      "answer": "Iwonderwhyhewaslate",
+      "explanation": "why he was late（なぜ彼が遅れたのか）。was he late としないように注意。\n【🇺🇸 Cultural Note】\n交通渋滞（Traffic jam）は遅刻の正当な理由として認められることが多いですが、早めに出発するのが社会人の常識です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「どちらがあなたのペンか知っていますか？」\nDo you know (      ) is your pen?",
+      "choices": [],
+      "answer": "which",
+      "explanation": "which is your pen（どちらがあなたのペンか）。whichが主語です。\n【🇺🇸 Cultural Note】\nアメリカの学校では、学用品リスト（School Supply List）が配られ、新学期前に指定された文房具を揃えます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼が何と言ったか理解できませんでした」\nI couldn't understand what (      ).",
+      "choices": ["he said", "did he say", "said he", "he says"],
+      "answer": "he said",
+      "explanation": "what he said（彼が何と言ったか）。\n【🇺🇸 Cultural Note】\n南部訛り（Southern accent）やニューヨーク訛りなど、地域によって英語の発音が大きく異なるため、ネイティブ同士でも聞き返せすことがあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「その博物館がいつ開くか知っていますか？」となるように並び替えてください。",
+      "choices": ["opens", "museum", "when", "know", "Do", "the", "you"],
+      "answer": "Doyouknowwhenthemuseumopens",
+      "explanation": "when the museum opens（いつ博物館が開くか）。\n【🇺🇸 Cultural Note】\nスミソニアン博物館などワシントンD.C.の多くの博物館は、年中無休（クリスマスを除く）で無料公開されています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼が今どこにいるか知りません」\nI don't know (      ) he is now.",
       "choices": [],
       "answer": "where",
-      "explanation": "Where to stay（どこに泊まるべきか）。"
+      "explanation": "where he is（彼がどこにいるか）。\n【🇺🇸 Cultural Note】\n「Find My Friends」などの位置情報共有アプリを使って、家族や友人の居場所を確認することが一般的になっています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼が来るかどうかわかりません」\nI'm not sure (      ) he will come or not.",
-      "choices": ["whether", "what", "where", "who"],
-      "answer": "whether",
-      "explanation": "Whether ... or not（～かどうか）の形です（ifでも可）。"
+      "question": "「私はどうやってそこへ行くべきかわかりません」\nI don't know (      ) to get there.",
+      "choices": ["how", "what", "which", "who"],
+      "answer": "how",
+      "explanation": "how to get there（どうやってそこへ行くか、そこへの行き方）。\n【🇺🇸 Cultural Note】\nナビアプリ（Google MapsやWaze）を使うのが基本ですが、田舎では電波が入らないこともあるので注意が必要です。"
     },
     {
       "type": "sort",
-      "question": "「郵便局がどこにあるか教えてくれませんか？」となるように並び替えてください。",
-      "choices": ["is", "me", "office", "post", "where", "tell", "you", "the", "Could"],
-      "answer": "Couldyoutellmewherethepostofficeis",
-      "explanation": "Could you tell me where the post office is? 丁寧な聞き方です。"
+      "question": "「私は彼が誰か知りたいです。」となるように並び替えてください。",
+      "choices": ["is", "who", "know", "want", "he", "to", "I"],
+      "answer": "Iwanttoknowwhoheis",
+      "explanation": "who he is（彼が誰か）。\n【🇺🇸 Cultural Note】\n有名人のそっくりさんコンテスト（Look-alike contest）は、イベントの余興として人気があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その本が誰によって書かれたか知っていますか？」\nDo you know (      ) wrote the book?",
+      "choices": [],
+      "answer": "who",
+      "explanation": "who wrote the book（誰がその本を書いたか）。whoが主語なので語順はそのまま。\n【🇺🇸 Cultural Note】\n『華麗なるギャツビー』などの古典作品は、作者の背景とともに学校で詳しく学びます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼が犬を飼っているかどうかわかりません」\nI don't know (      ) he has a dog.",
+      "choices": ["if", "what", "which", "who"],
+      "answer": "if",
+      "explanation": "if（～かどうか）。\n【🇺🇸 Cultural Note】\nアメリカでは犬を飼う（Own a dog）ことは大きな責任とみなされ、アパートによってはペット不可（No pets allowed）の場所も多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はなぜ彼が怒っているのかわかりません。」となるように並び替えてください。",
+      "choices": ["angry", "know", "why", "he", "don't", "is", "I"],
+      "answer": "Idontknowwhyheisangry",
+      "explanation": "why he is angry（なぜ彼が怒っているのか）。\n【🇺🇸 Cultural Note】\n「Hangry」（Hungry + Angry：お腹が空いてイライラする）というスラングは、日常会話でよく使われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「この花が英語で何と呼ばれるか知っていますか？」\nDo you know (      ) this flower is called in English?",
+      "choices": [],
+      "answer": "what",
+      "explanation": "what this flower is called（この花が何と呼ばれているか）。\n【🇺🇸 Cultural Note】\nそれぞれの州に「州花（State Flower）」があり、テキサス州のブルーボネットなどが有名です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼が何を買ったか知っています」\nI know what (      ).",
+      "choices": ["he bought", "did he buy", "bought he", "does he buy"],
+      "answer": "he bought",
+      "explanation": "what he bought（彼が何を買ったか）。過去の出来事なのでboughtを使います。\n【🇺🇸 Cultural Note】\nアメリカのスーパーでは、買ったものを自分で袋詰め（Bagging）することもあれば、店員がしてくれることもあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「いつ次の電車が来るか教えてください。」となるように並び替えてください。",
+      "choices": ["train", "me", "comes", "when", "Tell", "the", "next"],
+      "answer": "Tellmewhenthenexttraincomes",
+      "explanation": "when the next train comes（いつ次の電車が来るか）。\n【🇺🇸 Cultural Note】\nニューヨークの地下鉄には時刻表があまりなく、\"Every 5-10 mins\" のように頻度で運行されていることが多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼が正しいかどうか確信が持てません」\nI am not sure (      ) he is right.",
+      "choices": [],
+      "answer": "if",
+      "explanation": "if（～かどうか）。whetherでも可。\n【🇺🇸 Cultural Note】\nディベート（Debate）の授業では、自分の意見に関わらず「賛成派」「反対派」に分かれて論理的に議論する訓練をします。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「誰がその絵を描いたか知っていますか？」\nDo you know (      ) painted the picture?",
+      "choices": ["who", "whom", "whose", "which"],
+      "answer": "who",
+      "explanation": "whoが主語なので、who painted... の語順になります。\n【🇺🇸 Cultural Note】\nノーマン・ロックウェルの絵は、古き良きアメリカの生活（Americana）を描いたものとして愛されています。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はなぜ彼女が怒っているのか理解できません。」となるように並び替えてください。",
+      "choices": ["angry", "understand", "why", "she", "cannot", "is", "I"],
+      "answer": "Icannotunderstandwhysheisangry",
+      "explanation": "why she is angry（なぜ彼女が怒っているのか）。\n【🇺🇸 Cultural Note】\nアメリカ人は「空気を読む」よりも、言葉にして説明することを重視する文化（Low context culture）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その箱の中に何があるか知っていますか？」\nDo you know (      ) is in the box?",
+      "choices": [],
+      "answer": "what",
+      "explanation": "what is in the box（箱の中に何があるか）。whatが主語です。\n【🇺🇸 Cultural Note】\n引越し（Moving）の際、箱に中身を書くラベル貼りは必須です。U-Haulなどのトラックを借りて自分たちで引っ越す人も多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼がどこに行ったか不思議に思います」\nI wonder where (      ).",
+      "choices": ["he went", "did he go", "he goes", "went he"],
+      "answer": "he went",
+      "explanation": "where he went（彼がどこへ行ったか）。\n【🇺🇸 Cultural Note】\n行方不明のペットを探すために、電柱に写真を貼ったチラシ（Lost pet flyer）を貼るのは昔ながらの方法です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼が何歳か私に教えてください。」となるように並び替えてください。",
+      "choices": ["is", "old", "me", "he", "how", "Tell"],
+      "answer": "Tellmehowoldheis",
+      "explanation": "how old he is（彼が何歳か）。\n【🇺🇸 Cultural Note】\n21歳（飲酒解禁年齢）の誕生日は、盛大なパーティーで祝われることが多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼がいつ来るか知りません」\nI don't know (      ) he will come.",
+      "choices": [],
+      "answer": "when",
+      "explanation": "when he will come（彼がいつ来るか）。未来のことなのでwillを使います。\n【🇺🇸 Cultural Note】\nケーブルテレビの設置工事などは「午前9時から午後5時の間に行きます」といった大まかな時間の約束しかできないことがよくあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「どのチームが勝ったか知っていますか？」\nDo you know (      ) team won?",
+      "choices": ["which", "what", "who", "where"],
+      "answer": "which",
+      "explanation": "which team won（どのチームが勝ったか）。選択肢がある場合はwhichを使います。\n【🇺🇸 Cultural Note】\nワールドシリーズ（MLB）やスーパーボウル（NFL）の勝者は「ワールドチャンピオン」と呼ばれます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はこの機械がどのように動くか知りたいです。」となるように並び替えてください。",
+      "choices": ["machine", "works", "how", "know", "this", "want", "to", "I"],
+      "answer": "Iwanttoknowhowthismachineworks",
+      "explanation": "how this machine works（どのようにこの機械が動くか）。\n【🇺🇸 Cultural Note】\nアメリカの家庭には、巨大な洗濯機や乾燥機、ガレージドアオープナーなどの機械があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女が結婚しているかどうか知っていますか？」\nDo you know (      ) she is married?",
+      "choices": [],
+      "answer": "if",
+      "explanation": "if（～かどうか）。whetherでも可。\n【🇺🇸 Cultural Note】\nアメリカでは結婚しても夫婦別姓を選んだり、ハイフンでつないだりする（Hyphenated name）ケースが増えています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はどこで切符を買えるか知りたいのですが」\nI want to know where (      ) buy a ticket.",
+      "choices": ["I can", "can I", "do I", "I do"],
+      "answer": "I can",
+      "explanation": "where I can buy...（どこで私が買えるか）。肯定文の語順。\n【🇺🇸 Cultural Note】\nバスや地下鉄のチケットは、券売機だけでなくスマホアプリで購入できる都市が増えています。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰がそのパイを食べたのかわかりません。」となるように並び替えてください。",
+      "choices": ["pie", "ate", "know", "don't", "I", "who", "the"],
+      "answer": "Idontknowwhoatethepie",
+      "explanation": "who ate the pie（誰がそのパイを食べたか）。whoが主語。\n【🇺🇸 Cultural Note】\nサンクスギビングの翌朝、残ったパンプキンパイを朝食として食べるのが密かな楽しみという人もいます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「今何時か教えていただけますか？」\nCould you tell me (      ) time it is?",
+      "choices": [],
+      "answer": "what",
+      "explanation": "what time it is（今何時か）。\n【🇺🇸 Cultural Note】\n通りすがりの人に時間を聞くことは普通ですが、スマホの普及で腕時計をしていない人も増えました。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はなぜ彼がそんなことを言ったのか不思議です」\nI wonder (      ) he said such a thing.",
+      "choices": ["why", "what", "how", "where"],
+      "answer": "why",
+      "explanation": "why he said...（なぜ彼が言ったのか）。\n【🇺🇸 Cultural Note】\n\"Why would you say that?\"（どうしてそんなこと言うの？）は、相手の失礼な発言をたしなめる時に使えます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女が何が好きか知っていますか？」となるように並び替えてください。",
+      "choices": ["likes", "know", "she", "what", "you", "Do"],
+      "answer": "Doyouknowwhatshelikes",
+      "explanation": "what she likes（彼女が何を好きか）。\n【🇺🇸 Cultural Note】\n誕生日プレゼントを選ぶ際、\"Gift card\"（商品券）を贈ることはアメリカでは非常に一般的で合理的とされています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はその答えが正しいかどうかわかりません」\nI don't know (      ) the answer is right.",
+      "choices": [],
+      "answer": "if",
+      "explanation": "if（～かどうか）。\n【🇺🇸 Cultural Note】\nアメリカのテスト形式は、選択式（Multiple choice）や正誤問題（True or False）が多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼がどこに車を停めたか覚えていますか？」\nDo you remember where (      ) his car?",
+      "choices": ["he parked", "did he park", "parked he", "does he park"],
+      "answer": "he parked",
+      "explanation": "where he parked（彼がどこに駐車したか）。\n【🇺🇸 Cultural Note】\nショッピングモールの巨大な駐車場では、駐車位置の番号や色（Zone color）を覚えておく必要があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はそのパーティーがいつ始まるか知りません。」となるように並び替えてください。",
+      "choices": ["party", "starts", "know", "when", "don't", "I", "the"],
+      "answer": "Idontknowwhenthepartystarts",
+      "explanation": "when the party starts（いつパーティーが始まるか）。\n【🇺🇸 Cultural Note】\nアメリカのパーティー用語で \"Throw a party\" は「パーティーを開く」という意味です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「どれくらい遠いか教えてください」\nPlease tell me (      ) far it is.",
+      "choices": [],
+      "answer": "how",
+      "explanation": "how far it is（どれくらい遠いか）。\n【🇺🇸 Cultural Note】\n「遠い」という感覚は、国土の広いアメリカでは日本と異なり、車で1時間の通勤は普通と考える人も多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「何が彼を悲しませたのか知っていますか？」\nDo you know what (      ) him sad?",
+      "choices": ["made", "make", "did make", "makes"],
+      "answer": "made",
+      "explanation": "what made him sad（何が彼を悲しませたか）。whatが主語。\n【🇺🇸 Cultural Note】\n\"What makes you tick?\"（あなたの行動原理は何？／何があなたを動かしているの？）という慣用句があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼が今日来るかどうかわかりません。」となるように並び替えてください。",
+      "choices": ["sure", "if", "not", "am", "come", "will", "today", "he", "I"],
+      "answer": "Iamnotsureifhewillcometoday",
+      "explanation": "I am not sure if...（～かどうかわからない）。\n【🇺🇸 Cultural Note】\nドタキャン（Flaking）は嫌われますが、急用ができた場合は正直に理由を話せば理解されます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「どちらの道が良いか教えてください」\nPlease tell me (      ) way is better.",
+      "choices": [],
+      "answer": "which",
+      "explanation": "which way is better（どちらの道が良いか）。\n【🇺🇸 Cultural Note】\n\"Take the high road\"（高潔な道を行く＝相手の挑発に乗らずに正しく振る舞う）という道徳的な表現があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼が何と言ったか忘れました」\nI forgot what (      ).",
+      "choices": ["he said", "did he say", "said he", "does he say"],
+      "answer": "he said",
+      "explanation": "what he said（彼が何と言ったか）。\n【🇺🇸 Cultural Note】\nアメリカ人は会話の中で \"You know what I mean?\"（言ってることわかる？）と頻繁に同意を求めます。"
+    },
+    {
+      "type": "sort",
+      "question": "「誰がその本を書いたか知っていますか？」となるように並び替えてください。",
+      "choices": ["wrote", "book", "know", "who", "the", "you", "Do"],
+      "answer": "Doyouknowwhowrotethebook",
+      "explanation": "who wrote the book（誰がその本を書いたか）。whoが主語。\n【🇺🇸 Cultural Note】\n学校の課題図書（Required Reading）についてのエッセイを書くことは、学生にとって避けて通れない道です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼がどこで働いているか知りたいです」\nI want to know (      ) he works.",
+      "choices": [],
+      "answer": "where",
+      "explanation": "where he works（彼がどこで働いているか）。\n【🇺🇸 Cultural Note】\n「What do you do?」（お仕事は何ですか？）は、パーティーなどで初対面の人にする定番の質問です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はそのバッグがいくらか知っています」\nI know (      ) the bag is.",
+      "choices": ["how much", "how many", "how long", "how far"],
+      "answer": "how much",
+      "explanation": "how much the bag is（そのバッグがいくらか）。\n【🇺🇸 Cultural Note】\n高級ブランドのバッグ（Designer bags）はステータスシンボルですが、アウトレットモールで安く買う人も多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼がいつ出発したか不思議に思います。」となるように並び替えてください。",
+      "choices": ["wonder", "when", "left", "he", "I"],
+      "answer": "Iwonderwhenheleft",
+      "explanation": "when he left（いつ彼が出発したか）。\n【🇺🇸 Cultural Note】\n「Early bird」（早起きの人）は、渋滞を避けるために早朝に出発することを好みます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちはなぜ彼が来なかったのかわかりません」\nWe don't know (      ) he didn't come.",
+      "choices": [],
+      "answer": "why",
+      "explanation": "why he didn't come（なぜ彼が来なかったのか）。\n【🇺🇸 Cultural Note】\n理由を尋ねる時、\"How come?\"（どうして？）という表現も口語ではよく使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これが何かわかりますか？」\nDo you know what (      ) ?",
+      "choices": ["this is", "is this", "this does", "does this"],
+      "answer": "this is",
+      "explanation": "what this is（これが何か）。\n【🇺🇸 Cultural Note】\nハロウィンの \"Mystery Box\" ゲームでは、目隠しをして箱の中身（冷たいパスタを「脳みそ」と言ったりする）を触って当てさせます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女が元気かどうか知っていますか？」となるように並び替えてください。",
+      "choices": ["well", "she", "if", "is", "know", "you", "Do"],
+      "answer": "Doyouknowifsheiswell",
+      "explanation": "if she is well（彼女が元気かどうか）。\n【🇺🇸 Cultural Note】\n\"I hope this email finds you well\"（お元気でお過ごしのことと存じます）は、ビジネスメールの定番の書き出しです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「どちらが勝つか誰にもわかりません」\nNo one knows (      ) will win.",
+      "choices": [],
+      "answer": "who",
+      "explanation": "who will win（誰が勝つか）。which team will winならwhichですが、単に「誰が」ならwho。\n【🇺🇸 Cultural Note】\n大統領選挙の夜は、州ごとの勝敗が決まるたびに地図が赤（共和党）と青（民主党）に塗られていくのを国民が見守ります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼が何を探しているのかわかりません」\nI don't know what (      ) looking for.",
+      "choices": ["he is", "is he", "does he", "he does"],
+      "answer": "he is",
+      "explanation": "what he is looking for（彼が何を探しているか）。進行形の間接疑問文。\n【🇺🇸 Cultural Note】\nイースターのエッグハントでは、子供たちが隠された卵を必死に探します（look for）。"
+    },
+    {
+      "type": "sort",
+      "question": "「その言葉が何を意味するか教えてください。」となるように並び替えてください。",
+      "choices": ["means", "word", "what", "me", "Tell", "the"],
+      "answer": "Tellmewhatthewordmeans",
+      "explanation": "what the word means（その言葉が何を意味するか）。\n【🇺🇸 Cultural Note】\nアメリカのクロスワードパズル（Crossword puzzle）は新聞の日曜版の定番で、多くの大人が楽しんでいます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼がどこに行ったか忘れました」\nI forgot (      ) he went.",
+      "choices": [],
+      "answer": "where",
+      "explanation": "where he went（彼がどこに行ったか）。\n【🇺🇸 Cultural Note】\n認知症（Dementia）のお年寄りが迷子になった際に発令される「シルバーアラート」という警報システムがあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「誰がその手紙を書いたか知っていますか？」\nDo you know (      ) wrote the letter?",
+      "choices": ["who", "whom", "whose", "which"],
+      "answer": "who",
+      "explanation": "who wrote the letter（誰がその手紙を書いたか）。whoが主語。\n【🇺🇸 Cultural Note】\n歴史上の人物（Founding Fathersなど）が書いた手紙は、博物館で大切に保管されています。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼が泳げるかどうかわかりません。」となるように並び替えてください。",
+      "choices": ["swim", "can", "if", "sure", "not", "I", "am", "he"],
+      "answer": "Iamnotsureifhecanswim",
+      "explanation": "I am not sure if he can swim（彼が泳げるかどうかわからない）。\n【🇺🇸 Cultural Note】\nアメリカの多くの家にはプールがありますが、子供の水の事故を防ぐためにフェンスの設置が義務付けられている地域が多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その駅がどこにあるか知っていますか？」\nDo you know (      ) the station is?",
+      "choices": [],
+      "answer": "where",
+      "explanation": "where the station is（駅がどこにあるか）。\n【🇺🇸 Cultural Note】\nニューヨークのグランドセントラル駅には、星座が描かれた美しい天井画があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は何が起きたか彼に聞きました」\nI asked him what (      ).",
+      "choices": ["happened", "did happen", "happen", "happens"],
+      "answer": "happened",
+      "explanation": "what happened（何が起きたか）。\n【🇺🇸 Cultural Note】\n警察官に職務質問された際、\"What seems to be the problem, officer?\"（何か問題ですか、お巡りさん？）と聞くのがドラマなどで見る定型句です。"
     }
   ]
 }
