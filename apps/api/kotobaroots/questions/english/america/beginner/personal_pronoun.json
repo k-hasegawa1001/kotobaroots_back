@@ -1,629 +1,707 @@
 {
   "learning_topic": "人称代名詞",
+  "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "「私は学生です」\n(      ) am a student.",
+      "question": "「私はアメリカ出身です」\n(      ) am from America.",
       "choices": ["I", "My", "Me", "Mine"],
       "answer": "I",
-      "explanation": "主語になるのは「主格」のIです。「私は」という意味です。"
-    },
-    {
-      "type": "sort",
-      "question": "「これは私のペンです。」となるように並び替えてください。",
-      "choices": ["pen", "my", "is", "This"],
-      "answer": "Thisismypen",
-      "explanation": "This is my pen. 「私の～」という意味の所有格myを使います。"
+      "explanation": "主語になる「私」はI（主格）を使います。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼を見て」\nLook at (      ).",
-      "choices": [],
-      "answer": "him",
-      "explanation": "Look atの後ろ（動詞・前置詞の目的語）には「目的格」のhimを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「その本はあなたのものです」\nThe book is (      ).",
-      "choices": ["yours", "you", "your", "my"],
-      "answer": "yours",
-      "explanation": "「あなたのもの」という意味の所有代名詞yoursを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女は私たちの先生です。」となるように並び替えてください。",
-      "choices": ["teacher", "our", "She", "is"],
-      "answer": "Sheisourteacher",
-      "explanation": "She is our teacher. 「私たちの」という意味の所有格ourを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は彼らを知っています」\nI know (      ).",
-      "choices": [],
-      "answer": "them",
-      "explanation": "「彼らを」という意味の目的格themを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼の名前はケンです」\n(      ) name is Ken.",
-      "choices": ["His", "He", "Him", "Her"],
-      "answer": "His",
-      "explanation": "「彼の」という意味の所有格Hisを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女は私のお母さんです。」となるように並び替えてください。",
-      "choices": ["She", "mother", "my", "is"],
-      "answer": "Sheismymother",
-      "explanation": "She is my mother. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「これは彼女のカバンです」\nThis is (      ) bag.",
-      "choices": [],
-      "answer": "her",
-      "explanation": "「彼女の」という意味の所有格herを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私たちは彼女が好きです」\nWe like (      ).",
-      "choices": ["her", "she", "hers", "his"],
-      "answer": "her",
-      "explanation": "「彼女を」という意味の目的格herを使います。\n\n【注意】所有格（彼女の）も目的格（彼女を）も同じherです。"
-    },
-    {
-      "type": "sort",
-      "question": "「その自転車は彼のです。」となるように並び替えてください。",
-      "choices": ["his", "is", "bike", "The"],
-      "answer": "Thebikeishis",
-      "explanation": "The bike is his. 「彼のもの」という意味の所有代名詞hisを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私を手伝ってください」\nHelp (      ).",
-      "choices": [],
-      "answer": "me",
-      "explanation": "「私を」という意味の目的格meを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたたちは忙しいですか？」\nAre (      ) busy?",
-      "choices": ["you", "your", "yours", "us"],
-      "answer": "you",
-      "explanation": "Youは単数（あなた）も複数（あなたたち）も同じ形です。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼らは私の友達です。」となるように並び替えてください。",
-      "choices": ["friends", "my", "are", "They"],
-      "answer": "Theyaremyfriends",
-      "explanation": "They are my friends. 「彼らは」という意味の主格Theyを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「このペンは私のものです」\nThis pen is (      ).",
-      "choices": [],
-      "answer": "mine",
-      "explanation": "「私のもの」という意味の所有代名詞mineを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「それは面白い」\n(      ) is interesting.",
-      "choices": ["It", "Its", "That", "This"],
-      "answer": "It",
-      "explanation": "「それは」という意味の主格Itを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちはテニスをします。」となるように並び替えてください。",
-      "choices": ["tennis", "play", "We"],
-      "answer": "Weplaytennis",
-      "explanation": "We play tennis. 「私たちは」という意味の主格Weを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「これらは彼女たちの本です」\nThese are (      ) books.",
-      "choices": [],
-      "answer": "their",
-      "explanation": "「彼女たちの（彼らの）」という意味の所有格theirを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼を招待しましょう」\nLet's invite (      ).",
-      "choices": ["him", "he", "his", "her"],
-      "answer": "him",
-      "explanation": "「彼を」という意味の目的格himを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「あれは彼らの家です。」となるように並び替えてください。",
-      "choices": ["house", "their", "is", "That"],
-      "answer": "Thatistheirhouse",
-      "explanation": "That is their house. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私と一緒に来てください」\nCome with (      ).",
-      "choices": [],
-      "answer": "me",
-      "explanation": "前置詞withの後ろなので目的格meを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「その犬はその尻尾を振った」\nThe dog wagged (      ) tail.",
-      "choices": ["its", "it", "it's", "his"],
-      "answer": "its",
-      "explanation": "「それの（その）」という意味の所有格itsを使います。\n\n【注意】It's（それは～です）と混同しないようにしましょう。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は彼女を知っています。」となるように並び替えてください。",
-      "choices": ["know", "her", "I"],
-      "answer": "Iknowher",
-      "explanation": "I know her. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「この教室は私たちのものです」\nThis classroom is (      ).",
-      "choices": [],
-      "answer": "ours",
-      "explanation": "「私たちのもの」という意味の所有代名詞oursを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは彼が好きですか？」\nDo you like (      )?",
-      "choices": ["him", "he", "his", "her"],
-      "answer": "him",
-      "explanation": "「彼を」なのでhimです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女は彼にペンをあげました。」となるように並び替えてください。",
-      "choices": ["pen", "gave", "him", "a", "She"],
-      "answer": "Shegavehimapen",
-      "explanation": "She gave him a pen. 「彼に」なのでhimを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「それは私のせいではありません」\nIt's not (      ) fault.",
+      "question": "「これは私のパスポートです」\nThis is (      ) passport.",
       "choices": [],
       "answer": "my",
-      "explanation": "「私の」なのでmyです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼らは自分たちの車を洗っています」\nThey are washing (      ) car.",
-      "choices": ["their", "them", "they", "theirs"],
-      "answer": "their",
-      "explanation": "「彼らの」なのでtheirです。"
+      "explanation": "名詞の前には所有格のmy（私の）を置きます。\n【🇺🇸 Cultural Note】\nアメリカ国内の移動にはパスポートは不要ですが、身分証明書（ID）として運転免許証がよく使われます。"
     },
     {
       "type": "sort",
-      "question": "「この席はあなたのものですか？」となるように並び替えてください。",
-      "choices": ["yours", "Is", "seat", "this"],
-      "answer": "Isthisseatyours",
-      "explanation": "Is this seat yours? 「あなたのもの」なのでyoursです。"
+      "question": "「彼は野球選手です。」となるように並び替えてください。",
+      "choices": ["player", "He", "baseball", "is", "a"],
+      "answer": "Heisabaseballplayer",
+      "explanation": "主語になる「彼」はHe（主格）です。\n【🇺🇸 Cultural Note】\nベーブ・ルースや大谷翔平など、MLBのスター選手は国民的英雄として扱われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女を知っていますか？」\nDo you know (      )?",
+      "choices": ["her", "she", "hers", "his"],
+      "answer": "her",
+      "explanation": "動詞（know）の目的語になるので、目的格のherを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あれは彼らの家です」\nThat is (      ) house.",
+      "choices": [],
+      "answer": "their",
+      "explanation": "「彼らの」という所有格はtheirです。\n【🇺🇸 Cultural Note】\nアメリカの家は広く、バックヤード（裏庭）でBBQをするのが一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「この席はあなたのものです。」となるように並び替えてください。",
+      "choices": ["yours", "is", "seat", "This"],
+      "answer": "Thisseatisyours",
+      "explanation": "「あなたのもの」という所有代名詞はyoursです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは感謝祭を祝います」\n(      ) celebrate Thanksgiving.",
+      "choices": ["We", "Us", "Our", "Ours"],
+      "answer": "We",
+      "explanation": "主語になる「私たち」はWe（主格）です。\n【🇺🇸 Cultural Note】\n11月の第4木曜日は感謝祭で、家族が集まる最も重要な祝日の一つです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「父は私に車をくれました」\nMy father gave (      ) a car.",
+      "choices": [],
+      "answer": "me",
+      "explanation": "動詞の目的語になるので、目的格のmeを使います。\n【🇺🇸 Cultural Note】\nアメリカでは16歳から運転できるため、高校生へのプレゼントとして中古車が贈られることがあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女の名前はサラです。」となるように並び替えてください。",
+      "choices": ["Her", "name", "is", "Sarah"],
+      "answer": "HernameisSarah",
+      "explanation": "「彼女の」という所有格はHerです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その猫は自分の皿から食べています」\nThe cat is eating from (      ) dish.",
+      "choices": ["its", "it", "it's", "her"],
+      "answer": "its",
+      "explanation": "動物や物の所有格はitsを使います（アポストロフィなし）。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らはニューヨーカーです」\n(      ) are New Yorkers.",
+      "choices": [],
+      "answer": "They",
+      "explanation": "主語になる「彼ら」はThey（主格）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼が好きです。」となるように並び替えてください。",
+      "choices": ["him", "like", "I"],
+      "answer": "Ilikehim",
+      "explanation": "動詞の目的語になるので、目的格のhimを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これは私たちの学校です」\nThis is (      ) school.",
+      "choices": ["our", "we", "us", "ours"],
+      "answer": "our",
+      "explanation": "「私たちの」という所有格はourです。\n【🇺🇸 Cultural Note】\nアメリカの学校にはスクールカラーやマスコットがあり、愛校心（School Spirit）が強いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その大きな車は彼らのものです」\nThe big car is (      ).",
+      "choices": [],
+      "answer": "theirs",
+      "explanation": "「彼らのもの」という所有代名詞はtheirsです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは自分の宿題をしましたか？」となるように並び替えてください。",
+      "choices": ["homework", "Did", "do", "you", "your"],
+      "answer": "Didyoujoyourhomework",
+      "explanation": "「あなたの」という所有格はyourです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「先生は私たちを助けてくれます」\nThe teacher helps (      ).",
+      "choices": ["us", "we", "our", "ours"],
+      "answer": "us",
+      "explanation": "動詞の目的語になるので、目的格のusを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「そのチケットは彼のものです」\nThe ticket is (      ).",
+      "choices": [],
+      "answer": "his",
+      "explanation": "「彼のもの」という所有代名詞はhisです（所有格と同じ形）。"
+    },
+    {
+      "type": "sort",
+      "question": "「メアリーは彼女の母と住んでいます。」となるように並び替えてください。",
+      "choices": ["mother", "Mary", "with", "lives", "her"],
+      "answer": "Maryliveswithhermother",
+      "explanation": "「彼女の」という所有格はherです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はそれらが必要です」\nI need (      ).",
+      "choices": ["them", "they", "their", "it"],
+      "answer": "them",
+      "explanation": "動詞の目的語で、複数のものを指すのでthemを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「このスマートフォンは私のものです」\nThis smartphone is (      ).",
+      "choices": [],
+      "answer": "mine",
+      "explanation": "「私のもの」という所有代名詞はmineです。\n【🇺🇸 Cultural Note】\nアメリカではiPhoneのシェアが非常に高いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはあなた自身の部屋を掃除するべきです。」となるように並び替えてください。",
+      "choices": ["room", "clean", "should", "your", "You"],
+      "answer": "Youshouldcleanyourroom",
+      "explanation": "「あなたの」という所有格はyourです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それは私のです」\nIt is (      ).",
+      "choices": ["mine", "my", "me", "I"],
+      "answer": "mine",
+      "explanation": "「私のもの」という所有代名詞はmineです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は彼に電話しました」\nShe called (      ).",
+      "choices": [],
+      "answer": "him",
+      "explanation": "動詞の目的語になるので、目的格のhimを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは私たちをパーティーに招待しました。」となるように並び替えてください。",
+      "choices": ["party", "invited", "They", "the", "us", "to"],
+      "answer": "Theyinvitedustotheparty",
+      "explanation": "動詞の目的語になるので、目的格のusを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これは彼女の車ではありません」\nThis isn't (      ) car.",
+      "choices": ["her", "she", "hers", "him"],
+      "answer": "her",
+      "explanation": "名詞の前なので所有格のherを使います。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「私はあなたを愛しています」\nI love (      ).",
       "choices": [],
       "answer": "you",
-      "explanation": "「あなたを」なので目的格のyouを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「これは彼のですか、それとも彼女のですか？」\nIs this his or (      )?",
-      "choices": ["hers", "her", "she", "him"],
-      "answer": "hers",
-      "explanation": "「彼女のもの」なので所有代名詞hersを使います。"
+      "explanation": "動詞の目的語になるので、目的格のyouを使います（主格と同じ形）。\n【🇺🇸 Cultural Note】\nアメリカでは家族やパートナーに対して\"I love you\"と頻繁に伝えます。"
     },
     {
       "type": "sort",
-      "question": "「私に教えてください。」となるように並び替えてください。",
-      "choices": ["me", "Tell"],
-      "answer": "Tellme",
-      "explanation": "Tell me. 「私に」なのでmeです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私たちの学校は古いです」\n(      ) school is old.",
-      "choices": [],
-      "answer": "Our",
-      "explanation": "「私たちの」なのでOurです。"
+      "question": "「私たちの先生は親切です。」となるように並び替えてください。",
+      "choices": ["kind", "is", "teacher", "Our"],
+      "answer": "Ourteacheriskind",
+      "explanation": "「私たちの」という所有格はOurです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「ジョンは彼らと遊んでいます」\nJohn is playing with (      ).",
-      "choices": ["them", "they", "their", "theirs"],
-      "answer": "them",
-      "explanation": "「彼らと」なので前置詞withの後ろに目的格themを置きます。"
-    },
-    {
-      "type": "sort",
-      "question": "「これはあなたの傘ですか？」となるように並び替えてください。",
-      "choices": ["umbrella", "your", "Is", "this"],
-      "answer": "Isthisyourumbrella",
-      "explanation": "Is this your umbrella? 「あなたの」なのでyourです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私に見せて」\nShow (      ).",
-      "choices": [],
-      "answer": "me",
-      "explanation": "Show me. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あの大きな家は彼らのものです」\nThat big house is (      ).",
-      "choices": ["theirs", "their", "them", "they"],
-      "answer": "theirs",
-      "explanation": "「彼らのもの」なので所有代名詞theirsを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は彼のためにケーキを作りました。」となるように並び替えてください。",
-      "choices": ["him", "cake", "made", "for", "a", "I"],
-      "answer": "Imadeacakeforhim",
-      "explanation": "I made a cake for him. 「彼のために」なのでfor himです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼は自分の部屋にいます」\nHe is in (      ) room.",
-      "choices": [],
-      "answer": "his",
-      "explanation": "「彼の」なのでhisです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私の父は私たちを動物園へ連れて行ってくれました」\nMy father took (      ) to the zoo.",
-      "choices": ["us", "we", "our", "ours"],
-      "answer": "us",
-      "explanation": "「私たちを」なので目的格usを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼らは親切です。」となるように並び替えてください。",
-      "choices": ["kind", "are", "They"],
-      "answer": "Theyarekind",
-      "explanation": "They are kind. 「彼らは」なのでTheyです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は兄と一緒に住んでいます」\nShe lives with (      ) brother.",
-      "choices": [],
-      "answer": "her",
-      "explanation": "「彼女の」なのでherです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「このカメラは私のものです」\nThis camera is (      ).",
+      "question": "「その本は私のものです」\nThe book is (      ).",
       "choices": ["mine", "my", "me", "I"],
       "answer": "mine",
-      "explanation": "「私のもの」なのでmineです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女の目は青いです。」となるように並び替えてください。",
-      "choices": ["blue", "Her", "eyes", "are"],
-      "answer": "Hereyesareblue",
-      "explanation": "Her eyes are blue. 「彼女の」なのでHerです。"
+      "explanation": "「私のもの」という所有代名詞はmineです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「これはあなたへのプレゼントです」\nThis is a present for (      ).",
+      "question": "「彼らは彼らの宿題を終えました」\nThey finished (      ) homework.",
       "choices": [],
-      "answer": "you",
-      "explanation": "「あなたへ」なのでfor youです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私たちは自分たちの仕事を終えました」\nWe finished (      ) work.",
-      "choices": ["our", "us", "we", "ours"],
-      "answer": "our",
-      "explanation": "「私たちの」なのでourです。"
+      "answer": "their",
+      "explanation": "「彼らの」という所有格はtheirです。\n【🇺🇸 Cultural Note】\nアメリカの学校の宿題（Homework）は量が多く、成績評価の大きな割合を占めます。"
     },
     {
       "type": "sort",
-      "question": "「私は彼に会いたい。」となるように並び替えてください。",
-      "choices": ["him", "see", "to", "want", "I"],
-      "answer": "Iwanttoseehim",
-      "explanation": "I want to see him. 「彼に（会う）」なのでhimです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「誰がそれをしたの？ 私だよ。」\nWho did it? (      ) did.",
-      "choices": [],
-      "answer": "I",
-      "explanation": "I did. 「私が」なので主格Iを使います。"
+      "question": "「彼女はそれを持っています。」となるように並び替えてください。",
+      "choices": ["has", "She", "it"],
+      "answer": "Shehasit",
+      "explanation": "目的語になる「それ」はitです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼女は彼に話しかけた」\nShe spoke to (      ).",
-      "choices": ["him", "he", "his", "she"],
-      "answer": "him",
-      "explanation": "「彼に」なのでto himです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私の猫はかわいい。」となるように並び替えてください。",
-      "choices": ["My", "cute", "cat", "is"],
-      "answer": "Mycatiscute",
-      "explanation": "My cat is cute. 「私の」なのでMyです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はあなたたち両方が好きです」\nI like both of (      ).",
-      "choices": [],
-      "answer": "you",
-      "explanation": "Both of you（あなたたちの両方）。youは目的格です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「この車は私たちのものです」\nThis car is (      ).",
-      "choices": ["ours", "our", "us", "we"],
-      "answer": "ours",
-      "explanation": "「私たちのもの」なのでoursです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼らは彼らの先生が好きです。」となるように並び替えてください。",
-      "choices": ["their", "like", "teacher", "They"],
-      "answer": "Theyliketheirteacher",
-      "explanation": "They like their teacher. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「それは私のアイディアではありません」\nThat isn't (      ) idea.",
-      "choices": [],
-      "answer": "my",
-      "explanation": "「私の」なのでmyです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女の髪は長い」\n(      ) hair is long.",
-      "choices": ["Her", "She", "Hers", "Him"],
-      "answer": "Her",
-      "explanation": "「彼女の」なのでHerです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちに参加しませんか？」となるように並び替えてください。",
-      "choices": ["us", "join", "you", "Won't"],
-      "answer": "Won'tyoujoinus",
-      "explanation": "Won't you join us? 「私たちに（加わる）」なのでusです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「これは彼のですか？」\nIs this (      )?",
-      "choices": [],
-      "answer": "his",
-      "explanation": "「彼のもの」なので所有代名詞hisを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は彼女に電話した」\nI called (      ).",
-      "choices": ["her", "she", "hers", "he"],
-      "answer": "her",
-      "explanation": "「彼女に」なのでherです。"
-    },
-    {
-      "type": "sort",
-      "question": "「これはあなたたちのボールですか？」となるように並び替えてください。",
-      "choices": ["your", "Is", "ball", "this"],
-      "answer": "Isthisyourball",
-      "explanation": "Is this your ball? 「あなたたちの」はyourです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼は私たちに英語を教えています」\nHe teaches (      ) English.",
-      "choices": [],
-      "answer": "us",
-      "explanation": "「私たちに」なのでusです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼らは自分のことしか考えていない」\nThey only think about (      ).",
-      "choices": ["themselves", "them", "their", "they"],
-      "answer": "themselves",
-      "explanation": "「彼ら自身」という再帰代名詞themselvesを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は自分でそれをしました。」となるように並び替えてください。",
-      "choices": ["it", "did", "myself", "I"],
-      "answer": "Ididitmyself",
-      "explanation": "I did it myself. Myselfは「私自身で」という意味です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼の趣味は釣りです」\n(      ) hobby is fishing.",
-      "choices": [],
-      "answer": "His",
-      "explanation": "「彼の」なのでHisです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私たちは彼女をパーティーに招待した」\nWe invited (      ) to the party.",
+      "question": "「私は彼女にプレゼントをあげました」\nI gave (      ) a present.",
       "choices": ["her", "she", "hers", "his"],
       "answer": "her",
-      "explanation": "「彼女を」なのでherです。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたの名前を教えて。」となるように並び替えてください。",
-      "choices": ["your", "me", "name", "Tell"],
-      "answer": "Tellmeyourname",
-      "explanation": "Tell me your name. です。"
+      "explanation": "動詞の目的語になるので、目的格のherを使います。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「それは私の知ったことではない（私のビジネスではない）」\nIt's none of (      ) business.",
+      "question": "「これはあなたのものですか？」\nIs this (      )?",
       "choices": [],
-      "answer": "my",
-      "explanation": "None of my business. 「私の」なのでmyです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「その猫は自分で顔を洗っている」\nThe cat is washing (      ) face.",
-      "choices": ["its", "it", "it's", "his"],
-      "answer": "its",
-      "explanation": "「それの（自分の）」なのでitsです。"
+      "answer": "yours",
+      "explanation": "「あなたのもの」という所有代名詞はyoursです。"
     },
     {
       "type": "sort",
-      "question": "「彼らは彼ら自身の問題を抱えている。」となるように並び替えてください。",
-      "choices": ["problems", "own", "their", "have", "They"],
-      "answer": "Theyhavetheirownproblems",
-      "explanation": "They have their own problems. Their ownで「彼ら自身の」を強調します。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は彼より年上です」\nShe is older than (      ).",
-      "choices": [],
-      "answer": "him",
-      "explanation": "Than him. 比較の対象として目的格himを使います（than heと言うこともあります）。"
+      "question": "「私の父は医者です。」となるように並び替えてください。",
+      "choices": ["doctor", "My", "a", "is", "father"],
+      "answer": "Myfatherisadoctor",
+      "explanation": "「私の」という所有格はMyです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「これは君のもの、それとも僕のもの？」\nIs this yours or (      )?",
-      "choices": ["mine", "my", "me", "I"],
-      "answer": "mine",
-      "explanation": "「私のもの」なのでmineです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は彼らに同意しません。」となるように並び替えてください。",
-      "choices": ["them", "with", "agree", "don't", "I"],
-      "answer": "Idon'tagreewiththem",
-      "explanation": "I don't agree with them. Agree with + 目的格です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「これは彼にとって重要です」\nThis is important for (      ).",
-      "choices": [],
-      "answer": "him",
-      "explanation": "For him. 前置詞forの後ろなので目的格himです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私たちに参加させて」\nLet (      ) join.",
-      "choices": ["us", "we", "our", "ours"],
-      "answer": "us",
-      "explanation": "Let us...（短縮するとLet's）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は彼に会えて嬉しいです。」となるように並び替えてください。",
-      "choices": ["him", "meet", "to", "glad", "I", "am"],
-      "answer": "Iamgladtomeethim",
-      "explanation": "I am glad to meet him. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は自分の部屋を掃除した」\nShe cleaned (      ) room.",
-      "choices": [],
-      "answer": "her",
-      "explanation": "「彼女の」なのでherです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼は私に手紙を書いた」\nHe wrote a letter to (      ).",
-      "choices": ["me", "my", "I", "mine"],
-      "answer": "me",
-      "explanation": "To me. 「私に」なので目的格meです。"
-    },
-    {
-      "type": "sort",
-      "question": "「それら（本など）は机の上にあります。」となるように並び替えてください。",
-      "choices": ["desk", "the", "on", "are", "They"],
-      "answer": "Theyareonthedesk",
-      "explanation": "They are on the desk. 物に対してもThey（それらは）を使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「ご自分の席にお戻りください」\nPlease go back to (      ) seat.",
-      "choices": [],
-      "answer": "your",
-      "explanation": "To your seat. 「あなたの」なのでyourです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私たちは彼らを誇りに思う」\nWe are proud of (      ).",
+      "question": "「私たちは彼らをよく知っています」\nWe know (      ) well.",
       "choices": ["them", "they", "their", "theirs"],
       "answer": "them",
-      "explanation": "Of them. 前置詞ofの後ろなので目的格themです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女の笑顔は美しい。」となるように並び替えてください。",
-      "choices": ["beautiful", "is", "smile", "Her"],
-      "answer": "Hersmileisbeautiful",
-      "explanation": "Her smile is beautiful. です。"
+      "explanation": "動詞の目的語になるので、目的格のthemを使います。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私に話して」\nTalk to (      ).",
+      "question": "「その赤いペンは彼女のものです」\nThe red pen is (      ).",
+      "choices": [],
+      "answer": "hers",
+      "explanation": "「彼女のもの」という所有代名詞はhersです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は彼の車を洗っています。」となるように並び替えてください。",
+      "choices": ["washing", "He", "is", "car", "his"],
+      "answer": "Heiswashinghiscar",
+      "explanation": "「彼の」という所有格はhisです。\n【🇺🇸 Cultural Note】\n週末に自宅のドライブウェイで洗車をするのは、アメリカの郊外の日常風景です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼と一緒に学校に行きます」\nI go to school with (      ).",
+      "choices": ["him", "he", "his", "her"],
+      "answer": "him",
+      "explanation": "前置詞（with）の目的語になるので、目的格のhimを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あれは私たちのものです」\nThat is (      ).",
+      "choices": [],
+      "answer": "ours",
+      "explanation": "「私たちのもの」という所有代名詞はoursです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは彼女を手伝うことができますか？」となるように並び替えてください。",
+      "choices": ["her", "Can", "help", "you"],
+      "answer": "Canyouhelpher",
+      "explanation": "動詞の目的語になるので、目的格のherを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その本はその机の上にあります」\nThe book is on (      ) desk.",
+      "choices": ["its", "it", "it's", "their"],
+      "answer": "its",
+      "explanation": "「それの（その）」という所有格はitsを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼らが好きです」\nI like (      ).",
+      "choices": [],
+      "answer": "them",
+      "explanation": "動詞の目的語になるので、目的格のthemを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「これは彼らの問題ではありません。」となるように並び替えてください。",
+      "choices": ["problem", "This", "their", "isn't"],
+      "answer": "Thisisn'ttheirproblem",
+      "explanation": "「彼らの」という所有格はtheirです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私のものはここです」\n(      ) is here.",
+      "choices": ["Mine", "My", "Me", "I"],
+      "answer": "Mine",
+      "explanation": "「私のもの」という所有代名詞はMineです。主語として使えます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は私たちに英語を教えます」\nShe teaches (      ) English.",
+      "choices": [],
+      "answer": "us",
+      "explanation": "動詞の目的語になるので、目的格のusを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたの名前は何ですか？」となるように並び替えてください。",
+      "choices": ["name", "is", "your", "What"],
+      "answer": "Whatisyourname",
+      "explanation": "「あなたの」という所有格はyourです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼を知りません」\nI don't know (      ).",
+      "choices": ["him", "he", "his", "her"],
+      "answer": "him",
+      "explanation": "動詞の目的語になるので、目的格のhimを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「そのボールはあなたのものです」\nThe ball is (      ).",
+      "choices": [],
+      "answer": "yours",
+      "explanation": "「あなたのもの」という所有代名詞はyoursです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは私たちの部屋を掃除します。」となるように並び替えてください。",
+      "choices": ["clean", "room", "our", "We"],
+      "answer": "Wecleanourroom",
+      "explanation": "「私たちの」という所有格はourです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は彼女に手紙を書きました」\nHe wrote a letter to (      ).",
+      "choices": ["her", "she", "hers", "him"],
+      "answer": "her",
+      "explanation": "前置詞（to）の目的語になるので、目的格のherを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それは私の考えです」\nThat is (      ) idea.",
+      "choices": [],
+      "answer": "my",
+      "explanation": "名詞の前なので所有格のmyを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は彼らのために夕食を作りました。」となるように並び替えてください。",
+      "choices": ["dinner", "for", "made", "She", "them"],
+      "answer": "Shemadedinnerforthem",
+      "explanation": "前置詞（for）の目的語になるので、目的格のthemを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これは彼のです」\nThis is (      ).",
+      "choices": ["his", "he", "him", "her"],
+      "answer": "his",
+      "explanation": "「彼のもの」という所有代名詞はhisです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はあなたを信じます」\nI believe (      ).",
+      "choices": [],
+      "answer": "you",
+      "explanation": "動詞の目的語になるので、目的格のyouを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは自分たちの車を持っています。」となるように並び替えてください。",
+      "choices": ["car", "have", "their", "They", "own"],
+      "answer": "Theyhavetheirowncar",
+      "explanation": "「彼らの」という所有格はtheirです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「誰がそれをしましたか？」\nWho did (      )?",
+      "choices": ["it", "its", "it's", "they"],
+      "answer": "it",
+      "explanation": "動詞の目的語になるので、目的格のitを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼女のことが好きです」\nI like (      ).",
+      "choices": [],
+      "answer": "her",
+      "explanation": "動詞の目的語になるので、目的格のherを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは私たちの仕事を終えなければなりません。」となるように並び替えてください。",
+      "choices": ["work", "finish", "We", "our", "must"],
+      "answer": "Wemustfinishourwork",
+      "explanation": "「私たちの」という所有格はourです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それは彼らの決定です」\nIt is (      ) decision.",
+      "choices": ["their", "they", "them", "theirs"],
+      "answer": "their",
+      "explanation": "名詞の前なので所有格のtheirを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼に会うつもりです」\nI will see (      ).",
+      "choices": [],
+      "answer": "him",
+      "explanation": "動詞の目的語になるので、目的格のhimを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「それは彼女のものですか？」となるように並び替えてください。",
+      "choices": ["hers", "it", "Is"],
+      "answer": "Isithers",
+      "explanation": "「彼女のもの」という所有代名詞はhersです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは私のペンを使ってもいいですよ」\nYou can use (      ) pen.",
+      "choices": ["my", "mine", "me", "I"],
+      "answer": "my",
+      "explanation": "名詞の前なので所有格のmyを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは私たちと一緒に行きます」\nThey are going with (      ).",
+      "choices": [],
+      "answer": "us",
+      "explanation": "前置詞（with）の目的語になるので、目的格のusを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「この席はあなたのものですか？」となるように並び替えてください。",
+      "choices": ["seat", "yours", "Is", "this"],
+      "answer": "Isthisseatyours",
+      "explanation": "「あなたのもの」という所有代名詞はyoursです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は彼に本を読みます」\nShe reads a book to (      ).",
+      "choices": ["him", "he", "his", "her"],
+      "answer": "him",
+      "explanation": "前置詞（to）の目的語になるので、目的格のhimを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それは私の責任です」\nIt is (      ) responsibility.",
+      "choices": [],
+      "answer": "my",
+      "explanation": "名詞の前なので所有格のmyを使います。\n【🇺🇸 Cultural Note】\nアメリカ社会では、自己責任（Personal responsibility）の概念が強く根付いています。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは彼らの家を売りました。」となるように並び替えてください。",
+      "choices": ["house", "sold", "their", "They"],
+      "answer": "Theysoldtheirhouse",
+      "explanation": "「彼らの」という所有格はtheirです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは彼女を招待しました」\nWe invited (      ).",
+      "choices": ["her", "she", "hers", "him"],
+      "answer": "her",
+      "explanation": "動詞の目的語になるので、目的格のherを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「この犬は私たちのものです」\nThis dog is (      ).",
+      "choices": [],
+      "answer": "ours",
+      "explanation": "「私たちのもの」という所有代名詞はoursです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はあなたに同意します。」となるように並び替えてください。",
+      "choices": ["you", "agree", "with", "I"],
+      "answer": "Iagreewithyou",
+      "explanation": "前置詞（with）の目的語になるので、目的格のyouを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それは彼自身の考えです」\nIt is (      ) own idea.",
+      "choices": ["his", "he", "him", "her"],
+      "answer": "his",
+      "explanation": "名詞の前なので所有格のhisを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは私を見ています」\nThey are looking at (      ).",
       "choices": [],
       "answer": "me",
-      "explanation": "Talk to me. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私の家は彼らの家の近くです」\nMy house is near (      ).",
-      "choices": ["theirs", "them", "their", "they"],
-      "answer": "theirs",
-      "explanation": "Near theirs（彼らのもの＝彼らの家）。"
+      "explanation": "前置詞（at）の目的語になるので、目的格のmeを使います。"
     },
     {
       "type": "sort",
-      "question": "「私は彼女にプレゼントを買いました。」となるように並び替えてください。",
-      "choices": ["present", "a", "her", "bought", "I"],
-      "answer": "Iboughtherapresent",
-      "explanation": "I bought her a present. Buy + 人 + 物 の文型です。"
+      "question": "「彼女の髪は長いです。」となるように並び替えてください。",
+      "choices": ["hair", "long", "is", "Her"],
+      "answer": "Herhairislong",
+      "explanation": "「彼女の」という所有格はHerです。"
     },
     {
-      "type": "fill_in_the_blank",
-      "question": "「これはあなたのですか、それとも私のですか？」\nIs this yours or (      )?",
-      "choices": [],
+      "type": "multiple_choice",
+      "question": "「その鞄は私のです」\nThe bag is (      ).",
+      "choices": ["mine", "my", "me", "I"],
       "answer": "mine",
-      "explanation": "Yours or mine? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼らは私たちを待っている」\nThey are waiting for (      ).",
-      "choices": ["us", "we", "our", "ours"],
-      "answer": "us",
-      "explanation": "Waiting for us. 前置詞forの後ろは目的格usです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はあなたを誇りに思います。」となるように並び替えてください。",
-      "choices": ["you", "of", "proud", "am", "I"],
-      "answer": "Iamproudofyou",
-      "explanation": "I am proud of you. です。"
+      "explanation": "「私のもの」という所有代名詞はmineです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私には夢がある」\n(      ) have a dream.",
+      "question": "「あなたは彼らを助けることができます」\nYou can help (      ).",
       "choices": [],
-      "answer": "I",
-      "explanation": "主語なのでIです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女の趣味は読書です」\n(      ) hobby is reading.",
-      "choices": ["Her", "She", "Hers", "Him"],
-      "answer": "Her",
-      "explanation": "「彼女の」なのでHerです。"
+      "answer": "them",
+      "explanation": "動詞の目的語になるので、目的格のthemを使います。"
     },
     {
       "type": "sort",
-      "question": "「彼の父は彼に新しい自転車を買った。」となるように並び替えてください。",
-      "choices": ["bike", "new", "a", "him", "bought", "father", "His"],
-      "answer": "Hisfatherboughthimanewbike",
-      "explanation": "His father bought him a new bike. です。"
+      "question": "「これは彼らの車ですか？」となるように並び替えてください。",
+      "choices": ["their", "car", "this", "Is"],
+      "answer": "Isthistheircar",
+      "explanation": "「彼らの」という所有格はtheirです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼女に話しかけました」\nI spoke to (      ).",
+      "choices": ["her", "she", "hers", "him"],
+      "answer": "her",
+      "explanation": "前置詞（to）の目的語になるので、目的格のherを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それはあなたの選択です」\nIt is (      ) choice.",
+      "choices": [],
+      "answer": "your",
+      "explanation": "名詞の前なので所有格のyourを使います。\n【🇺🇸 Cultural Note】\nアメリカでは個人の選択（Choice）と自由が非常に重視されます。"
+    },
+    {
+      "type": "sort",
+      "question": "「そのチケットは彼のものです。」となるように並び替えてください。",
+      "choices": ["his", "ticket", "is", "The"],
+      "answer": "Theticketishis",
+      "explanation": "「彼のもの」という所有代名詞はhisです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは彼を待ちました」\nWe waited for (      ).",
+      "choices": ["him", "he", "his", "her"],
+      "answer": "him",
+      "explanation": "前置詞（for）の目的語になるので、目的格のhimを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あれは彼女の家ですか？」\nIs that (      ) house?",
+      "choices": [],
+      "answer": "her",
+      "explanation": "名詞の前なので所有格のherを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は自分の車が好きです。」となるように並び替えてください。",
+      "choices": ["car", "my", "like", "I"],
+      "answer": "Ilikemycar",
+      "explanation": "「私の」という所有格はmyです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それは彼らのためです」\nIt is for (      ).",
+      "choices": ["them", "they", "their", "theirs"],
+      "answer": "them",
+      "explanation": "前置詞（for）の目的語になるので、目的格のthemを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「この傘はあなたのものです」\nThis umbrella is (      ).",
+      "choices": [],
+      "answer": "yours",
+      "explanation": "「あなたのもの」という所有代名詞はyoursです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は私たちに真実を話しました。」となるように並び替えてください。",
+      "choices": ["us", "truth", "told", "the", "He"],
+      "answer": "Hetoldusthetruth",
+      "explanation": "動詞（told）の目的語になるので、目的格のusを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女の目は青いです」\n(      ) eyes are blue.",
+      "choices": ["Her", "She", "Hers", "His"],
+      "answer": "Her",
+      "explanation": "名詞の前なので所有格のHerを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それは私たちの計画です」\nThat is (      ) plan.",
+      "choices": [],
+      "answer": "our",
+      "explanation": "名詞の前なので所有格のourを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「そのお金は私のものです。」となるように並び替えてください。",
+      "choices": ["mine", "money", "is", "The"],
+      "answer": "Themoneyismine",
+      "explanation": "「私のもの」という所有代名詞はmineです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はあなたのためにそれを買いました」\nI bought it for (      ).",
+      "choices": ["you", "your", "yours", "me"],
+      "answer": "you",
+      "explanation": "前置詞（for）の目的語になるので、目的格のyouを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは彼らの友達と遊んでいます」\nThey are playing with (      ) friends.",
+      "choices": [],
+      "answer": "their",
+      "explanation": "名詞の前なので所有格のtheirを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「これは彼への贈り物です。」となるように並び替えてください。",
+      "choices": ["gift", "him", "for", "a", "is", "This"],
+      "answer": "Thisisagiftforhim",
+      "explanation": "前置詞（for）の目的語になるので、目的格のhimを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その間違いは彼女のものではありません」\nThe mistake isn't (      ).",
+      "choices": ["hers", "her", "she", "him"],
+      "answer": "hers",
+      "explanation": "「彼女のもの」という所有代名詞はhersです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は私の宿題を終えました」\nI finished (      ) homework.",
+      "choices": [],
+      "answer": "my",
+      "explanation": "名詞の前なので所有格のmyを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは彼らを信じています。」となるように並び替えてください。",
+      "choices": ["them", "believe", "We"],
+      "answer": "Webelievethem",
+      "explanation": "動詞の目的語になるので、目的格のthemを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それは彼の責任です」\nIt is (      ) fault.",
+      "choices": ["his", "he", "him", "her"],
+      "answer": "his",
+      "explanation": "名詞の前なので所有格のhisを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「この席は私たちのものです」\nThis seat is (      ).",
+      "choices": [],
+      "answer": "ours",
+      "explanation": "「私たちのもの」という所有代名詞はoursです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は私に微笑みました。」となるように並び替えてください。",
+      "choices": ["me", "at", "smiled", "She"],
+      "answer": "Shesmiledatme",
+      "explanation": "前置詞（at）の目的語になるので、目的格のmeを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたのパスポートを見せてください」\nShow me (      ) passport.",
+      "choices": ["your", "you", "yours", "my"],
+      "answer": "your",
+      "explanation": "名詞の前なので所有格のyourを使います。\n【🇺🇸 Cultural Note】\nID（身分証明書）の提示は、セキュリティチェックや年齢確認で頻繁に求められます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼と一緒に働いています」\nI work with (      ).",
+      "choices": [],
+      "answer": "him",
+      "explanation": "前置詞（with）の目的語になるので、目的格のhimを使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あれは彼らの学校ですか？」となるように並び替えてください。",
+      "choices": ["school", "their", "that", "Is"],
+      "answer": "Isthattheirschool",
+      "explanation": "名詞の前なので所有格のtheirを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その勝利は私たちのものです」\nThe victory is (      ).",
+      "choices": ["ours", "our", "us", "we"],
+      "answer": "ours",
+      "explanation": "「私たちのもの」という所有代名詞はoursです。"
     }
   ]
 }
