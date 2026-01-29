@@ -1,629 +1,637 @@
 {
-  "learning_topic": "不定詞",
+  "learning_topic": "不定詞 (Infinitive)",
+  "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "「私はテニスをすることが好きです」\nI like (      ) tennis.",
-      "choices": ["to play", "play", "played", "plays"],
-      "answer": "to play",
-      "explanation": "like to play（テニスをすること）という名詞的用法です。"
+      "question": "「私は野球選手になりたいです」\nI want (      ) be a baseball player.",
+      "choices": ["to", "for", "at", "on"],
+      "answer": "to",
+      "explanation": "want to...（～したい）という名詞的用法です。\n【🇺🇸 Cultural Note】\nリトルリーグ（Little League）はアメリカ発祥です。子供のスポーツシーズンは季節ごとに変わり、春は野球、秋はアメフトやサッカーをするのが一般的です。"
     },
     {
       "type": "sort",
-      "question": "「私は医者になりたいです。」となるように並び替えてください。",
-      "choices": ["be", "want", "to", "doctor", "a", "I"],
-      "answer": "Iwanttobeadoctor",
-      "explanation": "I want to be a doctor. Want to（～したい）は不定詞の基本フレーズです。"
+      "question": "「英語を勉強することは大切です。」となるように並び替えてください。",
+      "choices": ["English", "important", "is", "To", "study"],
+      "answer": "TostudyEnglishisimportant",
+      "explanation": "To study... が主語になる名詞的用法です。\n【🇺🇸 Cultural Note】\nアメリカは移民の国なので、家庭で英語以外の言語（スペイン語や中国語など）を話す「バイリンガル教育」も盛んです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は英語を勉強するためにここに来ました」\nI came here (      ) study English.",
+      "question": "「何か飲むためのものが欲しい（飲み物が欲しい）」\nI want something (      ) drink.",
       "choices": [],
       "answer": "to",
-      "explanation": "To study（勉強するために）という副詞的用法（目的）です。"
+      "explanation": "something to drink（飲むための何か）という形容詞的用法です。\n【🇺🇸 Cultural Note】\nアメリカのファストフード店では、ソーダ（炭酸飲料）はおかわり自由（Free refills）が一般的です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私にはすべきことがたくさんあります」\nI have a lot of things (      ) do.",
-      "choices": ["to", "for", "at", "of"],
+      "question": "「私は本を借りに図書館へ行きました」\nI went to the library (      ) borrow books.",
+      "choices": ["to", "for", "of", "in"],
       "answer": "to",
-      "explanation": "Things to do（すべきこと/するためのこと）という形容詞的用法です。"
+      "explanation": "「～するために」という目的を表す副詞的用法です。\n【🇺🇸 Cultural Note】\nアメリカの公共図書館カードを持っていると、電子書籍やオーディオブックも無料で借りられることが多く、非常に便利です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたに会えてうれしいです。」となるように並び替えてください。",
+      "choices": ["to", "am", "happy", "you", "I", "meet"],
+      "answer": "Iamhappytomeetyou",
+      "explanation": "感情の原因（～してうれしい）を表す副詞的用法です。\n【🇺🇸 Cultural Note】\n初対面の挨拶では、しっかりと相手の目を見て（Eye contact）、力強く握手（Handshake）をするのがアメリカ流のマナーです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼にはすべき宿題がたくさんあります」\nHe has a lot of homework (      ) do.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "homework to do（すべき宿題）という形容詞的用法です。\n【🇺🇸 Cultural Note】\nアメリカの学校は、夏休みなどの長期休暇には宿題が出ないことが多いですが、普段の授業ごとの課題は量が多い傾向にあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の夢は世界中を旅行することです」\nMy dream is (      ) travel around the world.",
+      "choices": ["to", "for", "in", "with"],
+      "answer": "to",
+      "explanation": "is to...（～することだ）という補語になる名詞的用法です。\n【🇺🇸 Cultural Note】\nアメリカのパスポート（Passport）は青色です。若者の間では、バックパック一つでヨーロッパなどを安く旅するのが人気です。"
+    },
+    {
+      "type": "sort",
+      "question": "「早起きすることは健康に良いです。」となるように並び替えてください。",
+      "choices": ["up", "is", "early", "good", "To", "get", "for", "your", "health"],
+      "answer": "Togetupearlyisgoodforyourhealth",
+      "explanation": "To get up... が主語です。\n【🇺🇸 Cultural Note】\n\"The early bird catches the worm\"（早起きは三文の徳）ということわざは英語圏でも有名です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は歌手になるために一生懸命練習しました」\nShe practiced hard (      ) be a singer.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "目的（～するために）の副詞的用法です。\n【🇺🇸 Cultural Note】\n「アメリカン・アイドル」などのオーディション番組から、キャリー・アンダーウッドのような世界的なスターが多く誕生しています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「今日、するべきことはありますか？」\nDo you have anything (      ) do today?",
+      "choices": ["to", "for", "with", "of"],
+      "answer": "to",
+      "explanation": "anything to do（すべきこと）という形容詞的用法です。\n【🇺🇸 Cultural Note】\nアメリカの子供たちは、家の手伝い（Chores）としてゴミ出しや芝刈りなどを担当し、お小遣いをもらうシステムが一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はテニスをすることが好きです。」となるように並び替えてください。",
+      "choices": ["like", "play", "to", "I", "tennis"],
+      "answer": "Iliketoplaytennis",
+      "explanation": "like to...（～することが好き）という名詞的用法です。\n【🇺🇸 Cultural Note】\n全米オープンテニス（US Open）はニューヨークで開催される世界四大大会の一つで、非常に華やかな雰囲気です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「京都を訪れるのに一番良い時期はいつですか？」\nWhen is the best time (      ) visit Kyoto?",
+      "choices": [],
+      "answer": "to",
+      "explanation": "time to visit（訪れるための時間＝時期）という形容詞的用法です。\n【🇺🇸 Cultural Note】\nアメリカ人観光客にとって、日本の「桜（Cherry Blossom）」の季節は非常に人気があります。ワシントンD.C.の桜祭りも有名です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はそのニュースを聞いて悲しみました」\nHe was sad (      ) hear the news.",
+      "choices": ["to", "for", "by", "of"],
+      "answer": "to",
+      "explanation": "感情の原因（～して悲しい）の副詞的用法です。\n【🇺🇸 Cultural Note】\nアメリカのニュース番組（Anchorman/Anchorwoman）は、国民の信頼を集める重要な存在です。"
     },
     {
       "type": "sort",
       "question": "「英語を話すことは簡単ではありません。」となるように並び替えてください。",
-      "choices": ["English", "easy", "speak", "To", "is", "not"],
+      "choices": ["speak", "is", "English", "not", "To", "easy"],
       "answer": "TospeakEnglishisnoteasy",
-      "explanation": "To speak English is not easy. 不定詞が主語になる名詞的用法です。"
+      "explanation": "To speak... が主語です。\n【🇺🇸 Cultural Note】\nアメリカには公用語（Official Language）を定める連邦法はありませんが、事実上の共通語として英語が使われています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「何か飲むものが欲しい」\nI want something (      ) drink.",
+      "question": "「私は医者になりたいです」\nI want (      ) be a doctor.",
       "choices": [],
       "answer": "to",
-      "explanation": "Something to drink（飲むための何か＝飲み物）です。"
+      "explanation": "want to... です。\n【🇺🇸 Cultural Note】\nアメリカの医学部（Medical School）は大学院レベルにあり、通常4年制大学を卒業してから入学するため、医師になるまでの道のりは非常に長いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私はあなたに会えてうれしいです」\nI am glad (      ) see you.",
-      "choices": ["to", "for", "with", "at"],
+      "question": "「私には読むべき本がたくさんあります」\nI have many books (      ) read.",
+      "choices": ["to", "for", "read", "reading"],
       "answer": "to",
-      "explanation": "To see（会えて）。感情の原因を表す副詞的用法です。"
+      "explanation": "books to read（読むべき本）という形容詞的用法です。\n【🇺🇸 Cultural Note】\n「アラバマ物語（To Kill a Mockingbird）」や「グレート・ギャツビー」は、アメリカの高校の英語（国語）の授業でよく読まれる必読書です。"
     },
     {
       "type": "sort",
-      "question": "「私の夢はパイロットになることです。」となるように並び替えてください。",
-      "choices": ["be", "pilot", "is", "My", "dream", "to", "a"],
-      "answer": "Mydreamistobeapilot",
-      "explanation": "My dream is to be a pilot. 補語になる名詞的用法です。"
+      "question": "「彼女は歴史を勉強するために博物館へ行きました。」となるように並び替えてください。",
+      "choices": ["museum", "study", "the", "She", "history", "went", "to", "to"],
+      "answer": "Shewenttothemuseumtostudyhistory",
+      "explanation": "目的（～するために）の副詞的用法です。\n【🇺🇸 Cultural Note】\nスミソニアン博物館のように、アメリカには寄付によって運営され、入場無料の高品質な博物館が多くあります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼はその本を読み始めました」\nHe started (      ) read the book.",
+      "question": "「彼の趣味は切手を集めることです」\nHis hobby is (      ) collect stamps.",
       "choices": [],
       "answer": "to",
-      "explanation": "Start to...（～し始める）です。"
+      "explanation": "is to...（～することだ）の名詞的用法です。\n【🇺🇸 Cultural Note】\nアメリカの郵便局（USPS）が発行する「フォーエバー切手（Forever Stamp）」は、郵便料金が値上がりしても永久に使える便利な切手です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は泳ぎたい」\nI (      ) to swim.",
-      "choices": ["want", "like", "hope", "need"],
-      "answer": "want",
-      "explanation": "Want to（～したい）です。"
+      "question": "「泳ぐことは楽しいです」\n(      ) swim is fun.",
+      "choices": ["To", "For", "With", "In"],
+      "answer": "To",
+      "explanation": "To swim（泳ぐこと）が主語になります。\n【🇺🇸 Cultural Note】\n多くの家庭の裏庭にプール（Swimming pool）がある地域もあり、特にカリフォルニアやフロリダなど暖かい州では一般的です。"
     },
     {
       "type": "sort",
-      "question": "「彼女は新しい車を買う必要があります。」となるように並び替えてください。",
-      "choices": ["buy", "She", "car", "needs", "to", "new", "a"],
-      "answer": "Sheneedstobuyanewcar",
-      "explanation": "She needs to buy a new car. Need to...（～する必要がある）です。"
+      "question": "「私はあなたに手伝ってほしいです。」となるように並び替えてください。",
+      "choices": ["help", "want", "me", "you", "to", "I"],
+      "answer": "Iwantyoutohelpme",
+      "explanation": "want 人 to...（人に～してほしい）という重要構文です。\n【🇺🇸 Cultural Note】\nDIY（Do It Yourself）文化が根付いており、家の修理やペンキ塗りを自分たち（や家族の手助けで）行う人が多いです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「寝る時間ですよ」\nIt is time (      ) go to bed.",
+      "question": "「彼らは座るためのベンチを探しました」\nThey looked for a bench (      ) sit on.",
       "choices": [],
       "answer": "to",
-      "explanation": "Time to...（～する時間）という形容詞的用法です。"
+      "explanation": "bench to sit on（座るためのベンチ）。前置詞onを忘れないように注意。\n【🇺🇸 Cultural Note】\n「フォレスト・ガンプ」という映画では、バス停のベンチに座って人生を語るシーンが有名です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼は本を読むのが好きです」\nHe likes (      ) read books.",
-      "choices": ["to", "for", "in", "at"],
+      "question": "「彼女は驚いて叫びました」\nShe was surprised (      ) see it.",
+      "choices": ["to", "for", "by", "of"],
       "answer": "to",
-      "explanation": "Likes to read（読むこと）です。"
+      "explanation": "surprised to...（～して驚いた）という感情の原因を表す副詞的用法です。\n【🇺🇸 Cultural Note】\nサプライズパーティー（Surprise Party）は誕生日祝いの定番で、部屋を真っ暗にして主役を待ち伏せ、「Surprise!」と叫びます。"
     },
     {
       "type": "sort",
-      "question": "「私は早起きするために早く寝ました。」となるように並び替えてください。",
-      "choices": ["up", "bed", "early", "get", "to", "went", "I", "to"],
-      "answer": "Iwenttobedtogetupearly",
-      "explanation": "I went to bed to get up early. 後半のto get upが「起きるために」という目的を表します。"
+      "question": "「新しい自転車を買うためにお金を貯めています。」となるように並び替えてください。",
+      "choices": ["buy", "money", "saving", "bicycle", "am", "I", "to", "a", "new"],
+      "answer": "Iamsavingmoneytobuyanewbicycle",
+      "explanation": "目的（～するために）の副詞的用法です。\n【🇺🇸 Cultural Note】\n子供たちは「ピギーバンク（Piggy bank＝豚の貯金箱）」にお金を貯めます。豚は多産で富の象徴だったことに由来します。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「あなたを手伝いたい」\nI want (      ) help you.",
+      "question": "「彼にとって、漢字を学ぶことは難しいです」\nIt is difficult for him (      ) learn kanji.",
       "choices": [],
       "answer": "to",
-      "explanation": "Want to helpです。"
+      "explanation": "It is ... for 人 to ～（人にとって～することは...だ）の構文です。\n【🇺🇸 Cultural Note】\n日本語は、アメリカ国務省の外交官養成機関において、習得が最も難しい「カテゴリー4」の言語に分類されています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼女は京都を訪れたいと思っています」\nShe hopes (      ) visit Kyoto.",
+      "question": "「父は私に、もっと勉強するように言いました」\nMy father told me (      ) study harder.",
+      "choices": ["to", "for", "that", "if"],
+      "answer": "to",
+      "explanation": "tell 人 to...（人に～するように言う）の構文です。\n【🇺🇸 Cultural Note】\nアメリカの教育では「Critical Thinking（批判的思考）」が重視され、単なる暗記よりも「なぜそうなるのか」を議論する力が求められます。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは何か食べるものが欲しいですか？」となるように並び替えてください。",
+      "choices": ["eat", "something", "want", "to", "you", "Do"],
+      "answer": "Doyouwantsomethingtoeat",
+      "explanation": "something to eat（食べるための何か）の形容詞的用法です。\n【🇺🇸 Cultural Note】\n映画館ではポップコーン、野球場ではホットドッグやピーナッツが定番の「食べるもの」です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は先生になることを決心しました」\nI decided (      ) be a teacher.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "decide to...（～することを決める）は名詞的用法の一種です。\n【🇺🇸 Cultural Note】\nアメリカでは、Teach For Americaというプログラムを通じて、一流大学の卒業生が教育困難地域の学校で2年間教員として働くキャリアパスが人気です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その質問に答えるのは簡単です」\nIt is easy (      ) answer the question.",
       "choices": ["to", "for", "at", "in"],
       "answer": "to",
-      "explanation": "Hope to...（～することを望む＝～したい）です。"
+      "explanation": "It is ... to ～ の形式主語構文です。\n【🇺🇸 Cultural Note】\nアメリカのクイズ番組「Jeopardy!」は、答えに対して「質問文」で回答する独特な形式で、長年愛されています。"
     },
     {
       "type": "sort",
-      "question": "「野球を見るのは楽しい。」となるように並び替えてください。",
-      "choices": ["fun", "is", "baseball", "watch", "To"],
-      "answer": "Towatchbaseballisfun",
-      "explanation": "To watch baseball is fun. 不定詞の名詞的用法（主語）です。"
+      "question": "「私はその試験に合格するために一生懸命勉強しました。」となるように並び替えてください。",
+      "choices": ["pass", "hard", "studied", "exam", "I", "to", "the"],
+      "answer": "Istudiedhardtopasstheexam",
+      "explanation": "目的（～するために）の副詞的用法です。\n【🇺🇸 Cultural Note】\nSATやACTといった大学進学適性試験は、年に数回実施され、何度でも受験して最高スコアを提出できるのが一般的です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「座るための椅子」\nA chair (      ) sit on",
+      "question": "「母は私に部屋を掃除するように頼みました」\nMy mother asked me (      ) clean my room.",
       "choices": [],
       "answer": "to",
-      "explanation": "A chair to sit on. 形容詞的用法です。Sit on a chairと言うため、onが必要です。"
+      "explanation": "ask 人 to...（人に～するように頼む）の構文です。\n【🇺🇸 Cultural Note】\nSpring cleaning（春の大掃除）という言葉があり、冬の間に閉め切っていた家を春に徹底的に掃除する習慣があります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私たちはテニスをするために公園へ行きました」\nWe went to the park (      ) play tennis.",
-      "choices": ["to", "for", "at", "in"],
+      "question": "「私は世界平和を見ることを望んでいます」\nI hope (      ) see world peace.",
+      "choices": ["to", "for", "at", "on"],
       "answer": "to",
-      "explanation": "To play（するために）です。"
+      "explanation": "hope to...（～することを望む）という名詞的用法です。\n【🇺🇸 Cultural Note】\nニューヨークの国連本部（United Nations Headquarters）前には、銃身が結ばれた銃の彫刻があり、非暴力を象徴しています。"
     },
     {
       "type": "sort",
-      "question": "「私はそのニュースを聞いて悲しいです。」となるように並び替えてください。",
-      "choices": ["hear", "am", "news", "sad", "the", "to", "I"],
-      "answer": "Iamsadtohearthenews",
-      "explanation": "I am sad to hear the news. 感情の原因（～して悲しい）です。"
+      "question": "「そこへ行く時間です。」となるように並び替えてください。",
+      "choices": ["go", "is", "time", "to", "It", "there"],
+      "answer": "Itistimetogothere",
+      "explanation": "time to...（～するための時間＝～する時間）という形容詞的用法です。\n【🇺🇸 Cultural Note】\nアメリカの学校のチャイム（ベル）は、授業の開始と終了を告げる絶対的な合図です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は彼に会おうとしました（努力しました）」\nShe tried (      ) see him.",
+      "question": "「私はあなたに真実を話すためにここに来ました」\nI came here (      ) tell you the truth.",
       "choices": [],
       "answer": "to",
-      "explanation": "Try to...（～しようとする）です。"
+      "explanation": "目的（～するために）を表す副詞的用法です。\n【🇺🇸 Cultural Note】\nアメリカの法廷（Court）で証言する際は、「真実を、すべての真実を、そして真実のみを語ること（The truth, the whole truth, and nothing but the truth）」を宣誓します。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私にはやるべき宿題があります」\nI have homework (      ) do.",
-      "choices": ["to", "for", "at", "with"],
+      "question": "「注文する準備はできましたか？」\nAre you ready (      ) order?",
+      "choices": ["to", "for", "with", "in"],
       "answer": "to",
-      "explanation": "Homework to do（やるべき宿題）です。"
+      "explanation": "be ready to...（～する準備ができている）という慣用表現です。\n【🇺🇸 Cultural Note】\nレストランでウェイターが来る前にメニューを閉じておくと、「注文が決まった」という合図になります。"
     },
     {
       "type": "sort",
-      "question": "「世界中を旅することが私の夢です。」となるように並び替えてください。",
-      "choices": ["dream", "around", "world", "travel", "to", "the", "My", "is"],
-      "answer": "Mydreamistotravelaroundtheworld",
-      "explanation": "My dream is to travel around the world. です。"
+      "question": "「英語を学ぶことは面白いです。」となるように並び替えてください。",
+      "choices": ["interesting", "is", "English", "To", "learn"],
+      "answer": "TolearnEnglishisinteresting",
+      "explanation": "To learn... が主語です。\n【🇺🇸 Cultural Note】\nアメリカ英語には、\"Cool\"（かっこいい、いいね）や\"Awesome\"（最高）など、独特のスラングが多く存在します。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は将来、先生になりたい」\nI want (      ) be a teacher in the future.",
+      "question": "「彼女は有名な女優になりたがっています」\nShe wants (      ) be a famous actress.",
       "choices": [],
       "answer": "to",
-      "explanation": "Want to be（なりたい）です。"
+      "explanation": "want to... です。\n【🇺🇸 Cultural Note】\nロサンゼルスのハリウッドサインの近くには、スターを夢見る多くの若者が世界中から集まってきます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私には書くためのペンがありません」\nI have no pen (      ) write with.",
+      "choices": ["to", "for", "write", "writing"],
+      "answer": "to",
+      "explanation": "pen to write with（書くためのペン）。「～を使って」という意味が含まれるのでwithが必要です。\n【🇺🇸 Cultural Note】\nアメリカの学校では、テストの回答に鉛筆（No. 2 pencil）を使うのが指定されることが一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らには住むべき家が必要です。」となるように並び替えてください。",
+      "choices": ["house", "need", "a", "live", "They", "to", "in"],
+      "answer": "Theyneedahousetolivein",
+      "explanation": "house to live in（住むための家）。中に入るのでinが必要です。\n【🇺🇸 Cultural Note】\nアメリカの家は一般的に広く、地下室（Basement）や屋根裏部屋（Attic）がある家も多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私の仕事は人助けをすることです」\nMy job is (      ) help people.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "is to...（～することだ）という補語になる名詞的用法です。\n【🇺🇸 Cultural Note】\n消防士（Firefighter）はアメリカで最も尊敬される職業の一つです。"
     },
     {
       "type": "multiple_choice",
       "question": "「彼はその箱を開けようとしました」\nHe tried (      ) open the box.",
-      "choices": ["to", "for", "at", "in"],
+      "choices": ["to", "for", "at", "on"],
       "answer": "to",
-      "explanation": "Tried to open（開けようとした）です。"
+      "explanation": "try to...（～しようとする）です。\n【🇺🇸 Cultural Note】\nAmazonなどの通販が非常に普及しており、玄関先に段ボール箱（Box）が置き配される光景は日常茶飯事です。"
     },
     {
       "type": "sort",
-      "question": "「何か食べるものが欲しい。」となるように並び替えてください。",
-      "choices": ["eat", "something", "want", "I", "to"],
-      "answer": "Iwantsomethingtoeat",
-      "explanation": "I want something to eat. Something to eat（食べ物）は頻出表現です。"
+      "question": "「夜に一人で歩くのは危険です。」となるように並び替えてください。",
+      "choices": ["alone", "dangerous", "is", "It", "walk", "to", "at", "night"],
+      "answer": "Itisdangeroustowalkaloneatnight",
+      "explanation": "It is ... to ～ の形式主語構文です。\n【🇺🇸 Cultural Note】\nアメリカの都市部では、治安の悪いエリア（Bad neighborhood）には夜だけでなく昼間も近づかないのが鉄則です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼は早起きするために目覚まし時計をセットしました」\nHe set the alarm (      ) get up early.",
+      "question": "「あなたにお願いしたいことがあります」\nI have a favor (      ) ask you.",
       "choices": [],
       "answer": "to",
-      "explanation": "To get up（起きるために）です。"
+      "explanation": "favor to ask（頼みたいお願い）という形容詞的用法です。\n【🇺🇸 Cultural Note】\n\"Can I ask you a favor?\"は、人に何か頼み事をする時の定番の切り出しフレーズです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「歌うことは楽しい」\n(      ) sing is fun.",
-      "choices": ["To", "For", "At", "In"],
-      "answer": "To",
-      "explanation": "To sing（歌うこと）です。"
+      "question": "「私はそのパーティーに参加できて興奮しています」\nI am excited (      ) join the party.",
+      "choices": ["to", "for", "in", "with"],
+      "answer": "to",
+      "explanation": "感情の原因（～して興奮する）の副詞的用法です。\n【🇺🇸 Cultural Note】\nアメリカのパーティーでは、主催者だけでなくゲストも楽しむことが大切にされます。"
     },
     {
       "type": "sort",
-      "question": "「私はあなたに会うために駅へ行きました。」となるように並び替えてください。",
-      "choices": ["meet", "went", "I", "station", "you", "to", "to", "the"],
-      "answer": "Iwenttothestationtomeetyou",
-      "explanation": "I went to the station to meet you. 最初のtoは方向（駅へ）、2番目のtoは不定詞（会うために）です。"
+      "question": "「雨が降り始めました。」となるように並び替えてください。",
+      "choices": ["rain", "started", "to", "It"],
+      "answer": "Itstartedtorain",
+      "explanation": "start to...（～し始める）です。\n【🇺🇸 Cultural Note】\nシアトルなど北西部を除き、アメリカの多くの地域では傘をさす習慣があまりなく、フード付きのパーカーで済ます人も多いです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は歌手になりたがっています」\nShe wants (      ) be a singer.",
+      "question": "「彼らは昼食を食べるために立ち止まりました」\nThey stopped (      ) eat lunch.",
       "choices": [],
       "answer": "to",
-      "explanation": "Wants to beです。"
+      "explanation": "stop to...（～するために立ち止まる）。stop ...ing（～することをやめる）との違いに注意。\n【🇺🇸 Cultural Note】\nロードトリップの途中では、ファストフードのドライブスルー（Drive-thru）を利用して手軽に昼食を済ませることが多いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私たちは泳ぎに行きたい」\nWe want (      ) go swimming.",
-      "choices": ["to", "for", "at", "in"],
+      "question": "「あなたはこの本を読む必要があります」\nYou need (      ) read this book.",
+      "choices": ["to", "for", "read", "reading"],
       "answer": "to",
-      "explanation": "Want to goです。"
+      "explanation": "need to...（～する必要がある）です。\n【🇺🇸 Cultural Note】\nアメリカの図書館では「ドクター・スース（Dr. Seuss）」の絵本が子供たちに絶大な人気を誇ります。"
     },
     {
       "type": "sort",
-      "question": "「私の趣味は音楽を聴くことです。」となるように並び替えてください。",
-      "choices": ["music", "to", "hobby", "listen", "to", "is", "My"],
-      "answer": "Myhobbyistolistentomusic",
-      "explanation": "My hobby is to listen to music. です。"
+      "question": "「私はあなたに静かにしてほしいです。」となるように並び替えてください。",
+      "choices": ["quiet", "be", "to", "you", "want", "I"],
+      "answer": "Iwantyoutobequiet",
+      "explanation": "want 人 to...（人に～してほしい）の構文です。\n【🇺🇸 Cultural Note】\n図書館や映画館では静かにするのがマナーですが、コメディ映画などでは大声で笑うのがアメリカ流の楽しみ方です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼は本を読む時間がありません」\nHe has no time (      ) read books.",
+      "question": "「彼には養うべき大家族がいます」\nHe has a big family (      ) support.",
       "choices": [],
       "answer": "to",
-      "explanation": "Time to read（読むための時間）です。"
+      "explanation": "family to support（養うべき家族）という形容詞的用法です。\n【🇺🇸 Cultural Note】\n感謝祭などのホリデーシーズンには、親戚一同が集まり、数十人の大規模な食事会になることも珍しくありません。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は日本語を勉強するために日本に来ました」\nI came to Japan (      ) study Japanese.",
-      "choices": ["to", "for", "at", "in"],
+      "question": "「私は京都に行きたいです（行きたい気分です）」\nI would like (      ) go to Kyoto.",
+      "choices": ["to", "for", "go", "going"],
       "answer": "to",
-      "explanation": "To study（勉強するために）です。"
+      "explanation": "would like to...（～したいのですが）という、want toよりも丁寧な表現です。\n【🇺🇸 Cultural Note】\nお店で注文する時などは、\"I want...\"よりも\"I would like...\"（またはI'd like...）を使う方が礼儀正しいです。"
     },
     {
       "type": "sort",
-      "question": "「何か書くもの（筆記用具）を持っていますか？」となるように並び替えてください。",
-      "choices": ["write", "have", "with", "anything", "you", "to", "Do"],
-      "answer": "Doyouhaveanythingtowritewith",
-      "explanation": "Do you have anything to write with? ペンなどで「書く（道具として）」の場合はwithが必要です。"
+      "question": "「彼がその仕事を得るのは難しかったです。」となるように並び替えてください。",
+      "choices": ["difficult", "him", "get", "job", "was", "It", "for", "to", "the"],
+      "answer": "Itwasdifficultforhimtogetthejob",
+      "explanation": "It was ... for 人 to ～ の構文です。\n【🇺🇸 Cultural Note】\nアメリカでの就職活動では、履歴書（Resume）だけでなく、ネットワーキング（人脈作り）や推薦状が非常に重要です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「夕食を作るのを手伝って」\nHelp me (      ) cook dinner.",
+      "question": "「宿題をするのを忘れないでね」\nDon't forget (      ) do your homework.",
       "choices": [],
       "answer": "to",
-      "explanation": "Help me to cook. （Help me cookとtoを省略することもありますが、ここでは不定詞の学習としてtoを入れます）"
+      "explanation": "forget to...（～するのを忘れる）。forget ...ing（～したことを忘れる）との違いに注意。\n【🇺🇸 Cultural Note】\n\"The dog ate my homework\"（犬が宿題を食べちゃった）は、宿題を忘れた時の古典的な（そして誰も信じない）言い訳です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「外国語を学ぶことは大切です」\n(      ) learn foreign languages is important.",
-      "choices": ["To", "For", "At", "In"],
-      "answer": "To",
-      "explanation": "To learn（学ぶこと）です。"
+      "question": "「彼女は有名な歌手になるために成長しました（成長して歌手になりました）」\nShe grew up (      ) be a famous singer.",
+      "choices": ["to", "for", "in", "at"],
+      "answer": "to",
+      "explanation": "結果を表す副詞的用法です。「成長して～になった」と訳します。\n【🇺🇸 Cultural Note】\nテイラー・スウィフトのように、カントリーミュージックからポップスターへと成長する歌手も多いです。"
     },
     {
       "type": "sort",
-      "question": "「私は新しい自転車を買うお金がありません。」となるように並び替えてください。",
-      "choices": ["money", "bike", "buy", "no", "new", "have", "to", "a", "I"],
-      "answer": "Ihavenomoneytobuyanewbike",
-      "explanation": "I have no money to buy a new bike. です。"
+      "question": "「あなたにまた会えてうれしいです。」となるように並び替えてください。",
+      "choices": ["glad", "see", "am", "to", "I", "again", "you"],
+      "answer": "Iamgladtoseeyouagain",
+      "explanation": "感情の原因（～してうれしい）です。\n【🇺🇸 Cultural Note】\n久しぶりに会った時の挨拶は、\"Long time no see!\"などがよく使われます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「あなたにまた会えてうれしいです」\nI am happy (      ) see you again.",
+      "question": "「私は彼に、窓を開けるように頼みました」\nI asked him (      ) open the window.",
       "choices": [],
       "answer": "to",
-      "explanation": "Happy to see you.（会えてうれしい）です。"
+      "explanation": "ask 人 to...（人に～するように頼む）です。\n【🇺🇸 Cultural Note】\nアメリカの家屋はセントラルヒーティング（全館空調）が一般的で、窓を開けて換気することは日本ほど頻繁ではありません。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼女は雨が降り出したので走り始めた」\nShe started (      ) run because it began to rain.",
-      "choices": ["to", "for", "at", "in"],
+      "question": "「あなたと話す時間はありますか？」\nIs there time (      ) talk with you?",
+      "choices": ["to", "for", "talk", "talking"],
       "answer": "to",
-      "explanation": "Start to run（走り始める）です。"
+      "explanation": "time to talk（話すための時間）という形容詞的用法です。\n【🇺🇸 Cultural Note】\nビジネスの場では\"Time is money\"（時は金なり）の考え方が浸透しており、効率的な会議が好まれます。"
     },
     {
       "type": "sort",
-      "question": "「彼には養うべき大家族がいます。」となるように並び替えてください。",
-      "choices": ["family", "large", "He", "support", "has", "a", "to"],
-      "answer": "Hehasalargefamilytosupport",
-      "explanation": "He has a large family to support. Family to support（養うべき家族）です。"
+      "question": "「先生は私たちに、教室を掃除するように言いました。」となるように並び替えてください。",
+      "choices": ["told", "teacher", "clean", "to", "us", "The", "room", "the"],
+      "answer": "Theteachertoldustocleantheroom",
+      "explanation": "tell 人 to...（人に～するように言う）です。\n【🇺🇸 Cultural Note】\n日本の学校と違い、アメリカの学校では生徒が教室の掃除をする習慣はほとんどなく、清掃員（Janitor）が行います。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「あなたはなぜここに来たのですか？」\nWhy did you come here? -> あなたに会うためです。 (      ) see you.",
+      "question": "「彼は一生懸命勉強することを約束しました」\nHe promised (      ) study hard.",
       "choices": [],
-      "answer": "To",
-      "explanation": "To see you. Whyの質問に対し、To...（～するためです）と答えることができます。"
+      "answer": "to",
+      "explanation": "promise to...（～することを約束する）は名詞的用法の一種です。\n【🇺🇸 Cultural Note】\n指切りげんまん（Pinky promise）はアメリカの子供たちの間でも行われます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼女はピアニストになるために一生懸命練習しました」\nShe practiced hard (      ) be a pianist.",
-      "choices": ["to", "for", "at", "in"],
+      "question": "「彼らは新しい車を買う予定です」\nThey plan (      ) buy a new car.",
+      "choices": ["to", "for", "buy", "buying"],
       "answer": "to",
-      "explanation": "To be（なるために）です。"
+      "explanation": "plan to...（～することを計画する＝～する予定だ）です。\n【🇺🇸 Cultural Note】\nアメリカでは高校生が初めて買う車として、親のお下がりの古いセダンやピックアップトラックがよく選ばれます。"
     },
     {
       "type": "sort",
-      "question": "「私は彼にプレゼントをあげるつもりです。」となるように並び替えてください。",
-      "choices": ["give", "going", "him", "present", "am", "to", "a", "I"],
-      "answer": "Iamgoingtogivehimapresent",
-      "explanation": "I am going to give him a present. be going to（～するつもり）も不定詞の一種です。"
+      "question": "「その質問に答えるのは不可能です。」となるように並び替えてください。",
+      "choices": ["impossible", "answer", "is", "question", "It", "to", "the"],
+      "answer": "Itisimpossibletoanswerthequestion",
+      "explanation": "It is ... to ～ の形式主語構文です。\n【🇺🇸 Cultural Note】\n「ミッション：インポッシブル」という映画シリーズは、不可能な任務に挑むスパイのアクション映画です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は彼に親切にしようとしました」\nI tried (      ) be kind to him.",
+      "question": "「何か温かい飲み物が欲しいです」\nI want something hot (      ) drink.",
       "choices": [],
       "answer": "to",
-      "explanation": "Tried to be（～であろうとした）です。"
+      "explanation": "something hot to drink（何か温かい飲み物）。形容詞（hot）はsomethingの後ろに来ます。\n【🇺🇸 Cultural Note】\n寒い季節には、ホットチョコレート（ココア）にマシュマロを浮かべて飲むのが人気です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「泳ぐことは健康に良い」\n(      ) swim is good for your health.",
-      "choices": ["To", "For", "At", "In"],
-      "answer": "To",
-      "explanation": "To swim（泳ぐこと）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「何か冷たい飲み物はありますか？」となるように並び替えてください。",
-      "choices": ["cold", "anything", "you", "drink", "Do", "have", "to"],
-      "answer": "Doyouhaveanythingcoldtodrink",
-      "explanation": "Do you have anything cold to drink? 形容詞coldはanythingの後ろ、to drinkの前に入ります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は今、出発しなければなりません」\nI have (      ) leave now.",
-      "choices": [],
-      "answer": "to",
-      "explanation": "Have to（～しなければならない）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は帽子を買うためにお店に行きました」\nShe went to the shop (      ) buy a hat.",
-      "choices": ["to", "for", "at", "in"],
-      "answer": "to",
-      "explanation": "To buy（買うために）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「そこへ行く必要はありません。」となるように並び替えてください。",
-      "choices": ["go", "need", "don't", "You", "there", "to"],
-      "answer": "Youdon'tneedtogothere",
-      "explanation": "You don't need to go there. Need toの否定形don't need to（～する必要はない）です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はそれを聞いて驚きました」\nI was surprised (      ) hear that.",
-      "choices": [],
-      "answer": "to",
-      "explanation": "Surprised to hear（聞いて驚く）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「早起きすることは良い習慣です」\n(      ) get up early is a good habit.",
-      "choices": ["To", "For", "At", "In"],
-      "answer": "To",
-      "explanation": "To get up（起きること）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はあなたに会いにここに来ました。」となるように並び替えてください。",
-      "choices": ["you", "see", "to", "came", "here", "I"],
-      "answer": "Icameheretoseeyou",
-      "explanation": "I came here to see you. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「本を読むことは大切です」\nIt is important (      ) read books.",
-      "choices": [],
-      "answer": "to",
-      "explanation": "It is ... to ～（～することは...だ）という仮主語構文です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼は何と言っていいかわからなかった」\nHe didn't know what (      ) say.",
-      "choices": ["to", "for", "at", "in"],
-      "answer": "to",
-      "explanation": "What to say（何を言うべきか）です。疑問詞 + to不定詞の形です。"
-    },
-    {
-      "type": "sort",
-      "question": "「どこへ行けばいいか教えてください。」となるように並び替えてください。",
-      "choices": ["go", "me", "to", "where", "Tell"],
-      "answer": "Tellmewheretogo",
-      "explanation": "Tell me where to go. Where to go（どこへ行くべきか）です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「その機械の使い方を知っていますか？」\nDo you know how (      ) use the machine?",
-      "choices": [],
-      "answer": "to",
-      "explanation": "How to use（使い方/どう使うべきか）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「いつ始めればいいですか？」\nWhen (      ) start?",
-      "choices": ["to", "for", "at", "in"],
-      "answer": "to",
-      "explanation": "When to start（いつ始めるべきか）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は世界を変えたい。」となるように並び替えてください。",
-      "choices": ["change", "world", "want", "I", "to", "the"],
-      "answer": "Iwanttochangetheworld",
-      "explanation": "I want to change the world. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼は私にドアを開けるように頼んだ」\nHe asked me (      ) open the door.",
-      "choices": [],
-      "answer": "to",
-      "explanation": "Ask + 人 + to ～（人に～するように頼む）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はあなたにそこへ行ってほしい」\nI want you (      ) go there.",
-      "choices": ["to", "for", "at", "in"],
-      "answer": "to",
-      "explanation": "Want + 人 + to ～（人に～してほしい）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「先生は生徒たちに静かにするように言いました。」となるように並び替えてください。",
-      "choices": ["be", "students", "teacher", "told", "The", "quiet", "the", "to"],
-      "answer": "Theteachertoldthestudentstobequiet",
-      "explanation": "The teacher told the students to be quiet. Tell + 人 + to ～（人に～するように言う）です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は歴史を勉強し始めました」\nShe began (      ) study history.",
-      "choices": [],
-      "answer": "to",
-      "explanation": "Begin to...（～し始める）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「英語を勉強するのは面白いです」\n(      ) study English is interesting.",
-      "choices": ["To", "For", "At", "In"],
-      "answer": "To",
-      "explanation": "To study（勉強すること）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼には住む家がありません。」となるように並び替えてください。",
-      "choices": ["live", "has", "house", "He", "in", "no", "to"],
-      "answer": "Hehasnohousetolivein",
-      "explanation": "He has no house to live in. House to live in（住むための家）。前置詞inを忘れないようにしましょう。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「何か書くもの（紙など）をください」\nPlease give me something to write (      ).",
-      "choices": [],
-      "answer": "on",
-      "explanation": "Write on paper（紙の上に書く）なので、paperの代わりのsomethingにかかる場合はwrite onになります。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼は私にそれをしないように言いました」\nHe told me (      ) to do it.",
-      "choices": ["not", "no", "don't", "never"],
-      "answer": "not",
-      "explanation": "Tell + 人 + not to ～（人に～しないように言う）。不定詞の否定は直前にnotを置きます。"
-    },
-    {
-      "type": "sort",
-      "question": "「英語を学ぶことは簡単です。」となるように並び替えてください。",
-      "choices": ["English", "easy", "learn", "It", "to", "is"],
-      "answer": "ItiseasytolearnEnglish",
-      "explanation": "It is easy to learn English. 仮主語Itを使った構文です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は彼に会う約束があります」\nI have a promise (      ) meet him.",
-      "choices": [],
-      "answer": "to",
-      "explanation": "Promise to meet（会う約束）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼はテニスをするのが上手です」\nHe knows (      ) to play tennis well.",
+      "question": "「私は泳ぎ方を知りません」\nI don't know (      ) to swim.",
       "choices": ["how", "what", "where", "when"],
       "answer": "how",
-      "explanation": "Knows how to play（やり方を知っている＝上手だ）です。"
+      "explanation": "how to...（～の仕方、どうやって～するか）です。\n【🇺🇸 Cultural Note】\nYMCAなどは子供の水泳教室の定番です。アメリカの夏休みは長いので、サマーキャンプで泳ぎを覚える子供も多いです。"
     },
     {
       "type": "sort",
-      "question": "「今日はすることが何もありません。」となるように並び替えてください。",
-      "choices": ["nothing", "do", "have", "I", "today", "to"],
-      "answer": "Ihavenothingtodotoday",
-      "explanation": "I have nothing to do today. Nothing to do（するためのことが何もない）です。"
+      "question": "「寝る時間ですよ。」となるように並び替えてください。",
+      "choices": ["to", "It", "time", "bed", "is", "go", "to"],
+      "answer": "Itistimetogotobed",
+      "explanation": "time to...（～する時間）です。\n【🇺🇸 Cultural Note】\nアメリカの子供たちの就寝時間は日本より少し早い傾向があり、親は \"Bedtime story\"（読み聞かせ）をして寝かしつけます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「あなたは将来、何になりたいですか？」\nWhat do you want (      ) be in the future?",
+      "question": "「私はあなたにここにいてほしいです」\nI want you (      ) stay here.",
       "choices": [],
       "answer": "to",
-      "explanation": "Want to beです。"
+      "explanation": "want 人 to...（人に～してほしい）です。\n【🇺🇸 Cultural Note】\n犬のしつけ（Training）でも \"Stay\"（待て）は基本的なコマンドの一つです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「その本は理解するのが難しい」\nThe book is difficult (      ) understand.",
-      "choices": ["to", "for", "at", "in"],
-      "answer": "to",
-      "explanation": "Difficult to understand（理解するのに難しい）。形容詞を修飾する副詞的用法です。"
+      "question": "「何をすべきかわかりません」\nI don't know (      ) to do.",
+      "choices": ["what", "how", "where", "which"],
+      "answer": "what",
+      "explanation": "what to do（何をすべきか、何をするか）です。\n【🇺🇸 Cultural Note】\n緊急時（911番通報など）にどう行動すべきかは、小学校から避難訓練（Drill）などで徹底的に教わります。"
     },
     {
       "type": "sort",
-      "question": "「彼女は成長して医者になりました。」となるように並び替えてください。",
-      "choices": ["up", "be", "She", "doctor", "grew", "to", "a"],
-      "answer": "Shegrewuptobeadoctor",
-      "explanation": "She grew up to be a doctor. 結果を表す不定詞（成長して、その結果～になった）です。"
+      "question": "「テレビゲームをすることは楽しいです。」となるように並び替えてください。",
+      "choices": ["games", "It", "video", "fun", "to", "is", "play"],
+      "answer": "Itisfuntoplayvideogames",
+      "explanation": "It is ... to ～ の構文です。\n【🇺🇸 Cultural Note】\nアメリカでもeスポーツは人気で、大学に奨学金が出るゲーミングチームがあることもあります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼らがここに来るのは簡単です」\nIt is easy (      ) them to come here.",
+      "question": "「赤ちゃんが泣き始めました」\nThe baby began (      ) cry.",
       "choices": [],
+      "answer": "to",
+      "explanation": "begin to...（～し始める）です。\n【🇺🇸 Cultural Note】\nアメリカでは赤ちゃんを別室のベビーベッド（Crib）で一人で寝かせる習慣があり、泣き声を確認するためにモニターを使います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「どこへ行けばいいか教えてください」\nPlease tell me (      ) to go.",
+      "choices": ["where", "what", "who", "which"],
+      "answer": "where",
+      "explanation": "where to go（どこへ行くべきか、行き先）です。\n【🇺🇸 Cultural Note】\nアメリカは車社会なので、道案内をする時は「2つ目の信号を右」や「マイル数」で説明することが多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私には訪れるべき場所がたくさんあります。」となるように並び替えてください。",
+      "choices": ["places", "visit", "have", "to", "many", "I"],
+      "answer": "Ihavemanyplacestovisit",
+      "explanation": "places to visit（訪れるべき場所）という形容詞的用法です。\n【🇺🇸 Cultural Note】\nグランドキャニオンやヨセミテなどの国立公園（National Parks）は、一生に一度は訪れたい場所として人気です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「そのニュースを聞いて残念です（気の毒に思います）」\nI am sorry (      ) hear that.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "感情の原因を表す副詞的用法です。相手の不幸な話を聞いた時の定番の返答です。\n【🇺🇸 Cultural Note】\n\"I'm sorry\" は謝罪だけでなく、同情や共感を示す際にも頻繁に使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「父は私に、遅刻しないように言いました」\nMy father told me (      ) to be late.",
+      "choices": ["not", "no", "don't", "never"],
+      "answer": "not",
+      "explanation": "tell 人 not to...（人に～しないように言う）という否定の形です。\n【🇺🇸 Cultural Note】\nアメリカのビジネスや学校では「Punctuality（時間厳守）」は評価の対象になります。"
+    },
+    {
+      "type": "sort",
+      "question": "「百聞は一見に如かず（見ることは信じることです）。」となるように並び替えてください。",
+      "choices": ["believe", "is", "see", "To", "to"],
+      "answer": "Toseeistobelieve",
+      "explanation": "名詞的用法（主語と補語）を使ったことわざです。\n【🇺🇸 Cultural Note】\nミズーリ州は \"Show Me State\"（疑い深いので証拠を見せろ、という気質）という愛称を持っています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その問題を解決する方法が見つかりません」\nI can't find a way (      ) solve the problem.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "way to solve（解決するための方法）という形容詞的用法です。\n【🇺🇸 Cultural Note】\nアメリカの教育では「Problem Solving（問題解決能力）」を養うことが重視されます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は医者になるために一生懸命勉強しました」\nHe studied hard (      ) be a doctor.",
+      "choices": ["to", "for", "at", "in"],
+      "answer": "to",
+      "explanation": "目的（～するために）の副詞的用法です。\n【🇺🇸 Cultural Note】\nアメリカの医療費は非常に高額で、医師（Medical Doctor）は最も高収入な職業の一つです。"
+    },
+    {
+      "type": "sort",
+      "question": "「次に何をすべきかわかりません。」となるように並び替えてください。",
+      "choices": ["know", "what", "don't", "do", "next", "to", "I"],
+      "answer": "Idontknowwhattodonext",
+      "explanation": "what to do（何をすべきか）です。\n【🇺🇸 Cultural Note】\n高校卒業後の進路（Career path）については、ガイダンスカウンセラーと相談して決めます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「この川で泳ぐのは危険です」\nIt is dangerous (      ) swim in this river.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "It is ... to ～ の構文です。\n【🇺🇸 Cultural Note】\nミシシッピ川などの大きな川は流れが速く危険なため、指定された場所（Swimming hole）以外での遊泳は禁止されていることが多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは動物園に行くことに決めました」\nWe decided (      ) go to the zoo.",
+      "choices": ["to", "for", "go", "going"],
+      "answer": "to",
+      "explanation": "decide to...（～することを決める）です。\n【🇺🇸 Cultural Note】\nサンディエゴ動物園やブロンクス動物園は世界的に有名で、種の保存プログラムに力を入れています。"
+    },
+    {
+      "type": "sort",
+      "question": "「多くの人がその映画を見るために来ました。」となるように並び替えてください。",
+      "choices": ["came", "movie", "Many", "the", "people", "see", "to"],
+      "answer": "Manypeoplecametoseethemovie",
+      "explanation": "目的（～するために）の副詞的用法です。\n【🇺🇸 Cultural Note】\nドライブインシアター（車に乗ったまま映画を見る施設）は減りましたが、今でもアメリカのノスタルジーを感じさせる場所として残っています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私には住む場所が必要です」\nI need a place (      ) live.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "place to live（住むための場所）です。place to live in とすることもありますが、live alone のように place を目的語的にとる感覚で in を省略することも会話ではあります（文法的には live in が正式）。\n【🇺🇸 Cultural Note】\n大学生はキャンパス内の寮（Dorm）を出た後、友人とアパートをシェアして住むことが多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この機械の使い方を教えてくれますか？」\nCan you teach me (      ) to use this machine?",
+      "choices": ["how", "what", "where", "who"],
+      "answer": "how",
+      "explanation": "how to use（使い方）です。\n【🇺🇸 Cultural Note】\nアメリカのセルフレジ（Self-checkout）は非常に普及しており、スーパーやドラッグストアでは自分でスキャンして支払います。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はピザを食べることが大好きです。」となるように並び替えてください。",
+      "choices": ["love", "pizza", "to", "I", "eat"],
+      "answer": "Ilovetoeatpizza",
+      "explanation": "love to...（～することが大好き）です。\n【🇺🇸 Cultural Note】\nシカゴ風ピザ（Deep Dish）は、ケーキのように分厚く、具とチーズがたっぷり入っているのが特徴です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は新しい車を買うために一生懸命働きました」\nHe worked hard (      ) buy a new car.",
+      "choices": [],
+      "answer": "to",
+      "explanation": "目的（～するために）の副詞的用法です。\n【🇺🇸 Cultural Note】\nアメリカの高校生は16歳になると自分の車を持つことを夢見て、アルバイト（Part-time job）を始めます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたが一人で旅行するのは不可能です」\nIt is impossible (      ) you to travel alone.",
+      "choices": ["for", "of", "to", "in"],
       "answer": "for",
-      "explanation": "It is ... for (人) to ～（人が～するのは...だ）。不定詞の意味上の主語を表すforです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「真実を知ることは大切です」\nIt is important (      ) know the truth.",
-      "choices": ["to", "for", "at", "in"],
-      "answer": "to",
-      "explanation": "It is ... to ～ の構文です。"
+      "explanation": "It is ... for 人 to ～ の構文です。\n【🇺🇸 Cultural Note】\nグレイハウンド（長距離バス）やアムトラック（鉄道）を使った一人旅は、冒険心のある若者に人気があります。"
     },
     {
       "type": "sort",
-      "question": "「何か熱い飲み物をください。」となるように並び替えてください。",
-      "choices": ["drink", "hot", "me", "something", "Give", "to"],
-      "answer": "Givemesomethinghottodrink",
-      "explanation": "Give me something hot to drink. Something hot to drinkの語順に注意です。"
+      "question": "「今日、私には何もすることがありません。」となるように並び替えてください。",
+      "choices": ["nothing", "have", "do", "to", "I", "today"],
+      "answer": "Ihavenothingtodotoday",
+      "explanation": "nothing to do（するためのこと＝することが何もない）です。\n【🇺🇸 Cultural Note】\n暇な時には、裏庭（Backyard）でBBQをしたり、Netflixを見たりしてのんびり過ごします。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼はあまりに疲れていて歩けません」\nHe is too tired (      ) walk.",
+      "question": "「先生は私たちに、教室で走らないように言いました」\nThe teacher told us (      ) to run in the classroom.",
       "choices": [],
-      "answer": "to",
-      "explanation": "too ... to ～（あまりに...なので～できない）です。"
+      "answer": "not",
+      "explanation": "tell 人 not to...（人に～しないように言う）です。\n【🇺🇸 Cultural Note】\nアメリカの学校の廊下には「Hall Pass（通行許可証）」がないと授業中に出てはいけないというルールがよくあります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼女は親切にも私を手伝ってくれました」\nShe was kind enough (      ) help me.",
-      "choices": ["to", "for", "at", "in"],
+      "question": "「私たちは野球をするために公園へ行きました」\nWe went to the park (      ) play baseball.",
+      "choices": ["to", "for", "at", "on"],
       "answer": "to",
-      "explanation": "enough to ...（～するのに十分...だ＝親切にも～してくれた）です。"
+      "explanation": "目的（～するために）の副詞的用法です。\n【🇺🇸 Cultural Note】\n週末の公園では、子供たちのリトルリーグの試合が行われ、親たちが熱心に応援しています。"
     },
     {
       "type": "sort",
-      "question": "「私には話す友達がたくさんいます。」となるように並び替えてください。",
-      "choices": ["talk", "friends", "many", "have", "to", "with", "I"],
-      "answer": "Ihavemanyfriendstotalkwith",
-      "explanation": "I have many friends to talk with. Talk with friendsと言うので、withが必要です。"
+      "question": "「いつ出発すればいいか教えてください。」となるように並び替えてください。",
+      "choices": ["me", "start", "tell", "Please", "when", "to"],
+      "answer": "Pleasetellmewhentostart",
+      "explanation": "when to start（いつ出発すべきか、開始すべきか）です。\n【🇺🇸 Cultural Note】\nレースの開始合図などでは \"On your mark, get set, go!\"（位置について、用意、ドン！）と言います。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私はあなたに私の家に来てほしい」\nI want you (      ) come to my house.",
+      "question": "「私の計画は、来年アメリカを訪れることです」\nMy plan is (      ) visit the US next year.",
       "choices": [],
       "answer": "to",
-      "explanation": "Want you to comeです。"
+      "explanation": "is to...（～することだ）の名詞的用法です。\n【🇺🇸 Cultural Note】\nESTA（電子渡航認証システム）は、日本人が観光でアメリカを訪れる際に必要な手続きです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は朝食を食べるために起きました」\nI got up (      ) eat breakfast.",
-      "choices": ["to", "for", "at", "in"],
+      "question": "「私には終わらせるべき宿題があります」\nI have homework (      ) finish.",
+      "choices": ["to", "for", "finish", "finishing"],
       "answer": "to",
-      "explanation": "To eat（食べるために）です。"
+      "explanation": "homework to finish（終わらせるべき宿題）という形容詞的用法です。\n【🇺🇸 Cultural Note】\nアメリカの宿題はプロジェクト型（調べ学習や発表）が多く、創造性が求められます。"
     },
     {
       "type": "sort",
-      "question": "「どっちの道を行くべきか教えて。」となるように並び替えてください。",
-      "choices": ["go", "way", "Tell", "which", "me", "to"],
-      "answer": "Tellmewhichwaytogo",
-      "explanation": "Tell me which way to go. Which way to go（どちらの道を行くべきか）です。"
+      "question": "「その少年は成長して警察官になりました。」となるように並び替えてください。",
+      "choices": ["up", "police", "to", "grew", "officer", "be", "a", "The", "boy"],
+      "answer": "Theboygrewuptobeapoliceofficer",
+      "explanation": "grew up to be...（成長して～になった）という結果を表す副詞的用法です。\n【🇺🇸 Cultural Note】\nアメリカの警察官（Police Officer）は、地域コミュニティを守るヒーローとして子供たちに人気があります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼はその箱を持ち上げるほど強い」\nHe is strong enough (      ) lift the box.",
+      "question": "「彼女は私に、手伝ってくれるように頼みました」\nShe asked me (      ) help her.",
       "choices": [],
       "answer": "to",
-      "explanation": "Strong enough to...（～するのに十分強い）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼はその知らせを聞いてショックを受けました」\nHe was shocked (      ) hear the news.",
-      "choices": ["to", "for", "at", "in"],
-      "answer": "to",
-      "explanation": "Shocked to hear（聞いてショックを受ける）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたにとって英語を話すことは難しいですか？」となるように並び替えてください。",
-      "choices": ["English", "difficult", "you", "for", "speak", "Is", "it", "to"],
-      "answer": "IsitdifficultforyoutospeakEnglish",
-      "explanation": "Is it difficult for you to speak English? It is ... for ... to ～ の疑問文です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は彼が成功することを望みます」\nI wish him (      ) succeed.",
-      "choices": [],
-      "answer": "to",
-      "explanation": "Wish + 人 + to ～（人が～することを願う）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は彼に私のカバンを運んでもらいました」\nI got him (      ) carry my bag.",
-      "choices": ["to", "for", "at", "in"],
-      "answer": "to",
-      "explanation": "Get + 人 + to ～（人に～してもらう）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちは生きるために食べる。」となるように並び替えてください。",
-      "choices": ["live", "eat", "We", "to"],
-      "answer": "Weeattolive",
-      "explanation": "We eat to live. To live（生きるために）です。"
+      "explanation": "ask 人 to...（人に～するように頼む）です。\n【🇺🇸 Cultural Note】\nチャリティ活動（Charity）が盛んで、困っている人のために募金活動やボランティアを頼むことは日常的です。"
     }
   ]
 }
