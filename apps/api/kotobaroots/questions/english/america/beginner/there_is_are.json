@@ -1,503 +1,707 @@
 {
-  "learning_topic": "存在構文(There is/are)",
+  "learning_topic": "存在構文 (There is / There are)",
+  "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "「テーブルの上に本があります」\nThere (      ) a book on the table.",
-      "choices": ["is", "are", "have", "be"],
+      "question": "「机の上に本があります」\nThere (      ) a book on the desk.",
+      "choices": ["is", "are", "have", "has"],
       "answer": "is",
-      "explanation": "後ろの名詞が「a book（単数）」なのでisを使います。"
+      "explanation": "後ろの名詞が単数（a book）なので is を使います。\n【🇺🇸 Cultural Note】\nアメリカの学校の机（Desk）は、椅子と一体型になっているタイプがよく見られます。"
     },
     {
       "type": "sort",
-      "question": "「公園にたくさんの子供たちがいます。」となるように並び替えてください。",
-      "choices": ["children", "are", "park", "There", "many", "in", "the"],
-      "answer": "Therearemanychildreninthepark",
-      "explanation": "There are many children in the park. Children（複数）なのでareです。"
+      "question": "「公園にたくさんの人がいます。」となるように並び替えてください。",
+      "choices": ["park", "people", "are", "There", "many", "in", "the"],
+      "answer": "Therearemanypeopleinthepark",
+      "explanation": "There are + 複数名詞（many people）。\n【🇺🇸 Cultural Note】\nニューヨークのセントラルパークは、都会のオアシスとして映画やドラマに頻繁に登場します。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「冷蔵庫の中に卵はありますか？」\n(      ) there any eggs in the fridge?",
+      "question": "「冷蔵庫の中にミルクが少しあります」\nThere is (      ) milk in the fridge.",
       "choices": [],
-      "answer": "Are",
-      "explanation": "Eggs（複数）なのでAreで始めます。"
+      "answer": "some",
+      "explanation": "肯定文で「いくらかの、少しの」を表すときは some を使います。milkは数えられない名詞なので is を使います。\n【🇺🇸 Cultural Note】\nアメリカのスーパーで売られている牛乳は、1ガロン（約3.8リットル）の巨大なボトルが一般的です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「部屋には誰もいません」\nThere (      ) no one in the room.",
-      "choices": ["is", "are", "isn't", "aren't"],
-      "answer": "is",
-      "explanation": "No one（誰も～ない）は単数扱いなのでisを使います。「is no one」で「いない」という意味になります。"
+      "question": "「この近くに図書館はありますか？」\n(      ) there a library near here?",
+      "choices": ["Is", "Are", "Do", "Does"],
+      "answer": "Is",
+      "explanation": "a library（単数）について聞いているので Is there...? となります。\n【🇺🇸 Cultural Note】\nアメリカの公共図書館（Public Library）は、誰でも無料で使えるWi-Fiやコンピュータがあり、地域のコミュニティセンターとしての役割も担っています。"
     },
     {
       "type": "sort",
-      "question": "「壁に絵がかかっています。」となるように並び替えてください。",
-      "choices": ["picture", "wall", "is", "a", "on", "There", "the"],
-      "answer": "Thereisapictureonthewall",
-      "explanation": "There is a picture on the wall. です。"
+      "question": "「壁にカレンダーはありません。」となるように並び替えてください。",
+      "choices": ["calendar", "wall", "is", "There", "no", "on", "the"],
+      "answer": "Thereisnocalendaronthewall",
+      "explanation": "There is no + 名詞（～がない）。There isn't a calendar... と同じ意味です。\n【🇺🇸 Cultural Note】\nアメリカのカレンダーは日曜始まりが一般的です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私の学校の近くに古い寺があります」\nThere (      ) an old temple near my school.",
+      "question": "「私の家族は5人です（私の家族には5人の人がいます）」\nThere (      ) five people in my family.",
       "choices": [],
-      "answer": "is",
-      "explanation": "An old temple（単数）なのでisです。"
+      "answer": "are",
+      "explanation": "five people（複数）なので are を使います。\n【🇺🇸 Cultural Note】\n「核家族（Nuclear family）」だけでなく、様々な形の家族構成が増えています。"
     },
     {
       "type": "multiple_choice",
       "question": "「箱の中には何もありませんでした」\nThere (      ) nothing in the box.",
       "choices": ["was", "were", "is", "are"],
       "answer": "was",
-      "explanation": "過去のことなのでwasを使います。Nothingは単数扱いです。"
+      "explanation": "nothing（何もない＝単数扱い）で、過去のことなので was を使います。\n【🇺🇸 Cultural Note】\nプレゼントを開ける時のワクワク感は万国共通ですが、アメリカでは包装紙をビリビリに破いて開けるのが豪快で一般的です。"
     },
     {
       "type": "sort",
-      "question": "「一週間は7日です（一週間には7日あります）。」となるように並び替えてください。",
-      "choices": ["days", "week", "seven", "There", "in", "are", "a"],
-      "answer": "Therearesevendaysinaweek",
-      "explanation": "There are seven days in a week. です。"
+      "question": "「アメリカには50の州があります。」となるように並び替えてください。",
+      "choices": ["states", "There", "in", "fifty", "are", "the", "US"],
+      "answer": "TherearefiftystatesintheUS",
+      "explanation": "There are fifty states...\n【🇺🇸 Cultural Note】\n国旗の星の数（50個）は州の数を表しています。ハワイ州が50番目に加盟しました。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「コップの中に水は少しもありません」\nThere isn't (      ) water in the cup.",
+      "question": "「何か質問はありますか？」\nAre there (      ) questions?",
       "choices": [],
       "answer": "any",
-      "explanation": "否定文で「少しも～ない」という時はanyを使います。"
+      "explanation": "疑問文では some の代わりに any を使うのが一般的です。\n【🇺🇸 Cultural Note】\nプレゼンテーションや授業の最後には必ず \"Q&A\" の時間があります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「その木の下に猫が2匹います」\n(      ) two cats under the tree.",
-      "choices": ["There are", "There is", "There have", "There be"],
-      "answer": "There are",
-      "explanation": "Two cats（複数）なのでThere areです。"
-    },
-    {
-      "type": "sort",
-      "question": "「日本にはいくつの季節がありますか？」となるように並び替えてください。",
-      "choices": ["seasons", "Japan", "many", "How", "are", "in", "there"],
-      "answer": "HowmanyseasonsarethereinJapan",
-      "explanation": "How many seasons are there in Japan? 数を聞く疑問文の語順です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「庭に大きな木がありました」\nThere (      ) a big tree in the garden.",
-      "choices": [],
+      "question": "「昨日、ここで事故がありました」\nThere (      ) an accident here yesterday.",
+      "choices": ["was", "were", "is", "are"],
       "answer": "was",
-      "explanation": "過去のこと（ありました）で単数なのでwasです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「図書館に生徒はいませんでした」\nThere (      ) no students in the library.",
-      "choices": ["were", "was", "aren't", "isn't"],
-      "answer": "were",
-      "explanation": "Students（複数）で過去のことなのでwereを使います。"
+      "explanation": "an accident（単数）で、過去のこと（yesterday）なので was を使います。\n【🇺🇸 Cultural Note】\nアメリカで救急車（911）を呼ぶと有料であることが多く、高額な請求が来ることがあります。"
     },
     {
       "type": "sort",
-      "question": "「この近くに郵便局はありますか？」となるように並び替えてください。",
-      "choices": ["office", "post", "Is", "near", "there", "a", "here"],
-      "answer": "Isthereapostofficenearhere",
-      "explanation": "Is there a post office near here? です。"
+      "question": "「テーブルの下に猫がいます。」となるように並び替えてください。",
+      "choices": ["cat", "is", "There", "table", "a", "under", "the"],
+      "answer": "Thereisacatunderthetable",
+      "explanation": "There is a cat...\n【🇺🇸 Cultural Note】\nアメリカで人気の猫の名前ランキングでは、\"Luna\" や \"Oliver\" が上位に入ることが多いです。"
     },
     {
       "type": "fill_in_the_blank",
+      "question": "「その部屋に椅子は一つもありません」\nThere aren't (      ) chairs in the room.",
+      "choices": [],
+      "answer": "any",
+      "explanation": "否定文（aren't）なので any を使って「一つも～ない」を表します。\n【🇺🇸 Cultural Note】\nミニマリスト（Minimalist）のライフスタイルも一部で流行しており、家具を極力置かない生活をする人もいます。"
+    },
+    {
+      "type": "multiple_choice",
       "question": "「空にはたくさんの星があります」\nThere (      ) a lot of stars in the sky.",
-      "choices": [],
+      "choices": ["are", "is", "was", "be"],
       "answer": "are",
-      "explanation": "Stars（複数）なのでareです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「間違いがいくつかあります」\nThere are (      ) mistakes.",
-      "choices": ["some", "any", "much", "little"],
-      "answer": "some",
-      "explanation": "肯定文で「いくつか」という時はsomeを使います。"
+      "explanation": "a lot of stars（たくさんの星＝複数）なので are を使います。\n【🇺🇸 Cultural Note】\nグリフィス天文台（ロサンゼルス）からは、美しい夜景と星空の両方を楽しめます。"
     },
     {
       "type": "sort",
-      "question": "「あなたのクラスには何人の生徒がいますか？」となるように並び替えてください。",
-      "choices": ["students", "class", "How", "many", "in", "are", "there", "your"],
-      "answer": "Howmanystudentsarethereinyourclass",
-      "explanation": "How many students are there in your class? です。"
+      "question": "「このクラスには何人の生徒がいますか？」となるように並び替えてください。",
+      "choices": ["students", "How", "many", "are", "there", "in", "this", "class"],
+      "answer": "Howmanystudentsarethereinthisclass",
+      "explanation": "How many + 複数名詞 + are there...? の語順です。\n【🇺🇸 Cultural Note】\nアメリカの公立学校の1クラスの人数は州や地区によって異なりますが、20〜30人程度が一般的です。"
     },
     {
       "type": "fill_in_the_blank",
+      "question": "「あなたの家の近くにコンビニはありますか？」\nIs there a (      ) store near your house?",
+      "choices": [],
+      "answer": "convenience",
+      "explanation": "convenience store（コンビニ）。\n【🇺🇸 Cultural Note】\nセブンイレブンはアメリカ発祥です。ガソリンスタンドに併設されていることが多く、「Gas station」と呼ばれることもあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「かつてここに大きな木がありました」\nThere (      ) to be a big tree here.",
+      "choices": ["used", "use", "uses", "using"],
+      "answer": "used",
+      "explanation": "There used to be...（かつて～があった）。以前の状態を表す表現です。\n【🇺🇸 Cultural Note】\nレッドウッド国立公園には、世界一背の高い木々（セコイア）が生い茂っています。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちの町にはショッピングモールが一つあります。」となるように並び替えてください。",
+      "choices": ["mall", "There", "shopping", "is", "a", "our", "town", "in"],
+      "answer": "Thereisashoppingmallinourtown",
+      "explanation": "There is a shopping mall...\n【🇺🇸 Cultural Note】\n「モール・オブ・アメリカ（ミネソタ州）」は全米最大級のモールで、中に遊園地や水族館まであります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ボトルの中に水は残っていません」\nThere isn't (      ) water left in the bottle.",
+      "choices": [],
+      "answer": "any",
+      "explanation": "否定文で数えられない名詞（water）につく any は「少しも～ない」という意味になります。\n【🇺🇸 Cultural Note】\n環境保護のため、マイボトル（Reusable bottle）を持ち歩く人が増えています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ベッドの上に枕が二つあります」\nThere (      ) two pillows on the bed.",
+      "choices": ["are", "is", "am", "be"],
+      "answer": "are",
+      "explanation": "two pillows（複数）なので are です。\n【🇺🇸 Cultural Note】\nアメリカのベッドメイクでは、寝るための枕だけでなく、装飾用のクッション（Throw pillows）をたくさん置くのがおしゃれとされています。"
+    },
+    {
+      "type": "sort",
+      "question": "「テレビで何か良い番組はやっていますか？」となるように並び替えてください。",
+      "choices": ["TV", "on", "good", "anything", "Is", "there"],
+      "answer": "IsthereanythinggoodonTV",
+      "explanation": "Is there anything good...（何か良いものはありますか）。形容詞goodはanythingの後ろに来ます。\n【🇺🇸 Cultural Note】\nスーパーボウル（Super Bowl）の日は、全米で最もテレビ視聴率が高い日の一つです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「今、時間はありますか？」\nIs there (      ) time now?",
+      "choices": [],
+      "answer": "any",
+      "explanation": "疑問文なので any を使います。\n【🇺🇸 Cultural Note】\n\"Do you have time?\" と聞くと「（今何時かわかる）時計を持っていますか＝今何時ですか」という意味になることがあるので注意が必要です。"
+    },
+    {
+      "type": "multiple_choice",
       "question": "「バス停にたくさんの人がいました」\nThere (      ) a lot of people at the bus stop.",
-      "choices": [],
+      "choices": ["were", "was", "are", "is"],
       "answer": "were",
-      "explanation": "People（人々）は複数扱いなので、過去形はwereです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「質問はありますか？」\n(      ) there any questions?",
-      "choices": ["Are", "Is", "Do", "Have"],
-      "answer": "Are",
-      "explanation": "Questions（複数）なのでAreです。"
+      "explanation": "a lot of people（複数）で、過去のことなので were を使います。\n【🇺🇸 Cultural Note】\n通学用の黄色いスクールバス（School Bus）が停車して赤いサインを出している時は、後続車も対向車も必ず停止しなければなりません。"
     },
     {
       "type": "sort",
-      "question": "「空には雲一つありません。」となるように並び替えてください。",
-      "choices": ["clouds", "sky", "any", "There", "aren't", "in", "the"],
-      "answer": "Therearen'tanycloudsinthesky",
-      "explanation": "There aren't any clouds in the sky. です。"
+      "question": "「間違いがあるに違いありません。」となるように並び替えてください。",
+      "choices": ["mistake", "must", "be", "a", "There"],
+      "answer": "Theremustbeamistake",
+      "explanation": "There must be...（～があるに違いない）。助動詞mustを使ったThere構文です。\n【🇺🇸 Cultural Note】\nレストランの会計などで計算が合わない時、\"There must be a mistake.\" と言うと角が立ちません。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「机の上にペンが1本あります」\nThere (      ) a pen on the desk.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "A pen（単数）なのでisです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「昔、あるところに正直な男がいました」\nOnce upon a time, there (      ) an honest man.",
-      "choices": ["was", "is", "were", "lived"],
-      "answer": "was",
-      "explanation": "昔話の決まり文句です。An honest man（単数）なのでwasです（Livedも使えますが、There構文としてはwasが基本です）。"
-    },
-    {
-      "type": "sort",
-      "question": "「テレビで何か面白い番組はありますか？」となるように並び替えてください。",
-      "choices": ["TV", "interesting", "anything", "Is", "there", "on"],
-      "answer": "IsthereanythinginterestingonTV",
-      "explanation": "Is there anything interesting on TV? Anything interestingの語順に注意です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「冷蔵庫には食べ物が何もありません」\nThere is (      ) food in the fridge.",
+      "question": "「このスープには肉が入っていません」\nThere is (      ) meat in this soup.",
       "choices": [],
       "answer": "no",
-      "explanation": "There is no... で「何もない」を表します。"
+      "explanation": "There is no + 名詞（～がない）。\n【🇺🇸 Cultural Note】\nベジタリアン（Vegetarian）やヴィーガン（Vegan）向けのメニューは、アメリカのレストランでは非常に充実しています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「この町にはコンビニがたくさんあります」\nThere (      ) many convenience stores in this town.",
-      "choices": ["are", "is", "have", "be"],
-      "answer": "are",
-      "explanation": "Stores（複数）なのでareです。"
-    },
-    {
-      "type": "sort",
-      "question": "「その部屋には3人の男の子がいます。」となるように並び替えてください。",
-      "choices": ["boys", "room", "three", "There", "are", "in", "the"],
-      "answer": "Therearethreeboysintheroom",
-      "explanation": "There are three boys in the room. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「昨日、ここで事故がありました」\nThere (      ) an accident here yesterday.",
-      "choices": [],
-      "answer": "was",
-      "explanation": "An accident（単数）で過去のことなのでwasです。「（出来事が）あった」という意味でも使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「何か問題はありますか？」\nIs there (      ) problem?",
-      "choices": ["any", "some", "many", "no"],
-      "answer": "any",
-      "explanation": "疑問文ではanyを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「あそこに犬はいません。」となるように並び替えてください。",
-      "choices": ["dog", "isn't", "There", "a", "over", "there"],
-      "answer": "Thereisn'tadogoverthere",
-      "explanation": "There isn't a dog over there. 文頭のThere（そこへ）と文末のthere（あそこで）は役割が違います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたの家族は何人ですか？」\nHow many people (      ) there in your family?",
-      "choices": [],
-      "answer": "are",
-      "explanation": "People（人々）は複数扱いなのでareです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「この近くに駅はありますか？」\n(      ) there a station near here?",
-      "choices": ["Is", "Are", "Was", "Were"],
-      "answer": "Is",
-      "explanation": "A station（単数）なのでIsです。"
-    },
-    {
-      "type": "sort",
-      "question": "「テーブルの下に猫がいました。」となるように並び替えてください。",
-      "choices": ["cat", "table", "was", "under", "a", "There", "the"],
-      "answer": "Therewasacatunderthetable",
-      "explanation": "There was a cat under the table. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「ここにあなたのための手紙があります」\nThere (      ) a letter for you.",
-      "choices": [],
+      "question": "「問題はありません」\nThere (      ) no problem.",
+      "choices": ["is", "are", "have", "has"],
       "answer": "is",
-      "explanation": "A letter（単数）なのでisです。"
+      "explanation": "no problem（単数扱い）なので is を使います。\n【🇺🇸 Cultural Note】\n\"No problem.\" は「どういたしまして」や「大丈夫だよ」という意味で、\"You're welcome.\" の代わりによく使われるカジュアルな表現です。"
+    },
+    {
+      "type": "sort",
+      "question": "「1週間には7日あります。」となるように並び替えてください。",
+      "choices": ["week", "days", "There", "seven", "are", "a", "in"],
+      "answer": "Therearesevendaysinaweek",
+      "explanation": "There are seven days...\n【🇺🇸 Cultural Note】\nアメリカのカレンダーやスケジュール帳は、土日がひとまとめにされず、等間隔で並んでいることが多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「お皿の上にクッキーがいくつかあります」\nThere are (      ) cookies on the plate.",
+      "choices": [],
+      "answer": "some",
+      "explanation": "肯定文で「いくつか」は some。\n【🇺🇸 Cultural Note】\nサンタクロースのためにクッキーとミルクを用意しておくのが、クリスマスイブの子供たちの伝統です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「その木には葉が一枚もありません」\nThere are (      ) leaves on the tree.",
+      "question": "「日本食レストランはありますか？」\nAre there (      ) Japanese restaurants?",
+      "choices": ["any", "some", "a", "the"],
+      "answer": "any",
+      "explanation": "疑問文なので any を使います。\n【🇺🇸 Cultural Note】\n「Hibachi（鉄板焼き）」スタイルの日本食レストランは、シェフがパフォーマンスをしながら調理してくれるため、エンターテイメントとして人気です。"
+    },
+    {
+      "type": "sort",
+      "question": "「昨日、学校はありませんでした。」となるように並び替えてください。",
+      "choices": ["school", "no", "There", "was", "yesterday"],
+      "answer": "Therewasnoschoolyesterday",
+      "explanation": "There was no school（学校がなかった＝授業がなかった）。\n【🇺🇸 Cultural Note】\n大雪（Snow day）などで学校が急遽休みになることがあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「キッチンに誰かいますか？」\nIs there (      ) in the kitchen?",
+      "choices": [],
+      "answer": "anyone",
+      "explanation": "「誰か」は anyone（疑問文）。someoneは肯定文で使います。\n【🇺🇸 Cultural Note】\nアメリカのホームパーティーでは、キッチンが人が集まる中心（The heart of the home）になることがよくあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「明日、テストがあります」\nThere (      ) be a test tomorrow.",
+      "choices": ["will", "is", "are", "was"],
+      "answer": "will",
+      "explanation": "未来のことなので There will be... の形を使います。\n【🇺🇸 Cultural Note】\nアメリカの学校では、抜き打ちテストのことを「Pop quiz」と呼びます。"
+    },
+    {
+      "type": "sort",
+      "question": "「これを行うのにより良い方法があるはずです。」となるように並び替えてください。",
+      "choices": ["way", "must", "be", "There", "a", "better", "to", "do", "this"],
+      "answer": "Theremustbeabetterwaytodothis",
+      "explanation": "There must be...（～があるに違いない）。\n【🇺🇸 Cultural Note】\n効率を重視するアメリカ文化では、常に「より良い方法（Better way）」を探求する姿勢（イノベーション）が評価されます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「この近くに銀行はありますか？」\nIs there a bank (      ) here?",
+      "choices": [],
+      "answer": "near",
+      "explanation": "near here（この近くに）。around hereもよく使われます。\n【🇺🇸 Cultural Note】\nATM（現金自動預け払い機）は、銀行だけでなくスーパーや薬局（CVS, Walgreens）の中にも設置されています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その部屋には窓がたくさんありました」\nThere (      ) many windows in the room.",
+      "choices": ["were", "was", "are", "is"],
+      "answer": "were",
+      "explanation": "many windows（複数）で、過去のことなので were を使います。\n【🇺🇸 Cultural Note】\nフロリダなど南部の家には「サンルーム（Sunroom）」と呼ばれる、ガラス張りの明るい部屋があることが多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「心配することは何もありません。」となるように並び替えてください。",
+      "choices": ["nothing", "worry", "is", "There", "to", "about"],
+      "answer": "Thereisnothingtoworryabout",
+      "explanation": "There is nothing to worry about. 定番の慰めフレーズです。\n【🇺🇸 Cultural Note】\n「Hakuna Matata（ハクナ・マタタ）」のように、心配ないさ精神はディズニー映画などを通じても親しまれています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「コーヒーはまだ残っていますか？」\nIs there (      ) coffee left?",
+      "choices": [],
+      "answer": "any",
+      "explanation": "疑問文で不可算名詞（coffee）につくのは any。\n【🇺🇸 Cultural Note】\nアメリカのダイナー（Diner）では、コーヒーのおかわり（Refill）は無料かつ無限に注いでくれるのが伝統です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「間違いがあるようです」\nThere (      ) to be a mistake.",
+      "choices": ["seems", "seem", "seeming", "seemed"],
+      "answer": "seems",
+      "explanation": "There seems to be...（～があるようだ）。mistakeが単数なのでseemsを使います。\n【🇺🇸 Cultural Note】\n請求書に不明な点がある場合は、カスタマーサービスに電話して \"There seems to be a mistake on my bill.\" と伝えます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちのチームには11人の選手がいます。」となるように並び替えてください。",
+      "choices": ["players", "team", "There", "on", "are", "eleven", "our"],
+      "answer": "Thereareelevenplayersonourteam",
+      "explanation": "スポーツチームに所属している場合は in ではなく on the team と言います。\n【🇺🇸 Cultural Note】\nアメリカンフットボール（NFL）は1チーム11人でプレーします。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「冷蔵庫に卵はいくつありますか？」\nHow (      ) eggs are there in the fridge?",
+      "choices": [],
+      "answer": "many",
+      "explanation": "eggs（可算名詞）の数を尋ねるので How many...?\n【🇺🇸 Cultural Note】\nアメリカの卵パックは12個入り（1ダース）が基本ですが、18個入りや24個入りも普通に売っています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「このスープには塩が入っていません（塩気がありません）」\nThere is (      ) salt in this soup.",
       "choices": ["no", "not", "any", "some"],
       "answer": "no",
-      "explanation": "There are no leaves... で「葉が一枚もない」を表します。"
+      "explanation": "There is no + 名詞。notを使うなら There isn't any salt となります。\n【🇺🇸 Cultural Note】\n健康志向の高まりで「Low sodium（減塩）」食品の需要が増えています。"
     },
     {
       "type": "sort",
-      "question": "「池に魚はいますか？」となるように並び替えてください。",
-      "choices": ["fish", "pond", "Are", "any", "there", "in", "the"],
-      "answer": "Arethereanyfishinthepond",
-      "explanation": "Are there any fish in the pond? Fishは単複同形ですが、anyがついているので複数扱いとしてAreを使います。"
+      "question": "「今夜、パーティーがあるでしょう。」となるように並び替えてください。",
+      "choices": ["party", "be", "will", "There", "tonight", "a"],
+      "answer": "Therewillbeapartyonight",
+      "explanation": "There will be...（～があるでしょう）。\n【🇺🇸 Cultural Note】\n「Block Party」といって、道路を封鎖して近隣住民全員で行う屋外パーティーがあります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私の部屋には窓が2つあります」\nThere (      ) two windows in my room.",
+      "question": "「ガソリンはあまり残っていません」\nThere isn't (      ) gas left.",
       "choices": [],
-      "answer": "are",
-      "explanation": "Two windows（複数）なのでareです。"
+      "answer": "much",
+      "explanation": "gas（ガソリン＝不可算名詞）の量が多くないことを表すには much を使います。\n【🇺🇸 Cultural Note】\nアメリカのガソリンスタンドはセルフサービスが基本で、給油前にクレジットカードを通すか店内で先払いをします。"
     },
     {
       "type": "multiple_choice",
-      "question": "「そこに行くのにバスはありますか？」\n(      ) there a bus to get there?",
-      "choices": ["Is", "Are", "Does", "Has"],
+      "question": "「あなたのクラスには留学生がいますか？」\n(      ) there any international students in your class?",
+      "choices": ["Are", "Is", "Do", "Does"],
+      "answer": "Are",
+      "explanation": "students（複数）について聞いているので Are there...?\n【🇺🇸 Cultural Note】\nアメリカの大学は世界中から留学生が集まっており、多様性（Diversity）に富んだキャンパスライフが送れます。"
+    },
+    {
+      "type": "sort",
+      "question": "「その木の下に犬はいませんでした。」となるように並び替えてください。",
+      "choices": ["dog", "tree", "There", "was", "under", "no", "the"],
+      "answer": "Therewasnodogunderthetree",
+      "explanation": "There was no dog...（犬はいなかった）。\n【🇺🇸 Cultural Note】\n映画『Up（カールじいさんの空飛ぶ家）』に出てくる犬のように、リス（Squirrel）を見つけると追いかける犬が多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼に会う時間はありますか？」\nIs there (      ) to see him?",
+      "choices": [],
+      "answer": "time",
+      "explanation": "Is there time...?（時間はありますか）。any time としても良いですが、timeだけでも通じます。\n【🇺🇸 Cultural Note】\n医者や弁護士に会うには予約（Appointment）が必須です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「昔、ここに映画館がありました」\nThere (      ) to be a movie theater here.",
+      "choices": ["used", "use", "uses", "using"],
+      "answer": "used",
+      "explanation": "There used to be...（かつて～があった）。\n【🇺🇸 Cultural Note】\nドライブインシアター（車に乗ったまま映画を見る施設）は減ってしまいましたが、レトロな体験として今でも一部で愛されています。"
+    },
+    {
+      "type": "sort",
+      "question": "「この家には部屋がいくつありますか？」となるように並び替えてください。",
+      "choices": ["rooms", "How", "many", "there", "are", "in", "this", "house"],
+      "answer": "Howmanyroomsarethereinthishouse",
+      "explanation": "How many rooms are there...?\n【🇺🇸 Cultural Note】\nアメリカの家は広く、地下室（Basement）や屋根裏部屋（Attic）があるのが一般的です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「テーブルの上に手紙があります」\nThere is (      ) letter on the table.",
+      "choices": [],
+      "answer": "a",
+      "explanation": "単数の可算名詞（letter）の前には冠詞 a が必要です。\n【🇺🇸 Cultural Note】\n郵便受けに入りきらない大きな荷物は、玄関前（Porch）に置き配されるのがアメリカでは普通です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「今夜は何か良いテレビ番組はありますか？」\nIs there (      ) good on TV tonight?",
+      "choices": ["anything", "something", "everything", "nothing"],
+      "answer": "anything",
+      "explanation": "疑問文なので anything を使います。goodはanythingの後ろに来ます。\n【🇺🇸 Cultural Note】\nアメリカのケーブルテレビはチャンネル数が数百もあり、専門チャンネル（料理、歴史、スポーツなど）が充実しています。"
+    },
+    {
+      "type": "sort",
+      "question": "「急ぐ必要はありません。」となるように並び替えてください。",
+      "choices": ["need", "no", "is", "There", "to", "hurry"],
+      "answer": "Thereisnoneedtohurry",
+      "explanation": "There is no need to...（～する必要はない）。\n【🇺🇸 Cultural Note】\nレストランで食事をした後、アメリカではテーブルで会計を済ませますが、ウェイターが伝票を持ってくるまでゆっくり過ごすのがマナーです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ここからたくさんの星が見えます（たくさんの星があります）」\nThere (      ) a lot of stars visible from here.",
+      "choices": [],
+      "answer": "are",
+      "explanation": "a lot of stars（複数）なので are。\n【🇺🇸 Cultural Note】\n国立公園など光害の少ない地域は「ダークスカイパーク」として認定され、星空保護区になっています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この近くにコンビニはありましたか？」\n(      ) there a convenience store nearby?",
+      "choices": ["Was", "Were", "Is", "Are"],
+      "answer": "Was",
+      "explanation": "過去のことを聞いているので Was there...?\n【🇺🇸 Cultural Note】\nロードトリップ中、ガソリンスタンド併設のコンビニでスナックや飲み物を買うのが楽しみの一つです。"
+    },
+    {
+      "type": "sort",
+      "question": "「疑う余地はありません。」となるように並び替えてください。",
+      "choices": ["doubt", "no", "is", "There"],
+      "answer": "Thereisnodoubt",
+      "explanation": "There is no doubt.（疑いようがない＝間違いない）。\n【🇺🇸 Cultural Note】\nNo Doubt という有名なアメリカのロックバンドがあります（ボーカルはグウェン・ステファニー）。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたのコーヒーに砂糖は入っていますか？」\nIs there (      ) sugar in your coffee?",
+      "choices": [],
+      "answer": "any",
+      "explanation": "疑問文で不可算名詞（sugar）につくのは any。\n【🇺🇸 Cultural Note】\nスターバックスなどでは、砂糖の代わりに甘味料（Sweetener）の種類が豊富に用意されています（Splenda, Steviaなど）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「何か問題がありますか？」\n(      ) there a problem?",
+      "choices": ["Is", "Are", "Do", "Does"],
       "answer": "Is",
-      "explanation": "A bus（単数）なのでIsです。"
+      "explanation": "a problem（単数）なので Is there...?\n【🇺🇸 Cultural Note】\n\"Is there a problem?\" は言い方によっては「何か文句あるのか？」という喧嘩腰のニュアンスになることもあるので注意が必要です。"
     },
     {
       "type": "sort",
-      "question": "「今年は雪があまり降りませんでした（雪があまりありませんでした）。」となるように並び替えてください。",
-      "choices": ["snow", "wasn't", "much", "There", "year", "this"],
-      "answer": "Therewasn'tmuchsnowthisyear",
-      "explanation": "There wasn't much snow this year. Snowは数えられない名詞なのでwasn't（単数扱い）とmuchを使います。"
+      "question": "「公園には子供がたくさんいました。」となるように並び替えてください。",
+      "choices": ["children", "were", "park", "There", "many", "in", "the"],
+      "answer": "Thereweremanychildreninthepark",
+      "explanation": "There were many children...\n【🇺🇸 Cultural Note】\nアメリカの公園の遊具（Playground）は安全基準が厳しく、地面にはウッドチップなどの衝撃吸収材が敷かれています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「この本には美しい写真がたくさんあります」\nThere (      ) many beautiful pictures in this book.",
+      "question": "「ここにはWi-Fiがありますか？」\nIs there (      ) here?",
       "choices": [],
+      "answer": "Wi-Fi",
+      "explanation": "Is there Wi-Fi here?\n【🇺🇸 Cultural Note】\n発音は「ワイファイ」です。カフェや空港など、ほとんどの公共の場所で無料Wi-Fiが使えます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「理由があるに違いありません」\nThere (      ) be a reason.",
+      "choices": ["must", "can", "will", "shall"],
+      "answer": "must",
+      "explanation": "There must be...（～があるに違いない）。\n【🇺🇸 Cultural Note】\n\"Everything happens for a reason\"（すべての出来事には意味がある）という言葉は、困難な状況にある人を励ます時によく使われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「お皿の上に残っているケーキはありません（ケーキは残っていません）。」となるように並び替えてください。",
+      "choices": ["left", "cake", "is", "There", "no", "plate", "on", "the"],
+      "answer": "Thereisnocakeleftontheplate",
+      "explanation": "There is no cake left...（残っているケーキはない）。\n【🇺🇸 Cultural Note】\nレストランで食べきれなかった料理を持ち帰るための箱を \"To-go box\" や \"Doggy bag\" と呼びます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「火のない所に煙は立たぬ（火なしに煙はない）」\nThere is no smoke without (      ).",
+      "choices": [],
+      "answer": "fire",
+      "explanation": "有名なことわざです。There is no A without B（BなしにAはない）。\n【🇺🇸 Cultural Note】\n噂話（Gossip）が好きなのは万国共通ですが、このことわざは「噂には何らかの根拠がある」という意味で使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「駐車場に車がたくさんあります」\nThere (      ) a lot of cars in the parking lot.",
+      "choices": ["are", "is", "was", "be"],
       "answer": "are",
-      "explanation": "Pictures（複数）なのでareです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「コップに水が入っています」\nThere is (      ) water in the cup.",
-      "choices": ["some", "any", "many", "few"],
-      "answer": "some",
-      "explanation": "水（数えられない名詞）が「いくらかある」場合はsomeを使います。"
+      "explanation": "a lot of cars（複数）なので are を使います。\n【🇺🇸 Cultural Note】\nアメリカのショッピングモールの駐車場は非常に広大で、自分の車を見失わないように駐車位置をスマホで撮っておく人もいます。"
     },
     {
       "type": "sort",
-      "question": "「このクラスに男の子は何人いますか？」となるように並び替えてください。",
-      "choices": ["boys", "class", "many", "this", "How", "are", "in", "there"],
-      "answer": "Howmanyboysarethereinthisclass",
-      "explanation": "How many boys are there in this class? です。"
+      "question": "「冷蔵庫に食べ物はありますか？」となるように並び替えてください。",
+      "choices": ["food", "Is", "there", "any", "fridge", "in", "the"],
+      "answer": "Isthereanyfoodinthefridge",
+      "explanation": "Is there any food...?\n【🇺🇸 Cultural Note】\nアメリカの冷蔵庫は巨大で、ガロンサイズの牛乳や大量の冷凍食品が常備されています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「するべきことはたくさんあります」\nThere are a lot of things to (      ).",
+      "question": "「空に雲ひとつありません」\nThere are (      ) clouds in the sky.",
       "choices": [],
-      "answer": "do",
-      "explanation": "Things to do（すべきこと）。不定詞の形容詞的用法との組み合わせです。"
+      "answer": "no",
+      "explanation": "There are no clouds...（雲がまったくない）。not any clouds でも可ですが、noを使うと強調されます。\n【🇺🇸 Cultural Note】\n「Not a cloud in the sky」は、快晴を表す決まり文句です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「この通りには店がほとんどありません」\nThere are (      ) shops on this street.",
-      "choices": ["few", "little", "much", "a lot"],
-      "answer": "few",
-      "explanation": "Few（ほとんどない：数えられる名詞用）を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「公園には誰もいませんでした。」となるように並び替えてください。",
-      "choices": ["one", "no", "park", "was", "There", "the", "in"],
-      "answer": "Therewasnooneinthepark",
-      "explanation": "There was no one in the park. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「そのチームには11人の選手がいます」\nThere (      ) eleven players on the team.",
-      "choices": [],
-      "answer": "are",
-      "explanation": "Players（複数）なのでareです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「昨夜は月が出ていませんでした」\nThere (      ) no moon last night.",
+      "question": "「昨夜、地震がありました」\nThere (      ) an earthquake last night.",
       "choices": ["was", "were", "is", "are"],
       "answer": "was",
-      "explanation": "Moon（単数）で過去なのでwasです。"
+      "explanation": "an earthquake（単数）で過去のことなので was。\n【🇺🇸 Cultural Note】\nカリフォルニア州は地震が多い地域として知られており、学校でも避難訓練（Earthquake drill）が行われます。"
     },
     {
       "type": "sort",
-      "question": "「何か冷たい飲み物はありますか？」となるように並び替えてください。",
-      "choices": ["drinks", "cold", "any", "Are", "there"],
-      "answer": "Arethereanycolddrinks",
-      "explanation": "Are there any cold drinks? です。"
+      "question": "「日本にはたくさんの神社があります。」となるように並び替えてください。",
+      "choices": ["shrines", "many", "are", "There", "Japan", "in"],
+      "answer": "TherearemanyshrinesinJapan",
+      "explanation": "There are many shrines...\n【🇺🇸 Cultural Note】\nアメリカ人観光客にとって、神社の鳥居（Torii gate）は日本を象徴するミステリアスで美しい建造物です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「その部屋には椅子がいくつかありました」\nThere (      ) some chairs in the room.",
-      "choices": [],
-      "answer": "were",
-      "explanation": "Chairs（複数）で過去なのでwereです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「間違いはありません」\nThere (      ) no mistakes.",
-      "choices": ["are", "is", "have", "be"],
-      "answer": "are",
-      "explanation": "Mistakes（複数）なのでareです。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたの学校には図書館がありますか？」となるように並び替えてください。",
-      "choices": ["library", "school", "Is", "a", "your", "in", "there"],
-      "answer": "Istherealibraryinyourschool",
-      "explanation": "Is there a library in your school? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「ここから駅までは長い道のりです（遠いです）」\nIt is a long way from here to the station. （※There構文ではないが、距離を表すItとの対比）\nThere (      ) a long way to go.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "There is a long way to go.（行くべき長い道のりがある）という表現です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「この近くに本屋はありますか？」\nAre there (      ) bookstores near here?",
-      "choices": ["any", "some", "much", "little"],
-      "answer": "any",
-      "explanation": "疑問文なのでanyを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「空にたくさんの鳥がいました。」となるように並び替えてください。",
-      "choices": ["birds", "sky", "were", "There", "many", "in", "the"],
-      "answer": "Thereweremanybirdsinthesky",
-      "explanation": "There were many birds in the sky. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「日本にはたくさんの火山があります」\nThere (      ) many volcanoes in Japan.",
-      "choices": [],
-      "answer": "are",
-      "explanation": "Volcanoes（複数）なのでareです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「言うべきことはもう何もありません」\nThere is (      ) more to say.",
-      "choices": ["nothing", "anything", "something", "everything"],
-      "answer": "nothing",
-      "explanation": "There is nothing...（何もない）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「バスにはたくさんの乗客がいました。」となるように並び替えてください。",
-      "choices": ["passengers", "bus", "were", "There", "many", "on", "the"],
-      "answer": "Thereweremanypassengersonthebus",
-      "explanation": "There were many passengers on the bus. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「今夜は良い映画があります」\nThere (      ) a good movie on TV tonight.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "A good movie（単数）なのでisです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「そのかごの中にはリンゴが3つあります」\n(      ) three apples in the basket.",
-      "choices": ["There are", "There is", "They are", "It is"],
-      "answer": "There are",
-      "explanation": "「～がある」はThere is/areを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたの町には美術館がありますか？」となるように並び替えてください。",
-      "choices": ["museum", "town", "Is", "a", "your", "in", "there"],
-      "answer": "Isthereamuseuminyourtown",
-      "explanation": "Is there a museum in your town? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「机の下に何もありません」\nThere (      ) nothing under the desk.",
-      "choices": [],
-      "answer": "is",
-      "explanation": "Nothingは単数扱いなのでisです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「この階にトイレはありますか？」\nIs there a restroom on this (      )?",
-      "choices": ["floor", "ground", "step", "stage"],
-      "answer": "floor",
-      "explanation": "On this floor（この階に）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「カレンダーに予定は何もありません。」となるように並び替えてください。",
-      "choices": ["plans", "calendar", "There", "no", "on", "are", "the"],
-      "answer": "Therearenoplansonthecalendar",
-      "explanation": "There are no plans on the calendar. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「この問題には3つの答えがあります」\nThere (      ) three answers to this question.",
-      "choices": [],
-      "answer": "are",
-      "explanation": "Three answers（複数）なのでareです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「その部屋には古い家具がいくつかありました」\nThere (      ) some old furniture in the room.",
-      "choices": ["was", "were", "is", "are"],
-      "answer": "was",
-      "explanation": "Furniture（家具）は英語では数えられない名詞（単数扱い）なので、過去形はwasになります。これは間違いやすいポイントです。"
-    },
-    {
-      "type": "sort",
-      "question": "「ここから学校まで3キロあります。」となるように並び替えてください。",
-      "choices": ["kilometers", "school", "three", "It", "is", "to", "from", "here"],
-      "answer": "Itisthreekilometersfromheretoschool",
-      "explanation": "It is three kilometers... 距離を表す時はThere isではなくIt isを使います（There is/areとの混同に注意）。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「空には星が一つもありません」\nThere aren't (      ) stars in the sky.",
+      "question": "「質問はありますか？（何か質問は？）」\nAre there (      ) questions?",
       "choices": [],
       "answer": "any",
-      "explanation": "否定文（aren't）なのでanyを使います。"
+      "explanation": "疑問文なので any を使います。\n【🇺🇸 Cultural Note】\n\"Any questions?\" は授業や会議の締めに必ず言われるフレーズです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私たちの学校にはプールがありません」\nThere (      ) a pool in our school.",
+      "question": "「この町に空港はありません」\nThere (      ) an airport in this town.",
       "choices": ["isn't", "aren't", "wasn't", "weren't"],
       "answer": "isn't",
-      "explanation": "A pool（単数）なのでisn'tです。"
+      "explanation": "an airport（単数）の否定なので isn't。\n【🇺🇸 Cultural Note】\nアメリカには「地方空港（Regional Airport）」も多く、主要都市へのハブ空港を経由して移動します。"
     },
     {
       "type": "sort",
-      "question": "「あなたのポケットに何か入っていますか？」となるように並び替えてください。",
-      "choices": ["in", "pocket", "anything", "Is", "there", "your"],
-      "answer": "Isthereanythinginyourpocket",
-      "explanation": "Is there anything in your pocket? です。"
+      "question": "「この本には美しい写真がたくさんあります。」となるように並び替えてください。",
+      "choices": ["pictures", "book", "There", "beautiful", "are", "many", "in", "this"],
+      "answer": "Therearemanybeautifulpicturesinthisbook",
+      "explanation": "There are many beautiful pictures...\n【🇺🇸 Cultural Note】\n「Coffee Table Book」と呼ばれる、リビングのテーブルに置くための大きくて美しい写真集がインテリアとして人気です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「そこへ行くためのバスがあります」\nThere is a bus (      ) go there.",
+      "question": "「昨日、私の学校でお祭りがありました」\nThere (      ) a festival at my school yesterday.",
       "choices": [],
-      "answer": "to",
-      "explanation": "Bus to go（行くためのバス）。不定詞の形容詞的用法との組み合わせです。"
+      "answer": "was",
+      "explanation": "a festival（単数）で過去のことなので was。\n【🇺🇸 Cultural Note】\n学校のフェスティバルやカーニバルでは、ダンクタンク（先生を水に落とすゲーム）などが人気です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「北海道には多くのスキー場があります」\nThere (      ) many ski resorts in Hokkaido.",
-      "choices": ["are", "is", "have", "has"],
-      "answer": "are",
-      "explanation": "Resorts（複数）なのでareです。"
+      "question": "「希望はありますか？」\nIs there (      ) hope?",
+      "choices": ["any", "some", "many", "a"],
+      "answer": "any",
+      "explanation": "不可算名詞hopeの疑問文なので any。\n【🇺🇸 Cultural Note】\nオバマ大統領の選挙キャンペーンポスター「HOPE」は非常に有名になりました。"
     },
     {
       "type": "sort",
-      "question": "「世界にはたくさんの国があります。」となるように並び替えてください。",
-      "choices": ["countries", "world", "many", "There", "in", "are", "the"],
-      "answer": "Therearemanycountriesintheworld",
-      "explanation": "There are many countries in the world. です。"
+      "question": "「あなたのポケットの中に何がありますか？」となるように並び替えてください。",
+      "choices": ["in", "is", "pocket", "What", "there", "your"],
+      "answer": "Whatisthereinyourpocket",
+      "explanation": "What is there...?（何がありますか）。\n【🇺🇸 Cultural Note】\nトールキンの『ホビット』で、ビルボとゴラムがなぞなぞ遊びをする際の有名な問いかけでもあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その木にリンゴはなっていません（ありません）」\nThere aren't (      ) apples on the tree.",
+      "choices": [],
+      "answer": "any",
+      "explanation": "否定文なので any apples。\n【🇺🇸 Cultural Note】\n秋の「Apple Picking（リンゴ狩り）」は、家族連れに人気のアウトドア活動です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「何か冷たい飲み物はありますか？」\nIs there (      ) cold to drink?",
+      "choices": ["anything", "something", "nothing", "everything"],
+      "answer": "anything",
+      "explanation": "疑問文なので anything。形容詞coldは後ろに来ます。\n【🇺🇸 Cultural Note】\nアメリカのアイスティーは、南部では最初から甘い（Sweet Tea）のが標準ですが、他の地域では無糖が一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「バスルームにタオルがありません。」となるように並び替えてください。",
+      "choices": ["towels", "bathroom", "There", "are", "no", "in", "the"],
+      "answer": "Therearenotowelsinthebathroom",
+      "explanation": "There are no towels...。\n【🇺🇸 Cultural Note】\nホテルのタオルは十分な枚数が用意されていますが、足りない場合はフロントに電話すればすぐに持ってきてくれます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「この通りに信号はありますか？」\nAre there any traffic (      ) on this street?",
+      "choices": [],
+      "answer": "lights",
+      "explanation": "traffic lights（信号機）。複数形で聞くのが自然です。\n【🇺🇸 Cultural Note】\nアメリカの信号は縦型が一般的で、赤信号でも安全なら右折OK（Right on Red）のルールが多くの州で適用されます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「かつてここに店がありました」\nThere (      ) to be a store here.",
+      "choices": ["used", "use", "uses", "using"],
+      "answer": "used",
+      "explanation": "There used to be...（かつて～があった）。\n【🇺🇸 Cultural Note】\n大型ショッピングモールの台頭やEコマースの影響で、昔ながらの個人商店（Mom-and-pop store）は減少傾向にあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「一年には12ヶ月あります。」となるように並び替えてください。",
+      "choices": ["months", "year", "There", "twelve", "are", "a", "in"],
+      "answer": "Therearetwelvemonthsinayear",
+      "explanation": "There are twelve months...\n【🇺🇸 Cultural Note】\nアメリカの会計年度（Fiscal Year）は企業や政府機関によって異なりますが、連邦政府は10月始まりです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私のスープの中にハエがいます！」\nThere is (      ) fly in my soup!",
+      "choices": [],
+      "answer": "a",
+      "explanation": "a fly（一匹のハエ）。有名なジョークの決まり文句です。\n【🇺🇸 Cultural Note】\n\"Waiter, there's a fly in my soup!\" は、古典的なレストランジョークとして漫画などでよく使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この近くに郵便局はありますか？」\nIs there a post office (      ) here?",
+      "choices": ["near", "nearly", "next", "nearby"],
+      "answer": "near",
+      "explanation": "near here（この近くに）。nearbyを使うなら Is there a post office nearby? となり、hereは不要です。\n【🇺🇸 Cultural Note】\nアメリカの郵便局（USPS）は、パスポートの申請受付なども行っています。"
+    },
+    {
+      "type": "sort",
+      "question": "「今日は宿題はありません。」となるように並び替えてください。",
+      "choices": ["homework", "is", "There", "no", "today"],
+      "answer": "Thereisnohomeworktoday",
+      "explanation": "There is no homework. 宿題は不可算名詞扱いなので is。\n【🇺🇸 Cultural Note】\n金曜日に宿題が出ないことは生徒にとって最高の週末の始まりです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「空に星がたくさんあります」\nThere are a (      ) of stars in the sky.",
+      "choices": [],
+      "answer": "lot",
+      "explanation": "a lot of（たくさんの）。lots ofでも可。\n【🇺🇸 Cultural Note】\nテキサス州の州歌の一節 \"The stars at night are big and bright\"（夜の星は大きく輝く）は有名で、手を叩く合いの手が入ります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「そこに行くには2つの方法があります」\nThere (      ) two ways to get there.",
+      "choices": ["are", "is", "was", "be"],
+      "answer": "are",
+      "explanation": "two ways（複数）なので are。\n【🇺🇸 Cultural Note】\n\"My way or the highway\"（俺のやり方に従うか、さもなくば出て行け）という強気な言い回しがあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「駅の前にバス停があります。」となるように並び替えてください。",
+      "choices": ["stop", "station", "There", "bus", "front", "is", "a", "in", "of", "the"],
+      "answer": "Thereisabusstopinfrontofthestation",
+      "explanation": "There is a bus stop... in front of...（～の前に）。\n【🇺🇸 Cultural Note】\nグレイハウンド（長距離バス）のターミナルは、通常の市内バスの停留所とは別の場所にあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「何か私にできることはありますか？」\nIs there (      ) I can do for you?",
+      "choices": [],
+      "answer": "anything",
+      "explanation": "Is there anything...?\n【🇺🇸 Cultural Note】\n困っている人を見かけたら \"Can I help you?\" や \"Is there anything I can do?\" と声をかけるのがアメリカの良きマナーです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「明日は雨でしょう（雨が降るでしょう）」\nThere (      ) be rain tomorrow.",
+      "choices": ["will", "is", "are", "was"],
+      "answer": "will",
+      "explanation": "未来の予報なので There will be...\n【🇺🇸 Cultural Note】\nシアトルは雨が多いイメージですが、実際には「霧雨」が多く、傘をささずにフード付きのジャケットで済ませる人が多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「なぜここに穴があるのですか？」となるように並び替えてください。",
+      "choices": ["hole", "Why", "here", "is", "there", "a"],
+      "answer": "Whyisthereaholehere",
+      "explanation": "Why is there...?\n【🇺🇸 Cultural Note】\n道路の「ポットホール（Pothole）」は冬の凍結などで発生し、パンクの原因になるためドライバーの悩みの種です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「部屋の中に誰かいますか？」\nIs there (      ) in the room?",
+      "choices": [],
+      "answer": "anyone",
+      "explanation": "疑問文なので anyone（誰か）。\n【🇺🇸 Cultural Note】\nノックをする時の決まり文句は \"Anyone home?\"（誰かいる？）です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「何か間違いがあるに違いありません」\nThere (      ) be a mistake.",
+      "choices": ["must", "can", "will", "shall"],
+      "answer": "must",
+      "explanation": "There must be...（～があるに違いない）。\n【🇺🇸 Cultural Note】\nレストランの伝票（Check）に頼んでいないものが含まれていたら、遠慮なく指摘します。"
+    },
+    {
+      "type": "sort",
+      "question": "「冷蔵庫に牛乳はありませんでした。」となるように並び替えてください。",
+      "choices": ["milk", "fridge", "was", "no", "There", "in", "the"],
+      "answer": "Therewasnomilkinthefridge",
+      "explanation": "There was no milk...（牛乳はなかった）。\n【🇺🇸 Cultural Note】\n牛乳がないとシリアルが食べられないため、朝食における牛乳の在庫管理は重要です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あの丘の上に古い城があります」\nThere is an old (      ) on the hill.",
+      "choices": [],
+      "answer": "castle",
+      "explanation": "an old castle（古い城）。\n【🇺🇸 Cultural Note】\nディズニーランドの「眠れる森の美女の城」は、パークのシンボルとして存在感を放っています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「北海道には雪がたくさんあります」\nThere (      ) a lot of snow in Hokkaido.",
+      "choices": ["is", "are", "were", "be"],
+      "answer": "is",
+      "explanation": "snow（雪）は不可算名詞なので is を使います。\n【🇺🇸 Cultural Note】\nアメリカでもコロラド州やユタ州はパウダースノーで有名で、スキーリゾートとして人気があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「このクラスに日本人の生徒はいますか？」となるように並び替えてください。",
+      "choices": ["students", "Japanese", "Are", "there", "any", "in", "this", "class"],
+      "answer": "ArethereanyJapanesestudentsinthisclass",
+      "explanation": "Are there any Japanese students...?\n【🇺🇸 Cultural Note】\nアメリカの学校では、様々なルーツを持つ生徒がいるため、「International Day」などで互いの文化を紹介し合います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「机の下に何もありません」\nThere is (      ) under the desk.",
+      "choices": [],
+      "answer": "nothing",
+      "explanation": "There is nothing...（何もない）。not anything と同じ意味。\n【🇺🇸 Cultural Note】\n学校での地震避難訓練（Drill）では、机の下に隠れて頭を守る「Drop, Cover, and Hold on」を練習します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「パーティーにはたくさんの人がいました」\nThere (      ) a lot of people at the party.",
+      "choices": ["were", "was", "are", "is"],
+      "answer": "were",
+      "explanation": "people（人々＝複数）で過去のことなので were。\n【🇺🇸 Cultural Note】\n「The more, the merrier」（多ければ多いほど楽しい）は、パーティーの招待状などでよく使われるフレーズです。"
+    },
+    {
+      "type": "sort",
+      "question": "「この近くに良いレストランはありますか？」となるように並び替えてください。",
+      "choices": ["restaurant", "Is", "there", "good", "a", "nearby"],
+      "answer": "Isthereagoodrestaurantnearby",
+      "explanation": "Is there a good restaurant nearby?\n【🇺🇸 Cultural Note】\nYelpやGoogle Mapsのレビュー（星の数）はお店選びの重要な基準になります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私のスープに塩が入っていません」\nThere isn't (      ) salt in my soup.",
+      "choices": [],
+      "answer": "any",
+      "explanation": "否定文なので any salt。\n【🇺🇸 Cultural Note】\nアメリカのレストランのテーブルには、必ず塩と胡椒（Salt & Pepper）のセットが置かれています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それを疑う理由はありません」\nThere is (      ) reason to doubt it.",
+      "choices": ["no", "not", "any", "some"],
+      "answer": "no",
+      "explanation": "There is no reason...（理由はない）。\n【🇺🇸 Cultural Note】\n陪審員裁判（Jury trial）では、「合理的疑い（Reasonable doubt）」がない場合にのみ有罪となります。"
+    },
+    {
+      "type": "sort",
+      "question": "「庭に大きな木があります。」となるように並び替えてください。",
+      "choices": ["tree", "garden", "There", "is", "a", "big", "in", "the"],
+      "answer": "Thereisabigtreeinthegarden",
+      "explanation": "There is a big tree...\n【🇺🇸 Cultural Note】\nバックヤード（裏庭）にツリーハウスを作るのは、多くのアメリカの子供たちの憧れです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「世界には7つの大陸があります」\nThere are seven (      ) in the world.",
+      "choices": [],
+      "answer": "continents",
+      "explanation": "seven continents（7つの大陸）。\n【🇺🇸 Cultural Note】\n北米大陸（North America）には、アメリカ、カナダ、メキシコなどが含まれます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「何か質問はありましたか？」\n(      ) there any questions?",
+      "choices": ["Were", "Was", "Are", "Is"],
+      "answer": "Were",
+      "explanation": "questions（複数）で過去のことなので Were there...?\n【🇺🇸 Cultural Note】\n講演会の質疑応答（Q&A session）では、聴衆が積極的に手を挙げて質問するのが一般的です。"
     }
   ]
 }
