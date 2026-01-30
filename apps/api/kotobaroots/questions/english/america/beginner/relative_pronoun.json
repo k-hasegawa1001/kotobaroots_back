@@ -4,6 +4,7 @@
   "difficulty": "Intermediate",
   "questions": [
     {
+      "questionNumber": 1,
       "type": "multiple_choice",
       "question": "「私にはボストンに住んでいる友人がいます」\nI have a friend (      ) lives in Boston.",
       "choices": ["who", "which", "whose", "whom"],
@@ -11,13 +12,15 @@
       "explanation": "先行詞が人（friend）で、動詞livesの主語になるので主格のwhoを使います。\n【🇺🇸 Cultural Note】\nボストンはアメリカで最も古い都市の一つで、ハーバード大学やMITがある学術都市としても有名です。"
     },
     {
+      "questionNumber": 2,
       "type": "sort",
       "question": "「これはアメリカで作られた車です。」となるように並び替えてください。",
       "choices": ["car", "is", "a", "This", "which", "made", "was", "in", "America"],
-      "answer": "ThisisacarwhichwasmadeinAmerica",
+      "answer": "This is a car which was made in America",
       "explanation": "先行詞が物（car）なのでwhichを使います。\n【🇺🇸 Cultural Note】\nデトロイトはかつて世界の自動車産業の中心地であり、「モーターシティ」と呼ばれていました。フォードやGMが有名です。"
     },
     {
+      "questionNumber": 3,
       "type": "fill_in_the_blank",
       "question": "「テニスをしているその少女は私の妹です」\nThe girl (      ) is playing tennis is my sister.",
       "choices": [],
@@ -25,6 +28,7 @@
       "explanation": "先行詞が人（girl）なのでwho（またはthat）を使います。\n【🇺🇸 Cultural Note】\nウィリアムズ姉妹（ビーナスとセリーナ）は、アメリカのテニス界を変えた伝説的なプレイヤーです。"
     },
     {
+      "questionNumber": 4,
       "type": "multiple_choice",
       "question": "「これは古いレコードを売っている店です」\nThis is a store (      ) sells old records.",
       "choices": ["which", "who", "whose", "whom"],
@@ -32,13 +36,15 @@
       "explanation": "先行詞が物（store）なのでwhich（またはthat）を使います。\n【🇺🇸 Cultural Note】\nアメリカではアナログレコード（Vinyl）の人気が再燃しており、「レコード・ストア・デイ」というイベントも盛り上がっています。"
     },
     {
+      "questionNumber": 5,
       "type": "sort",
       "question": "「あそこに立っている男性は私のおじです。」となるように並び替えてください。",
       "choices": ["man", "is", "The", "who", "standing", "is", "there", "my", "uncle"],
-      "answer": "Themanwhoisstandingthereismyuncle",
+      "answer": "The man who is standing there is my uncle",
       "explanation": "The man who is standing there（あそこに立っている男性）が主語になります。\n【🇺🇸 Cultural Note】\nアメリカの家族関係では、おじ・おばなどの親戚（Extended family）が集まるのは感謝祭などのホリデーシーズンがメインです。"
     },
     {
+      "questionNumber": 6,
       "type": "fill_in_the_blank",
       "question": "「私は私たちが先週見た映画が好きです」\nI like the movie (      ) we saw last week.",
       "choices": [],
@@ -46,6 +52,7 @@
       "explanation": "先行詞が物（movie）で、sawの目的語になっているのでthat（またはwhich）を使います。省略も可能です。\n【🇺🇸 Cultural Note】\nハリウッド映画は世界中で公開されますが、アメリカ国内の興行収入（Domestic Box Office）は映画の成功を測る重要な指標です。"
     },
     {
+      "questionNumber": 7,
       "type": "multiple_choice",
       "question": "「彼は誰もが知っている俳優です」\nHe is an actor (      ) everyone knows.",
       "choices": ["that", "which", "what", "whose"],
@@ -53,13 +60,15 @@
       "explanation": "先行詞が人（actor）なのでwhoも使えますが、口語ではthatもよく使われます。\n【🇺🇸 Cultural Note】\nトム・ハンクスやデンゼル・ワシントンなどは、国民的な人気を誇る俳優です。"
     },
     {
+      "questionNumber": 8,
       "type": "sort",
       "question": "「母が作ったケーキはおいしかったです。」となるように並び替えてください。",
       "choices": ["cake", "mother", "The", "my", "made", "delicious", "was"],
-      "answer": "Thecakemymothermadewasdelicious",
+      "answer": "The cake my mother made was delicious",
       "explanation": "The cake (that) my mother made... 関係代名詞が省略された形（接触節）です。\n【🇺🇸 Cultural Note】\nアメリカの家庭の味といえば、アップルパイやチョコチップクッキー、そしてブラウニーなどの焼き菓子（Baked goods）です。"
     },
     {
+      "questionNumber": 9,
       "type": "fill_in_the_blank",
       "question": "「私には父親がパイロットである友人がいます」\nI have a friend (      ) father is a pilot.",
       "choices": [],
@@ -67,6 +76,7 @@
       "explanation": "「友人の父」という所有の関係なのでwhoseを使います。\n【🇺🇸 Cultural Note】\nアメリカは国土が広いため、航空移動が一般的です。自家用飛行機を持っている人も珍しくありません。"
     },
     {
+      "questionNumber": 10,
       "type": "multiple_choice",
       "question": "「長い耳をしたその犬はかわいいです」\nThe dog (      ) has long ears is cute.",
       "choices": ["which", "who", "whose", "whom"],
@@ -74,13 +84,15 @@
       "explanation": "先行詞が動物（dog）の場合、whichやthatを使います。ペットとして家族同然の場合はwhoを使うこともあります。\n【🇺🇸 Cultural Note】\nアメリカン・コッカー・スパニエルなどは長い耳が特徴的な犬種です。"
     },
     {
+      "questionNumber": 11,
       "type": "sort",
       "question": "「これが彼が建てた家です。」となるように並び替えてください。",
       "choices": ["house", "is", "the", "he", "This", "that", "built"],
-      "answer": "Thisisthehousethathebuilt",
+      "answer": "This is the house that he built",
       "explanation": "先行詞が物（house）なのでthat（またはwhich）を使います。\n【🇺🇸 Cultural Note】\nアメリカのDIY文化は根強く、自分で家をリノベーションしたり、小屋を建てたりする人は多いです。"
     },
     {
+      "questionNumber": 12,
       "type": "fill_in_the_blank",
       "question": "「机の上にあるコンピュータは私のです」\nThe computer (      ) is on the desk is mine.",
       "choices": [],
@@ -88,6 +100,7 @@
       "explanation": "先行詞が物（computer）で、主格なのでwhich（またはthat）を使います。\n【🇺🇸 Cultural Note】\nシリコンバレー（Silicon Valley）はIT企業の聖地です。AppleやGoogleが本社を構えています。"
     },
     {
+      "questionNumber": 13,
       "type": "multiple_choice",
       "question": "「髪の長いその少女はメアリーです」\nThe girl (      ) hair is long is Mary.",
       "choices": ["whose", "who", "which", "that"],
@@ -95,13 +108,15 @@
       "explanation": "「少女の髪」という関係なので所有格のwhoseを使います。\n【🇺🇸 Cultural Note】\nアメリカの学校には校則（Dress code）がありますが、髪型や髪色に関しては比較的自由な学校が多いです。"
     },
     {
+      "questionNumber": 14,
       "type": "sort",
       "question": "「今日届いた手紙はトムからです。」となるように並び替えてください。",
       "choices": ["letter", "which", "The", "today", "came", "is", "Tom", "from"],
-      "answer": "TheletterwhichcametodayisfromTom",
+      "answer": "The letter which came today is from Tom",
       "explanation": "The letter which came today（今日届いた手紙）が主語です。\n【🇺🇸 Cultural Note】\nアメリカの郵便受け（Mailbox）には赤い旗がついており、郵便物が入っていることを知らせるために使われることがあります。"
     },
     {
+      "questionNumber": 15,
       "type": "fill_in_the_blank",
       "question": "「この町に住んでいる人々は親切です」\nThe people (      ) live in this town are kind.",
       "choices": [],
@@ -109,6 +124,7 @@
       "explanation": "先行詞が人（people）なのでwho（またはthat）を使います。\n【🇺🇸 Cultural Note】\nアメリカの田舎町（Small town）では、隣人同士の助け合いの精神が強く残っていると言われます。"
     },
     {
+      "questionNumber": 16,
       "type": "multiple_choice",
       "question": "「これは私が今までに見た中で最高の映画です」\nThis is the best movie (      ) I have ever seen.",
       "choices": ["that", "which", "who", "what"],
@@ -116,13 +132,15 @@
       "explanation": "先行詞に最上級（the best）がついている場合、関係代名詞はthatが好まれます。\n【🇺🇸 Cultural Note】\nアカデミー賞（Academy Awards）で作品賞を取ることは、映画製作者にとって最高の名誉です。"
     },
     {
+      "questionNumber": 17,
       "type": "sort",
       "question": "「あなたが昨日会った少年はケンです。」となるように並び替えてください。",
       "choices": ["boy", "The", "you", "met", "yesterday", "is", "Ken"],
-      "answer": "TheboyyoumetyesterdayisKen",
+      "answer": "The boy you met yesterday is Ken",
       "explanation": "The boy (whom/that) you met... 目的格の関係代名詞が省略されています。\n【🇺🇸 Cultural Note】\n\"Ken\" は日系アメリカ人の名前としても一般的ですが、バービー人形のボーイフレンドの名前としても有名です。"
     },
     {
+      "questionNumber": 18,
       "type": "fill_in_the_blank",
       "question": "「走っている犬を見てください」\nLook at the dog (      ) is running.",
       "choices": [],
@@ -130,6 +148,7 @@
       "explanation": "Look at the dog running...（分詞）とも言えますが、関係代名詞を使うなら which is running となります。\n【🇺🇸 Cultural Note】\nドッグパーク（Dog park）では、リードを外して犬を走らせることができます。"
     },
     {
+      "questionNumber": 19,
       "type": "multiple_choice",
       "question": "「私はこの本を書いた男性を知っています」\nI know the man (      ) wrote this book.",
       "choices": ["who", "which", "whose", "whom"],
@@ -137,13 +156,15 @@
       "explanation": "先行詞が人（man）で、主格なのでwhoを使います。\n【🇺🇸 Cultural Note】\nスティーヴン・キングは、数多くのベストセラー小説を書いたアメリカのモダン・ホラーの巨匠です。"
     },
     {
+      "questionNumber": 20,
       "type": "sort",
       "question": "「彼が撮った写真は美しいです。」となるように並び替えてください。",
       "choices": ["pictures", "he", "The", "took", "are", "beautiful"],
-      "answer": "Thepictureshetookarebeautiful",
+      "answer": "The pictures he took are beautiful",
       "explanation": "The pictures (that) he took... 関係代名詞の省略。\n【🇺🇸 Cultural Note】\nアンテロープキャニオン（アリゾナ州）は、写真家にとって光と影の芸術が撮れる憧れの場所です。"
     },
     {
+      "questionNumber": 21,
       "type": "fill_in_the_blank",
       "question": "「これは私が欲しいカメラです」\nThis is the camera (      ) I want.",
       "choices": [],
@@ -151,6 +172,7 @@
       "explanation": "先行詞が物（camera）で、目的格なのでthat（またはwhich）を使います。\n【🇺🇸 Cultural Note】\nGoProなどのアクションカメラは、サーフィンやスケートボードなどのエクストリームスポーツの撮影で人気です。"
     },
     {
+      "questionNumber": 22,
       "type": "multiple_choice",
       "question": "「彼女は日本で有名な歌手です」\nShe is a singer (      ) is famous in Japan.",
       "choices": ["who", "which", "whose", "whom"],
@@ -158,13 +180,15 @@
       "explanation": "先行詞が人（singer）で、主格なのでwhoを使います。\n【🇺🇸 Cultural Note】\nテイラー・スウィフトやアリアナ・グランデなどのアメリカの歌手は、日本でもドームツアーを行うほど人気があります。"
     },
     {
+      "questionNumber": 23,
       "type": "sort",
       "question": "「椅子の上にあるバッグは私のです。」となるように並び替えてください。",
       "choices": ["bag", "is", "The", "that", "on", "the", "chair", "is", "mine"],
-      "answer": "Thebagthatisonthechairismine",
+      "answer": "The bag that is on the chair is mine",
       "explanation": "The bag that is on the chair（椅子の上にあるバッグ）が主語です。\n【🇺🇸 Cultural Note】\nアメリカの学校では、バックパック（Backpack）を床に無造作に置く光景がよく見られます。"
     },
     {
+      "questionNumber": 24,
       "type": "fill_in_the_blank",
       "question": "「トムと話している少女を知っていますか？」\nDo you know the girl (      ) is talking to Tom?",
       "choices": [],
@@ -172,6 +196,7 @@
       "explanation": "who is talking...。分詞を使って the girl talking to Tom とも言えます。\n【🇺🇸 Cultural Note】\nアメリカの学校のカフェテリアは社交の場であり、誰と話すか、誰と食べるかが重要視されます。"
     },
     {
+      "questionNumber": 25,
       "type": "multiple_choice",
       "question": "「彼が言ったことすべてが真実でした」\nEverything (      ) he said was true.",
       "choices": ["that", "what", "which", "who"],
@@ -179,13 +204,15 @@
       "explanation": "先行詞がEverything, Anything, Allなどの場合、関係代名詞はthatが好まれます。\n【🇺🇸 Cultural Note】\nジョージ・ワシントンの「桜の木を切ったことを正直に話した」という逸話（作り話説が有力ですが）は、正直さの教訓として有名です。"
     },
     {
+      "questionNumber": 26,
       "type": "sort",
       "question": "「私は父が私にくれた時計をなくしました。」となるように並び替えてください。",
       "choices": ["watch", "lost", "I", "the", "which", "my", "father", "gave", "me"],
-      "answer": "Ilostthewatchwhichmyfathergaveme",
+      "answer": "I lost the watch which my father gave me",
       "explanation": "the watch which my father gave me（父が私にくれた時計）。give + 人 + 物 の構文が含まれています。\n【🇺🇸 Cultural Note】\n卒業祝いや成人祝いに時計を贈る習慣はアメリカでもありますが、最近はスマートウォッチが人気です。"
     },
     {
+      "questionNumber": 27,
       "type": "fill_in_the_blank",
       "question": "「私が尊敬する男性は私の父です」\nThe man (      ) I respect is my father.",
       "choices": [],
@@ -193,6 +220,7 @@
       "explanation": "目的格で先行詞が人の場合、whomを使いますが、口語ではwhoやthat、あるいは省略が一般的です。ここではwhomを正解としますが、whoでも間違いではありません。\n【🇺🇸 Cultural Note】\n「父の日（Father's Day）」は6月の第3日曜日で、BBQをして祝うのが定番です。"
     },
     {
+      "questionNumber": 28,
       "type": "multiple_choice",
       "question": "「屋根が赤いあの家を見てください」\nLook at the house (      ) roof is red.",
       "choices": ["whose", "which", "that", "who"],
@@ -200,13 +228,15 @@
       "explanation": "「家の屋根」という所有関係なのでwhoseを使います。物はof whichを使うこともありますが、whoseが簡単で一般的です。\n【🇺🇸 Cultural Note】\nアメリカの郊外住宅地では、景観を守るために屋根の色や芝生の手入れに厳しいルール（HOA）がある場合があります。"
     },
     {
+      "questionNumber": 29,
       "type": "sort",
       "question": "「これは私が彼から借りたCDです。」となるように並び替えてください。",
       "choices": ["CD", "This", "is", "the", "I", "borrowed", "from", "him"],
-      "answer": "ThisistheCDIborrowedfromhim",
+      "answer": "This is the CD I borrowed from him",
       "explanation": "the CD (that) I borrowed... 関係代名詞の省略。\n【🇺🇸 Cultural Note】\nストリーミングが主流になった今でも、CDやレコードをコレクションする音楽ファンは根強く存在します。"
     },
     {
+      "questionNumber": 30,
       "type": "fill_in_the_blank",
       "question": "「これらは彼女が焼いたクッキーです」\nThese are the cookies (      ) she baked.",
       "choices": [],
@@ -214,6 +244,7 @@
       "explanation": "the cookies that she baked。whichでも可。省略も可。\n【🇺🇸 Cultural Note】\nガールスカウトクッキー（Girl Scout Cookies）は、アメリカの春の風物詩で、子供たちが家々を回ってクッキーを売ります。"
     },
     {
+      "questionNumber": 31,
       "type": "multiple_choice",
       "question": "「私が一番好きなスポーツは野球です」\nThe sport (      ) I like the best is baseball.",
       "choices": ["that", "who", "whose", "what"],
@@ -221,13 +252,15 @@
       "explanation": "先行詞が物（sport）なのでthat（またはwhich）を使います。省略も可能です。\n【🇺🇸 Cultural Note】\n「私を野球に連れてって（Take Me Out to the Ball Game）」は、メジャーリーグの試合の7回裏の攻撃前に必ず歌われる愛唱歌です。"
     },
     {
+      "questionNumber": 32,
       "type": "sort",
       "question": "「英語を話すことができるロボットが欲しいです。」となるように並び替えてください。",
       "choices": ["want", "robot", "can", "a", "I", "speak", "that", "English"],
-      "answer": "IwantarobotthatcanspeakEnglish",
+      "answer": "I want a robot that can speak English",
       "explanation": "a robot that can speak English（英語を話せるロボット）。thatは主格の関係代名詞です。\n【🇺🇸 Cultural Note】\nボストン・ダイナミクス社（マサチューセッツ州）は、非常に高度な動きをするロボットの開発で世界的に有名です。"
     },
     {
+      "questionNumber": 33,
       "type": "fill_in_the_blank",
       "question": "「彼が書いた本はとても面白いです」\nThe book (      ) he wrote is very interesting.",
       "choices": [],
@@ -235,6 +268,7 @@
       "explanation": "The book which he wrote...。thatでも可。また、目的格なので省略して The book he wrote... とすることも多いです。\n【🇺🇸 Cultural Note】\nアメリカの図書館協会は、子供たちが自由に本を読む権利を守る活動をしています。"
     },
     {
+      "questionNumber": 34,
       "type": "multiple_choice",
       "question": "「私は車を持っている男性を知っています」\nI know a man (      ) has a car.",
       "choices": ["who", "which", "whose", "whom"],
@@ -242,13 +276,15 @@
       "explanation": "先行詞が人（man）で、hasの主語になるのでwhoを使います。\n【🇺🇸 Cultural Note】\nアメリカで「車を持っている」ことは、特に公共交通機関が少ない地方では生活の必須条件です。"
     },
     {
+      "questionNumber": 35,
       "type": "sort",
       "question": "「これは私が昨日撮った写真です。」となるように並び替えてください。",
       "choices": ["picture", "took", "I", "This", "the", "is", "yesterday"],
-      "answer": "ThisisthepictureItookyesterday",
+      "answer": "This is the picture I took yesterday",
       "explanation": "the picture (that) I took... 関係代名詞が省略されています。\n【🇺🇸 Cultural Note】\nインスタグラム（Instagram）はサンフランシスコで開発されたアプリで、写真共有の文化を世界中に広めました。"
     },
     {
+      "questionNumber": 36,
       "type": "fill_in_the_blank",
       "question": "「屋根が緑色のあの家を見てください」\nLook at that house (      ) roof is green.",
       "choices": [],
@@ -256,6 +292,7 @@
       "explanation": "「その家の屋根」という所有関係なのでwhoseを使います。\n【🇺🇸 Cultural Note】\nアメリカの住宅街では、クリスマスの時期になると家全体をイルミネーションで飾り付ける家が多く見られます。"
     },
     {
+      "questionNumber": 37,
       "type": "multiple_choice",
       "question": "「彼が言ったことは正しかったです」\n(      ) he said was right.",
       "choices": ["What", "That", "Which", "Who"],
@@ -263,13 +300,15 @@
       "explanation": "What he said（彼が言ったこと）。what = the thing(s) which で、先行詞を含んだ関係代名詞です。\n【🇺🇸 Cultural Note】\nアメリカの法廷ドラマでは、証人が \"I swear to tell the truth\"（真実を語ることを誓います）と言うシーンがよくあります。"
     },
     {
+      "questionNumber": 38,
       "type": "sort",
       "question": "「彼女は私たちが昨日会った女性です。」となるように並び替えてください。",
       "choices": ["woman", "is", "met", "She", "the", "yesterday", "we"],
-      "answer": "Sheisthewomanwemetyesterday",
+      "answer": "She is the woman we met yesterday",
       "explanation": "the woman (whom/that) we met... 関係代名詞の省略。\n【🇺🇸 Cultural Note】\nアメリカでは、仕事上の付き合いでもファーストネーム（下の名前）で呼び合うのが一般的です。"
     },
     {
+      "questionNumber": 39,
       "type": "fill_in_the_blank",
       "question": "「私を幸せにしてくれるものが欲しいです」\nI want something (      ) makes me happy.",
       "choices": [],
@@ -277,6 +316,7 @@
       "explanation": "先行詞がsomethingの場合、関係代名詞はthatを使うのが一般的です。\n【🇺🇸 Cultural Note】\n「Happiness is a warm puppy（幸せとは温かい子犬のことだ）」というのは、『ピーナッツ（スヌーピー）』の作者チャールズ・シュルツの名言です。"
     },
     {
+      "questionNumber": 40,
       "type": "multiple_choice",
       "question": "「こちらは私が話していたトムです」\nThis is Tom, (      ) I was talking about.",
       "choices": ["whom", "which", "whose", "what"],
@@ -284,13 +324,15 @@
       "explanation": "talking about Tom なので、前置詞aboutの目的語となる人称代名詞whomを使います（口語ではwhoも使われます）。\n【🇺🇸 Cultural Note】\nアメリカのパーティーでは \"Speaking of the devil\"（噂をすれば影）と言って、話題にしていた人が現れた時に冗談めかして迎えます。"
     },
     {
+      "questionNumber": 41,
       "type": "sort",
       "question": "「私には弟が有名なサッカー選手である友人がいます。」となるように並び替えてください。",
       "choices": ["friend", "player", "whose", "a", "soccer", "I", "brother", "have", "is", "famous"],
-      "answer": "Ihaveafriendwhosebrotherisafamoussoccerplayer",
+      "answer": "I have a friend whose brother is a famous soccer player",
       "explanation": "a friend whose brother...（弟が～である友人）。\n【🇺🇸 Cultural Note】\nアメリカの女子サッカーは世界最強レベルで、ミーガン・ラピノーなどのスター選手は社会的な発言力も持っています。"
     },
     {
+      "questionNumber": 42,
       "type": "fill_in_the_blank",
       "question": "「テーブルの上にあったケーキを食べたのは誰ですか？」\nWho ate the cake (      ) was on the table?",
       "choices": [],
@@ -298,6 +340,7 @@
       "explanation": "先行詞が物（cake）で主格なのでwhich（またはthat）を使います。\n【🇺🇸 Cultural Note】\nアメリカのオフィスでは、誰かの誕生日に共有スペースにドーナツやケーキを置いておき、自由に食べる習慣があります。"
     },
     {
+      "questionNumber": 43,
       "type": "multiple_choice",
       "question": "「私が欲しいものは新しいコンピュータです」\n(      ) I want is a new computer.",
       "choices": ["What", "That", "Which", "Who"],
@@ -305,13 +348,15 @@
       "explanation": "What I want（私が欲しいもの）。The thing which I want と同じ意味です。\n【🇺🇸 Cultural Note】\nブラックフライデー（感謝祭翌日のセール）は、パソコンや家電を安く買う絶好のチャンスです。"
     },
     {
+      "questionNumber": 44,
       "type": "sort",
       "question": "「彼女は私が最も尊敬する歌手です。」となるように並び替えてください。",
       "choices": ["singer", "respect", "She", "is", "the", "most", "I"],
-      "answer": "SheisthesingerIrespectmost",
+      "answer": "She is the singer I respect most",
       "explanation": "the singer (whom/that) I respect most. 関係代名詞の省略。\n【🇺🇸 Cultural Note】\nアレサ・フランクリンは「ソウルの女王」と呼ばれ、アメリカ音楽史上最も尊敬される歌手の一人です。"
     },
     {
+      "questionNumber": 45,
       "type": "fill_in_the_blank",
       "question": "「公園へ行くバスはどれですか？」\nWhich is the bus (      ) goes to the park?",
       "choices": [],
@@ -319,6 +364,7 @@
       "explanation": "疑問詞Whichで始まる文なので、関係代名詞はwhichを避けてthatを使う傾向があります。\n【🇺🇸 Cultural Note】\nアメリカの都市バス（City Bus）は、正確な時刻表通りに来ないこともあるので、アプリでの確認が必須です。"
     },
     {
+      "questionNumber": 46,
       "type": "multiple_choice",
       "question": "「私は彼が書いた記事を読みました」\nI read the article (      ) he wrote.",
       "choices": ["which", "who", "whose", "whom"],
@@ -326,13 +372,15 @@
       "explanation": "先行詞が物（article）なのでwhich（またはthat）を使います。\n【🇺🇸 Cultural Note】\nニューヨーク・タイムズやワシントン・ポストは、アメリカを代表する権威ある新聞（Quality paper）です。"
     },
     {
+      "questionNumber": 47,
       "type": "sort",
       "question": "「あなたが必要なのは愛だけです。」となるように並び替えてください。",
       "choices": ["need", "is", "love", "All", "you"],
-      "answer": "Allyouneedislove",
+      "answer": "All you need is love",
       "explanation": "All (that) you need is love. 先行詞がAllの場合、関係代名詞thatが省略されやすいです。\n【🇺🇸 Cultural Note】\nビートルズの有名な曲のタイトルですが、アメリカのヒッピー文化などでもスローガンとして愛されました。"
     },
     {
+      "questionNumber": 48,
       "type": "fill_in_the_blank",
       "question": "「ギターを弾いている男性は私の父です」\nThe man (      ) is playing the guitar is my father.",
       "choices": [],
@@ -340,20 +388,23 @@
       "explanation": "先行詞が人（man）で主格なのでwho。\n【🇺🇸 Cultural Note】\nカントリーミュージックの中心地ナッシュビルでは、ギターを抱えたミュージシャンが街中にいます。"
     },
     {
+      "questionNumber": 49,
       "type": "multiple_choice",
-      "question": "「これは彼が住んでいる家です」\nThis is the house (      ) he lives in.",
+      "question": "「これは彼が住んでいる house です」\nThis is the house (      ) he lives in.",
       "choices": ["which", "who", "whose", "where"],
       "answer": "which",
       "explanation": "inで終わっているので、in which he lives または which he lives in となります。whereを使うなら in は不要です。\n【🇺🇸 Cultural Note】\nアメリカの家は「ベッドルーム（寝室）」と「バスルーム（浴室・トイレ）」の数（例: 3 bed, 2 bath）で物件の大きさを表します。"
     },
     {
+      "questionNumber": 50,
       "type": "sort",
       "question": "「私は動物が好きな人が好きです。」となるように並び替えてください。",
       "choices": ["people", "like", "animals", "I", "like", "who"],
-      "answer": "Ilikepeoplewholikeanimals",
+      "answer": "I like people who like animals",
       "explanation": "people who like animals（動物が好きな人々）。\n【🇺🇸 Cultural Note】\nアメリカ人の約66%がペットを飼っており、ペットフレンドリーなホテルや職場も増えています。"
     },
     {
+      "questionNumber": 51,
       "type": "fill_in_the_blank",
       "question": "「私たちが昨日泊まったホテルはきれいでした」\nThe hotel (      ) we stayed at yesterday was nice.",
       "choices": [],
@@ -361,6 +412,7 @@
       "explanation": "stayed at... の at が残っているので、関係副詞whereではなく関係代名詞which（またはthat）を使います。\n【🇺🇸 Cultural Note】\nアメリカのモーテル（Motel）は、幹線道路沿いにある「Motor Hotel」の略で、ロードトリップの安価な宿泊先です。"
     },
     {
+      "questionNumber": 52,
       "type": "multiple_choice",
       "question": "「彼は私たちが信頼できる人です」\nHe is a person (      ) we can trust.",
       "choices": ["who", "which", "whose", "what"],
@@ -368,13 +420,15 @@
       "explanation": "先行詞が人（person）で、目的格（trustの目的語）なのでwho（またはwhom/that）を使います。\n【🇺🇸 Cultural Note】\n「In God We Trust（我々は神を信じる）」は、アメリカの公式な標語であり、ドル紙幣にも印刷されています。"
     },
     {
+      "questionNumber": 53,
       "type": "sort",
       "question": "「これが私が探していた鍵です。」となるように並び替えてください。",
       "choices": ["key", "was", "looking", "for", "the", "This", "is", "I"],
-      "answer": "ThisisthekeyIwaslookingfor",
+      "answer": "This is the key I was looking for",
       "explanation": "the key (that) I was looking for. 前置詞forが最後に残ります。\n【🇺🇸 Cultural Note】\nアメリカの家の鍵をなくすと大変ですが、スマートロック（暗証番号やスマホで開ける鍵）が普及し始めています。"
     },
     {
+      "questionNumber": 54,
       "type": "fill_in_the_blank",
       "question": "「私は自分の仕事を愛している人になりたいです」\nI want to be a person (      ) loves my job.",
       "choices": [],
@@ -382,6 +436,7 @@
       "explanation": "先行詞が人（person）で主格なのでwho。\n【🇺🇸 Cultural Note】\nアメリカでは「Do what you love（好きなことを仕事にしよう）」というキャリア観が広く支持されています。"
     },
     {
+      "questionNumber": 55,
       "type": "multiple_choice",
       "question": "「私が昨日買った本は面白かったです」\nThe book (      ) I bought yesterday was interesting.",
       "choices": ["which", "who", "whose", "what"],
@@ -389,13 +444,15 @@
       "explanation": "先行詞が物（book）なのでwhich（またはthat）。\n【🇺🇸 Cultural Note】\nアメリカのベストセラーリスト（New York Times Best Sellers）に載ることは、作家にとって大きな成功の証です。"
     },
     {
+      "questionNumber": 56,
       "type": "sort",
       "question": "「窓が壊れているあの車を見てください。」となるように並び替えてください。",
       "choices": ["car", "windows", "Look", "at", "broken", "that", "whose", "are"],
-      "answer": "Lookatthatcarwhosewindowsarebroken",
+      "answer": "Look at that car whose windows are broken",
       "explanation": "that car whose windows...（窓が壊れているあの車）。\n【🇺🇸 Cultural Note】\nアメリカの都市部では、車上荒らしを防ぐために、車内に荷物を置いたままにしないことが鉄則です。"
     },
     {
+      "questionNumber": 57,
       "type": "fill_in_the_blank",
       "question": "「あなたがしなければならないことは、勉強することだけです」\nThe only thing (      ) you have to do is study.",
       "choices": [],
@@ -403,6 +460,7 @@
       "explanation": "先行詞にthe onlyがついているので、関係代名詞はthatが好まれます。\n【🇺🇸 Cultural Note】\nアメリカの大学入試では、学業成績だけでなく、エッセイや課外活動も「しなくてはならないこと」に含まれます。"
     },
     {
+      "questionNumber": 58,
       "type": "multiple_choice",
       "question": "「彼女が料理した夕食はおいしかったです」\nThe dinner (      ) she cooked was delicious.",
       "choices": ["which", "who", "whose", "what"],
@@ -410,13 +468,15 @@
       "explanation": "先行詞が物（dinner）なのでwhich（またはthat）。\n【🇺🇸 Cultural Note】\n感謝祭のディナー（Turkey dinner）は、家族が集まる一年で最も重要な食事の一つです。"
     },
     {
+      "questionNumber": 59,
       "type": "sort",
       "question": "「あなたは彼が言ったことを信じますか？」となるように並び替えてください。",
       "choices": ["believe", "what", "he", "you", "Do", "said"],
-      "answer": "Doyoubelievewhathesaid",
+      "answer": "Do you believe what he said",
       "explanation": "what he said（彼が言ったこと）。先行詞を含む関係代名詞what。\n【🇺🇸 Cultural Note】\n「Believe it or not」（信じようと信じまいと）という表現は、驚くような話をする時の前置きとして使われます。"
     },
     {
+      "questionNumber": 60,
       "type": "fill_in_the_blank",
       "question": "「私を助けてくれた警察官は親切でした」\nThe police officer (      ) helped me was kind.",
       "choices": [],
@@ -424,6 +484,7 @@
       "explanation": "先行詞が人（police officer）で主格なのでwho。\n【🇺🇸 Cultural Note】\nアメリカの警察官に話しかけられた時は、誤解を招かないように手を常に見える位置に置いておくことが推奨されています。"
     },
     {
+      "questionNumber": 61,
       "type": "multiple_choice",
       "question": "「彼が言ったことは私を驚かせました」\n(      ) he said surprised me.",
       "choices": ["What", "That", "Which", "Who"],
@@ -431,13 +492,15 @@
       "explanation": "What he said（彼が言ったこと）。先行詞を含む関係代名詞whatが主語になっています。\n【🇺🇸 Cultural Note】\nアメリカ人は「Straight shooter（率直に物を言う人）」を好む傾向があり、遠回しな言い方よりも直接的な表現が評価されます。"
     },
     {
+      "questionNumber": 62,
       "type": "sort",
       "question": "「これは私がパリで買ったバッグです。」となるように並び替えてください。",
       "choices": ["bag", "bought", "This", "is", "the", "I", "in", "Paris"],
-      "answer": "ThisisthebagIboughtinParis",
+      "answer": "This is the bag I bought in Paris",
       "explanation": "the bag (that) I bought... 関係代名詞の省略。\n【🇺🇸 Cultural Note】\nヨーロッパ旅行はアメリカ人にとっても特別なイベントです。特にパリやロンドンは人気の旅行先です。"
     },
     {
+      "questionNumber": 63,
       "type": "fill_in_the_blank",
       "question": "「私には兄弟が有名な野球選手である友人がいます」\nI have a friend (      ) brother is a famous baseball player.",
       "choices": [],
@@ -445,6 +508,7 @@
       "explanation": "「友人の兄弟」という関係なのでwhoseを使います。\n【🇺🇸 Cultural Note】\nメジャーリーグ（MLB）のドラフト会議はテレビ中継され、将来のスター候補生たちに注目が集まります。"
     },
     {
+      "questionNumber": 64,
       "type": "multiple_choice",
       "question": "「彼は私が信頼できる唯一の人です」\nHe is the only person (      ) I can trust.",
       "choices": ["that", "which", "whose", "what"],
@@ -452,13 +516,15 @@
       "explanation": "先行詞にthe onlyがついているため、whoよりもthatが好まれます。\n【🇺🇸 Cultural Note】\n「In God We Trust」はアメリカの公式標語ですが、人間関係における「Trust（信頼）」もビジネスや友情の基盤として重視されます。"
     },
     {
+      "questionNumber": 65,
       "type": "sort",
       "question": "「あなたが昨日話していた本を見つけました。」となるように並び替えてください。",
       "choices": ["book", "found", "you", "were", "talking", "about", "the", "I", "yesterday"],
-      "answer": "Ifoundthebookyouweretalkingaboutyesterday",
+      "answer": "I found the book you were talking about yesterday",
       "explanation": "the book (that) you were talking about... 前置詞aboutが後ろに残る形です。\n【🇺🇸 Cultural Note】\nアメリカの書店チェーン「Barnes & Noble」は、本だけでなくおもちゃやゲーム、レコードなども扱う複合店になっています。"
     },
     {
+      "questionNumber": 66,
       "type": "fill_in_the_blank",
       "question": "「中国語を話す少年を知っていますか？」\nDo you know the boy (      ) speaks Chinese?",
       "choices": [],
@@ -466,6 +532,7 @@
       "explanation": "先行詞が人（boy）で主格なのでwho。\n【🇺🇸 Cultural Note】\nアメリカの都市部には大きなチャイナタウン（中華街）があり、サンフランシスコやニューヨークのものは特に有名です。"
     },
     {
+      "questionNumber": 67,
       "type": "multiple_choice",
       "question": "「これが彼が探していたものです」\nThis is (      ) he was looking for.",
       "choices": ["what", "that", "which", "who"],
@@ -473,13 +540,15 @@
       "explanation": "what he was looking for（彼が探していたもの）。the thing whichの意味。\n【🇺🇸 Cultural Note】\n「Lost and Found（遺失物取扱所）」は、学校や空港などに必ずあります。"
     },
     {
+      "questionNumber": 68,
       "type": "sort",
       "question": "「私たちが昨日見た映画は面白かったです。」となるように並び替えてください。",
       "choices": ["movie", "exciting", "saw", "The", "yesterday", "we", "was"],
-      "answer": "Themoviewesawyesterdaywasexciting",
+      "answer": "The movie we saw yesterday was exciting",
       "explanation": "The movie (that) we saw... 関係代名詞の省略。\n【🇺🇸 Cultural Note】\nアメリカの映画館では、指定席（Reserved seating）のシステムが普及し、リクライニングシートで快適に見られる場所が増えています。"
     },
     {
+      "questionNumber": 69,
       "type": "fill_in_the_blank",
       "question": "「私たちが滞在したホテルはとても古かったです」\nThe hotel (      ) we stayed at was very old.",
       "choices": [],
@@ -487,6 +556,7 @@
       "explanation": "stayed at... の at が残っているので関係代名詞which（またはthat）を使います。whereを使う場合はatを削除します。\n【🇺🇸 Cultural Note】\n幽霊が出ると噂される「ホーンテッドホテル」は、逆に観光名所として人気があります。"
     },
     {
+      "questionNumber": 70,
       "type": "multiple_choice",
       "question": "「彼女は私が今まで会った中で最も親切な女性です」\nShe is the kindest woman (      ) I have ever met.",
       "choices": ["that", "which", "who", "whose"],
@@ -494,13 +564,15 @@
       "explanation": "先行詞に最上級（the kindest）がついているため、thatが好まれます。\n【🇺🇸 Cultural Note】\n南部のおもてなし（Southern Hospitality）は有名で、知らない人にも親切に接する文化があります。"
     },
     {
+      "questionNumber": 71,
       "type": "sort",
       "question": "「これは私たちがその問題について話し合った会議でした。」となるように並び替えてください。",
       "choices": ["meeting", "discussed", "was", "the", "This", "at", "which", "we", "the", "problem"],
-      "answer": "Thiswasthemeetingatwhichwediscussedtheproblem",
+      "answer": "This was the meeting at which we discussed the problem",
       "explanation": "at which...（そこで～した）。前置詞＋関係代名詞の形です。\n【🇺🇸 Cultural Note】\nアメリカのビジネス会議では、ブレインストーミング（Brainstorming）がよく行われ、自由なアイデア出しが推奨されます。"
     },
     {
+      "questionNumber": 72,
       "type": "fill_in_the_blank",
       "question": "「彼が言ったことは本当ですか？」\nIs (      ) he said true?",
       "choices": [],
@@ -508,6 +580,7 @@
       "explanation": "Is what he said true?（彼が言ったことは本当ですか）。\n【🇺🇸 Cultural Note】\n\"Is that true?\" や \"For real?\"（マジで？）は、驚いた時の相槌としてよく使われます。"
     },
     {
+      "questionNumber": 73,
       "type": "multiple_choice",
       "question": "「向こうで走っている犬を見てください」\nLook at the dog (      ) is running over there.",
       "choices": ["which", "who", "whose", "whom"],
@@ -515,13 +588,15 @@
       "explanation": "先行詞が動物（dog）なのでwhich（またはthat）を使います。\n【🇺🇸 Cultural Note】\nアメリカではフリスビードッグ（ディスクドッグ）競技が人気で、公園で練習している姿を見かけます。"
     },
     {
+      "questionNumber": 74,
       "type": "sort",
       "question": "「私が生まれた町は小さいです。」となるように並び替えてください。",
       "choices": ["town", "born", "The", "I", "in", "was", "small", "is"],
-      "answer": "ThetownIwasborninissmall",
+      "answer": "The town I was born in is small",
       "explanation": "The town (that) I was born in... 前置詞inが残る形です。\n【🇺🇸 Cultural Note】\n自分の出身地を \"Hometown\" と呼び、郷土愛を持つ人は多いです。"
     },
     {
+      "questionNumber": 75,
       "type": "fill_in_the_blank",
       "question": "「私には名前が同じ友人がいます」\nI have a friend (      ) name is the same as mine.",
       "choices": [],
@@ -529,6 +604,7 @@
       "explanation": "「友人の名前」という所有関係なのでwhose。\n【🇺🇸 Cultural Note】\n\"John Smith\" は、アメリカで最もありふれた名前の代表例として使われます（日本での「山田太郎」のようなもの）。"
     },
     {
+      "questionNumber": 76,
       "type": "multiple_choice",
       "question": "「テーブルの上にあった手紙はどこですか？」\nWhere is the letter (      ) was on the table?",
       "choices": ["which", "who", "whose", "whom"],
@@ -536,13 +612,15 @@
       "explanation": "先行詞が物（letter）で主格なのでwhich（またはthat）。\n【🇺🇸 Cultural Note】\n請求書（Bill）やダイレクトメール（Junk mail）は毎日大量に届きます。"
     },
     {
+      "questionNumber": 77,
       "type": "sort",
       "question": "「彼女は皆に愛されている歌手です。」となるように並び替えてください。",
       "choices": ["singer", "is", "a", "who", "She", "loved", "is", "by", "everyone"],
-      "answer": "Sheisasingerwhoislovedbyeveryone",
+      "answer": "She is a singer who is loved by everyone",
       "explanation": "who is loved by everyone（皆に愛されている）。受動態を含む関係代名詞節です。\n【🇺🇸 Cultural Note】\nドリー・パートンは、カントリー歌手としてだけでなく、慈善活動家としてもアメリカ国民に深く愛されています。"
     },
     {
+      "questionNumber": 78,
       "type": "fill_in_the_blank",
       "question": "「私はあなたに見せたいものがあります」\nI have something (      ) I want to show you.",
       "choices": [],
@@ -550,6 +628,7 @@
       "explanation": "先行詞がsomethingの場合、thatが好まれます（省略も可）。\n【🇺🇸 Cultural Note】\n\"Show and Tell\"（見せて話す）は、アメリカの小学校低学年で行われる定番の発表活動です。"
     },
     {
+      "questionNumber": 79,
       "type": "multiple_choice",
       "question": "「これが私が欲しかったものです」\nThis is (      ) I wanted.",
       "choices": ["what", "that", "which", "who"],
@@ -557,20 +636,23 @@
       "explanation": "This is what I wanted.（これが私が欲しかったものです）。\n【🇺🇸 Cultural Note】\nクリスマスプレゼントを開けた時、\"This is exactly what I wanted!\"（これこそ私が欲しかったものだ！）と言うのが最高のお礼です。"
     },
     {
+      "questionNumber": 80,
       "type": "sort",
       "question": "「英語を上手に話す少年は私の弟です。」となるように並び替えてください。",
       "choices": ["boy", "speaks", "The", "who", "English", "well", "is", "my", "brother"],
-      "answer": "TheboyspeakingEnglishwellismybrother",
+      "answer": "The boy who speaks English well is my brother",
       "explanation": "The boy who speaks English well... 。\n【🇺🇸 Cultural Note】\nアメリカの学校では、スペイン語やフランス語の授業（Foreign Language Class）があります。"
     },
     {
+      "questionNumber": 81,
       "type": "fill_in_the_blank",
       "question": "「私たちが昨日行ったレストランはおいしかったです」\nThe restaurant (      ) we went to yesterday was good.",
       "choices": [],
       "answer": "that",
-      "explanation": "The restaurant (that) we went to... wentの後にtoが必要です。whichでも可。\n【🇺🇸 Cultural Note】\n「Yelp」などのレビューサイトでお店の評価（Star rating）を確認してからレストランに行くのが一般的です。"
+      "explanation": "The restaurant (that) we went to... wentの後にtoが必要です. whichでも可。\n【🇺🇸 Cultural Note】\n「Yelp」などのレビューサイトでお店の評価（Star rating）を確認してからレストランに行くのが一般的です。"
     },
     {
+      "questionNumber": 82,
       "type": "multiple_choice",
       "question": "「彼は車が盗まれた男性です」\nHe is the man (      ) car was stolen.",
       "choices": ["whose", "who", "whom", "which"],
@@ -578,13 +660,15 @@
       "explanation": "「その男性の車」という所有関係なのでwhose。\n【🇺🇸 Cultural Note】\nアメリカでは車社会のため、自動車保険（Auto insurance）の加入は必須です。"
     },
     {
+      "questionNumber": 83,
       "type": "sort",
       "question": "「輝くものすべてが金とは限らない。」となるように並び替えてください。",
       "choices": ["glitters", "All", "is", "that", "not", "gold"],
-      "answer": "Allthatglittersisnotgold",
+      "answer": "All that glitters is not gold",
       "explanation": "有名なことわざです。先行詞がAllなのでthatを使います。\n【🇺🇸 Cultural Note】\n「外見だけで判断してはいけない」という教訓として使われます。"
     },
     {
+      "questionNumber": 84,
       "type": "fill_in_the_blank",
       "question": "「私は彼がしたことを許せません」\nI can't forgive (      ) he did.",
       "choices": [],
@@ -592,6 +676,7 @@
       "explanation": "what he did（彼がしたこと）。\n【🇺🇸 Cultural Note】\nアメリカ文化では「Second Chance（セカンドチャンス）」を与えることが美徳とされる側面もあります。"
     },
     {
+      "questionNumber": 85,
       "type": "multiple_choice",
       "question": "「あれが彼が住んでいる家ですか？」\nIs that the house (      ) he lives in?",
       "choices": ["which", "who", "whose", "where"],
@@ -599,13 +684,15 @@
       "explanation": "inで終わっているのでwhich（またはthat）。lives in... の形。\n【🇺🇸 Cultural Note】\nアメリカの家は番地（House number）が大きく表示されており、車からでも見つけやすくなっています。"
     },
     {
+      "questionNumber": 86,
       "type": "sort",
       "question": "「これは人間のように歩くロボットです。」となるように並び替えてください。",
       "choices": ["robot", "walks", "a", "This", "that", "is", "like", "a", "human"],
-      "answer": "Thisisarobotthatwalkslikeahuman",
+      "answer": "This is a robot that walks like a human",
       "explanation": "a robot that walks like a human。\n【🇺🇸 Cultural Note】\nSF映画の影響もあり、ヒューマノイド（人型ロボット）の開発には多くの人が関心を寄せています。"
     },
     {
+      "questionNumber": 87,
       "type": "fill_in_the_blank",
       "question": "「その作家が書いた本は全部読みました」\nI read all the books (      ) the writer wrote.",
       "choices": [],
@@ -613,6 +700,7 @@
       "explanation": "先行詞にallがついているのでthatが好まれます。\n【🇺🇸 Cultural Note】\nJ.K.ローリング（ハリー・ポッター作者）はイギリス人ですが、アメリカでも圧倒的な人気を誇ります。"
     },
     {
+      "questionNumber": 88,
       "type": "multiple_choice",
       "question": "「私を助けてくれた人はトムでした」\nThe person (      ) helped me was Tom.",
       "choices": ["who", "which", "whose", "whom"],
@@ -620,13 +708,15 @@
       "explanation": "先行詞が人（person）で主格なのでwho（またはthat）。\n【🇺🇸 Cultural Note】\n\"Good Samaritan\"（良きサマリア人）法という法律があり、善意で人助けをした人が法的責任を問われないよう保護されています。"
     },
     {
+      "questionNumber": 89,
       "type": "sort",
       "question": "「これが私があなたに見せたかった写真です。」となるように並び替えてください。",
       "choices": ["photo", "This", "wanted", "I", "is", "the", "to", "show", "you"],
-      "answer": "ThisisthephotoIwantedtoshowyou",
+      "answer": "This is the photo I wanted to show you",
       "explanation": "the photo (that) I wanted to show you. 関係代名詞の省略。\n【🇺🇸 Cultural Note】\n財布の中に家族の写真を入れて持ち歩くのは、スマホ普及前のアメリカ人男性の定番でした。"
     },
     {
+      "questionNumber": 90,
       "type": "fill_in_the_blank",
       "question": "「屋根に煙突がある家が見えますか？」\nCan you see the house (      ) has a chimney on the roof?",
       "choices": [],
@@ -634,6 +724,7 @@
       "explanation": "先行詞が物（house）で主格なのでwhich（またはthat）。\n【🇺🇸 Cultural Note】\n暖炉（Fireplace）と煙突（Chimney）は、サンタクロースが入ってくる場所として子供たちにとって重要です。"
     },
     {
+      "questionNumber": 91,
       "type": "multiple_choice",
       "question": "「あなたは彼が言ったことを理解しましたか？」\nDid you understand (      ) he said?",
       "choices": ["what", "that", "which", "who"],
@@ -641,13 +732,15 @@
       "explanation": "what he said（彼が言ったこと）。\n【🇺🇸 Cultural Note】\n多民族国家アメリカでは、アクセントの強い英語を聞き取るスキルもコミュニケーションにおいて重要です。"
     },
     {
+      "questionNumber": 92,
       "type": "sort",
       "question": "「私は青い目をした猫を飼っています。」となるように並び替えてください。",
       "choices": ["cat", "eyes", "a", "have", "whose", "blue", "I", "are"],
-      "answer": "Ihaveacatwhoseeyesareblue",
+      "answer": "I have a cat whose eyes are blue",
       "explanation": "a cat whose eyes are blue（目が青い猫）。\n【🇺🇸 Cultural Note】\nシャム猫やラグドールなど、青い目を持つ猫種は人気があります。"
     },
     {
+      "questionNumber": 93,
       "type": "fill_in_the_blank",
       "question": "「私たちが昨日会った少女はアリスでした」\nThe girl (      ) we met yesterday was Alice.",
       "choices": [],
@@ -655,6 +748,7 @@
       "explanation": "目的格で先行詞が人なのでwhom（who/that/省略も可）。\n【🇺🇸 Cultural Note】\n『不思議の国のアリス』はイギリス文学ですが、ディズニー映画を通じてアメリカ文化にも深く浸透しています。"
     },
     {
+      "questionNumber": 94,
       "type": "multiple_choice",
       "question": "「駅へ行くバスはこれですか？」\nIs this the bus (      ) goes to the station?",
       "choices": ["that", "who", "whose", "whom"],
@@ -662,13 +756,15 @@
       "explanation": "先行詞が物（bus）なのでthat（またはwhich）。\n【🇺🇸 Cultural Note】\nアメリカの長距離バスのターミナルは、都市の中心部にあることが多いです。"
     },
     {
+      "questionNumber": 95,
       "type": "sort",
       "question": "「これは彼が描いた絵です。」となるように並び替えてください。",
       "choices": ["picture", "painted", "he", "This", "is", "the"],
-      "answer": "Thisisthepicturehepainted",
+      "answer": "This is the picture he painted",
       "explanation": "the picture (that) he painted. 関係代名詞の省略。\n【🇺🇸 Cultural Note】\n学校の美術の授業で描いた絵を、親が職場のデスクに飾る（Proud parent）のはよくある光景です。"
     },
     {
+      "questionNumber": 96,
       "type": "fill_in_the_blank",
       "question": "「私は窓が壊れている車を見ました」\nI saw a car (      ) windows were broken.",
       "choices": [],
@@ -676,6 +772,7 @@
       "explanation": "「車の窓」という所有関係なのでwhose。\n【🇺🇸 Cultural Note】\n廃車（Junk car）を部品取りのために裏庭に置いている家を田舎で見かけることがあります。"
     },
     {
+      "questionNumber": 97,
       "type": "multiple_choice",
       "question": "「あなたがしなければならないことは、ベストを尽くすことだけです」\nAll (      ) you have to do is do your best.",
       "choices": ["that", "what", "which", "who"],
@@ -683,20 +780,23 @@
       "explanation": "All that you have to do...（あなたがしなければならないすべてのこと＝することだけ）。\n【🇺🇸 Cultural Note】\n\"Do your best\"（ベストを尽くせ）は、スポーツやテスト前の励ましの言葉として定番です。"
     },
     {
+      "questionNumber": 98,
       "type": "sort",
       "question": "「彼は私が知っている中で一番面白い人です。」となるように並び替えてください。",
       "choices": ["person", "funniest", "He", "is", "know", "the", "I"],
-      "answer": "HeisthefunniestpersonIknow",
+      "answer": "He is the funniest person I know",
       "explanation": "the funniest person (that) I know. 最上級＋関係代名詞の省略。\n【🇺🇸 Cultural Note】\nクラスの人気者投票（Class Clownなど）が卒業アルバム（Yearbook）に掲載される伝統があります。"
     },
     {
+      "questionNumber": 99,
       "type": "fill_in_the_blank",
       "question": "「これは父が作った机です」\nThis is the desk (      ) my father made.",
       "choices": [],
       "answer": "that",
-      "explanation": "the desk (that) my father made. whichも可。省略も可。\n【🇺🇸 Cultural Note】\nガレージに工具を揃えて木工（Woodworking）を趣味にするお父さんは多いです。"
+      "explanation": "the desk (that) my father made. whichも可. 省略も可。\n【🇺🇸 Cultural Note】\nガレージに工具を揃えて木工（Woodworking）を趣味にするお父さんは多いです。"
     },
     {
+      "questionNumber": 100,
       "type": "multiple_choice",
       "question": "「私はテニスが上手な少年を知っています」\nI know a boy (      ) plays tennis well.",
       "choices": ["who", "which", "whose", "whom"],

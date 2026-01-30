@@ -14,7 +14,7 @@
       "type": "sort",
       "question": "「彼女はニューヨークを訪れました。」となるように並び替えてください。",
       "choices": ["visited", "She", "York", "New"],
-      "answer": "ShevisitedNewYork",
+      "answer": "She visited New York",
       "explanation": "Visitの過去形はvisitedです。\n【🇺🇸 Cultural Note】\n年間数千万人がタイムズスクエアや自由の女神を訪れます。"
     },
     {
@@ -35,7 +35,7 @@
       "type": "sort",
       "question": "「私は昨夜、映画を見ました。」となるように並び替えてください。",
       "choices": ["watched", "movie", "night", "I", "last", "a"],
-      "answer": "Iwatchedamovielastnight",
+      "answer": "I watched a movie last night",
       "explanation": "Watchの過去形はwatchedです。\n【🇺🇸 Cultural Note】\nハリウッド（ロサンゼルス）は世界の映画産業の中心地です。"
     },
     {
@@ -56,7 +56,7 @@
       "type": "sort",
       "question": "「私は昨日、忙しかったです。」となるように並び替えてください。",
       "choices": ["busy", "was", "yesterday", "I"],
-      "answer": "Iwasbusyyesterday",
+      "answer": "I was busy yesterday",
       "explanation": "Iのbe動詞過去形はwasです。\n【🇺🇸 Cultural Note】\nアメリカのビジネスマンは\"Busy\"であることを生産的であるとして肯定的に捉える傾向があります。"
     },
     {
@@ -77,7 +77,7 @@
       "type": "sort",
       "question": "「トムは夕食を作りました。」となるように並び替えてください。",
       "choices": ["dinner", "cooked", "Tom"],
-      "answer": "Tomcookeddinner",
+      "answer": "Tom cooked dinner",
       "explanation": "Cookの過去形はcookedです。\n【🇺🇸 Cultural Note】\nBBQリブやステーキなど、アメリカ料理は豪快な肉料理が特徴です。"
     },
     {
@@ -98,7 +98,7 @@
       "type": "sort",
       "question": "「彼らはボストンに住んでいました。」となるように並び替えてください。",
       "choices": ["Boston", "lived", "in", "They"],
-      "answer": "TheylivedinBoston",
+      "answer": "They lived in Boston",
       "explanation": "Liveの過去形はlivedです。\n【🇺🇸 Cultural Note】\nボストンはアメリカ建国の歴史において中心的な役割を果たした都市です。"
     },
     {
@@ -119,7 +119,7 @@
       "type": "sort",
       "question": "「あなたは昨夜、テレビを見ましたか？」となるように並び替えてください。",
       "choices": ["TV", "Did", "watch", "night", "last", "you"],
-      "answer": "DidyouwatchTVlastnight",
+      "answer": "Did you watch TV last night",
       "explanation": "一般動詞の過去疑問文はDidで始めます。\n【🇺🇸 Cultural Note】\nスーパーボウルやアカデミー賞授賞式は、多くの人がリアルタイムで視聴します。"
     },
     {
@@ -140,7 +140,7 @@
       "type": "sort",
       "question": "「私はそのニュースを知っていました。」となるように並び替えてください。",
       "choices": ["knew", "news", "I", "the"],
-      "answer": "Iknewthenews",
+      "answer": "I knew the news",
       "explanation": "Knowの過去形はknew（不規則変化）です。\n【🇺🇸 Cultural Note】\nCNNはアメリカで設立された世界初の24時間ニュース専門チャンネルです。"
     },
     {
@@ -161,7 +161,7 @@
       "type": "sort",
       "question": "「私たちはバスケットボールをしました。」となるように並び替えてください。",
       "choices": ["played", "basketball", "We"],
-      "answer": "Weplayedbasketball",
+      "answer": "We played basketball",
       "explanation": "Playの過去形はplayedです。\n【🇺🇸 Cultural Note】\nマイケル・ジョーダンはNBA史上最高の選手の一人とされています。"
     },
     {
@@ -182,7 +182,7 @@
       "type": "sort",
       "question": "「彼女は英語を勉強しました。」となるように並び替えてください。",
       "choices": ["studied", "English", "She"],
-      "answer": "ShestudiedEnglish",
+      "answer": "She studied English",
       "explanation": "Studyの過去形はyをiに変えてedをつけ、studiedにします。\n【🇺🇸 Cultural Note】\n多くの移民が市民権テスト（Citizenship Test）のために英語と歴史を勉強します。"
     },
     {
@@ -190,7 +190,7 @@
       "question": "「私はその本を読みました」\nI (      ) the book.",
       "choices": [],
       "answer": "read",
-      "explanation": "Readの過去形はreadですが、発音は「レッド」になります（不規則変化）。\n【🇺🇸 Cultural Note】\n「グレート・ギャツビー」はアメリカ文学の古典的傑作です。"
+      "explanation": "Readの過去形はreadですが、発音は「レッド」になります（不規則変化）。\n【🇺🇸 Cultural Note】\n「グレート・ギャツビー」はアメリカ文学の古典적傑作です。"
     },
     {
       "type": "multiple_choice",
@@ -203,7 +203,7 @@
       "type": "sort",
       "question": "「その店は閉まっていました。」となるように並び替えてください。",
       "choices": ["closed", "store", "was", "The"],
-      "answer": "Thestorewasclosed",
+      "answer": "The store was closed",
       "explanation": "Closed（形容詞）なのでbe動詞のwasを使います。\n【🇺🇸 Cultural Note】\nクリスマス当日（12月25日）は、ほとんどのお店が閉まります。"
     },
     {
@@ -224,7 +224,7 @@
       "type": "sort",
       "question": "「私たちは博物館へ歩きました。」となるように並び替えてください。",
       "choices": ["walked", "museum", "to", "We", "the"],
-      "answer": "Wewalkedtothemuseum",
+      "answer": "We walked to the museum",
       "explanation": "Walkの過去形はwalkedです。\n【🇺🇸 Cultural Note】\nスミソニアン博物館群はワシントンD.C.のナショナル・モールにあります。"
     },
     {
@@ -236,7 +236,7 @@
     },
     {
       "type": "multiple_choice",
-      "question": "「私は昨日、走りませんでした」\nI (      ) run yesterday.",
+      "question": "「私は昨日、走りませんでした」\nI (      ) didn't run yesterday.",
       "choices": ["didn't", "don't", "wasn't", "not"],
       "answer": "didn't",
       "explanation": "Run（一般動詞）の過去否定なのでdidn'tを使います。\n【🇺🇸 Cultural Note】\nフォレスト・ガンプは映画の中でアメリカ大陸を走って横断しました。"
@@ -245,7 +245,7 @@
       "type": "sort",
       "question": "「彼女は素晴らしい先生でした。」となるように並び替えてください。",
       "choices": ["teacher", "was", "She", "great", "a"],
-      "answer": "Shewasagreatteacher",
+      "answer": "She was a great teacher",
       "explanation": "Sheのbe動詞過去形はwasです。\n【🇺🇸 Cultural Note】\nヘレン・ケラーの家庭教師アニー・サリヴァン先生は有名です。"
     },
     {
@@ -266,19 +266,19 @@
       "type": "sort",
       "question": "「私たちはその試合に勝ちました。」となるように並び替えてください。",
       "choices": ["game", "won", "We", "the"],
-      "answer": "Wewonthegame",
+      "answer": "We won the game",
       "explanation": "Win（勝つ）の過去形はwon（不規則変化）です。\n【🇺🇸 Cultural Note】\nスーパーボウルの勝者はヴィンス・ロンバルディ・トロフィーを手にします。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は歌を歌いました」\nShe (      ) a song.",
+      "question": "「彼女は歌を歌いました」\nShe (      ) sang a song.",
       "choices": [],
       "answer": "sang",
       "explanation": "Sing（歌う）の過去形はsang（不規則変化）です。\n【🇺🇸 Cultural Note】\n国歌\"The Star-Spangled Banner\"はスポーツイベントの前に必ず歌われます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「トムは彼の車を洗いました」\nTom (      ) his car.",
+      "question": "「トムは彼の車を洗いました」\nTom (      ) washed his car.",
       "choices": ["washed", "wash", "washes", "washing"],
       "answer": "washed",
       "explanation": "Washの過去形はwashedです。\n【🇺🇸 Cultural Note】\nアメリカのティーンエイジャーは、お小遣い稼ぎのために近所の車を洗うことがあります。"
@@ -287,19 +287,19 @@
       "type": "sort",
       "question": "「それは良いアイデアでした。」となるように並び替えてください。",
       "choices": ["idea", "was", "It", "good", "a"],
-      "answer": "Itwasagoodidea",
+      "answer": "It was a good idea",
       "explanation": "Itのbe動詞過去形はwasです。\n【🇺🇸 Cultural Note】\nシリコンバレーの多くのスタートアップ企業は、一つのアイデアから始まりました。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は自分の部屋を掃除しました」\nI (      ) my room.",
+      "question": "「私は自分の部屋を掃除しました」\nI (      ) cleaned my room.",
       "choices": [],
       "answer": "cleaned",
       "explanation": "Cleanの過去形はcleanedです。\n【🇺🇸 Cultural Note】\n大学の寮を出る時は、部屋をきれいに掃除（Clean up）しないと罰金を取られます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼らはたくさん泳ぎました」\nThey (      ) a lot.",
+      "question": "「彼らはたくさん泳ぎました」\nThey (      ) swam a lot.",
       "choices": ["swam", "swim", "swims", "swum"],
       "answer": "swam",
       "explanation": "Swimの過去形はswam（不規則変化）です。\n【🇺🇸 Cultural Note】\n夏には多くの子供たちがサマーキャンプで湖やプールで泳ぎます。"
@@ -308,19 +308,19 @@
       "type": "sort",
       "question": "「私はそのペンを使いませんでした。」となるように並び替えてください。",
       "choices": ["use", "didn't", "pen", "I", "the"],
-      "answer": "Ididn'tusethepen",
+      "answer": "I didn't use the pen",
       "explanation": "過去の否定はdidn't useです。\n【🇺🇸 Cultural Note】\n独立宣言の署名には羽ペンが使われました。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女はダンスを習いました（授業を受けました）」\nShe (      ) dance lessons.",
+      "question": "「彼女はダンスを習いました（授業を受けました）」\nShe (      ) took dance lessons.",
       "choices": [],
       "answer": "took",
       "explanation": "Take（授業を受ける）の過去形はtook（不規則変化）です。\n【🇺🇸 Cultural Note】\nタップダンスやジャズダンスはアメリカ発祥のダンススタイルです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私たちはそこに車で行きました（運転しました）」\nWe (      ) there.",
+      "question": "「私たちはそこに車で行きました（運転しました）」\nWe (      ) drove there.",
       "choices": ["drove", "drive", "driven", "driving"],
       "answer": "drove",
       "explanation": "Driveの過去形はdrove（不規則変化）です。\n【🇺🇸 Cultural Note】\nルート66を車で旅する（Road trip）ことは、古き良きアメリカの象徴です。"
@@ -329,19 +329,19 @@
       "type": "sort",
       "question": "「ケネディは若い大統領でした。」となるように並び替えてください。",
       "choices": ["president", "Kennedy", "was", "young", "a"],
-      "answer": "Kennedywasayoungpresident",
+      "answer": "Kennedy was a young president",
       "explanation": "Kennedy（単数）のbe動詞過去形はwasです。\n【🇺🇸 Cultural Note】\nジョン・F・ケネディは43歳で就任しました。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は昨日、勉強しませんでした」\nI didn't (      ) yesterday.",
+      "question": "「私は昨日、勉強しませんでした」\nI didn't (      ) study yesterday.",
       "choices": [],
       "answer": "study",
       "explanation": "Didn'tの後ろなので動詞の原形studyを使います。\n【🇺🇸 Cultural Note】\nアメリカの学生生活では、課外活動（Extracurriculars）も勉強と同じくらい重視されます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼は私にメールを送りました」\nHe (      ) me an email.",
+      "question": "「彼は私にメールを送りました」\nHe (      ) sent me an email.",
       "choices": ["sent", "send", "sends", "sending"],
       "answer": "sent",
       "explanation": "Sendの過去形はsent（不規則変化）です。\n【🇺🇸 Cultural Note】\n最初の電子メールは1971年にアメリカで送信されました。"
@@ -350,19 +350,19 @@
       "type": "sort",
       "question": "「あなたは楽しかったですか？」となるように並び替えてください。",
       "choices": ["fun", "Did", "have", "you"],
-      "answer": "Didyouhavefun",
+      "answer": "Did you have fun",
       "explanation": "Have fun（楽しむ）の過去疑問文です。\n【🇺🇸 Cultural Note】\nパーティーの後の挨拶として\"Did you have fun?\"とよく聞かれます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼らは新しい家を建てました」\nThey (      ) a new house.",
+      "question": "「彼らは新しい家を建てました」\nThey (      ) built a new house.",
       "choices": [],
       "answer": "built",
       "explanation": "Build（建てる）の過去形はbuilt（不規則変化）です。\n【🇺🇸 Cultural Note】\nアメリカの住宅の多くは木造（Wood frame）で建てられます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私はその答えを知っていました」\nI (      ) the answer.",
+      "question": "「私はその答えを知っていました」\nI (      ) knew the answer.",
       "choices": ["knew", "know", "known", "knowing"],
       "answer": "knew",
       "explanation": "Knowの過去形はknew（不規則変化）です。\n【🇺🇸 Cultural Note】\n授業で手を挙げて答える積極性が評価されます。"
@@ -371,19 +371,19 @@
       "type": "sort",
       "question": "「彼女は買い物に行きました。」となるように並び替えてください。",
       "choices": ["shopping", "went", "She"],
-      "answer": "Shewentshopping",
+      "answer": "She went shopping",
       "explanation": "Go shopping（買い物に行く）の過去形はwent shoppingです。\n【🇺🇸 Cultural Note】\nモール・オブ・アメリカは全米最大級のショッピングモールです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼はたくさんのお金を持っていました」\nHe (      ) a lot of money.",
+      "question": "「彼はたくさんのお金を持っていました」\nHe (      ) had a lot of money.",
       "choices": [],
       "answer": "had",
       "explanation": "Haveの過去形はhadです。\n【🇺🇸 Cultural Note】\nロックフェラーやカーネギーなどの大富豪は、慈善活動に多額の寄付を行いました。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私たちはプロム（ダンスパーティー）に行きました」\nWe (      ) to the prom.",
+      "question": "「私たちはプロム（ダンスパーティー）に行きました」\nWe (      ) went to the prom.",
       "choices": ["went", "go", "goes", "gone"],
       "answer": "went",
       "explanation": "Goの過去形はwentです。\n【🇺🇸 Cultural Note】\nプロム（Prom）は高校生活のハイライトとなるダンスイベントです。"
@@ -392,19 +392,19 @@
       "type": "sort",
       "question": "「そのテストは難しかったです。」となるように並び替えてください。",
       "choices": ["test", "difficult", "was", "The"],
-      "answer": "Thetestwasdifficult",
+      "answer": "The test was difficult",
       "explanation": "The test（単数）のbe動詞過去形はwasです。\n【🇺🇸 Cultural Note】\nSATやACTはアメリカの大学進学のための統一テストです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼らは昨日、出発しました」\nThey (      ) yesterday.",
+      "question": "「彼らは昨日、出発しました」\nThey (      ) left yesterday.",
       "choices": [],
       "answer": "left",
       "explanation": "Leave（出発する）の過去形はleft（不規則変化）です。\n【🇺🇸 Cultural Note】\nアメリカ人は休暇にロードトリップに出かけることがよくあります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は彼に会いませんでした」\nI (      ) see him.",
+      "question": "「私は彼に会いませんでした」\nI (      ) didn't see him.",
       "choices": ["didn't", "don't", "wasn't", "not"],
       "answer": "didn't",
       "explanation": "See（一般動詞）の過去否定なのでdidn'tを使います。\n【🇺🇸 Cultural Note】\n広大なアメリカでは、友人と会うために数時間運転することも珍しくありません。"
@@ -413,19 +413,19 @@
       "type": "sort",
       "question": "「キング牧師はリーダーでした。」となるように並び替えてください。",
       "choices": ["Dr.", "King", "leader", "a", "was"],
-      "answer": "Dr.Kingwasaleader",
+      "answer": "Dr. King was a leader",
       "explanation": "Dr. King（単数）のbe動詞過去形はwasです。\n【🇺🇸 Cultural Note】\nマーティン・ルーサー・キング・ジュニアは公民権運動の指導者でした。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女はクッキーを作りました」\nShe (      ) cookies.",
+      "question": "「彼女はクッキーを作りました」\nShe (      ) made cookies.",
       "choices": [],
       "answer": "made",
       "explanation": "Make（作る）の過去形はmade（不規則変化）です。\n【🇺🇸 Cultural Note】\n手作りクッキーを焼いて新しい隣人に持っていく習慣があります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私たちは博物館を楽しみました」\nWe (      ) the museum.",
+      "question": "「私たちは博物館を楽しみました」\nWe (      ) enjoyed the museum.",
       "choices": ["enjoyed", "enjoy", "enjoys", "enjoying"],
       "answer": "enjoyed",
       "explanation": "Enjoyの過去形はenjoyedです。\n【🇺🇸 Cultural Note】\nニューヨークのメトロポリタン美術館（Met）は世界最大級の美術館の一つです。"
@@ -434,19 +434,19 @@
       "type": "sort",
       "question": "「彼はテキサスに住んでいました。」となるように並び替えてください。",
       "choices": ["lived", "He", "in", "Texas"],
-      "answer": "HelivedinTexas",
+      "answer": "He lived in Texas",
       "explanation": "Liveの過去形はlivedです。\n【🇺🇸 Cultural Note】\nブッシュ元大統領はテキサス州知事を務めた後に大統領になりました。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は写真を撮りました」\nI (      ) a picture.",
+      "question": "「私は写真を撮りました」\nI (      ) took a picture.",
       "choices": [],
       "answer": "took",
       "explanation": "Take（撮る）の過去形はtook（不規則変化）です。\n【🇺🇸 Cultural Note】\nグランドキャニオンなどの国立公園は人気の撮影スポットです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「昨日は寒くありませんでした」\nIt (      ) cold yesterday.",
+      "question": "「昨日は寒くありませんでした」\nIt (      ) wasn't cold yesterday.",
       "choices": ["wasn't", "didn't", "isn't", "weren't"],
       "answer": "wasn't",
       "explanation": "Cold（形容詞）なのでbe動詞wasの否定wasn'tを使います。\n【🇺🇸 Cultural Note】\nフロリダの冬は温暖で、避寒地として人気があります。"
@@ -455,19 +455,19 @@
       "type": "sort",
       "question": "「あなたは朝食を食べましたか？」となるように並び替えてください。",
       "choices": ["breakfast", "Did", "eat", "you"],
-      "answer": "Didyoueatbreakfast",
+      "answer": "Did you eat breakfast",
       "explanation": "Eat（一般動詞）の過去疑問文はDidで始めます。\n【🇺🇸 Cultural Note】\nダイナー（Diner）では一日中朝食メニューを提供していることが多いです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼らはたくさん話しました」\nThey (      ) a lot.",
+      "question": "「彼らはたくさん話しました」\nThey (      ) talked a lot.",
       "choices": [],
       "answer": "talked",
       "explanation": "Talkの過去形はtalkedです。\n【🇺🇸 Cultural Note】\nアメリカ人はスモールトーク（世間話）が好きで、エレベーターやレジでもよく会話します。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼女は医者になりました」\nShe (      ) a doctor.",
+      "question": "「彼女は医者になりました」\nShe (      ) became a doctor.",
       "choices": ["became", "become", "becomes", "becoming"],
       "answer": "became",
       "explanation": "Become（なる）の過去形はbecame（不規則変化）です。\n【🇺🇸 Cultural Note】\nメディカルスクール（医科大学院）を卒業して医師になるには長い年月がかかります。"
@@ -476,19 +476,19 @@
       "type": "sort",
       "question": "「私はそのペンを失くしました。」となるように並び替えてください。",
       "choices": ["pen", "lost", "the", "I"],
-      "answer": "Ilostthepen",
+      "answer": "I lost the pen",
       "explanation": "Lose（失くす）の過去形はlost（不規則変化）です。\n【🇺🇸 Cultural Note】\n\"Lost and Found\"（遺失物取扱所）は駅や学校に必ずあります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「その映画は8時に始まりました」\nThe movie (      ) at 8.",
+      "question": "「その映画は8時に始まりました」\nThe movie (      ) started at 8.",
       "choices": [],
       "answer": "started",
       "explanation": "Startの過去形はstartedです。\n【🇺🇸 Cultural Note】\nドライブインシアターは、車に乗ったまま映画が見られるアメリカの文化遺産です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私たちはバスを待ちました」\nWe (      ) for the bus.",
+      "question": "「私たちはバスを待ちました」\nWe (      ) waited for the bus.",
       "choices": ["waited", "wait", "waits", "waiting"],
       "answer": "waited",
       "explanation": "Waitの過去形はwaitedです。\n【🇺🇸 Cultural Note】\nスクールバスを待つ子供たちの姿は朝の定番の光景です。"
@@ -497,19 +497,19 @@
       "type": "sort",
       "question": "「彼は私に同意しました。」となるように並び替えてください。",
       "choices": ["agreed", "me", "He", "with"],
-      "answer": "Heagreedwithme",
+      "answer": "He agreed with me",
       "explanation": "Agreeの過去形はagreedです。\n【🇺🇸 Cultural Note】\n議論においては、同意するか反対するかを明確にすることが重要です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は図書館で勉強しました」\nShe (      ) in the library.",
+      "question": "「彼女は図書館で勉強しました」\nShe (      ) studied in the library.",
       "choices": [],
       "answer": "studied",
       "explanation": "Studyの過去形はstudiedです。\n【🇺🇸 Cultural Note】\nニューヨーク公共図書館は、その美しい建築と膨大な蔵書で有名です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私はコーヒーを飲みました」\nI (      ) coffee.",
+      "question": "「私はコーヒーを飲みました」\nI (      ) drank coffee.",
       "choices": ["drank", "drink", "drinks", "drunk"],
       "answer": "drank",
       "explanation": "Drinkの過去形はdrank（不規則変化）です。\n【🇺🇸 Cultural Note】\nアメリカ人は「トゥー・ゴー（持ち帰り）」のコーヒーカップを持って通勤します。"
@@ -518,19 +518,19 @@
       "type": "sort",
       "question": "「ライト兄弟は飛行機を発明しました。」となるように並び替えてください。",
       "choices": ["airplane", "invented", "Brothers", "Wright", "the", "The"],
-      "answer": "TheWrightBrothersinventedtheairplane",
+      "answer": "The Wright Brothers invented the airplane",
       "explanation": "Inventの過去形はinventedです。\n【🇺🇸 Cultural Note】\n1903年、ノースカロライナ州キティホークで人類初の動力飛行に成功しました。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼らは歩いて家に帰りました」\nThey (      ) home.",
+      "question": "「彼らは歩いて家に帰りました」\nThey (      ) walked home.",
       "choices": [],
       "answer": "walked",
       "explanation": "Walkの過去形はwalkedです。\n【🇺🇸 Cultural Note】\nハロウィンの夜、子供たちは近所を歩いて回ります（Trick or Treating）。"
     },
     {
       "type": "multiple_choice",
-      "question": "「それは簡単ではありませんでした」\nIt (      ) easy.",
+      "question": "「それは簡単ではありませんでした」\nIt (      ) wasn't easy.",
       "choices": ["wasn't", "isn't", "didn't", "weren't"],
       "answer": "wasn't",
       "explanation": "Easy（形容詞）なのでbe動詞wasの否定wasn'tを使います。\n【🇺🇸 Cultural Note】\n「簡単なこと」を\"Piece of cake\"（ケーキ一切れ）と表現するイディオムがあります。"
@@ -539,19 +539,19 @@
       "type": "sort",
       "question": "「私は新しい電話が必要でした。」となるように並び替えてください。",
       "choices": ["phone", "I", "new", "needed", "a"],
-      "answer": "Ineededanewphone",
+      "answer": "I needed a new phone",
       "explanation": "Needの過去形はneededです。\n【🇺🇸 Cultural Note】\nアメリカでは多くの人がスマートフォン（Cell phone）を頻繁に買い替えます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は早く起きました」\nShe (      ) up early.",
+      "question": "「彼女は早く起きました」\nShe (      ) got up early.",
       "choices": [],
       "answer": "got",
       "explanation": "Get upの過去形はgot upです。\n【🇺🇸 Cultural Note】\n農場（Farm）での生活は早起きから始まります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私たちはここに座りました」\nWe (      ) here.",
+      "question": "「私たちはここに座りました」\nWe (      ) sat here.",
       "choices": ["sat", "sit", "sits", "sitting"],
       "answer": "sat",
       "explanation": "Sit（座る）の過去形はsat（不規則変化）です。\n【🇺🇸 Cultural Note】\nローザ・パークスがバスの席を譲ることを拒否した事件は、公民権運動のきっかけとなりました。"
@@ -560,19 +560,19 @@
       "type": "sort",
       "question": "「トムはドアを開けました。」となるように並び替えてください。",
       "choices": ["door", "opened", "the", "Tom"],
-      "answer": "Tomopenedthedoor",
+      "answer": "Tom opened the door",
       "explanation": "Openの過去形はopenedです。\n【🇺🇸 Cultural Note】\n他人のためにドアを開けておく（Holding the door）のは一般的なマナーです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼らは歌を歌いました」\nThey (      ) a song.",
+      "question": "「彼らは歌を歌いました」\nThey (      ) sang a song.",
       "choices": [],
       "answer": "sang",
       "explanation": "Singの過去形はsang（不規則変化）です。\n【🇺🇸 Cultural Note】\n\"Happy Birthday to You\"は世界で最も有名な英語の歌の一つで、アメリカで生まれました。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私はその犬をキャッチしました（捕まえました）」\nI (      ) the dog.",
+      "question": "「私はその犬をキャッチしました（捕まえました）」\nI (      ) caught the dog.",
       "choices": ["caught", "catch", "catches", "catched"],
       "answer": "caught",
       "explanation": "Catchの過去形はcaught（不規則変化）です。\n【🇺🇸 Cultural Note】\nフリスビー（Frisbee）を使って犬と遊ぶのは人気のアクティビティです。"
@@ -581,19 +581,19 @@
       "type": "sort",
       "question": "「彼女は一生懸命働きました。」となるように並び替えてください。",
       "choices": ["worked", "She", "hard"],
-      "answer": "Sheworkedhard",
+      "answer": "She worked hard",
       "explanation": "Workの過去形はworkedです。\n【🇺🇸 Cultural Note】\nアメリカンドリームを掴むためには、ハードワークが不可欠だと考えられています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私たちはリサイクルをしました」\nWe (      ).",
+      "question": "「私たちはリサイクルをしました」\nWe (      ) recycled.",
       "choices": [],
       "answer": "recycled",
       "explanation": "Recycleの過去形はrecycledです。\n【🇺🇸 Cultural Note】\nアメリカの家庭には青いリサイクル用のゴミ箱（Bin）があります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼はピザを持ってきました」\nHe (      ) pizza.",
+      "question": "「彼はピザを持ってきました」\nHe (      ) brought pizza.",
       "choices": ["brought", "bring", "brings", "bringing"],
       "answer": "brought",
       "explanation": "Bring（持ってくる）の過去形はbrought（不規則変化）です。\n【🇺🇸 Cultural Note】\nポットラックパーティー（Potluck）では、参加者がそれぞれ料理を持ち寄ります。"
@@ -602,19 +602,19 @@
       "type": "sort",
       "question": "「彼らは歴史を教えました。」となるように並び替えてください。",
       "choices": ["history", "taught", "They"],
-      "answer": "Theytaughthistory",
+      "answer": "They taught history",
       "explanation": "Teachの過去形はtaught（不規則変化）です。\n【🇺🇸 Cultural Note】\nアメリカ史の授業では、独立戦争や南北戦争について詳しく学びます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私はチケットを買いました」\nI (      ) a ticket.",
+      "question": "「私はチケットを買いました」\nI (      ) bought a ticket.",
       "choices": [],
       "answer": "bought",
       "explanation": "Buyの過去形はbought（不規則変化）です。\n【🇺🇸 Cultural Note】\nブロードウェイミュージカルのチケットは人気があり、早めに予約する必要があります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼女はそれについて考えました」\nShe (      ) about it.",
+      "question": "「彼女はそれについて考えました」\nShe (      ) thought about it.",
       "choices": ["thought", "think", "thinks", "thinking"],
       "answer": "thought",
       "explanation": "Thinkの過去形はthought（不規則変化）です。\n【🇺🇸 Cultural Note】\n批判的思考（Critical thinking）はアメリカの教育で重視されるスキルです。"
@@ -623,19 +623,19 @@
       "type": "sort",
       "question": "「私たちはバスに乗りました。」となるように並び替えてください。",
       "choices": ["bus", "took", "We", "the"],
-      "answer": "Wetookthebus",
+      "answer": "We took the bus",
       "explanation": "Take the bus（バスに乗る）の過去形はtook the busです。\n【🇺🇸 Cultural Note】\nグレイハウンドバスは、全米を結ぶ長距離バスネットワークです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼はその窓を閉めました」\nHe (      ) the window.",
+      "question": "「彼はその窓を閉めました」\nHe (      ) closed the window.",
       "choices": [],
       "answer": "closed",
       "explanation": "Closeの過去形はclosedです。\n【🇺🇸 Cultural Note】\nエアコン（AC）が普及しているため、夏場でも窓を閉め切っている家が多いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私はあなたを待ちました」\nI (      ) for you.",
+      "question": "「私はあなたを待ちました」\nI (      ) waited for you.",
       "choices": ["waited", "wait", "waits", "waiting"],
       "answer": "waited",
       "explanation": "Waitの過去形はwaitedです。\n【🇺🇸 Cultural Note】\n人気レストランでは、ページャー（呼び出し機）を渡されて席が空くのを待ちます。"
@@ -644,19 +644,19 @@
       "type": "sort",
       "question": "「彼らはシカゴを訪れましたか？」となるように並び替えてください。",
       "choices": ["Chicago", "Did", "visit", "they"],
-      "answer": "DidtheyvisitChicago",
+      "answer": "Did they visit Chicago",
       "explanation": "過去の疑問文はDidで始めます。\n【🇺🇸 Cultural Note】\nシカゴはミシガン湖畔にある大都市で、美しい建築物で有名です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は私にプレゼントをくれました」\nShe (      ) me a present.",
+      "question": "「彼女は私にプレゼントをくれました」\nShe (      ) gave me a present.",
       "choices": [],
       "answer": "gave",
       "explanation": "Giveの過去形はgave（不規則変化）です。\n【🇺🇸 Cultural Note】\nクリスマスにはツリーの下にプレゼントを置き、当日の朝に開けます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は彼を知っていました」\nI (      ) him.",
+      "question": "「私は彼を知っていました」\nI (      ) knew him.",
       "choices": ["knew", "know", "knows", "known"],
       "answer": "knew",
       "explanation": "Knowの過去形はknew（不規則変化）です。\n【🇺🇸 Cultural Note】\n高校の同窓会（High school reunion）で昔の知り合いに再会することがあります。"
@@ -665,19 +665,19 @@
       "type": "sort",
       "question": "「その雨は止みました。」となるように並び替えてください。",
       "choices": ["rain", "stopped", "The"],
-      "answer": "Therainstopped",
+      "answer": "The rain stopped",
       "explanation": "Stopの過去形はpを重ねてedをつけ、stoppedにします。\n【🇺🇸 Cultural Note】\n砂漠地帯では雨が降ると植物が一斉に開花することがあります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私たちは掃除を終えました」\nWe (      ) cleaning.",
+      "question": "「私たちは掃除を終えました」\nWe (      ) finished cleaning.",
       "choices": [],
       "answer": "finished",
       "explanation": "Finishの過去形はfinishedです。\n【🇺🇸 Cultural Note】\n仕事が終わったら\"I'm done!\"や\"I'm finished!\"と言います。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼はとても速く走りました」\nHe (      ) very fast.",
+      "question": "「彼はとても速く走りました」\nHe (      ) ran very fast.",
       "choices": ["ran", "run", "runs", "running"],
       "answer": "ran",
       "explanation": "Runの過去形はran（不規則変化）です。\n【🇺🇸 Cultural Note】\nジェシー・オーエンスは1936年のオリンピックで4つの金メダルを獲得した陸上選手です。"
@@ -686,19 +686,19 @@
       "type": "sort",
       "question": "「私はあなたにメールしました。」となるように並び替えてください。",
       "choices": ["emailed", "you", "I"],
-      "answer": "Iemailedyou",
+      "answer": "I emailed you",
       "explanation": "Emailは動詞として使え、過去形はemailedです。\n【🇺🇸 Cultural Note】\nビジネスコミュニケーションでは、電話よりもメールやチャットツール（Slackなど）が主流です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は彼を愛していました」\nShe (      ) him.",
+      "question": "「彼女は彼を愛していました」\nShe (      ) loved him.",
       "choices": [],
       "answer": "loved",
       "explanation": "Loveの過去形はlovedです。\n【🇺🇸 Cultural Note】\nロマンス映画（Rom-com）はアメリカで人気のあるジャンルです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼らは新しいコンピュータを使いました」\nThey (      ) a new computer.",
+      "question": "「彼らは新しいコンピュータを使いました」\nThey (      ) used a new computer.",
       "choices": ["used", "use", "uses", "using"],
       "answer": "used",
       "explanation": "Useの過去形はusedです。\n【🇺🇸 Cultural Note】\nアメリカの学校では、早くからコンピュータを使った授業が行われます。"
@@ -707,19 +707,19 @@
       "type": "sort",
       "question": "「私はその映画を楽しみました。」となるように並び替えてください。",
       "choices": ["movie", "enjoyed", "the", "I"],
-      "answer": "Ienjoyedthemovie",
+      "answer": "I enjoyed the movie",
       "explanation": "Enjoyの過去形はenjoyedです。\n【🇺🇸 Cultural Note】\nIMAXシアターなどの巨大スクリーンで映画を楽しむことができます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「トムは彼の部屋を掃除しました」\nTom (      ) his room.",
+      "question": "「トムは彼の部屋を掃除しました」\nTom (      ) cleaned his room.",
       "choices": [],
       "answer": "cleaned",
       "explanation": "Cleanの過去形はcleanedです。\n【🇺🇸 Cultural Note】\n子供に片付けをさせるために、お小遣い制度を利用する家庭が多いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私たちはそこへ飛びました（飛行機で行きました）」\nWe (      ) there.",
+      "question": "「私たちはそこへ飛びました（飛行機で行きました）」\nWe (      ) flew there.",
       "choices": ["flew", "fly", "flies", "flown"],
       "answer": "flew",
       "explanation": "Flyの過去形はflew（不規則変化）です。\n【🇺🇸 Cultural Note】\n感謝祭の前日は、全米の空港が一年で最も混雑する日です。"
@@ -728,40 +728,40 @@
       "type": "sort",
       "question": "「彼はそのボールをキャッチしました。」となるように並び替えてください。",
       "choices": ["caught", "ball", "the", "He"],
-      "answer": "Hecaughttheball",
+      "answer": "He caught the ball",
       "explanation": "Catchの過去形はcaught（不規則変化）です。\n【🇺🇸 Cultural Note】\nメジャーリーグの試合でファウルボールをキャッチするのはファンの夢です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女はたくさん勉強しました」\nShe (      ) a lot.",
+      "question": "「彼女はたくさん勉強しました」\nShe (      ) studied a lot.",
       "choices": [],
       "answer": "studied",
       "explanation": "Studyの過去形はstudiedです。\n【🇺🇸 Cultural Note】\nロースクール（法科大学院）やメディカルスクールの学生は、猛烈に勉強します。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼らは私を信じました」\nThey (      ) me.",
+      "question": "「彼らは私を信じました」\nThey (      ) believed me.",
       "choices": ["believed", "believe", "believes", "believing"],
       "answer": "believed",
-      "explanation": "Believeの過去形はbelievedです。\n【🇺🇸 Cultural Note】\n信頼（Trust）はアメリカのビジネス関係において非常に重要です。"
+      "explanation": "Believeের過去形はbelievedです。\n【🇺🇸 Cultural Note】\n信頼（Trust）はアメリカのビジネス関係において非常に重要です。"
     },
     {
       "type": "sort",
       "question": "「私は昨日、働きませんでした。」となるように並び替えてください。",
       "choices": ["work", "didn't", "yesterday", "I"],
-      "answer": "Ididn'tworkyesterday",
+      "answer": "I didn't work yesterday",
       "explanation": "Workの過去否定はdidn't workです。\n【🇺🇸 Cultural Note】\n病気休暇（Sick leave）を取る権利は州法や企業によって異なります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「その会議は10時に終わりました」\nThe meeting (      ) at 10.",
+      "question": "「その会議は10時に終わりました」\nThe meeting (      ) ended at 10.",
       "choices": [],
       "answer": "ended",
       "explanation": "Endの過去形はendedです。\n【🇺🇸 Cultural Note】\nアメリカの会議は時間を守り、効率的に進められる傾向があります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私たちは夕食にピザを作りました」\nWe (      ) pizza for dinner.",
+      "question": "「私たちは夕食にピザを作りました」\nWe (      ) made pizza for dinner.",
       "choices": ["made", "make", "makes", "making"],
       "answer": "made",
       "explanation": "Makeの過去形はmade（不規則変化）です。\n【🇺🇸 Cultural Note】\n手作りピザ（Homemade pizza）は家族で楽しめる料理です。"

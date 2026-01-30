@@ -14,7 +14,7 @@
       "type": "sort",
       "question": "「彼女はニューヨークに住んでいます。」となるように並び替えてください。",
       "choices": ["lives", "She", "York", "in", "New"],
-      "answer": "ShelivesinNewYork",
+      "answer": "She lives in New York",
       "explanation": "She（三人称単数）なのでlivesを使います。\n【🇺🇸 Cultural Note】\nニューヨーク市の人口は約800万人で、全米最大の都市です。"
     },
     {
@@ -35,7 +35,7 @@
       "type": "sort",
       "question": "「トムは毎日学校へ行きます。」となるように並び替えてください。",
       "choices": ["goes", "Tom", "school", "to", "day", "every"],
-      "answer": "Tomgoestoschooleveryday",
+      "answer": "Tom goes to school every day",
       "explanation": "Tom（三人称単数）なのでgoes（esをつける）を使います。\n【🇺🇸 Cultural Note】\nアメリカの学校教育制度は州や学区（School District）によって異なりますが、一般的にK-12（幼稚園から高3まで）が義務教育期間です。"
     },
     {
@@ -56,7 +56,7 @@
       "type": "sort",
       "question": "「ビルはたくさんの本を持っています。」となるように並び替えてください。",
       "choices": ["has", "Bill", "books", "many"],
-      "answer": "Billhasmanybooks",
+      "answer": "Bill has many books",
       "explanation": "Bill（三人称単数）なのでHaveの変則形hasを使います。\n【🇺🇸 Cultural Note】\nビル・ゲイツ（Bill Gates）は読書家として有名で、毎年おすすめの本を紹介しています。"
     },
     {
@@ -77,7 +77,7 @@
       "type": "sort",
       "question": "「ケイトは一生懸命勉強します。」となるように並び替えてください。",
       "choices": ["studies", "Kate", "hard"],
-      "answer": "Katestudieshard",
+      "answer": "Kate studies hard",
       "explanation": "Kate（三人称単数）なのでStudyのyをiに変えてesをつけ、studiesにします。\n【🇺🇸 Cultural Note】\nアメリカの高校生はGPA（成績平均点）を維持するために、スポーツなどの課外活動と勉強を両立させなければなりません。"
     },
     {
@@ -98,7 +98,7 @@
       "type": "sort",
       "question": "「太陽は東から昇ります。」となるように並び替えてください。",
       "choices": ["rises", "sun", "The", "east", "in", "the"],
-      "answer": "Thesunrisesintheeast",
+      "answer": "The sun rises in the east",
       "explanation": "The sun（三人称単数）なのでrisesを使います。\n【🇺🇸 Cultural Note】\nフロリダ州などの東海岸では、大西洋から昇る美しい日の出（Sunrise）が見られます。"
     },
     {
@@ -119,7 +119,7 @@
       "type": "sort",
       "question": "「そのバスはここで止まります。」となるように並び替えてください。",
       "choices": ["stops", "bus", "The", "here"],
-      "answer": "Thebusstopshere",
+      "answer": "The bus stops here",
       "explanation": "The bus（三人称単数）なのでstopsを使います。\n【🇺🇸 Cultural Note】\nアメリカの都市バス（City bus）は、正確な時刻に来ないことも多いです。"
     },
     {
@@ -140,7 +140,7 @@
       "type": "sort",
       "question": "「メアリーはフットボールを見ます。」となるように並び替えてください。",
       "choices": ["football", "Mary", "watches"],
-      "answer": "Marywatchesfootball",
+      "answer": "Mary watches football",
       "explanation": "Mary（三人称単数）なのでWatchにesをつけてwatchesにします。\n【🇺🇸 Cultural Note】\n日曜日に家族や友人とNFL（アメフト）を観戦するのは、多くのアメリカ人にとっての週末の儀式です。"
     },
     {
@@ -161,7 +161,7 @@
       "type": "sort",
       "question": "「彼女は毎日コーヒーを飲みます。」となるように並び替えてください。",
       "choices": ["drinks", "She", "coffee", "day", "every"],
-      "answer": "Shedrinkscoffeeeveryday",
+      "answer": "She drinks coffee every day",
       "explanation": "She（三人称単数）なのでdrinksを使います。\n【🇺🇸 Cultural Note】\nスターバックス（Starbucks）はシアトルで創業し、アメリカのコーヒー文化を一変させました。"
     },
     {
@@ -182,7 +182,7 @@
       "type": "sort",
       "question": "「私の父は私の宿題を手伝ってくれます。」となるように並び替えてください。",
       "choices": ["homework", "me", "father", "helps", "My", "with", "my"],
-      "answer": "Myfatherhelpsmewithmyhomework",
+      "answer": "My father helps me with my homework",
       "explanation": "My father（三人称単数）なのでhelpsを使います。\n【🇺🇸 Cultural Note】\nアメリカの学校では、保護者が学校行事や宿題のサポートに深く関わることが期待されます。"
     },
     {
@@ -203,7 +203,7 @@
       "type": "sort",
       "question": "「その授業は9時に始まります。」となるように並び替えてください。",
       "choices": ["starts", "class", "The", "at", "9"],
-      "answer": "Theclassstartsat9",
+      "answer": "The class starts at 9",
       "explanation": "The class（三人称単数）なのでstartsを使います。\n【🇺🇸 Cultural Note】\n大学の授業（Class）は、講義形式（Lecture）だけでなく、少人数のディスカッション形式も多いです。"
     },
     {
@@ -224,7 +224,7 @@
       "type": "sort",
       "question": "「私の妹はよく泣きます。」となるように並び替えてください。",
       "choices": ["cries", "sister", "My", "often"],
-      "answer": "Mysisteroftencries",
+      "answer": "My sister often cries",
       "explanation": "Cry（泣く）はyをiに変えてesをつけ、criesにします。\n【🇺🇸 Cultural Note】\n\"Crybaby\"（泣き虫）という言葉があります。"
     },
     {
@@ -245,7 +245,7 @@
       "type": "sort",
       "question": "「その機械はよく動きます（作動します）。」となるように並び替えてください。",
       "choices": ["well", "works", "machine", "The"],
-      "answer": "Themachineworkswell",
+      "answer": "The machine works well",
       "explanation": "The machine（三人称単数）なのでworksを使います。\n【🇺🇸 Cultural Note】\nアメリカの家電製品（洗濯機や冷蔵庫）は日本製品に比べてサイズが非常に大きいです。"
     },
     {
@@ -266,7 +266,7 @@
       "type": "sort",
       "question": "「アンは図書館で勉強します。」となるように並び替えてください。",
       "choices": ["studies", "Ann", "library", "the", "in"],
-      "answer": "Annstudiesinthelibrary",
+      "answer": "Ann studies in the library",
       "explanation": "Ann（三人称単数）なのでStudy→studiesです。\n【🇺🇸 Cultural Note】\nアメリカの公立図書館の多くは、誰でも無料で利用できるコミュニティスペースとして機能しています。"
     },
     {
@@ -287,7 +287,7 @@
       "type": "sort",
       "question": "「私の兄はギターを持っています。」となるように並び替えてください。",
       "choices": ["guitar", "has", "brother", "My", "a"],
-      "answer": "Mybrotherhasaguitar",
+      "answer": "My brother has a guitar",
       "explanation": "My brother（三人称単数）なのでhasを使います。\n【🇺🇸 Cultural Note】\nギブソン（Gibson）やフェンダー（Fender）はアメリカを代表するギターメーカーです。"
     },
     {
@@ -308,7 +308,7 @@
       "type": "sort",
       "question": "「その電車は速く行きます（走ります）。」となるように並び替えてください。",
       "choices": ["train", "fast", "goes", "The"],
-      "answer": "Thetraingoesfast",
+      "answer": "The train goes fast",
       "explanation": "The train（三人称単数）なのでGo→goesを使います。\n【🇺🇸 Cultural Note】\nアムトラック（Amtrak）は全米を結ぶ鉄道旅客公社です。アセラ・エクスプレスは北東回廊を走る高速列車です。"
     },
     {
@@ -329,7 +329,7 @@
       "type": "sort",
       "question": "「彼女はテニスをします。」となるように並び替えてください。",
       "choices": ["tennis", "She", "plays"],
-      "answer": "Sheplaystennis",
+      "answer": "She plays tennis",
       "explanation": "She（三人称単数）なのでplaysを使います。\n【🇺🇸 Cultural Note】\nウィリアムズ姉妹（ビーナス＆セリーナ）はアメリカのテニス界が生んだスーパースターです。"
     },
     {
@@ -350,7 +350,7 @@
       "type": "sort",
       "question": "「彼はとても一生懸命努力します。」となるように並び替えてください。",
       "choices": ["hard", "He", "tries", "very"],
-      "answer": "Hetriesveryhard",
+      "answer": "He tries very hard",
       "explanation": "Try（努力する）はyをiに変えてesをつけ、triesにします。\n【🇺🇸 Cultural Note】\nアメリカ文化では、結果だけでなく、挑戦する姿勢（Giving it a try）も評価されます。"
     },
     {
@@ -371,7 +371,7 @@
       "type": "sort",
       "question": "「トムは彼の車を洗います。」となるように並び替えてください。",
       "choices": ["washes", "Tom", "car", "his"],
-      "answer": "Tomwasheshiscar",
+      "answer": "Tom washes his car",
       "explanation": "Tom（三人称単数）なのでWashにesをつけてwashesにします。\n【🇺🇸 Cultural Note】\n自動洗車機（Car wash）も一般的ですが、週末に自宅で洗車を楽しむ人も多いです。"
     },
     {
@@ -383,7 +383,7 @@
     },
     {
       "type": "multiple_choice",
-      "question": "「その鳥は歌います」\nThe bird (      ).",
+      "question": "「その鳥は歌います」\nThe bird (      ) .",
       "choices": ["sings", "sing", "singing", "sang"],
       "answer": "sings",
       "explanation": "The bird（三人称単数）なのでsingsを使います。\n【🇺🇸 Cultural Note】\nモッキングバード（マネシツグミ）は多くの州の州鳥に指定されており、他の鳥の鳴き声を真似て歌うことで知られます。"
@@ -392,7 +392,7 @@
       "type": "sort",
       "question": "「彼はたくさん本を読みます。」となるように並び替えてください。",
       "choices": ["He", "reads", "books", "a", "lot", "of"],
-      "answer": "Hereadsalotofbooks",
+      "answer": "He reads a lot of books",
       "explanation": "He（三人称単数）なのでreadsを使います。\n【🇺🇸 Cultural Note】\nビル・ゲイツやオバマ元大統領など、読書家として知られる著名人は多いです。"
     },
     {
@@ -413,7 +413,7 @@
       "type": "sort",
       "question": "「その犬はボールをキャッチします。」となるように並び替えてください。",
       "choices": ["catches", "dog", "ball", "The", "the"],
-      "answer": "Thedogcatchestheball",
+      "answer": "The dog catches the ball",
       "explanation": "The dog（三人称単数）なのでCatchにesをつけてcatchesにします。\n【🇺🇸 Cultural Note】\nアメリカンフットボールの試合でも、華麗なキャッチ（Catch）は観客を沸かせます。"
     },
     {
@@ -434,7 +434,7 @@
       "type": "sort",
       "question": "「彼女はダンスを習っています（授業を受けています）。」となるように並び替えてください。",
       "choices": ["lessons", "dance", "takes", "She"],
-      "answer": "Shetakesdancelessons",
+      "answer": "She takes dance lessons",
       "explanation": "She（三人称単数）なのでtakesを使います。\n【🇺🇸 Cultural Note】\nプロム（Prom）などのダンスパーティーに向けて、ダンスを練習する生徒もいます。"
     },
     {
@@ -455,7 +455,7 @@
       "type": "sort",
       "question": "「私の母は私を愛しています。」となるように並び替えてください。",
       "choices": ["loves", "me", "mother", "My"],
-      "answer": "Mymotherlovesme",
+      "answer": "My mother loves me",
       "explanation": "My mother（三人称単数）なのでlovesを使います。\n【🇺🇸 Cultural Note】\nアメリカでは家族間で\"I love you\"と言葉にして伝え合うことが非常に大切にされています。"
     },
     {
@@ -476,7 +476,7 @@
       "type": "sort",
       "question": "「彼はオレンジジュースを飲みます。」となるように並び替えてください。",
       "choices": ["drinks", "juice", "orange", "He"],
-      "answer": "Hedrinksorangejuice",
+      "answer": "He drinks orange juice",
       "explanation": "He（三人称単数）なのでdrinksを使います。\n【🇺🇸 Cultural Note】\nフロリダ州はオレンジの産地として有名で、朝食にオレンジジュースは欠かせません。"
     },
     {
@@ -497,7 +497,7 @@
       "type": "sort",
       "question": "「その猫は木に登ります。」となるように並び替えてください。",
       "choices": ["climbs", "tree", "the", "cat", "The"],
-      "answer": "Thecatclimbsthetree",
+      "answer": "The cat climbs the tree",
       "explanation": "The cat（三人称単数）なのでclimbsを使います。\n【🇺🇸 Cultural Note】\n消防士が木から猫を助ける（Cat stuck in a tree）というのは、昔ながらの典型的な救助シーンです。"
     },
     {
@@ -518,7 +518,7 @@
       "type": "sort",
       "question": "「彼女はコンピュータを使います。」となるように並び替えてください。",
       "choices": ["uses", "computer", "a", "She"],
-      "answer": "Sheusesacomputer",
+      "answer": "She uses a computer",
       "explanation": "She（三人称単数）なのでusesを使います。\n【🇺🇸 Cultural Note】\nアメリカの学校では、生徒一人一台のChromebookやiPadが支給されることが一般的になっています。"
     }
   ]

@@ -14,7 +14,7 @@
       "type": "sort",
       "question": "「彼女はピアノを練習していました。」となるように並び替えてください。",
       "choices": ["practicing", "She", "piano", "was", "the"],
-      "answer": "Shewaspracticingthepiano",
+      "answer": "She was practicing the piano",
       "explanation": "She was practicing...（彼女は練習していた）。\n【🇺🇸 Cultural Note】\nピアノはアメリカの子供たちの習い事として定番ですが、高校のマーチングバンド（Marching Band）に参加するために、トランペットやドラムなどの管楽器・打楽器を練習する生徒も非常に多いです。マーチングバンドはアメフトの試合のハーフタイムショーの主役です。"
     },
     {
@@ -35,7 +35,7 @@
       "type": "sort",
       "question": "「雪が降っていました。」となるように並び替えてください。",
       "choices": ["snowing", "was", "It"],
-      "answer": "Itwassnowing",
+      "answer": "It was snowing",
       "explanation": "It（天候）なのでwasを使います。\n【🇺🇸 Cultural Note】\nアメリカ北部や東海岸では、大雪（Blizzard）が降ると学校や職場が閉鎖される「スノー・デイ（Snow Day）」になります。子供たちにとっては、ソリ滑りをしたり雪だるまを作ったりできる最高に楽しい日ですが、親にとっては子供の世話と仕事の調整で大変な一日となります。"
     },
     {
@@ -56,7 +56,7 @@
       "type": "sort",
       "question": "「彼は働いていませんでした。」となるように並び替えてください。",
       "choices": ["working", "wasn't", "He"],
-      "answer": "Hewasn'tworking",
+      "answer": "He wasn't working",
       "explanation": "Was notの短縮形wasn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカの労働文化では、有給休暇（PTO: Paid Time Off）の取得は権利ですが、実際には業務の忙しさから消化しきれない人も多いです。しかし、病気の時は無理せず休む（Call in sick）ことが、「同僚に風邪をうつさないためのマナー」として徹底されています。"
     },
     {
@@ -77,7 +77,7 @@
       "type": "sort",
       "question": "「彼女は料理をしていました。」となるように並び替えてください。",
       "choices": ["cooking", "was", "She"],
-      "answer": "Shewascooking",
+      "answer": "She was cooking",
       "explanation": "She was cooking.\n【🇺🇸 Cultural Note】\nアメリカのキッチンには、巨大なオーブンが標準装備されています。そのため、日本の「炒める・煮る」料理よりも、チキンやキャセロール（耐熱皿を使った蒸し焼き料理）をオーブンに入れて「焼く（Bake/Roast）」料理が家庭料理の主流です。"
     },
     {
@@ -98,7 +98,7 @@
       "type": "sort",
       "question": "「犬たちは吠えていました。」となるように並び替えてください。",
       "choices": ["barking", "were", "dogs", "The"],
-      "answer": "Thedogswerebarking",
+      "answer": "The dogs were barking",
       "explanation": "Dogs（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nアメリカでは郵便配達員（Mail carrier）と犬の仲が悪いというのは定番のジョークですが、実際には配達員の安全のために、犬がいる家への配達ルールは非常に厳格です。"
     },
     {
@@ -119,7 +119,7 @@
       "type": "sort",
       "question": "「私たちは買い物をしていました。」となるように並び替えてください。",
       "choices": ["shopping", "were", "We"],
-      "answer": "Wewereshopping",
+      "answer": "We were shopping",
       "explanation": "We were shopping.\n【🇺🇸 Cultural Note】\nアメリカのスーパーマーケットは非常に巨大で、カート（Shopping cart）も子供が二人乗れるほどの大きさです。まとめ買い（Buying in bulk）が基本で、コストコ（Costco）のような会員制倉庫型店が人気です。"
     },
     {
@@ -140,7 +140,7 @@
       "type": "sort",
       "question": "「私は勉強していませんでした。」となるように並び替えてください。",
       "choices": ["studying", "wasn't", "I"],
-      "answer": "Iwasn'tstudying",
+      "answer": "I wasn't studying",
       "explanation": "Was notの短縮形wasn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカの大学生は「よく遊びよく学べ（Work hard, play hard）」を実践しています。平日は図書館にこもって猛勉強し、週末はフラタニティ（男子学生社交クラブ）やソロリティ（女子学生社交クラブ）のパーティーで発散するというライフスタイルが一般的です。"
     },
     {
@@ -161,7 +161,7 @@
       "type": "sort",
       "question": "「太陽は輝いていました。」となるように並び替えてください。",
       "choices": ["shining", "was", "sun", "The"],
-      "answer": "Thesunwasshining",
+      "answer": "The sun was shining",
       "explanation": "The sun（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nカリフォルニア州やフロリダ州などの「サンベルト（Sun Belt）」と呼ばれる南部・西部地域は、温暖な気候を求めて北部の寒い地域から移住する人が絶えません。"
     },
     {
@@ -182,7 +182,7 @@
       "type": "sort",
       "question": "「彼らは笑っていました。」となるように並び替えてください。",
       "choices": ["laughing", "were", "They"],
-      "answer": "Theywerelaughing",
+      "answer": "They were laughing",
       "explanation": "They（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nアメリカのコメディドラマ（Sitcom: Situation Comedy）では、観客の笑い声（Laugh track）が録音されているのが特徴的です（例：「フレンズ」や「フルハウス」など）。"
     },
     {
@@ -203,7 +203,7 @@
       "type": "sort",
       "question": "「風が吹いていました。」となるように並び替えてください。",
       "choices": ["blowing", "was", "wind", "The"],
-      "answer": "Thewindwasblowing",
+      "answer": "The wind was blowing",
       "explanation": "The wind（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nシカゴの愛称は\"The Windy City\"ですが、これは気象的な風だけでなく、かつての政治家たちの「大言壮語（windbag）」を皮肉ったものだという説が有力です。"
     },
     {
@@ -224,7 +224,7 @@
       "type": "sort",
       "question": "「彼らは戦っていました。」となるように並び替えてください。",
       "choices": ["fighting", "were", "They"],
-      "answer": "Theywerefighting",
+      "answer": "They were fighting",
       "explanation": "They（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\n南北戦争（The Civil War, 1861-1865）は、アメリカ国内で北部（Union）と南部（Confederacy）が戦った歴史的な出来事です。奴隷制の是非が最大の争点でした。"
     },
     {
@@ -245,7 +245,7 @@
       "type": "sort",
       "question": "「ケイトは座っていました。」となるように並び替えてください。",
       "choices": ["sitting", "was", "Kate"],
-      "answer": "Katewassitting",
+      "answer": "Kate was sitting",
       "explanation": "Kate（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\n1955年、ローザ・パークスがバスの白人専用席に座っていた白人に席を譲ることを拒否した行動は、公民権運動の象徴的な出来事となりました。"
     },
     {
@@ -266,7 +266,7 @@
       "type": "sort",
       "question": "「彼らは勉強していました。」となるように並び替えてください。",
       "choices": ["studying", "were", "They"],
-      "answer": "Theywerestudying",
+      "answer": "They were studying",
       "explanation": "They（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nアメリカの大学入試（College Admission）では、SATやACTといった統一テストのスコアだけでなく、高校の成績（GPA）やエッセイ、課外活動の実績が総合的に評価されます。"
     },
     {
@@ -287,7 +287,7 @@
       "type": "sort",
       "question": "「その赤ちゃんは泣いていました。」となるように並び替えてください。",
       "choices": ["crying", "was", "baby", "The"],
-      "answer": "Thebabywascrying",
+      "answer": "The baby was crying",
       "explanation": "The baby（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nアメリカでは、赤ちゃんを別室で一人で寝かせる（Sleep training）習慣が一般的です。ベビーモニターを使って親が別室から様子を確認します。"
     },
     {
@@ -308,7 +308,7 @@
       "type": "sort",
       "question": "「彼らはサッカーをしていました。」となるように並び替えてください。",
       "choices": ["soccer", "playing", "They", "were"],
-      "answer": "Theywereplayingsoccer",
+      "answer": "They were playing soccer",
       "explanation": "They（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nアメリカで\"Football\"と言えばアメフトを指すため、日本で言うサッカーは必ず\"Soccer\"と呼びます。女子サッカーの人気と実力は世界トップクラスです。"
     },
     {
@@ -329,7 +329,7 @@
       "type": "sort",
       "question": "「トムはコンピュータを使っていました。」となるように並び替えてください。",
       "choices": ["using", "was", "Tom", "computer", "a"],
-      "answer": "Tomwasusingacomputer",
+      "answer": "Tom was using a computer",
       "explanation": "Tom（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nスティーブ・ジョブズとスティーブ・ウォズニアックがガレージでAppleを創業したストーリーは、アメリカン・ドリームの象徴として語り継がれています。"
     },
     {
@@ -350,7 +350,7 @@
       "type": "sort",
       "question": "「その男の人は待っていました。」となるように並び替えてください。",
       "choices": ["man", "was", "waiting", "The"],
-      "answer": "Themanwaswaiting",
+      "answer": "The man was waiting",
       "explanation": "The man（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nアメリカのレストランでは、席に案内されるまで入り口で待つ（Wait to be seated）のがルールです。勝手に座ってはいけません。"
     },
     {
@@ -371,7 +371,7 @@
       "type": "sort",
       "question": "「彼らは家を建てていました。」となるように並び替えてください。",
       "choices": ["house", "were", "They", "building", "a"],
-      "answer": "Theywerebuildingahouse",
+      "answer": "They were building a house",
       "explanation": "They（複数）なのでwereを使います。\n【🇺🇸 Cultural Note】\nアーミッシュ（Amish）のコミュニティでは、地域全員が協力して一日で納屋などを建てる「バーン・レイジング（Barn raising）」という伝統行事があります。"
     },
     {
@@ -392,7 +392,7 @@
       "type": "sort",
       "question": "「雨が止もうとしていました。」となるように並び替えてください。",
       "choices": ["rain", "was", "stopping", "The"],
-      "answer": "Therainwasstopping",
+      "answer": "The rain was stopping",
       "explanation": "The rain（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\n野球の試合などが雨で中断・延期されることを\"Rain check\"と言います。日常会話でも「またの機会に」という意味で\"Can I get a rain check?\"と使います。"
     },
     {
@@ -413,8 +413,8 @@
       "type": "sort",
       "question": "「彼はギターを弾いていました。」となるように並び替えてください。",
       "choices": ["guitar", "was", "He", "playing", "the"],
-      "answer": "Hewasplayingtheguitar",
-      "explanation": "He（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nジミ・ヘンドリックスは、1969年のウッドストック・フェスティバルでの伝説的なギター演奏で知られる、アメリカのロックアイコンです。"
+      "answer": "He was playing the guitar",
+      "explanation": "He（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\nジミ・ヘンドリックスは、1969年のウッドストック・フェスティバルでの伝説的なギター演奏で知られる, アメリカのロックアイコンです。"
     },
     {
       "type": "fill_in_the_blank",

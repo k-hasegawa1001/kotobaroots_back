@@ -14,7 +14,7 @@
       "type": "sort",
       "question": "「これは日本で作られた車です。」となるように並び替えてください。",
       "choices": ["car", "This", "made", "Japan", "is", "a", "in"],
-      "answer": "ThisisacarmadeinJapan",
+      "answer": "This is a car made in Japan",
       "explanation": "a car made in Japan（日本で作られた車）。過去分詞の後置修飾です。\n【🇺🇸 Cultural Note】\nアメリカの道路では、日本車（Toyota, Honda, Nissanなど）が非常に多く走っており、信頼性の高さで評価されています。"
     },
     {
@@ -35,7 +35,7 @@
       "type": "sort",
       "question": "「ステージで歌っている少女は誰ですか？」となるように並び替えてください。",
       "choices": ["girl", "Who", "singing", "is", "stage", "the", "on", "the"],
-      "answer": "Whoisthegirlsingingonthestage",
+      "answer": "Who is the girl singing on the stage",
       "explanation": "the girl singing...（歌っている少女）。現在分詞の後置修飾。\n【🇺🇸 Cultural Note】\n学校のタレントショー（Talent Show）は、生徒が特技を披露する大きなイベントで、歌やダンスが定番です。"
     },
     {
@@ -56,7 +56,7 @@
       "type": "sort",
       "question": "「私は中古車を買いました。」となるように並び替えてください。",
       "choices": ["car", "bought", "I", "used", "a"],
-      "answer": "Iboughtausedcar",
+      "answer": "I bought a used car",
       "explanation": "a used car（使われた車＝中古車）。\n【🇺🇸 Cultural Note】\nアメリカの高校生にとって最初の車は「Hand-me-down（親からのお下がり）」や安い中古車が一般的です。"
     },
     {
@@ -77,7 +77,7 @@
       "type": "sort",
       "question": "「ベンチに座っている男性は私の父です。」となるように並び替えてください。",
       "choices": ["bench", "The", "man", "sitting", "on", "the", "is", "my", "father"],
-      "answer": "Themansittingonthebenchismyfather",
+      "answer": "The man sitting on the bench is my father",
       "explanation": "The man sitting on the bench（ベンチに座っている男性）が主語です。\n【🇺🇸 Cultural Note】\n映画『フォレスト・ガンプ』の有名なシーンは、バス停のベンチでの会話から始まります。"
     },
     {
@@ -96,9 +96,9 @@
     },
     {
       "type": "sort",
-      "question": "「公園で遊んでいる子供たちを見て。」となるように並び替えてください。",
+      "question": "「公園で走っている子供たちを見て。」となるように並び替えてください。",
       "choices": ["at", "children", "Look", "playing", "the", "in", "the", "park"],
-      "answer": "Lookatthechildrenplayinginthepark",
+      "answer": "Look at the children playing in the park",
       "explanation": "the children playing...（遊んでいる子供たち）。\n【🇺🇸 Cultural Note】\nアメリカの公園にある遊具（Playground equipment）の下には、怪我防止のためにウッドチップやゴムマットが敷かれていることが多いです。"
     },
     {
@@ -119,7 +119,7 @@
       "type": "sort",
       "question": "「英語で話されている言語は何ですか？」となるように並び替えてください。",
       "choices": ["language", "spoken", "What", "is", "the", "in", "America"],
-      "answer": "WhatisthelanguagespokeninAmerica",
+      "answer": "What is the language spoken in America",
       "explanation": "the language spoken...（話されている言語）。\n【🇺🇸 Cultural Note】\nアメリカには公用語がありませんが、英語が事実上の共通語です。スペイン語話者も非常に多いです。"
     },
     {
@@ -140,7 +140,7 @@
       "type": "sort",
       "question": "「私はあなたを驚かせるニュースを持っています。」となるように並び替えてください。",
       "choices": ["have", "news", "I", "surprising", "you", "for"],
-      "answer": "Ihavesurprisingnewsforyou",
+      "answer": "I have surprising news for you",
       "explanation": "surprising news（驚くべきニュース）。\n【🇺🇸 Cultural Note】\n\"Guess what?\"（何だと思う？）と言ってから、驚くようなニュースを切り出すのが定番の会話パターンです。"
     },
     {
@@ -161,7 +161,7 @@
       "type": "sort",
       "question": "「落ち葉（落ちた葉）が地面にあります。」となるように並び替えてください。",
       "choices": ["leaves", "There", "ground", "on", "are", "fallen", "the"],
-      "answer": "Therearefallenleavesontheground",
+      "answer": "There are fallen leaves on the ground",
       "explanation": "fallen leaves（落ちた葉＝落ち葉）。完了の意味を持つ過去分詞です。\n【🇺🇸 Cultural Note】\nニューイングランド地方の紅葉（Fall foliage）は非常に美しく、秋には多くの観光客が「リーフ・ピーピング（紅葉狩り）」に訪れます。"
     },
     {
@@ -182,7 +182,7 @@
       "type": "sort",
       "question": "「ボブと一緒に歩いている少年は誰ですか？」となるように並び替えてください。",
       "choices": ["boy", "walking", "Who", "is", "Bob", "the", "with"],
-      "answer": "WhoistheboywalkingwithBob",
+      "answer": "Who is the boy walking with Bob",
       "explanation": "the boy walking with Bob（ボブと一緒に歩いている少年）。\n【🇺🇸 Cultural Note】\nアメリカの学校にはスクールカースト（Social hierarchy）が存在し、誰と一緒に歩いているか、どのテーブルでランチを食べるかが重要視されることがあります。"
     },
     {
@@ -203,7 +203,7 @@
       "type": "sort",
       "question": "「雪で覆われた山々が見えます。」となるように並び替えてください。",
       "choices": ["mountains", "see", "covered", "can", "We", "snow", "with"],
-      "answer": "Wecanseemountainscoveredwithsnow",
+      "answer": "We can see mountains covered with snow",
       "explanation": "mountains covered with snow（雪で覆われた山々）。\n【🇺🇸 Cultural Note】\nロッキー山脈（The Rockies）は北米大陸を縦断する巨大な山脈で、美しい雪景色が楽しめます。"
     },
     {
@@ -224,7 +224,7 @@
       "type": "sort",
       "question": "「向こうでテニスをしている少年たちは誰ですか？」となるように並び替えてください。",
       "choices": ["Who", "playing", "boys", "tennis", "are", "the", "over", "there"],
-      "answer": "Whoaretheboysplayingtennisoverthere",
+      "answer": "Who are the boys playing tennis over there",
       "explanation": "the boys playing tennis（テニスをしている少年たち）。\n【🇺🇸 Cultural Note】\nウィリアムズ姉妹（ビーナスとセリーナ）は、アメリカのテニス界を変えた伝説的なプレイヤーです。"
     },
     {
@@ -245,7 +245,7 @@
       "type": "sort",
       "question": "「帽子をかぶっているあの男性を見てください。」となるように並び替えてください。",
       "choices": ["at", "man", "wearing", "Look", "that", "hat", "a"],
-      "answer": "Lookatthatmanwearingahat",
+      "answer": "Look at that man wearing a hat",
       "explanation": "that man wearing a hat（帽子をかぶっているあの男性）。\n【🇺🇸 Cultural Note】\nベースボールキャップはアメリカ人の普段着の定番で、室内でもかぶったままの人が多いです。"
     },
     {
@@ -266,7 +266,7 @@
       "type": "sort",
       "question": "「燃えている太陽の下で泳ぎました。」となるように並び替えてください。",
       "choices": ["swam", "sun", "under", "We", "burning", "the"],
-      "answer": "Weswamundertheburningsun",
+      "answer": "We swam under the burning sun",
       "explanation": "the burning sun（燃えている太陽＝灼熱の太陽）。\n【🇺🇸 Cultural Note】\nフロリダやカリフォルニアの日差しは強烈なので、日焼け止め（Sunscreen）は必須アイテムです。"
     },
     {
@@ -287,7 +287,7 @@
       "type": "sort",
       "question": "「公園で走っている少年は私の弟です。」となるように並び替えてください。",
       "choices": ["park", "running", "boy", "The", "brother", "in", "the", "is", "my"],
-      "answer": "Theboyrunningintheparkismybrother",
+      "answer": "The boy running in the park is my brother",
       "explanation": "The boy running in the park（公園で走っている少年）が主語です。\n【🇺🇸 Cultural Note】\nジョギングは非常に一般的な運動習慣で、セントラルパークなどでは早朝から多くのランナーを見かけます。"
     },
     {
@@ -308,7 +308,7 @@
       "type": "sort",
       "question": "「その眠っている犬はかわいいです。」となるように並び替えてください。",
       "choices": ["sleeping", "cute", "dog", "is", "The"],
-      "answer": "Thesleepingdogiscute",
+      "answer": "The sleeping dog is cute",
       "explanation": "The sleeping dog（眠っている犬）。\n【🇺🇸 Cultural Note】\n\"Let sleeping dogs lie\"（寝た子を起こすな）ということわざは英語にもあります。"
     },
     {
@@ -329,7 +329,7 @@
       "type": "sort",
       "question": "「このカメラはアメリカで作られました。」となるように並び替えてください。",
       "choices": ["made", "camera", "was", "This", "USA", "in", "the"],
-      "answer": "ThiscamerawasmadeintheUSA",
+      "answer": "This camera was made in the USA",
       "explanation": "was made（作られた）。受動態の文ですが、madeは過去分詞形容詞としても機能します。\n【🇺🇸 Cultural Note】\nコダック（Kodak）はかつて写真業界を支配したアメリカ企業でした。"
     },
     {
@@ -350,7 +350,7 @@
       "type": "sort",
       "question": "「泣いている赤ちゃんが見えますか？」となるように並び替えてください。",
       "choices": ["crying", "Can", "baby", "you", "see", "the"],
-      "answer": "Canyouseethecryingbaby",
+      "answer": "Can you see the crying baby",
       "explanation": "the crying baby（泣いている赤ちゃん）。\n【🇺🇸 Cultural Note】\nレストランなどで子供が騒いだ時、親がすぐに外に連れ出すのがマナーとされています。"
     },
     {
@@ -371,7 +371,7 @@
       "type": "sort",
       "question": "「招待された客だけが入ることができます。」となるように並び替えてください。",
       "choices": ["guests", "Only", "enter", "can", "invited"],
-      "answer": "Onlyinvitedguestscanenter",
+      "answer": "Only invited guests can enter",
       "explanation": "invited guests（招待された客）。\n【🇺🇸 Cultural Note】\n結婚式や正式なパーティーでは、招待状のない飛び入り参加（Gatecrashing）は固く断られます。"
     },
     {
@@ -392,7 +392,7 @@
       "type": "sort",
       "question": "「中古車を買うのは安いです。」となるように並び替えてください。",
       "choices": ["cars", "cheap", "used", "buy", "It", "to", "is"],
-      "answer": "Itischeaptobuyusedcars",
+      "answer": "It is cheap to buy used cars",
       "explanation": "used cars（使われた車＝中古車）。\n【🇺🇸 Cultural Note】\nCarMaxなどの大型中古車販売店チェーンがあり、中古車市場は非常に巨大です。"
     },
     {
@@ -413,7 +413,7 @@
       "type": "sort",
       "question": "「図書館で勉強している生徒たちは静かです。」となるように並び替えてください。",
       "choices": ["students", "library", "The", "quiet", "are", "studying", "in", "the"],
-      "answer": "Thestudentsstudyinginthelibraryarequiet",
+      "answer": "The students studying in the library are quiet",
       "explanation": "The students studying in the library（図書館で勉強している生徒たち）が主語です。\n【🇺🇸 Cultural Note】\n試験期間中の大学図書館は24時間開いていることが多く、コーヒー片手に勉強する学生で溢れます。"
     },
     {
@@ -434,7 +434,7 @@
       "type": "sort",
       "question": "「ギターを弾いている少年は私の友人です。」となるように並び替えてください。",
       "choices": ["friend", "boy", "The", "guitar", "playing", "the", "is", "my"],
-      "answer": "Theboyplayingtheguitarismyfriend",
+      "answer": "The boy playing the guitar is my friend",
       "explanation": "The boy playing the guitar（ギターを弾いている少年）が主語です。\n【🇺🇸 Cultural Note】\nガレージバンド（自宅の車庫で練習するバンド）からスタートして有名になったアメリカのロックバンドは数多く存在します。"
     },
     {
@@ -455,7 +455,7 @@
       "type": "sort",
       "question": "「空を飛んでいるあの鳥を見て。」となるように並び替えてください。",
       "choices": ["bird", "Look", "flying", "that", "at", "in", "the", "sky"],
-      "answer": "Lookatthatbirdflyinginthesky",
+      "answer": "Look at that bird flying in the sky",
       "explanation": "that bird flying in the sky（空を飛んでいるあの鳥）。\n【🇺🇸 Cultural Note】\n白頭ワシ（Bald Eagle）はアメリカの国鳥であり、国の紋章にも使われています。"
     },
     {
@@ -476,7 +476,7 @@
       "type": "sort",
       "question": "「向こうで本を読んでいる少女は誰ですか？」となるように並び替えてください。",
       "choices": ["girl", "reading", "Who", "book", "is", "the", "a", "over", "there"],
-      "answer": "Whoisthegirlreadingabookoverthere",
+      "answer": "Who is the girl reading a book over there",
       "explanation": "the girl reading a book（本を読んでいる少女）。\n【🇺🇸 Cultural Note】\nアメリカの図書館は「静かにする場所」であると同時に、子供向けの読み聞かせやティーン向けのイベントが行われる活気ある場所でもあります。"
     },
     {
@@ -497,7 +497,7 @@
       "type": "sort",
       "question": "「彼によって描かれた絵は美しいです。」となるように並び替えてください。",
       "choices": ["painted", "picture", "The", "him", "by", "beautiful", "is"],
-      "answer": "Thepicturepaintedbyhimisbeautiful",
+      "answer": "The picture painted by him is beautiful",
       "explanation": "The picture painted by him（彼によって描かれた絵）が主語です。\n【🇺🇸 Cultural Note】\nグラフィティ（落書き）も、バスキアやキース・ヘリングのようにアートとして認められる文化があります。"
     },
     {
@@ -518,7 +518,7 @@
       "type": "sort",
       "question": "「英語で書かれた手紙を受け取りました。」となるように並び替えてください。",
       "choices": ["letter", "received", "I", "a", "English", "written", "in"],
-      "answer": "IreceivedaletterwritteninEnglish",
+      "answer": "I received a letter written in English",
       "explanation": "a letter written in English（英語で書かれた手紙）。\n【🇺🇸 Cultural Note】\nアメリカの大学への合格通知（Acceptance Letter）は、伝統的に分厚い封筒で届くのが良い知らせのサインと言われてきました（不合格は薄い）。"
     },
     {
@@ -539,7 +539,7 @@
       "type": "sort",
       "question": "「ステージで踊っている少女たちはかわいいです。」となるように並び替えてください。",
       "choices": ["girls", "dancing", "cute", "The", "stage", "on", "the", "are"],
-      "answer": "Thegirlsdancingonthestagearecute",
+      "answer": "The girls dancing on the stage are cute",
       "explanation": "The girls dancing on the stage が主語です。\n【🇺🇸 Cultural Note】\nアメリカの子供たちは、バレエやタップダンス、ヒップホップなどのダンス教室に通うのが一般的です。"
     },
     {
@@ -560,7 +560,7 @@
       "type": "sort",
       "question": "「私はあなたを驚かせるニュースを持っています。」となるように並び替えてください。",
       "choices": ["news", "have", "surprising", "I", "you", "for"],
-      "answer": "Ihavesurprisingnewsforyou",
+      "answer": "I have surprising news for you",
       "explanation": "surprising news（驚くべきニュース）。\n【🇺🇸 Cultural Note】\nジェンダーリビールパーティー（赤ちゃんの性別発表会）では、ケーキの中身の色などで性別を発表する surprising な演出が人気です。"
     },
     {
@@ -581,7 +581,7 @@
       "type": "sort",
       "question": "「これは多くの人に愛されている歌です。」となるように並び替えてください。",
       "choices": ["song", "This", "loved", "is", "a", "people", "by", "many"],
-      "answer": "Thisisasonglovedbymanypeople",
+      "answer": "This is a song loved by many people",
       "explanation": "a song loved by many people（多くの人に愛されている歌）。\n【🇺🇸 Cultural Note】\n国歌「星条旗（The Star-Spangled Banner）」は、スポーツイベントの開始前に必ず歌われます。"
     },
     {
@@ -602,7 +602,7 @@
       "type": "sort",
       "question": "「向こうで走っている犬を見てください。」となるように並び替えてください。",
       "choices": ["dog", "Look", "running", "that", "at", "over", "there"],
-      "answer": "Lookatthatdogrunningoverthere",
+      "answer": "Look at that dog running over there",
       "explanation": "that dog running over there（向こうで走っている犬）。\n【🇺🇸 Cultural Note】\nドッグラン（Dog run / Dog park）は、犬がリードなしで自由に走り回れる場所として人気があります。"
     },
     {
@@ -623,7 +623,7 @@
       "type": "sort",
       "question": "「これは私たちの学校で使われているコンピュータです。」となるように並び替えてください。",
       "choices": ["computer", "is", "a", "This", "used", "school", "in", "our"],
-      "answer": "Thisisacomputerusedinourschool",
+      "answer": "This is a computer used in our school",
       "explanation": "a computer used in our school（私たちの学校で使われているコンピュータ）。\n【🇺🇸 Cultural Note】\nChromebookは安価で管理しやすいため、多くのアメリカの学校で導入されています。"
     },
     {
@@ -644,7 +644,7 @@
       "type": "sort",
       "question": "「私はボブという名前の少年を知っています。」となるように並び替えてください。",
       "choices": ["boy", "know", "a", "Bob", "named", "I"],
-      "answer": "IknowaboynamedBob",
+      "answer": "I know a boy named Bob",
       "explanation": "a boy named Bob（ボブという名前の少年）。\n【🇺🇸 Cultural Note】\nアメリカでは、親や祖父母の名前をそのまま子供につける（Jr.をつける）ことがよくあります。"
     },
     {
@@ -665,7 +665,7 @@
       "type": "sort",
       "question": "「私はあなたを待っているタクシーを見ました。」となるように並び替えてください。",
       "choices": ["taxi", "saw", "a", "you", "waiting", "for", "I"],
-      "answer": "Isawataxiwaitingforyou",
+      "answer": "I saw a taxi waiting for you",
       "explanation": "a taxi waiting for you（あなたを待っているタクシー）。\n【🇺🇸 Cultural Note】\nニューヨークのイエローキャブ（Yellow Cab）は街のアイコンですが、最近はUberやLyftなどの配車アプリが主流になりつつあります。"
     },
     {
@@ -686,7 +686,7 @@
       "type": "sort",
       "question": "「壁にかかっている絵を見てください。」となるように並び替えてください。",
       "choices": ["picture", "Look", "at", "the", "wall", "on", "the", "hanging"],
-      "answer": "Lookatthepicturehangingonthewall",
+      "answer": "Look at the picture hanging on the wall",
       "explanation": "the picture hanging on the wall（壁にかかっている絵）。hang（かかる）の現在分詞hanging。\n【🇺🇸 Cultural Note】\nアメリカの家では、家族写真（Family portrait）を壁にたくさん飾るのが一般的です。"
     },
     {

@@ -14,7 +14,7 @@
       "type": "sort",
       "question": "「ニューヨークは首都ではありません。」となるように並び替えてください。",
       "choices": ["not", "capital", "York", "is", "New", "the"],
-      "answer": "NewYorkisnotthecapital",
+      "answer": "New York is not the capital",
       "explanation": "否定文なのでis notを使います。\n【🇺🇸 Cultural Note】\nよく勘違いされますが、アメリカの首都はワシントンD.C.です。ニューヨークは経済と文化の中心地ですが、首都機能はありません。"
     },
     {
@@ -35,7 +35,7 @@
       "type": "sort",
       "question": "「野球は人気のあるスポーツです。」となるように並び替えてください。",
       "choices": ["sport", "Baseball", "popular", "is", "a"],
-      "answer": "Baseballisapopularsport",
+      "answer": "Baseball is a popular sport",
       "explanation": "Baseball（単数）なのでisです。\n【🇺🇸 Cultural Note】\n野球は\"America's Pastime\"（アメリカの娯楽）と呼ばれ、歴史的に最も愛されてきたスポーツの一つです。メジャーリーグ（MLB）が最高峰です。"
     },
     {
@@ -56,7 +56,7 @@
       "type": "sort",
       "question": "「ここはとても暑いです。」となるように並び替えてください。",
       "choices": ["hot", "It", "very", "here", "is"],
-      "answer": "Itisveryhothere",
+      "answer": "It is very hot here",
       "explanation": "天候・寒暖を表すItなのでisです。\n【🇺🇸 Cultural Note】\nアメリカでは温度に「華氏（Fahrenheit）」を使います。「It is 100 degrees outside!」と言われたら、摂氏約38℃の猛暑のことです。"
     },
     {
@@ -77,7 +77,7 @@
       "type": "sort",
       "question": "「それらはフライドポテトではありません。」となるように並び替えてください。",
       "choices": ["French", "fries", "not", "They", "are"],
-      "answer": "TheyarenotFrenchfries",
+      "answer": "They are not French fries",
       "explanation": "They are not... です。\n【🇺🇸 Cultural Note】\nアメリカではフライドポテトを\"French fries\"（または単にfries）と呼びます。イギリス英語の\"Chips\"はアメリカではポテトチップスを指します。"
     },
     {
@@ -98,7 +98,7 @@
       "type": "sort",
       "question": "「これらは25セント硬貨です。」となるように並び替えてください。",
       "choices": ["These", "quarters", "are"],
-      "answer": "Thesearequarters",
+      "answer": "These are quarters",
       "explanation": "複数形なのでThese are...です。\n【🇺🇸 Cultural Note】\nアメリカの硬貨には独自の呼び名があります。25セントは\"Quarter\"と呼ばれ、パーキングメーターやコインランドリーで最もよく使われます。"
     },
     {
@@ -119,7 +119,7 @@
       "type": "sort",
       "question": "「その店はメインストリートにあります。」となるように並び替えてください。",
       "choices": ["Main", "is", "store", "Street", "on", "The"],
-      "answer": "ThestoreisonMainStreet",
+      "answer": "The store is on Main Street",
       "explanation": "通り沿いにある場合はonを使います。\n【🇺🇸 Cultural Note】\nアメリカの多くの町には\"Main Street\"という名前の通りがあり、そこが町の中心街（ダウンタウン）であることを示します。"
     },
     {
@@ -140,7 +140,7 @@
       "type": "sort",
       "question": "「私たちはルームメイトです。」となるように並び替えてください。",
       "choices": ["roommates", "are", "We"],
-      "answer": "Weareroommates",
+      "answer": "We are roommates",
       "explanation": "We are... です。\n【🇺🇸 Cultural Note】\nアメリカの大学では寮生活が一般的で、他人と部屋をシェアする\"Roommate\"（ルームメイト）文化が深く根付いています。"
     },
     {
@@ -161,7 +161,7 @@
       "type": "sort",
       "question": "「スーパーボウルは日曜日です。」となるように並び替えてください。",
       "choices": ["Bowl", "is", "Sunday", "The", "on", "Super"],
-      "answer": "TheSuperBowlisonSunday",
+      "answer": "The Super Bowl is on Sunday",
       "explanation": "曜日にはonを使います。\n【🇺🇸 Cultural Note】\nアメフト（NFL）の優勝決定戦で、アメリカで最も視聴率が高いテレビ番組です。ハーフタイムショーも世界的な注目を集めます。"
     },
     {
@@ -182,7 +182,7 @@
       "type": "sort",
       "question": "「ここは地下鉄の駅ではありません。」となるように並び替えてください。",
       "choices": ["station", "not", "is", "subway", "a", "This"],
-      "answer": "Thisisnotasubwaystation",
+      "answer": "This is not a subway station",
       "explanation": "This is not... です。\n【🇺🇸 Cultural Note】\nアメリカ英語では地下鉄を\"Subway\"と言います（イギリスではUnderground）。ニューヨークの地下鉄は24時間運行で有名です。"
     },
     {
@@ -203,7 +203,7 @@
       "type": "sort",
       "question": "「それらはドーナツですか、それともベーグルですか？」となるように並び替えてください。",
       "choices": ["bagels", "donuts", "they", "Are", "or"],
-      "answer": "Aretheydonutsorbagels",
+      "answer": "Are they donuts or bagels",
       "explanation": "Are they A or B? の形です。\n【🇺🇸 Cultural Note】\nどちらもアメリカの朝食の定番です。ドーナツはコーヒーと共に、ベーグルはクリームチーズを塗って食べられることが多いです。"
     },
     {
@@ -224,7 +224,7 @@
       "type": "sort",
       "question": "「私の先生はカナダ出身です。」となるように並び替えてください。",
       "choices": ["teacher", "Canada", "from", "My", "is"],
-      "answer": "MyteacherisfromCanada",
+      "answer": "My teacher is from Canada",
       "explanation": "My teacher（単数）なのでisです。\n【🇺🇸 Cultural Note】\nカナダはアメリカの北の隣国です。文化は似ていますが、カナダ人は「アメリカ人とは違う」というアイデンティティを強く持っています。"
     },
     {
@@ -245,7 +245,7 @@
       "type": "sort",
       "question": "「その試験は難しくありませんでした。」となるように並び替えてください。",
       "choices": ["exam", "difficult", "was", "not", "The"],
-      "answer": "Theexamwasnotdifficult",
+      "answer": "The exam was not difficult",
       "explanation": "The exam（単数・過去）なのでwas notです。\n【🇺🇸 Cultural Note】\nアメリカの大学入試にはSATやACTという標準テストが使われます。"
     },
     {
@@ -266,7 +266,7 @@
       "type": "sort",
       "question": "「アラスカはとても寒いです。」となるように並び替えてください。",
       "choices": ["very", "Alaska", "is", "cold"],
-      "answer": "Alaskaisverycold",
+      "answer": "Alaska is very cold",
       "explanation": "Alaska（単数）なのでisです。\n【🇺🇸 Cultural Note】\nアメリカ最大の面積を持つ州です。元々はロシアから購入した土地でした。"
     },
     {
@@ -287,7 +287,7 @@
       "type": "sort",
       "question": "「あなたは獣医ですか？」となるように並び替えてください。",
       "choices": ["vet", "you", "Are", "a"],
-      "answer": "Areyouavet",
+      "answer": "Are you a vet",
       "explanation": "Are you a vet? （vetはveterinarianの略）。\n【🇺🇸 Cultural Note】\nアメリカはペット大国なので、獣医（Vet）は非常に身近で重要な職業です。"
     },
     {
@@ -308,7 +308,7 @@
       "type": "sort",
       "question": "「タイムズスクエアはニューヨークにあります。」となるように並び替えてください。",
       "choices": ["Square", "Times", "York", "is", "in", "New"],
-      "answer": "TimesSquareisinNewYork",
+      "answer": "Times Square is in New York",
       "explanation": "地名なのでisです。\n【🇺🇸 Cultural Note】\n「世界の交差点」と呼ばれます。大晦日のカウントダウンイベント（Ball Drop）は世界的に有名です。"
     },
     {
@@ -329,7 +329,7 @@
       "type": "sort",
       "question": "「それは良い考えですね。」となるように並び替えてください。",
       "choices": ["idea", "good", "a", "That", "is"],
-      "answer": "Thatisagoodidea",
+      "answer": "That is a good idea",
       "explanation": "That（単数）なのでisです。\n【🇺🇸 Cultural Note】\nアメリカのブレインストーミングでは、どんな意見もまずは肯定的に受け止める文化があります。"
     },
     {
@@ -350,7 +350,7 @@
       "type": "sort",
       "question": "「バスケットボールは面白いです。」となるように並び替えてください。",
       "choices": ["interesting", "is", "Basketball"],
-      "answer": "Basketballisinteresting",
+      "answer": "Basketball is interesting",
       "explanation": "Basketball（単数）なのでisです。\n【🇺🇸 Cultural Note】\nアメリカ発祥のスポーツです。NBAは世界最高峰のリーグで、マイケル・ジョーダンなどのスターを生みました。"
     },
     {
@@ -371,7 +371,7 @@
       "type": "sort",
       "question": "「これらは私のジーンズです。」となるように並び替えてください。",
       "choices": ["These", "jeans", "my", "are"],
-      "answer": "Thesearemyjeans",
+      "answer": "These are my jeans",
       "explanation": "Jeansは複数扱い（脚が2本あるため）なのでareを使います。\n【🇺🇸 Cultural Note】\nジーンズ（Blue Jeans）はアメリカのゴールドラッシュ時代に、丈夫な作業着としてリーバイス社によって広められました。"
     },
     {
@@ -392,7 +392,7 @@
       "type": "sort",
       "question": "「ルート66は有名な道路です。」となるように並び替えてください。",
       "choices": ["road", "famous", "is", "66", "Route", "a"],
-      "answer": "Route66isafamousroad",
+      "answer": "Route 66 is a famous road",
       "explanation": "Route 66（単数）なのでisです。\n【🇺🇸 Cultural Note】\nシカゴとサンタモニカを結んでいた歴史的な国道。「マザー・ロード」と呼ばれ、アメリカのポップカルチャーの象徴です。"
     },
     {
@@ -413,7 +413,7 @@
       "type": "sort",
       "question": "「彼らは観光客です。」となるように並び替えてください。",
       "choices": ["tourists", "are", "They"],
-      "answer": "Theyaretourists",
+      "answer": "They are tourists",
       "explanation": "They are... です。\n【🇺🇸 Cultural Note】\nアメリカは世界中から観光客が訪れます。ニューヨーク、ラスベガス、グランドキャニオンなどが人気です。"
     },
     {
@@ -434,7 +434,7 @@
       "type": "sort",
       "question": "「マイアミはフロリダにあります。」となるように並び替えてください。",
       "choices": ["in", "Florida", "Miami", "is"],
-      "answer": "MiamiisinFlorida",
+      "answer": "Miami is in Florida",
       "explanation": "都市名なのでisです。\n【🇺🇸 Cultural Note】\n美しいビーチとラテン文化で有名なリゾート都市です。"
     },
     {
@@ -455,7 +455,7 @@
       "type": "sort",
       "question": "「ホットドッグはおいしいです。」となるように並び替えてください。",
       "choices": ["delicious", "Hot", "dogs", "are"],
-      "answer": "Hotdogsaredelicious",
+      "answer": "Hot dogs are delicious",
       "explanation": "Hot dogs（複数）なのでareです。\n【🇺🇸 Cultural Note】\n野球観戦や独立記念日のBBQに欠かせないアメリカのソウルフードです。ニューヨークの屋台も有名です。"
     },
     {
@@ -476,7 +476,7 @@
       "type": "sort",
       "question": "「ゴールデンゲートブリッジは赤いです。」となるように並び替えてください。",
       "choices": ["Bridge", "Gate", "Golden", "red", "The", "is"],
-      "answer": "TheGoldenGateBridgeisred",
+      "answer": "The Golden Gate Bridge is red",
       "explanation": "単数なのでisです。\n【🇺🇸 Cultural Note】\nサンフランシスコの象徴です。実際の色は「インターナショナルオレンジ」と呼ばれ、霧の中でも目立つように選ばれました。"
     },
     {
@@ -497,7 +497,7 @@
       "type": "sort",
       "question": "「それらはバッファローウィングです。」となるように並び替えてください。",
       "choices": ["Buffalo", "wings", "They", "are"],
-      "answer": "TheyareBuffalowings",
+      "answer": "They are Buffalo wings",
       "explanation": "They are... です。\n【🇺🇸 Cultural Note】\nニューヨーク州バッファロー発祥の鶏手羽料理。辛いソースを絡めてブルーチーズドレッシングにつけて食べます。"
     },
     {
@@ -518,7 +518,7 @@
       "type": "sort",
       "question": "「ボストンは古い都市です。」となるように並び替えてください。",
       "choices": ["old", "city", "Boston", "an", "is"],
-      "answer": "Bostonisanoldcity",
+      "answer": "Boston is an old city",
       "explanation": "Boston（単数）なのでisです。\n【🇺🇸 Cultural Note】\nアメリカ建国の歴史において重要な役割を果たした都市です。ボストン茶会事件などが有名です。"
     },
     {
@@ -537,9 +537,9 @@
     },
     {
       "type": "sort",
-      "question": "「それらはパンプキンパイです。」となるように並び替えてください。",
+      "question": "「それらはパンンプキンパイです。」となるように並び替えてください。",
       "choices": ["pies", "They", "are", "pumpkin"],
-      "answer": "Theyarepumpkinpies",
+      "answer": "They are pumpkin pies",
       "explanation": "They are... です。\n【🇺🇸 Cultural Note】\n感謝祭（Thanksgiving）のデザートの定番です。シナモンやナツメグなどのスパイスが効いています。"
     },
     {
@@ -554,13 +554,13 @@
       "question": "「ここはダウンタウンですか？」\n(      ) this downtown?",
       "choices": ["Is", "Are", "Am", "Be"],
       "answer": "Is",
-      "explanation": "This（単数）なのでIsです。\n【🇺🇸 Cultural Note】\nDowntownは都市の中心業務地区のこと。高層ビルが立ち並ぶエリアを指すことが多いです。"
+      "explanation": "This（単数）なのでIsです。\n【🇺🇸 Cultural Note】\nDowntownは都市の中心業務地区のこと。高層ビルが立ち立ち並ぶエリアを指すことが多いです。"
     },
     {
       "type": "sort",
       "question": "「デトロイトはモーターシティ（自動車の街）です。」となるように並び替えてください。",
       "choices": ["Motor", "Detroit", "City", "is", "the"],
-      "answer": "DetroitistheMotorCity",
+      "answer": "Detroit is the Motor City",
       "explanation": "Detroit（単数）なのでisです。\n【🇺🇸 Cultural Note】\nフォード、GM、クライスラーの「ビッグスリー」が拠点を置いたことから、自動車産業の中心地として発展しました。"
     },
     {
@@ -581,7 +581,7 @@
       "type": "sort",
       "question": "「オバマは44代大統領でした。」となるように並び替えてください。",
       "choices": ["President", "Obama", "44th", "the", "was"],
-      "answer": "Obamawasthe44thPresident",
+      "answer": "Obama was the 44th President",
       "explanation": "過去の人物（任期終了）なのでwasです。\n【🇺🇸 Cultural Note】\nバラク・オバマはアメリカ初のアフリカ系大統領です。"
     },
     {
@@ -602,7 +602,7 @@
       "type": "sort",
       "question": "「私たちは遅れていますか？」となるように並び替えてください。",
       "choices": ["We", "late", "Are"],
-      "answer": "AreWelate",
+      "answer": "Are we late",
       "explanation": "Are we late?\n【🇺🇸 Cultural Note】\nアメリカのビジネスシーンでは時間は厳守（Punctual）されますが、ホームパーティーなどは少し遅れて行くのがマナーとされることもあります。"
     },
     {
@@ -623,7 +623,7 @@
       "type": "sort",
       "question": "「これらはベーグルです。」となるように並び替えてください。",
       "choices": ["bagels", "These", "are"],
-      "answer": "Thesearebagels",
+      "answer": "These are bagels",
       "explanation": "These are... です。\n【🇺🇸 Cultural Note】\n真ん中に穴の開いたパンです。ニューヨークのベーグルは、茹でてから焼くためモチモチした食感が特徴です。"
     },
     {
@@ -644,7 +644,7 @@
       "type": "sort",
       "question": "「ブロードウェイはニューヨークにあります。」となるように並び替えてください。",
       "choices": ["in", "York", "Broadway", "New", "is"],
-      "answer": "BroadwayisinNewYork",
+      "answer": "Broadway is in New York",
       "explanation": "単数なのでisです。\n【🇺🇸 Cultural Note】\nマンハッタンを南北に走る通りで、ミュージカル劇場の代名詞となっています。"
     },
     {
@@ -665,7 +665,7 @@
       "type": "sort",
       "question": "「それは1ドルです。」となるように並び替えてください。",
       "choices": ["one", "is", "dollar", "It"],
-      "answer": "Itisonedollar",
+      "answer": "It is one dollar",
       "explanation": "It is... です。\n【🇺🇸 Cultural Note】\n1ドルショップ（Dollar Store）は、日本の100円ショップのような存在です。"
     },
     {
@@ -686,7 +686,7 @@
       "type": "sort",
       "question": "「私の犬は家族の一員です。」となるように並び替えてください。",
       "choices": ["family", "part", "My", "is", "dog", "of", "the"],
-      "answer": "Mydogispartofthefamily",
+      "answer": "My dog is part of the family",
       "explanation": "My dog（単数）なのでisです。\n【🇺🇸 Cultural Note】\nアメリカではペットを家族同然に扱います。「うちの子（My baby）」と呼ぶ人も多いです。"
     },
     {
@@ -707,7 +707,7 @@
       "type": "sort",
       "question": "「シアトルは雨が多いです（雨降りです）。」となるように並び替えてください。",
       "choices": ["is", "rainy", "Seattle"],
-      "answer": "Seattleisrainy",
+      "answer": "Seattle is rainy",
       "explanation": "都市名なのでisです。\n【🇺🇸 Cultural Note】\nスターバックスやAmazonの発祥地です。雨が多いため、コーヒー文化が発達したと言われています。"
     },
     {
@@ -728,7 +728,7 @@
       "type": "sort",
       "question": "「これらは私の靴です。」となるように並び替えてください。",
       "choices": ["shoes", "my", "These", "are"],
-      "answer": "Thesearemyshoes",
+      "answer": "These are my shoes",
       "explanation": "Shoes（複数）なのでareです。\n【🇺🇸 Cultural Note】\nアメリカの家では、靴を履いたまま中に入ることが多いですが、最近は脱ぐ家庭も増えています。"
     },
     {
@@ -749,7 +749,7 @@
       "type": "sort",
       "question": "「自由の鐘はフィラデルフィアにあります。」となるように並び替えてください。",
       "choices": ["in", "Philadelphia", "Liberty", "is", "Bell", "The"],
-      "answer": "TheLibertyBellisinPhiladelphia",
+      "answer": "The Liberty Bell is in Philadelphia",
       "explanation": "単数なのでisです。\n【🇺🇸 Cultural Note】\nアメリカ独立のシンボルです。大きなひび割れがあることで知られています。"
     },
     {
@@ -770,7 +770,7 @@
       "type": "sort",
       "question": "「これらはパンケーキです。」となるように並び替えてください。",
       "choices": ["pancakes", "These", "are"],
-      "answer": "Thesearepancakes",
+      "answer": "These are pancakes",
       "explanation": "These are... です。\n【🇺🇸 Cultural Note】\nアメリカのパンケーキは朝食の定番で、ベーコンや卵と一緒に、メープルシロップをたっぷりかけて食べます。"
     },
     {
@@ -791,7 +791,7 @@
       "type": "sort",
       "question": "「それは良い映画でした。」となるように並び替えてください。",
       "choices": ["good", "movie", "was", "a", "It"],
-      "answer": "Itwasagoodmovie",
+      "answer": "It was a good movie",
       "explanation": "過去の話なのでwasです。\n【🇺🇸 Cultural Note】\nアメリカ人は映画館（Movie theater）で映画を見るのが大好きです。ポップコーンとソーダは必須アイテムです。"
     },
     {

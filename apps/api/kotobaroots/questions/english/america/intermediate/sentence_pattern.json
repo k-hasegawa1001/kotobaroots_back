@@ -14,7 +14,7 @@
       "type": "sort",
       "question": "「私の父は医者です。」となるように並び替えてください。[第2文型 SVC]",
       "choices": ["doctor", "father", "is", "a", "My"],
-      "answer": "Myfatherisadoctor",
+      "answer": "My father is a doctor",
       "explanation": "My father(S) = a doctor(C)。S=Cの関係が成り立つのが第2文型です。\n【🇺🇸 Cultural Note】\nアメリカの医師になるための教育課程は非常に長く、学費も高額ですが、社会的地位と収入は非常に高い職業です。"
     },
     {
@@ -35,7 +35,7 @@
       "type": "sort",
       "question": "「彼は私にプレゼントをくれました。」となるように並び替えてください。[第4文型 SVOO]",
       "choices": ["present", "gave", "me", "He", "a"],
-      "answer": "Hegavemeapresent",
+      "answer": "He gave me a present",
       "explanation": "He(S) gave(V) me(O1) a present(O2)。「人に物を」の順序です。\n【🇺🇸 Cultural Note】\nクリスマスや誕生日のプレゼントには、気に入らなければ返品・交換できるように「ギフトレシート」を添えるのが一般的です。"
     },
     {
@@ -56,7 +56,7 @@
       "type": "sort",
       "question": "「彼は速く走ります。」となるように並び替えてください。[第1文型 SV]",
       "choices": ["fast", "runs", "He"],
-      "answer": "Herunsfast",
+      "answer": "He runs fast",
       "explanation": "He(S) runs(V)。fastは副詞（修飾語M）なので、文の主要素には含まれません。基本はSVの文です。\n【🇺🇸 Cultural Note】\nフォレスト・ガンプのように、ただ走ること（Running）がアメリカのフィットネス文化の基本です。"
     },
     {
@@ -77,7 +77,7 @@
       "type": "sort",
       "question": "「私は彼に新しい車を買ってあげました。」となるように並び替えてください。[第4文型 SVOO]",
       "choices": ["bought", "him", "I", "car", "a", "new"],
-      "answer": "Iboughthimanewcar",
+      "answer": "I bought him a new car",
       "explanation": "I(S) bought(V) him(O1) a new car(O2)。\n【🇺🇸 Cultural Note】\nアメリカの高校生にとって、16歳の誕生日に親から車をもらうのは最高のステータスです。"
     },
     {
@@ -98,7 +98,7 @@
       "type": "sort",
       "question": "「彼女は先生になりました。」となるように並び替えてください。[第2文型 SVC]",
       "choices": ["became", "teacher", "a", "She"],
-      "answer": "Shebecameateacher",
+      "answer": "She became a teacher",
       "explanation": "She(S) became(V) a teacher(C)。S=C（彼女＝先生）の関係。\n【🇺🇸 Cultural Note】\nアメリカの学校の先生は、新学期に必要な文房具を自腹で用意することも多く、その献身さが社会的に議論されています。"
     },
     {
@@ -119,7 +119,7 @@
       "type": "sort",
       "question": "「ドアを開けたままにしておいて。」となるように並び替えてください。[第5文型 SVOC]",
       "choices": ["open", "door", "the", "Leave"],
-      "answer": "Leavethedooropen",
+      "answer": "Leave the door open",
       "explanation": "Leave(V) the door(O) open(C)。OをCの状態にしておく。\n【🇺🇸 Cultural Note】\nアメリカのオフィスでは「Open Door Policy」（ドアを開放して、いつでも部下が相談に来られるようにする方針）が推奨されることがあります。"
     },
     {
@@ -140,7 +140,7 @@
       "type": "sort",
       "question": "「その部屋をきれいにしておきなさい。」となるように並び替えてください。[第5文型 SVOC]",
       "choices": ["clean", "room", "Keep", "the"],
-      "answer": "Keeptheroomclean",
+      "answer": "Keep the room clean",
       "explanation": "Keep(V) the room(O) clean(C)。OをCの状態に保つ。\n【🇺🇸 Cultural Note】\n「Clean up your room!」は、世界中の親が子供に言う共通のセリフです。"
     },
     {
@@ -161,7 +161,7 @@
       "type": "sort",
       "question": "「彼に飲み物を買ってあげましょう。」となるように並び替えてください。[第4文型 SVOO]",
       "choices": ["him", "drink", "Let's", "buy", "a"],
-      "answer": "Letsbuyhimadrink",
+      "answer": "Let's buy him a drink",
       "explanation": "Let's buy(V) him(O1) a drink(O2)。\n【🇺🇸 Cultural Note】\nバーで友人に「一杯おごるよ」と言う時は \"Let me buy you a drink.\" と言います。"
     },
     {
@@ -182,7 +182,7 @@
       "type": "sort",
       "question": "「彼女は彼に英語を教えています（SVOへの書き換え）。」となるように並び替えてください。",
       "choices": ["teaches", "English", "She", "to", "him"],
-      "answer": "SheteachesEnglishtohim",
+      "answer": "She teaches English to him",
       "explanation": "teachは相手に向かっていく動作なので to を使います。\n【🇺🇸 Cultural Note】\nアメリカの学校教育では「Critical Thinking（批判的思考）」を教えることが重視されます。"
     },
     {
@@ -203,7 +203,7 @@
       "type": "sort",
       "question": "「太陽は東から昇ります。」となるように並び替えてください。[第1文型 SV]",
       "choices": ["sun", "The", "rises", "the", "in", "east"],
-      "answer": "Thesunrisesintheeast",
+      "answer": "The sun rises in the east",
       "explanation": "The sun(S) rises(V)。in the eastは修飾語(M)。\n【🇺🇸 Cultural Note】\nフロリダ州は「サンシャイン・ステート」という愛称を持っています。"
     },
     {
@@ -224,7 +224,7 @@
       "type": "sort",
       "question": "「その歌は彼女を有名にしました。」となるように並び替えてください。[第5文型 SVOC]",
       "choices": ["song", "famous", "The", "her", "made"],
-      "answer": "Thesongmadeherfamous",
+      "answer": "The song made her famous",
       "explanation": "The song(S) made(V) her(O) famous(C)。O=C（彼女＝有名）の関係。\n【🇺🇸 Cultural Note】\nナッシュビル（テネシー州）はカントリーミュージックの聖地で、多くのシンガーがここから有名になりました。"
     },
     {
@@ -245,7 +245,7 @@
       "type": "sort",
       "question": "「彼にその写真を見せてください。」となるように並び替えてください。[第4文型 SVOO]",
       "choices": ["him", "picture", "Show", "the"],
-      "answer": "Showhimthepicture",
+      "answer": "Show him the picture",
       "explanation": "Show(V) him(O1) the picture(O2)。\n【🇺🇸 Cultural Note】\n学校の授業で、自分の好きなものや経験について実物や写真を見せながら話す「Show and Tell」という活動があります。"
     },
     {
@@ -266,8 +266,8 @@
       "type": "sort",
       "question": "「私はその窓を開けたままにしました。」となるように並び替えてください。[第5文型 SVOC]",
       "choices": ["left", "window", "I", "open", "the"],
-      "answer": "Ileftthewindowopen",
-      "explanation": "I(S) left(V) the window(O) open(C)。leave O C（OをCの状態のままにしておく）。\n【🇺🇸 Cultural Note】\nエアコンが普及しているため、夏場でも窓を開けずに空調管理された部屋で過ごすことが多いです。"
+      "answer": "I left the window open",
+      "explanation": "I(S) left(V) the window(O) open(C)。leave O C（OをCの状態のままにしておく）。\n【🇺🇸 Cultural Note】\nエアコンが普及しているため、夏場でも窓を閉め切って空調管理された部屋で過ごすことが多いです。"
     },
     {
       "type": "fill_in_the_blank",
@@ -287,7 +287,7 @@
       "type": "sort",
       "question": "「私たちは彼女をリーダーに選びました。」となるように並び替えてください。[第5文型 SVOC]",
       "choices": ["her", "leader", "We", "elected"],
-      "answer": "Weelectedherleader",
+      "answer": "We elected her leader",
       "explanation": "We(S) elected(V) her(O) leader(C)。役職を表す補語の場合、冠詞がつかないことが多いです。\n【🇺🇸 Cultural Note】\nアメリカの大統領選挙（Presidential Election）は4年に一度行われるビッグイベントです。"
     },
     {
@@ -308,7 +308,7 @@
       "type": "sort",
       "question": "「その本は面白いとわかりました。」となるように並び替えてください。[第5文型 SVOC]",
       "choices": ["book", "found", "interesting", "I", "the"],
-      "answer": "Ifoundthebookinteresting",
+      "answer": "I found the book interesting",
       "explanation": "I(S) found(V) the book(O) interesting(C)。\n【🇺🇸 Cultural Note】\n「Book Club」といって、同じ本を読んで感想を語り合うサークル活動が盛んです（オプラ・ウィンフリーのブッククラブが有名）。"
     },
     {
@@ -329,7 +329,7 @@
       "type": "sort",
       "question": "「お父さんと呼んでください。」となるように並び替えてください。[第5文型 SVOC]",
       "choices": ["Dad", "Call", "me"],
-      "answer": "CallmeDad",
+      "answer": "Call me Dad",
       "explanation": "Call(V) me(O) Dad(C)。命令文です。\n【🇺🇸 Cultural Note】\n義理の父親（Stepfather）をどう呼ぶかは、家族の関係性によって異なります。"
     },
     {
@@ -350,7 +350,7 @@
       "type": "sort",
       "question": "「温かくしておいてね（体を温かい状態に保ってね）。」となるように並び替えてください。[第5文型 SVOC]",
       "choices": ["warm", "Keep", "yourself"],
-      "answer": "Keepyourselfwarm",
+      "answer": "Keep yourself warm",
       "explanation": "Keep(V) yourself(O) warm(C)。\n【🇺🇸 Cultural Note】\n北部の冬は厳しく、セントラルヒーティング（全館暖房）が一般的です。"
     },
     {
@@ -371,7 +371,7 @@
       "type": "sort",
       "question": "「私の犬は速く走ります。」となるように並び替えてください。[第1文型 SV]",
       "choices": ["fast", "dog", "runs", "My"],
-      "answer": "Mydogrunsfast",
+      "answer": "My dog runs fast",
       "explanation": "My dog(S) runs(V)。fastは副詞。\n【🇺🇸 Cultural Note】\nグレーハウンドは走るために改良された犬種で、ドッグレースに使われていましたが、引退犬の保護活動も盛んです。"
     },
     {
@@ -392,7 +392,7 @@
       "type": "sort",
       "question": "「コーヒーを入れてあげましょう（ゲットしてあげましょう）。」となるように並び替えてください。[第4文型 SVOO]",
       "choices": ["get", "you", "coffee", "I'll", "some"],
-      "answer": "Illgetyousomecoffee",
+      "answer": "I'll get you some coffee",
       "explanation": "I'll get(V) you(O1) some coffee(O2)。getは「（場所を移動して）手に入れてくる・持ってくる」という意味でよく使われます。\n【🇺🇸 Cultural Note】\n職場で \"Coffee run\"（コーヒーの買い出し）に行くとき、同僚の分も聞いてあげるのが親切です。"
     },
     {
@@ -413,7 +413,7 @@
       "type": "sort",
       "question": "「この毛布は柔らかい感じがします。」となるように並び替えてください。[第2文型 SVC]",
       "choices": ["soft", "feels", "blanket", "This"],
-      "answer": "Thisblanketfeelssoft",
+      "answer": "This blanket feels soft",
       "explanation": "This blanket(S) feels(V) soft(C)。\n【🇺🇸 Cultural Note】\nライナスの毛布（Security blanket）のように、子供が安心するために手放さないお気に入りの毛布を持つことがあります。"
     },
     {
@@ -434,7 +434,7 @@
       "type": "sort",
       "question": "「祖母は私に物語を話してくれました（SVOへの書き換え）。」となるように並び替えてください。",
       "choices": ["told", "to", "grandmother", "story", "a", "My", "me"],
-      "answer": "Mygrandmothertoldastorytome",
+      "answer": "My grandmother told a story to me",
       "explanation": "tellは相手に伝えるので to を使います。\n【🇺🇸 Cultural Note】\nベッドタイムストーリー（寝る前の読み聞かせ）は、多くのアメリカの家庭で毎晩行われる習慣です。"
     },
     {
@@ -455,7 +455,7 @@
       "type": "sort",
       "question": "「私は彼に手紙を書きました。」となるように並び替えてください。[第4文型 SVOO]",
       "choices": ["wrote", "letter", "I", "him", "a"],
-      "answer": "Iwrotehimaletter",
+      "answer": "I wrote him a letter",
       "explanation": "I(S) wrote(V) him(O1) a letter(O2)。\n【🇺🇸 Cultural Note】\n戦地に行った兵士への手紙（Military mail）は、家族との絆を繋ぐライフラインです。"
     },
     {
@@ -476,7 +476,7 @@
       "type": "sort",
       "question": "「彼女は私たちにおいしい夕食を作ってくれました。」となるように並び替えてください。[第4文型 SVOO]",
       "choices": ["cooked", "us", "She", "dinner", "nice", "a"],
-      "answer": "Shecookedusanicedinner",
+      "answer": "She cooked us a nice dinner",
       "explanation": "She(S) cooked(V) us(O1) a nice dinner(O2)。\n【🇺🇸 Cultural Note】\n感謝祭（Thanksgiving）のディナーは、ターキー、スタフィング、クランベリーソースなどが定番メニューです。"
     },
     {
@@ -497,7 +497,7 @@
       "type": "sort",
       "question": "「彼は医者になりました。」となるように並び替えてください。[第2文型 SVC]",
       "choices": ["doctor", "became", "He", "a"],
-      "answer": "Hebecameadoctor",
+      "answer": "He became a doctor",
       "explanation": "He(S) became(V) a doctor(C)。S=C。\n【🇺🇸 Cultural Note】\nアメリカの医師免許は州ごとに管理されており、他の州で開業するには手続きが必要です。"
     },
     {
@@ -518,7 +518,7 @@
       "type": "sort",
       "question": "「私たちはその犬をポチと名付けます。」となるように並び替えてください。[第5文型 SVOC]",
       "choices": ["Pochi", "dog", "We", "name", "the"],
-      "answer": "WenamethedogPochi",
+      "answer": "We name the dog Pochi",
       "explanation": "We(S) name(V) the dog(O) Pochi(C)。O=C。\n【🇺🇸 Cultural Note】\nアメリカで最も人気のある犬種は長年ラブラドール・レトリバーでしたが、最近はフレンチ・ブルドッグが人気です。"
     },
     {
@@ -539,7 +539,7 @@
       "type": "sort",
       "question": "「彼は私に新しい車を見せてくれました（SVOへの書き換え）。」となるように並び替えてください。",
       "choices": ["car", "showed", "He", "to", "new", "me", "his"],
-      "answer": "Heshowedhisnewcartome",
+      "answer": "He showed his new car to me",
       "explanation": "showは相手に見せる（届く）ので to を使います。\n【🇺🇸 Cultural Note】\nアメリカの高校では、運転免許を取ったばかりの生徒が自分の車で登校するのが一種のステータスです。"
     },
     {
@@ -560,7 +560,7 @@
       "type": "sort",
       "question": "「父は私におもちゃを作ってくれました。」となるように並び替えてください。[第4文型 SVOO]",
       "choices": ["toy", "made", "me", "father", "a", "My"],
-      "answer": "Myfathermademeatoy",
+      "answer": "My father made me a toy",
       "explanation": "My father(S) made(V) me(O1) a toy(O2)。\n【🇺🇸 Cultural Note】\n日曜大工（DIY）で子供のために木のブランコやツリーハウスを作るお父さんはかっこいいとされます。"
     },
     {
@@ -581,7 +581,7 @@
       "type": "sort",
       "question": "「鳥たちは歌います。」となるように並び替えてください。[第1文型 SV]",
       "choices": ["sing", "Birds"],
-      "answer": "Birdssing",
+      "answer": "Birds sing",
       "explanation": "Birds(S) sing(V)。最も単純な文型です。\n【🇺🇸 Cultural Note】\n早起きな人を \"Early bird\" と呼ぶのは、ことわざ \"The early bird catches the worm\"（早起きは三文の徳）から来ています。"
     },
     {
@@ -602,7 +602,7 @@
       "type": "sort",
       "question": "「私にEメールを送ってください（SVOへの書き換え）。」となるように並び替えてください。",
       "choices": ["email", "Send", "me", "an", "to"],
-      "answer": "Sendanemailtome",
+      "answer": "Send an email to me",
       "explanation": "sendは相手に届くので to を使います。\n【🇺🇸 Cultural Note】\n迷惑メールのことを「Spam」と呼びますが、これは缶詰のSPAMが語源です（モンティ・パイソンのコント由来）。"
     },
     {
@@ -623,7 +623,7 @@
       "type": "sort",
       "question": "「私に飲み物を買ってください（SVOへの書き換え）。」となるように並び替えてください。",
       "choices": ["drink", "for", "a", "Buy", "me"],
-      "answer": "Buyadrinkforme",
+      "answer": "Buy a drink for me",
       "explanation": "buyは相手のために買うので for を使います。\n【🇺🇸 Cultural Note】\nドライブスルー（Drive-thru）では、飲み物だけでも気軽に注文できます。"
     },
     {
@@ -644,7 +644,7 @@
       "type": "sort",
       "question": "「先生は私たちに宿題を出しました（くれました）。」となるように並び替えてください。[第4文型 SVOO]",
       "choices": ["homework", "teacher", "us", "gave", "The"],
-      "answer": "Theteachergaveushomework",
+      "answer": "The teacher gave us homework",
       "explanation": "The teacher(S) gave(V) us(O1) homework(O2)。\n【🇺🇸 Cultural Note】\n夏休みの宿題（Summer homework）は、日本ほど多くないか、全くない学校も多いです。"
     },
     {
@@ -665,7 +665,7 @@
       "type": "sort",
       "question": "「その音楽はうるさく聞こえます。」となるように並び替えてください。[第2文型 SVC]",
       "choices": ["loud", "music", "sounds", "The"],
-      "answer": "Themusicsoundsloud",
+      "answer": "The music sounds loud",
       "explanation": "The music(S) sounds(V) loud(C)。\n【🇺🇸 Cultural Note】\nロックコンサートやカーオーディオの音量は非常に大きく、騒音条例（Noise ordinance）の対象になることもあります。"
     },
     {
@@ -686,7 +686,7 @@
       "type": "sort",
       "question": "「彼はドアを鍵のかかっていない状態にしました（開けっ放しにしました）。」となるように並び替えてください。[第5文型 SVOC]",
       "choices": ["unlocked", "left", "He", "door", "the"],
-      "answer": "Heleftthedoorunlocked",
+      "answer": "He left the door unlocked",
       "explanation": "He(S) left(V) the door(O) unlocked(C)。\n【🇺🇸 Cultural Note】\n田舎の治安の良い地域では、今でも家に鍵をかけない（Leave doors unlocked）習慣が残っているところがあります。"
     },
     {

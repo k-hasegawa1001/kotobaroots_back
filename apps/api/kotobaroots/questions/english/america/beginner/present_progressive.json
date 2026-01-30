@@ -14,7 +14,7 @@
       "type": "sort",
       "question": "「彼女はホットドッグを食べています。」となるように並び替えてください。",
       "choices": ["eating", "She", "is", "hot dog", "a"],
-      "answer": "Sheiseatingahotdog",
+      "answer": "She is eating a hot dog",
       "explanation": "She is eating...（彼女は食べている）。\n【🇺🇸 Cultural Note】\nニューヨークのコニーアイランドでは、毎年7月4日にホットドッグ早食い大会が開催されます。"
     },
     {
@@ -35,7 +35,7 @@
       "type": "sort",
       "question": "「私たちは感謝祭を祝っています。」となるように並び替えてください。",
       "choices": ["Thanksgiving", "celebrating", "We", "are"],
-      "answer": "WearecelebratingThanksgiving",
+      "answer": "We are celebrating Thanksgiving",
       "explanation": "Celebrateにingをつけます（eを取ってing）。\n【🇺🇸 Cultural Note】\n感謝祭には家族が集まり、過去一年の恵みに感謝します。"
     },
     {
@@ -56,7 +56,7 @@
       "type": "sort",
       "question": "「彼は働いていません。」となるように並び替えてください。",
       "choices": ["working", "isn't", "He"],
-      "answer": "Heisn'tworking",
+      "answer": "He isn't working",
       "explanation": "否定文はbe動詞の後ろにnotをつけます（isn't）。\n【🇺🇸 Cultural Note】\nレイバー・デー（労働者の日）は9月の第1月曜日で、夏の終わりの祝日として親しまれています。"
     },
     {
@@ -77,7 +77,7 @@
       "type": "sort",
       "question": "「彼らはアメフトをしています。」となるように並び替えてください。",
       "choices": ["football", "playing", "They", "are"],
-      "answer": "Theyareplayingfootball",
+      "answer": "They are playing football",
       "explanation": "Playにingをつけます。\n【🇺🇸 Cultural Note】\n高校のアメフトの試合（Friday Night Lights）は、地域コミュニティの一大イベントです。"
     },
     {
@@ -98,7 +98,7 @@
       "type": "sort",
       "question": "「バスが来ています。」となるように並び替えてください。",
       "choices": ["coming", "bus", "is", "The"],
-      "answer": "Thebusiscoming",
+      "answer": "The bus is coming",
       "explanation": "Comeはeを取ってingをつけます（coming）。\n【🇺🇸 Cultural Note】\nアメリカの黄色いスクールバスは、子供たちの安全を守るために頑丈に作られています。"
     },
     {
@@ -119,7 +119,7 @@
       "type": "sort",
       "question": "「彼女は手紙を書いています。」となるように並び替えてください。",
       "choices": ["letter", "writing", "She", "is", "a"],
-      "answer": "Sheiswritingaletter",
+      "answer": "She is writing a letter",
       "explanation": "Writeはeを取ってingをつけます（writing）。\n【🇺🇸 Cultural Note】\nクリスマスカードやサンキューカードを手書きで送る習慣は今でも根強いです。"
     },
     {
@@ -140,7 +140,7 @@
       "type": "sort",
       "question": "「あなたは何をしていますか？」となるように並び替えてください。",
       "choices": ["doing", "are", "What", "you"],
-      "answer": "Whatareyoudoing",
+      "answer": "What are you doing",
       "explanation": "現在進行形の疑問文に疑問詞Whatがついた形です。\n【🇺🇸 Cultural Note】\n挨拶として\"What are you doing?\"（何してるの？）と聞かれることもあります。"
     },
     {
@@ -161,7 +161,7 @@
       "type": "sort",
       "question": "「彼はピザを作っています。」となるように並び替えてください。",
       "choices": ["making", "pizza", "He", "is"],
-      "answer": "Heismakingpizza",
+      "answer": "He is making pizza",
       "explanation": "Makeはeを取ってingをつけます（making）。\n【🇺🇸 Cultural Note】\n手作りピザやデリバリーピザは、金曜日の夜（Pizza Night）の定番です。"
     },
     {
@@ -182,7 +182,7 @@
       "type": "sort",
       "question": "「私はジムに行きます。」となるように並び替えてください。",
       "choices": ["to", "gym", "going", "I", "am", "the"],
-      "answer": "Iamgoingtothegym",
+      "answer": "I am going to the gym",
       "explanation": "Goにingをつけます。\n【🇺🇸 Cultural Note】\nフィットネス文化が盛んなアメリカでは、出勤前や仕事後にジムに通う人が多いです。"
     },
     {
@@ -203,7 +203,7 @@
       "type": "sort",
       "question": "「ケイトは歌っています。」となるように並び替えてください。",
       "choices": ["singing", "Kate", "is"],
-      "answer": "Kateissinging",
+      "answer": "Kate is singing",
       "explanation": "Singにingをつけます。\n【🇺🇸 Cultural Note】\n国歌斉唱（National Anthem）は、スポーツイベントの開始前に必ず行われます。"
     },
     {
@@ -224,7 +224,7 @@
       "type": "sort",
       "question": "「私たちは旅行しています。」となるように並び替えてください。",
       "choices": ["traveling", "are", "We"],
-      "answer": "Wearetraveling",
+      "answer": "We are traveling",
       "explanation": "Travelにingをつけます（米国ではl一つ、英国ではl二つが一般的です）。\n【🇺🇸 Cultural Note】\n感謝祭やクリスマスの時期は、全米で数千万人が帰省や旅行で移動します。"
     },
     {
@@ -245,7 +245,7 @@
       "type": "sort",
       "question": "「彼らは新しい家を建てています。」となるように並び替えてください。",
       "choices": ["building", "They", "house", "are", "a", "new"],
-      "answer": "Theyarebuildinganewhouse",
+      "answer": "They are building a new house",
       "explanation": "Buildにingをつけます。\n【🇺🇸 Cultural Note】\nアメリカの住宅建設は「ツーバイフォー工法」が主流で、木の枠組みで作られます。"
     },
     {
@@ -266,7 +266,7 @@
       "type": "sort",
       "question": "「赤ちゃんが泣いています。」となるように並び替えてください。",
       "choices": ["crying", "baby", "is", "The"],
-      "answer": "Thebabyiscrying",
+      "answer": "The baby is crying",
       "explanation": "Cryにingをつけます。\n【🇺🇸 Cultural Note】\n公共の場で赤ちゃんが泣いても、比較的寛容な文化があります。"
     },
     {
@@ -287,7 +287,7 @@
       "type": "sort",
       "question": "「私たちはコーヒーを飲んでいます。」となるように並び替えてください。",
       "choices": ["drinking", "are", "We", "coffee"],
-      "answer": "Wearedrinkingcoffee",
+      "answer": "We are drinking coffee",
       "explanation": "Drinkにingをつけます。\n【🇺🇸 Cultural Note】\nアメリカ人はアイスコーヒーを冬でも飲む人が多いです。"
     },
     {
@@ -308,7 +308,7 @@
       "type": "sort",
       "question": "「彼らは新しいことを学んでいます。」となるように並び替えてください。",
       "choices": ["learning", "They", "things", "are", "new"],
-      "answer": "Theyarelearningnewthings",
+      "answer": "They are learning new things",
       "explanation": "Learnにingをつけます。\n【🇺🇸 Cultural Note】\n生涯学習（Lifelong learning）の考え方が普及しており、社会人になっても大学に戻る人が多いです。"
     },
     {
@@ -329,7 +329,7 @@
       "type": "sort",
       "question": "「父は車を修理しています。」となるように並び替えてください。",
       "choices": ["fixing", "is", "car", "Father", "the"],
-      "answer": "Fatherisfixingthecar",
+      "answer": "Father is fixing the car",
       "explanation": "Fixにingをつけます。\n【🇺🇸 Cultural Note】\nDIY精神が強く、車の修理や家の修繕を自分で行う人が多いです。"
     },
     {
@@ -350,7 +350,7 @@
       "type": "sort",
       "question": "「彼は私を手伝っています。」となるように並び替えてください。",
       "choices": ["helping", "me", "is", "He"],
-      "answer": "Heishelpingme",
+      "answer": "He is helping me",
       "explanation": "Helpにingをつけます。\n【🇺🇸 Cultural Note】\nボランティア活動（Volunteering）は、アメリカの学生の課外活動として非常に重要です。"
     },
     {
@@ -371,7 +371,7 @@
       "type": "sort",
       "question": "「先生は話しています。」となるように並び替えてください。",
       "choices": ["talking", "teacher", "is", "The"],
-      "answer": "Theteacheristalking",
+      "answer": "The teacher is talking",
       "explanation": "Talkにingをつけます。\n【🇺🇸 Cultural Note】\nTED Talksは、様々な分野の専門家がプレゼンテーションを行う有名なイベントです。"
     },
     {
@@ -392,7 +392,7 @@
       "type": "sort",
       "question": "「私たちは準備をしています。」となるように並び替えてください。",
       "choices": ["ready", "getting", "We", "are"],
-      "answer": "Wearegettingready",
+      "answer": "We are getting ready",
       "explanation": "Getはtを重ねてingをつけます（getting）。Get readyで「準備する」。\n【🇺🇸 Cultural Note】\n出かける前の準備に時間がかかることを\"Getting ready\"と言います。"
     },
     {
@@ -413,7 +413,7 @@
       "type": "sort",
       "question": "「風が吹いています。」となるように並び替えてください。",
       "choices": ["blowing", "is", "wind", "The"],
-      "answer": "Thewindisblowing",
+      "answer": "The wind is blowing",
       "explanation": "Blowにingをつけます。\n【🇺🇸 Cultural Note】\nシカゴは「ウィンディ・シティ（風の街）」と呼ばれています。"
     },
     {
@@ -434,7 +434,7 @@
       "type": "sort",
       "question": "「彼らは感謝祭のパレードを見ています。」となるように並び替えてください。",
       "choices": ["Thanksgiving", "Parade", "watching", "They", "are", "the"],
-      "answer": "TheyarewatchingtheThanksgivingParade",
+      "answer": "They are watching the Thanksgiving Parade",
       "explanation": "Watchにingをつけます。\n【🇺🇸 Cultural Note】\nニューヨークで行われるメイシーズ・パレードは、巨大なバルーンが登場する感謝祭の伝統行事です。"
     },
     {
@@ -455,12 +455,12 @@
       "type": "sort",
       "question": "「太陽が昇っています。」となるように並び替えてください。",
       "choices": ["rising", "sun", "is", "The"],
-      "answer": "Thesunisrising",
+      "answer": "The sun is rising",
       "explanation": "Riseはeを取ってingをつけます（rising）。\n【🇺🇸 Cultural Note】\nグランドキャニオンでの日の出（Sunrise）は絶景です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼はギターを弾いています」\nHe is (      ) the guitar.",
+      "question": "「彼はギターを弾いています」\nHe is (      ) playing the guitar.",
       "choices": [],
       "answer": "playing",
       "explanation": "Playにingをつけます。\n【🇺🇸 Cultural Note】\n路上ライブ（Street performance）をするミュージシャンは、主要都市でよく見かけます。"
@@ -476,7 +476,7 @@
       "type": "sort",
       "question": "「彼女は手袋をしています。」となるように並び替えてください。",
       "choices": ["wearing", "She", "gloves", "is"],
-      "answer": "Sheiswearinggloves",
+      "answer": "She is wearing gloves",
       "explanation": "Wearにingをつけます。\n【🇺🇸 Cultural Note】\n野球のグローブ（Baseball glove）もGlovesの一種です。"
     },
     {
@@ -488,7 +488,7 @@
     },
     {
       "type": "multiple_choice",
-      "question": "「私はあなたを待っています」\nI am (      ) for you.",
+      "question": "「私はあなたを待っています」\nI am (      ) waiting for you.",
       "choices": ["waiting", "wait", "waits", "waited"],
       "answer": "waiting",
       "explanation": "Waitにingをつけます。\n【🇺🇸 Cultural Note】\n待ち合わせ場所で待っている時に\"I'm waiting for you\"とテキストを送ります。"
@@ -497,7 +497,7 @@
       "type": "sort",
       "question": "「その店は閉まろうとしています。」となるように並び替えてください。",
       "choices": ["closing", "store", "is", "The"],
-      "answer": "Thestoreisclosing",
+      "answer": "The store is closing",
       "explanation": "Closeはeを取ってingをつけます（closing）。\n【🇺🇸 Cultural Note】\n閉店間際のセール（Closing sale）は掘り出し物が見つかるチャンスです。"
     },
     {
@@ -509,7 +509,7 @@
     },
     {
       "type": "multiple_choice",
-      "question": "「彼女は水を飲んでいます」\nShe is (      ) water.",
+      "question": "「彼女は水を飲んでいます」\nShe is (      ) drinking water.",
       "choices": ["drinking", "drink", "drinks", "drank"],
       "answer": "drinking",
       "explanation": "Drinkにingをつけます。\n【🇺🇸 Cultural Note】\nレストランでお水を頼む時は\"Tap water\"（水道水）と言えば無料です。"
@@ -518,12 +518,12 @@
       "type": "sort",
       "question": "「私たちは家に帰るところです。」となるように並び替えてください。",
       "choices": ["going", "home", "We", "are"],
-      "answer": "Wearegoinghome",
+      "answer": "We are going home",
       "explanation": "Goにingをつけます。\n【🇺🇸 Cultural Note】\n\"Go home\"は家へ帰るという意味です。Homeは副詞なのでtoは不要です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼らはサッカーをしています」\nThey are (      ) soccer.",
+      "question": "「彼らはサッカーをしています」\nThey are (      ) playing soccer.",
       "choices": [],
       "answer": "playing",
       "explanation": "Playにingをつけます。\n【🇺🇸 Cultural Note】\nアメリカの女子サッカー代表チームは世界的に非常に強いです。"
@@ -539,19 +539,19 @@
       "type": "sort",
       "question": "「私は手紙を送ります（送るところです）。」となるように並び替えてください。",
       "choices": ["sending", "I", "letter", "am", "a"],
-      "answer": "Iamsendingaletter",
+      "answer": "I am sending a letter",
       "explanation": "Sendにingをつけます。\n【🇺🇸 Cultural Note】\nアメリカの郵便ポスト（Mailbox）は青色です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女はコンピュータを買っています」\nShe is (      ) a computer.",
+      "question": "「彼女はコンピュータを買っています」\nShe is (      ) buying a computer.",
       "choices": [],
       "answer": "buying",
       "explanation": "Buyにingをつけます。\n【🇺🇸 Cultural Note】\nサイバーマンデー（Cyber Monday）は、感謝祭の次の月曜日にオンラインショッピングのセールが行われる日です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼らはクッキーを売っています」\nThey are (      ) cookies.",
+      "question": "「彼らはクッキーを売っています」\nThey are (      ) selling cookies.",
       "choices": ["selling", "sell", "sells", "sold"],
       "answer": "selling",
       "explanation": "Sellにingをつけます。\n【🇺🇸 Cultural Note】\n子供たちがレモネードスタンド（Lemonade stand）でレモネードを売るのは、アメリカの夏の風物詩です。"
@@ -560,19 +560,19 @@
       "type": "sort",
       "question": "「その猫はジャンプしています。」となるように並び替えてください。",
       "choices": ["jumping", "cat", "is", "The"],
-      "answer": "Thecatisjumping",
+      "answer": "The cat is jumping",
       "explanation": "Jumpにingをつけます。\n【🇺🇸 Cultural Note】\n猫の動画（Cat videos）はインターネットで大人気です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私はあなたに尋ねています」\nI am (      ) you.",
+      "question": "「私はあなたに尋ねています」\nI am (      ) asking you.",
       "choices": [],
       "answer": "asking",
       "explanation": "Askにingをつけます。\n【🇺🇸 Cultural Note】\nデートに誘うことを\"Ask someone out\"と言います。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼女はドアを開けています」\nShe is (      ) the door.",
+      "question": "「彼女はドアを開けています」\nShe is (      ) opening the door.",
       "choices": ["opening", "open", "opens", "opened"],
       "answer": "opening",
       "explanation": "Openにingをつけます。\n【🇺🇸 Cultural Note】\nハロウィンの夜、子供たちが家々を回る時、住人はドアを開けてお菓子を配ります。"
@@ -581,7 +581,7 @@
       "type": "sort",
       "question": "「彼らはドアを閉めています。」となるように並び替えてください。",
       "choices": ["closing", "are", "They", "door", "the"],
-      "answer": "Theyareclosingthedoor",
+      "answer": "They are closing the door",
       "explanation": "Closeはeを取ってingをつけます（closing）。\n【🇺🇸 Cultural Note】\n店が閉まる時間を\"Closing time\"と言います。"
     },
     {
@@ -602,7 +602,7 @@
       "type": "sort",
       "question": "「私たちはそれを愛しています（進行形にしない動詞）。」となるように並び替えてください。",
       "choices": ["love", "it", "We"],
-      "answer": "Weloveit",
+      "answer": "We love it",
       "explanation": "Loveは状態動詞なので進行形にしません（マクドナルドの\"I'm lovin' it\"は例外的な強調表現です）。\n【🇺🇸 Cultural Note】\nアメリカ人は気に入ったものに対して\"I love it!\"と表現豊かに言います。"
     },
     {
@@ -623,7 +623,7 @@
       "type": "sort",
       "question": "「私はあなたを信じています（進行形にしない動詞）。」となるように並び替えてください。",
       "choices": ["you", "believe", "I"],
-      "answer": "Ibelieveyou",
+      "answer": "I believe you",
       "explanation": "Believe（信じる）は状態動詞なので進行形にしません。\n【🇺🇸 Cultural Note】\n\"I believe in you\"と言うと「あなたの能力を信じている／応援している」という意味になります。"
     },
     {

@@ -14,7 +14,7 @@
       "type": "sort",
       "question": "「彼はクリケットをしません。」となるように並び替えてください。",
       "choices": ["play", "doesn't", "cricket", "He"],
-      "answer": "Hedoesn'tplaycricket",
+      "answer": "He doesn't play cricket",
       "explanation": "He（三人称単数）なのでdoesn'tを使い、動詞は原形（play）にします。\n【🇺🇸 Cultural Note】\nクリケットはイギリス連邦諸国では人気ですが、アメリカではマイナースポーツです。アメリカの「バットとボール」のスポーツといえば野球（Baseball）です。"
     },
     {
@@ -35,7 +35,7 @@
       "type": "sort",
       "question": "「彼らは摂氏を使いません。」となるように並び替えてください。",
       "choices": ["use", "Celsius", "don't", "They"],
-      "answer": "Theydon'tuseCelsius",
+      "answer": "They don't use Celsius",
       "explanation": "They don't use... です。\n【🇺🇸 Cultural Note】\nアメリカは世界でも数少ない「華氏（Fahrenheit）」を採用している国です。天気予報で「30度」と言われたら、氷点下の寒さ（-1℃）のことです。"
     },
     {
@@ -56,7 +56,7 @@
       "type": "sort",
       "question": "「私は箸を使いません。」となるように並び替えてください。",
       "choices": ["chopsticks", "use", "don't", "I"],
-      "answer": "Idon'tusechopsticks",
+      "answer": "I don't use chopsticks",
       "explanation": "I don't use chopsticks.\n【🇺🇸 Cultural Note】\n中華料理のテイクアウト（Panda Expressなど）ではフォークがついてきますが、都市部では箸を使えるアメリカ人も増えています。"
     },
     {
@@ -77,7 +77,7 @@
       "type": "sort",
       "question": "「彼は野菜を食べません。」となるように並び替えてください。",
       "choices": ["eat", "He", "vegetables", "doesn't"],
-      "answer": "Hedoesn'teatvegetables",
+      "answer": "He doesn't eat vegetables",
       "explanation": "He doesn't eat vegetables.\n【🇺🇸 Cultural Note】\nアメリカの食事は肉や炭水化物が中心になりがちです。子供の嫌いな野菜の代表はブロッコリーや芽キャベツです。"
     },
     {
@@ -98,7 +98,7 @@
       "type": "sort",
       "question": "「チップは含まれていません。」となるように並び替えてください。",
       "choices": ["included", "Tip", "is", "not"],
-      "answer": "Tipisnotincluded",
+      "answer": "Tip is not included",
       "explanation": "Tip（単数）なのでis notです。\n【🇺🇸 Cultural Note】\nレシートに\"Gratuity included\"と書かれていない限り、レストランでは必ずチップを上乗せして支払う必要があります。"
     },
     {
@@ -119,7 +119,7 @@
       "type": "sort",
       "question": "「そのバスは止まりません。」となるように並び替えてください。",
       "choices": ["bus", "stop", "The", "doesn't"],
-      "answer": "Thebusdoesn'tstop",
+      "answer": "The bus doesn't stop",
       "explanation": "The bus（単数）なのでdoesn't stopです。\n【🇺🇸 Cultural Note】\nアメリカの長距離バス（Greyhoundなど）は安価な移動手段として知られていますが、都市間の移動には飛行機が一般的です。"
     },
     {
@@ -140,7 +140,7 @@
       "type": "sort",
       "question": "「私たちは洗濯物を外に干しません。」となるように並び替えてください。",
       "choices": ["hang", "clothes", "outside", "We", "don't", "our"],
-      "answer": "Wedon'thangourclothesoutside",
+      "answer": "We don't hang our clothes outside",
       "explanation": "We don't hang... です。\n【🇺🇸 Cultural Note】\n景観保護のルールや、乾燥機（Dryer）が完全に普及しているため、洗濯物を外干しする習慣はほとんどありません。"
     },
     {
@@ -161,7 +161,7 @@
       "type": "sort",
       "question": "「彼らは昼食に米を食べません。」となるように並び替えてください。",
       "choices": ["rice", "eat", "lunch", "don't", "They", "for"],
-      "answer": "Theydon'teatriceforlunch",
+      "answer": "They don't eat rice for lunch",
       "explanation": "They don't eat rice for lunch.\n【🇺🇸 Cultural Note】\nアメリカのランチの定番はサンドイッチ、ピザ、サラダなどです。お米（Rice）は中華料理などのサイドメニューという認識が強いです。"
     },
     {
@@ -182,7 +182,7 @@
       "type": "sort",
       "question": "「私はその歌を知りません。」となるように並び替えてください。",
       "choices": ["know", "song", "that", "don't", "I"],
-      "answer": "Idon'tknowthatsong",
+      "answer": "I don't know that song",
       "explanation": "I don't know that song.\n【🇺🇸 Cultural Note】\nアメリカ国歌\"The Star-Spangled Banner\"は非常に音域が広く、歌うのが難しいことで有名です。"
     },
     {
@@ -203,7 +203,7 @@
       "type": "sort",
       "question": "「ジムはスニーカーを履きません。」となるように並び替えてください。",
       "choices": ["wear", "sneakers", "doesn't", "Jim"],
-      "answer": "Jimdoesn'twearsneakers",
+      "answer": "Jim doesn't wear sneakers",
       "explanation": "Jim（三人称単数）なのでdoesn't wearです。\n【🇺🇸 Cultural Note】\n職場によっては「ドレスコード」があり、スニーカーやジーンズが禁止されている場合もあります。"
     },
     {
@@ -224,7 +224,7 @@
       "type": "sort",
       "question": "「私はフットボールを見ません。」となるように並び替えてください。",
       "choices": ["watch", "don't", "I", "football"],
-      "answer": "Idon'twatchfootball",
+      "answer": "I don't watch football",
       "explanation": "I don't watch football.\n【🇺🇸 Cultural Note】\nスーパーボウル（NFL決勝戦）の日は、フットボールに興味がない人でもハーフタイムショーやCM目当てでパーティーに参加します。"
     },
     {
@@ -245,7 +245,7 @@
       "type": "sort",
       "question": "「私たちはスペイン語を話しません。」となるように並び替えてください。",
       "choices": ["speak", "Spanish", "don't", "We"],
-      "answer": "Wedon'tspeakSpanish",
+      "answer": "We don't speak Spanish",
       "explanation": "We don't speak Spanish.\n【🇺🇸 Cultural Note】\nアメリカ南西部（カリフォルニアやテキサスなど）では、看板や案内表示が英語とスペイン語のバイリンガル表記になっていることが多いです。"
     },
     {
@@ -266,7 +266,7 @@
       "type": "sort",
       "question": "「彼女は早起きしません。」となるように並び替えてください。",
       "choices": ["get", "early", "doesn't", "up", "She"],
-      "answer": "Shedoesn'tgetupearly",
+      "answer": "She doesn't get up early",
       "explanation": "She doesn't get up early.\n【🇺🇸 Cultural Note】\nアメリカの高校は始業時間が早く（7:30〜8:00頃）、スクールバスに乗るために非常に早起きしなければならない生徒が多いです。"
     },
     {
@@ -287,7 +287,7 @@
       "type": "sort",
       "question": "「ボブは泳ぎません。」となるように並び替えてください。",
       "choices": ["swim", "Bob", "doesn't"],
-      "answer": "Bobdoesn'tswim",
+      "answer": "Bob doesn't swim",
       "explanation": "Bob doesn't swim.\n【🇺🇸 Cultural Note】\nアメリカの家には「バックヤードプール」がある家庭も多く、夏はプールパーティーが盛んです。"
     },
     {
@@ -308,7 +308,7 @@
       "type": "sort",
       "question": "「私たちはプラスチックの袋を使いません。」となるように並び替えてください。",
       "choices": ["use", "plastic", "don't", "bags", "We"],
-      "answer": "Wedon'tuseplasticbags",
+      "answer": "We don't use plastic bags",
       "explanation": "We don't use plastic bags.\n【🇺🇸 Cultural Note】\nアメリカのスーパーでは、レジ袋（Plastic bags）が有料化または禁止されている州が増えています。"
     },
     {
@@ -329,7 +329,7 @@
       "type": "sort",
       "question": "「彼らは日本語を話しません。」となるように並び替えてください。",
       "choices": ["speak", "Japanese", "don't", "They"],
-      "answer": "Theydon'tspeakJapanese",
+      "answer": "They don't speak Japanese",
       "explanation": "They don't speak Japanese.\n【🇺🇸 Cultural Note】\nアメリカで日本語を学習する人は、アニメやマンガ、ゲーム文化への関心から学び始める人が多いです。"
     },
     {
@@ -344,13 +344,13 @@
       "question": "「私は同意しません」\nI (      ) agree.",
       "choices": ["don't", "doesn't", "am not", "not"],
       "answer": "don't",
-      "explanation": "I don't agree. Agreeは動詞です。\n【🇺🇸 Cultural Note】\nアメリカの議論の場では、相手の意見を否定する際に\"I disagree\"や\"I don't agree\"とはっきり意思表示することが重要視されます。"
+      "explanation": "I don't agree. Agreeは動詞です。\n【🇺🇸 Cultural Note】\nアメリカの議論の場では、相手の意見を否定する際にはっきり意思表示することが重要視されます。"
     },
     {
       "type": "sort",
       "question": "「その機械は動きません。」となるように並び替えてください。",
       "choices": ["machine", "work", "doesn't", "The"],
-      "answer": "Themachinedoesn'twork",
+      "answer": "The machine doesn't work",
       "explanation": "The machine（単数）なのでdoesn't workです。\n【🇺🇸 Cultural Note】\n\"Out of Order\"（故障中）という張り紙は、公共施設の自動販売機やトイレなどでよく見かけます。"
     },
     {
@@ -371,8 +371,8 @@
       "type": "sort",
       "question": "「私はその映画を見ませんでした。」となるように並び替えてください。",
       "choices": ["watch", "movie", "didn't", "I", "the"],
-      "answer": "Ididn'tdomyhomework",
-      "explanation": "過去の否定なのでdidn't watchです。（※ソート選択肢の構成上、正答は I didn't watch the movie. ですが、前回の文脈から選択肢にdo homeworkが入っていた可能性があり、修正します：choicesにdo/homeworkがなくwatch/movieがあるため、答えは I didn't watch the movie です。）\n【🇺🇸 Cultural Note】\nアメリカ映画のレイティング（G, PG, Rなど）は厳格に運用されており、年齢制限のある映画はID確認が必須です。"
+      "answer": "I didn't watch the movie",
+      "explanation": "過去の否定なのでdidn't watchです。\n【🇺🇸 Cultural Note】\nアメリカ映画のレイティング（G, PG, Rなど）は厳格に運用されており、年齢制限のある映画はID確認が必須です。"
     },
     {
       "type": "fill_in_the_blank",
@@ -386,13 +386,13 @@
       "question": "「彼女は彼を知りません」\nShe (      ) know him.",
       "choices": ["doesn't", "don't", "isn't", "not"],
       "answer": "doesn't",
-      "explanation": "She（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカのパーティーでは、知らない人同士でも\"Introduce yourself\"（自己紹介）をしてネットワークを広げるのが一般的です。"
+      "explanation": "She（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカのパーティーでは、知らない人同士でも自己紹介をしてネットワークを広げるのが一般的です。"
     },
     {
       "type": "sort",
       "question": "「私たちはファストフードを食べません。」となるように並び替えてください。",
       "choices": ["food", "eat", "fast", "don't", "We"],
-      "answer": "Wedon'teatfastfood",
+      "answer": "We don't eat fast food",
       "explanation": "We don't eat fast food.\n【🇺🇸 Cultural Note】\n健康志向の高まりから、オーガニックフードや地産地消（Farm-to-table）を好む層も増えています。"
     },
     {
@@ -413,8 +413,8 @@
       "type": "sort",
       "question": "「彼は私を愛していません。」となるように並び替えてください。",
       "choices": ["love", "me", "He", "doesn't"],
-      "answer": "Hedoesn'tloveme",
-      "explanation": "He doesn't love me.\n【🇺🇸 Cultural Note】\nアメリカ人は家族やパートナーに対して\"I love you\"と言葉に出して愛情表現をすることを非常に大切にします。"
+      "answer": "He doesn't love me",
+      "explanation": "He doesn't love me.\n【🇺🇸 Cultural Note】\nアメリカ人は家族やパートナーに対して言葉に出して愛情表現をすることを非常に大切にします。"
     },
     {
       "type": "fill_in_the_blank",
@@ -428,14 +428,14 @@
       "question": "「リサはコーヒーを飲みません」\nLisa (      ) drink coffee.",
       "choices": ["doesn't", "don't", "isn't", "not"],
       "answer": "doesn't",
-      "explanation": "Lisa（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\n最近はコーヒーの代わりに、抹茶ラテ（Matcha Latte）やチャイ（Chai）を飲むアメリカ人も増えています。"
+      "explanation": "Lisa（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\n最近はコーヒーの代わりに、抹茶ラテやチャイを飲むアメリカ人も増えています。"
     },
     {
       "type": "sort",
       "question": "「私は宿題をしませんでした。」となるように並び替えてください。",
       "choices": ["do", "homework", "didn't", "my", "I"],
-      "answer": "Ididn'tdomyhomework",
-      "explanation": "過去の否定なのでdidn't doです。\n【🇺🇸 Cultural Note】\n宿題を忘れた時の言い訳として\"My dog ate my homework\"（犬が宿題を食べちゃった）というのは定番のジョークです。"
+      "answer": "I didn't do my homework",
+      "explanation": "過去の否定なのでdidn't doです。\n【🇺🇸 Cultural Note】\n宿題を忘れた時の言い訳として\"My dog ate my homework\"というのは定番のジョークです。"
     },
     {
       "type": "fill_in_the_blank",
@@ -455,36 +455,36 @@
       "type": "sort",
       "question": "「彼らはバスケットボールをしません。」となるように並び替えてください。",
       "choices": ["basketball", "play", "don't", "They"],
-      "answer": "Theydon'tplaybasketball",
-      "explanation": "They don't play basketball.\n【🇺🇸 Cultural Note】\nバスケットボールのゴール（Hoop）がドライブウェイに設置されている家は、アメリカの郊外でよく見る光景です。"
+      "answer": "They don't play basketball",
+      "explanation": "They don't play basketball.\n【🇺🇸 Cultural Note】\nバスケットボールのゴールがドライブウェイに設置されている家は、アメリカの郊外でよく見る光景です。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「私は気にしません」\nI (      ) care.",
       "choices": [],
       "answer": "don't",
-      "explanation": "I don't care.\n【🇺🇸 Cultural Note】\n言い方によっては「どうでもいい」という投げやりな態度に聞こえるため、\"I don't mind\"（構いません）と使い分ける必要があります。"
+      "explanation": "I don't care.\n【🇺🇸 Cultural Note】\n言い方によっては「どうでもいい」という投げやりな態度に聞こえるため、注意が必要です。"
     },
     {
       "type": "multiple_choice",
       "question": "「今日は寒くありません」\nIt (      ) cold today.",
       "choices": ["isn't", "doesn't", "aren't", "don't"],
       "answer": "isn't",
-      "explanation": "It（天候）なのでisn'tです。\n【🇺🇸 Cultural Note】\nカリフォルニアやフロリダなどの南部州（Sun Belt）では、冬でもコートがいらないほど暖かい日が多いです。"
+      "explanation": "It（天候）なのでisn'tです。\n【🇺🇸 Cultural Note】\n南部州（Sun Belt）では、冬でもコートがいらないほど暖かい日が多いです。"
     },
     {
       "type": "sort",
       "question": "「父は医者ではありません。」となるように並び替えてください。",
       "choices": ["doctor", "isn't", "father", "a", "My"],
-      "answer": "Myfatherisn'tadoctor",
-      "explanation": "My father（単数）なのでisn'tです。\n【🇺🇸 Cultural Note】\nアメリカの医療費は非常に高額で、健康保険（Health Insurance）の有無が生活に大きく影響します。"
+      "answer": "My father isn't a doctor",
+      "explanation": "My father（単数）なのでisn'tです。\n【🇺🇸 Cultural Note】\nアメリカの医療費は非常に高額で、健康保険の内容が生活に大きく影響します。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「私たちはそれを必要としません」\nWe (      ) need it.",
       "choices": [],
       "answer": "don't",
-      "explanation": "We don't need it.\n【🇺🇸 Cultural Note】\nアメリカのガレージセール（Garage sale）は、不要になったものを近所の人に売る一般的なイベントです。"
+      "explanation": "We don't need it.\n【🇺🇸 Cultural Note】\nアメリカのガレージセールは、不要になったものを近所の人に売る一般的なイベントです。"
     },
     {
       "type": "multiple_choice",
@@ -497,92 +497,92 @@
       "type": "sort",
       "question": "「私は魚を食べません。」となるように並び替えてください。",
       "choices": ["eat", "don't", "fish", "I"],
-      "answer": "Idon'teatfish",
-      "explanation": "I don't eat fish.\n【🇺🇸 Cultural Note】\nベジタリアン（Vegetarian）やヴィーガン（Vegan）の人口が増えており、レストランでも対応メニューが豊富です。"
+      "answer": "I don't eat fish",
+      "explanation": "I don't eat fish.\n【🇺🇸 Cultural Note】\nベジタリアンやヴィーガンの人口が増えており、レストランでも対応メニューが豊富です。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「彼女は英語を教えません」\nShe (      ) teach English.",
       "choices": [],
       "answer": "doesn't",
-      "explanation": "She（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカでは、英語を母国語としない人向けの英語教育をESL（English as a Second Language）と呼びます。"
+      "explanation": "She（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカでは、英語を母国語としない人向けの教育をESLと呼びます。"
     },
     {
       "type": "multiple_choice",
       "question": "「それらは重要ではありません」\nThey (      ) important.",
       "choices": ["aren't", "don't", "isn't", "doesn't"],
       "answer": "aren't",
-      "explanation": "They（複数）のbe動詞否定なのでaren'tです。\n【🇺🇸 Cultural Note】\nアメリカのビジネスでは、形式よりも実利や結果（Results）が重要視されます。"
+      "explanation": "They（複数）のbe動詞否定なのでaren'tです。\n【🇺🇸 Cultural Note】\nアメリカのビジネスでは、形式よりも実利や結果が重要視されます。"
     },
     {
       "type": "sort",
       "question": "「私たちはハワイ出身ではありません。」となるように並び替えてください。",
       "choices": ["Hawaii", "from", "aren't", "We"],
-      "answer": "Wearen'tfromHawaii",
-      "explanation": "We aren't from Hawaii.\n【🇺🇸 Cultural Note】\nハワイ出身者は自分たちを\"Islanders\"と呼ぶことがあり、本土（Mainland）とは異なる独自の文化を持っています。"
+      "answer": "We aren't from Hawaii",
+      "explanation": "We aren't from Hawaii.\n【🇺🇸 Cultural Note】\nハワイ出身者は自分たちを\"Islanders\"と呼ぶことがあり、独自の文化を持っています。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「彼は昨日働きませんでした」\nHe (      ) work yesterday.",
       "choices": [],
       "answer": "didn't",
-      "explanation": "過去の否定なのでdidn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカには有給休暇（Paid vacation）の法的な義務がなく、休暇の取得日数は企業の方針によります。"
+      "explanation": "過去の否定なのでdidn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカには有給休暇の法的な義務がなく、休暇の日数は企業の方針によります。"
     },
     {
       "type": "multiple_choice",
       "question": "「私はその答えがわかりません」\nI (      ) know the answer.",
       "choices": ["don't", "doesn't", "am not", "no"],
       "answer": "don't",
-      "explanation": "I don't know...\n【🇺🇸 Cultural Note】\n先生の質問に対して、わからなくても当てずっぽう（Guess）で答える積極性がアメリカの教室では評価されます。"
+      "explanation": "I don't know...\n【🇺🇸 Cultural Note】\nわからなくても当てずっぽう（Guess）で答える積極性がアメリカの教室では評価されます。"
     },
     {
       "type": "sort",
       "question": "「そのホテルは高くありません。」となるように並び替えてください。",
       "choices": ["expensive", "hotel", "isn't", "The"],
-      "answer": "Thehotelisn'texpensive",
-      "explanation": "The hotel（単数）なのでisn'tです。\n【🇺🇸 Cultural Note】\nモーテル（Motel）は、道路沿いにある安価な宿泊施設で、アメリカのロードトリップ文化の象徴です。"
+      "answer": "The hotel isn't expensive",
+      "explanation": "The hotel（単数）なのでisn'tです。\n【🇺🇸 Cultural Note】\nモーテルは、道路沿いにある安価な宿泊施設で、ロードトリップ文化の象徴です。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「彼らは毎日料理をしません」\nThey (      ) cook every day.",
       "choices": [],
       "answer": "don't",
-      "explanation": "They（複数）なのでdon'tを使います。\n【🇺🇸 Cultural Note】\nアメリカの外食産業は巨大で、デリバリー（Uber Eatsなど）やテイクアウトを利用する家庭が非常に多いです。"
+      "explanation": "They（複数）なのでdon'tを使います。\n【🇺🇸 Cultural Note】\nアメリカの外食産業は巨大で、デリバリーやテイクアウトを利用する家庭が非常に多いです。"
     },
     {
       "type": "multiple_choice",
       "question": "「私の猫は外に出ません」\nMy cat (      ) go outside.",
       "choices": ["doesn't", "don't", "isn't", "not"],
       "answer": "doesn't",
-      "explanation": "My cat（三人称単数扱い）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカでは猫を完全室内飼い（Indoor cat）にするのが一般的で推奨されています。"
+      "explanation": "My cat（三人称単数扱い）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカでは猫を完全室内飼い（Indoor cat）にするのが一般的です。"
     },
     {
       "type": "sort",
       "question": "「私たちはテレビゲームをしません。」となるように並び替えてください。",
       "choices": ["play", "We", "don't", "video", "games"],
-      "answer": "Wedon'tplayvideogames",
-      "explanation": "We don't play video games.\n【🇺🇸 Cultural Note】\nXboxはアメリカのマイクロソフト社が開発したゲーム機で、アメリカ国内で高い人気を誇ります。"
+      "answer": "We don't play video games",
+      "explanation": "We don't play video games.\n【🇺🇸 Cultural Note】\nXboxはアメリカのマイクロソフト社が開発したゲーム機で、国内で高い人気を誇ります。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「彼女は眼鏡を必要としません」\nShe (      ) need glasses.",
       "choices": [],
       "answer": "doesn't",
-      "explanation": "She（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nレーシック手術（LASIK）などの視力矯正手術を受けるアメリカ人も多いです。"
+      "explanation": "She（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nレーシック手術などの視力矯正手術を受けるアメリカ人も多いです。"
     },
     {
       "type": "multiple_choice",
       "question": "「私は野球が好きではありません」\nI (      ) like baseball.",
       "choices": ["don't", "doesn't", "am not", "not"],
       "answer": "don't",
-      "explanation": "I don't like... です。\n【🇺🇸 Cultural Note】\n野球は\"National Pastime\"と呼ばれますが、若年層ではバスケットボールやアメフトの方が人気がある傾向にあります。"
+      "explanation": "I don't like... です。\n【🇺🇸 Cultural Note】\n野球は\"National Pastime\"と呼ばれますが、若年層ではバスケやアメフトの方が人気がある傾向にあります。"
     },
     {
       "type": "sort",
       "question": "「その本は面白くありません。」となるように並び替えてください。",
       "choices": ["book", "isn't", "interesting", "The"],
-      "answer": "Thebookisn'tinteresting",
-      "explanation": "The book（単数）なのでisn'tです。\n【🇺🇸 Cultural Note】\nアメリカのコミック（アメコミ）は、スーパーヒーローものが主流で、日本の漫画とは異なる独自の文化を持っています。"
+      "answer": "The book isn't interesting",
+      "explanation": "The book（単数）なのでisn'tです。\n【🇺🇸 Cultural Note】\nアメコミは、スーパーヒーローものが主流で、日本の漫画とは異なる独自の文化を持っています。"
     },
     {
       "type": "fill_in_the_blank",
@@ -596,7 +596,7 @@
       "question": "「トムは泳ぎません」\nTom (      ) swim.",
       "choices": ["doesn't", "don't", "isn't", "not"],
       "answer": "doesn't",
-      "explanation": "Tom（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nYMCAは地域コミュニティのスポーツ施設として全米にあり、水泳教室などが開かれています。"
+      "explanation": "Tom（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nYMCAは地域コミュニティの施設として全米にあり、水泳教室などが開かれています。"
     }
   ]
 }

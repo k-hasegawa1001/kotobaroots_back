@@ -21,7 +21,7 @@
       "type": "sort",
       "question": "「私はあなたを手伝いましょうか？（申し出）」となるように並び替えてください。",
       "choices": ["help", "you", "I", "Can"],
-      "answer": "CanIhelpyou",
+      "answer": "Can I help you",
       "explanation": "Can I help you?\n【🇺🇸 Cultural Note】\nお店に入ると店員さんから必ずと言っていいほど聞かれるフレーズです。"
     },
     {
@@ -42,7 +42,7 @@
       "type": "sort",
       "question": "「あなたは21歳まで飲酒してはいけません（禁止）。」となるように並び替えてください。",
       "choices": ["drink", "must", "not", "You", "until", "21"],
-      "answer": "Youmustnotdrinkuntil21",
+      "answer": "You must not drink until 21",
       "explanation": "Must not（してはいけない）。\n【🇺🇸 Cultural Note】\nアメリカの飲酒解禁年齢は21歳です。日本（20歳）や欧州よりも厳しく設定されています。"
     },
     {
@@ -63,7 +63,7 @@
       "type": "sort",
       "question": "「私たちはリサイクルしなければなりません。」となるように並び替えてください。",
       "choices": ["recycle", "have", "to", "We"],
-      "answer": "Wehavetorecycle",
+      "answer": "We have to recycle",
       "explanation": "Have to（しなければならない）。Mustとほぼ同じ意味です。\n【🇺🇸 Cultural Note】\nアメリカのゴミの量は世界最大級であり、リサイクル（Recycling）への取り組みが各自治体で進められています。"
     },
     {
@@ -84,7 +84,7 @@
       "type": "sort",
       "question": "「彼はピアノを弾くことができます。」となるように並び替えてください。",
       "choices": ["can", "piano", "He", "play", "the"],
-      "answer": "Hecanplaythepiano",
+      "answer": "He can play the piano",
       "explanation": "Can play（弾くことができる）。\n【🇺🇸 Cultural Note】\n学校のタレントショー（Talent Show）で楽器演奏を披露するのは定番です。"
     },
     {
@@ -105,7 +105,7 @@
       "type": "sort",
       "question": "「あなたは列に並ばなければなりません。」となるように並び替えてください。",
       "choices": ["line", "wait", "You", "in", "must"],
-      "answer": "Youmustwaitinline",
+      "answer": "You must wait in line",
       "explanation": "Must wait in line.\n【🇺🇸 Cultural Note】\nブラックフライデーのセールや人気のアトラクションでは、長い列（Line）ができます。"
     },
     {
@@ -126,7 +126,7 @@
       "type": "sort",
       "question": "「ここでタバコを吸ってはいけません。」となるように並び替えてください。",
       "choices": ["smoke", "must", "here", "not", "You"],
-      "answer": "Youmustnotsmokehere",
+      "answer": "You must not smoke here",
       "explanation": "Must not（してはいけない）。\n【🇺🇸 Cultural Note】\nアメリカの屋内施設はほぼ全面禁煙です。違反すると高額な罰金が科せられることがあります。"
     },
     {
@@ -147,7 +147,7 @@
       "type": "sort",
       "question": "「あなたはIDを見せなければなりません。」となるように並び替えてください。",
       "choices": ["ID", "show", "must", "You", "your"],
-      "answer": "YoumustshowyourID",
+      "answer": "You must show your ID",
       "explanation": "Must show（見せなければならない）。\n【🇺🇸 Cultural Note】\nバーへの入店やお酒の購入時、年齢確認のためにID（運転免許証など）の提示が必須です。"
     },
     {
@@ -168,7 +168,7 @@
       "type": "sort",
       "question": "「あなたはもっと野菜を食べるべきです。」となるように並び替えてください。",
       "choices": ["should", "vegetables", "eat", "more", "You"],
-      "answer": "Youshouldeatmorevegetables",
+      "answer": "You should eat more vegetables",
       "explanation": "Should eat（食べるべきだ）。\n【🇺🇸 Cultural Note】\nアメリカの食生活は肉や炭水化物に偏りがちで、肥満（Obesity）が社会問題になっています。"
     },
     {
@@ -189,7 +189,7 @@
       "type": "sort",
       "question": "「あなたはスクールバスのために止まらなければなりません。」となるように並び替えてください。",
       "choices": ["stop", "school", "must", "for", "bus", "You", "a"],
-      "answer": "Youmuststopforaschoolbus",
+      "answer": "You must stop for a school bus",
       "explanation": "Must stop（止まらなければならない）。\n【🇺🇸 Cultural Note】\nスクールバスが赤いライトを点滅させて停車している時は、対向車線も含めて全車両が停止しなければならない厳しい法律があります。"
     },
     {
@@ -210,7 +210,7 @@
       "type": "sort",
       "question": "「私たちは税金を払わなければなりません。」となるように並び替えてください。",
       "choices": ["taxes", "pay", "have", "to", "We"],
-      "answer": "Wehavetopaytaxes",
+      "answer": "We have to pay taxes",
       "explanation": "Have to pay（払わなければならない）。\n【🇺🇸 Cultural Note】\nアメリカの確定申告（Tax Return）の締め切りは通常4月15日です。"
     },
     {
@@ -231,7 +231,7 @@
       "type": "sort",
       "question": "「明日は雨が降るかもしれません。」となるように並び替えてください。",
       "choices": ["rain", "may", "It", "tomorrow"],
-      "answer": "Itmayraintomorrow",
+      "answer": "It may rain tomorrow",
       "explanation": "May（〜かもしれない）。推量を表します。\n【🇺🇸 Cultural Note】\nフロリダ州などでは、午後になると突然の激しい雷雨（Afternoon thunderstorm）が降ることがよくあります。"
     },
     {
@@ -252,7 +252,7 @@
       "type": "sort",
       "question": "「ここで写真を撮ってもいいですか？」となるように並び替えてください。",
       "choices": ["photos", "take", "Can", "here", "I"],
-      "answer": "CanItakephotoshere",
+      "answer": "Can I take photos here",
       "explanation": "Can I take...?（〜してもいいですか）。\n【🇺🇸 Cultural Note】\n美術館や博物館でも、フラッシュなしなら撮影OKの場所が多いです。"
     },
     {
@@ -273,7 +273,7 @@
       "type": "sort",
       "question": "「あなたはヘルメットをかぶらなければなりません。」となるように並び替えてください。",
       "choices": ["wear", "helmet", "must", "You", "a"],
-      "answer": "Youmustwearahelmet",
+      "answer": "You must wear a helmet",
       "explanation": "Must wear（着用しなければならない）。\n【🇺🇸 Cultural Note】\n自転車やバイクに乗る際のヘルメット着用義務は州によって法律が異なりますが、安全のため強く推奨されています。"
     },
     {
@@ -294,7 +294,7 @@
       "type": "sort",
       "question": "「それを試着してもいいですか？」となるように並び替えてください。",
       "choices": ["on", "try", "it", "Can", "I"],
-      "answer": "CanItryiton",
+      "answer": "Can I try it on",
       "explanation": "Try it on（試着する）。\n【🇺🇸 Cultural Note】\nアメリカの試着室（Fitting room）は日本より自由で、店員もあまり干渉してきません。"
     },
     {
@@ -315,7 +315,7 @@
       "type": "sort",
       "question": "「誰でも間違いを犯すことがあります（ありうる）。」となるように並び替えてください。",
       "choices": ["Anyone", "mistakes", "make", "can"],
-      "answer": "Anyonecanmakemistakes",
+      "answer": "Anyone can make mistakes",
       "explanation": "Can（〜しうる/ありうる）。可能性を表します。\n【🇺🇸 Cultural Note】\n\"Everyone makes mistakes\"（誰でも失敗はある）と言って、失敗を許容し、再挑戦を促す文化があります。"
     },
     {
@@ -336,7 +336,7 @@
       "type": "sort",
       "question": "「クレジットカードは使えますか？（支払いできますか）」となるように並び替えてください。",
       "choices": ["Can", "card", "pay", "credit", "by", "I"],
-      "answer": "CanIpaybycreditcard",
+      "answer": "Can I pay by credit card",
       "explanation": "Can I pay by...（〜で支払えますか）。\n【🇺🇸 Cultural Note】\nアメリカはカード社会で、数ドルのコーヒーでもクレジットカードやデビットカードで支払うのが普通です。"
     },
     {
@@ -357,7 +357,7 @@
       "type": "sort",
       "question": "「あなたはチップを置く必要はありません（ファストフード店などで）。」となるように並び替えてください。",
       "choices": ["have", "to", "tip", "You", "don't"],
-      "answer": "Youdon'thavetotip",
+      "answer": "You don't have to tip",
       "explanation": "Don't have to（する必要はない）。\n【🇺🇸 Cultural Note】\nマクドナルドなどのファストフード店では、基本的にチップは不要です。"
     },
     {
@@ -378,7 +378,7 @@
       "type": "sort",
       "question": "「私はあなたに電話します。」となるように並び替えてください。",
       "choices": ["call", "you", "will", "I"],
-      "answer": "Iwillcallyou",
+      "answer": "I will call you",
       "explanation": "I will call you. 意志未来です。\n【🇺🇸 Cultural Note】\n\"I'll call you\"と言って実際には電話しないのは、別れ際の社交辞令としてよくあることです。"
     },
     {
@@ -399,7 +399,7 @@
       "type": "sort",
       "question": "「私は箸を使うことができません。」となるように並び替えてください。",
       "choices": ["use", "can't", "chopsticks", "I"],
-      "answer": "Ican'tusechopsticks",
+      "answer": "I can't use chopsticks",
       "explanation": "Can't use（使えない）。\n【🇺🇸 Cultural Note】\nアメリカの中華料理店では、頼まないと箸が出てこないこともあります（フォークを使う人が多いため）。"
     },
     {
@@ -420,7 +420,7 @@
       "type": "sort",
       "question": "「あなたは医者になるつもりですか？」となるように並び替えてください。",
       "choices": ["a", "doctor", "be", "you", "Will"],
-      "answer": "Willyoubeadoctor",
+      "answer": "Will you be a doctor",
       "explanation": "Will you be...（なるつもりですか/なる予定ですか）。\n【🇺🇸 Cultural Note】\nアメリカで医者になるには、大学卒業後にメディカルスクール（医科大学院）に進む必要があり、非常に長い道のりです。"
     },
     {
@@ -441,7 +441,7 @@
       "type": "sort",
       "question": "「私は一生懸命勉強するべきです。」となるように並び替えてください。",
       "choices": ["study", "hard", "I", "should"],
-      "answer": "Ishouldstudyhard",
+      "answer": "I should study hard",
       "explanation": "Should study（勉強するべきだ）。\n【🇺🇸 Cultural Note】\nアメリカの大学入試では、学力だけでなく課外活動やリーダーシップも評価されます。"
     },
     {
@@ -462,7 +462,7 @@
       "type": "sort",
       "question": "「私たちは自然を守らなければなりません。」となるように並び替えてください。",
       "choices": ["protect", "nature", "must", "We"],
-      "answer": "Wemustprotectnature",
+      "answer": "We must protect nature",
       "explanation": "Must protect（守らなければならない）。\n【🇺🇸 Cultural Note】\nイエローストーンやヨセミテなどの国立公園（National Parks）は、自然保護の象徴です。"
     },
     {
@@ -483,7 +483,7 @@
       "type": "sort",
       "question": "「あなたはもっと運動するべきです。」となるように並び替えてください。",
       "choices": ["exercise", "should", "more", "You"],
-      "answer": "Youshouldexercisemore",
+      "answer": "You should exercise more",
       "explanation": "Should exercise（運動するべきだ）。\n【🇺🇸 Cultural Note】\nジョギングやジム通いは、アメリカ人の健康維持の一般的な方法です。"
     },
     {
@@ -504,7 +504,7 @@
       "type": "sort",
       "question": "「あなたは嘘をつく必要はありません。」となるように並び替えてください。",
       "choices": ["have", "to", "You", "lie", "don't"],
-      "answer": "Youdon'thavetolie",
+      "answer": "You don't have to lie",
       "explanation": "Don't have to lie（嘘をつく必要はない）。\n【🇺🇸 Cultural Note】\n正直さ（Honesty）は人間関係において最も重要な価値観の一つとされています。"
     },
     {
@@ -525,7 +525,7 @@
       "type": "sort",
       "question": "「私はあなたに真実を話さなければなりません。」となるように並び替えてください。",
       "choices": ["tell", "truth", "must", "you", "the", "I"],
-      "answer": "Imusttellyouthetruth",
+      "answer": "I must tell you the truth",
       "explanation": "Must tell（話さなければならない）。\n【🇺🇸 Cultural Note】\n法廷での証言では、\"The truth, the whole truth, and nothing but the truth\"（真実、全き真実、そして真実のみ）を誓います。"
     },
     {
@@ -546,7 +546,7 @@
       "type": "sort",
       "question": "「明日は雪が降るでしょう。」となるように並び替えてください。",
       "choices": ["snow", "will", "tomorrow", "It"],
-      "answer": "Itwillsnowtomorrow",
+      "answer": "It will snow tomorrow",
       "explanation": "Will snow（雪が降るだろう）。\n【🇺🇸 Cultural Note】\n大雪（Blizzard）が降ると学校が休みになること（Snow day）があり、子供たちは喜びます。"
     },
     {
@@ -567,7 +567,7 @@
       "type": "sort",
       "question": "「あなたは最善を尽くすべきです。」となるように並び替えてください。",
       "choices": ["do", "best", "should", "your", "You"],
-      "answer": "Youshoulddoyourbest",
+      "answer": "You should do your best",
       "explanation": "Should do your best.\n【🇺🇸 Cultural Note】\n結果だけでなく、努力する過程（Effort）も評価されるべきという考え方があります。"
     },
     {

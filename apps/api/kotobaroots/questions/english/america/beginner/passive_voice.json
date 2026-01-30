@@ -14,7 +14,7 @@
       "type": "sort",
       "question": "「英語はアメリカで話されています。」となるように並び替えてください。",
       "choices": ["spoken", "is", "English", "America", "in"],
-      "answer": "EnglishisspokeninAmerica",
+      "answer": "English is spoken in America",
       "explanation": "is spoken（話されている）。行為者（by peopleなど）が一般的な場合は省略されます。\n【🇺🇸 Cultural Note】\nアメリカには法的な公用語はありませんが、英語が事実上の共通語です。スペイン語も非常に広く使われています。"
     },
     {
@@ -35,7 +35,7 @@
       "type": "sort",
       "question": "「その部屋は生徒たちによって掃除されますか？」となるように並び替えてください。",
       "choices": ["students", "Is", "room", "cleaned", "by", "the", "the"],
-      "answer": "Istheroomcleanedbythestudents",
+      "answer": "Is the room cleaned by the students",
       "explanation": "受動態の疑問文はbe動詞を前に出します。\n【🇺🇸 Cultural Note】\nアメリカの学校では、日本のように「掃除の時間」が生徒に義務付けられていることは稀で、専門の清掃員（Janitor）が行います。"
     },
     {
@@ -56,7 +56,7 @@
       "type": "sort",
       "question": "「そのケーキは弟に食べられました。」となるように並び替えてください。",
       "choices": ["eaten", "was", "cake", "The", "brother", "by", "my"],
-      "answer": "Thecakewaseatenbymybrother",
+      "answer": "The cake was eaten by my brother",
       "explanation": "was eaten（食べられた）。\n【🇺🇸 Cultural Note】\nアメリカのバースデーケーキは非常にカラフルで甘く、長方形のシートケーキ（Sheet cake）がパーティーでは一般的です。"
     },
     {
@@ -77,7 +77,7 @@
       "type": "sort",
       "question": "「ここでは英語が教えられています。」となるように並び替えてください。",
       "choices": ["English", "here", "taught", "is"],
-      "answer": "Englishistaughthere",
+      "answer": "English is taught here",
       "explanation": "teach（教える）の過去分詞はtaughtです。\n【🇺🇸 Cultural Note】\nアメリカは移民国家なので、「ESL（English as a Second Language）」という英語を母語としない人向けのクラスが充実しています。"
     },
     {
@@ -92,13 +92,13 @@
       "question": "「これらのコンピュータはアメリカで作られています」\nThese computers (      ) made in the USA.",
       "choices": ["are", "is", "was", "were"],
       "answer": "are",
-      "explanation": "computers（複数）なのでareを使います。\n【🇺🇸 Cultural Note】\nAppleやDell、HPなど、世界的なPCメーカーの多くがアメリカ企業です。"
+      "explanation": "computers（複数）なのでareを使います。\n【🇺🇸 Cultural Note】\nAppleやDell、HPなど、世界的な PC メーカーの多くがアメリカ企業です。"
     },
     {
       "type": "sort",
       "question": "「私はそのパーティーに招待されました。」となるように並び替えてください。",
       "choices": ["party", "invited", "was", "I", "to", "the"],
-      "answer": "Iwasinvitedtotheparty",
+      "answer": "I was invited to the party",
       "explanation": "invite（招待する）の受動態 was invited です。\n【🇺🇸 Cultural Note】\nパーティーの招待状に \"BYOB\" とあったら \"Bring Your Own Beer/Beverage/Booze\"（飲み物は持参してね）という意味です。"
     },
     {
@@ -119,7 +119,7 @@
       "type": "sort",
       "question": "「この絵は誰によって描かれましたか？」となるように並び替えてください。",
       "choices": ["painted", "Who", "picture", "was", "this", "by"],
-      "answer": "Whowasthispicturepaintedby",
+      "answer": "Who was this picture painted by",
       "explanation": "疑問詞Whoを使った受動態の疑問文です。最後にbyが残ります。\n【🇺🇸 Cultural Note】\nアンディ・ウォーホルは、キャンベルスープ缶などを描いたポップアートの巨匠として有名です。"
     },
     {
@@ -140,7 +140,7 @@
       "type": "sort",
       "question": "「その店は閉まっていました。」となるように並び替えてください。",
       "choices": ["closed", "store", "The", "was"],
-      "answer": "Thestorewasclosed",
+      "answer": "The store was closed",
       "explanation": "was closed（閉ざされていた＝閉まっていた）。状態を表す受動態です。\n【🇺🇸 Cultural Note】\nアメリカの祝日（クリスマスや感謝祭）には、スーパーやレストランも含めて多くの店が完全に閉まるのが一般的です。"
     },
     {
@@ -161,7 +161,7 @@
       "type": "sort",
       "question": "「今夜は星が見えます（見られます）。」となるように並び替えてください。",
       "choices": ["be", "seen", "can", "Stars", "tonight"],
-      "answer": "Starscanbeseentonight",
+      "answer": "Stars can be seen tonight",
       "explanation": "can be seen（見られることができる＝見える）。助動詞canが入る受動態です。\n【🇺🇸 Cultural Note】\nグリフィス天文台（ロサンゼルス）など、都市部でも星空を楽しめるスポットがあります。"
     },
     {
@@ -182,7 +182,7 @@
       "type": "sort",
       "question": "「その都市は『ビッグアップル』と呼ばれています。」となるように並び替えてください。",
       "choices": ["called", "The", "is", "Apple", "city", "Big", "The"],
-      "answer": "ThecityiscalledTheBigApple",
+      "answer": "The city is called The Big Apple",
       "explanation": "is called...（～と呼ばれている）。\n【🇺🇸 Cultural Note】\nニューヨーク市の愛称です。かつてジャズミュージシャンたちが「成功の象徴」として使ったのが広まった一因と言われています。"
     },
     {
@@ -203,7 +203,7 @@
       "type": "sort",
       "question": "「そのカメラはどこで見つかりましたか？」となるように並び替えてください。",
       "choices": ["found", "Where", "camera", "the", "was"],
-      "answer": "Wherewasthecamerafound",
+      "answer": "Where was the camera found",
       "explanation": "Where was + 主語 + 過去分詞...? の疑問文です。\n【🇺🇸 Cultural Note】\nアメリカの「遺失物取扱所」は \"Lost and Found\" と呼ばれます。"
     },
     {
@@ -224,7 +224,7 @@
       "type": "sort",
       "question": "「その会議は昨日開かれました。」となるように並び替えてください。",
       "choices": ["held", "meeting", "The", "yesterday", "was"],
-      "answer": "Themeetingwasheldyesterday",
+      "answer": "The meeting was held yesterday",
       "explanation": "be held（開かれる、開催される）。hold（開催する）の過去分詞heldを使います。\n【🇺🇸 Cultural Note】\nアメリカの地域社会では「タウンホールミーティング（Town Hall Meeting）」と呼ばれる対話集会がよく開かれ、市民が直接政治家に意見を述べます。"
     },
     {
@@ -245,7 +245,7 @@
       "type": "sort",
       "question": "「その本は英語で書かれていますか？」となるように並び替えてください。",
       "choices": ["English", "Written", "book", "in", "is", "the"],
-      "answer": "IsthebookwritteninEnglish",
+      "answer": "Is the book written in English",
       "explanation": "Is the book written...?（その本は書かれていますか）。in English（英語で）。\n【🇺🇸 Cultural Note】\nアメリカの書店（Bookstore）では、店内のカフェでコーヒーを飲みながら、購入前の本を読むことができるスタイルが一般的です。"
     },
     {
@@ -266,7 +266,7 @@
       "type": "sort",
       "question": "「その花瓶は誰によって壊されましたか？」となるように並び替えてください。",
       "choices": ["broken", "vase", "was", "Who", "by", "the"],
-      "answer": "Whowasthevasebrokenby",
+      "answer": "Who was the vase broken by",
       "explanation": "Who ... by?（誰によって～されましたか）。\n【🇺🇸 Cultural Note】\n家の中でボール遊びをして物を壊すのは、アメリカのホームドラマの定番トラブルです。"
     },
     {
@@ -287,7 +287,7 @@
       "type": "sort",
       "question": "「その仕事は明日までに終えられでしょう。」となるように並び替えてください。",
       "choices": ["finished", "will", "work", "be", "tomorrow", "The", "by"],
-      "answer": "Theworkwillbefinishedbytomorrow",
+      "answer": "The work will be finished by tomorrow",
       "explanation": "will be finished（終えられるだろう）。未来の受動態です。\n【🇺🇸 Cultural Note】\nアメリカのビジネス文化では「Deadline（締め切り）」は非常に重要視されます。"
     },
     {
@@ -308,7 +308,7 @@
       "type": "sort",
       "question": "「彼は大統領に選ばれました。」となるように並び替えてください。",
       "choices": ["President", "elected", "He", "was"],
-      "answer": "HewaselectedPresident",
+      "answer": "He was elected President",
       "explanation": "elect（選出する）の受動態 was elected。Presidentの前に冠詞がつかない（役職を表す補語）ことにも注意。\n【🇺🇸 Cultural Note】\nアメリカ大統領選挙は4年に一度行われ、選挙人団（Electoral College）という独特のシステムで選出されます。"
     },
     {
@@ -329,7 +329,7 @@
       "type": "sort",
       "question": "「その木は昨夜、嵐で倒されました。」となるように並び替えてください。",
       "choices": ["down", "storm", "tree", "was", "blown", "last", "night", "The", "by", "the"],
-      "answer": "Thetreewasblowndownbythestormlastnight",
+      "answer": "The tree was blown down by the storm last night",
       "explanation": "blow down（吹き倒す）の受動態 was blown down です。\n【🇺🇸 Cultural Note】\nハリケーンやトルネードの後は、倒木による停電が頻繁に発生します。"
     },
     {
@@ -350,7 +350,7 @@
       "type": "sort",
       "question": "「これらのクッキーは母によって焼かれました。」となるように並び替えてください。",
       "choices": ["cookies", "baked", "by", "These", "were", "my", "mother"],
-      "answer": "Thesecookieswerebakedbymymother",
+      "answer": "These cookies were baked by my mother",
       "explanation": "bake（焼く）の受動態 were baked。\n【🇺🇸 Cultural Note】\nチョコチップクッキーはアメリカ発祥のお菓子で、「ママの味」の代表格です。"
     },
     {
@@ -371,7 +371,7 @@
       "type": "sort",
       "question": "「私はそのパーティーでトムに話しかけられました。」となるように並び替えてください。",
       "choices": ["spoken", "Tom", "to", "I", "by", "was", "at", "the", "party"],
-      "answer": "IwasspokentobyTomattheparty",
+      "answer": "I was spoken to by Tom at the party",
       "explanation": "speak to...（～に話しかける）の受動態 was spoken to by...。前置詞toを忘れないように。\n【🇺🇸 Cultural Note】\nアメリカのパーティーでは、知らない人同士でも \"Mingle\"（混じり合って会話する）ことが期待されます。"
     },
     {
@@ -392,7 +392,7 @@
       "type": "sort",
       "question": "「私の名前はリストに含まれていますか？」となるように並び替えてください。",
       "choices": ["included", "name", "in", "Is", "the", "list", "my"],
-      "answer": "Ismynameincludedinthelist",
+      "answer": "Is my name included in the list",
       "explanation": "be included in...（～に含まれている）。\n【🇺🇸 Cultural Note】\n人気のあるナイトクラブやイベントでは、ゲストリストに名前がないと中に入れないことがよくあります。"
     },
     {
@@ -413,7 +413,7 @@
       "type": "sort",
       "question": "「私は彼にプレゼントを与えられました（もらいました）。」となるように並び替えてください。",
       "choices": ["given", "present", "was", "a", "by", "him", "I"],
-      "answer": "Iwasgivenapresentbyhim",
+      "answer": "I was given a present by him",
       "explanation": "giveの受動態。I was given a present...（私はプレゼントを与えられた＝もらった）。\n【🇺🇸 Cultural Note】\nクリスマスプレゼントはツリーの下に置いておき、クリスマスの朝に一斉に開けるのが伝統です。"
     },
     {
@@ -434,7 +434,7 @@
       "type": "sort",
       "question": "「この橋は1930年代に建てられました。」となるように並び替えてください。",
       "choices": ["built", "bridge", "was", "This", "in", "the", "1930s"],
-      "answer": "Thisbridgewasbuiltinthe1930s",
+      "answer": "This bridge was built in the 1930s",
       "explanation": "was built（建てられた）。1930sは「1930年代」という意味です。\n【🇺🇸 Cultural Note】\nサンフランシスコのゴールデンゲートブリッジは1937年に完成しました。当時は世界最長の吊り橋でした。"
     },
     {
@@ -455,7 +455,7 @@
       "type": "sort",
       "question": "「その手紙は明日配達されるでしょう。」となるように並び替えてください。",
       "choices": ["delivered", "letter", "will", "be", "The", "tomorrow"],
-      "answer": "Theletterwillbedeliveredtomorrow",
+      "answer": "The letter will be delivered tomorrow",
       "explanation": "will be delivered（配達されるでしょう）。未来の受動態。\n【🇺🇸 Cultural Note】\nAmazonなどの配送トラックが、平日・休日問わず住宅街を走り回っています。"
     },
     {
@@ -476,7 +476,7 @@
       "type": "sort",
       "question": "「その犬は『スポット』と呼ばれています。」となるように並び替えてください。",
       "choices": ["called", "dog", "is", "The", "Spot"],
-      "answer": "ThedogiscalledSpot",
+      "answer": "The dog is called Spot",
       "explanation": "is called [名前]（～と呼ばれる）。\n【🇺🇸 Cultural Note】\n\"Spot\" は、日本の「ポチ」にあたるような、古典的な犬の名前です（ぶち模様がある犬によく付けられます）。"
     },
     {
@@ -497,7 +497,7 @@
       "type": "sort",
       "question": "「これらの車は日本へ輸出されます。」となるように並び替えてください。",
       "choices": ["exported", "cars", "are", "These", "to", "Japan"],
-      "answer": "ThesecarsareexportedtoJapan",
+      "answer": "These cars are exported to Japan",
       "explanation": "export（輸出する）の受動態 are exported。\n【🇺🇸 Cultural Note】\n逆に、トヨタやホンダなどの日本車はアメリカで非常に信頼性が高く、よく売れています。"
     },
     {
@@ -518,12 +518,12 @@
       "type": "sort",
       "question": "「私は一生懸命勉強するように言われました。」となるように並び替えてください。",
       "choices": ["told", "study", "was", "I", "to", "hard"],
-      "answer": "Iwastoldtostudyhard",
+      "answer": "I was told to study hard",
       "explanation": "tell 人 to...（人に～しろと言う）の受動態は be told to...（～しろと言われる）となります。\n【🇺🇸 Cultural Note】\nアメリカの学校では、勉強だけでなくスポーツや芸術活動との両立（Well-rounded）が求められます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「その家は白く塗られました」\nThe house was (      ) white.",
+      "question": "「その家は白く塗られました」\nThe house was (      ) painted white.",
       "choices": [],
       "answer": "painted",
       "explanation": "paint（塗る）の過去分詞painted。\n【🇺🇸 Cultural Note】\n大統領官邸「ホワイトハウス」は、1814年にイギリス軍による焼き討ちにあった後、焼け跡を隠すために白く塗られたと言われています。"
@@ -539,7 +539,7 @@
       "type": "sort",
       "question": "「夕食は6時に出されます。」となるように並び替えてください。",
       "choices": ["served", "Dinner", "is", "at", "six"],
-      "answer": "Dinnerisservedatsix",
+      "answer": "Dinner is served at six",
       "explanation": "serve（食事を出す）の受動態 is served。\n【🇺🇸 Cultural Note】\nアメリカの家庭の夕食時間は日本より少し早い傾向があり、6時頃に食べる家庭も多いです。"
     },
     {
@@ -560,7 +560,7 @@
       "type": "sort",
       "question": "「ローマは一日にして成らず（建てられず）。」となるように並び替えてください。",
       "choices": ["built", "not", "Rome", "was", "in", "a", "day"],
-      "answer": "Romewasnotbuiltinaday",
+      "answer": "Rome was not built in a day",
       "explanation": "有名なことわざです。大きな仕事はすぐには完成しないという意味。\n【🇺🇸 Cultural Note】\n英語の授業や日常会話でよく引用される教訓です。忍耐と努力の重要性を説きます。"
     },
     {
@@ -581,7 +581,7 @@
       "type": "sort",
       "question": "「その歌は聖歌隊によって歌われました。」となるように並び替えてください。",
       "choices": ["sung", "song", "choir", "was", "The", "by", "the"],
-      "answer": "Thesongwassungbythechoir",
+      "answer": "The song was sung by the choir",
       "explanation": "sing（歌う）の過去分詞sung。\n【🇺🇸 Cultural Note】\nゴスペルクワイア（Gospel Choir）は、アフリカ系アメリカ人の教会文化から生まれた魂の音楽です。"
     },
     {
@@ -602,12 +602,12 @@
       "type": "sort",
       "question": "「その仕事は午後5時までに終わらせなければなりません。」となるように並び替えてください。",
       "choices": ["done", "be", "must", "work", "The", "by", "5 p.m."],
-      "answer": "Theworkmustbedoneby5pm",
+      "answer": "The work must be done by 5 p.m.",
       "explanation": "must be done（なされなければならない＝終わらせなければならない）。doの過去分詞doneを使います。\n【🇺🇸 Cultural Note】\nアメリカのオフィスワークは定時（9時-5時）で終わるのが基本で、ワークライフバランスが重視されます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「その門は夜には鍵がかけられます」\nThe gate is (      ) at night.",
+      "question": "「その門は夜には鍵がかけられます」\nThe gate is (      ) locked at night.",
       "choices": [],
       "answer": "locked",
       "explanation": "lock（鍵をかける）の受動態is locked。\n【🇺🇸 Cultural Note】\nアメリカの学校には、生徒一人一人に荷物を入れるためのロッカー（Locker）が割り当てられています。"
@@ -623,12 +623,12 @@
       "type": "sort",
       "question": "「新しい学校がここに建てられるでしょう。」となるように並び替えてください。",
       "choices": ["built", "school", "new", "will", "A", "be", "here"],
-      "answer": "Anewschoolwillbebuilthere",
+      "answer": "A new school will be built here",
       "explanation": "will be built（建てられる予定だ）。\n【🇺🇸 Cultural Note】\n地域の公立学校は固定資産税（Property Tax）で運営されるため、高級住宅地ほど学校の設備が良い傾向にあります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「このバッグは革で作られています」\nThis bag is (      ) of leather.",
+      "question": "「このバッグは革で作られています」\nThis bag is (      ) made of leather.",
       "choices": [],
       "answer": "made",
       "explanation": "be made of...（～[材料]で作られている）。\n【🇺🇸 Cultural Note】\nカウボーイブーツや革ジャンなど、レザー製品はアメリカンファッションの定番です。"
@@ -644,12 +644,12 @@
       "type": "sort",
       "question": "「その問題は簡単に解決されました。」となるように並び替えてください。",
       "choices": ["solved", "problem", "The", "was", "easily"],
-      "answer": "Theproblemwassolvedeasily",
+      "answer": "The problem was solved easily",
       "explanation": "solve（解決する）の受動態was solved。\n【🇺🇸 Cultural Note】\n「ダクトテープ（Duct tape）」があれば何でも修理できる、というのはアメリカ人のDIY精神を象徴するジョークです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「そのEメールは全員に送られました」\nThe email was (      ) to everyone.",
+      "question": "「そのEメールは全員に送られました」\nThe email was (      ) sent to everyone.",
       "choices": [],
       "answer": "sent",
       "explanation": "send（送る）の過去分詞sent。\n【🇺🇸 Cultural Note】\nビジネスメールでは、\"CC\"（Carbon Copy）機能を使って関係者全員に情報を共有することが一般的です。"
@@ -659,18 +659,18 @@
       "question": "「これらのリンゴは青森で育てられていますか？」\nAre these apples (      ) in Aomori?",
       "choices": ["grown", "grew", "grow", "growing"],
       "answer": "grown",
-      "explanation": "grow（育てる）の過去分詞grown。\n【🇺🇸 Cultural Note】\nアメリカでリンゴといえばワシントン州が最大の産地です。ランチボックスに丸ごとのリンゴを入れるのが定番です。"
+      "explanation": "grow（育てる）の過去分詞grown。\n【🇺🇸 Cultural Note】\nアメリカでリンゴといえばワシントン州が最大の産産地です。ランチボックスに丸ごとのリンゴを入れるのが定番です。"
     },
     {
       "type": "sort",
       "question": "「私はスピーチをするように頼まれました。」となるように並び替えてください。",
       "choices": ["speech", "make", "asked", "was", "I", "to", "a"],
-      "answer": "Iwasaskedtomakeaspeech",
+      "answer": "I was asked to make a speech",
       "explanation": "ask 人 to...（人に～するように頼む）の受動態 be asked to...。\n【🇺🇸 Cultural Note】\n「パブリックスピーキング（Public Speaking）」はアメリカの学校で重視されるスキルで、必須科目になっていることも多いです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「その机はほこりで覆われています」\nThe desk is covered (      ) dust.",
+      "question": "「その机はほこりで覆われています」\nThe desk is covered (      ) with dust.",
       "choices": [],
       "answer": "with",
       "explanation": "be covered with...（～で覆われている）。\n【🇺🇸 Cultural Note】\nアメリカ西部では乾燥しているため、砂埃（Dust）が立ちやすい地域があります。"
@@ -686,7 +686,7 @@
       "type": "sort",
       "question": "「そのニュースはテレビで放送されました。」となるように並び替えてください。",
       "choices": ["TV", "on", "broadcast", "news", "was", "The"],
-      "answer": "ThenewswasbroadcastonTV",
+      "answer": "The news was broadcast on TV",
       "explanation": "broadcast（放送する）の過去分詞はbroadcast（またはbroadcasted）です。\n【🇺🇸 Cultural Note】\nスーパーボウルのCM枠は世界一高額で、各企業が力を入れた特別なCMが放送されます。"
     },
     {
