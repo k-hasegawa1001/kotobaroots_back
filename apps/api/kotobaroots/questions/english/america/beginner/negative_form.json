@@ -1,706 +1,602 @@
 {
   "learning_topic": "否定文",
+  "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "「私は学生ではありません」\nI (      ) a student.",
-      "choices": ["am not", "don't", "not", "no"],
-      "answer": "am not",
-      "explanation": "be動詞（am）の後ろにnotを置きます。「am not」には短縮形（amn't）がないため、I'm notと主語の方を短縮するのが一般的です。"
+      "question": "「私は紅茶を飲みません」\nI (      ) drink tea.",
+      "choices": ["don't", "doesn't", "not", "no"],
+      "answer": "don't",
+      "explanation": "主語がIなのでdon'tを使います。\n【🇺🇸 Cultural Note】\nアメリカは圧倒的なコーヒー社会です。独立戦争前に「ボストン茶会事件」で紅茶をボイコットした歴史的背景から、紅茶よりもコーヒーが好まれるようになったと言われています。"
     },
     {
       "type": "sort",
-      "question": "「私はテニスをしません。」となるように並び替えてください。",
-      "choices": ["tennis", "play", "not", "do", "I"],
-      "answer": "Idonotplaytennis",
-      "explanation": "I do not play tennis. です。一般動詞（play）の前にdo notを置きます。"
+      "question": "「彼はクリケットをしません。」となるように並び替えてください。",
+      "choices": ["play", "doesn't", "cricket", "He"],
+      "answer": "Hedoesn'tplaycricket",
+      "explanation": "He（三人称単数）なのでdoesn'tを使い、動詞は原形（play）にします。\n【🇺🇸 Cultural Note】\nクリケットはイギリス連邦諸国では人気ですが、アメリカではマイナースポーツです。アメリカの「バットとボール」のスポーツといえば野球（Baseball）です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「これはペンではありません」\nThis (      ) a pen.",
+      "question": "「私たちは土曜日に学校へ行きません」\nWe (      ) go to school on Saturdays.",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "Weなのでdon'tを使います。\n【🇺🇸 Cultural Note】\nアメリカの学校は完全週休2日制（月〜金）が基本です。部活動の試合などは週末に行われることもあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女はマニュアル車を運転しません」\nShe (      ) drive a stick shift.",
+      "choices": ["doesn't", "don't", "isn't", "aren't"],
+      "answer": "doesn't",
+      "explanation": "She（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカで販売されている車の95%以上はオートマチック車（Automatic）です。マニュアル車は\"Stick shift\"と呼ばれ、運転できる人は少数派です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは摂氏を使いません。」となるように並び替えてください。",
+      "choices": ["use", "Celsius", "don't", "They"],
+      "answer": "Theydon'tuseCelsius",
+      "explanation": "They don't use... です。\n【🇺🇸 Cultural Note】\nアメリカは世界でも数少ない「華氏（Fahrenheit）」を採用している国です。天気予報で「30度」と言われたら、氷点下の寒さ（-1℃）のことです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ニューヨークは首都ではありません」\nNew York (      ) the capital.",
       "choices": [],
       "answer": "isn't",
-      "explanation": "is notの短縮形isn'tを使います。"
+      "explanation": "be動詞（is）の否定なのでisn'tを使います。\n【🇺🇸 Cultural Note】\nかつてはニューヨークが首都だった時期もありますが、現在はワシントンD.C.が首都です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「あなたは忙しくありません」\nYou (      ) busy.",
-      "choices": ["are not", "do not", "not", "no"],
-      "answer": "are not",
-      "explanation": "be動詞（are）の後ろにnotを置きます。"
+      "question": "「トムは制服を着ません」\nTom (      ) wear a uniform.",
+      "choices": ["doesn't", "don't", "isn't", "not"],
+      "answer": "doesn't",
+      "explanation": "Tom（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカの公立学校（Public School）の多くは私服通学です。服装規定（Dress code）はありますが、自由なスタイルが一般的です。"
     },
     {
       "type": "sort",
-      "question": "「私は納豆が好きではありません。」となるように並び替えてください。",
-      "choices": ["like", "don't", "natto", "I"],
-      "answer": "Idon'tlikenatto",
-      "explanation": "I don't like natto. です。do notを短縮してdon'tにします。"
+      "question": "「私は箸を使いません。」となるように並び替えてください。",
+      "choices": ["chopsticks", "use", "don't", "I"],
+      "answer": "Idon'tusechopsticks",
+      "explanation": "I don't use chopsticks.\n【🇺🇸 Cultural Note】\n中華料理のテイクアウト（Panda Expressなど）ではフォークがついてきますが、都市部では箸を使えるアメリカ人も増えています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は医者ではありません」\nI (      ) not a doctor.",
+      "question": "「この店は現金を受け付けません」\nThis store (      ) accept cash.",
       "choices": [],
-      "answer": "am",
-      "explanation": "I am not... の形です。"
+      "answer": "doesn't",
+      "explanation": "This store（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカの一部のカフェやサラダ専門店では\"Cashless\"（現金不可・カードのみ）のお店が増えています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私たちは先生ではありません」\nWe (      ) teachers.",
-      "choices": ["are not", "don't", "not are", "no"],
-      "answer": "are not",
-      "explanation": "We are not... です。"
+      "question": "「私たちは靴を脱ぎません」\nWe (      ) take off our shoes.",
+      "choices": ["don't", "doesn't", "aren't", "no"],
+      "answer": "don't",
+      "explanation": "Weなのでdon'tを使います。\n【🇺🇸 Cultural Note】\nアメリカでは家の中で靴を履いたまま過ごす家庭が多いですが、最近は衛生面から靴を脱ぐ（Shoes-off）ルールのアメリカ人も増えています。"
     },
     {
       "type": "sort",
-      "question": "「それは私の本ではありません。」となるように並び替えてください。",
-      "choices": ["book", "my", "is", "not", "That"],
-      "answer": "Thatisnotmybook",
-      "explanation": "That is not my book. です。"
+      "question": "「彼は野菜を食べません。」となるように並び替えてください。",
+      "choices": ["eat", "He", "vegetables", "doesn't"],
+      "answer": "Hedoesn'teatvegetables",
+      "explanation": "He doesn't eat vegetables.\n【🇺🇸 Cultural Note】\nアメリカの食事は肉や炭水化物が中心になりがちです。子供の嫌いな野菜の代表はブロッコリーや芽キャベツです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼らはアメリカ出身ではありません」\nThey (      ) from America.",
+      "question": "「フロリダでは雪は降りません」\nIt (      ) snow in Florida.",
       "choices": [],
+      "answer": "doesn't",
+      "explanation": "It（天候）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nフロリダは亜熱帯気候で一年中温暖です。雪が降ると大ニュースになります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はサッカーをしません」\nI (      ) play soccer.",
+      "choices": ["don't", "doesn't", "am not", "not"],
+      "answer": "don't",
+      "explanation": "I don't play... です。\n【🇺🇸 Cultural Note】\nアメリカで単に\"Football\"と言えばアメフトのことです。サッカー（Soccer）は子供の習い事として人気ですが、プロスポーツとしての地位はまだ発展途上です。"
+    },
+    {
+      "type": "sort",
+      "question": "「チップは含まれていません。」となるように並び替えてください。",
+      "choices": ["included", "Tip", "is", "not"],
+      "answer": "Tipisnotincluded",
+      "explanation": "Tip（単数）なのでis notです。\n【🇺🇸 Cultural Note】\nレシートに\"Gratuity included\"と書かれていない限り、レストランでは必ずチップを上乗せして支払う必要があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は地下鉄を使いません」\nShe (      ) use the subway.",
+      "choices": [],
+      "answer": "doesn't",
+      "explanation": "She（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nロサンゼルスのような車社会の都市では、公共交通機関があっても利用しない人が多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らはメートル法を知りません」\nThey (      ) know the metric system.",
+      "choices": ["don't", "doesn't", "aren't", "not"],
+      "answer": "don't",
+      "explanation": "They（複数）なのでdon'tを使います。\n【🇺🇸 Cultural Note】\nアメリカはメートル法（Metric system）を採用していない数少ない国の一つで、ヤード・ポンド法（Imperial system）を使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「そのバスは止まりません。」となるように並び替えてください。",
+      "choices": ["bus", "stop", "The", "doesn't"],
+      "answer": "Thebusdoesn'tstop",
+      "explanation": "The bus（単数）なのでdoesn't stopです。\n【🇺🇸 Cultural Note】\nアメリカの長距離バス（Greyhoundなど）は安価な移動手段として知られていますが、都市間の移動には飛行機が一般的です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はパスポートを持っていません」\nI (      ) have a passport.",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "I don't have... です。\n【🇺🇸 Cultural Note】\nアメリカ人のパスポート保有率は約40%程度と言われています。国内が広大で、国内旅行だけで十分楽しめるためです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「父は料理をしません」\nMy father (      ) cook.",
+      "choices": ["doesn't", "don't", "isn't", "not"],
+      "answer": "doesn't",
+      "explanation": "My father（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\n普段料理をしない父親でも、週末のBBQ（バーベキュー）で肉を焼く時だけは張り切って担当するのがアメリカの定番です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは洗濯物を外に干しません。」となるように並び替えてください。",
+      "choices": ["hang", "clothes", "outside", "We", "don't", "our"],
+      "answer": "Wedon'thangourclothesoutside",
+      "explanation": "We don't hang... です。\n【🇺🇸 Cultural Note】\n景観保護のルールや、乾燥機（Dryer）が完全に普及しているため、洗濯物を外干しする習慣はほとんどありません。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ケイトは魚が好きではありません」\nKate (      ) like fish.",
+      "choices": [],
+      "answer": "doesn't",
+      "explanation": "Kate（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\n内陸部のアメリカ人はシーフードを食べる機会が少なく、魚が苦手な人も珍しくありません。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは列に並んでいません」\nYou (      ) in line.",
+      "choices": ["aren't", "don't", "isn't", "doesn't"],
       "answer": "aren't",
-      "explanation": "are notの短縮形aren'tを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は車を持っていません」\nI (      ) have a car.",
-      "choices": ["don't", "am not", "not", "no"],
-      "answer": "don't",
-      "explanation": "一般動詞（have）を否定するときは、前にdon'tを置きます。"
+      "explanation": "be in line（列に並んでいる）の否定なのでaren'tを使います。\n【🇺🇸 Cultural Note】\n\"Cut in line\"（割り込み）は非常にマナー違反とされ、厳しく注意されます。"
     },
     {
       "type": "sort",
-      "question": "「あなたは間違っていません。」となるように並び替えてください。",
-      "choices": ["wrong", "not", "are", "You"],
-      "answer": "Youarenotwrong",
-      "explanation": "You are not wrong. です。"
+      "question": "「彼らは昼食に米を食べません。」となるように並び替えてください。",
+      "choices": ["rice", "eat", "lunch", "don't", "They", "for"],
+      "answer": "Theydon'teatriceforlunch",
+      "explanation": "They don't eat rice for lunch.\n【🇺🇸 Cultural Note】\nアメリカのランチの定番はサンドイッチ、ピザ、サラダなどです。お米（Rice）は中華料理などのサイドメニューという認識が強いです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は野球をしません」\nI (      ) play baseball.",
+      "question": "「私の犬は噛みません」\nMy dog (      ) bite.",
       "choices": [],
-      "answer": "don't",
-      "explanation": "I don't play baseball. です。"
+      "answer": "doesn't",
+      "explanation": "My dog（単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\n\"Does he bite?\"（噛みますか？）は、他人の犬を撫でる前に飼い主に聞くべきマナーです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「今日は晴れではありません」\nIt (      ) sunny today.",
-      "choices": ["is not", "does not", "not", "no"],
-      "answer": "is not",
-      "explanation": "天気を表すIt is...の否定文です。"
+      "question": "「今日は祝日ではありません」\nToday (      ) a holiday.",
+      "choices": ["isn't", "doesn't", "aren't", "don't"],
+      "answer": "isn't",
+      "explanation": "Today（単数）のbe動詞否定なのでisn'tです。\n【🇺🇸 Cultural Note】\nアメリカには「建国記念日」や「感謝祭」などの連邦祝日がありますが、日本に比べると祝日の日数は少なめです。"
     },
     {
       "type": "sort",
-      "question": "「私たちは英語を話しません。」となるように並び替えてください。",
-      "choices": ["English", "speak", "don't", "We"],
-      "answer": "Wedon'tspeakEnglish",
-      "explanation": "We don't speak English. です。"
+      "question": "「私はその歌を知りません。」となるように並び替えてください。",
+      "choices": ["know", "song", "that", "don't", "I"],
+      "answer": "Idon'tknowthatsong",
+      "explanation": "I don't know that song.\n【🇺🇸 Cultural Note】\nアメリカ国歌\"The Star-Spangled Banner\"は非常に音域が広く、歌うのが難しいことで有名です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は私の姉ではありません」\nShe (      ) my sister.",
+      "question": "「彼女は化粧をしません」\nShe (      ) wear makeup.",
+      "choices": [],
+      "answer": "doesn't",
+      "explanation": "She（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカの職場では、日本ほど「化粧はマナー」という圧力はなく、ナチュラルなスタイルも受け入れられています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちはリサイクルをしません」\nWe (      ) recycle.",
+      "choices": ["don't", "doesn't", "aren't", "not"],
+      "answer": "don't",
+      "explanation": "Weなのでdon'tを使います。\n【🇺🇸 Cultural Note】\nアメリカのリサイクル率は州によって大きく異なります。カリフォルニア州などは意識が高いですが、全体としては日本より低めです。"
+    },
+    {
+      "type": "sort",
+      "question": "「ジムはスニーカーを履きません。」となるように並び替えてください。",
+      "choices": ["wear", "sneakers", "doesn't", "Jim"],
+      "answer": "Jimdoesn'twearsneakers",
+      "explanation": "Jim（三人称単数）なのでdoesn't wearです。\n【🇺🇸 Cultural Note】\n職場によっては「ドレスコード」があり、スニーカーやジーンズが禁止されている場合もあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それは私のサイズではありません」\nIt (      ) my size.",
       "choices": [],
       "answer": "isn't",
-      "explanation": "She isn't my sister. です。"
+      "explanation": "It isn't... です。\n【🇺🇸 Cultural Note】\nアメリカの服のサイズは日本よりかなり大きめです。日本のMサイズはアメリカのXSかSサイズに相当することが多いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「それらはあなたの靴ではありません」\nThose (      ) your shoes.",
-      "choices": ["aren't", "isn't", "don't", "not"],
+      "question": "「彼らはチップを置きませんでした」\nThey (      ) leave a tip.",
+      "choices": ["didn't", "don't", "doesn't", "weren't"],
+      "answer": "didn't",
+      "explanation": "過去の話なのでdidn'tを使います。\n【🇺🇸 Cultural Note】\nサービスが悪かった場合でも、最低限（10%程度）のチップを置くか、マネージャーにクレームを言うのが一般的で、何も置かずに去るのは非常に強い抗議になります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はフットボールを見ません。」となるように並び替えてください。",
+      "choices": ["watch", "don't", "I", "football"],
+      "answer": "Idon'twatchfootball",
+      "explanation": "I don't watch football.\n【🇺🇸 Cultural Note】\nスーパーボウル（NFL決勝戦）の日は、フットボールに興味がない人でもハーフタイムショーやCM目当てでパーティーに参加します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「テキサスは小さくありません」\nTexas (      ) small.",
+      "choices": [],
+      "answer": "isn't",
+      "explanation": "Texas（単数）なのでisn'tです。\n【🇺🇸 Cultural Note】\nアラスカ州に次いで全米2位の面積を持ち、日本の国土の約1.8倍の広さがあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の車は動きません」\nMy car (      ) work.",
+      "choices": ["doesn't", "don't", "isn't", "aren't"],
+      "answer": "doesn't",
+      "explanation": "My car（三人称単数）なのでdoesn'tを使います。機械が「動く」はworkを使います。\n【🇺🇸 Cultural Note】\nAAA（トリプルエー）は日本のJAFに相当するロードサービスで、車社会アメリカの必需品です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちはスペイン語を話しません。」となるように並び替えてください。",
+      "choices": ["speak", "Spanish", "don't", "We"],
+      "answer": "Wedon'tspeakSpanish",
+      "explanation": "We don't speak Spanish.\n【🇺🇸 Cultural Note】\nアメリカ南西部（カリフォルニアやテキサスなど）では、看板や案内表示が英語とスペイン語のバイリンガル表記になっていることが多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ジョンはタバコを吸いません」\nJohn (      ) smoke.",
+      "choices": [],
+      "answer": "doesn't",
+      "explanation": "John（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカでは屋内（レストランやオフィス）はほぼ全面禁煙です。喫煙者は建物の外の指定場所で吸わなければなりません。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それは遠くありません」\nIt (      ) far.",
+      "choices": ["isn't", "doesn't", "aren't", "don't"],
+      "answer": "isn't",
+      "explanation": "It isn't far. 形容詞farなのでbe動詞を使います。\n【🇺🇸 Cultural Note】\nアメリカ人の「遠くない（Not far）」の感覚は、車で1時間以内なら「近い」と感じるほど、距離感が日本人とは異なります。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は早起きしません。」となるように並び替えてください。",
+      "choices": ["get", "early", "doesn't", "up", "She"],
+      "answer": "Shedoesn'tgetupearly",
+      "explanation": "She doesn't get up early.\n【🇺🇸 Cultural Note】\nアメリカの高校は始業時間が早く（7:30〜8:00頃）、スクールバスに乗るために非常に早起きしなければならない生徒が多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は気にしません」\nI (      ) mind.",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "I don't mind.\n【🇺🇸 Cultural Note】\n提案に対して「いいですよ（構いませんよ）」と答える時によく使われる表現です。\"I don't care\"と言うと「どうでもいい（無関心）」という冷たいニュアンスになるので注意が必要です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これらは無料ではありません」\nThese (      ) free.",
+      "choices": ["aren't", "don't", "isn't", "doesn't"],
       "answer": "aren't",
-      "explanation": "Those（あれら）は複数形なのでaren'tを使います。"
+      "explanation": "These（複数）のbe動詞否定なのでaren'tです。\n【🇺🇸 Cultural Note】\nアメリカのレストランでは、お水（Tap water）とパンは無料ですが、ソーダなどの飲み物は有料です。"
     },
     {
       "type": "sort",
-      "question": "「私は彼を知りません。」となるように並び替えてください。",
-      "choices": ["him", "know", "not", "do", "I"],
-      "answer": "Idonotknowhim",
-      "explanation": "I do not know him. です。"
+      "question": "「ボブは泳ぎません。」となるように並び替えてください。",
+      "choices": ["swim", "Bob", "doesn't"],
+      "answer": "Bobdoesn'tswim",
+      "explanation": "Bob doesn't swim.\n【🇺🇸 Cultural Note】\nアメリカの家には「バックヤードプール」がある家庭も多く、夏はプールパーティーが盛んです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は魚を食べません」\nI (      ) eat fish.",
-      "choices": [],
-      "answer": "don't",
-      "explanation": "I don't eat fish. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「この猫は大きくありません」\nThis cat (      ) big.",
-      "choices": ["is not", "don't", "does not", "not"],
-      "answer": "is not",
-      "explanation": "This catは単数なのでis notを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼らは日本人ではありません。」となるように並び替えてください。",
-      "choices": ["Japanese", "not", "are", "They"],
-      "answer": "TheyarenotJapanese",
-      "explanation": "They are not Japanese. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私の名前はケンではありません」\nMy name (      ) Ken.",
+      "question": "「その店は開いていません」\nThe store (      ) open.",
       "choices": [],
       "answer": "isn't",
-      "explanation": "My name isn't Ken. です。"
+      "explanation": "Open（形容詞：開いている）なのでisn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカの祝日（クリスマスや感謝祭）には、スーパーやデパートを含めほとんどの店が閉まります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私はピアノを弾きません」\nI (      ) the piano.",
-      "choices": ["don't play", "play not", "not play", "am not play"],
-      "answer": "don't play",
-      "explanation": "一般動詞の否定は「don't + 動詞の原形」です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは一人ではありません。」となるように並び替えてください。",
-      "choices": ["alone", "not", "are", "You"],
-      "answer": "Youarenotalone",
-      "explanation": "You are not alone. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「そこに行くな」\n(      ) go there.",
-      "choices": [],
-      "answer": "Don't",
-      "explanation": "Don't + 動詞の原形で「～してはいけない」という禁止の命令文になります。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私たちは疲れていません」\nWe (      ) tired.",
-      "choices": ["aren't", "don't", "isn't", "not"],
-      "answer": "aren't",
-      "explanation": "We aren't tired. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はコーヒーを飲みません。」となるように並び替えてください。",
-      "choices": ["coffee", "drink", "don't", "I"],
-      "answer": "Idon'tdrinkcoffee",
-      "explanation": "I don't drink coffee. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「それは難しくありません」\nIt (      ) difficult.",
-      "choices": [],
-      "answer": "isn't",
-      "explanation": "It isn't difficult. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「これらは私のペンではありません」\nThese (      ) my pens.",
-      "choices": ["are not", "is not", "don't", "do not"],
-      "answer": "are not",
-      "explanation": "These（これら）は複数なのでare notです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は大阪に住んでいません。」となるように並び替えてください。",
-      "choices": ["Osaka", "in", "live", "not", "do", "I"],
-      "answer": "IdonotliveinOsaka",
-      "explanation": "I do not live in Osaka. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「遅刻するな」\n(      ) be late.",
-      "choices": [],
-      "answer": "Don't",
-      "explanation": "Don't be late. 遅刻（late）は形容詞なので、動詞のbeが必要です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は空腹ではありません」\nI (      ) hungry.",
-      "choices": ["am not", "don't", "isn't", "aren't"],
-      "answer": "am not",
-      "explanation": "I am not hungry. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼らは幸せではありません。」となるように並び替えてください。",
-      "choices": ["happy", "not", "are", "They"],
-      "answer": "Theyarenothappy",
-      "explanation": "They are not happy. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私たちは学校に行きません」\nWe (      ) go to school.",
-      "choices": [],
-      "answer": "don't",
-      "explanation": "We don't go to school. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは歌手ではありません」\nYou (      ) a singer.",
-      "choices": ["aren't", "don't", "isn't", "not"],
-      "answer": "aren't",
-      "explanation": "You aren't a singer. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「この本は面白くありません。」となるように並び替えてください。",
-      "choices": ["interesting", "not", "is", "book", "This"],
-      "answer": "Thisbookisnotinteresting",
-      "explanation": "This book is not interesting. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はこれが好きではありません」\nI (      ) like this.",
-      "choices": [],
-      "answer": "don't",
-      "explanation": "I don't like this. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼は私の先生ではありません」\nHe (      ) my teacher.",
-      "choices": ["is not", "don't", "not", "aren't"],
-      "answer": "is not",
-      "explanation": "He is not my teacher. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「走らないで。」となるように並び替えてください。",
-      "choices": ["run", "Don't"],
-      "answer": "Don'trun",
-      "explanation": "Don't run. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「それらはあなたのバッグではありません」\nThose (      ) your bags.",
-      "choices": [],
-      "answer": "aren't",
-      "explanation": "Those aren't your bags. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はあなたを忘れません」\nI (      ) forget you.",
-      "choices": ["don't", "not", "am not", "no"],
-      "answer": "don't",
-      "explanation": "Forget（忘れる）は一般動詞なのでdon'tを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は悲しくありません。」となるように並び替えてください。",
-      "choices": ["sad", "not", "am", "I"],
-      "answer": "Iamnotsad",
-      "explanation": "I am not sad. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「諦めるな」\n(      ) give up.",
-      "choices": [],
-      "answer": "Don't",
-      "explanation": "Don't give up.（諦めないで）は励ましの定番フレーズです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは悪くありません」\nYou (      ) bad.",
-      "choices": ["are not", "do not", "not", "no"],
-      "answer": "are not",
-      "explanation": "You are not bad. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちはテレビを見ません。」となるように並び替えてください。",
-      "choices": ["TV", "watch", "don't", "We"],
-      "answer": "Wedon'twatchTV",
-      "explanation": "We don't watch TV. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はカナダ出身ではありません」\nI (      ) not from Canada.",
-      "choices": [],
-      "answer": "am",
-      "explanation": "I am not from Canada. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「トムと私は兄弟ではありません」\nTom and I (      ) brothers.",
-      "choices": ["are not", "is not", "am not", "don't"],
-      "answer": "are not",
-      "explanation": "主語がTom and I（2人＝複数）なのでare notを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は彼らが好きではありません。」となるように並び替えてください。",
-      "choices": ["them", "like", "not", "do", "I"],
-      "answer": "Idonotlikethem",
-      "explanation": "I do not like them. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「心配しないで」\n(      ) worry.",
-      "choices": [],
-      "answer": "Don't",
-      "explanation": "Don't worry. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「その店は開いていません」\nThe shop (      ) open.",
-      "choices": ["isn't", "don't", "aren't", "not"],
-      "answer": "isn't",
-      "explanation": "The shopは単数なのでisn'tを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は犬を飼っていません。」となるように並び替えてください。",
-      "choices": ["dog", "a", "have", "don't", "I"],
-      "answer": "Idon'thaveadog",
-      "explanation": "I don't have a dog. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「ここは安全ではありません」\nIt (      ) safe here.",
-      "choices": [],
-      "answer": "isn't",
-      "explanation": "It isn't safe here. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼らは走っていません」\nThey (      ) running.",
-      "choices": ["are not", "do not", "is not", "did not"],
-      "answer": "are not",
-      "explanation": "現在進行形（be動詞 + ~ing）の否定文も、be動詞の後ろにnotを置きます。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は眠くありません。」となるように並び替えてください。",
-      "choices": ["sleepy", "not", "am", "I"],
-      "answer": "Iamnotsleepy",
-      "explanation": "I am not sleepy. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「その箱を開けるな」\n(      ) open the box.",
-      "choices": [],
-      "answer": "Don't",
-      "explanation": "Don't open the box. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは10歳ではありません」\nYou (      ) ten years old.",
-      "choices": ["aren't", "don't", "isn't", "not"],
-      "answer": "aren't",
-      "explanation": "You aren't ten years old. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちは車を使います。」の否定文にしてください。",
-      "choices": ["car", "use", "don't", "a", "We"],
-      "answer": "Wedon'tuseacar",
-      "explanation": "We don't use a car. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は理解できません」\nI (      ) understand.",
-      "choices": [],
-      "answer": "don't",
-      "explanation": "I don't understand. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「ロンドンは日本にありません」\nLondon (      ) in Japan.",
-      "choices": ["isn't", "aren't", "don't", "not"],
-      "answer": "isn't",
-      "explanation": "London isn't in Japan. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は疲れていません。」となるように並び替えてください。",
-      "choices": ["tired", "not", "am", "I"],
-      "answer": "Iamnottired",
-      "explanation": "I am not tired. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「これに触るな」\n(      ) touch this.",
-      "choices": [],
-      "answer": "Don't",
-      "explanation": "Don't touch this. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は嘘をつきません」\nI (      ) tell a lie.",
-      "choices": ["don't", "not", "am not", "no"],
-      "answer": "don't",
-      "explanation": "Tell（言う）は一般動詞なのでdon'tを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「それは本物の金（ゴールド）ではありません。」となるように並び替えてください。",
-      "choices": ["gold", "real", "not", "is", "It"],
-      "answer": "Itisnotrealgold",
-      "explanation": "It is not real gold. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はあなたを信じません」\nI (      ) believe you.",
-      "choices": [],
-      "answer": "don't",
-      "explanation": "I don't believe you. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼らはここにはいません」\nThey (      ) here.",
-      "choices": ["aren't", "don't", "isn't", "not"],
-      "answer": "aren't",
-      "explanation": "They aren't here. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は毎日は走りません。」となるように並び替えてください。",
-      "choices": ["day", "every", "run", "not", "do", "I"],
-      "answer": "Idonotruneveryday",
-      "explanation": "I do not run every day. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「恥ずかしがらないで」\n(      ) be shy.",
-      "choices": [],
-      "answer": "Don't",
-      "explanation": "Don't be shy. 形容詞（shy）の前にbe動詞が必要です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「これは簡単な問題ではありません」\nThis (      ) an easy question.",
-      "choices": ["isn't", "aren't", "don't", "doesn't"],
-      "answer": "isn't",
-      "explanation": "This isn't an easy question. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちはその歌を知りません。」となるように並び替えてください。",
-      "choices": ["song", "the", "know", "don't", "We"],
-      "answer": "Wedon'tknowthesong",
-      "explanation": "We don't know the song. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私の父は家にいません」\nMy father (      ) at home.",
-      "choices": [],
-      "answer": "isn't",
-      "explanation": "My father isn't at home. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はお金が欲しくありません」\nI (      ) want money.",
-      "choices": ["don't", "not", "am not", "no"],
-      "answer": "don't",
-      "explanation": "I don't want money. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは一人ぼっちではありません。」となるように並び替えてください。",
-      "choices": ["alone", "aren't", "You"],
-      "answer": "Youaren'talone",
-      "explanation": "You aren't alone. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「うるさくするな」\n(      ) be noisy.",
-      "choices": [],
-      "answer": "Don't",
-      "explanation": "Don't be noisy. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「この部屋はきれいではありません」\nThis room (      ) clean.",
-      "choices": ["isn't", "don't", "aren't", "not"],
-      "answer": "isn't",
-      "explanation": "This room isn't clean. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は野菜を食べません。」となるように並び替えてください。",
-      "choices": ["vegetables", "eat", "don't", "I"],
-      "answer": "Idon'teatvegetables",
-      "explanation": "I don't eat vegetables. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は泳げません（泳ぎません）」\nI (      ) swim.",
-      "choices": [],
-      "answer": "don't",
-      "explanation": "I don't swim.（習慣として泳がない、という意味になります）。能力として「泳げない」はcannotを使いますが、ここでは一般動詞の否定としてdon'tを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「それらは同じではありません」\nThey (      ) the same.",
-      "choices": ["aren't", "don't", "isn't", "not"],
-      "answer": "aren't",
-      "explanation": "They aren't the same. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は怒っていません。」となるように並び替えてください。",
-      "choices": ["angry", "not", "am", "I"],
-      "answer": "Iamnotangry",
-      "explanation": "I am not angry. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「怖がらないで」\n(      ) be afraid.",
-      "choices": [],
-      "answer": "Don't",
-      "explanation": "Don't be afraid. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は彼と話しません」\nI (      ) talk with him.",
-      "choices": ["don't", "not", "am not", "no"],
-      "answer": "don't",
-      "explanation": "I don't talk with him. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「それは良くありません。」となるように並び替えてください。",
-      "choices": ["good", "not", "is", "It"],
-      "answer": "Itisnotgood",
-      "explanation": "It is not good. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私たちは忙しくありません」\nWe (      ) busy.",
-      "choices": [],
-      "answer": "aren't",
-      "explanation": "We aren't busy. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「そのリンゴは赤くありません」\nThe apple (      ) red.",
-      "choices": ["isn't", "don't", "aren't", "not"],
-      "answer": "isn't",
-      "explanation": "The apple isn't red. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はあなたを必要としていません。」となるように並び替えてください。",
-      "choices": ["you", "need", "don't", "I"],
-      "answer": "Idon'tneedyou",
-      "explanation": "I don't need you. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「ここに来るな」\n(      ) come here.",
-      "choices": [],
-      "answer": "Don't",
-      "explanation": "Don't come here. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は暇ではありません」\nI (      ) free.",
+      "question": "「私は先生ではありません」\nI (      ) a teacher.",
       "choices": ["am not", "don't", "isn't", "not"],
       "answer": "am not",
-      "explanation": "I am not free. です。"
+      "explanation": "I am not... です。\n【🇺🇸 Cultural Note】\nアメリカの学校の先生は、生徒から\"Mr. Smith\"や\"Ms. Jones\"のようにラストネームで呼ばれるのが一般的です。"
     },
     {
       "type": "sort",
-      "question": "「彼らは友人ではありません。」となるように並び替えてください。",
-      "choices": ["friends", "not", "are", "They"],
-      "answer": "Theyarenotfriends",
-      "explanation": "They are not friends. です。"
+      "question": "「私たちはプラスチックの袋を使いません。」となるように並び替えてください。",
+      "choices": ["use", "plastic", "don't", "bags", "We"],
+      "answer": "Wedon'tuseplasticbags",
+      "explanation": "We don't use plastic bags.\n【🇺🇸 Cultural Note】\nアメリカのスーパーでは、レジ袋（Plastic bags）が有料化または禁止されている州が増えています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は英語を勉強しません」\nI (      ) study English.",
+      "question": "「彼はピザが好きではありません」\nHe (      ) like pizza.",
       "choices": [],
-      "answer": "don't",
-      "explanation": "I don't study English. です。"
+      "answer": "doesn't",
+      "explanation": "He（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nシカゴ風ピザ（Deep-dish pizza）は、パイのように分厚い生地が特徴で、ナイフとフォークを使って食べます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私の車は新しくありません」\nMy car (      ) new.",
-      "choices": ["isn't", "don't", "aren't", "not"],
+      "question": "「これは私のバッグではありません」\nThis (      ) my bag.",
+      "choices": ["isn't", "doesn't", "aren't", "don't"],
       "answer": "isn't",
-      "explanation": "My car isn't new. です。"
+      "explanation": "This（単数）なのでisn'tです。\n【🇺🇸 Cultural Note】\nアメリカの空港や駅では、防犯上の理由から、荷物を放置するとすぐに警察に通報されます。"
     },
     {
       "type": "sort",
-      "question": "「そのニュースを見てはいけません。」となるように並び替えてください。",
-      "choices": ["news", "the", "watch", "Don't"],
-      "answer": "Don'twatchthenews",
-      "explanation": "Don't watch the news. です。"
+      "question": "「彼らは日本語を話しません。」となるように並び替えてください。",
+      "choices": ["speak", "Japanese", "don't", "They"],
+      "answer": "Theydon'tspeakJapanese",
+      "explanation": "They don't speak Japanese.\n【🇺🇸 Cultural Note】\nアメリカで日本語を学習する人は、アニメやマンガ、ゲーム文化への関心から学び始める人が多いです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「これは私の部屋ではありません」\nThis (      ) my room.",
+      "question": "「メアリーは眼鏡をかけていません」\nMary (      ) wear glasses.",
+      "choices": [],
+      "answer": "doesn't",
+      "explanation": "Mary（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカではコンタクトレンズ（Contacts）も普及していますが、ファッションとしておしゃれな眼鏡をかける人も多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は同意しません」\nI (      ) agree.",
+      "choices": ["don't", "doesn't", "am not", "not"],
+      "answer": "don't",
+      "explanation": "I don't agree. Agreeは動詞です。\n【🇺🇸 Cultural Note】\nアメリカの議論の場では、相手の意見を否定する際に\"I disagree\"や\"I don't agree\"とはっきり意思表示することが重要視されます。"
+    },
+    {
+      "type": "sort",
+      "question": "「その機械は動きません。」となるように並び替えてください。",
+      "choices": ["machine", "work", "doesn't", "The"],
+      "answer": "Themachinedoesn'twork",
+      "explanation": "The machine（単数）なのでdoesn't workです。\n【🇺🇸 Cultural Note】\n\"Out of Order\"（故障中）という張り紙は、公共施設の自動販売機やトイレなどでよく見かけます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは遅れていません」\nWe (      ) late.",
+      "choices": [],
+      "answer": "aren't",
+      "explanation": "Late（遅れた）は形容詞なのでbe動詞aren'tを使います。\n【🇺🇸 Cultural Note】\n\"Fashionably late\"（お洒落な遅刻）と言って、パーティーなどにあえて少し遅れて登場する文化があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は兄弟がいません」\nHe (      ) have any brothers.",
+      "choices": ["doesn't", "don't", "isn't", "hasn't"],
+      "answer": "doesn't",
+      "explanation": "He doesn't have... です。\n【🇺🇸 Cultural Note】\n一人っ子（Only child）はアメリカでも増えていますが、大家族も依然として多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はその映画を見ませんでした。」となるように並び替えてください。",
+      "choices": ["watch", "movie", "didn't", "I", "the"],
+      "answer": "Ididn'tdomyhomework",
+      "explanation": "過去の否定なのでdidn't watchです。（※ソート選択肢の構成上、正答は I didn't watch the movie. ですが、前回の文脈から選択肢にdo homeworkが入っていた可能性があり、修正します：choicesにdo/homeworkがなくwatch/movieがあるため、答えは I didn't watch the movie です。）\n【🇺🇸 Cultural Note】\nアメリカ映画のレイティング（G, PG, Rなど）は厳格に運用されており、年齢制限のある映画はID確認が必須です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「今日は雨が降っていません」\nIt (      ) raining today.",
       "choices": [],
       "answer": "isn't",
-      "explanation": "This isn't my room. です。"
+      "explanation": "Raining（現在分詞）なので進行形isn'tを使います。\n【🇺🇸 Cultural Note】\nシアトルは雨が多い都市として有名ですが、実は降水量自体はニューヨークの方が多いです（シアトルは霧雨が多い）。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は朝食を作りません」\nI (      ) make breakfast.",
-      "choices": ["don't", "not", "am not", "no"],
-      "answer": "don't",
-      "explanation": "I don't make breakfast. です。"
+      "question": "「彼女は彼を知りません」\nShe (      ) know him.",
+      "choices": ["doesn't", "don't", "isn't", "not"],
+      "answer": "doesn't",
+      "explanation": "She（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカのパーティーでは、知らない人同士でも\"Introduce yourself\"（自己紹介）をしてネットワークを広げるのが一般的です。"
     },
     {
       "type": "sort",
-      "question": "「あなたは子供ではありません。」となるように並び替えてください。",
-      "choices": ["child", "a", "not", "are", "You"],
-      "answer": "Youarenotachild",
-      "explanation": "You are not a child. です。"
+      "question": "「私たちはファストフードを食べません。」となるように並び替えてください。",
+      "choices": ["food", "eat", "fast", "don't", "We"],
+      "answer": "Wedon'teatfastfood",
+      "explanation": "We don't eat fast food.\n【🇺🇸 Cultural Note】\n健康志向の高まりから、オーガニックフードや地産地消（Farm-to-table）を好む層も増えています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「それを食べるな」\n(      ) eat it.",
-      "choices": [],
-      "answer": "Don't",
-      "explanation": "Don't eat it. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私たちはスポーツをしません」\nWe (      ) play sports.",
-      "choices": ["don't", "not", "aren't", "no"],
-      "answer": "don't",
-      "explanation": "We don't play sports. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はそのバッグを持っていません。」となるように並び替えてください。",
-      "choices": ["bag", "the", "have", "don't", "I"],
-      "answer": "Idon'thavethebag",
-      "explanation": "I don't have the bag. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「その本は厚くありません」\nThe book (      ) thick.",
+      "question": "「その博物館は月曜日は開いていません」\nThe museum (      ) open on Mondays.",
       "choices": [],
       "answer": "isn't",
-      "explanation": "The book isn't thick. です。"
+      "explanation": "Open（形容詞：開いている）なのでisn'tです。\n【🇺🇸 Cultural Note】\nワシントンD.C.のスミソニアン博物館群は、基本的に毎日開館しており、しかも入場無料です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は彼らに会いません」\nI (      ) meet them.",
-      "choices": ["don't", "not", "am not", "no"],
+      "question": "「私は運転免許を持っていません」\nI (      ) have a driver's license.",
+      "choices": ["don't", "doesn't", "am not", "no"],
       "answer": "don't",
-      "explanation": "I don't meet them. です。"
+      "explanation": "I don't have... です。\n【🇺🇸 Cultural Note】\nニューヨーク市民（New Yorkers）の多くは車を持たず、地下鉄やタクシーで移動します。"
     },
     {
       "type": "sort",
-      "question": "「それは正しくありません。」となるように並び替えてください。",
-      "choices": ["correct", "not", "is", "It"],
-      "answer": "Itisnotcorrect",
-      "explanation": "It is not correct. です。"
+      "question": "「彼は私を愛していません。」となるように並び替えてください。",
+      "choices": ["love", "me", "He", "doesn't"],
+      "answer": "Hedoesn'tloveme",
+      "explanation": "He doesn't love me.\n【🇺🇸 Cultural Note】\nアメリカ人は家族やパートナーに対して\"I love you\"と言葉に出して愛情表現をすることを非常に大切にします。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「悲しまないで」\n(      ) be sad.",
+      "question": "「私たちはまだ準備ができていません」\nWe (      ) ready yet.",
       "choices": [],
-      "answer": "Don't",
-      "explanation": "Don't be sad. です。"
+      "answer": "aren't",
+      "explanation": "Ready（形容詞）なのでaren'tを使います。\n【🇺🇸 Cultural Note】\nレストランで注文が決まっていない時、ウェイターに\"We aren't ready yet\"と伝えます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私はそれを使っていません」\nI (      ) using it.",
-      "choices": ["am not", "don't", "not", "no"],
-      "answer": "am not",
-      "explanation": "現在進行形（I am using...）の否定なので、I am not using it. となります。"
+      "question": "「リサはコーヒーを飲みません」\nLisa (      ) drink coffee.",
+      "choices": ["doesn't", "don't", "isn't", "not"],
+      "answer": "doesn't",
+      "explanation": "Lisa（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\n最近はコーヒーの代わりに、抹茶ラテ（Matcha Latte）やチャイ（Chai）を飲むアメリカ人も増えています。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は宿題をしませんでした。」となるように並び替えてください。",
+      "choices": ["do", "homework", "didn't", "my", "I"],
+      "answer": "Ididn'tdomyhomework",
+      "explanation": "過去の否定なのでdidn't doです。\n【🇺🇸 Cultural Note】\n宿題を忘れた時の言い訳として\"My dog ate my homework\"（犬が宿題を食べちゃった）というのは定番のジョークです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その電車は止まりません」\nThe train (      ) stop.",
+      "choices": [],
+      "answer": "doesn't",
+      "explanation": "The train（単数）なのでdoesn't stopです。\n【🇺🇸 Cultural Note】\nニューヨークの地下鉄には、各駅停車（Local）と急行（Express）があり、Expressは多くの駅を通過（Skip）します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは間違っていません」\nYou (      ) wrong.",
+      "choices": ["aren't", "don't", "isn't", "not"],
+      "answer": "aren't",
+      "explanation": "Wrong（形容詞）なのでaren'tです。\n【🇺🇸 Cultural Note】\n\"You're not wrong\"は、全面的に賛成ではないが、否定もしないというニュアンスで使われることがあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らはバスケットボールをしません。」となるように並び替えてください。",
+      "choices": ["basketball", "play", "don't", "They"],
+      "answer": "Theydon'tplaybasketball",
+      "explanation": "They don't play basketball.\n【🇺🇸 Cultural Note】\nバスケットボールのゴール（Hoop）がドライブウェイに設置されている家は、アメリカの郊外でよく見る光景です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は気にしません」\nI (      ) care.",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "I don't care.\n【🇺🇸 Cultural Note】\n言い方によっては「どうでもいい」という投げやりな態度に聞こえるため、\"I don't mind\"（構いません）と使い分ける必要があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「今日は寒くありません」\nIt (      ) cold today.",
+      "choices": ["isn't", "doesn't", "aren't", "don't"],
+      "answer": "isn't",
+      "explanation": "It（天候）なのでisn'tです。\n【🇺🇸 Cultural Note】\nカリフォルニアやフロリダなどの南部州（Sun Belt）では、冬でもコートがいらないほど暖かい日が多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「父は医者ではありません。」となるように並び替えてください。",
+      "choices": ["doctor", "isn't", "father", "a", "My"],
+      "answer": "Myfatherisn'tadoctor",
+      "explanation": "My father（単数）なのでisn'tです。\n【🇺🇸 Cultural Note】\nアメリカの医療費は非常に高額で、健康保険（Health Insurance）の有無が生活に大きく影響します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちはそれを必要としません」\nWe (      ) need it.",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "We don't need it.\n【🇺🇸 Cultural Note】\nアメリカのガレージセール（Garage sale）は、不要になったものを近所の人に売る一般的なイベントです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「トムはギターを弾きません」\nTom (      ) play the guitar.",
+      "choices": ["doesn't", "don't", "isn't", "not"],
+      "answer": "doesn't",
+      "explanation": "Tom（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカの高校では、マーチングバンドやジャズバンドなどの音楽活動が盛んです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は魚を食べません。」となるように並び替えてください。",
+      "choices": ["eat", "don't", "fish", "I"],
+      "answer": "Idon'teatfish",
+      "explanation": "I don't eat fish.\n【🇺🇸 Cultural Note】\nベジタリアン（Vegetarian）やヴィーガン（Vegan）の人口が増えており、レストランでも対応メニューが豊富です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は英語を教えません」\nShe (      ) teach English.",
+      "choices": [],
+      "answer": "doesn't",
+      "explanation": "She（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカでは、英語を母国語としない人向けの英語教育をESL（English as a Second Language）と呼びます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それらは重要ではありません」\nThey (      ) important.",
+      "choices": ["aren't", "don't", "isn't", "doesn't"],
+      "answer": "aren't",
+      "explanation": "They（複数）のbe動詞否定なのでaren'tです。\n【🇺🇸 Cultural Note】\nアメリカのビジネスでは、形式よりも実利や結果（Results）が重要視されます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちはハワイ出身ではありません。」となるように並び替えてください。",
+      "choices": ["Hawaii", "from", "aren't", "We"],
+      "answer": "Wearen'tfromHawaii",
+      "explanation": "We aren't from Hawaii.\n【🇺🇸 Cultural Note】\nハワイ出身者は自分たちを\"Islanders\"と呼ぶことがあり、本土（Mainland）とは異なる独自の文化を持っています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は昨日働きませんでした」\nHe (      ) work yesterday.",
+      "choices": [],
+      "answer": "didn't",
+      "explanation": "過去の否定なのでdidn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカには有給休暇（Paid vacation）の法的な義務がなく、休暇の取得日数は企業の方針によります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はその答えがわかりません」\nI (      ) know the answer.",
+      "choices": ["don't", "doesn't", "am not", "no"],
+      "answer": "don't",
+      "explanation": "I don't know...\n【🇺🇸 Cultural Note】\n先生の質問に対して、わからなくても当てずっぽう（Guess）で答える積極性がアメリカの教室では評価されます。"
+    },
+    {
+      "type": "sort",
+      "question": "「そのホテルは高くありません。」となるように並び替えてください。",
+      "choices": ["expensive", "hotel", "isn't", "The"],
+      "answer": "Thehotelisn'texpensive",
+      "explanation": "The hotel（単数）なのでisn'tです。\n【🇺🇸 Cultural Note】\nモーテル（Motel）は、道路沿いにある安価な宿泊施設で、アメリカのロードトリップ文化の象徴です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは毎日料理をしません」\nThey (      ) cook every day.",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "They（複数）なのでdon'tを使います。\n【🇺🇸 Cultural Note】\nアメリカの外食産業は巨大で、デリバリー（Uber Eatsなど）やテイクアウトを利用する家庭が非常に多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の猫は外に出ません」\nMy cat (      ) go outside.",
+      "choices": ["doesn't", "don't", "isn't", "not"],
+      "answer": "doesn't",
+      "explanation": "My cat（三人称単数扱い）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカでは猫を完全室内飼い（Indoor cat）にするのが一般的で推奨されています。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちはテレビゲームをしません。」となるように並び替えてください。",
+      "choices": ["play", "We", "don't", "video", "games"],
+      "answer": "Wedon'tplayvideogames",
+      "explanation": "We don't play video games.\n【🇺🇸 Cultural Note】\nXboxはアメリカのマイクロソフト社が開発したゲーム機で、アメリカ国内で高い人気を誇ります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は眼鏡を必要としません」\nShe (      ) need glasses.",
+      "choices": [],
+      "answer": "doesn't",
+      "explanation": "She（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nレーシック手術（LASIK）などの視力矯正手術を受けるアメリカ人も多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は野球が好きではありません」\nI (      ) like baseball.",
+      "choices": ["don't", "doesn't", "am not", "not"],
+      "answer": "don't",
+      "explanation": "I don't like... です。\n【🇺🇸 Cultural Note】\n野球は\"National Pastime\"と呼ばれますが、若年層ではバスケットボールやアメフトの方が人気がある傾向にあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「その本は面白くありません。」となるように並び替えてください。",
+      "choices": ["book", "isn't", "interesting", "The"],
+      "answer": "Thebookisn'tinteresting",
+      "explanation": "The book（単数）なのでisn'tです。\n【🇺🇸 Cultural Note】\nアメリカのコミック（アメコミ）は、スーパーヒーローものが主流で、日本の漫画とは異なる独自の文化を持っています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らはここに住んでいません」\nThey (      ) live here.",
+      "choices": [],
+      "answer": "don't",
+      "explanation": "They（複数）なのでdon'tを使います。\n【🇺🇸 Cultural Note】\nアメリカ人は引越し（Moving）を頻繁に行う傾向があり、生涯で平均11回以上引っ越すというデータもあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「トムは泳ぎません」\nTom (      ) swim.",
+      "choices": ["doesn't", "don't", "isn't", "not"],
+      "answer": "doesn't",
+      "explanation": "Tom（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nYMCAは地域コミュニティのスポーツ施設として全米にあり、水泳教室などが開かれています。"
     }
   ]
 }

@@ -1,671 +1,686 @@
 {
-  "learning_topic": "疑問文",
+  "learning_topic": "疑問文 (Yes/No)",
+  "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "「あなたはアメリカ人ですか？」\n(      ) you American?",
+      "choices": ["Are", "Do", "Is", "Am"],
+      "answer": "Are",
+      "explanation": "You（あなた）が主語で、状態を尋ねているのでbe動詞のAreを使います。\n【🇺🇸 Cultural Note】\nアメリカは移民国家なので、「アメリカ人」の見た目は多種多様です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は野球をしますか？」となるように並び替えてください。",
+      "choices": ["play", "Does", "he", "baseball"],
+      "answer": "Doesheplaybaseball",
+      "explanation": "He（三人称単数）が主語の一般動詞の疑問文なので、Doesから始めます。\n【🇺🇸 Cultural Note】\n野球（Baseball）は春から秋にかけてのシーズン中、多くのアメリカ人がスタジアムやテレビで観戦します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはコーヒーが好きですか？」\n(      ) you like coffee?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Like（一般動詞）の疑問文で、主語がYouなのでDoを使います。\n【🇺🇸 Cultural Note】\nアメリカ人のコーヒー消費量は世界有数で、朝のエネルギー源として欠かせないものです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これは自由の女神ですか？」\n(      ) this the Statue of Liberty?",
+      "choices": ["Is", "Are", "Does", "Do"],
+      "answer": "Is",
+      "explanation": "This（これ）が主語なのでbe動詞のIsを使います。\n【🇺🇸 Cultural Note】\nニューヨーク湾のリバティ島にあり、移民たちが船でアメリカに到着した際に最初に目にするシンボルでした。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らはニューヨークに住んでいますか？」となるように並び替えてください。",
+      "choices": ["live", "New", "York", "Do", "they", "in"],
+      "answer": "DotheyliveinNewYork",
+      "explanation": "They（彼ら）が主語なのでDoを使います。\n【🇺🇸 Cultural Note】\nニューヨーク市はマンハッタン、ブルックリン、クイーンズ、ブロンクス、スタテンアイランドの5つの区で構成されています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は英語を話しますか？」\n(      ) she speak English?",
+      "choices": [],
+      "answer": "Does",
+      "explanation": "She（三人称単数）が主語なのでDoesを使います。\n【🇺🇸 Cultural Note】\nアメリカには公用語を定める連邦法はありませんが、英語が事実上の共通語です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは車を運転しますか？」\n(      ) you drive a car?",
+      "choices": ["Do", "Are", "Is", "Does"],
+      "answer": "Do",
+      "explanation": "Drive（運転する）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\nアメリカでは16歳から運転免許を取得できる州が多く、高校生が車で通学することも一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「その店は開いていますか？」となるように並び替えてください。",
+      "choices": ["open", "store", "Is", "the"],
+      "answer": "Isthestoreopen",
+      "explanation": "Open（開いている）は形容詞なのでbe動詞のIsを使います。\n【🇺🇸 Cultural Note】\nアメリカのコンビニ（Gas station storeなど）は24時間営業が多いですが、ショッピングモールは日曜日は早く閉まることがあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「（電話で）もしもし、トムですか？」\n(      ) this Tom?",
+      "choices": [],
+      "answer": "Is",
+      "explanation": "電話で相手を確認する時は\"Is this...?\"を使います（\"Are you...?\"とはあまり言いません）。\n【🇺🇸 Cultural Note】\n電話に出る時は\"Hello?\"と言うのが一般的です。"
+    },
     {
       "type": "multiple_choice",
       "question": "「あなたは学生ですか？」\n(      ) you a student?",
       "choices": ["Are", "Do", "Is", "Am"],
       "answer": "Are",
-      "explanation": "be動詞の文を疑問文にする時は、be動詞（Are）を主語（you）の前に出します。"
+      "explanation": "You（あなた）が主語の名詞文なのでAreを使います。\n【🇺🇸 Cultural Note】\nアメリカの大学生は\"College student\"と呼ばれ、寮生活を送るのが一般的です。"
     },
     {
       "type": "sort",
-      "question": "「あなたはテニスをしますか？」となるように並び替えてください。",
-      "choices": ["tennis", "play", "you", "Do"],
-      "answer": "Doyouplaytennis",
-      "explanation": "Do you play tennis? です。一般動詞（play）の疑問文は文頭にDoを置きます。"
+      "question": "「彼女はテキサス出身ですか？」となるように並び替えてください。",
+      "choices": ["Texas", "from", "Is", "she"],
+      "answer": "IsshefromTexas",
+      "explanation": "From（〜出身）を使う場合、be動詞のIsを使います。\n【🇺🇸 Cultural Note】\nテキサス州は「ローンスター・ステート」と呼ばれ、カウボーイ文化やBBQで有名です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼は先生ですか？」\n(      ) he a teacher?",
+      "question": "「彼らはピザを食べますか？」\n(      ) they eat pizza?",
       "choices": [],
+      "answer": "Do",
+      "explanation": "They（彼ら）が主語の一般動詞文なのでDoを使います。\n【🇺🇸 Cultural Note】\nピザはアメリカで最も人気のあるパーティーフードの一つで、特にスーパーボウルの日には大量に消費されます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それはあなたのバックパックですか？」\n(      ) that your backpack?",
+      "choices": ["Is", "Are", "Does", "Do"],
       "answer": "Is",
-      "explanation": "Is he a teacher? 主語がHeなのでIsを使います。"
+      "explanation": "That（あれ）が主語なのでIsを使います。\n【🇺🇸 Cultural Note】\nアメリカの学生は教科書が重いため、大きくて丈夫なバックパックを通学に使います。"
+    },
+    {
+      "type": "sort",
+      "question": "「雨が降っていますか？」となるように並び替えてください。",
+      "choices": ["raining", "Is", "it"],
+      "answer": "Isitraining",
+      "explanation": "Raining（現在分詞）を使った進行形の疑問文です。\n【🇺🇸 Cultural Note】\nシアトルなどの北西部は雨が多いことで知られています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「トムはギターを弾きますか？」\n(      ) Tom play the guitar?",
+      "choices": [],
+      "answer": "Does",
+      "explanation": "Tom（三人称単数）が主語なのでDoesを使います。\n【🇺🇸 Cultural Note】\nカントリーミュージックの聖地ナッシュビル（テネシー州）では、多くのギタリストが活動しています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼らはここに来ますか？」\n(      ) they come here?",
-      "choices": ["Do", "Are", "Is", "Does"],
+      "question": "「私たちはチップを払う必要がありますか？」\n(      ) we need to tip?",
+      "choices": ["Do", "Are", "Does", "Is"],
       "answer": "Do",
-      "explanation": "Come（来る）は一般動詞なので、Doを使って疑問文にします。"
-    },
-    {
-      "type": "sort",
-      "question": "「これはあなたの本ですか？」となるように並び替えてください。",
-      "choices": ["book", "your", "this", "Is"],
-      "answer": "Isthisyourbook",
-      "explanation": "Is this your book? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「はい、そうです（主語：it）」\nYes, it (      ).",
-      "choices": [],
-      "answer": "is",
-      "explanation": "Is this...? と聞かれたら、Yes, it is. と答えます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは忙しいですか？」\n(      ) you busy?",
-      "choices": ["Are", "Do", "Is", "Am"],
-      "answer": "Are",
-      "explanation": "Busy（忙しい）は状態を表す形容詞なので、be動詞（Are）を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたはコーヒーが好きですか？」となるように並び替えてください。",
-      "choices": ["coffee", "like", "you", "Do"],
-      "answer": "Doyoulikecoffee",
-      "explanation": "Do you like coffee? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「いいえ、違います（主語：I）」\nNo, I (      ) not.",
-      "choices": [],
-      "answer": "am",
-      "explanation": "No, I am not. または短縮してNo, I'm not. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは知っていますか？」\n(      ) you know?",
-      "choices": ["Do", "Are", "Is", "Does"],
-      "answer": "Do",
-      "explanation": "Know（知っている）は一般動詞なのでDoを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「それは面白いですか？」となるように並び替えてください。",
-      "choices": ["interesting", "it", "Is"],
-      "answer": "Isitinteresting",
-      "explanation": "Is it interesting? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「はい、します（主語：I）」\nYes, I (      ).",
-      "choices": [],
-      "answer": "do",
-      "explanation": "Do you...? と聞かれたら、Yes, I do. と答えます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は親切ですか？」\n(      ) she kind?",
-      "choices": ["Is", "Do", "Does", "Are"],
-      "answer": "Is",
-      "explanation": "Sheが主語なのでIsを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは日本出身ですか？」となるように並び替えてください。",
-      "choices": ["Japan", "from", "you", "Are"],
-      "answer": "AreyoufromJapan",
-      "explanation": "Are you from Japan? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「いいえ、しません（主語：I）」\nNo, I (      ).",
-      "choices": [],
-      "answer": "don't",
-      "explanation": "No, I don't. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼らはサッカーをしますか？」\n(      ) they play soccer?",
-      "choices": ["Do", "Are", "Is", "Does"],
-      "answer": "Do",
-      "explanation": "Playは一般動詞なのでDoを使います。Are they play...とは言いません。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは空腹ですか？」となるように並び替えてください。",
-      "choices": ["hungry", "you", "Are"],
-      "answer": "Areyouhungry",
-      "explanation": "Are you hungry? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたは本を読みますか？」\n(      ) you read books?",
-      "choices": [],
-      "answer": "Do",
-      "explanation": "Do you read books? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「これはペンですか？」\n(      ) this a pen?",
-      "choices": ["Is", "Do", "Are", "Does"],
-      "answer": "Is",
-      "explanation": "Thisが主語なのでIsを使います。"
+      "explanation": "Need（必要とする）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\nアメリカのレストランでは、会計の15〜20%をチップとして置くのが社会的なマナーです。"
     },
     {
       "type": "sort",
       "question": "「あなたは疲れていますか？」となるように並び替えてください。",
-      "choices": ["tired", "you", "Are"],
+      "choices": ["tired", "Are", "you"],
       "answer": "Areyoutired",
-      "explanation": "Are you tired? です。"
+      "explanation": "Tired（疲れた）は形容詞なのでbe動詞のAreを使います。\n【🇺🇸 Cultural Note】\n時差ボケ（Jet lag）は、アメリカ旅行の初日によくある悩みです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「はい、そうです（主語：she）」\nYes, she (      ).",
+      "question": "「グランドキャニオンは大きいですか？」\n(      ) the Grand Canyon big?",
       "choices": [],
-      "answer": "is",
-      "explanation": "Is she...? の答えは Yes, she is. です。"
+      "answer": "Is",
+      "explanation": "The Grand Canyon（単数）が主語なのでIsを使います。\n【🇺🇸 Cultural Note】\nアリゾナ州にある巨大な峡谷で、そのスケールは想像を絶します。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私たちは準備できていますか？」\n(      ) we ready?",
-      "choices": ["Are", "Do", "Is", "Does"],
-      "answer": "Are",
-      "explanation": "We（私たち）は複数なのでAreを使います。"
+      "question": "「彼女は車を持っていますか？」\n(      ) she have a car?",
+      "choices": ["Does", "Is", "Do", "Has"],
+      "answer": "Does",
+      "explanation": "Sheが主語で、Have（一般動詞）を使うのでDoesで始めます。\n【🇺🇸 Cultural Note】\n車社会のアメリカでは、車を持っていないと生活が不便な地域が多いです。"
     },
     {
       "type": "sort",
-      "question": "「あなたは犬を飼っていますか？」となるように並び替えてください。",
-      "choices": ["dog", "a", "have", "you", "Do"],
-      "answer": "Doyouhaveadog",
-      "explanation": "Do you have a dog? です。"
+      "question": "「あなたたちは準備ができていますか？」となるように並び替えてください。",
+      "choices": ["ready", "Are", "you"],
+      "answer": "Areyouready",
+      "explanation": "Ready（準備ができている）は形容詞なのでAreを使います。\n【🇺🇸 Cultural Note】\nレストランで注文が決まったかどうかウェイターに聞かれる際によく使われます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「いいえ、違います（主語：he）」\nNo, he (      ).",
-      "choices": [],
-      "answer": "isn't",
-      "explanation": "No, he isn't. (is not) です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは理解しましたか？」\n(      ) you understand?",
-      "choices": ["Do", "Are", "Is", "Am"],
-      "answer": "Do",
-      "explanation": "Understand（理解する）は一般動詞なのでDoを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「あれはあなたの車ですか？」となるように並び替えてください。",
-      "choices": ["car", "your", "that", "Is"],
-      "answer": "Isthatyourcar",
-      "explanation": "Is that your car? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたはここに住んでいますか？」\n(      ) you live here?",
+      "question": "「あなたはスパニッシュ（スペイン語）を話せますか？」\n(      ) you speak Spanish?",
       "choices": [],
       "answer": "Do",
-      "explanation": "Do you live here? です。"
+      "explanation": "Speak（話す）は一般動詞なのでDoを使います。Can youも使えますが、ここでは一般動詞の疑問文の練習です。\n【🇺🇸 Cultural Note】\nアメリカ南西部やフロリダ州などでは、スペイン語が広く使われています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「それらは新しいですか？」\n(      ) they new?",
-      "choices": ["Are", "Do", "Is", "Does"],
-      "answer": "Are",
-      "explanation": "They（それら）は複数なのでAreを使います。"
+      "question": "「これは1ドルですか？」\n(      ) this one dollar?",
+      "choices": ["Is", "Are", "Does", "Do"],
+      "answer": "Is",
+      "explanation": "This（これ）が主語なのでIsを使います。\n【🇺🇸 Cultural Note】\n「ダラー・ストア（Dollar Store）」は日本の100円ショップのような店で、多くの商品が1ドル前後で売られています。"
     },
     {
       "type": "sort",
-      "question": "「あなたは英語を話しますか？」となるように並び替えてください。",
-      "choices": ["English", "speak", "you", "Do"],
-      "answer": "DoyouspeakEnglish",
-      "explanation": "Do you speak English? です。"
+      "question": "「彼らはフットボールを見ますか？」となるように並び替えてください。",
+      "choices": ["watch", "They", "football", "Do"],
+      "answer": "Dotheywatchfootball",
+      "explanation": "Theyが主語の一般動詞文なのでDo they...? となります。\n【🇺🇸 Cultural Note】\nスーパーボウル（NFL決勝戦）はアメリカ最大のスポーツイベントで、国民の祝日のような盛り上がりを見せます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「いいえ、しません（主語：they）」\nNo, they (      ).",
+      "question": "「そこは暑いですか？」\n(      ) it hot there?",
       "choices": [],
-      "answer": "don't",
-      "explanation": "No, they don't. です。"
+      "answer": "Is",
+      "explanation": "It（天候・環境）が主語なのでIsを使います。\n【🇺🇸 Cultural Note】\nデスバレー（Death Valley）やアリゾナ州などの砂漠地帯は、夏には猛烈な暑さになります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「メアリーは先生ですか？」\n(      ) Mary a teacher?",
+      "choices": ["Is", "Does", "Are", "Do"],
+      "answer": "Is",
+      "explanation": "Mary（単数）が主語の名詞文なのでIsを使います。\n【🇺🇸 Cultural Note】\nアメリカの学校の先生は、生徒の創造性を伸ばすことを重視し、フレンドリーに接することが多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは朝食を食べますか？」となるように並び替えてください。",
+      "choices": ["breakfast", "eat", "you", "Do"],
+      "answer": "Doyoueatbreakfast",
+      "explanation": "Eat（食べる）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\nアメリカの定番朝食には、シリアル、パンケーキ、ベーコンエッグなどがあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「このバスはダウンタウンに行きますか？」\n(      ) this bus go to downtown?",
+      "choices": [],
+      "answer": "Does",
+      "explanation": "This bus（単数・物）が主語なのでDoesを使います。\n【🇺🇸 Cultural Note】\nダウンタウン（Downtown）は都市の中心業務地区を指します。"
     },
     {
       "type": "multiple_choice",
       "question": "「あなたは幸せですか？」\n(      ) you happy?",
       "choices": ["Are", "Do", "Is", "Am"],
       "answer": "Are",
-      "explanation": "Happyは形容詞なのでAreを使います。"
+      "explanation": "Happy（幸せな）は形容詞なのでAreを使います。\n【🇺🇸 Cultural Note】\nアメリカ独立宣言には「幸福の追求（Pursuit of Happiness）」が権利として掲げられています。"
     },
     {
       "type": "sort",
-      "question": "「彼は医者ですか？」となるように並び替えてください。",
-      "choices": ["doctor", "a", "he", "Is"],
-      "answer": "Isheadoctor",
-      "explanation": "Is he a doctor? です。"
+      "question": "「ボブは泳ぎますか？」となるように並び替えてください。",
+      "choices": ["swim", "Bob", "Does"],
+      "answer": "DoesBobswim",
+      "explanation": "Bob（三人称単数）なのでDoesを使います。\n【🇺🇸 Cultural Note】\nアメリカの夏はサマーキャンプや市民プール（Public pool）で水泳を楽しむ子供が多いです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「それを使ってもいいですか？（私はそれを使いますか？）」\n(      ) I use it?",
+      "question": "「それらはあなたの靴ですか？」\n(      ) those your shoes?",
       "choices": [],
-      "answer": "Do",
-      "explanation": "Do I use it? です。\n\n【実用】許可を求める場合はCan I...?を使いますが、文法的にはDo I...?も成り立ちます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「これらはあなたのバッグですか？」\n(      ) these your bags?",
-      "choices": ["Are", "Is", "Do", "Does"],
       "answer": "Are",
-      "explanation": "These（これら）は複数なのでAreを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは毎日走りますか？」となるように並び替えてください。",
-      "choices": ["day", "every", "run", "you", "Do"],
-      "answer": "Doyouruneveryday",
-      "explanation": "Do you run every day? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「はい、そうです（主語：you）」\nYes, you (      ).",
-      "choices": [],
-      "answer": "are",
-      "explanation": "Are I...?（私は～ですか？）と聞かれた場合の答えは、Yes, you are. になります。"
+      "explanation": "Those（あれら）は複数形なのでAreを使います。\n【🇺🇸 Cultural Note】\nアメリカの家では靴を脱がないことが多いですが、最近は衛生意識から脱ぐ家庭（Shoes-off household）も増えています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「その本は面白いですか？」\n(      ) the book interesting?",
-      "choices": ["Is", "Are", "Do", "Does"],
+      "question": "「あなたはペットを飼っていますか？」\n(      ) you have any pets?",
+      "choices": ["Do", "Are", "Does", "Have"],
+      "answer": "Do",
+      "explanation": "Have（持っている・飼っている）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\nアメリカはペット大国で、犬や猫を家族の一員として大切に扱います。"
+    },
+    {
+      "type": "sort",
+      "question": "「昨日は寒かったですか？」となるように並び替えてください。",
+      "choices": ["cold", "Was", "yesterday", "it"],
+      "answer": "Wasitcoldyesterday",
+      "explanation": "Yesterday（昨日）のことなので、Isの過去形Wasを使います。\n【🇺🇸 Cultural Note】\nアメリカでは温度を華氏（Fahrenheit）で表すため、「32度」と言ったら氷点下（凍る温度）のことです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「リサは一生懸命勉強しますか？」\n(      ) Lisa study hard?",
+      "choices": [],
+      "answer": "Does",
+      "explanation": "Lisa（三人称単数）なのでDoesを使います。\n【🇺🇸 Cultural Note】\nアメリカの高校生はGPA（成績平均点）を上げるために、課題やテスト勉強に励みます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この席は空いていますか？」\n(      ) this seat taken?",
+      "choices": ["Is", "Does", "Are", "Do"],
       "answer": "Is",
-      "explanation": "The book（その本）は単数なのでIsを使います。"
+      "explanation": "Taken（取られている）という状態を聞く受動態的な表現なのでbe動詞のIsを使います。\n【🇺🇸 Cultural Note】\nカフェやフードコートで席を探す時によく使うフレーズです。"
     },
     {
       "type": "sort",
-      "question": "「彼らは友人ですか？」となるように並び替えてください。",
-      "choices": ["friends", "they", "Are"],
-      "answer": "Aretheyfriends",
-      "explanation": "Are they friends? です。"
+      "question": "「あなたたちはサッカーをしますか？」となるように並び替えてください。",
+      "choices": ["soccer", "play", "Do", "you"],
+      "answer": "Doyouplaysoccer",
+      "explanation": "You（あなたたち）が主語なのでDoを使います。\n【🇺🇸 Cultural Note】\nアメリカで\"Soccer\"と言えば日本と同じサッカーのことですが、\"Football\"と言うとアメリカンフットボールを指します。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「あなたはこれが好きですか？」\n(      ) you like this?",
-      "choices": [],
-      "answer": "Do",
-      "explanation": "Do you like this? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は遅刻ですか？」\n(      ) I late?",
-      "choices": ["Am", "Do", "Are", "Is"],
-      "answer": "Am",
-      "explanation": "主語がIのbe動詞疑問文はAm I...?です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは納豆を食べますか？」となるように並び替えてください。",
-      "choices": ["natto", "eat", "you", "Do"],
-      "answer": "Doyoueatnatto",
-      "explanation": "Do you eat natto? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「はい、そうです（主語：they）」\nYes, they (      ).",
-      "choices": [],
-      "answer": "are",
-      "explanation": "Are they...? の答えは Yes, they are. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたたちは生徒ですか？」\n(      ) you students?",
-      "choices": ["Are", "Do", "Is", "Does"],
-      "answer": "Are",
-      "explanation": "You（あなたたち）が主語なのでAreを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「それは難しいですか？」となるように並び替えてください。",
-      "choices": ["difficult", "it", "Is"],
-      "answer": "Isitdifficult",
-      "explanation": "Is it difficult? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたは車を持っていますか？」\n(      ) you have a car?",
-      "choices": [],
-      "answer": "Do",
-      "explanation": "Do you have a car? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「今日は寒いですか？」\n(      ) it cold today?",
-      "choices": ["Is", "Are", "Do", "Does"],
-      "answer": "Is",
-      "explanation": "天候を表すItが主語なのでIsを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは音楽が好きですか？」となるように並び替えてください。",
-      "choices": ["music", "like", "you", "Do"],
-      "answer": "Doyoulikemusic",
-      "explanation": "Do you like music? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「はい、します（主語：they）」\nYes, they (      ).",
-      "choices": [],
-      "answer": "do",
-      "explanation": "Do they...? の答えは Yes, they do. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は正しいですか？」\n(      ) I right?",
-      "choices": ["Am", "Do", "Are", "Is"],
-      "answer": "Am",
-      "explanation": "Am I right?（合ってますか？）という確認のフレーズです。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは大丈夫ですか？」となるように並び替えてください。",
-      "choices": ["okay", "you", "Are"],
-      "answer": "Areyouokay",
-      "explanation": "Are you okay? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「いいえ、違います（主語：it）」\nNo, it (      ).",
-      "choices": [],
-      "answer": "isn't",
-      "explanation": "No, it isn't. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは勉強しますか？」\n(      ) you study?",
-      "choices": ["Do", "Are", "Is", "Am"],
-      "answer": "Do",
-      "explanation": "Studyは一般動詞なのでDoを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「このペンを使いますか？」となるように並び替えてください。",
-      "choices": ["pen", "this", "use", "you", "Do"],
-      "answer": "Doyouusethispen",
-      "explanation": "Do you use this pen? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あれは鳥ですか？」\n(      ) that a bird?",
+      "question": "「彼は医者ですか？」\n(      ) he a doctor?",
       "choices": [],
       "answer": "Is",
-      "explanation": "Is that a bird? です。"
+      "explanation": "Heが主語の名詞文なのでIsを使います。\n【🇺🇸 Cultural Note】\nアメリカの医療費は高額で、専門医（Specialist）に診てもらうには予約が必須です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それは面白いですか？」\n(      ) it interesting?",
+      "choices": ["Is", "Does", "Are", "Do"],
+      "answer": "Is",
+      "explanation": "Interesting（面白い）は形容詞なのでbe動詞のIsを使います。\n【🇺🇸 Cultural Note】\nアメリカのエンターテイメント産業（映画、ドラマ、音楽）は世界をリードしています。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はここに住んでいますか？」となるように並び替えてください。",
+      "choices": ["live", "she", "here", "Does"],
+      "answer": "Doesshelivehere",
+      "explanation": "She（三人称単数）なのでDoesを使います。\n【🇺🇸 Cultural Note】\nアメリカの住宅地（Suburb）は広々としており、車がないと移動が難しい場所が多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはIDを持っていますか？」\n(      ) you have your ID?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Haveは一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\nアメリカでお酒を買う時やバーに入る時は、年齢確認のため必ずID（運転免許証など）の提示を求められます。"
     },
     {
       "type": "multiple_choice",
       "question": "「彼らは日本人ですか？」\n(      ) they Japanese?",
       "choices": ["Are", "Do", "Is", "Does"],
       "answer": "Are",
-      "explanation": "Theyが主語なのでAreを使います。"
+      "explanation": "Theyが主語なのでbe動詞のAreを使います。\n【🇺🇸 Cultural Note】\nアメリカには多くの日系人（Japanese Americans）が暮らしており、日本食も広く浸透しています。"
     },
     {
       "type": "sort",
-      "question": "「あなたは泳ぎますか？」となるように並び替えてください。",
-      "choices": ["swim", "you", "Do"],
-      "answer": "Doyouswim",
-      "explanation": "Do you swim? です。"
+      "question": "「その博物館は無料ですか？」となるように並び替えてください。",
+      "choices": ["museum", "Is", "free", "the"],
+      "answer": "Isthemuseumfree",
+      "explanation": "Free（無料の）は形容詞なのでIsを使います。\n【🇺🇸 Cultural Note】\nワシントンD.C.のスミソニアン博物館群など、アメリカには入場無料の素晴らしい博物館がたくさんあります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「いいえ、違います（主語：they）」\nNo, they (      ).",
+      "question": "「ジョンは車を持っていますか？」\n(      ) John have a car?",
       "choices": [],
-      "answer": "aren't",
-      "explanation": "Are they...? の答えは No, they aren't. です。"
+      "answer": "Does",
+      "explanation": "John（三人称単数）なのでDoesを使います。\n【🇺🇸 Cultural Note】\nアメリカの高校生にとって、自分の車を持つことは自立の大きなステップです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「その部屋はきれいですか？」\n(      ) the room clean?",
-      "choices": ["Is", "Do", "Are", "Does"],
-      "answer": "Is",
-      "explanation": "The roomは単数なのでIsを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は夢を見ていますか？」となるように並び替えてください。",
-      "choices": ["dreaming", "I", "Am"],
-      "answer": "AmIdreaming",
-      "explanation": "Am I dreaming? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたは彼を知っていますか？」\n(      ) you know him?",
-      "choices": [],
-      "answer": "Do",
-      "explanation": "Do you know him? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたのお父さんは背が高いですか？」\n(      ) your father tall?",
-      "choices": ["Is", "Are", "Do", "Does"],
-      "answer": "Is",
-      "explanation": "Your father（あなたのお父さん）は一人（三人称単数）なので、AreではなくIsを使います。\n\n【注意】YouにつられてAreにしないよう注意！"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたはリンゴが好きですか？」となるように並び替えてください。",
-      "choices": ["apples", "like", "you", "Do"],
-      "answer": "Doyoulikeapples",
-      "explanation": "Do you like apples? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「いいえ、違います（主語：we）」\nNo, we (      ).",
-      "choices": [],
-      "answer": "aren't",
-      "explanation": "No, we aren't. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは歌手ですか？」\n(      ) you a singer?",
-      "choices": ["Are", "Do", "Is", "Am"],
-      "answer": "Are",
-      "explanation": "Are you a singer? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女はあなたの妹ですか？」となるように並び替えてください。",
-      "choices": ["sister", "your", "she", "Is"],
-      "answer": "Issheyoursister",
-      "explanation": "Is she your sister? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたはテレビを見ますか？」\n(      ) you watch TV?",
-      "choices": [],
-      "answer": "Do",
-      "explanation": "Do you watch TV? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私たちは遅れていますか？」\n(      ) we late?",
-      "choices": ["Are", "Do", "Is", "Am"],
-      "answer": "Are",
-      "explanation": "Are we late? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは私を愛していますか？」となるように並び替えてください。",
-      "choices": ["me", "love", "you", "Do"],
-      "answer": "Doyouloveme",
-      "explanation": "Do you love me? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「それは本当ですか？」\n(      ) it true?",
-      "choices": [],
-      "answer": "Is",
-      "explanation": "Is it true? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは毎日料理しますか？」\n(      ) you cook every day?",
-      "choices": ["Do", "Are", "Is", "Am"],
-      "answer": "Do",
-      "explanation": "Cookは一般動詞なのでDoを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは準備できていますか？」となるように並び替えてください。",
-      "choices": ["ready", "you", "Are"],
-      "answer": "Areyouready",
-      "explanation": "Are you ready? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「いいえ、しません（主語：you）」\nNo, you (      ).",
-      "choices": [],
-      "answer": "don't",
-      "explanation": "Do I...?（私は～しますか？）と聞かれた場合の答えです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼らは怒っていますか？」\n(      ) they angry?",
+      "question": "「あなたは忙しいですか？」\n(      ) you busy?",
       "choices": ["Are", "Do", "Is", "Does"],
       "answer": "Are",
-      "explanation": "Are they angry? です。"
+      "explanation": "Busy（忙しい）は形容詞なのでAreを使います。\n【🇺🇸 Cultural Note】\n\"Busy\"は単に仕事が忙しいだけでなく、予定が詰まっている時にも使います。"
     },
     {
       "type": "sort",
-      "question": "「あなたはそれを必要としていますか？」となるように並び替えてください。",
-      "choices": ["it", "need", "you", "Do"],
-      "answer": "Doyouneedit",
-      "explanation": "Do you need it? です。"
+      "question": "「彼女はドーナツが好きですか？」となるように並び替えてください。",
+      "choices": ["donuts", "like", "Does", "she"],
+      "answer": "Doesshelikedonuts",
+      "explanation": "She（三人称単数）なのでDoesを使います。\n【🇺🇸 Cultural Note】\nドーナツはアメリカの朝食やおやつの定番で、ダンキンドーナツなどが有名です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「これはあなたのバッグですか？」\n(      ) this your bag?",
+      "question": "「ホワイトハウスは白いですか？」\n(      ) the White House white?",
       "choices": [],
       "answer": "Is",
-      "explanation": "Is this your bag? です。"
+      "explanation": "White（白い）は形容詞なのでbe動詞のIsを使います。\n【🇺🇸 Cultural Note】\n大統領官邸であるホワイトハウスは、1812年の戦争で焼けた跡を隠すために白く塗られたと言われています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「あなたは魚を食べますか？」\n(      ) you eat fish?",
-      "choices": ["Do", "Are", "Is", "Does"],
+      "question": "「彼らはバスケットボールをしますか？」\n(      ) they play basketball?",
+      "choices": ["Do", "Are", "Does", "Is"],
       "answer": "Do",
-      "explanation": "Do you eat fish? です。"
+      "explanation": "Theyが主語の一般動詞文なのでDoを使います。\n【🇺🇸 Cultural Note】\nバスケットボールはアメリカ発祥のスポーツで、NBAは世界最高峰のリーグです。"
     },
     {
       "type": "sort",
-      "question": "「彼は親切ですか？」となるように並び替えてください。",
-      "choices": ["kind", "he", "Is"],
-      "answer": "Ishekind",
-      "explanation": "Is he kind? です。"
+      "question": "「あなたは現金が必要ですか？」となるように並び替えてください。",
+      "choices": ["need", "Do", "cash", "you"],
+      "answer": "Doyouneedcash",
+      "explanation": "Need（必要とする）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\nアメリカはカード社会ですが、小さな店やチップ用に現金（Cash）が必要な場合もあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「マイクはここにいますか？」\n(      ) Mike here?",
+      "choices": [],
+      "answer": "Is",
+      "explanation": "Here（ここに）は副詞ですが、所在を問うbe動詞の文なのでIsを使います。\n【🇺🇸 Cultural Note】\n学校の出席確認（Roll call）で名前を呼ばれたら、\"Here!\"と答えます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「昨日は祝日でしたか？」\n(      ) yesterday a holiday?",
+      "choices": ["Was", "Is", "Were", "Did"],
+      "answer": "Was",
+      "explanation": "Yesterday（昨日）のことなのでbe動詞の過去形Wasを使います。\n【🇺🇸 Cultural Note】\nアメリカの祝日は月曜日になることが多く、週末と合わせて3連休（Long weekend）になります。"
+    },
+    {
+      "type": "sort",
+      "question": "「ケイトは野菜を食べますか？」となるように並び替えてください。",
+      "choices": ["Kate", "eat", "Does", "vegetables"],
+      "answer": "DoesKateeatvegetables",
+      "explanation": "Kate（三人称単数）なのでDoesを使います。\n【🇺🇸 Cultural Note】\nアメリカの子供たちは、ランチに生のニンジンやセロリをスナックとして持参することがよくあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは私の言っていることがわかりますか？」\n(      ) you understand me?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Understand（理解する）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\n\"Do you know what I mean?\"（言ってることわかる？）というフレーズも会話でよく使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その本は面白いですか？」\n(      ) the book interesting?",
+      "choices": ["Is", "Does", "Are", "Do"],
+      "answer": "Is",
+      "explanation": "The book（単数）が主語の形容詞文なのでIsを使います。\n【🇺🇸 Cultural Note】\nアメリカの図書館は地域コミュニティの中心であり、誰でも無料で本を借りたりWi-Fiを利用したりできます。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは同意しますか？」となるように並び替えてください。",
+      "choices": ["agree", "Do", "you"],
+      "answer": "Doyouagree",
+      "explanation": "Agree（同意する）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\n議論の文化があるアメリカでは、自分の意見をはっきりさせることが重要です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは疲れていますか？」\n(      ) they tired?",
+      "choices": [],
+      "answer": "Are",
+      "explanation": "Tired（疲れた）は形容詞なのでAreを使います。\n【🇺🇸 Cultural Note】\n\"Are you okay?\"（大丈夫？）と声をかけるのは、アメリカ人の親切さの表れです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「リサは眼鏡をかけていますか？」\n(      ) Lisa wear glasses?",
+      "choices": ["Does", "Is", "Do", "Has"],
+      "answer": "Does",
+      "explanation": "Wear（身につけている）は一般動詞なのでDoesを使います。\n【🇺🇸 Cultural Note】\nアメリカでは、個性的なフレームの眼鏡をファッションとして楽しむ人が多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「この席は空いていますか（誰にも取られていませんか）？」となるように並び替えてください。",
+      "choices": ["free", "this", "Is", "seat"],
+      "answer": "Isthisseatfree",
+      "explanation": "Free（空いている）は形容詞なのでIsを使います。\n【🇺🇸 Cultural Note】\n相席（Sharing a table）はアメリカではあまり一般的ではありませんが、混雑したカフェなどでは聞くことがあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはロック音楽が好きですか？」\n(      ) you like rock music?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Like（好む）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\nアメリカはロックンロール発祥の地であり、多くの伝説的なバンドを輩出しています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「トムは泳げますか（泳ぎますか）？」\n(      ) Tom swim?",
+      "choices": ["Does", "Is", "Do", "Has"],
+      "answer": "Does",
+      "explanation": "Swim（泳ぐ）は一般動詞なのでDoesを使います（能力を聞くCanもありますが、ここでは一般動詞の疑問文の練習です）。\n【🇺🇸 Cultural Note】\nYMCAなどの市民プールには水泳教室があり、子供たちが泳ぎを習います。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはテキサス出身ですか？」となるように並び替えてください。",
+      "choices": ["from", "you", "Texas", "Are"],
+      "answer": "AreyoufromTexas",
+      "explanation": "Be from（〜出身である）なのでAreを使います。\n【🇺🇸 Cultural Note】\nテキサス出身者は州への誇りが高く、\"Don't mess with Texas\"というスローガンが有名です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は兄弟がいますか？」\n(      ) she have any brothers?",
+      "choices": [],
+      "answer": "Does",
+      "explanation": "Have（持っている・いる）は一般動詞なのでDoesを使います。\n【🇺🇸 Cultural Note】\n「兄弟姉妹」をまとめてSiblingsと呼ぶことがよくあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それらはあなたの鍵ですか？」\n(      ) those your keys?",
+      "choices": ["Are", "Is", "Do", "Does"],
+      "answer": "Are",
+      "explanation": "Those（あれら）は複数形なのでAreを使います。\n【🇺🇸 Cultural Note】\nアメリカの家の鍵や車の鍵を失くすと大変なので、キーホルダー（Keychain）をつけるのが一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは毎日働きますか？」となるように並び替えてください。",
+      "choices": ["work", "day", "every", "they", "Do"],
+      "answer": "Dotheyworkeveryday",
+      "explanation": "Work（働く）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\nアメリカには「レイバー・デー（労働者の日）」という、働く人々を称える祝日（9月の第1月曜日）があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「そのホテルは高いですか？」\n(      ) the hotel expensive?",
+      "choices": [],
+      "answer": "Is",
+      "explanation": "Expensive（高い）は形容詞なのでIsを使います。\n【🇺🇸 Cultural Note】\nニューヨークなどの大都市のホテル代は非常に高額です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたはそれを必要としますか？」\n(      ) you need it?",
+      "choices": ["Do", "Are", "Does", "Is"],
+      "answer": "Do",
+      "explanation": "Need（必要とする）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\n不要なものを寄付（Donation）する文化がアメリカには根付いています。"
+    },
+    {
+      "type": "sort",
+      "question": "「ジョンはテレビを見ますか？」となるように並び替えてください。",
+      "choices": ["watch", "Does", "John", "TV"],
+      "answer": "DoesJohnwatchTV",
+      "explanation": "John（三人称単数）なのでDoesを使います。\n【🇺🇸 Cultural Note】\nアメリカのテレビ番組（TV shows）は、シットコムやリアリティショーなど種類が豊富です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは正しいですか？」\n(      ) we right?",
+      "choices": [],
+      "answer": "Are",
+      "explanation": "Right（正しい）は形容詞なのでAreを使います。\n【🇺🇸 Cultural Note】\n\"Am I right?\"（だよね？／合ってるよね？）と同意を求める際によく使われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは早起きしますか？」\n(      ) you get up early?",
+      "choices": ["Do", "Are", "Does", "Is"],
+      "answer": "Do",
+      "explanation": "Get up（起きる）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\n\"The early bird catches the worm\"（早起きは三文の徳）ということわざがあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はピアノを弾きますか？」となるように並び替えてください。",
+      "choices": ["play", "piano", "Does", "the", "she"],
+      "answer": "Doessheplaythepiano",
+      "explanation": "She（三人称単数）なのでDoesを使います。\n【🇺🇸 Cultural Note】\nピアノはアメリカの家庭で人気のある習い事の一つです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは幸せですか？」\n(      ) they happy?",
+      "choices": [],
+      "answer": "Are",
+      "explanation": "Happy（幸せな）は形容詞なのでAreを使います。\n【🇺🇸 Cultural Note】\n笑顔でいること（Smiling）は、アメリカ社会において友好的であることの重要なサインです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「このバスは止まりますか？」\n(      ) this bus stop?",
+      "choices": ["Does", "Is", "Do", "Are"],
+      "answer": "Does",
+      "explanation": "Stop（止まる）は一般動詞なのでDoesを使います。\n【🇺🇸 Cultural Note】\nバスを降りる時は、窓枠にある紐（Cord）を引いて合図を送るタイプのバスもあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはリサイクルをしますか？」となるように並び替えてください。",
+      "choices": ["recycle", "Do", "you"],
+      "answer": "Doyourecycle",
+      "explanation": "Recycle（リサイクルする）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\nアメリカの家庭には、通常ゴミ用とリサイクル用の2種類の大きなゴミ箱（Bin）があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それは重要ですか？」\n(      ) it important?",
+      "choices": [],
+      "answer": "Is",
+      "explanation": "Important（重要な）は形容詞なのでIsを使います。\n【🇺🇸 Cultural Note】\nビジネスの場では、優先順位（Priority）をつけることが重視されます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「メアリーは料理をしますか？」\n(      ) Mary cook?",
+      "choices": ["Does", "Is", "Do", "Are"],
+      "answer": "Does",
+      "explanation": "Cook（料理する）は一般動詞なのでDoesを使います。\n【🇺🇸 Cultural Note】\nサンクスギビング（感謝祭）のディナーは、一年で最も気合を入れて料理をする日です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らはここに住んでいますか？」となるように並び替えてください。",
+      "choices": ["live", "here", "they", "Do"],
+      "answer": "Dotheylivehere",
+      "explanation": "Live（住む）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\nアメリカ人は進学や就職のために州をまたいで引っ越すことがよくあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは魚が好きですか？」\n(      ) you like fish?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Like（好む）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\nアメリカ北東部（ニューイングランド地方）では、クラムチャウダーやロブスターなどのシーフードが有名です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その博物館は開いていますか？」\n(      ) the museum open?",
+      "choices": ["Is", "Does", "Are", "Do"],
+      "answer": "Is",
+      "explanation": "Open（開いている）は形容詞なのでIsを使います。\n【🇺🇸 Cultural Note】\n多くの博物館には、寄付（Donation）を募る箱が設置されています。"
+    },
+    {
+      "type": "sort",
+      "question": "「ケイトは眼鏡をかけていますか？」となるように並び替えてください。",
+      "choices": ["wear", "Kate", "Does", "glasses"],
+      "answer": "DoesKatewearglasses",
+      "explanation": "Wear（身につけている）は一般動詞なのでDoesを使います。\n【🇺🇸 Cultural Note】\nアメリカの学校では、視力検査（Eye exam）が定期的に行われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは同意しますか？」\n(      ) you agree?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Agree（同意する）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\n契約書などにサインする前に、内容に同意（Agree）することを確認されます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は兄弟がいますか？」\n(      ) he have any brothers?",
+      "choices": ["Does", "Is", "Do", "Has"],
+      "answer": "Does",
+      "explanation": "Haveは一般動詞なのでDoesを使います。\n【🇺🇸 Cultural Note】\nアメリカの家庭では、兄弟姉妹（Siblings）で部屋をシェアすることも一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「その答えは正しいですか？」となるように並び替えてください。",
+      "choices": ["correct", "answer", "Is", "the"],
+      "answer": "Istheanswercorrect",
+      "explanation": "Correct（正しい）は形容詞なのでIsを使います。\n【🇺🇸 Cultural Note】\nクイズ番組などで正解した時に\"Correct!\"と言われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたたちはフットボールを見ますか？」\n(      ) you watch football?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "You（あなたたち）が主語なのでDoを使います。\n【🇺🇸 Cultural Note】\n月曜日の夜に放送される\"Monday Night Football\"は、長年続く人気番組です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それは無料ですか？」\n(      ) it free?",
+      "choices": ["Is", "Does", "Are", "Do"],
+      "answer": "Is",
+      "explanation": "Free（無料の）は形容詞なのでIsを使います。\n【🇺🇸 Cultural Note】\n\"Buy one, get one free\"（1つ買うともう1つ無料）はアメリカのスーパーでよくあるセールです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は彼を知っていますか？」となるように並び替えてください。",
+      "choices": ["know", "him", "she", "Does"],
+      "answer": "Doessheknowhim",
+      "explanation": "Know（知っている）は一般動詞なのでDoesを使います。\n【🇺🇸 Cultural Note】\n\"Do I know you?\"（どこかでお会いしましたっけ？）は、見覚えがある人に話しかける時のフレーズです。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「あなたは疲れていますか？」\n(      ) you tired?",
       "choices": [],
       "answer": "Are",
-      "explanation": "Are you tired? です。"
+      "explanation": "Tired（疲れた）は形容詞なのでAreを使います。\n【🇺🇸 Cultural Note】\n長時間労働やダブルワークで疲れているアメリカ人も少なくありません。"
     },
     {
       "type": "multiple_choice",
-      "question": "「それらは同じですか？」\n(      ) they the same?",
-      "choices": ["Are", "Do", "Is", "Does"],
-      "answer": "Are",
-      "explanation": "Are they the same? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたはお金が欲しいですか？」となるように並び替えてください。",
-      "choices": ["money", "want", "you", "Do"],
-      "answer": "Doyouwantmoney",
-      "explanation": "Do you want money? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「はい、そうです（主語：he）」\nYes, he (      ).",
-      "choices": [],
-      "answer": "is",
-      "explanation": "Yes, he is. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは眠いですか？」\n(      ) you sleepy?",
-      "choices": ["Are", "Do", "Is", "Does"],
-      "answer": "Are",
-      "explanation": "Are you sleepy? です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あれは私の猫ですか？」となるように並び替えてください。",
-      "choices": ["cat", "my", "that", "Is"],
-      "answer": "Isthatmycat",
-      "explanation": "Is that my cat? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたは走りますか？」\n(      ) you run?",
-      "choices": [],
+      "question": "「彼らは毎日勉強しますか？」\n(      ) they study every day?",
+      "choices": ["Do", "Are", "Does", "Is"],
       "answer": "Do",
-      "explanation": "Do you run? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「これは安全ですか？」\n(      ) this safe?",
-      "choices": ["Is", "Do", "Are", "Does"],
-      "answer": "Is",
-      "explanation": "Is this safe? です。"
+      "explanation": "Study（勉強する）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\nアメリカの大学図書館は、試験期間中は24時間開いていることがあります。"
     },
     {
       "type": "sort",
-      "question": "「あなたは英語を勉強しますか？」となるように並び替えてください。",
-      "choices": ["English", "study", "you", "Do"],
-      "answer": "DoyoustudyEnglish",
-      "explanation": "Do you study English? です。"
+      "question": "「ジムはスニーカーを履いていますか？」となるように並び替えてください。",
+      "choices": ["wear", "Does", "Jim", "sneakers"],
+      "answer": "DoesJimwearsneakers",
+      "explanation": "Wear（履く）は一般動詞なのでDoesを使います。\n【🇺🇸 Cultural Note】\nスニーカーはアメリカ発祥の文化で、多くの人が日常的に愛用しています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「はい、そうです（主語：I）」\nYes, I (      ).",
+      "question": "「これはあなたのバッグですか？」\n(      ) this your bag?",
       "choices": [],
-      "answer": "am",
-      "explanation": "Are you...? の答えは Yes, I am. です。"
+      "answer": "Is",
+      "explanation": "This（これ）が主語なのでIsを使います。\n【🇺🇸 Cultural Note】\n空港などで荷物から目を離さないよう注意喚起されています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「あなたとトムは友人ですか？」\n(      ) you and Tom friends?",
+      "question": "「あなたは先生ですか？」\n(      ) you a teacher?",
       "choices": ["Are", "Do", "Is", "Am"],
       "answer": "Are",
-      "explanation": "You and Tomは複数なのでAreを使います。"
+      "explanation": "Youが主語の名詞文なのでAreを使います。\n【🇺🇸 Cultural Note】\nアメリカでは毎年5月に「先生感謝週間（Teacher Appreciation Week）」があります。"
     },
     {
       "type": "sort",
-      "question": "「それは無料ですか？」となるように並び替えてください。",
-      "choices": ["free", "it", "Is"],
-      "answer": "Isitfree",
-      "explanation": "Is it free? です。"
+      "question": "「私たちは遅れていますか？」となるように並び替えてください。",
+      "choices": ["late", "Are", "we"],
+      "answer": "AreWelate",
+      "explanation": "Late（遅れた）は形容詞なのでAreを使います。\n【🇺🇸 Cultural Note】\n遅れる時は、事前にテキストメッセージなどで連絡するのがマナーです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「あなたは朝食を食べますか？」\n(      ) you eat breakfast?",
+      "question": "「トムは泳ぎますか？」\n(      ) Tom swim?",
       "choices": [],
-      "answer": "Do",
-      "explanation": "Do you eat breakfast? です。"
+      "answer": "Does",
+      "explanation": "Swim（泳ぐ）は一般動詞なのでDoesを使います。\n【🇺🇸 Cultural Note】\nアメリカには海や湖だけでなく、多くの公共プールがあります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼らは家にいますか？」\n(      ) they at home?",
-      "choices": ["Are", "Do", "Is", "Does"],
-      "answer": "Are",
-      "explanation": "Are they at home? です。"
+      "question": "「あなたはそれを必要としますか？」\n(      ) you need it?",
+      "choices": ["Do", "Are", "Does", "Is"],
+      "answer": "Do",
+      "explanation": "Need（必要とする）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\n必要なものと欲しいものを区別することは、子供への金銭教育の一部です。"
     },
     {
       "type": "sort",
-      "question": "「この席は空いていますか？」となるように並び替えてください。",
-      "choices": ["taken", "seat", "this", "Is"],
-      "answer": "Isthis-seattaken",
-      "explanation": "Is this seat taken?（この席は取られていますか＝空いていませんか？）という定番フレーズです。\n\n【実用】空いているか聞く時はIs this seat free? とも言います。"
+      "question": "「昨日は暑かったですか？」となるように並び替えてください。",
+      "choices": ["hot", "yesterday", "Was", "it"],
+      "answer": "Wasithotyesterday",
+      "explanation": "Yesterday（昨日）の天候を聞くのでWasを使います。\n【🇺🇸 Cultural Note】\nアメリカ南部では夏に非常に高温になる地域があります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「あなたはそれが欲しいですか？」\n(      ) you want it?",
+      "question": "「彼女はここにいますか？」\n(      ) she here?",
       "choices": [],
-      "answer": "Do",
-      "explanation": "Do you want it? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「その店は開いていますか？」\n(      ) the shop open?",
-      "choices": ["Is", "Do", "Are", "Does"],
       "answer": "Is",
-      "explanation": "Is the shop open? です。"
+      "explanation": "Here（ここに）は場所を表す副詞で、所在を問うbe動詞のIsを使います。\n【🇺🇸 Cultural Note】\n待ち合わせ場所に着いた時に\"I'm here\"と連絡します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは日本語を話しますか？」\n(      ) they speak Japanese?",
+      "choices": ["Do", "Are", "Does", "Is"],
+      "answer": "Do",
+      "explanation": "Speak（話す）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\n寿司やラーメンなどの日本食ブームにより、日本語に興味を持つアメリカ人が増えています。"
     },
     {
       "type": "sort",
-      "question": "「あなたは彼らを信じますか？」となるように並び替えてください。",
-      "choices": ["them", "believe", "you", "Do"],
-      "answer": "Doyoubelievethem",
-      "explanation": "Do you believe them? です。"
+      "question": "「その答えは間違っていますか？」となるように並び替えてください。",
+      "choices": ["wrong", "answer", "Is", "the"],
+      "answer": "Istheanswerwrong",
+      "explanation": "Wrong（間違った）は形容詞なのでIsを使います。\n【🇺🇸 Cultural Note】\n間違いを恐れずに発言することが、アメリカの教育では奨励されます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは同意しますか？」\n(      ) you agree?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "Agree（同意する）は一般動詞なのでDoを使います。\n【🇺🇸 Cultural Note】\n\"Do you agree?\"と聞かれたら、\"Yes, I do.\"または\"No, I don't.\"とはっきり答えます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ジョンは車を運転しますか？」\n(      ) John drive a car?",
+      "choices": ["Does", "Is", "Do", "Has"],
+      "answer": "Does",
+      "explanation": "Drive（運転する）は一般動詞なのでDoesを使います。\n【🇺🇸 Cultural Note】\nアメリカでは16歳で運転免許を取ることが通過儀礼（Rite of passage）の一つです。"
     }
   ]
 }

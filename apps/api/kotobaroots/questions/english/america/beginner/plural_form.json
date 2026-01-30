@@ -1,685 +1,672 @@
 {
   "learning_topic": "複数形",
+  "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "cat（猫）の複数形は？",
-      "choices": ["cats", "cates", "catts", "cates"],
+      "question": "「私は2匹の猫を飼っています」\nI have two (      ).",
+      "choices": ["cats", "cates", "catts", "cat"],
       "answer": "cats",
-      "explanation": "基本ルールは語尾に「s」をつけるだけです。"
+      "explanation": "Catにsをつけます。\n【🇺🇸 Cultural Note】\nアメリカで飼われている猫の総数は約9,000万匹と言われ、犬と並んで最も人気のあるペットです。"
     },
     {
       "type": "sort",
-      "question": "「私は2匹の犬を飼っています。」となるように並び替えてください。",
-      "choices": ["dogs", "two", "have", "I"],
-      "answer": "Ihavetwodogs",
-      "explanation": "I have two dogs. です。2以上（two）なのでdogにsがつきます。"
+      "question": "「多くの犬が公園にいます。」となるように並び替えてください。",
+      "choices": ["park", "dogs", "Many", "in", "are", "the"],
+      "answer": "Manydogsareinthepark",
+      "explanation": "Dogにsをつけます。\n【🇺🇸 Cultural Note】\nアメリカにはリードなしで犬を遊ばせることができる「ドッグパーク（Dog park）」が各地に整備されています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "book（本）の複数形は？\nbook(      )",
+      "question": "「ここには50の州があります」\nThere are fifty (      ).",
       "choices": [],
-      "answer": "s",
-      "explanation": "booksです。"
+      "answer": "states",
+      "explanation": "State（州）にsをつけます。\n【🇺🇸 Cultural Note】\n星条旗の50個の星は現在の州の数を表しています。最後の50番目に加盟したのはハワイ州です。"
     },
     {
       "type": "multiple_choice",
-      "question": "bus（バス）の複数形は？",
-      "choices": ["buses", "buss", "bues", "busies"],
+      "question": "「それらはスクールバスです」\nThey are school (      ).",
+      "choices": ["buses", "buss", "busses", "bus"],
       "answer": "buses",
-      "explanation": "語尾がs, sh, ch, x, oで終わる名詞には「es」をつけます。"
+      "explanation": "Busはsで終わるため、esをつけます（bussesというつづりも辞書にありますが、busesが一般的です）。\n【🇺🇸 Cultural Note】\n黄色いスクールバスはアメリカの学校生活の象徴です。"
     },
     {
       "type": "sort",
-      "question": "「テーブルの上に3つの箱があります。」となるように並び替えてください。",
-      "choices": ["boxes", "three", "are", "There"],
-      "answer": "Therearethreeboxes",
-      "explanation": "There are three boxes. です。boxはxで終わるためboxesになります。"
+      "question": "「私は2つの箱を持っています。」となるように並び替えてください。",
+      "choices": ["boxes", "have", "two", "I"],
+      "answer": "Ihavetwoboxes",
+      "explanation": "Boxはxで終わるため、esをつけます。\n【🇺🇸 Cultural Note】\nアメリカ人は引越し（Moving）を頻繁に行うため、段ボール箱（Moving boxes）を使う機会が多いです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "apple（リンゴ）の複数形は？\napple(      )",
+      "question": "「フライドポテトをください」\nI'd like some french (      ).",
       "choices": [],
-      "answer": "s",
-      "explanation": "applesです。"
+      "answer": "fries",
+      "explanation": "Fryは「子音字+y」で終わるため、yをiに変えてesをつけます。\n【🇺🇸 Cultural Note】\nアメリカではハンバーガーのサイドメニューとして欠かせない存在です。"
     },
     {
       "type": "multiple_choice",
-      "question": "city（都市）の複数形は？",
-      "choices": ["cities", "citys", "cityes", "citties"],
+      "question": "「ニューヨークとボストンは都市です」\nNew York and Boston are (      ).",
+      "choices": ["cities", "citys", "cites", "cityes"],
       "answer": "cities",
-      "explanation": "「子音字 + y」で終わる語は、yをiに変えてesをつけます。"
+      "explanation": "Cityは「子音字+y」で終わるため、yをiに変えてesをつけます。\n【🇺🇸 Cultural Note】\n人口が密集した大都市のことを特に\"Major cities\"と呼びます。"
     },
     {
       "type": "sort",
-      "question": "「彼女はたくさんのペンを持っています。」となるように並び替えてください。",
-      "choices": ["pens", "many", "has", "She"],
-      "answer": "Shehasmanypens",
-      "explanation": "She has many pens. です。"
+      "question": "「木々を見てください。」となるように並び替えてください。",
+      "choices": ["trees", "at", "Look", "the"],
+      "answer": "Lookatthetrees",
+      "explanation": "Treeにsをつけます。\n【🇺🇸 Cultural Note】\nレッドウッド国立公園には、世界一背の高い木々（Redwood trees）が生育しています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "dish（皿）の複数形は？\ndish(      )",
+      "question": "「私はいくつかのコインを持っています」\nI have some (      ).",
       "choices": [],
-      "answer": "es",
-      "explanation": "dishesです。shで終わる語にはesをつけます。"
+      "answer": "coins",
+      "explanation": "Coinにsをつけます。\n【🇺🇸 Cultural Note】\nアメリカのコインランドリー（Laundromat）では、大量のクォーター（25セント硬貨）が必要になります。"
     },
     {
       "type": "multiple_choice",
-      "question": "man（男性）の複数形は？",
-      "choices": ["men", "mans", "mens", "manes"],
-      "answer": "men",
-      "explanation": "不規則に変化する名詞です。AがEに変わります。\n\n【注意】発音も「マン」から「メン」に変わります。"
+      "question": "「これらは私の鍵です」\nThese are my (      ).",
+      "choices": ["keys", "keyes", "keies", "keis"],
+      "answer": "keys",
+      "explanation": "Keyは「母音字+y」で終わるため、そのままsをつけます。\n【🇺🇸 Cultural Note】\nフロリダ州の「フロリダ・キーズ（Florida Keys）」は、Key（小島）が連なる美しい列島です。"
     },
     {
       "type": "sort",
-      "question": "「公園に何人の子供がいますか？」となるように並び替えてください。",
-      "choices": ["children", "many", "How", "are"],
-      "answer": "Howmanychildrenare",
-      "explanation": "How many children are... です。childの複数形childrenを使います。"
+      "question": "「皿を洗ってください。」となるように並び替えてください。",
+      "choices": ["dishes", "Wash", "the", "please"],
+      "answer": "Washthedishesplease",
+      "explanation": "Dishはshで終わるため、esをつけます。\n【🇺🇸 Cultural Note】\n「皿洗いをする」は\"Do the dishes\"とも言います。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "woman（女性）の複数形は？\nwo(      )n",
+      "question": "「私は2つの腕時計を持っています」\nI have two (      ).",
       "choices": [],
-      "answer": "me",
-      "explanation": "womenです。発音は「ウィミン」のように変わるので注意が必要です。"
+      "answer": "watches",
+      "explanation": "Watchはchで終わるため、esをつけます。\n【🇺🇸 Cultural Note】\nApple Watchなどのスマートウォッチ（Smartwatches）の普及率が高いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "child（子供）の複数形は？",
-      "choices": ["children", "childs", "childes", "childrens"],
-      "answer": "children",
-      "explanation": "renをつける珍しい変化をします。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はいくつかのオレンジを買いました。」となるように並び替えてください。",
-      "choices": ["oranges", "some", "bought", "I"],
-      "answer": "Iboughtsomeoranges",
-      "explanation": "I bought some oranges. です。Some（いくつか）の後ろは複数形になります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "foot（足）の複数形は？\nf(      )t",
-      "choices": [],
-      "answer": "ee",
-      "explanation": "feetです。ooがeeに変わります。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "tooth（歯）の複数形は？",
-      "choices": ["teeth", "tooths", "toothes", "teeths"],
-      "answer": "teeth",
-      "explanation": "Footと同じく、ooがeeに変わるパターンです。"
-    },
-    {
-      "type": "sort",
-      "question": "「5本の木が見えます。」となるように並び替えてください。",
-      "choices": ["trees", "five", "see", "can", "I"],
-      "answer": "Icanseefivetrees",
-      "explanation": "I can see five trees. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "watch（腕時計）の複数形は？\nwatch(      )",
-      "choices": [],
-      "answer": "es",
-      "explanation": "watchesです。chで終わる語にはesをつけます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "leaf（葉）の複数形は？",
-      "choices": ["leaves", "leafs", "leafes", "leavs"],
-      "answer": "leaves",
-      "explanation": "fやfeで終わる語は、fをvに変えてesをつけることが多いです（例：knife→knives）。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は2人の姉妹がいます。」となるように並び替えてください。",
-      "choices": ["sisters", "two", "have", "I"],
-      "answer": "Ihavetwosisters",
-      "explanation": "I have two sisters. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "fish（魚）の複数形は？\nfi(      )",
-      "choices": [],
-      "answer": "sh",
-      "explanation": "fishです。単数形と複数形が同じ形（単複同形）です。fishesと言うと「魚の種類」を指すことになります。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "mouse（ネズミ）の複数形は？",
-      "choices": ["mice", "mouses", "mices", "mouse"],
-      "answer": "mice",
-      "explanation": "形が大きく変わる不規則変化です。"
-    },
-    {
-      "type": "sort",
-      "question": "「これらの花は美しい。」となるように並び替えてください。",
-      "choices": ["flowers", "These", "beautiful", "are"],
-      "answer": "Theseflowersarebeautiful",
-      "explanation": "These flowers are beautiful. です。主語が複数なのでbe動詞はareです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "boy（少年）の複数形は？\nboy(      )",
-      "choices": [],
-      "answer": "s",
-      "explanation": "boysです。yの前が母音（o）なので、そのままsをつけます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "potato（ジャガイモ）の複数形は？",
-      "choices": ["potatoes", "potatos", "potates", "potatos"],
+      "question": "「アイダホはジャガイモで有名です」\nIdaho is famous for (      ).",
+      "choices": ["potatoes", "potatos", "potaties", "potato"],
       "answer": "potatoes",
-      "explanation": "oで終わる名詞にはesをつけることが多いです（Tomato→Tomatoesなど）。"
+      "explanation": "Potatoは「子音字+o」で終わるため、esをつけます。\n【🇺🇸 Cultural Note】\nアイダホ州の車のナンバープレートには\"Famous Potatoes\"と書かれています。"
     },
     {
       "type": "sort",
-      "question": "「たくさんの鳥が空にいます。」となるように並び替えてください。",
-      "choices": ["birds", "many", "are", "There"],
-      "answer": "Therearemanybirds",
-      "explanation": "There are many birds. です。"
+      "question": "「トマトは赤いです。」となるように並び替えてください。",
+      "choices": ["Tomatoes", "red", "are"],
+      "answer": "Tomatoesarered",
+      "explanation": "Tomatoは「子音字+o」で終わるため、esをつけます。\n【🇺🇸 Cultural Note】\nかつてアメリカではトマトは有毒植物だと信じられていた時期がありました。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "class（授業）の複数形は？\nclass(      )",
+      "question": "「あなたは写真を撮りますか？」\nDo you take (      )?",
       "choices": [],
-      "answer": "es",
-      "explanation": "classesです。ssで終わる語にはesをつけます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "water（水）の複数形は？",
-      "choices": ["複数形はない（waterのまま）", "waters", "wateres", "wator"],
-      "answer": "複数形はない（waterのまま）",
-      "explanation": "水、空気、お金などは数えられない名詞（不可数名詞）なので、原則としてsをつけません。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はいくつかの卵が必要です。」となるように並び替えてください。",
-      "choices": ["eggs", "some", "need", "I"],
-      "answer": "Ineedsomeeggs",
-      "explanation": "I need some eggs. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "sheep（羊）の複数形は？\nsh(      )p",
-      "choices": [],
-      "answer": "ee",
-      "explanation": "sheepです。単複同形の名詞です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "knife（ナイフ）の複数形は？",
-      "choices": ["knives", "knifes", "knifs", "knive"],
-      "answer": "knives",
-      "explanation": "feをvに変えてesをつけます。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼らは学生です。」となるように並び替えてください。",
-      "choices": ["students", "They", "are"],
-      "answer": "Theyarestudents",
-      "explanation": "They are students. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "friend（友達）の複数形は？\nfriend(      )",
-      "choices": [],
-      "answer": "s",
-      "explanation": "friendsです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "country（国）の複数形は？",
-      "choices": ["countries", "countrys", "countris", "countrees"],
-      "answer": "countries",
-      "explanation": "子音+yなので、yをiに変えてesです。"
-    },
-    {
-      "type": "sort",
-      "question": "「それらは新しい車です。」となるように並び替えてください。",
-      "choices": ["cars", "new", "They", "are"],
-      "answer": "Theyarenewcars",
-      "explanation": "They are new cars. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "box（箱）の複数形は？\nbox(      )",
-      "choices": [],
-      "answer": "es",
-      "explanation": "boxesです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "day（日）の複数形は？",
-      "choices": ["days", "daies", "dayes", "dais"],
-      "answer": "days",
-      "explanation": "母音+yなので、そのままsをつけます。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちは良い友達です。」となるように並び替えてください。",
-      "choices": ["friends", "good", "We", "are"],
-      "answer": "Wearegoodfriends",
-      "explanation": "We are good friends. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "money（お金）の複数形は？\n(      )",
-      "choices": [],
-      "answer": "money",
-      "explanation": "お金は数えられない名詞なので、sはつきません。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "hero（英雄）の複数形は？",
-      "choices": ["heroes", "heros", "heroes", "herous"],
-      "answer": "heroes",
-      "explanation": "oで終わる語にesをつけるパターンです。"
-    },
-    {
-      "type": "sort",
-      "question": "「4つのリンゴ」となるように並び替えてください。",
-      "choices": ["apples", "four"],
-      "answer": "fourapples",
-      "explanation": "four apples です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "teacher（先生）の複数形は？\nteacher(      )",
-      "choices": [],
-      "answer": "s",
-      "explanation": "teachersです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "baby（赤ちゃん）の複数形は？",
-      "choices": ["babies", "babys", "babyes", "babis"],
-      "answer": "babies",
-      "explanation": "子音+yなので、yをiに変えてesです。"
-    },
-    {
-      "type": "sort",
-      "question": "「あれらは私の靴です。」となるように並び替えてください。",
-      "choices": ["shoes", "my", "Those", "are"],
-      "answer": "Thosearemyshoes",
-      "explanation": "Those are my shoes. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "key（鍵）の複数形は？\nkey(      )",
-      "choices": [],
-      "answer": "s",
-      "explanation": "keysです。母音+yなのでsだけです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "pencil（鉛筆）の複数形は？",
-      "choices": ["pencils", "penciles", "pencills", "pencil"],
-      "answer": "pencils",
-      "explanation": "sをつけるだけの規則変化です。"
-    },
-    {
-      "type": "sort",
-      "question": "「たくさんの人々がいます。」となるように並び替えてください。",
-      "choices": ["people", "of", "lot", "A", "are", "there"],
-      "answer": "Therearealotofpeople",
-      "explanation": "There are a lot of people. です。Peopleは形は単数に見えますが、意味は複数（人々）です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "glass（コップ）の複数形は？\nglass(      )",
-      "choices": [],
-      "answer": "es",
-      "explanation": "glassesです。ssで終わる語にはesです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "Japan（日本）の複数形は？",
-      "choices": ["複数形はない", "Japans", "Japanes", "Japannes"],
-      "answer": "複数形はない",
-      "explanation": "国名などの固有名詞にはsをつけません。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は眼（両目）を閉じた。」となるように並び替えてください。",
-      "choices": ["eyes", "my", "closed", "I"],
-      "answer": "Iclosedmyeyes",
-      "explanation": "I closed my eyes. 目は通常2つあるので複数形にします。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "family（家族）の複数形は？\nfamil(      )",
-      "choices": [],
-      "answer": "ies",
-      "explanation": "familiesです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "cup（カップ）の複数形は？",
-      "choices": ["cups", "cupes", "cuppes", "cup"],
-      "answer": "cups",
-      "explanation": "sをつけるだけです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はイチゴが好きです。」となるように並び替えてください。",
-      "choices": ["strawberries", "like", "I"],
-      "answer": "Ilikestrawberries",
-      "explanation": "I like strawberries. 果物全般を指すときは複数形を使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "bench（ベンチ）の複数形は？\nbench(      )",
-      "choices": [],
-      "answer": "es",
-      "explanation": "benchesです。chで終わる語にはesです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "Japanese（日本人）の複数形は？",
-      "choices": ["Japanese", "Japaneses", "Japanes", "Japanis"],
-      "answer": "Japanese",
-      "explanation": "JapaneseやChineseなど、-eseで終わる国籍の言葉は単複同形です。"
-    },
-    {
-      "type": "sort",
-      "question": "「たくさんの本」となるように並び替えてください。",
-      "choices": ["books", "many"],
-      "answer": "manybooks",
-      "explanation": "many books です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "life（生命/生活）の複数形は？\nli(      )",
-      "choices": [],
-      "answer": "ves",
-      "explanation": "livesです。feをvに変えてesです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "dog（犬）の複数形は？",
-      "choices": ["dogs", "doges", "doggs", "dog"],
-      "answer": "dogs",
-      "explanation": "sをつけるだけです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私の足（両足）は大きいです。」となるように並び替えてください。",
-      "choices": ["feet", "my", "big", "are"],
-      "answer": "Myfeetarebig",
-      "explanation": "My feet are big. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "monkey（猿）の複数形は？\nmonkey(      )",
-      "choices": [],
-      "answer": "s",
-      "explanation": "monkeysです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "tomato（トマト）の複数形は？",
-      "choices": ["tomatoes", "tomatos", "tomato", "tomatose"],
-      "answer": "tomatoes",
-      "explanation": "oで終わる語にはesです。"
-    },
-    {
-      "type": "sort",
-      "question": "「10人の男の人たち」となるように並び替えてください。",
-      "choices": ["men", "ten"],
-      "answer": "tenmen",
-      "explanation": "ten men です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "chair（椅子）の複数形は？\nchair(      )",
-      "choices": [],
-      "answer": "s",
-      "explanation": "chairsです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "piano（ピアノ）の複数形は？",
-      "choices": ["pianos", "pianoes", "piannos", "piano"],
-      "answer": "pianos",
-      "explanation": "oで終わる語ですが、pianoやphotoは例外的にsだけをつけます。"
-    },
-    {
-      "type": "sort",
-      "question": "「これらはバスです。」となるように並び替えてください。",
-      "choices": ["buses", "are", "These"],
-      "answer": "Thesearebuses",
-      "explanation": "These are buses. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "milk（牛乳）の複数形は？\n(      )",
-      "choices": [],
-      "answer": "milk",
-      "explanation": "液体は数えられないのでsはつきません。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "wolf（狼）の複数形は？",
-      "choices": ["wolves", "wolfs", "wolfes", "wolvs"],
-      "answer": "wolves",
-      "explanation": "fをvに変えてesです。"
-    },
-    {
-      "type": "sort",
-      "question": "「2つのコップ」となるように並び替えてください。",
-      "choices": ["glasses", "two"],
-      "answer": "twoglasses",
-      "explanation": "two glasses です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "way（道/方法）の複数形は？\nway(      )",
-      "choices": [],
-      "answer": "s",
-      "explanation": "waysです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "church（教会）の複数形は？",
-      "choices": ["churches", "churchs", "churche", "churchies"],
-      "answer": "churches",
-      "explanation": "chで終わる語にはesです。"
-    },
-    {
-      "type": "sort",
-      "question": "「たくさんの都市」となるように並び替えてください。",
-      "choices": ["cities", "many"],
-      "answer": "manycities",
-      "explanation": "many cities です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "bread（パン）の複数形は？\n(      )",
-      "choices": [],
-      "answer": "bread",
-      "explanation": "パンは数えられない名詞扱いなのでsはつきません。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "story（物語）の複数形は？",
-      "choices": ["stories", "storys", "storyes", "stries"],
-      "answer": "stories",
-      "explanation": "yをiに変えてesです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼らは医者たちです。」となるように並び替えてください。",
-      "choices": ["doctors", "They", "are"],
-      "answer": "Theyaredoctors",
-      "explanation": "They are doctors. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "name（名前）の複数形は？\nname(      )",
-      "choices": [],
-      "answer": "s",
-      "explanation": "namesです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "photo（写真）の複数形は？",
-      "choices": ["photos", "photoes", "photoss", "photo"],
       "answer": "photos",
-      "explanation": "oで終わりますがsだけをつける例外です。"
-    },
-    {
-      "type": "sort",
-      "question": "「6匹のネズミ」となるように並び替えてください。",
-      "choices": ["mice", "six"],
-      "answer": "sixmice",
-      "explanation": "six mice です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "star（星）の複数形は？\nstar(      )",
-      "choices": [],
-      "answer": "s",
-      "explanation": "starsです。"
+      "explanation": "Photoはoで終わりますが、外来語・略語由来のためsだけをつけます。\n【🇺🇸 Cultural Note】\n観光地での写真撮影は\"Take a picture\"と言いますが、Instagramなどに載せる写真は\"Photo\"と呼ぶことも多いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "wife（妻）の複数形は？",
-      "choices": ["wives", "wifes", "wifs", "wive"],
+      "question": "「それらは男性用トイレです」\nThose are (      ) rooms.",
+      "choices": ["men's", "mans'", "mens'", "man's"],
+      "answer": "men's",
+      "explanation": "Man（男性）の複数形はMenです（不規則変化）。所有格にするため'sをつけます。\n【🇺🇸 Cultural Note】\nトイレの表示は\"Men\"と\"Women\"が一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「女性たちが働いています。」となるように並び替えてください。",
+      "choices": ["Women", "working", "are"],
+      "answer": "Womenareworking",
+      "explanation": "Womanの複数形はWomen（不規則変化）です。\n【🇺🇸 Cultural Note】\n第2次世界大戦中、工場で働く女性を描いた\"Rosie the Riveter\"（リベット打ちのロージー）はアメリカのアイコンです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「子供たちが遊んでいます」\nThe (      ) are playing.",
+      "choices": [],
+      "answer": "children",
+      "explanation": "Childの複数形はChildren（不規則変化）です。\n【🇺🇸 Cultural Note】\n\"No Child Left Behind\"（落ちこぼれ防止法）は有名な教育政策の名称です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の身長は5フィートです」\nI am five (      ) tall.",
+      "choices": ["feet", "foot", "foots", "feets"],
+      "answer": "feet",
+      "explanation": "Foot（フィート）の複数形はFeet（不規則変化）です。\n【🇺🇸 Cultural Note】\nアメリカでは身長をセンチメートルではなくフィートとインチで表します（例：5 feet 10 inches）。"
+    },
+    {
+      "type": "sort",
+      "question": "「毎日歯を磨きなさい。」となるように並び替えてください。",
+      "choices": ["teeth", "your", "Brush", "day", "every"],
+      "answer": "Brushyourteetheveryday",
+      "explanation": "Toothの複数形はTeeth（不規則変化）です。\n【🇺🇸 Cultural Note】\nアメリカ人は歯の白さと並び（Orthodontics）に非常に気を使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「たくさんの人々がいます」\nThere are many (      ).",
+      "choices": [],
+      "answer": "people",
+      "explanation": "Personの複数形としてPeopleを使います。\n【🇺🇸 Cultural Note】\n\"We the People\"はアメリカ合衆国憲法の冒頭の言葉として有名です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ネズミ（複数）はチーズが好きです」\n(      ) like cheese.",
+      "choices": ["Mice", "Mouses", "Mousse", "Mouse"],
+      "answer": "Mice",
+      "explanation": "Mouseの複数形はMice（不規則変化）です。\n【🇺🇸 Cultural Note】\n世界で最も有名なネズミ「ミッキーマウス」は単数形です。"
+    },
+    {
+      "type": "sort",
+      "question": "「秋には葉が色を変えます。」となるように並び替えてください。",
+      "choices": ["change", "Leaves", "color", "fall", "in"],
+      "answer": "Leaveschangecolorinfall",
+      "explanation": "Leaf（葉）はfをvに変えてesをつけ、Leavesにします。\n【🇺🇸 Cultural Note】\nニューイングランド地方の紅葉（Fall foliage）は観光名所として非常に人気があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「テーブルの上にナイフがあります」\nThere are (      ) on the table.",
+      "choices": [],
+      "answer": "knives",
+      "explanation": "Knifeはfeをvに変えてesをつけ、Knivesにします。\n【🇺🇸 Cultural Note】\nステーキハウスでは、肉を切るための鋭いステーキナイフが出てきます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ヘンリー8世には6人の妻がいました」\nHenry VIII had six (      ).",
+      "choices": ["wives", "wifes", "wivs", "wifs"],
       "answer": "wives",
-      "explanation": "feをvに変えてesです。"
+      "explanation": "Wifeはfeをvに変えてesをつけ、Wivesにします。\n【🇺🇸 Cultural Note】\nアメリカのドラマや歴史番組でもよく取り上げられるトピックです。"
     },
     {
       "type": "sort",
-      "question": "「2匹の魚」となるように並び替えてください。",
-      "choices": ["fish", "two"],
-      "answer": "twofish",
-      "explanation": "two fish です。fishは単複同形です。"
+      "question": "「屋根を修理する必要があります。」となるように並び替えてください。",
+      "choices": ["need", "roofs", "fix", "to", "the", "We"],
+      "answer": "Weneedtofixtheroofs",
+      "explanation": "Roofはfで終わりますが、例外的にsだけをつけてRoofsとします。\n【🇺🇸 Cultural Note】\nアメリカの家は屋根の修理や雨漏り対策が維持管理（Maintenance）の重要なポイントです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "house（家）の複数形は？\nhouse(      )",
+      "question": "「私はクッキーが好きです」\nI like (      ).",
       "choices": [],
-      "answer": "s",
-      "explanation": "housesです。"
+      "answer": "cookies",
+      "explanation": "Cookie（ieで終わる）にsをつけます。\n【🇺🇸 Cultural Note】\nチョコチップクッキーはアメリカ発祥のお菓子で、「ママの味」の代表格です。"
     },
     {
       "type": "multiple_choice",
-      "question": "deer（鹿）の複数形は？",
-      "choices": ["deer", "deers", "deeres", "deares"],
-      "answer": "deer",
-      "explanation": "deerも単複同形の名詞です。"
+      "question": "「サンドイッチを作ろう」\nLet's make (      ).",
+      "choices": ["sandwiches", "sandwichs", "sandwich", "sandwhichs"],
+      "answer": "sandwiches",
+      "explanation": "Sandwichはchで終わるため、esをつけます。\n【🇺🇸 Cultural Note】\nピーナッツバター＆ジェリー（PB&J）はアメリカの子供たちが大好きなサンドイッチです。"
     },
     {
       "type": "sort",
-      "question": "「いくつかの問題」となるように並び替えてください。",
-      "choices": ["problems", "some"],
-      "answer": "someproblems",
-      "explanation": "some problems です。"
+      "question": "「私たちはキャンディを持っています。」となるように並び替えてください。",
+      "choices": ["candies", "have", "We", "some"],
+      "answer": "Wehavesomecandies",
+      "explanation": "Candyは「子音字+y」なのでyをiに変えてesをつけます。\n【🇺🇸 Cultural Note】\nM&M'sやSkittlesなどのカラフルなキャンディが人気です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "party（パーティー）の複数形は？\npart(      )",
+      "question": "「彼らは赤ちゃんです」\nThey are (      ).",
       "choices": [],
-      "answer": "ies",
-      "explanation": "partiesです。"
+      "answer": "babies",
+      "explanation": "Babyは「子音字+y」なのでyをiに変えてesをつけます。\n【🇺🇸 Cultural Note】\n出産前に妊婦を祝うパーティーを\"Baby shower\"と言います。"
     },
     {
       "type": "multiple_choice",
-      "question": "fox（キツネ）の複数形は？",
-      "choices": ["foxes", "foxs", "foxies", "fox"],
-      "answer": "foxes",
-      "explanation": "xで終わる語にはesです。"
+      "question": "「多くの国があります」\nThere are many (      ).",
+      "choices": ["countries", "countrys", "countris", "country"],
+      "answer": "countries",
+      "explanation": "Countryは「子音字+y」なのでyをiに変えてesをつけます。\n【🇺🇸 Cultural Note】\nアメリカは「移民の国（Nation of immigrants）」であり、世界中の国々から人々が集まっています。"
     },
     {
       "type": "sort",
-      "question": "「12個の卵」となるように並び替えてください。",
-      "choices": ["eggs", "twelve"],
-      "answer": "twelveeggs",
-      "explanation": "twelve eggs です。"
+      "question": "「おもちゃを片付けなさい。」となるように並び替えてください。",
+      "choices": ["away", "toys", "Put", "your"],
+      "answer": "Putyourtoysaway",
+      "explanation": "Toyは「母音字+y」なので、そのままsをつけます。\n【🇺🇸 Cultural Note】\nクリスマス（Holiday season）は、一年で最もおもちゃが売れる時期です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "toy（おもちゃ）の複数形は？\ntoy(      )",
+      "question": "「男の子たちは遊んでいます」\nThe (      ) are playing.",
       "choices": [],
-      "answer": "s",
-      "explanation": "toysです。"
+      "answer": "boys",
+      "explanation": "Boyは「母音字+y」なので、そのままsをつけます。\n【🇺🇸 Cultural Note】\nボーイスカウト（Boy Scouts of America）はアメリカの伝統的な青少年活動です。"
     },
     {
       "type": "multiple_choice",
-      "question": "goose（ガチョウ）の複数形は？",
+      "question": "「キツネ（複数）は賢いです」\n(      ) are smart.",
+      "choices": ["Foxes", "Foxs", "Foxen", "Fox"],
+      "answer": "Foxes",
+      "explanation": "Foxはxで終わるため、esをつけます。\n【🇺🇸 Cultural Note】\nアメリカの寓話やアニメでも、キツネはずる賢いキャラクターとして描かれることが多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「授業（複数）は8時に始まります。」となるように並び替えてください。",
+      "choices": ["Classes", "at", "start", "8"],
+      "answer": "Classesstartat8",
+      "explanation": "Classはsで終わるため、esをつけます。\n【🇺🇸 Cultural Note】\nアメリカの学校は始業時間が早く、朝7時台から授業（Classes）が始まることも一般的です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は眼鏡が必要です」\nI need (      ).",
+      "choices": [],
+      "answer": "glasses",
+      "explanation": "Glass（レンズ）が2つあるので常に複数形esをつけます。\n【🇺🇸 Cultural Note】\nおしゃれなフレームの眼鏡（Glasses）はファッションアイテムとしても人気です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ジーンズを履いています」\nI am wearing (      ).",
+      "choices": ["jeans", "jean", "jeanes", "jenas"],
+      "answer": "jeans",
+      "explanation": "足が2本あるので常に複数形sをつけます。\n【🇺🇸 Cultural Note】\nリーバイス（Levi's）によって広められたジーンズは、アメリカン・スタイルの象徴です。"
+    },
+    {
+      "type": "sort",
+      "question": "「ハサミはどこですか？」となるように並び替えてください。",
+      "choices": ["scissors", "Where", "the", "are"],
+      "answer": "Wherearethescissors",
+      "explanation": "Scissorsは刃が2つあるので常に複数形sをつけます。\n【🇺🇸 Cultural Note】\n工作の時間（Arts and crafts）で子供たちはハサミを使います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は新しいズボンを買いました」\nI bought new (      ).",
+      "choices": [],
+      "answer": "pants",
+      "explanation": "Pantsは常に複数形sをつけます。\n【🇺🇸 Cultural Note】\nアメリカ英語でPantsはズボンのことですが、イギリス英語では下着を意味するので注意が必要です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「服を着なさい」\nPut on your (      ).",
+      "choices": ["clothes", "cloths", "cloth", "closes"],
+      "answer": "clothes",
+      "explanation": "衣服（Clothes）は常に複数形扱いです。Clothは布地のことです。\n【🇺🇸 Cultural Note】\nアメリカの学校には、服装規定（Dress code）がある場合があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「羊（複数）が牧場にいます。」となるように並び替えてください。",
+      "choices": ["are", "ranch", "Sheep", "on", "the"],
+      "answer": "Sheepareontheranch",
+      "explanation": "Sheepは単複同形です。be動詞がareなので複数とわかります。\n【🇺🇸 Cultural Note】\nアメリカ西部には広大な牧場（Ranch）がたくさんあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「池に魚（複数）がいます」\nThere are (      ) in the pond.",
+      "choices": [],
+      "answer": "fish",
+      "explanation": "Fishは一般的に単複同形です。\n【🇺🇸 Cultural Note】\nバス釣り（Bass fishing）はアメリカで人気のアウトドアスポーツです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「鹿（複数）は速く走れます」\n(      ) can run fast.",
+      "choices": ["Deer", "Deers", "Deeres", "Doe"],
+      "answer": "Deer",
+      "explanation": "Deerは単複同形です。\n【🇺🇸 Cultural Note】\n「ディア・クロッシング（鹿横断注意）」の標識は、アメリカの田舎道でよく見かけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは多くの種（生物）を保護しています。」となるように並び替えてください。",
+      "choices": ["protect", "many", "We", "species"],
+      "answer": "Weprotectmanyspecies",
+      "explanation": "Species（種）は単複同形です。\n【🇺🇸 Cultural Note】\n絶滅危惧種（Endangered species）の保護は重要な環境問題です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これらの答えは正しいです」\nThese (      ) are correct.",
+      "choices": [],
+      "answer": "answers",
+      "explanation": "Answerにsをつけます。\n【🇺🇸 Cultural Note】\n学校のテストで全問正解することを\"Ace the test\"と言います。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「1ドルは100セントです」\nOne dollar is 100 (      ).",
+      "choices": ["cents", "cent", "centes", "cens"],
+      "answer": "cents",
+      "explanation": "Centにsをつけます。\n【🇺🇸 Cultural Note】\n1セント硬貨（Penny）を道で拾うと幸運が訪れるという迷信があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は数枚のドル紙幣を持っています。」となるように並び替えてください。",
+      "choices": ["bills", "dollar", "a", "have", "few", "I"],
+      "answer": "Ihaveafewdollarbills",
+      "explanation": "Dollar bill（ドル紙幣）のbillにsをつけます。\n【🇺🇸 Cultural Note】\nアメリカの紙幣はすべて緑色をしているため、\"Greenback\"という俗称があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「1マイルは5280フィートです」\nOne mile is 5280 (      ).",
+      "choices": [],
+      "answer": "feet",
+      "explanation": "Footの複数形Feetを使います。\n【🇺🇸 Cultural Note】\nアメリカの航空機は高度をフィートで表示します（例：30,000 feet）。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は身長6フィート2インチです」\nHe is 6 feet 2 (      ) tall.",
+      "choices": ["inches", "inchs", "inchies", "inch"],
+      "answer": "inches",
+      "explanation": "Inchはchで終わるため、esをつけます。\n【🇺🇸 Cultural Note】\nアメリカで身長を聞かれたら、センチメートルではなくフィートとインチで答えます。"
+    },
+    {
+      "type": "sort",
+      "question": "「その本は200ページあります。」となるように並び替えてください。",
+      "choices": ["200", "book", "has", "The", "pages"],
+      "answer": "Thebookhas200pages",
+      "explanation": "Pageにsをつけます。\n【🇺🇸 Cultural Note】\nアメリカの大学の教科書（Textbooks）は非常に分厚く、高価なことで知られています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はいくつかの質問があります」\nI have some (      ).",
+      "choices": [],
+      "answer": "questions",
+      "explanation": "Questionにsをつけます。\n【🇺🇸 Cultural Note】\n\"There are no stupid questions\"（愚かな質問などない）と言って、質問することを奨励します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは明日クイズ（小テスト）があります」\nWe have (      ) tomorrow.",
+      "choices": ["quizzes", "quizs", "quizes", "quizies"],
+      "answer": "quizzes",
+      "explanation": "Quizはzを重ねてesをつけます。\n【🇺🇸 Cultural Note】\nアメリカの学校では、大きな試験（Exam/Test）の他に、短いQuizが頻繁に行われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「それらはガス（気体）です。」となるように並び替えてください。",
+      "choices": ["gases", "are", "They"],
+      "answer": "Theyaregases",
+      "explanation": "Gasはsで終わるため、esをつけます。\n【🇺🇸 Cultural Note】\nガソリンスタンド（Gas station）のGasはGasoline（液体）の略ですが、理科で習う気体はGas（複数形Gases）です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はイチゴが好きです」\nI like (      ).",
+      "choices": [],
+      "answer": "strawberries",
+      "explanation": "Strawberryは「子音字+y」なのでyをiに変えてesをつけます。\n【🇺🇸 Cultural Note】\nストロベリーショートケーキはアメリカのデザートの定番ですが、日本のショートケーキとは違い、ビスケット生地を使うことがあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ヒーローたちは飛びます」\n(      ) fly.",
+      "choices": ["Heroes", "Heros", "Heroies", "Hero"],
+      "answer": "Heroes",
+      "explanation": "Heroは「子音字+o」なのでesをつけます。\n【🇺🇸 Cultural Note】\nスーパーマンやバットマンなどのアメコミヒーローは、アメリカ文化の重要な一部です。"
+    },
+    {
+      "type": "sort",
+      "question": "「オオカミ（複数）が森にいます。」となるように並び替えてください。",
+      "choices": ["forest", "Wolves", "in", "are", "the"],
+      "answer": "Wolvesareintheforest",
+      "explanation": "Wolfはfをvに変えてesをつけ、Wolvesにします。\n【🇺🇸 Cultural Note】\nイエローストーン国立公園でのオオカミ再導入プロジェクトは有名です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は新しい靴が必要です」\nI need new (      ).",
+      "choices": [],
+      "answer": "shoes",
+      "explanation": "Shoeにsをつけます。通常左右ペアで使うので複数形です。\n【🇺🇸 Cultural Note】\nアメリカの家では靴を履いたまま生活することもありますが、最近は衛生面から脱ぐ家庭も増えています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それらは火山です」\nThose are (      ).",
+      "choices": ["volcanoes", "volcanos", "volcanies", "volcanose"],
+      "answer": "volcanoes",
+      "explanation": "Volcanoは「子音字+o」なのでesをつけます（sだけの場合もありますが、esが一般的です）。\n【🇺🇸 Cultural Note】\nハワイ州のキラウエア火山などは活発に活動しています。"
+    },
+    {
+      "type": "sort",
+      "question": "「ピアノ（複数）は重いです。」となるように並び替えてください。",
+      "choices": ["heavy", "Pianos", "are"],
+      "answer": "Pianosareheavy",
+      "explanation": "Pianoはoで終わりますが、外来語・楽器名なのでsだけをつけます。\n【🇺🇸 Cultural Note】\nスタインウェイ（Steinway & Sons）はニューヨークで創業した世界的なピアノメーカーです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はいくつかの物語を読みました」\nI read some (      ).",
+      "choices": [],
+      "answer": "stories",
+      "explanation": "Storyは「子音字+y」なのでyをiに変えてesをつけます。\n【🇺🇸 Cultural Note】\nアメリカの子供たちは、寝る前に親に本を読んでもらう（Bedtime stories）習慣があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「棚の上に本があります」\nThere are books on the (      ).",
+      "choices": ["shelves", "shelfs", "shelfes", "shelvs"],
+      "answer": "shelves",
+      "explanation": "Shelfはfをvに変えてesをつけ、Shelvesにします。\n【🇺🇸 Cultural Note】\nアメリカの家庭や学校の教室には、たくさんの本が並んだ本棚（Bookshelves）がよくあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちの生活（複数）は変わりました。」となるように並び替えてください。",
+      "choices": ["Lives", "changed", "Our", "have"],
+      "answer": "Ourliveshavechanged",
+      "explanation": "Lifeはfeをvに変えてesをつけ、Livesにします。\n【🇺🇸 Cultural Note】\n\"Black Lives Matter\"（BLM）など、社会運動のスローガンでも使われる重要な単語です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「泥棒（複数）が銀行に入りました」\n(      ) entered the bank.",
+      "choices": [],
+      "answer": "Thieves",
+      "explanation": "Thiefはfをvに変えてesをつけ、Thievesにします。\n【🇺🇸 Cultural Note】\n西部劇（Western movies）では、銀行強盗や列車強盗がよく登場します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ガチョウ（複数）が飛んでいます」\nThe (      ) are flying.",
       "choices": ["geese", "gooses", "geeses", "goose"],
       "answer": "geese",
-      "explanation": "foot→feetのようにooがeeに変わります。"
+      "explanation": "Gooseの複数形はGeese（不規則変化）です。\n【🇺🇸 Cultural Note】\nカナダガン（Canada Geese）はV字編隊を組んで渡りを行う姿がよく見られます。"
     },
     {
       "type": "sort",
-      "question": "「これらの写真」となるように並び替えてください。",
-      "choices": ["photos", "These"],
-      "answer": "Thesephotos",
-      "explanation": "These photos です。"
+      "question": "「私はいくつかのビデオを見ました。」となるように並び替えてください。",
+      "choices": ["watched", "I", "videos", "some"],
+      "answer": "Iwatchedsomevideos",
+      "explanation": "Videoはoで終わりますが、母音+oなのでsだけをつけます。\n【🇺🇸 Cultural Note】\nYouTubeなどの動画共有サービスはアメリカ発祥です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "radio（ラジオ）の複数形は？\nradio(      )",
+      "question": "「ラジオ（複数）は古いですか？」\nAre the (      ) old?",
       "choices": [],
-      "answer": "s",
-      "explanation": "radiosです。oで終わりますがsだけです。"
+      "answer": "radios",
+      "explanation": "Radioはoで終わりますが、母音+oなのでsだけをつけます。\n【🇺🇸 Cultural Note】\nアメリカでは車社会のため、運転中に聴くラジオ放送（Radio stations）が依然として人気があります。"
     },
     {
       "type": "multiple_choice",
-      "question": "person（人）の複数形は？",
-      "choices": ["people", "persons", "peoples", "persones"],
-      "answer": "people",
-      "explanation": "personの複数形はpeopleを使うのが一般的です。"
+      "question": "「動物園（複数）は楽しいです」\n(      ) are fun.",
+      "choices": ["Zoos", "Zooes", "Zues", "Zoose"],
+      "answer": "Zoos",
+      "explanation": "Zooはoで終わりますが、母音+oなのでsだけをつけます。\n【🇺🇸 Cultural Note】\nサンディエゴ動物園（San Diego Zoo）は世界最大級の規模を誇ります。"
     },
     {
       "type": "sort",
-      "question": "「7日間」となるように並び替えてください。",
-      "choices": ["days", "seven"],
-      "answer": "sevendays",
-      "explanation": "seven days です。"
+      "question": "「私たちはコンピューターを使います。」となるように並び替えてください。",
+      "choices": ["computers", "We", "use"],
+      "answer": "Weusecomputers",
+      "explanation": "Computerにsをつけます。\n【🇺🇸 Cultural Note】\nシリコンバレー（Silicon Valley）は世界のコンピューター技術の中心地です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "computer（コンピュータ）の複数形は？\ncomputer(      )",
+      "question": "「これらは私のペンです」\nThese are my (      ).",
       "choices": [],
-      "answer": "s",
-      "explanation": "computersです。"
+      "answer": "pens",
+      "explanation": "Penにsをつけます。\n【🇺🇸 Cultural Note】\nアメリカの学校では、鉛筆だけでなくボールペン（Ink pens）を使って課題を提出することもあります。"
     },
     {
       "type": "multiple_choice",
-      "question": "coffee（コーヒー）の複数形は？",
-      "choices": ["複数形はない", "coffees", "coffes", "coffeees"],
-      "answer": "複数形はない",
-      "explanation": "液体なので数えられません（「一杯のコーヒー」と言う時はa cup of coffeeと数えます）。"
+      "question": "「カンガルー（複数）はジャンプします」\n(      ) jump.",
+      "choices": ["Kangaroos", "Kangarooes", "Kangaries", "Kangaroose"],
+      "answer": "Kangaroos",
+      "explanation": "Kangarooはoで終わりますが、母音+oなのでsだけをつけます。\n【🇺🇸 Cultural Note】\nカンガルーはオーストラリアの動物ですが、アメリカの動物園でも人気者です。"
     },
     {
       "type": "sort",
-      "question": "「多くの国々」となるように並び替えてください。",
-      "choices": ["countries", "many"],
-      "answer": "manycountries",
-      "explanation": "many countries です。"
+      "question": "「シェフ（複数）が料理しています。」となるように並び替えてください。",
+      "choices": ["Chefs", "cooking", "are"],
+      "answer": "Chefsarecooking",
+      "explanation": "Chefはfで終わりますが、例外的にsだけをつけてChefsとします。\n【🇺🇸 Cultural Note】\n有名シェフ（Celebrity Chef）による料理番組はアメリカで大人気です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "dictionary（辞書）の複数形は？\ndictionar(      )",
+      "question": "「私はあなたの信念（複数）を尊重します」\nI respect your (      ).",
       "choices": [],
-      "answer": "ies",
-      "explanation": "dictionariesです。"
+      "answer": "beliefs",
+      "explanation": "Beliefはfで終わりますが、例外的にsだけをつけてBeliefsとします。\n【🇺🇸 Cultural Note】\n「信教の自由」はアメリカ憲法修正第1条で保障された重要な権利です。"
     },
     {
       "type": "multiple_choice",
-      "question": "video（ビデオ）の複数形は？",
-      "choices": ["videos", "videoes", "vidios", "video"],
-      "answer": "videos",
-      "explanation": "videosです。sだけをつけます。"
+      "question": "「崖（複数）は高いです」\nThe (      ) are high.",
+      "choices": ["cliffs", "clives", "cliffes", "clifvs"],
+      "answer": "cliffs",
+      "explanation": "Cliffはfで終わりますが、例外的にsだけをつけてCliffsとします。\n【🇺🇸 Cultural Note】\nグランドキャニオンの断崖（Cliffs）は壮大な景観を作り出しています。"
+    },
+    {
+      "type": "sort",
+      "question": "「多くの家族がここに住んでいます。」となるように並び替えてください。",
+      "choices": ["live", "Many", "here", "families"],
+      "answer": "Manyfamilieslivehere",
+      "explanation": "Familyは「子音字+y」なのでyをiに変えてesをつけます。\n【🇺🇸 Cultural Note】\n郊外の一軒家で家族と暮らすことが、多くのアメリカ人にとっての「アメリカン・ドリーム」です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「パーティー（複数）は週末にあります」\n(      ) are on weekends.",
+      "choices": [],
+      "answer": "Parties",
+      "explanation": "Partyは「子音字+y」なのでyをiに変えてesをつけます。\n【🇺🇸 Cultural Note】\nアメリカの大学では、フラタニティ（Fraternity）やソロリティ（Sorority）と呼ばれる学生社交クラブが頻繁にパーティーを開きます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それらは私の本です」\nThose are my (      ).",
+      "choices": ["books", "bookes", "bookies", "beeks"],
+      "answer": "books",
+      "explanation": "Bookにsをつけます。\n【🇺🇸 Cultural Note】\nアメリカの公共図書館（Public library）は地域コミュニティの重要な拠点です。"
+    },
+    {
+      "type": "sort",
+      "question": "「友人たちが待っています。」となるように並び替えてください。",
+      "choices": ["waiting", "Friends", "are"],
+      "answer": "Friendsarewaiting",
+      "explanation": "Friendにsをつけます。\n【🇺🇸 Cultural Note】\n人気ドラマ\"Friends\"は、ニューヨークに住む若者たちの友情を描いたアメリカの国民的番組です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「電話（複数）が鳴っています」\nThe (      ) are ringing.",
+      "choices": [],
+      "answer": "phones",
+      "explanation": "Phoneにsをつけます。\n【🇺🇸 Cultural Note】\nアメリカの国番号は+1です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「日（複数）が短くなっています」\nThe (      ) are getting shorter.",
+      "choices": ["days", "daies", "dayes", "dais"],
+      "answer": "days",
+      "explanation": "Dayは「母音字+y」なのでsだけをつけます。\n【🇺🇸 Cultural Note】\nデイライト・セービング・タイム（サマータイム）が終わると、日が暮れるのが一気に早くなります。"
+    },
+    {
+      "type": "sort",
+      "question": "「おもちゃ（複数）は箱の中にあります。」となるように並び替えてください。",
+      "choices": ["toys", "are", "The", "box", "in", "the"],
+      "answer": "Thetoysareinthebox",
+      "explanation": "Toyは「母音字+y」なのでsだけをつけます。\n【🇺🇸 Cultural Note】\n「トイ・ストーリー」はアメリカのアニメーションスタジオ、ピクサーの代表作です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「少年たちが野球をしています」\nThe (      ) are playing baseball.",
+      "choices": [],
+      "answer": "boys",
+      "explanation": "Boyは「母音字+y」なのでsだけをつけます。\n【🇺🇸 Cultural Note】\nリトルリーグ（Little League）は、少年野球の世界的な組織で、ペンシルベニア州で発祥しました。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「それらはリンゴです」\nThey are (      ).",
+      "choices": ["apples", "applees", "appls", "applies"],
+      "answer": "apples",
+      "explanation": "Appleにsをつけます。\n【🇺🇸 Cultural Note】\nニューヨーク市の愛称は\"The Big Apple\"です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは多くのクラス（授業）があります。」となるように並び替えてください。",
+      "choices": ["classes", "We", "many", "have"],
+      "answer": "Wehavemanyclasses",
+      "explanation": "Classはsで終わるため、esをつけます。\n【🇺🇸 Cultural Note】\nアメリカの高校や大学では、生徒が教室を移動して授業を受けます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「これらは私のスカーフです」\nThese are my (      ).",
+      "choices": [],
+      "answer": "scarves",
+      "explanation": "Scarfはfをvに変えてesをつけ、Scarvesにします。\n【🇺🇸 Cultural Note】\n寒い北部（シカゴやボストンなど）の冬には欠かせないアイテムです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「竜巻（複数）は危険です」\n(      ) are dangerous.",
+      "choices": ["Tornadoes", "Tornados", "Tornadies", "Tornadose"],
+      "answer": "Tornadoes",
+      "explanation": "Tornadoは「子音字+o」なのでesをつけます。\n【🇺🇸 Cultural Note】\nアメリカ中西部の「トルネード・アレイ」と呼ばれる地域では、竜巻が頻繁に発生します。"
+    },
+    {
+      "type": "sort",
+      "question": "「蚊（複数）は迷惑です。」となるように並び替えてください。",
+      "choices": ["annoying", "Mosquitoes", "are"],
+      "answer": "Mosquitoesareannoying",
+      "explanation": "Mosquitoは「子音字+o」なのでesをつけます。\n【🇺🇸 Cultural Note】\nフロリダや南部州の夏は湿度が高く、蚊（Mosquitoes）が多く発生します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「スタジオ（複数）はハリウッドにあります」\nThe (      ) are in Hollywood.",
+      "choices": [],
+      "answer": "studios",
+      "explanation": "Studioは母音+oなのでsだけをつけます。\n【🇺🇸 Cultural Note】\nユニバーサル・スタジオやワーナー・ブラザースなどの映画スタジオは見学ツアーも行っています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「雄牛（複数）がいます」\nThere are (      ).",
+      "choices": ["oxen", "oxes", "oxs", "oxies"],
+      "answer": "oxen",
+      "explanation": "Oxの複数形はOxen（不規則変化）です。\n【🇺🇸 Cultural Note】\n西部開拓時代、幌馬車（Covered Wagon）を引くためにOxenが使われました。"
+    },
+    {
+      "type": "sort",
+      "question": "「危機（複数）が存在します。」となるように並び替えてください。",
+      "choices": ["exist", "Crises"],
+      "answer": "Crisesexist",
+      "explanation": "Crisis（単数）の複数形はCrisesです（is→es）。\n【🇺🇸 Cultural Note】\n金融危機（Financial Crisis）などはニュースでよく聞く言葉です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「サボテン（複数）は水を必要としません」\n(      ) don't need water.",
+      "choices": [],
+      "answer": "Cacti",
+      "explanation": "Cactus（単数）の複数形はCactiです（us→i）。（Cactusesも使われますが、ここでは不規則変化を学びます）\n【🇺🇸 Cultural Note】\nアリゾナ州の砂漠には、巨大なサグアロサボテン（Saguaro cactus）が生えています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「データ（複数）は重要です」\nThe (      ) are important.",
+      "choices": ["data", "datum", "datas", "datums"],
+      "answer": "data",
+      "explanation": "Datum（単数）の複数形がDataです。現代英語ではDataを単数扱いすることもありますが、本来は複数形です。\n【🇺🇸 Cultural Note】\nシリコンバレーのIT企業では、データ分析（Data analysis）がビジネスの鍵を握っています。"
+    },
+    {
+      "type": "sort",
+      "question": "「手段（複数）は正当化されます。」となるように並び替えてください。",
+      "choices": ["justified", "means", "The", "are"],
+      "answer": "Themeansarejustified",
+      "explanation": "Meansは単複同形です。ここではareを使っているので複数扱いです。\n【🇺🇸 Cultural Note】\n\"The ends justify the means\"（目的は手段を正当化する）という言葉があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「エコー（反響）が聞こえます」\nI hear (      ).",
+      "choices": [],
+      "answer": "echoes",
+      "explanation": "Echoは「子音字+o」なのでesをつけます。\n【🇺🇸 Cultural Note】\nグランドキャニオンなどの渓谷では、声が反響（Echo）します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これらの現象（複数）は珍しいです」\nThese (      ) are rare.",
+      "choices": ["phenomena", "phenomenons", "phenomeni", "phenomenas"],
+      "answer": "phenomena",
+      "explanation": "Phenomenon（単数）の複数形はPhenomenaです。\n【🇺🇸 Cultural Note】\nオーロラ（Northern Lights）はアラスカで見られる自然現象（Natural phenomenon）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「それらの基礎（複数）は強固です。」となるように並び替えてください。",
+      "choices": ["strong", "bases", "Those", "are"],
+      "answer": "Thosebasesarestrong",
+      "explanation": "Basis（基礎・単数）の複数形はBasesです（is→es）。Base（基地）の複数形と同じスペルになります。\n【🇺🇸 Cultural Note】\n議論の根拠（Basis）を明確にすることは、アメリカの教育で重視されます。"
     }
   ]
 }

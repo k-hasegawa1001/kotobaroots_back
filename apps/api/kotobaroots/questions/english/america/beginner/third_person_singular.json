@@ -1,650 +1,525 @@
 {
   "learning_topic": "三人称単数",
+  "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "「彼はテニスをします」\nHe (      ) tennis.",
+      "question": "「父は大きなトラックを運転します」\nMy father (      ) a big truck.",
+      "choices": ["drives", "drive", "driving", "drove"],
+      "answer": "drives",
+      "explanation": "My father（三人称単数）なのでdrivesを使います。\n【🇺🇸 Cultural Note】\nアメリカでは、荷台のあるピックアップトラックが自家用車として非常に人気があり、年間販売台数でも常に上位を占めます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はニューヨークに住んでいます。」となるように並び替えてください。",
+      "choices": ["lives", "She", "York", "in", "New"],
+      "answer": "ShelivesinNewYork",
+      "explanation": "She（三人称単数）なのでlivesを使います。\n【🇺🇸 Cultural Note】\nニューヨーク市の人口は約800万人で、全米最大の都市です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は野球が好きです」\nHe (      ) baseball.",
+      "choices": [],
+      "answer": "likes",
+      "explanation": "He（三人称単数）なのでlikesを使います。\n【🇺🇸 Cultural Note】\n野球のスタジアムでは、7回裏の攻撃前に観客全員で\"Take Me Out to the Ball Game\"を歌う伝統があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「母は銀行で働いています」\nMy mother (      ) at a bank.",
+      "choices": ["works", "work", "working", "worker"],
+      "answer": "works",
+      "explanation": "My mother（三人称単数）なのでworksを使います。\n【🇺🇸 Cultural Note】\nアメリカの銀行は土曜日も半日営業していることが多いですが、日曜日は閉まります。"
+    },
+    {
+      "type": "sort",
+      "question": "「トムは毎日学校へ行きます。」となるように並び替えてください。",
+      "choices": ["goes", "Tom", "school", "to", "day", "every"],
+      "answer": "Tomgoestoschooleveryday",
+      "explanation": "Tom（三人称単数）なのでgoes（esをつける）を使います。\n【🇺🇸 Cultural Note】\nアメリカの学校教育制度は州や学区（School District）によって異なりますが、一般的にK-12（幼稚園から高3まで）が義務教育期間です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その店は10時に開店します」\nThe store (      ) at 10.",
+      "choices": [],
+      "answer": "opens",
+      "explanation": "The store（三人称単数）なのでopensを使います。\n【🇺🇸 Cultural Note】\nブラックフライデーなどのセール日には、深夜や早朝から開店する店もあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女はピアノを弾きます」\nShe (      ) the piano.",
       "choices": ["plays", "play", "playing", "player"],
       "answer": "plays",
-      "explanation": "主語がHe（三人称単数）なので、動詞playにsをつけてplaysにします。"
+      "explanation": "She（三人称単数）なのでplaysを使います。\n【🇺🇸 Cultural Note】\nスタインウェイ（Steinway & Sons）はニューヨークで創業された世界最高峰のピアノメーカーです。"
     },
     {
       "type": "sort",
-      "question": "「彼女は猫が好きです。」となるように並び替えてください。",
-      "choices": ["likes", "cats", "She"],
-      "answer": "Shelikescats",
-      "explanation": "She likes cats. です。Sheが主語なのでlikeにsがつきます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私の父は銀行で働いています」\nMy father (      ) at a bank.",
-      "choices": [],
-      "answer": "works",
-      "explanation": "My fatherは「彼（He）」と同じ三人称単数なので、workにsがつきます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「ケンは毎日勉強します」\nKen (      ) every day.",
-      "choices": ["studies", "studys", "study", "studieses"],
-      "answer": "studies",
-      "explanation": "Studyは「子音+y」で終わる語なので、yをiに変えてesをつけます。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼は東京に住んでいます。」となるように並び替えてください。",
-      "choices": ["Tokyo", "in", "lives", "He"],
-      "answer": "HelivesinTokyo",
-      "explanation": "He lives in Tokyo. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は車を持っています」\nShe (      ) a car.",
-      "choices": [],
-      "answer": "has",
-      "explanation": "Haveの三人称単数形はhavesではなくhasという不規則な形になります。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私の母は上手に料理をします」\nMy mother (      ) well.",
-      "choices": ["cooks", "cook", "cooking", "cookes"],
-      "answer": "cooks",
-      "explanation": "My mother（彼女）が主語なのでsがつきます。"
-    },
-    {
-      "type": "sort",
-      "question": "「トムは速く走ります。」となるように並び替えてください。",
-      "choices": ["fast", "runs", "Tom"],
-      "answer": "Tomrunsfast",
-      "explanation": "Tom runs fast. です。"
+      "question": "「ビルはたくさんの本を持っています。」となるように並び替えてください。",
+      "choices": ["has", "Bill", "books", "many"],
+      "answer": "Billhasmanybooks",
+      "explanation": "Bill（三人称単数）なのでHaveの変則形hasを使います。\n【🇺🇸 Cultural Note】\nビル・ゲイツ（Bill Gates）は読書家として有名で、毎年おすすめの本を紹介しています。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「彼はテレビを見ます」\nHe (      ) TV.",
       "choices": [],
       "answer": "watches",
-      "explanation": "Watchのようにchで終わる語にはesをつけます。"
+      "explanation": "Watchはchで終わるのでesをつけてwatchesにします。\n【🇺🇸 Cultural Note】\nアメリカのテレビ番組（TV shows）は、シットコム、ドラマ、リアリティショーなどジャンルが豊富で、世界中に輸出されています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼女は学校へ行きます」\nShe (      ) to school.",
-      "choices": ["goes", "gos", "go", "going"],
-      "answer": "goes",
-      "explanation": "Goにはesをつけてgoesになります。"
+      "question": "「私の犬は速く走ります」\nMy dog (      ) fast.",
+      "choices": ["runs", "run", "running", "ran"],
+      "answer": "runs",
+      "explanation": "My dog（三人称単数）なのでrunsを使います。\n【🇺🇸 Cultural Note】\nアメリカではゴールデンレトリバーやラブラドールレトリバーなどの大型犬が人気です。"
     },
     {
       "type": "sort",
-      "question": "「私の犬はとても速く泳ぎます。」となるように並び替えてください。",
-      "choices": ["swims", "fast", "My", "very", "dog"],
-      "answer": "Mydogswimsveryfast",
-      "explanation": "My dog swims very fast. です。Dog（それ）は三人称単数扱いです。"
+      "question": "「ケイトは一生懸命勉強します。」となるように並び替えてください。",
+      "choices": ["studies", "Kate", "hard"],
+      "answer": "Katestudieshard",
+      "explanation": "Kate（三人称単数）なのでStudyのyをiに変えてesをつけ、studiesにします。\n【🇺🇸 Cultural Note】\nアメリカの高校生はGPA（成績平均点）を維持するために、スポーツなどの課外活動と勉強を両立させなければなりません。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼はここで働いていますか？」\n(      ) he work here?",
+      "question": "「雨がたくさん降ります」\nIt (      ) a lot.",
       "choices": [],
-      "answer": "Does",
-      "explanation": "主語がHeの場合、疑問文の先頭はDoではなくDoesを使います。"
+      "answer": "rains",
+      "explanation": "It（三人称単数・天候）なのでrainsを使います。\n【🇺🇸 Cultural Note】\nシアトル（ワシントン州）は「レイン・シティ」と呼ばれますが、実際には霧雨が多く、傘をささない人も多いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「エミは英語を話します」\nEmi (      ) English.",
-      "choices": ["speaks", "speak", "speakes", "speaking"],
-      "answer": "speaks",
-      "explanation": "Emiは三人称単数なのでspeaksです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼は音楽が好きではありません。」となるように並び替えてください。",
-      "choices": ["doesn't", "like", "music", "He"],
-      "answer": "Hedoesn'tlikemusic",
-      "explanation": "He doesn't like music. 否定文ではdo notではなくdoes not（doesn't）を使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は宿題をします」\nShe (      ) her homework.",
-      "choices": [],
-      "answer": "does",
-      "explanation": "Do（する）の三人称単数形はdoesです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「その猫は魚を食べます」\nThe cat (      ) fish.",
-      "choices": ["eats", "eat", "eates", "eating"],
-      "answer": "eats",
-      "explanation": "The catは三人称単数なのでeatsです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私の兄はギターを弾きます。」となるように並び替えてください。",
-      "choices": ["plays", "guitar", "brother", "My", "the"],
-      "answer": "Mybrotherplaystheguitar",
-      "explanation": "My brother plays the guitar. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼は納豆を食べません」\nHe (      ) eat natto.",
-      "choices": [],
-      "answer": "doesn't",
-      "explanation": "He doesn't eat natto. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は図書館を使います」\nShe (      ) the library.",
-      "choices": ["uses", "use", "using", "us"],
-      "answer": "uses",
-      "explanation": "Useにsをつけてusesです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼は日本に住んでいますか？」となるように並び替えてください。",
-      "choices": ["Does", "he", "live", "in", "Japan"],
-      "answer": "DoesheliveinJapan",
-      "explanation": "Does he live in Japan? です。疑問文でDoesを使った場合、後ろの動詞（live）は原形に戻ります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私の妹は自分の部屋を掃除します」\nMy sister (      ) her room.",
-      "choices": [],
-      "answer": "cleans",
-      "explanation": "Cleanにsをつけてcleansです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼はとても一生懸命勉強します」\nHe (      ) very hard.",
-      "choices": ["studies", "study", "studys", "studing"],
-      "answer": "studies",
-      "explanation": "Study→Studiesです。"
-    },
-    {
-      "type": "sort",
-      "question": "「誰がこの車を持っていますか？」となるように並び替えてください。",
-      "choices": ["has", "car", "Who", "this"],
-      "answer": "Whohasthiscar",
-      "explanation": "Who has this car? Whoが主語の場合、三人称単数扱いをしてhasを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼は夕食を作りますか？」\n(      ) he cook dinner?",
-      "choices": [],
-      "answer": "Does",
-      "explanation": "Does he cook dinner? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「太陽は東から昇る」\nThe sun (      ) in the east.",
-      "choices": ["rises", "rise", "rising", "rosed"],
-      "answer": "rises",
-      "explanation": "The sun（太陽）は世界に一つだけのものなので単数扱いです。Rise（昇る）にsがつきます。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女は早起きします。」となるように並び替えてください。",
-      "choices": ["up", "gets", "early", "She"],
-      "answer": "Shegetsupearly",
-      "explanation": "She gets up early. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「マイクはあまり外出しない」\nMike (      ) go out very often.",
-      "choices": [],
-      "answer": "doesn't",
-      "explanation": "Mike doesn't go out... です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は顔を洗う」\nShe (      ) her face.",
-      "choices": ["washes", "wash", "washs", "washing"],
+      "question": "「兄は皿を洗います」\nMy brother (      ) the dishes.",
+      "choices": ["washes", "wash", "washing", "washed"],
       "answer": "washes",
-      "explanation": "Washはshで終わるのでesをつけます。"
+      "explanation": "Washはshで終わるのでesをつけてwashesにします。\n【🇺🇸 Cultural Note】\n子供がお小遣い（Allowance）をもらうために、皿洗いや芝刈りなどの家事（Chores）を手伝うのは一般的です。"
     },
     {
       "type": "sort",
-      "question": "「彼のお父さんは先生をしています。」となるように並び替えてください。",
-      "choices": ["father", "teacher", "His", "is", "a"],
-      "answer": "Hisfatherisateacher",
-      "explanation": "His father is a teacher. be動詞の三人称単数（is）の復習です。"
+      "question": "「太陽は東から昇ります。」となるように並び替えてください。",
+      "choices": ["rises", "sun", "The", "east", "in", "the"],
+      "answer": "Thesunrisesintheeast",
+      "explanation": "The sun（三人称単数）なのでrisesを使います。\n【🇺🇸 Cultural Note】\nフロリダ州などの東海岸では、大西洋から昇る美しい日の出（Sunrise）が見られます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「はい、彼はします（主語：he）」\nYes, he (      ).",
-      "choices": [],
-      "answer": "does",
-      "explanation": "Does he...? と聞かれたら、Yes, he does. と答えます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「このバスは新宿へ行きます」\nThis bus (      ) to Shinjuku.",
-      "choices": ["goes", "go", "gos", "going"],
-      "answer": "goes",
-      "explanation": "This busは単数なのでgoesです。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたの犬は何を食べますか？」となるように並び替えてください。",
-      "choices": ["eat", "dog", "does", "your", "What"],
-      "answer": "Whatdoesyourdogeat",
-      "explanation": "What does your dog eat? 疑問詞What + Does + 主語 + 動詞の原形です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「メアリーはテニスをします」\nMary (      ) tennis.",
-      "choices": [],
-      "answer": "plays",
-      "explanation": "Playは「母音+y」なのでそのままsをつけます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼はそれを欲しがっている」\nHe (      ) it.",
-      "choices": ["wants", "want", "wantes", "wanting"],
-      "answer": "wants",
-      "explanation": "Wantにsをつけます。"
-    },
-    {
-      "type": "sort",
-      "question": "「私の妹は皿を洗います。」となるように並び替えてください。",
-      "choices": ["dishes", "sister", "washes", "My", "the"],
-      "answer": "Mysisterswashesthedishes",
-      "explanation": "My sister washes the dishes. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女はどこに住んでいますか？」\nWhere (      ) she live?",
-      "choices": [],
-      "answer": "does",
-      "explanation": "Where does she live? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私の友人は大阪に住んでいます」\nMy friend (      ) in Osaka.",
-      "choices": ["lives", "live", "livees", "living"],
-      "answer": "lives",
-      "explanation": "My friend（一人）は単数なのでlivesです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼は毎日学校へ歩いていきます。」となるように並び替えてください。",
-      "choices": ["walks", "school", "to", "every", "He", "day"],
-      "answer": "Hewalkstoschooleveryday",
-      "explanation": "He walks to school every day. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼は英語を教えます」\nHe (      ) English.",
+      "question": "「彼女は英語を教えます」\nShe (      ) English.",
       "choices": [],
       "answer": "teaches",
-      "explanation": "Teachはchで終わるのでesをつけます。"
+      "explanation": "Teachはchで終わるのでesをつけてteachesにします。\n【🇺🇸 Cultural Note】\nアメリカには英語を母国語としない移民の子供たちが多いため、ESL（English as a Second Language）の教師が多く活躍しています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「鳥は空を飛ぶ」\nA bird (      ) in the sky.",
-      "choices": ["flies", "flys", "fly", "flyes"],
-      "answer": "flies",
-      "explanation": "Flyは「子音+y」なので、yをiに変えてesをつけます。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女は昼食を食べません。」となるように並び替えてください。",
-      "choices": ["doesn't", "eat", "She", "lunch"],
-      "answer": "Shedoesn'teatlunch",
-      "explanation": "She doesn't eat lunch. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は彼を知っていますか？」\n(      ) she know him?",
-      "choices": [],
-      "answer": "Does",
-      "explanation": "Does she know him? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼は歌を歌います」\nHe (      ) a song.",
-      "choices": ["sings", "sing", "singes", "song"],
-      "answer": "sings",
-      "explanation": "Singにsをつけます。"
-    },
-    {
-      "type": "sort",
-      "question": "「私の猫はミルクを飲みます。」となるように並び替えてください。",
-      "choices": ["drinks", "cat", "My", "milk"],
-      "answer": "Mycatdrinksmilk",
-      "explanation": "My cat drinks milk. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼はとても一生懸命働きます」\nHe (      ) very hard.",
-      "choices": [],
-      "answer": "works",
-      "explanation": "Workにsをつけます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は歯を磨きます」\nShe (      ) her teeth.",
-      "choices": ["brushes", "brush", "brushs", "brash"],
-      "answer": "brushes",
-      "explanation": "Brushはshで終わるのでesをつけます。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼はいつここに来ますか？」となるように並び替えてください。",
-      "choices": ["does", "come", "When", "here", "he"],
-      "answer": "Whendoeshecomehere",
-      "explanation": "When does he come here? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「いいえ、しません（主語：she）」\nNo, she (      ).",
-      "choices": [],
-      "answer": "doesn't",
-      "explanation": "No, she doesn't. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は本を読みます」\nShe (      ) a book.",
-      "choices": ["reads", "read", "reades", "reading"],
-      "answer": "reads",
-      "explanation": "Readにsをつけます。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたの弟はサッカーをしますか？」となるように並び替えてください。",
-      "choices": ["play", "brother", "Does", "your", "soccer"],
-      "answer": "Doesyourbrotherplaysoccer",
-      "explanation": "Does your brother play soccer? です。Doesを使うのでplayは原形です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「ジョンは中国語を話せません」\nJohn (      ) speak Chinese.",
-      "choices": [],
-      "answer": "doesn't",
-      "explanation": "John doesn't speak Chinese. です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私の父は釣りに行きます」\nMy father (      ) fishing.",
-      "choices": ["goes", "go", "gos", "going"],
-      "answer": "goes",
-      "explanation": "Go fishing（釣りに行く）の三人称単数形です。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女は毎日ピアノを練習します。」となるように並び替えてください。",
-      "choices": ["practices", "She", "piano", "the", "every", "day"],
-      "answer": "Shepracticesthepianoeveryday",
-      "explanation": "She practices the piano every day. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼は何を買いますか？」\nWhat (      ) he buy?",
-      "choices": [],
-      "answer": "does",
-      "explanation": "What does he buy? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私の母は私を愛しています」\nMy mother (      ) me.",
-      "choices": ["loves", "love", "loveses", "loving"],
-      "answer": "loves",
-      "explanation": "Loveにsをつけます。"
-    },
-    {
-      "type": "sort",
-      "question": "「その電車は10時に出発します。」となるように並び替えてください。",
-      "choices": ["leaves", "train", "ten", "at", "The"],
-      "answer": "Thetrainleavesatten",
-      "explanation": "The train leaves at ten. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女はコーヒーを飲みます」\nShe (      ) coffee.",
-      "choices": [],
-      "answer": "drinks",
-      "explanation": "Drinkにsをつけます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「ケンは公園で走ります」\nKen (      ) in the park.",
-      "choices": ["runs", "run", "runes", "running"],
-      "answer": "runs",
-      "explanation": "Runにsをつけます。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼は毎日お風呂に入ります。」となるように並び替えてください。",
-      "choices": ["bath", "He", "takes", "a", "day", "every"],
-      "answer": "Hetakesabatheveryday",
-      "explanation": "He takes a bath every day. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「それはここで止まりますか？」\n(      ) it stop here?",
-      "choices": [],
-      "answer": "Does",
-      "explanation": "Does it stop here? です。Itが主語なのでDoesを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は泳ぐのが好きです」\nShe (      ) swimming.",
-      "choices": ["likes", "like", "liking", "likse"],
-      "answer": "likes",
-      "explanation": "Likeにsをつけます。"
-    },
-    {
-      "type": "sort",
-      "question": "「私の妹はいつも笑っています。」となるように並び替えてください。",
-      "choices": ["always", "smiles", "My", "sister"],
-      "answer": "Mysisternalwayssmiles",
-      "explanation": "My sister always smiles. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼はどうやって学校へ行きますか？」\nHow (      ) he go to school?",
-      "choices": [],
-      "answer": "does",
-      "explanation": "How does he go to school? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「雨が降る（天気のit）」\nIt (      ).",
-      "choices": ["rains", "rain", "raines", "raining"],
-      "answer": "rains",
-      "explanation": "Itが主語の時、動詞rainにはsがつきます。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼は日曜日にテニスをします。」となるように並び替えてください。",
-      "choices": ["on", "tennis", "He", "Sundays", "plays"],
-      "answer": "HeplaystennisonSundays",
-      "explanation": "He plays tennis on Sundays. 毎週日曜日に、という意味でSundaysと複数形にします。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は上手に踊ります」\nShe (      ) well.",
-      "choices": [],
-      "answer": "dances",
-      "explanation": "Danceにsをつけます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼は自転車に乗ります」\nHe (      ) a bike.",
-      "choices": ["rides", "ride", "ridees", "riding"],
-      "answer": "rides",
-      "explanation": "Rideにsをつけます。"
-    },
-    {
-      "type": "sort",
-      "question": "「誰がこの家に住んでいますか？」となるように並び替えてください。",
-      "choices": ["house", "lives", "Who", "this", "in"],
-      "answer": "Wholivesinthishouse",
-      "explanation": "Who lives in this house? Whoが主語の時は三人称単数扱いなのでlivesになります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼はたくさんの本を持っています」\nHe (      ) many books.",
-      "choices": [],
+      "question": "「ジョンは車を持っています」\nJohn (      ) a car.",
+      "choices": ["has", "have", "having", "had"],
       "answer": "has",
-      "explanation": "Haveの三単現はhasです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は朝食を作りません」\nShe (      ) make breakfast.",
-      "choices": ["doesn't", "don't", "isn't", "not"],
-      "answer": "doesn't",
-      "explanation": "She doesn't make breakfast. です。"
+      "explanation": "John（三人称単数）なのでHaveの変則形hasを使います。\n【🇺🇸 Cultural Note】\nアメリカの高校生の多くは、16歳になると自分の車を持つことを夢見ます。"
     },
     {
       "type": "sort",
-      "question": "「私の父は私のことをよく知っています。」となるように並び替えてください。",
-      "choices": ["knows", "well", "me", "father", "My"],
-      "answer": "Myfatherknowsmewell",
-      "explanation": "My father knows me well. です。"
+      "question": "「そのバスはここで止まります。」となるように並び替えてください。",
+      "choices": ["stops", "bus", "The", "here"],
+      "answer": "Thebusstopshere",
+      "explanation": "The bus（三人称単数）なのでstopsを使います。\n【🇺🇸 Cultural Note】\nアメリカの都市バス（City bus）は、正確な時刻に来ないことも多いです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「それはよく見えます」\nIt (      ) good.",
+      "question": "「彼はピザが好きです」\nHe (      ) pizza.",
       "choices": [],
-      "answer": "looks",
-      "explanation": "Look（～に見える）にsをつけます。It looks good."
+      "answer": "likes",
+      "explanation": "He（三人称単数）なのでlikesを使います。\n【🇺🇸 Cultural Note】\nアメリカでは、10月が「全米ピザ月間（National Pizza Month）」に指定されています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼は10時に寝ます」\nHe (      ) to bed at ten.",
-      "choices": ["goes", "go", "gos", "going"],
-      "answer": "goes",
-      "explanation": "Goes to bedです。"
+      "question": "「私の猫は一日中寝ます」\nMy cat (      ) all day.",
+      "choices": ["sleeps", "sleep", "sleeping", "slept"],
+      "answer": "sleeps",
+      "explanation": "My cat（三人称単数）なのでsleepsを使います。\n【🇺🇸 Cultural Note】\nアメリカで最も人気のある猫種の一つはメインクーン（Maine Coon）で、体が大きいのが特徴です。"
     },
     {
       "type": "sort",
-      "question": "「彼女は数学を勉強しますか？」となるように並び替えてください。",
-      "choices": ["Does", "math", "she", "study"],
-      "answer": "Doesshestudymath",
-      "explanation": "Does she study math? です。"
+      "question": "「メアリーはフットボールを見ます。」となるように並び替えてください。",
+      "choices": ["football", "Mary", "watches"],
+      "answer": "Marywatchesfootball",
+      "explanation": "Mary（三人称単数）なのでWatchにesをつけてwatchesにします。\n【🇺🇸 Cultural Note】\n日曜日に家族や友人とNFL（アメフト）を観戦するのは、多くのアメリカ人にとっての週末の儀式です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼はそれを必要としています」\nHe (      ) it.",
+      "question": "「大統領はワシントンD.C.に住んでいます」\nThe President (      ) in Washington D.C.",
+      "choices": [],
+      "answer": "lives",
+      "explanation": "The President（三人称単数）なのでlivesを使います。\n【🇺🇸 Cultural Note】\n大統領が住むホワイトハウスには、132の部屋と35のバスルームがあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その鳥は空を飛びます」\nThe bird (      ) in the sky.",
+      "choices": ["flies", "fly", "flying", "flew"],
+      "answer": "flies",
+      "explanation": "The bird（三人称単数）なので、Flyのyをiに変えてesをつけ、fliesにします。\n【🇺🇸 Cultural Note】\nアメリカの国鳥であるハクトウワシ（Bald Eagle）は、力強さと自由の象徴です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は毎日コーヒーを飲みます。」となるように並び替えてください。",
+      "choices": ["drinks", "She", "coffee", "day", "every"],
+      "answer": "Shedrinkscoffeeeveryday",
+      "explanation": "She（三人称単数）なのでdrinksを使います。\n【🇺🇸 Cultural Note】\nスターバックス（Starbucks）はシアトルで創業し、アメリカのコーヒー文化を一変させました。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ケンは上手に泳ぎます」\nKen (      ) well.",
+      "choices": [],
+      "answer": "swims",
+      "explanation": "Ken（三人称単数）なのでswimsを使います。\n【🇺🇸 Cultural Note】\nマイケル・フェルプスはアメリカの競泳選手で、オリンピック史上最多のメダルを獲得しました。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女はドーナツを欲しがっています」\nShe (      ) a donut.",
+      "choices": ["wants", "want", "wanting", "wanted"],
+      "answer": "wants",
+      "explanation": "She（三人称単数）なのでwantsを使います。\n【🇺🇸 Cultural Note】\n\"National Donut Day\"（ドーナツの日）は、第一次世界大戦中に兵士にドーナツを配った女性たちを記念して制定されました。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の父は私の宿題を手伝ってくれます。」となるように並び替えてください。",
+      "choices": ["homework", "me", "father", "helps", "My", "with", "my"],
+      "answer": "Myfatherhelpsmewithmyhomework",
+      "explanation": "My father（三人称単数）なのでhelpsを使います。\n【🇺🇸 Cultural Note】\nアメリカの学校では、保護者が学校行事や宿題のサポートに深く関わることが期待されます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その博物館は5時に閉まります」\nThe museum (      ) at 5.",
+      "choices": [],
+      "answer": "closes",
+      "explanation": "The museum（三人称単数）なのでclosesを使います。\n【🇺🇸 Cultural Note】\n博物館の閉館時間は早いですが、特定の曜日だけ夜間開館していることもあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はスペイン語を話します」\nHe (      ) Spanish.",
+      "choices": ["speaks", "speak", "speaking", "speaker"],
+      "answer": "speaks",
+      "explanation": "He（三人称単数）なのでspeaksを使います。\n【🇺🇸 Cultural Note】\nアメリカにはヒスパニック系人口が多く、スペイン語は英語に次ぐ第二の言語として広く使われています。"
+    },
+    {
+      "type": "sort",
+      "question": "「その授業は9時に始まります。」となるように並び替えてください。",
+      "choices": ["starts", "class", "The", "at", "9"],
+      "answer": "Theclassstartsat9",
+      "explanation": "The class（三人称単数）なのでstartsを使います。\n【🇺🇸 Cultural Note】\n大学の授業（Class）は、講義形式（Lecture）だけでなく、少人数のディスカッション形式も多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は毎日髪を洗います」\nShe (      ) her hair every day.",
+      "choices": [],
+      "answer": "washes",
+      "explanation": "Washはshで終わるのでesをつけてwashesにします。\n【🇺🇸 Cultural Note】\nアメリカのシャンプーボトルは日本よりもサイズが大きい傾向があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ジムはスニーカーを履いています（身につけます）」\nJim (      ) sneakers.",
+      "choices": ["wears", "wear", "wearing", "weared"],
+      "answer": "wears",
+      "explanation": "Jim（三人称単数）なのでwearsを使います。\n【🇺🇸 Cultural Note】\nコンバースのオールスターやナイキのエアジョーダンは、アメリカ生まれの象徴的なスニーカーです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の妹はよく泣きます。」となるように並び替えてください。",
+      "choices": ["cries", "sister", "My", "often"],
+      "answer": "Mysisteroftencries",
+      "explanation": "Cry（泣く）はyをiに変えてesをつけ、criesにします。\n【🇺🇸 Cultural Note】\n\"Crybaby\"（泣き虫）という言葉があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はタクシーを運転します」\nHe (      ) a taxi.",
+      "choices": [],
+      "answer": "drives",
+      "explanation": "He（三人称単数）なのでdrivesを使います。\n【🇺🇸 Cultural Note】\nニューヨークの黄色いタクシーは「イエローキャブ」と呼ばれます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「リサはヨガをします」\nLisa (      ) yoga.",
+      "choices": ["does", "do", "doing", "did"],
+      "answer": "does",
+      "explanation": "Lisa（三人称単数）なのでDoにesをつけてdoesにします。\n【🇺🇸 Cultural Note】\nヨガパンツ（レギンス）を普段着として街中で履く「アスレジャー」スタイルはアメリカで生まれました。"
+    },
+    {
+      "type": "sort",
+      "question": "「その機械はよく動きます（作動します）。」となるように並び替えてください。",
+      "choices": ["well", "works", "machine", "The"],
+      "answer": "Themachineworkswell",
+      "explanation": "The machine（三人称単数）なのでworksを使います。\n【🇺🇸 Cultural Note】\nアメリカの家電製品（洗濯機や冷蔵庫）は日本製品に比べてサイズが非常に大きいです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は新しい電話を必要としています」\nHe (      ) a new phone.",
       "choices": [],
       "answer": "needs",
-      "explanation": "Needにsをつけます。"
+      "explanation": "He（三人称単数）なのでneedsを使います。\n【🇺🇸 Cultural Note】\nアメリカではAppleのiPhoneのシェアが非常に高いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私の兄は早く帰ってきます」\nMy brother (      ) home early.",
+      "question": "「私の友人はテキサスから来ました（出身です）」\nMy friend (      ) from Texas.",
       "choices": ["comes", "come", "coming", "came"],
       "answer": "comes",
-      "explanation": "Comeにsをつけます。"
+      "explanation": "My friend（三人称単数）なのでcomesを使います。\n【🇺🇸 Cultural Note】\nテキサス州は独自の電力網を持つなど、独立心が強い州です。"
     },
     {
       "type": "sort",
-      "question": "「この店は10時に閉まります。」となるように並び替えてください。",
-      "choices": ["closes", "shop", "at", "ten", "This"],
-      "answer": "Thisshopclosesatten",
-      "explanation": "This shop closes at ten. です。"
+      "question": "「アンは図書館で勉強します。」となるように並び替えてください。",
+      "choices": ["studies", "Ann", "library", "the", "in"],
+      "answer": "Annstudiesinthelibrary",
+      "explanation": "Ann（三人称単数）なのでStudy→studiesです。\n【🇺🇸 Cultural Note】\nアメリカの公立図書館の多くは、誰でも無料で利用できるコミュニティスペースとして機能しています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼は一生懸命試みます（努力します）」\nHe (      ) hard.",
+      "question": "「彼はいつも朝食を食べます」\nHe always (      ) breakfast.",
       "choices": [],
-      "answer": "tries",
-      "explanation": "Tryは「子音+y」なのでtriesになります。"
+      "answer": "eats",
+      "explanation": "He（三人称単数）なのでeatsを使います。\n【🇺🇸 Cultural Note】\nシリアル（Cereal）はアメリカの朝食の定番で、スーパーには壁一面のシリアルコーナーがあります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼女は手紙を書きます」\nShe (      ) a letter.",
-      "choices": ["writes", "write", "writees", "wrote"],
-      "answer": "writes",
-      "explanation": "Writeにsをつけます。"
+      "question": "「雪がたくさん降ります」\nIt (      ) a lot.",
+      "choices": ["snows", "snow", "snowing", "snowed"],
+      "answer": "snows",
+      "explanation": "It（三人称単数・天候）なのでsnowsを使います。\n【🇺🇸 Cultural Note】\nミネソタ州やアラスカ州などの北部では、冬に大量の雪が降ります。"
     },
     {
       "type": "sort",
-      "question": "「私の母は音楽を愛しています。」となるように並び替えてください。",
-      "choices": ["loves", "music", "mother", "My"],
-      "answer": "Mymotherlovesmusic",
-      "explanation": "My mother loves music. です。"
+      "question": "「私の兄はギターを持っています。」となるように並び替えてください。",
+      "choices": ["guitar", "has", "brother", "My", "a"],
+      "answer": "Mybrotherhasaguitar",
+      "explanation": "My brother（三人称単数）なのでhasを使います。\n【🇺🇸 Cultural Note】\nギブソン（Gibson）やフェンダー（Fender）はアメリカを代表するギターメーカーです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼はドアを開けます」\nHe (      ) the door.",
+      "question": "「彼女は夕食を作ります」\nShe (      ) dinner.",
       "choices": [],
-      "answer": "opens",
-      "explanation": "Openにsをつけます。"
+      "answer": "cooks",
+      "explanation": "She（三人称単数）なのでcooksを使います。\n【🇺🇸 Cultural Note】\nアメリカの家庭料理では、オーブンを使ったロースト料理やキャセロールがよく作られます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「その授業は8時に始まります」\nThe class (      ) at eight.",
-      "choices": ["starts", "start", "starting", "startes"],
-      "answer": "starts",
-      "explanation": "The class（単数）なのでstartsです。"
+      "question": "「ボブは毎朝走ります」\nBob (      ) every morning.",
+      "choices": ["runs", "run", "running", "ran"],
+      "answer": "runs",
+      "explanation": "Bob（三人称単数）なのでrunsを使います。\n【🇺🇸 Cultural Note】\nジョギング発祥の地アメリカでは、朝の公園や通りを走るランナーを多く見かけます。"
     },
     {
       "type": "sort",
-      "question": "「彼はどこで働いていますか？」となるように並び替えてください。",
-      "choices": ["work", "Where", "he", "does"],
-      "answer": "Wheredoeshework",
-      "explanation": "Where does he work? です。"
+      "question": "「その電車は速く行きます（走ります）。」となるように並び替えてください。",
+      "choices": ["train", "fast", "goes", "The"],
+      "answer": "Thetraingoesfast",
+      "explanation": "The train（三人称単数）なのでGo→goesを使います。\n【🇺🇸 Cultural Note】\nアムトラック（Amtrak）は全米を結ぶ鉄道旅客公社です。アセラ・エクスプレスは北東回廊を走る高速列車です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女はたくさんお金を使います」\nShe (      ) a lot of money.",
+      "question": "「彼はサンフランシスコを知っています」\nHe (      ) San Francisco.",
       "choices": [],
-      "answer": "spends",
-      "explanation": "Spend（使う）にsをつけます。"
+      "answer": "knows",
+      "explanation": "He（三人称単数）なのでknowsを使います。\n【🇺🇸 Cultural Note】\nサンフランシスコは坂道とケーブルカー、そして霧（Fog）で有名な都市です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼は写真を取ります」\nHe (      ) pictures.",
-      "choices": ["takes", "take", "takees", "taking"],
-      "answer": "takes",
-      "explanation": "Takeにsをつけます。"
+      "question": "「私の猫はミルクを飲みます」\nMy cat (      ) milk.",
+      "choices": ["drinks", "drink", "drinking", "drank"],
+      "answer": "drinks",
+      "explanation": "My cat（三人称単数）なのでdrinksを使います。\n【🇺🇸 Cultural Note】\nアメリカの牛乳はガロン単位（約3.8リットル）の巨大なボトルで売られています。"
     },
     {
       "type": "sort",
-      "question": "「彼は私の言うことを聞きません。」となるように並び替えてください。",
-      "choices": ["listen", "doesn't", "to", "He", "me"],
-      "answer": "Hedoesn'tlistentome",
-      "explanation": "He doesn't listen to me. です。"
+      "question": "「彼女はテニスをします。」となるように並び替えてください。",
+      "choices": ["tennis", "She", "plays"],
+      "answer": "Sheplaystennis",
+      "explanation": "She（三人称単数）なのでplaysを使います。\n【🇺🇸 Cultural Note】\nウィリアムズ姉妹（ビーナス＆セリーナ）はアメリカのテニス界が生んだスーパースターです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は箱を運びます」\nShe (      ) a box.",
+      "question": "「その映画は8時に終わります」\nThe movie (      ) at 8.",
       "choices": [],
-      "answer": "carries",
-      "explanation": "Carryは「子音+y」なのでcarriesになります。"
+      "answer": "ends",
+      "explanation": "The movie（三人称単数）なのでendsを使います。\n【🇺🇸 Cultural Note】\nハリウッド映画のエンドロールは非常に長く、多くのスタッフが関わっていることがわかります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私の父は車を洗います」\nMy father (      ) the car.",
-      "choices": ["washes", "wash", "washs", "washing"],
-      "answer": "washes",
-      "explanation": "Washはshで終わるのでesをつけます。"
+      "question": "「ジョージは眼鏡をかけています」\nGeorge (      ) glasses.",
+      "choices": ["wears", "wear", "wearing", "weared"],
+      "answer": "wears",
+      "explanation": "George（三人称単数）なのでwearsを使います。\n【🇺🇸 Cultural Note】\nジョージ・ワシントンやテディ・ルーズベルトなど、眼鏡をかけた大統領は歴史上多く存在します。"
     },
     {
       "type": "sort",
-      "question": "「彼はコンピュータを使いますか？」となるように並び替えてください。",
-      "choices": ["computer", "a", "Does", "use", "he"],
-      "answer": "Doesheuseacomputer",
-      "explanation": "Does he use a computer? です。"
+      "question": "「彼はとても一生懸命努力します。」となるように並び替えてください。",
+      "choices": ["hard", "He", "tries", "very"],
+      "answer": "Hetriesveryhard",
+      "explanation": "Try（努力する）はyをiに変えてesをつけ、triesにします。\n【🇺🇸 Cultural Note】\nアメリカ文化では、結果だけでなく、挑戦する姿勢（Giving it a try）も評価されます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は歌うのが上手です（彼女は上手に歌います）」\nShe (      ) well.",
+      "question": "「その箱は重そうです（重く見えます）」\nThe box (      ) heavy.",
+      "choices": [],
+      "answer": "looks",
+      "explanation": "The box（三人称単数）なのでlooksを使います。\n【🇺🇸 Cultural Note】\nFedExやUPSなどの配送業者は、毎日大量の箱（Packages）を全米中に届けています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は私を愛しています」\nShe (      ) me.",
+      "choices": ["loves", "love", "loving", "loved"],
+      "answer": "loves",
+      "explanation": "She（三人称単数）なのでlovesを使います。\n【🇺🇸 Cultural Note】\nバレンタインデー（Valentine's Day）には、男性から女性へだけでなく、子供たちが学校でカードやお菓子を交換し合います。"
+    },
+    {
+      "type": "sort",
+      "question": "「トムは彼の車を洗います。」となるように並び替えてください。",
+      "choices": ["washes", "Tom", "car", "his"],
+      "answer": "Tomwasheshiscar",
+      "explanation": "Tom（三人称単数）なのでWashにesをつけてwashesにします。\n【🇺🇸 Cultural Note】\n自動洗車機（Car wash）も一般的ですが、週末に自宅で洗車を楽しむ人も多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私の父は釣りに行きます」\nMy father (      ) fishing.",
+      "choices": [],
+      "answer": "goes",
+      "explanation": "My father（三人称単数）なのでGoにesをつけてgoesにします。\n【🇺🇸 Cultural Note】\nバス釣り（Bass fishing）はアメリカで非常に人気のあるレジャースポーツです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その鳥は歌います」\nThe bird (      ).",
+      "choices": ["sings", "sing", "singing", "sang"],
+      "answer": "sings",
+      "explanation": "The bird（三人称単数）なのでsingsを使います。\n【🇺🇸 Cultural Note】\nモッキングバード（マネシツグミ）は多くの州の州鳥に指定されており、他の鳥の鳴き声を真似て歌うことで知られます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はたくさん本を読みます。」となるように並び替えてください。",
+      "choices": ["He", "reads", "books", "a", "lot", "of"],
+      "answer": "Hereadsalotofbooks",
+      "explanation": "He（三人称単数）なのでreadsを使います。\n【🇺🇸 Cultural Note】\nビル・ゲイツやオバマ元大統領など、読書家として知られる著名人は多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はクッキーを買います」\nShe (      ) cookies.",
+      "choices": [],
+      "answer": "buys",
+      "explanation": "She（三人称単数）なのでbuysを使います。\n【🇺🇸 Cultural Note】\nガールスカウト（Girl Scouts）の子供たちが、活動資金のためにクッキーを販売して回るのはアメリカの春の風物詩です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の先生は私たちを助けてくれます」\nMy teacher (      ) us.",
+      "choices": ["helps", "help", "helping", "helped"],
+      "answer": "helps",
+      "explanation": "My teacher（三人称単数）なのでhelpsを使います。\n【🇺🇸 Cultural Note】\nアメリカの先生は\"Office hours\"を設けており、その時間は生徒が自由に質問や相談に行けます。"
+    },
+    {
+      "type": "sort",
+      "question": "「その犬はボールをキャッチします。」となるように並び替えてください。",
+      "choices": ["catches", "dog", "ball", "The", "the"],
+      "answer": "Thedogcatchestheball",
+      "explanation": "The dog（三人称単数）なのでCatchにesをつけてcatchesにします。\n【🇺🇸 Cultural Note】\nアメリカンフットボールの試合でも、華麗なキャッチ（Catch）は観客を沸かせます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は早く起きます」\nHe (      ) up early.",
+      "choices": [],
+      "answer": "gets",
+      "explanation": "He（三人称単数）なのでgetsを使います。\n【🇺🇸 Cultural Note】\nアメリカのビジネスエリートには、朝4時や5時に起きて活動する「朝型人間」が多いと言われています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「メアリーは泳ぎます」\nMary (      ).",
+      "choices": ["swims", "swim", "swimming", "swam"],
+      "answer": "swims",
+      "explanation": "Mary（三人称単数）なのでswimsを使います。\n【🇺🇸 Cultural Note】\n夏には多くの子供たちがサマーキャンプに参加し、湖やプールで泳ぎます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はダンスを習っています（授業を受けています）。」となるように並び替えてください。",
+      "choices": ["lessons", "dance", "takes", "She"],
+      "answer": "Shetakesdancelessons",
+      "explanation": "She（三人称単数）なのでtakesを使います。\n【🇺🇸 Cultural Note】\nプロム（Prom）などのダンスパーティーに向けて、ダンスを練習する生徒もいます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その会社は車を作っています」\nThe company (      ) cars.",
+      "choices": [],
+      "answer": "makes",
+      "explanation": "The company（三人称単数）なのでmakesを使います。\n【🇺🇸 Cultural Note】\nデトロイトはアメリカ自動車産業（Auto industry）の中心地として発展しました。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は自分の部屋を掃除します」\nHe (      ) his room.",
+      "choices": ["cleans", "clean", "cleaning", "cleaned"],
+      "answer": "cleans",
+      "explanation": "He（三人称単数）なのでcleansを使います。\n【🇺🇸 Cultural Note】\n\"Spring cleaning\"（春の大掃除）は、冬の間に溜まったほこりを払うアメリカの習慣です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の母は私を愛しています。」となるように並び替えてください。",
+      "choices": ["loves", "me", "mother", "My"],
+      "answer": "Mymotherlovesme",
+      "explanation": "My mother（三人称単数）なのでlovesを使います。\n【🇺🇸 Cultural Note】\nアメリカでは家族間で\"I love you\"と言葉にして伝え合うことが非常に大切にされています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「それは良いにおいがします」\nIt (      ) good.",
+      "choices": [],
+      "answer": "smells",
+      "explanation": "It（三人称単数）なのでsmellsを使います。\n【🇺🇸 Cultural Note】\n焼きたてのアップルパイの香りは、アメリカの家庭的な暖かさを象徴する香りです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ジェーンは毎日走ります」\nJane (      ) every day.",
+      "choices": ["runs", "run", "running", "ran"],
+      "answer": "runs",
+      "explanation": "Jane（三人称単数）なのでrunsを使います。\n【🇺🇸 Cultural Note】\nボストンマラソンやニューヨークシティマラソンは、世界中からランナーが集まる有名な大会です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はオレンジジュースを飲みます。」となるように並び替えてください。",
+      "choices": ["drinks", "juice", "orange", "He"],
+      "answer": "Hedrinksorangejuice",
+      "explanation": "He（三人称単数）なのでdrinksを使います。\n【🇺🇸 Cultural Note】\nフロリダ州はオレンジの産地として有名で、朝食にオレンジジュースは欠かせません。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私の友達は歌を歌います」\nMy friend (      ) songs.",
       "choices": [],
       "answer": "sings",
-      "explanation": "Singにsをつけます。"
+      "explanation": "My friend（三人称単数）なのでsingsを使います。\n【🇺🇸 Cultural Note】\nカラオケ（Karaoke）はアメリカでも人気がありますが、個室ではなく大勢の前で歌うスタイル（Karaoke bar）が一般的です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「お金は木にはならない（育たない）」\nMoney (      ) not grow on trees.",
-      "choices": ["does", "do", "is", "are"],
-      "answer": "does",
-      "explanation": "Money（お金）は単数扱いなので、否定文はdoesn't (does not) を使います。"
+      "question": "「彼女は本を書きます」\nShe (      ) books.",
+      "choices": ["writes", "write", "writing", "wrote"],
+      "answer": "writes",
+      "explanation": "She（三人称単数）なのでwritesを使います。\n【🇺🇸 Cultural Note】\nアメリカには多くの有名な作家（Authors）がおり、ヘミングウェイやスタインベックなどが知られています。"
     },
     {
       "type": "sort",
-      "question": "「彼はいつも早く来ます。」となるように並び替えてください。",
-      "choices": ["comes", "early", "He", "always"],
-      "answer": "Healwayscomesearly",
-      "explanation": "He always comes early. です。"
+      "question": "「その猫は木に登ります。」となるように並び替えてください。",
+      "choices": ["climbs", "tree", "the", "cat", "The"],
+      "answer": "Thecatclimbsthetree",
+      "explanation": "The cat（三人称単数）なのでclimbsを使います。\n【🇺🇸 Cultural Note】\n消防士が木から猫を助ける（Cat stuck in a tree）というのは、昔ながらの典型的な救助シーンです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「父はサッカーをします」\nMy father (      ) soccer.",
+      "choices": [],
+      "answer": "plays",
+      "explanation": "My father（三人称単数）なのでplaysを使います。\n【🇺🇸 Cultural Note】\n子供のサッカーの試合を熱心に応援する母親を\"Soccer Mom\"と呼び、郊外の中流家庭の象徴とされることがあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は私を知っています」\nHe (      ) me.",
+      "choices": ["knows", "know", "knowing", "knew"],
+      "answer": "knows",
+      "explanation": "He（三人称単数）なのでknowsを使います。\n【🇺🇸 Cultural Note】\nビジネスの場ではネットワーキング（人脈作り）が重要視され、\"It's not what you know, it's who you know\"（何を知っているかより誰を知っているかだ）と言われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はコンピュータを使います。」となるように並び替えてください。",
+      "choices": ["uses", "computer", "a", "She"],
+      "answer": "Sheusesacomputer",
+      "explanation": "She（三人称単数）なのでusesを使います。\n【🇺🇸 Cultural Note】\nアメリカの学校では、生徒一人一台のChromebookやiPadが支給されることが一般的になっています。"
     }
   ]
 }

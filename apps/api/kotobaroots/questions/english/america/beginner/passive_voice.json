@@ -1,545 +1,707 @@
 {
-  "learning_topic": "受動態",
+  "learning_topic": "受動態 (Passive Voice)",
+  "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "「この部屋は毎日掃除されます」\nThis room is (      ) every day.",
-      "choices": ["cleaned", "cleans", "clean", "cleaning"],
-      "answer": "cleaned",
-      "explanation": "受動態は「be動詞 + 過去分詞」で作ります。Cleanの過去分詞はcleanedです。"
+      "question": "「この手紙は彼によって書かれました」\nThis letter was (      ) by him.",
+      "choices": ["written", "wrote", "write", "writing"],
+      "answer": "written",
+      "explanation": "write（書く）の過去分詞はwrittenです。受動態は「be動詞＋過去分詞」で作ります。\n【🇺🇸 Cultural Note】\nアメリカの郵便ポストは青色です。手紙を送る（Mail a letter）文化は、Eメール全盛の今でも大切にされています。"
     },
     {
       "type": "sort",
-      "question": "「この手紙は彼によって書かれました。」となるように並び替えてください。",
-      "choices": ["him", "written", "letter", "This", "by", "was"],
-      "answer": "Thisletterwaswrittenbyhim",
-      "explanation": "This letter was written by him. Writeの過去分詞writtenを使います。動作主はbyで表します。"
+      "question": "「英語はアメリカで話されています。」となるように並び替えてください。",
+      "choices": ["spoken", "is", "English", "America", "in"],
+      "answer": "EnglishisspokeninAmerica",
+      "explanation": "is spoken（話されている）。行為者（by peopleなど）が一般的な場合は省略されます。\n【🇺🇸 Cultural Note】\nアメリカには法的な公用語はありませんが、英語が事実上の共通語です。スペイン語も非常に広く使われています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「英語は多くの国で話されています」\nEnglish is (      ) in many countries.",
+      "question": "「この車は父によって洗われました」\nThis car was (      ) by my father.",
       "choices": [],
-      "answer": "spoken",
-      "explanation": "Speakの過去分詞spokenです。「人々によって」は省略されることが多いです。"
+      "answer": "washed",
+      "explanation": "wash（洗う）の過去分詞はwashedです。\n【🇺🇸 Cultural Note】\nアメリカの家には広いドライブウェイ（私道）があり、週末にそこで洗車をするのが父親の典型的な日課の一つです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「このケーキは私の母によって作られました」\nThis cake (      ) made by my mother.",
-      "choices": ["was", "is", "are", "were"],
+      "question": "「アメリカはコロンブスによって発見されました」\nAmerica (      ) discovered by Columbus.",
+      "choices": ["was", "is", "were", "are"],
       "answer": "was",
-      "explanation": "「作られました（過去）」なのでbe動詞の過去形wasを使います。"
+      "explanation": "過去の出来事なのでwasを使います。\n【🇺🇸 Cultural Note】\n1492年にコロンブスが到達しました。現在は「先住民の日（Indigenous Peoples' Day）」として歴史を見直す動きもあります。"
     },
     {
       "type": "sort",
-      "question": "「その窓はトムによって壊されました。」となるように並び替えてください。",
-      "choices": ["window", "broken", "was", "Tom", "The", "by"],
-      "answer": "ThewindowwasbrokenbyTom",
-      "explanation": "The window was broken by Tom. Breakの過去分詞brokenです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼はみんなに愛されています」\nHe is (      ) by everyone.",
-      "choices": [],
-      "answer": "loved",
-      "explanation": "Loveの過去分詞lovedです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「その本は夏目漱石によって書かれましたか？」\n(      ) the book written by Soseki Natsume?",
-      "choices": ["Was", "Is", "Did", "Does"],
-      "answer": "Was",
-      "explanation": "受動態の疑問文はbe動詞を文頭に出します。"
-    },
-    {
-      "type": "sort",
-      "question": "「これらの写真は私の父によって撮られました。」となるように並び替えてください。",
-      "choices": ["photos", "taken", "These", "father", "were", "by", "my"],
-      "answer": "Thesephotosweretakenbymyfather",
-      "explanation": "These photos were taken by my father. Takeの過去分詞takenです。主語が複数なのでwereを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「この机は木でできています」\nThis desk is (      ) of wood.",
-      "choices": [],
-      "answer": "made",
-      "explanation": "be made of...（～（材料）で作られている）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「その店は10時に閉められます」\nThe shop is (      ) at ten.",
-      "choices": ["closed", "close", "closing", "closes"],
-      "answer": "closed",
-      "explanation": "Closeの過去分詞closedです。"
-    },
-    {
-      "type": "sort",
-      "question": "「その歌はたくさんの人々に知られています。」となるように並び替えてください。",
-      "choices": ["known", "song", "people", "to", "is", "The", "many"],
-      "answer": "Thesongisknowntomanypeople",
-      "explanation": "The song is known to many people. be known to...（～に知られている）ではbyではなくtoを使います。"
+      "question": "「その部屋は生徒たちによって掃除されますか？」となるように並び替えてください。",
+      "choices": ["students", "Is", "room", "cleaned", "by", "the", "the"],
+      "answer": "Istheroomcleanedbythestudents",
+      "explanation": "受動態の疑問文はbe動詞を前に出します。\n【🇺🇸 Cultural Note】\nアメリカの学校では、日本のように「掃除の時間」が生徒に義務付けられていることは稀で、専門の清掃員（Janitor）が行います。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「私は1990年に生まれました」\nI (      ) born in 1990.",
       "choices": [],
       "answer": "was",
-      "explanation": "I was born...（生まれた）は受動態の形式をとる定番表現です。"
+      "explanation": "be born（生まれる）は受動態の形式をとります。\n【🇺🇸 Cultural Note】\nアメリカで生まれた子供は、両親の国籍に関わらずアメリカ国籍（市民権）を取得できます（出生地主義）。"
     },
     {
       "type": "multiple_choice",
-      "question": "「この車は日本で作られました」\nThis car was (      ) in Japan.",
-      "choices": ["made", "make", "making", "maked"],
-      "answer": "made",
-      "explanation": "Makeの過去分詞madeです。"
+      "question": "「この写真は彼女によって撮られました」\nThis picture was (      ) by her.",
+      "choices": ["taken", "took", "take", "taking"],
+      "answer": "taken",
+      "explanation": "take（撮る）の過去分詞はtakenです。\n【🇺🇸 Cultural Note】\nアンセル・アダムスは、ヨセミテ国立公園などの壮大な自然を撮影した、アメリカを代表する写真家です。"
     },
     {
       "type": "sort",
-      "question": "「そのコンピューターは毎日使われていますか？」となるように並び替えてください。",
-      "choices": ["used", "day", "computer", "every", "Is", "the"],
-      "answer": "Isthecomputerusedeveryday",
-      "explanation": "Is the computer used every day? です。"
+      "question": "「そのケーキは弟に食べられました。」となるように並び替えてください。",
+      "choices": ["eaten", "was", "cake", "The", "brother", "by", "my"],
+      "answer": "Thecakewaseatenbymybrother",
+      "explanation": "was eaten（食べられた）。\n【🇺🇸 Cultural Note】\nアメリカのバースデーケーキは非常にカラフルで甘く、長方形のシートケーキ（Sheet cake）がパーティーでは一般的です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼はそのニュースに驚きました」\nHe was surprised (      ) the news.",
+      "question": "「この本は多くの人に読まれています」\nThis book is (      ) by many people.",
+      "choices": [],
+      "answer": "read",
+      "explanation": "read（読む）の過去分詞はread（発音はレッド）です。スペルは変わりません。\n【🇺🇸 Cultural Note】\n『ハックルベリー・フィンの冒険』などのマーク・トウェイン作品は、アメリカ文学の古典として広く読まれています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その窓は野球のボールで割られました」\nThe window (      ) broken by a baseball.",
+      "choices": ["was", "is", "were", "are"],
+      "answer": "was",
+      "explanation": "過去の出来事なのでwas brokenです。\n【🇺🇸 Cultural Note】\nアメリカの家の窓ガラスを割ってしまった場合、子供が近所の家の芝刈りなどをして弁償代を稼ぐ、というエピソードがよくあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「ここでは英語が教えられています。」となるように並び替えてください。",
+      "choices": ["English", "here", "taught", "is"],
+      "answer": "Englishistaughthere",
+      "explanation": "teach（教える）の過去分詞はtaughtです。\n【🇺🇸 Cultural Note】\nアメリカは移民国家なので、「ESL（English as a Second Language）」という英語を母語としない人向けのクラスが充実しています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その手紙は昨日送られましたか？」\nWas the letter (      ) yesterday?",
+      "choices": [],
+      "answer": "sent",
+      "explanation": "send（送る）の過去分詞はsentです。\n【🇺🇸 Cultural Note】\nアメリカの郵便局（USPS）の配達車は、運転席が右側（歩道側）にある特殊な車両が多く、降りずにポストに投函できるようになっています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これらのコンピュータはアメリカで作られています」\nThese computers (      ) made in the USA.",
+      "choices": ["are", "is", "was", "were"],
+      "answer": "are",
+      "explanation": "computers（複数）なのでareを使います。\n【🇺🇸 Cultural Note】\nAppleやDell、HPなど、世界的なPCメーカーの多くがアメリカ企業です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はそのパーティーに招待されました。」となるように並び替えてください。",
+      "choices": ["party", "invited", "was", "I", "to", "the"],
+      "answer": "Iwasinvitedtotheparty",
+      "explanation": "invite（招待する）の受動態 was invited です。\n【🇺🇸 Cultural Note】\nパーティーの招待状に \"BYOB\" とあったら \"Bring Your Own Beer/Beverage/Booze\"（飲み物は持参してね）という意味です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その歌はみんなに愛されています」\nThe song is (      ) by everyone.",
+      "choices": [],
+      "answer": "loved",
+      "explanation": "love（愛する）の受動態 is loved です。\n【🇺🇸 Cultural Note】\nカントリー、ジャズ、ロックなど、アメリカ音楽は世界中の人々に愛されています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その部屋は毎日掃除されます」\nThe room (      ) cleaned every day.",
+      "choices": ["is", "was", "are", "were"],
+      "answer": "is",
+      "explanation": "every day（習慣）なので現在形のisを使います。\n【🇺🇸 Cultural Note】\nアメリカの子供たちは、ベッドメイキング（Bed making）を毎朝の日課としてしつけられることが多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「この絵は誰によって描かれましたか？」となるように並び替えてください。",
+      "choices": ["painted", "Who", "picture", "was", "this", "by"],
+      "answer": "Whowasthispicturepaintedby",
+      "explanation": "疑問詞Whoを使った受動態の疑問文です。最後にbyが残ります。\n【🇺🇸 Cultural Note】\nアンディ・ウォーホルは、キャンベルスープ缶などを描いたポップアートの巨匠として有名です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はそのニュースに驚きました」\nI was surprised (      ) the news.",
       "choices": [],
       "answer": "at",
-      "explanation": "be surprised at...（～に驚く）ではbyではなくatを使います。"
+      "explanation": "be surprised at...（～に驚く）。by以外の前置詞を使う受動態の熟語です。\n【🇺🇸 Cultural Note】\nアメリカのニュース番組は24時間放送のケーブルテレビ（CNNやFox Newsなど）が主流で、速報（Breaking News）が頻繁に流れます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「この人形は紙でできています」\nThis doll is made (      ) paper.",
-      "choices": ["of", "from", "by", "in"],
-      "answer": "of",
-      "explanation": "見て材料がわかる場合はbe made ofを使います。"
+      "question": "「彼はみんなに知られています」\nHe is known (      ) everyone.",
+      "choices": ["to", "by", "at", "for"],
+      "answer": "to",
+      "explanation": "be known to...（～に知られている）。byを使わない受動態です。\n【🇺🇸 Cultural Note】\nジョージ・ワシントンは「建国の父」として、アメリカ国民なら誰でも知っている存在です。"
     },
     {
       "type": "sort",
-      "question": "「それらはここでは売られていません。」となるように並び替えてください。",
-      "choices": ["sold", "They", "not", "here", "are"],
-      "answer": "Theyarenotsoldhere",
-      "explanation": "They are not sold here. Sellの過去分詞soldです。"
+      "question": "「その店は閉まっていました。」となるように並び替えてください。",
+      "choices": ["closed", "store", "The", "was"],
+      "answer": "Thestorewasclosed",
+      "explanation": "was closed（閉ざされていた＝閉まっていた）。状態を表す受動態です。\n【🇺🇸 Cultural Note】\nアメリカの祝日（クリスマスや感謝祭）には、スーパーやレストランも含めて多くの店が完全に閉まるのが一般的です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「山は雪で覆われていました」\nThe mountain was covered (      ) snow.",
+      "question": "「朝食は7時から提供されます」\nBreakfast is (      ) from 7 am.",
       "choices": [],
-      "answer": "with",
-      "explanation": "be covered with...（～で覆われている）ではbyではなくwithを使います。"
+      "answer": "served",
+      "explanation": "serve（食事を出す）の過去分詞はservedです。\n【🇺🇸 Cultural Note】\nアメリカの朝食（American Breakfast）といえば、卵料理、ベーコン、トースト、そしてコーヒーがおかわり自由なのが定番です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「この部屋は使われていません」\nThis room is not (      ).",
-      "choices": ["used", "use", "using", "uses"],
-      "answer": "used",
-      "explanation": "Useの過去分詞usedです。"
+      "question": "「その試合は何百万もの人に見られました」\nThe game was (      ) by millions of people.",
+      "choices": ["watched", "watch", "watching", "watches"],
+      "answer": "watched",
+      "explanation": "watch（見る）の過去分詞はwatchedです。\n【🇺🇸 Cultural Note】\nスーパーボウルの視聴者数は1億人を超え、アメリカで最も見られるテレビ番組です。"
     },
     {
       "type": "sort",
-      "question": "「私は彼にパーティーに招待されました。」となるように並び替えてください。",
-      "choices": ["invited", "party", "I", "to", "was", "the", "by", "him"],
-      "answer": "Iwasinvitedtothepartybyhim",
-      "explanation": "I was invited to the party by him. Inviteの過去分詞invitedです。"
+      "question": "「今夜は星が見えます（見られます）。」となるように並び替えてください。",
+      "choices": ["be", "seen", "can", "Stars", "tonight"],
+      "answer": "Starscanbeseentonight",
+      "explanation": "can be seen（見られることができる＝見える）。助動詞canが入る受動態です。\n【🇺🇸 Cultural Note】\nグリフィス天文台（ロサンゼルス）など、都市部でも星空を楽しめるスポットがあります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「バターは牛乳から作られます」\nButter is made (      ) milk.",
+      "question": "「この歌はテイラー・スウィフトによって書かれました」\nThis song was (      ) by Taylor Swift.",
       "choices": [],
-      "answer": "from",
-      "explanation": "be made from...（～（原料）から作られる）。性質が変わって元の材料が見た目でわからない場合はfromを使います。"
+      "answer": "written",
+      "explanation": "writeの過去分詞はwrittenです。\n【🇺🇸 Cultural Note】\nシンガーソングライターが自分の体験をもとに曲を書くスタイルは、カントリーミュージックの伝統でもあります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「オーストラリアでは何語が話されていますか？」\nWhat language is (      ) in Australia?",
-      "choices": ["spoken", "speak", "spoke", "speaking"],
-      "answer": "spoken",
-      "explanation": "Speakの過去分詞spokenです。"
+      "question": "「宿題は今日終わらせなければなりません」\nThe homework must be (      ) today.",
+      "choices": ["finished", "finish", "finishing", "finishes"],
+      "answer": "finished",
+      "explanation": "助動詞mustの後なのでbe動詞は原形、その後に過去分詞finishedが続きます。\n【🇺🇸 Cultural Note】\nアメリカの学校では、提出期限（Deadline）に遅れると、成績が大幅に減点される（または受け取ってもらえない）ことがよくあります。"
     },
     {
       "type": "sort",
-      "question": "「その箱は彼によって開けられました。」となるように並び替えてください。",
-      "choices": ["him", "The", "opened", "was", "by", "box"],
-      "answer": "Theboxwasopenedbyhim",
-      "explanation": "The box was opened by him. Openの過去分詞openedです。"
+      "question": "「その都市は『ビッグアップル』と呼ばれています。」となるように並び替えてください。",
+      "choices": ["called", "The", "is", "Apple", "city", "Big", "The"],
+      "answer": "ThecityiscalledTheBigApple",
+      "explanation": "is called...（～と呼ばれている）。\n【🇺🇸 Cultural Note】\nニューヨーク市の愛称です。かつてジャズミュージシャンたちが「成功の象徴」として使ったのが広まった一因と言われています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は歴史に興味があります」\nI am interested (      ) history.",
+      "question": "「あなたはその映画に興味がありましたか？」\nWere you interested (      ) the movie?",
       "choices": [],
       "answer": "in",
-      "explanation": "be interested in...（～に興味がある）です。"
+      "explanation": "be interested in...（～に興味がある）。by以外の前置詞を使う重要表現です。\n【🇺🇸 Cultural Note】\nハリウッド映画のプレミア上映会では、レッドカーペットを歩くスターに注目が集まります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「この寺は約500年前に建てられました」\nThis temple (      ) built about 500 years ago.",
-      "choices": ["was", "is", "are", "were"],
-      "answer": "was",
-      "explanation": "過去のことなのでwasを使います。Buildの過去分詞builtです。"
+      "question": "「その車は毎日使われていません」\nThe car is (      ) used every day.",
+      "choices": ["not", "no", "don't", "didn't"],
+      "answer": "not",
+      "explanation": "受動態の否定文はbe動詞の後ろにnotを置きます。\n【🇺🇸 Cultural Note】\nニューヨークなどの大都市では、地下鉄やバスが発達しているため、車を持たない（使わない）生活をする人も多いです。"
     },
     {
       "type": "sort",
-      "question": "「その車は兄によって洗われました。」となるように並び替えてください。",
-      "choices": ["washed", "car", "brother", "was", "my", "by", "The"],
-      "answer": "Thecarwaswashedbymybrother",
-      "explanation": "The car was washed by my brother. Washの過去分詞washedです。"
+      "question": "「そのカメラはどこで見つかりましたか？」となるように並び替えてください。",
+      "choices": ["found", "Where", "camera", "the", "was"],
+      "answer": "Wherewasthecamerafound",
+      "explanation": "Where was + 主語 + 過去分詞...? の疑問文です。\n【🇺🇸 Cultural Note】\nアメリカの「遺失物取扱所」は \"Lost and Found\" と呼ばれます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私の犬はポチと呼ばれています」\nMy dog is (      ) Pochi.",
+      "question": "「その家は木で作られています」\nThe house is (      ) of wood.",
       "choices": [],
-      "answer": "called",
-      "explanation": "Callの過去分詞calledです。「～と呼ばれる」という意味になります。"
+      "answer": "made",
+      "explanation": "be made of...（～[材料]で作られている）。見て材料がわかる場合はofを使います。\n【🇺🇸 Cultural Note】\nアメリカの住宅は「2x4（ツーバイフォー）」工法と呼ばれる木造建築が一般的です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「その自転車は彼によって修理されましたか？」\nWas the bike (      ) by him?",
-      "choices": ["repaired", "repair", "repairing", "repairs"],
-      "answer": "repaired",
-      "explanation": "Repairの過去分詞repairedです。"
-    },
-    {
-      "type": "sort",
-      "question": "「この花は英語で何と呼ばれていますか？」となるように並び替えてください。",
-      "choices": ["called", "English", "flower", "is", "in", "What", "this"],
-      "answer": "WhatisthisflowercalledinEnglish",
-      "explanation": "What is this flower called in English? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「その知らせは誰にでも知られています」\nThe news is (      ) to everyone.",
-      "choices": [],
-      "answer": "known",
-      "explanation": "Knowの過去分詞knownです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私たちはそのパーティーに興奮しました」\nWe were (      ) about the party.",
-      "choices": ["excited", "excite", "exciting", "excites"],
-      "answer": "excited",
-      "explanation": "be excited about...（～に興奮する）です。人が主語の場合は過去分詞excitedを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「その絵は盗まれませんでした。」となるように並び替えてください。",
-      "choices": ["stolen", "picture", "wasn't", "The"],
-      "answer": "Thepicturewasn'tstolen",
-      "explanation": "The picture wasn't stolen. Stealの過去分詞stolenです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「地面は落ち葉で覆われていました」\nThe ground was covered (      ) fallen leaves.",
-      "choices": [],
-      "answer": "with",
-      "explanation": "be covered with... です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「この辞書は多くの学生に使われています」\nThis dictionary is (      ) by many students.",
-      "choices": ["used", "using", "use", "uses"],
-      "answer": "used",
-      "explanation": "Useの過去分詞usedです。"
-    },
-    {
-      "type": "sort",
-      "question": "「誰がこのパーティーに招待されましたか？」となるように並び替えてください。",
-      "choices": ["invited", "party", "Who", "to", "this", "was"],
-      "answer": "Whowasinvitedtothisparty",
-      "explanation": "Who was invited to this party? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「その猫は車にひかれました」\nThe cat was run (      ) by a car.",
-      "choices": [],
-      "answer": "over",
-      "explanation": "Run over（ひく）の受動態 be run over（ひかれる）です。Runの過去分詞はrunです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼はその結果に満足しています」\nHe is (      ) with the result.",
-      "choices": ["pleased", "please", "pleasing", "pleases"],
-      "answer": "pleased",
-      "explanation": "be pleased with...（～に満足している/喜んでいる）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「その建物は火事で破壊されました。」となるように並び替えてください。",
-      "choices": ["fire", "destroyed", "building", "The", "was", "by"],
-      "answer": "Thebuildingwasdestroyedbyfire",
-      "explanation": "The building was destroyed by fire. Destroyの過去分詞destroyedです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は有名な歌手として知られています」\nShe is known (      ) a famous singer.",
-      "choices": [],
-      "answer": "as",
-      "explanation": "be known as...（～として知られている）です。be known to（～に知られている）との違いに注意です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「この花は春に見られます」\nThis flower is (      ) in spring.",
-      "choices": ["seen", "see", "saw", "seeing"],
-      "answer": "seen",
-      "explanation": "Seeの過去分詞seenです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は雨に降られました（捕まりました）。」となるように並び替えてください。",
-      "choices": ["caught", "was", "rain", "I", "in", "the"],
-      "answer": "Iwascaughtintherain",
-      "explanation": "I was caught in the rain. Catchの過去分詞caughtです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「アメリカはコロンブスによって発見されました」\nAmerica was (      ) by Columbus.",
-      "choices": [],
-      "answer": "discovered",
-      "explanation": "Discoverの過去分詞discoveredです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「そのグラスはミルクで満たされています」\nThe glass is (      ) with milk.",
-      "choices": ["filled", "full", "filling", "fill"],
-      "answer": "filled",
-      "explanation": "be filled with...（～で満たされている）です。（be full of...も同じ意味ですが、ここでは動詞fillの受動態です）"
-    },
-    {
-      "type": "sort",
-      "question": "「その本は誰によって読まれていますか？」となるように並び替えてください。",
-      "choices": ["book", "by", "read", "is", "Who", "the"],
-      "answer": "Whoisthebookreadby",
-      "explanation": "Who is the book read by? または By whom is the book read? ですが、口語では前者が一般的です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私の財布が盗まれました」\nMy wallet was (      ).",
-      "choices": [],
-      "answer": "stolen",
-      "explanation": "Stealの過去分詞stolenです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は彼と結婚しています」\nShe is (      ) to him.",
-      "choices": ["married", "marry", "marrying", "marries"],
-      "answer": "married",
-      "explanation": "be married to...（～と結婚している）です。Withではなくtoを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「この歌は子供たちに愛されています。」となるように並び替えてください。",
-      "choices": ["loved", "is", "song", "This", "children", "by"],
-      "answer": "Thissongislovedbychildren",
-      "explanation": "This song is loved by children. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「その会議は来週開かれます」\nThe meeting will be (      ) next week.",
-      "choices": [],
-      "answer": "held",
-      "explanation": "Hold（開く、催す）の過去分詞heldです。未来の受動態will be heldです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「その部屋は毎日掃除されていますか？」\n(      ) the room cleaned every day?",
-      "choices": ["Is", "Was", "Does", "Did"],
-      "answer": "Is",
-      "explanation": "「毎日（現在）」のことなのでIsを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「これらの本はあの店で買われました。」となるように並び替えてください。",
-      "choices": ["shop", "bought", "books", "at", "were", "that", "These"],
-      "answer": "Thesebookswereboughtatthatshop",
-      "explanation": "These books were bought at that shop. Buyの過去分詞boughtです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「そのドアには鍵がかけられていました」\nThe door was (      ).",
-      "choices": [],
-      "answer": "locked",
-      "explanation": "Lockの過去分詞lockedです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼はその知らせにショックを受けました」\nHe was (      ) at the news.",
-      "choices": ["shocked", "shock", "shocking", "shocks"],
-      "answer": "shocked",
-      "explanation": "be shocked at... です。"
-    },
-    {
-      "type": "sort",
-      "question": "「フランス語はオーストラリアでは話されていません。」となるように並び替えてください。",
-      "choices": ["spoken", "Australia", "French", "is", "in", "not"],
-      "answer": "FrenchisnotspokeninAustralia",
-      "explanation": "French is not spoken in Australia. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「多くの木が切り倒されました」\nMany trees were cut (      ).",
-      "choices": [],
-      "answer": "down",
-      "explanation": "Cut down（切り倒す）の受動態 be cut down です。Cutの過去分詞はcutです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「この問題はすぐに解決されるでしょう」\nThis problem will (      ) solved soon.",
-      "choices": ["be", "is", "been", "being"],
-      "answer": "be",
-      "explanation": "助動詞willの後ろなので原形のbeを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「その星は肉眼では見えません（見られません）。」となるように並び替えてください。",
-      "choices": ["seen", "be", "star", "can't", "The"],
-      "answer": "Thestarcan'tbeseen",
-      "explanation": "The star can't be seen. 助動詞canを使った受動態です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は昨夜、犬にほえられました」\nI was barked (      ) by a dog last night.",
-      "choices": [],
-      "answer": "at",
-      "explanation": "Bark at...（～にほえる）の受動態 be barked at です。群動詞の受動態では前置詞を残します。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「その壁は白く塗られました」\nThe wall was (      ) white.",
-      "choices": ["painted", "paint", "paints", "painting"],
-      "answer": "painted",
-      "explanation": "Paintの過去分詞paintedです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は先生にほめられました。」となるように並び替えてください。",
-      "choices": ["teacher", "praised", "I", "by", "was", "my"],
-      "answer": "Iwaspraisedbymyteacher",
-      "explanation": "I was praised by my teacher. Praiseの過去分詞praisedです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「その仕事は明日までに終えなければなりません」\nThe work must be (      ) by tomorrow.",
-      "choices": [],
-      "answer": "finished",
-      "explanation": "Must be finished（終えられなければならない）。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は彼に笑われました」\nShe was (      ) at by him.",
-      "choices": ["laughed", "laugh", "laughing", "laughs"],
-      "answer": "laughed",
-      "explanation": "Laugh at（～を笑う）の受動態 be laughed at です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私の名前はリストに含まれていません。」となるように並び替えてください。",
-      "choices": ["included", "list", "name", "the", "My", "isn't", "in"],
-      "answer": "Mynameisn'tincludedinthelist",
-      "explanation": "My name isn't included in the list. Includeの過去分詞includedです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「ブドウはワインを作るのに使われます」\nGrapes are (      ) to make wine.",
-      "choices": [],
-      "answer": "used",
-      "explanation": "be used to...（～するために使われる）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼は事故で亡くなりました（殺されました）」\nHe was (      ) in an accident.",
-      "choices": ["killed", "kill", "killing", "kills"],
-      "answer": "killed",
-      "explanation": "Killの過去分詞killedです。事故で亡くなる場合、英語ではしばしば「殺された」という表現を使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「その手紙は英語で書かれています。」となるように並び替えてください。",
-      "choices": ["written", "letter", "English", "is", "in", "The"],
-      "answer": "TheletteriswritteninEnglish",
-      "explanation": "The letter is written in English. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はそのパーティーに招待されませんでした」\nI wasn't (      ) to the party.",
-      "choices": [],
-      "answer": "invited",
-      "explanation": "Inviteの過去分詞invitedです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「ローマは一日にして成らず（建てられず）」\nRome was not (      ) in a day.",
-      "choices": ["built", "build", "building", "builded"],
-      "answer": "built",
-      "explanation": "Buildの過去分詞builtです。有名なことわざです。"
-    },
-    {
-      "type": "sort",
-      "question": "「なぜ彼は叱られたのですか？」となるように並び替えてください。",
-      "choices": ["scolded", "he", "was", "Why"],
-      "answer": "Whywashescolded",
-      "explanation": "Why was he scolded? Scold（叱る）の過去分詞scoldedです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「その少年は彼のおばさんに育てられました」\nThe boy was brought (      ) by his aunt.",
-      "choices": [],
-      "answer": "up",
-      "explanation": "Bring up（育てる）の受動態 be brought up です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「その本はいつ出版されましたか？」\nWhen was the book (      )?",
-      "choices": ["published", "publish", "publishing", "publishes"],
-      "answer": "published",
-      "explanation": "Publish（出版する）の過去分詞publishedです。"
-    },
-    {
-      "type": "sort",
-      "question": "「この箱は誰によって作られましたか？」となるように並び替えてください。",
-      "choices": ["made", "box", "was", "by", "Who", "this"],
-      "answer": "Whowasthisboxmadeby",
-      "explanation": "Who was this box made by? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「その美術館は月曜日は閉まっています」\nThe museum is (      ) on Mondays.",
-      "choices": [],
-      "answer": "closed",
-      "explanation": "be closed（閉められている＝閉まっている）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼はそのチームのキャプテンに選ばれました」\nHe was (      ) captain of the team.",
-      "choices": ["chosen", "chose", "choosing", "choosed"],
-      "answer": "chosen",
-      "explanation": "Chooseの過去分詞chosenです。"
-    },
-    {
-      "type": "sort",
-      "question": "「その言葉はここでは使われません。」となるように並び替えてください。",
-      "choices": ["used", "word", "is", "That", "not", "here"],
-      "answer": "Thatwordisnotusedhere",
-      "explanation": "That word is not used here. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は彼に話しかけられました」\nI was spoken (      ) by him.",
-      "choices": [],
-      "answer": "to",
-      "explanation": "Speak to（～に話しかける）の受動態 be spoken to です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「その家は白い雪で覆われていました」\nThe house was (      ) with white snow.",
+      "question": "「山頂は雪で覆われています」\nThe top of the mountain is (      ) with snow.",
       "choices": ["covered", "cover", "covering", "covers"],
       "answer": "covered",
-      "explanation": "be covered with... です。"
+      "explanation": "be covered with...（～で覆われている）。byではなくwithを使う受動態の熟語です。\n【🇺🇸 Cultural Note】\nコロラド州のロッキー山脈（Rocky Mountains）は、冬になると深い雪に覆われ、世界有数のスキーリゾートとなります。"
     },
     {
       "type": "sort",
-      "question": "「何がそこで売られていますか？」となるように並び替えてください。",
-      "choices": ["sold", "What", "there", "is"],
-      "answer": "Whatissoldthere",
-      "explanation": "What is sold there? Whatが主語の受動態です。"
+      "question": "「その会議は昨日開かれました。」となるように並び替えてください。",
+      "choices": ["held", "meeting", "The", "yesterday", "was"],
+      "answer": "Themeetingwasheldyesterday",
+      "explanation": "be held（開かれる、開催される）。hold（開催する）の過去分詞heldを使います。\n【🇺🇸 Cultural Note】\nアメリカの地域社会では「タウンホールミーティング（Town Hall Meeting）」と呼ばれる対話集会がよく開かれ、市民が直接政治家に意見を述べます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「バターは牛乳から作られます」\nButter is (      ) from milk.",
+      "choices": [],
+      "answer": "made",
+      "explanation": "be made from...（～[原料]から作られる）。見た目で材料がわからない場合や、性質が変わる場合はfromを使います。\n【🇺🇸 Cultural Note】\nウィスコンシン州は「酪農の州（Dairy State）」として有名で、チーズやバターの生産が盛んです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この城は100年前に建てられました」\nThis castle (      ) built 100 years ago.",
+      "choices": ["was", "is", "were", "are"],
+      "answer": "was",
+      "explanation": "過去の受動態なのでwas builtです。\n【🇺🇸 Cultural Note】\nアメリカにはヨーロッパのような古い城は少ないですが、ハースト・キャッスル（カリフォルニア州）のような大富豪が建てた豪華な邸宅は存在します。"
+    },
+    {
+      "type": "sort",
+      "question": "「その本は英語で書かれていますか？」となるように並び替えてください。",
+      "choices": ["English", "Written", "book", "in", "is", "the"],
+      "answer": "IsthebookwritteninEnglish",
+      "explanation": "Is the book written...?（その本は書かれていますか）。in English（英語で）。\n【🇺🇸 Cultural Note】\nアメリカの書店（Bookstore）では、店内のカフェでコーヒーを飲みながら、購入前の本を読むことができるスタイルが一般的です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はクラスメートに笑われました」\nHe was laughed (      ) by his classmates.",
+      "choices": [],
+      "answer": "at",
+      "explanation": "laugh at...（～を笑う）の受動態は be laughed at by... となります。前置詞が2つ続く形に注意。\n【🇺🇸 Cultural Note】\nアメリカの学校では「いじめ（Bullying）」に対して「ゼロ・トレランス（寛容ゼロ）」政策をとる学校が増えています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「そのお皿は洗われていません」\nThe dishes are (      ) washed.",
+      "choices": ["not", "no", "didn't", "don't"],
+      "answer": "not",
+      "explanation": "受動態の否定文はbe動詞の後ろにnotを置きます。\n【🇺🇸 Cultural Note】\nアメリカの家庭では大型の食器洗浄機（Dishwasher）が普及しており、手洗いをすることは比較的少ないです。"
+    },
+    {
+      "type": "sort",
+      "question": "「その花瓶は誰によって壊されましたか？」となるように並び替えてください。",
+      "choices": ["broken", "vase", "was", "Who", "by", "the"],
+      "answer": "Whowasthevasebrokenby",
+      "explanation": "Who ... by?（誰によって～されましたか）。\n【🇺🇸 Cultural Note】\n家の中でボール遊びをして物を壊すのは、アメリカのホームドラマの定番トラブルです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その星は肉眼で見ることができます（見られます）」\nThe star can be (      ) with the naked eye.",
+      "choices": [],
+      "answer": "seen",
+      "explanation": "can be seen（見られることができる）。助動詞can＋be＋過去分詞。\n【🇺🇸 Cultural Note】\nグランドキャニオンなどの国立公園は、光害（Light pollution）が少ないため、星空観賞（Stargazing）の聖地でもあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はパーティーに招待されませんでした」\nI (      ) not invited to the party.",
+      "choices": ["was", "am", "were", "is"],
+      "answer": "was",
+      "explanation": "過去の受動態の否定文です。\n【🇺🇸 Cultural Note】\n「FOMO (Fear Of Missing Out)」という言葉があり、SNSなどで友人がパーティーを楽しんでいるのを見て「取り残される不安」を感じる現代病として知られます。"
+    },
+    {
+      "type": "sort",
+      "question": "「その仕事は明日までに終えられでしょう。」となるように並び替えてください。",
+      "choices": ["finished", "will", "work", "be", "tomorrow", "The", "by"],
+      "answer": "Theworkwillbefinishedbytomorrow",
+      "explanation": "will be finished（終えられるだろう）。未来の受動態です。\n【🇺🇸 Cultural Note】\nアメリカのビジネス文化では「Deadline（締め切り）」は非常に重要視されます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その箱はおもちゃで満たされていました」\nThe box was (      ) with toys.",
+      "choices": [],
+      "answer": "filled",
+      "explanation": "be filled with...（～で満たされている）。full of...と同じ意味ですが、受動態の形としてはfilled withを使います。\n【🇺🇸 Cultural Note】\nクリスマスシーズンには「Toys for Tots」という、恵まれない子供たちにおもちゃを寄付するチャリティ活動が海兵隊によって行われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この歌は日本で知られていますか？」\n(      ) this song known in Japan?",
+      "choices": ["Is", "Does", "Was", "Did"],
+      "answer": "Is",
+      "explanation": "受動態の疑問文の文頭はbe動詞です。\n【🇺🇸 Cultural Note】\n「上を向いて歩こう（SUKIYAKI）」は、アメリカのビルボードチャートで1位を獲得した唯一の日本の歌です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は大統領に選ばれました。」となるように並び替えてください。",
+      "choices": ["President", "elected", "He", "was"],
+      "answer": "HewaselectedPresident",
+      "explanation": "elect（選出する）の受動態 was elected。Presidentの前に冠詞がつかない（役職を表す補語）ことにも注意。\n【🇺🇸 Cultural Note】\nアメリカ大統領選挙は4年に一度行われ、選挙人団（Electoral College）という独特のシステムで選出されます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はその犬に噛まれました」\nShe was (      ) by the dog.",
+      "choices": [],
+      "answer": "bitten",
+      "explanation": "bite（噛む）の過去分詞はbittenです。\n【🇺🇸 Cultural Note】\nアメリカでは郵便配達員が犬に噛まれる事故が年間数千件発生しており、深刻な問題となっています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その部屋は彼らによって使われています」\nThe room is (      ) by them.",
+      "choices": ["used", "use", "using", "uses"],
+      "answer": "used",
+      "explanation": "use（使う）の過去分詞はusedです。\n【🇺🇸 Cultural Note】\nアメリカの学校の教室は、先生が自分の部屋を持っていて、生徒が授業ごとに移動するスタイルが一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「その木は昨夜、嵐で倒されました。」となるように並び替えてください。",
+      "choices": ["down", "storm", "tree", "was", "blown", "last", "night", "The", "by", "the"],
+      "answer": "Thetreewasblowndownbythestormlastnight",
+      "explanation": "blow down（吹き倒す）の受動態 was blown down です。\n【🇺🇸 Cultural Note】\nハリケーンやトルネードの後は、倒木による停電が頻繁に発生します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その名前リストは彼によって作られました」\nThe list of names was (      ) by him.",
+      "choices": [],
+      "answer": "made",
+      "explanation": "make（作る）の過去分詞はmadeです。\n【🇺🇸 Cultural Note】\n「サンタクロースはリストを作って2回チェックする（He's making a list and checking it twice）」というクリスマスの歌は有名です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はその結果に満足しています」\nI am (      ) with the result.",
+      "choices": ["satisfied", "satisfy", "satisfying", "satisfies"],
+      "answer": "satisfied",
+      "explanation": "be satisfied with...（～に満足している）。by以外の前置詞を使う受動態です。\n【🇺🇸 Cultural Note】\nアメリカの店では「Customer Satisfaction（顧客満足）」が重視され、返品ポリシーが非常に寛大であることが多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「これらのクッキーは母によって焼かれました。」となるように並び替えてください。",
+      "choices": ["cookies", "baked", "by", "These", "were", "my", "mother"],
+      "answer": "Thesecookieswerebakedbymymother",
+      "explanation": "bake（焼く）の受動態 were baked。\n【🇺🇸 Cultural Note】\nチョコチップクッキーはアメリカ発祥のお菓子で、「ママの味」の代表格です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その自転車は盗まれました」\nThe bike was (      ).",
+      "choices": [],
+      "answer": "stolen",
+      "explanation": "steal（盗む）の過去分詞はstolenです。\n【🇺🇸 Cultural Note】\nアメリカの都市部で自転車を停める際は、太いU字ロック（U-lock）を使うのが常識です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「この問題はすぐに解決されることができます」\nThis problem can (      ) solved soon.",
+      "choices": ["be", "is", "was", "been"],
+      "answer": "be",
+      "explanation": "助動詞canの後ろなのでbe動詞は原形になります。\n【🇺🇸 Cultural Note】\nアメリカの文化では、問題が発生した際に「誰のせいか」よりも「どう解決するか（Solution）」を議論することが好まれます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はそのパーティーでトムに話しかけられました。」となるように並び替えてください。",
+      "choices": ["spoken", "Tom", "to", "I", "by", "was", "at", "the", "party"],
+      "answer": "IwasspokentobyTomattheparty",
+      "explanation": "speak to...（～に話しかける）の受動態 was spoken to by...。前置詞toを忘れないように。\n【🇺🇸 Cultural Note】\nアメリカのパーティーでは、知らない人同士でも \"Mingle\"（混じり合って会話する）ことが期待されます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は交通事故で怪我をしました」\nHe was (      ) in a car accident.",
+      "choices": [],
+      "answer": "injured",
+      "explanation": "be injured（怪我をする）。受動態で表します。\n【🇺🇸 Cultural Note】\nアメリカでは救急車（Ambulance）を呼ぶと高額な料金を請求されることがあるため、軽傷なら自分で病院へ行く人もいます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「そのルールは破られませんでした」\nThe rule (      ) not broken.",
+      "choices": ["was", "is", "were", "are"],
+      "answer": "was",
+      "explanation": "rule（単数）なのでwasを使います。\n【🇺🇸 Cultural Note】\n\"Rules are made to be broken\"（ルールは破るためにある）という言葉もありますが、法執行は厳格です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の名前はリストに含まれていますか？」となるように並び替えてください。",
+      "choices": ["included", "name", "in", "Is", "the", "list", "my"],
+      "answer": "Ismynameincludedinthelist",
+      "explanation": "be included in...（～に含まれている）。\n【🇺🇸 Cultural Note】\n人気のあるナイトクラブやイベントでは、ゲストリストに名前がないと中に入れないことがよくあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「英語は世界中で話されています」\nEnglish is spoken all (      ) the world.",
+      "choices": [],
+      "answer": "over",
+      "explanation": "all over the world（世界中で）。\n【🇺🇸 Cultural Note】\nインターネット上の情報の過半数は英語で書かれていると言われています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その建物は学校として使われています」\nThe building is used (      ) a school.",
+      "choices": ["as", "for", "by", "to"],
+      "answer": "as",
+      "explanation": "be used as...（～として使われている）。\n【🇺🇸 Cultural Note】\nアメリカでは、古い工場や倉庫を改装して、アパートや学校、オフィスとして再利用する（Renovation）事例が多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は彼にプレゼントを与えられました（もらいました）。」となるように並び替えてください。",
+      "choices": ["given", "present", "was", "a", "by", "him", "I"],
+      "answer": "Iwasgivenapresentbyhim",
+      "explanation": "giveの受動態。I was given a present...（私はプレゼントを与えられた＝もらった）。\n【🇺🇸 Cultural Note】\nクリスマスプレゼントはツリーの下に置いておき、クリスマスの朝に一斉に開けるのが伝統です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「宿題は先生によってチェックされます」\nHomework is (      ) by the teacher.",
+      "choices": [],
+      "answer": "checked",
+      "explanation": "checkの過去分詞はcheckedです。\n【🇺🇸 Cultural Note】\nアメリカの先生は赤ペンだけでなく、シールやスタンプを使って子供たちを励ますことが多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その本はマーク・トウェインによって書かれました」\nThe book was (      ) by Mark Twain.",
+      "choices": ["written", "wrote", "write", "writing"],
+      "answer": "written",
+      "explanation": "writeの過去分詞written。\n【🇺🇸 Cultural Note】\nマーク・トウェインは『トム・ソーヤーの冒険』などで知られる、アメリカ文学の父とも呼ばれる作家です。"
+    },
+    {
+      "type": "sort",
+      "question": "「この橋は1930年代に建てられました。」となるように並び替えてください。",
+      "choices": ["built", "bridge", "was", "This", "in", "the", "1930s"],
+      "answer": "Thisbridgewasbuiltinthe1930s",
+      "explanation": "was built（建てられた）。1930sは「1930年代」という意味です。\n【🇺🇸 Cultural Note】\nサンフランシスコのゴールデンゲートブリッジは1937年に完成しました。当時は世界最長の吊り橋でした。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「スペイン語はメキシコで話されています」\nSpanish is (      ) in Mexico.",
+      "choices": [],
+      "answer": "spoken",
+      "explanation": "speakの過去分詞spoken。\n【🇺🇸 Cultural Note】\nメキシコはアメリカの南の隣国であり、アメリカ国内のヒスパニック文化に大きな影響を与えています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はその知らせにショックを受けました」\nI was (      ) by the news.",
+      "choices": ["shocked", "shock", "shocking", "shocks"],
+      "answer": "shocked",
+      "explanation": "be shocked by...（～にショックを受ける）。感情を表す受動態です。\n【🇺🇸 Cultural Note】\nアメリカのメディアは、政治的なスキャンダルや有名人のゴシップをセンセーショナルに報じることが多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「その手紙は明日配達されるでしょう。」となるように並び替えてください。",
+      "choices": ["delivered", "letter", "will", "be", "The", "tomorrow"],
+      "answer": "Theletterwillbedeliveredtomorrow",
+      "explanation": "will be delivered（配達されるでしょう）。未来の受動態。\n【🇺🇸 Cultural Note】\nAmazonなどの配送トラックが、平日・休日問わず住宅街を走り回っています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その部屋は煙で満たされていました」\nThe room was filled (      ) smoke.",
+      "choices": [],
+      "answer": "with",
+      "explanation": "be filled with...（～で満たされている）。\n【🇺🇸 Cultural Note】\nアメリカの全ての寝室には、煙探知機（Smoke detector）の設置が義務付けられています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは結婚式に招待されましたか？」\nWere you (      ) to the wedding?",
+      "choices": ["invited", "invite", "inviting", "invites"],
+      "answer": "invited",
+      "explanation": "invite（招待する）の過去分詞invited。\n【🇺🇸 Cultural Note】\nアメリカの結婚式では、ブライズメイド（花嫁介添人）やグルームズマン（花婿介添人）がお揃いの衣装で参加します。"
+    },
+    {
+      "type": "sort",
+      "question": "「その犬は『スポット』と呼ばれています。」となるように並び替えてください。",
+      "choices": ["called", "dog", "is", "The", "Spot"],
+      "answer": "ThedogiscalledSpot",
+      "explanation": "is called [名前]（～と呼ばれる）。\n【🇺🇸 Cultural Note】\n\"Spot\" は、日本の「ポチ」にあたるような、古典的な犬の名前です（ぶち模様がある犬によく付けられます）。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「チーズは牛乳から作られます」\nCheese is (      ) from milk.",
+      "choices": [],
+      "answer": "made",
+      "explanation": "be made from...（～から作られる）。\n【🇺🇸 Cultural Note】\nカリフォルニア州やウィスコンシン州はチーズの生産で有名です。アメリカ人はハンバーガーやピザで大量のチーズを消費します。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はその結果にがっかりしました」\nHe was (      ) with the result.",
+      "choices": ["disappointed", "disappoint", "disappointing", "disappoints"],
+      "answer": "disappointed",
+      "explanation": "be disappointed with/at...（～にがっかりする）。\n【🇺🇸 Cultural Note】\nスポーツの試合結果に対するファンの反応は熱狂的で、勝っても負けても街がお祭り騒ぎになることがあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「これらの車は日本へ輸出されます。」となるように並び替えてください。",
+      "choices": ["exported", "cars", "are", "These", "to", "Japan"],
+      "answer": "ThesecarsareexportedtoJapan",
+      "explanation": "export（輸出する）の受動態 are exported。\n【🇺🇸 Cultural Note】\n逆に、トヨタやホンダなどの日本車はアメリカで非常に信頼性が高く、よく売れています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「ここから星がきれいに見えます（見られます）」\nThe stars can be (      ) clearly from here.",
+      "choices": [],
+      "answer": "seen",
+      "explanation": "can be seen（見られる）。\n【🇺🇸 Cultural Note】\nハワイのマウナケア山頂にある天文台群は、世界最高の天体観測場所の一つです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「電話は誰によって発明されましたか？」\nWho was the telephone (      ) by?",
+      "choices": ["invented", "invent", "invents", "inventing"],
+      "answer": "invented",
+      "explanation": "invent（発明する）の過去分詞invented。\n【🇺🇸 Cultural Note】\nアレクサンダー・グラハム・ベルが特許を取得しました。AT&Tの前身であるベル電話会社を設立しました。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は一生懸命勉強するように言われました。」となるように並び替えてください。",
+      "choices": ["told", "study", "was", "I", "to", "hard"],
+      "answer": "Iwastoldtostudyhard",
+      "explanation": "tell 人 to...（人に～しろと言う）の受動態は be told to...（～しろと言われる）となります。\n【🇺🇸 Cultural Note】\nアメリカの学校では、勉強だけでなくスポーツや芸術活動との両立（Well-rounded）が求められます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その家は白く塗られました」\nThe house was (      ) white.",
+      "choices": [],
+      "answer": "painted",
+      "explanation": "paint（塗る）の過去分詞painted。\n【🇺🇸 Cultural Note】\n大統領官邸「ホワイトハウス」は、1814年にイギリス軍による焼き討ちにあった後、焼け跡を隠すために白く塗られたと言われています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その会議は中止されました」\nThe meeting was (      ).",
+      "choices": ["canceled", "cancel", "cancels", "canceling"],
+      "answer": "canceled",
+      "explanation": "cancel（中止する）の受動態 was canceled。\n【🇺🇸 Cultural Note】\nアメリカでは大雪（Blizzard）などの悪天候で学校やイベントが中止になることがよくあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「夕食は6時に出されます。」となるように並び替えてください。",
+      "choices": ["served", "Dinner", "is", "at", "six"],
+      "answer": "Dinnerisservedatsix",
+      "explanation": "serve（食事を出す）の受動態 is served。\n【🇺🇸 Cultural Note】\nアメリカの家庭の夕食時間は日本より少し早い傾向があり、6時頃に食べる家庭も多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は新しい車に喜んでいます（満足しています）」\nHe is pleased (      ) his new car.",
+      "choices": [],
+      "answer": "with",
+      "explanation": "be pleased with...（～を喜んでいる、気に入っている）。\n【🇺🇸 Cultural Note】\nピックアップトラックはアメリカで最も売れている車種のタイプで、特にF-150シリーズが人気です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その窓はトムによって割られましたか？」\nWas the window (      ) by Tom?",
+      "choices": ["broken", "broke", "break", "breaking"],
+      "answer": "broken",
+      "explanation": "breakの過去分詞broken。\n【🇺🇸 Cultural Note】\nDIYで家の修理をするのが一般的で、窓の修理なども自分で行う（または親に教わりながら行う）ことがあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「ローマは一日にして成らず（建てられず）。」となるように並び替えてください。",
+      "choices": ["built", "not", "Rome", "was", "in", "a", "day"],
+      "answer": "Romewasnotbuiltinaday",
+      "explanation": "有名なことわざです。大きな仕事はすぐには完成しないという意味。\n【🇺🇸 Cultural Note】\n英語の授業や日常会話でよく引用される教訓です。忍耐と努力の重要性を説きます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「山々は雪で覆われています」\nThe mountains are covered (      ) snow.",
+      "choices": [],
+      "answer": "with",
+      "explanation": "be covered with...（～で覆われている）。\n【🇺🇸 Cultural Note】\nシアトルにあるレーニア山（Mt. Rainier）は、日系人から「タコマ富士」と呼ばれ親しまれていました。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「英語は多くの国で使われています」\nEnglish is (      ) in many countries.",
+      "choices": ["used", "use", "using", "uses"],
+      "answer": "used",
+      "explanation": "use（使う）の過去分詞used。\n【🇺🇸 Cultural Note】\n英語は国際ビジネスや航空管制、科学技術の共通言語（Lingua Franca）です。"
+    },
+    {
+      "type": "sort",
+      "question": "「その歌は聖歌隊によって歌われました。」となるように並び替えてください。",
+      "choices": ["sung", "song", "choir", "was", "The", "by", "the"],
+      "answer": "Thesongwassungbythechoir",
+      "explanation": "sing（歌う）の過去分詞sung。\n【🇺🇸 Cultural Note】\nゴスペルクワイア（Gospel Choir）は、アフリカ系アメリカ人の教会文化から生まれた魂の音楽です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はリーダーとして選ばれました」\nShe was (      ) as the leader.",
+      "choices": [],
+      "answer": "chosen",
+      "explanation": "choose（選ぶ）の過去分詞chosen。\n【🇺🇸 Cultural Note】\n生徒会（Student Council）の選挙は、アメリカの学校生活における民主主義の最初のレッスンです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は科学に興味があります」\nI am (      ) in science.",
+      "choices": ["interested", "interesting", "interest", "interests"],
+      "answer": "interested",
+      "explanation": "be interested in...（～に興味がある）。\n【🇺🇸 Cultural Note】\nNASAのスペースキャンプは、子供たちが宇宙飛行士の訓練を体験できる人気のプログラムです。"
+    },
+    {
+      "type": "sort",
+      "question": "「その仕事は午後5時までに終わらせなければなりません。」となるように並び替えてください。",
+      "choices": ["done", "be", "must", "work", "The", "by", "5 p.m."],
+      "answer": "Theworkmustbedoneby5pm",
+      "explanation": "must be done（なされなければならない＝終わらせなければならない）。doの過去分詞doneを使います。\n【🇺🇸 Cultural Note】\nアメリカのオフィスワークは定時（9時-5時）で終わるのが基本で、ワークライフバランスが重視されます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その門は夜には鍵がかけられます」\nThe gate is (      ) at night.",
+      "choices": [],
+      "answer": "locked",
+      "explanation": "lock（鍵をかける）の受動態is locked。\n【🇺🇸 Cultural Note】\nアメリカの学校には、生徒一人一人に荷物を入れるためのロッカー（Locker）が割り当てられています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちはそのビッグニュースに驚きました」\nWe were (      ) at the big news.",
+      "choices": ["surprised", "surprise", "surprising", "surprises"],
+      "answer": "surprised",
+      "explanation": "be surprised at...（～に驚く）。\n【🇺🇸 Cultural Note】\n大統領選挙の結果などは、開票速報で全米中がテレビに釘付けになります。"
+    },
+    {
+      "type": "sort",
+      "question": "「新しい学校がここに建てられるでしょう。」となるように並び替えてください。",
+      "choices": ["built", "school", "new", "will", "A", "be", "here"],
+      "answer": "Anewschoolwillbebuilthere",
+      "explanation": "will be built（建てられる予定だ）。\n【🇺🇸 Cultural Note】\n地域の公立学校は固定資産税（Property Tax）で運営されるため、高級住宅地ほど学校の設備が良い傾向にあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「このバッグは革で作られています」\nThis bag is (      ) of leather.",
+      "choices": [],
+      "answer": "made",
+      "explanation": "be made of...（～[材料]で作られている）。\n【🇺🇸 Cultural Note】\nカウボーイブーツや革ジャンなど、レザー製品はアメリカンファッションの定番です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は偉大な俳優として知られています」\nHe is known (      ) a great actor.",
+      "choices": ["as", "for", "to", "by"],
+      "answer": "as",
+      "explanation": "be known as...（～として知られている）。be known to（～に知られている）やbe known for（～で知られている）との違いに注意。\n【🇺🇸 Cultural Note】\nロバート・デ・ニーロやトム・ハンクスなど、名優と呼ばれる俳優は尊敬を集めています。"
+    },
+    {
+      "type": "sort",
+      "question": "「その問題は簡単に解決されました。」となるように並び替えてください。",
+      "choices": ["solved", "problem", "The", "was", "easily"],
+      "answer": "Theproblemwassolvedeasily",
+      "explanation": "solve（解決する）の受動態was solved。\n【🇺🇸 Cultural Note】\n「ダクトテープ（Duct tape）」があれば何でも修理できる、というのはアメリカ人のDIY精神を象徴するジョークです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「そのEメールは全員に送られました」\nThe email was (      ) to everyone.",
+      "choices": [],
+      "answer": "sent",
+      "explanation": "send（送る）の過去分詞sent。\n【🇺🇸 Cultural Note】\nビジネスメールでは、\"CC\"（Carbon Copy）機能を使って関係者全員に情報を共有することが一般的です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「これらのリンゴは青森で育てられていますか？」\nAre these apples (      ) in Aomori?",
+      "choices": ["grown", "grew", "grow", "growing"],
+      "answer": "grown",
+      "explanation": "grow（育てる）の過去分詞grown。\n【🇺🇸 Cultural Note】\nアメリカでリンゴといえばワシントン州が最大の産地です。ランチボックスに丸ごとのリンゴを入れるのが定番です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はスピーチをするように頼まれました。」となるように並び替えてください。",
+      "choices": ["speech", "make", "asked", "was", "I", "to", "a"],
+      "answer": "Iwasaskedtomakeaspeech",
+      "explanation": "ask 人 to...（人に～するように頼む）の受動態 be asked to...。\n【🇺🇸 Cultural Note】\n「パブリックスピーキング（Public Speaking）」はアメリカの学校で重視されるスキルで、必須科目になっていることも多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その机はほこりで覆われています」\nThe desk is covered (      ) dust.",
+      "choices": [],
+      "answer": "with",
+      "explanation": "be covered with...（～で覆われている）。\n【🇺🇸 Cultural Note】\nアメリカ西部では乾燥しているため、砂埃（Dust）が立ちやすい地域があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は戦争で亡くなりました（殺されました）」\nHe was (      ) in the war.",
+      "choices": ["killed", "kill", "killing", "kills"],
+      "answer": "killed",
+      "explanation": "kill（殺す）の受動態was killed。戦争や事故で亡くなる場合に使われます。\n【🇺🇸 Cultural Note】\n「ベテランズ・デー（退役軍人の日）」や「メモリアル・デー（戦没者追悼記念日）」は、国のために戦った人々を敬う重要な祝日です。"
+    },
+    {
+      "type": "sort",
+      "question": "「そのニュースはテレビで放送されました。」となるように並び替えてください。",
+      "choices": ["TV", "on", "broadcast", "news", "was", "The"],
+      "answer": "ThenewswasbroadcastonTV",
+      "explanation": "broadcast（放送する）の過去分詞はbroadcast（またはbroadcasted）です。\n【🇺🇸 Cultural Note】\nスーパーボウルのCM枠は世界一高額で、各企業が力を入れた特別なCMが放送されます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その写真はハワイで撮られました」\nThe pictures were (      ) in Hawaii.",
+      "choices": [],
+      "answer": "taken",
+      "explanation": "take a picture（写真を撮る）の受動態。\n【🇺🇸 Cultural Note】\nハワイはアメリカの50番目の州で、パールハーバー（真珠湾）などの歴史的な場所もあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「多くの人がその博物館を訪れます（博物館は多くの人に訪れられます）」\nThe museum is (      ) by many people.",
+      "choices": ["visited", "visit", "visiting", "visits"],
+      "answer": "visited",
+      "explanation": "visit（訪れる）の受動態is visited。\n【🇺🇸 Cultural Note】\nワシントンD.C.のスミソニアン博物館群は、入場無料で世界最高レベルの展示を見ることができます。"
     }
   ]
 }

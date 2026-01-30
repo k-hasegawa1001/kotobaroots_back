@@ -1,664 +1,637 @@
 {
   "learning_topic": "現在進行形",
+  "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "「私は今、テニスをしています」\nI (      ) playing tennis now.",
-      "choices": ["am", "is", "are", "do"],
+      "question": "「私は野球をしています」\nI (      ) playing baseball.",
+      "choices": ["am", "is", "are", "be"],
       "answer": "am",
-      "explanation": "現在進行形の公式は「be動詞 + ~ing」です。主語がIなのでamを使います。"
+      "explanation": "主語がIなのでbe動詞はamを使います。\n【🇺🇸 Cultural Note】\n野球はアメリカの「夏の娯楽」です。リトルリーグからメジャーリーグまで広く愛されています。"
     },
     {
       "type": "sort",
-      "question": "「彼は走っています。」となるように並び替えてください。",
-      "choices": ["running", "is", "He"],
-      "answer": "Heisrunning",
-      "explanation": "He is running. です。Runはnを重ねてrunningにします。"
+      "question": "「彼女はホットドッグを食べています。」となるように並び替えてください。",
+      "choices": ["eating", "She", "is", "hot dog", "a"],
+      "answer": "Sheiseatingahotdog",
+      "explanation": "She is eating...（彼女は食べている）。\n【🇺🇸 Cultural Note】\nニューヨークのコニーアイランドでは、毎年7月4日にホットドッグ早食い大会が開催されます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女はピアノを弾いています」\nShe is (      ) the piano.",
+      "question": "「彼らはスーパーボウルを見ています」\nThey are (      ) the Super Bowl.",
       "choices": [],
-      "answer": "playing",
-      "explanation": "Playにingをつけてplayingです。"
+      "answer": "watching",
+      "explanation": "Watchにingをつけてwatchingにします。\n【🇺🇸 Cultural Note】\nスーパーボウル（NFL決勝戦）は、アメリカで最も視聴率が高いテレビ番組です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私たちは英語を勉強しています」\nWe (      ) studying English.",
-      "choices": ["are", "is", "am", "do"],
-      "answer": "are",
-      "explanation": "We（私たち）は複数なのでareを使います。"
+      "question": "「トムは今、走っています」\nTom is (      ) now.",
+      "choices": ["running", "runing", "runs", "run"],
+      "answer": "running",
+      "explanation": "Runは最後の文字を重ねてingをつけます（running）。\n【🇺🇸 Cultural Note】\nセントラルパークなどの公園には、ランニング専用のレーンが整備されています。"
     },
     {
       "type": "sort",
-      "question": "「彼らは昼食を食べています。」となるように並び替えてください。",
-      "choices": ["eating", "lunch", "are", "They"],
-      "answer": "Theyareeatinglunch",
-      "explanation": "They are eating lunch. です。"
+      "question": "「私たちは感謝祭を祝っています。」となるように並び替えてください。",
+      "choices": ["Thanksgiving", "celebrating", "We", "are"],
+      "answer": "WearecelebratingThanksgiving",
+      "explanation": "Celebrateにingをつけます（eを取ってing）。\n【🇺🇸 Cultural Note】\n感謝祭には家族が集まり、過去一年の恵みに感謝します。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「ケンは本を読んでいます」\nKen is (      ) a book.",
+      "question": "「雪が降っています」\nIt is (      ).",
       "choices": [],
-      "answer": "reading",
-      "explanation": "Readにingをつけてreadingです。"
+      "answer": "snowing",
+      "explanation": "Snowにingをつけます。\n【🇺🇸 Cultural Note】\nコロラド州やユタ州のスキーリゾートは、世界最高質のパウダースノーで有名です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は手紙を書いています」\nI am (      ) a letter.",
-      "choices": ["writing", "writeing", "writting", "writes"],
-      "answer": "writing",
-      "explanation": "Write（eで終わる語）は、eを取ってingをつけます。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは今、何をしていますか？」となるように並び替えてください。",
-      "choices": ["doing", "now", "you", "are", "What"],
-      "answer": "Whatareyoudoingnow",
-      "explanation": "What are you doing now? 現在進行形の疑問文です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼は泳いでいます」\nHe is (      ).",
-      "choices": [],
-      "answer": "swimming",
-      "explanation": "Swim（短母音+子音字）は、最後の子音を重ねてswimmingにします。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は料理をしていますか？」\n(      ) she cooking?",
-      "choices": ["Is", "Does", "Do", "Are"],
-      "answer": "Is",
-      "explanation": "現在進行形の疑問文はbe動詞（Is）を文頭に出します。Doesではありません。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はテレビを見ていません。」となるように並び替えてください。",
-      "choices": ["watching", "not", "TV", "am", "I"],
-      "answer": "IamnotwatchingTV",
-      "explanation": "I am not watching TV. 否定文はbe動詞の後ろにnotを置きます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼らは歌を歌っています」\nThey are (      ) a song.",
-      "choices": [],
-      "answer": "singing",
-      "explanation": "Singにingをつけてsingingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「トムは自分の部屋を掃除しています」\nTom (      ) cleaning his room.",
-      "choices": ["is", "are", "am", "does"],
-      "answer": "is",
-      "explanation": "Tomは三人称単数なのでisを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「雨が降っています。」となるように並び替えてください。",
-      "choices": ["raining", "It", "is"],
-      "answer": "Itisraining",
-      "explanation": "It is raining. 天気のItを使って進行形で表します。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私の父は車を洗っています」\nMy father is (      ) the car.",
-      "choices": [],
-      "answer": "washing",
-      "explanation": "Washにingをつけてwashingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼らは公園で走っていますか？」\n(      ) they running in the park?",
-      "choices": ["Are", "Do", "Is", "Does"],
+      "question": "「あなたは英語を勉強していますか？」\n(      ) you studying English?",
+      "choices": ["Are", "Do", "Is", "Am"],
       "answer": "Are",
-      "explanation": "Theyが主語なのでAreを使います。"
+      "explanation": "進行形の疑問文なのでbe動詞（Are）を文頭に出します。\n【🇺🇸 Cultural Note】\nアメリカの大学には世界中から留学生が集まり、キャンパスは国際色豊かです。"
     },
     {
       "type": "sort",
-      "question": "「私は音楽を聴いています。」となるように並び替えてください。",
-      "choices": ["listening", "to", "music", "am", "I"],
-      "answer": "Iamlisteningtomusic",
-      "explanation": "I am listening to music. Listen toの形を崩さないように注意です。"
+      "question": "「彼は働いていません。」となるように並び替えてください。",
+      "choices": ["working", "isn't", "He"],
+      "answer": "Heisn'tworking",
+      "explanation": "否定文はbe動詞の後ろにnotをつけます（isn't）。\n【🇺🇸 Cultural Note】\nレイバー・デー（労働者の日）は9月の第1月曜日で、夏の終わりの祝日として親しまれています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私たちは朝食を作っています」\nWe are (      ) breakfast.",
+      "question": "「私は列に並んで待っています」\nI am (      ) in line.",
       "choices": [],
-      "answer": "making",
-      "explanation": "Makeのeを取ってmakingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「鳥が空を飛んでいます」\nA bird is (      ) in the sky.",
-      "choices": ["flying", "fliing", "flyying", "flieing"],
-      "answer": "flying",
-      "explanation": "Flyはそのままingをつけてflyingです（yをiに変えるのは三単現や過去形の時です）。"
-    },
-    {
-      "type": "sort",
-      "question": "「誰がピアノを弾いていますか？」となるように並び替えてください。",
-      "choices": ["piano", "playing", "the", "Who", "is"],
-      "answer": "Whoisplayingthepiano",
-      "explanation": "Who is playing the piano? 疑問詞Whoが主語になるパターンです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は来ていますか？」\nIs she (      )?",
-      "choices": [],
-      "answer": "coming",
-      "explanation": "Comeのeを取ってcomingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼らは今、勉強していません」\nThey (      ) studying now.",
-      "choices": ["aren't", "don't", "isn't", "not"],
-      "answer": "aren't",
-      "explanation": "They are not... の短縮形aren'tを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「その猫は眠っています。」となるように並び替えてください。",
-      "choices": ["sleeping", "cat", "is", "The"],
-      "answer": "Thecatissleeping",
-      "explanation": "The cat is sleeping. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は写真を撮っています」\nI am (      ) pictures.",
-      "choices": [],
-      "answer": "taking",
-      "explanation": "Takeのeを取ってtakingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは何を待っていますか？」\nWhat are you (      ) for?",
-      "choices": ["waiting", "wait", "waitting", "waiter"],
       "answer": "waiting",
-      "explanation": "Waitにingをつけてwaitingです。"
+      "explanation": "Waitにingをつけます。\n【🇺🇸 Cultural Note】\n人気のブランチ店やブラックフライデーのセールでは、長い列（Line）ができるのが恒例です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は本を読んでいます」\nShe is (      ) a book.",
+      "choices": ["reading", "read", "reads", "redding"],
+      "answer": "reading",
+      "explanation": "Readにingをつけます。\n【🇺🇸 Cultural Note】\nアメリカの図書館では、子供向けの読み聞かせイベント（Story time）が頻繁に行われています。"
     },
     {
       "type": "sort",
-      "question": "「彼はベンチに座っています。」となるように並び替えてください。",
-      "choices": ["sitting", "bench", "on", "He", "is", "the"],
-      "answer": "Heissittingonthebench",
-      "explanation": "He is sitting on the bench. Sitはtを重ねてsittingにします。"
+      "question": "「彼らはアメフトをしています。」となるように並び替えてください。",
+      "choices": ["football", "playing", "They", "are"],
+      "answer": "Theyareplayingfootball",
+      "explanation": "Playにingをつけます。\n【🇺🇸 Cultural Note】\n高校のアメフトの試合（Friday Night Lights）は、地域コミュニティの一大イベントです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私の母は夕食を料理しています」\nMy mother is (      ) dinner.",
+      "question": "「私の父は料理をしています」\nMy father is (      ).",
       "choices": [],
       "answer": "cooking",
-      "explanation": "Cookにingをつけてcookingです。"
+      "explanation": "Cookにingをつけます。\n【🇺🇸 Cultural Note】\n週末のバックヤードでのBBQは、伝統的に父親が担当することが多いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「雪が降っていますか？」\n(      ) it snowing?",
-      "choices": ["Is", "Does", "Do", "Are"],
+      "question": "「雨が降っていますか？」\n(      ) it raining?",
+      "choices": ["Is", "Does", "Are", "Do"],
       "answer": "Is",
-      "explanation": "Itが主語なのでIsで始めます。"
+      "explanation": "進行形の疑問文なのでIsを使います。\n【🇺🇸 Cultural Note】\nシアトルは雨が多い都市として知られていますが、実は降水量自体はそれほど多くありません。"
     },
     {
       "type": "sort",
-      "question": "「私はコンピュータを使っています。」となるように並び替えてください。",
-      "choices": ["using", "computer", "a", "am", "I"],
-      "answer": "Iamusingacomputer",
-      "explanation": "I am using a computer. Useのeを取ってusingです。"
+      "question": "「バスが来ています。」となるように並び替えてください。",
+      "choices": ["coming", "bus", "is", "The"],
+      "answer": "Thebusiscoming",
+      "explanation": "Comeはeを取ってingをつけます（coming）。\n【🇺🇸 Cultural Note】\nアメリカの黄色いスクールバスは、子供たちの安全を守るために頑丈に作られています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼らは笑っています」\nThey are (      ).",
+      "question": "「私たちは買い物に行きます」\nWe are (      ) shopping.",
       "choices": [],
-      "answer": "laughing",
-      "explanation": "Laugh（笑う）にingをつけてlaughingです。"
+      "answer": "going",
+      "explanation": "Goにingをつけます。\n【🇺🇸 Cultural Note】\n巨大なショッピングモール（Mall）は、買い物だけでなく、映画や食事も楽しめる娯楽施設です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私の兄は今、働いています」\nMy brother is (      ) now.",
-      "choices": ["working", "work", "works", "workking"],
-      "answer": "working",
-      "explanation": "Workにingをつけてworkingです。"
+      "question": "「ジョンは泳いでいます」\nJohn is (      ).",
+      "choices": ["swimming", "swiming", "swims", "swim"],
+      "answer": "swimming",
+      "explanation": "Swimはmを重ねてingをつけます（swimming）。\n【🇺🇸 Cultural Note】\n多くの家やアパートにプールがついている地域（フロリダやカリフォルニアなど）もあります。"
     },
     {
       "type": "sort",
-      "question": "「あなたは英語を話していますか？」となるように並び替えてください。",
-      "choices": ["speaking", "English", "you", "Are"],
-      "answer": "AreyouspeakingEnglish",
-      "explanation": "Are you speaking English? です。"
+      "question": "「彼女は手紙を書いています。」となるように並び替えてください。",
+      "choices": ["letter", "writing", "She", "is", "a"],
+      "answer": "Sheiswritingaletter",
+      "explanation": "Writeはeを取ってingをつけます（writing）。\n【🇺🇸 Cultural Note】\nクリスマスカードやサンキューカードを手書きで送る習慣は今でも根強いです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女はダンスをしています」\nShe is (      ).",
+      "question": "「彼らは音楽を聴いています」\nThey are (      ) to music.",
+      "choices": [],
+      "answer": "listening",
+      "explanation": "Listenにingをつけます。\n【🇺🇸 Cultural Note】\nカントリー、ジャズ、ヒップホップなど、アメリカは多様な音楽ジャンルの発祥地です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は冗談を言っているだけです」\nI am just (      ).",
+      "choices": ["kidding", "kiding", "kids", "kid"],
+      "answer": "kidding",
+      "explanation": "Kid（冗談を言う）はdを重ねてingをつけます（kidding）。\n【🇺🇸 Cultural Note】\n\"Just kidding!\"（なんちゃって！/冗談だよ！）は日常会話で頻繁に使われるフレーズです。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは何をしていますか？」となるように並び替えてください。",
+      "choices": ["doing", "are", "What", "you"],
+      "answer": "Whatareyoudoing",
+      "explanation": "現在進行形の疑問文に疑問詞Whatがついた形です。\n【🇺🇸 Cultural Note】\n挨拶として\"What are you doing?\"（何してるの？）と聞かれることもあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「メアリーはダンスをしています」\nMary is (      ).",
       "choices": [],
       "answer": "dancing",
-      "explanation": "Danceのeを取ってdancingです。"
+      "explanation": "Danceはeを取ってingをつけます（dancing）。\n【🇺🇸 Cultural Note】\n高校のプロム（Prom）は、正装してダンスを楽しむ一大イベントです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私たちはバスを待っています」\nWe are waiting (      ) the bus.",
-      "choices": ["for", "to", "at", "in"],
-      "answer": "for",
-      "explanation": "Wait for（～を待つ）という熟語の進行形です。"
+      "question": "「私たちは映画を見ています」\nWe are (      ) a movie.",
+      "choices": ["watching", "watch", "seeing", "looking"],
+      "answer": "watching",
+      "explanation": "動いている映像を見る場合はwatchingを使います。\n【🇺🇸 Cultural Note】\nNetflixなどのストリーミングサービスで映画を見る（Binge-watching）のが一般的です。"
     },
     {
       "type": "sort",
-      "question": "「子供たちは公園で遊んでいます。」となるように並び替えてください。",
-      "choices": ["playing", "park", "children", "The", "are", "in", "the"],
-      "answer": "Thechildrenareplayinginthepark",
-      "explanation": "The children are playing in the park. です。"
+      "question": "「彼はピザを作っています。」となるように並び替えてください。",
+      "choices": ["making", "pizza", "He", "is"],
+      "answer": "Heismakingpizza",
+      "explanation": "Makeはeを取ってingをつけます（making）。\n【🇺🇸 Cultural Note】\n手作りピザやデリバリーピザは、金曜日の夜（Pizza Night）の定番です。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「太陽が輝いています」\nThe sun is (      ).",
       "choices": [],
       "answer": "shining",
-      "explanation": "Shine（輝く）のeを取ってshiningです。"
+      "explanation": "Shineはeを取ってingをつけます（shining）。\n【🇺🇸 Cultural Note】\nカリフォルニア州は晴天率が高く、太陽光発電の導入が進んでいます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼らは泳いでいません」\nThey (      ) swimming.",
-      "choices": ["aren't", "isn't", "don't", "doesn't"],
-      "answer": "aren't",
-      "explanation": "They aren't swimming. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「どこへ行くところですか？」となるように並び替えてください。",
-      "choices": ["going", "you", "are", "Where"],
-      "answer": "Whereareyougoing",
-      "explanation": "Where are you going? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「マイクは自転車に乗っています」\nMike is (      ) a bike.",
-      "choices": [],
-      "answer": "riding",
-      "explanation": "Rideのeを取ってridingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は微笑んでいます」\nShe is (      ).",
-      "choices": ["smiling", "smileing", "smilling", "smiles"],
-      "answer": "smiling",
-      "explanation": "Smileのeを取ってsmilingです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼は一生懸命勉強しています。」となるように並び替えてください。",
-      "choices": ["hard", "studying", "is", "He"],
-      "answer": "Heisstudyinghard",
-      "explanation": "He is studying hard. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は宿題をしています」\nI am (      ) my homework.",
-      "choices": [],
-      "answer": "doing",
-      "explanation": "Doにingをつけてdoingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「ジョンとメアリーは話しています」\nJohn and Mary (      ) talking.",
-      "choices": ["are", "is", "am", "do"],
-      "answer": "are",
-      "explanation": "主語が2人（複数）なのでareを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女はお皿を洗っています。」となるように並び替えてください。",
-      "choices": ["washing", "dishes", "is", "She", "the"],
-      "answer": "Sheiswashingthedishes",
-      "explanation": "She is washing the dishes. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「そのバスは止まりかけています（止まろうとしています）」\nThe bus is (      ).",
-      "choices": [],
-      "answer": "stopping",
-      "explanation": "Stopはpを重ねてstoppingにします。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは冗談を言っているのですか？」\n(      ) you joking?",
-      "choices": ["Are", "Do", "Is", "Have"],
-      "answer": "Are",
-      "explanation": "Are you joking? Joke（冗談を言う）のeを取ってjokingです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は本を読んでいません。」となるように並び替えてください。",
-      "choices": ["reading", "a", "not", "book", "am", "I"],
-      "answer": "Iamnotreadingabook",
-      "explanation": "I am not reading a book. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼らはコーヒーを飲んでいます」\nThey are (      ) coffee.",
-      "choices": [],
-      "answer": "drinking",
-      "explanation": "Drinkにingをつけてdrinkingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は泣いていますか？」\nIs she (      )?",
-      "choices": ["crying", "cryying", "criing", "cries"],
-      "answer": "crying",
-      "explanation": "Cryはそのままingをつけてcryingです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼は歯を磨いています。」となるように並び替えてください。",
-      "choices": ["brushing", "teeth", "He", "his", "is"],
-      "answer": "Heisbrushinghisteeth",
-      "explanation": "He is brushing his teeth. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は今、出発するところです」\nI am (      ) now.",
-      "choices": [],
-      "answer": "leaving",
-      "explanation": "Leaveのeを取ってleavingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私たちはテレビを見ています」\nWe are (      ) TV.",
-      "choices": ["watching", "looking", "seeing", "watch"],
-      "answer": "watching",
-      "explanation": "テレビを見る時はwatchを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「誰が夕食を作っていますか？」となるように並び替えてください。",
-      "choices": ["dinner", "cooking", "Who", "is"],
-      "answer": "Whoiscookingdinner",
-      "explanation": "Who is cooking dinner? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼らは楽しんでいます（楽しい時を過ごしています）」\nThey are (      ) a good time.",
-      "choices": [],
+      "question": "「彼らは昼食を食べています」\nThey are (      ) lunch.",
+      "choices": ["having", "have", "has", "haves"],
       "answer": "having",
-      "explanation": "Have a good timeの進行形、having a good timeです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「その赤ちゃんは寝ています」\nThe baby is (      ).",
-      "choices": ["sleeping", "sleep", "sleeps", "sleepping"],
-      "answer": "sleeping",
-      "explanation": "Sleepにingをつけてsleepingです。"
+      "explanation": "食事を「とる」という意味でHaveを使い、進行形はhavingにします。\n【🇺🇸 Cultural Note】\nビジネスランチ（Power lunch）では、食事をしながら商談を行うことがあります。"
     },
     {
       "type": "sort",
-      "question": "「彼女は箱を運んでいます。」となるように並び替えてください。",
-      "choices": ["carrying", "box", "a", "She", "is"],
-      "answer": "Sheiscarryingabox",
-      "explanation": "She is carrying a box. Carryはそのままingをつけてcarryingです。"
+      "question": "「私はジムに行きます。」となるように並び替えてください。",
+      "choices": ["to", "gym", "going", "I", "am", "the"],
+      "answer": "Iamgoingtothegym",
+      "explanation": "Goにingをつけます。\n【🇺🇸 Cultural Note】\nフィットネス文化が盛んなアメリカでは、出勤前や仕事後にジムに通う人が多いです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私はシャワーを浴びています」\nI am (      ) a shower.",
+      "question": "「彼女は車を運転しています」\nShe is (      ) a car.",
       "choices": [],
-      "answer": "taking",
-      "explanation": "Take a showerの進行形です。"
+      "answer": "driving",
+      "explanation": "Driveはeを取ってingをつけます（driving）。\n【🇺🇸 Cultural Note】\nアメリカの道路は広く、長距離ドライブ（Road trip）は人気のある旅行スタイルです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼は自分の車を洗っていますか？」\nIs he (      ) his car?",
+      "question": "「あなたは眠っていますか？」\nAre you (      )?",
+      "choices": ["sleeping", "sleep", "sleeps", "slept"],
+      "answer": "sleeping",
+      "explanation": "Sleepにingをつけます。\n【🇺🇸 Cultural Note】\nお泊まり会（Sleepover）は、アメリカの子供たちが大好きなイベントです。"
+    },
+    {
+      "type": "sort",
+      "question": "「ケイトは歌っています。」となるように並び替えてください。",
+      "choices": ["singing", "Kate", "is"],
+      "answer": "Kateissinging",
+      "explanation": "Singにingをつけます。\n【🇺🇸 Cultural Note】\n国歌斉唱（National Anthem）は、スポーツイベントの開始前に必ず行われます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは日本語を話しています」\nThey are (      ) Japanese.",
+      "choices": [],
+      "answer": "speaking",
+      "explanation": "Speakにingをつけます。\n【🇺🇸 Cultural Note】\nアニメやマンガの影響で、日本語を学ぶアメリカの若者が増えています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は今、勉強していません」\nI am (      ) studying now.",
+      "choices": ["not", "no", "don't", "doesn't"],
+      "answer": "not",
+      "explanation": "進行形の否定文はbe動詞の後ろにnotを置きます。\n【🇺🇸 Cultural Note】\nアメリカの大学生は「よく遊びよく学べ」を実践しており、試験期間中は図書館にこもります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは旅行しています。」となるように並び替えてください。",
+      "choices": ["traveling", "are", "We"],
+      "answer": "Wearetraveling",
+      "explanation": "Travelにingをつけます（米国ではl一つ、英国ではl二つが一般的です）。\n【🇺🇸 Cultural Note】\n感謝祭やクリスマスの時期は、全米で数千万人が帰省や旅行で移動します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はコンピュータを使っています」\nHe is (      ) a computer.",
+      "choices": [],
+      "answer": "using",
+      "explanation": "Useはeを取ってingをつけます（using）。\n【🇺🇸 Cultural Note】\nシリコンバレーは世界のIT技術の中心地です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女はジーンズを履いています」\nShe is (      ) jeans.",
+      "choices": ["wearing", "wear", "wears", "wore"],
+      "answer": "wearing",
+      "explanation": "Wearにingをつけます。\n【🇺🇸 Cultural Note】\nジーンズはアメリカのゴールドラッシュ時代に作業着として生まれました。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは新しい家を建てています。」となるように並び替えてください。",
+      "choices": ["building", "They", "house", "are", "a", "new"],
+      "answer": "Theyarebuildinganewhouse",
+      "explanation": "Buildにingをつけます。\n【🇺🇸 Cultural Note】\nアメリカの住宅建設は「ツーバイフォー工法」が主流で、木の枠組みで作られます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は私の犬を探しています」\nI am (      ) for my dog.",
+      "choices": [],
+      "answer": "looking",
+      "explanation": "Look for（探す）の進行形です。\n【🇺🇸 Cultural Note】\n迷子犬のポスター（Lost Dog flyer）を街灯に貼るのは、アメリカのコミュニティでよくある光景です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは速く歩きすぎています」\nYou are (      ) too fast.",
+      "choices": ["walking", "walk", "walks", "walked"],
+      "answer": "walking",
+      "explanation": "Walkにingをつけます。\n【🇺🇸 Cultural Note】\nニューヨーカーは歩くのが速いことで有名です。"
+    },
+    {
+      "type": "sort",
+      "question": "「赤ちゃんが泣いています。」となるように並び替えてください。",
+      "choices": ["crying", "baby", "is", "The"],
+      "answer": "Thebabyiscrying",
+      "explanation": "Cryにingをつけます。\n【🇺🇸 Cultural Note】\n公共の場で赤ちゃんが泣いても、比較的寛容な文化があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その犬は吠えています」\nThe dog is (      ).",
+      "choices": [],
+      "answer": "barking",
+      "explanation": "Bark（吠える）にingをつけます。\n【🇺🇸 Cultural Note】\n番犬として犬を飼う家も多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は誰に電話しているのですか？」\nWho is he (      )?",
+      "choices": ["calling", "call", "calls", "called"],
+      "answer": "calling",
+      "explanation": "Callにingをつけます。\n【🇺🇸 Cultural Note】\n仕事の連絡でもテキストメッセージを使うことが増えていますが、重要な用件は電話（Call）で済ませます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちはコーヒーを飲んでいます。」となるように並び替えてください。",
+      "choices": ["drinking", "are", "We", "coffee"],
+      "answer": "Wearedrinkingcoffee",
+      "explanation": "Drinkにingをつけます。\n【🇺🇸 Cultural Note】\nアメリカ人はアイスコーヒーを冬でも飲む人が多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は飛行機でニューヨークへ行きます（飛んでいます）」\nI am (      ) to New York.",
+      "choices": [],
+      "answer": "flying",
+      "explanation": "Flyにingをつけます。\n【🇺🇸 Cultural Note】\nアメリカは国土が広いため、国内移動でも飛行機（Flying）が一般的です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女はホテルに滞在しています」\nShe is (      ) at a hotel.",
+      "choices": ["staying", "stay", "stays", "stayed"],
+      "answer": "staying",
+      "explanation": "Stayにingをつけます。\n【🇺🇸 Cultural Note】\nモーテル（Motel）は車で部屋の前まで行ける便利な宿泊施設です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは新しいことを学んでいます。」となるように並び替えてください。",
+      "choices": ["learning", "They", "things", "are", "new"],
+      "answer": "Theyarelearningnewthings",
+      "explanation": "Learnにingをつけます。\n【🇺🇸 Cultural Note】\n生涯学習（Lifelong learning）の考え方が普及しており、社会人になっても大学に戻る人が多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「トムは数学を教えています」\nTom is (      ) math.",
+      "choices": [],
+      "answer": "teaching",
+      "explanation": "Teachにingをつけます。\n【🇺🇸 Cultural Note】\nSTEM教育（科学・技術・工学・数学）がアメリカの教育政策で重視されています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は絵を描いています」\nI am (      ) a picture.",
+      "choices": ["painting", "paint", "paints", "painted"],
+      "answer": "painting",
+      "explanation": "Paintにingをつけます。\n【🇺🇸 Cultural Note】\nボブ・ロスの絵画教室番組は、アメリカのポップカルチャーの一部です。"
+    },
+    {
+      "type": "sort",
+      "question": "「父は車を修理しています。」となるように並び替えてください。",
+      "choices": ["fixing", "is", "car", "Father", "the"],
+      "answer": "Fatherisfixingthecar",
+      "explanation": "Fixにingをつけます。\n【🇺🇸 Cultural Note】\nDIY精神が強く、車の修理や家の修繕を自分で行う人が多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは部屋を掃除しています」\nWe are (      ) the room.",
+      "choices": [],
+      "answer": "cleaning",
+      "explanation": "Cleanにingをつけます。\n【🇺🇸 Cultural Note】\n春の大掃除（Spring cleaning）は一般的な習慣です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は皿を洗っています」\nShe is (      ) the dishes.",
       "choices": ["washing", "wash", "washes", "washed"],
       "answer": "washing",
-      "explanation": "Is he washing...? です。"
+      "explanation": "Washにingをつけます。\n【🇺🇸 Cultural Note】\n食洗機（Dishwasher）を使う家庭が多いですが、大きな鍋などは手洗いします。"
     },
     {
       "type": "sort",
-      "question": "「私たちは映画を見ています。」となるように並び替えてください。",
-      "choices": ["movie", "watching", "a", "We", "are"],
-      "answer": "Wearewatchingamovie",
-      "explanation": "We are watching a movie. です。"
+      "question": "「彼は私を手伝っています。」となるように並び替えてください。",
+      "choices": ["helping", "me", "is", "He"],
+      "answer": "Heishelpingme",
+      "explanation": "Helpにingをつけます。\n【🇺🇸 Cultural Note】\nボランティア活動（Volunteering）は、アメリカの学生の課外活動として非常に重要です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は買い物に行っています」\nShe is (      ) shopping.",
+      "question": "「その赤ちゃんは微笑んでいます」\nThe baby is (      ).",
       "choices": [],
-      "answer": "going",
-      "explanation": "Go shoppingの進行形です。"
+      "answer": "smiling",
+      "explanation": "Smileはeを取ってingをつけます（smiling）。\n【🇺🇸 Cultural Note】\nアメリカ人は写真に写る時、歯を見せて大きく笑う（Smile）のが普通です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私の父は釣りに行っています」\nMy father is (      ) fishing.",
-      "choices": ["going", "go", "gone", "went"],
-      "answer": "going",
-      "explanation": "Go fishingの進行形です。"
+      "question": "「彼らは笑っています」\nThey are (      ).",
+      "choices": ["laughing", "laugh", "laughs", "laughed"],
+      "answer": "laughing",
+      "explanation": "Laugh（声を出して笑う）にingをつけます。\n【🇺🇸 Cultural Note】\nスタンダップコメディ（Stand-up comedy）はアメリカの主要なエンターテイメントです。"
     },
     {
       "type": "sort",
-      "question": "「私は彼を探しています。」となるように並び替えてください。",
-      "choices": ["looking", "him", "for", "am", "I"],
-      "answer": "Iamlookingforhim",
-      "explanation": "I am looking for him. Look for（探す）の進行形です。"
+      "question": "「先生は話しています。」となるように並び替えてください。",
+      "choices": ["talking", "teacher", "is", "The"],
+      "answer": "Theteacheristalking",
+      "explanation": "Talkにingをつけます。\n【🇺🇸 Cultural Note】\nTED Talksは、様々な分野の専門家がプレゼンテーションを行う有名なイベントです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「風が吹いています」\nThe wind is (      ).",
+      "question": "「私はそれについて考えています」\nI am (      ) about it.",
       "choices": [],
-      "answer": "blowing",
-      "explanation": "Blow（吹く）にingをつけてblowingです。"
+      "answer": "thinking",
+      "explanation": "Thinkにingをつけます。\n【🇺🇸 Cultural Note】\n\"I'm thinking about it\"は、誘いをやんわり断る時や保留にする時にも使われます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「あなたは嘘をついている」\nYou are (      ) a lie.",
-      "choices": ["telling", "saying", "speaking", "talking"],
-      "answer": "telling",
-      "explanation": "Tell a lie（嘘をつく）の進行形です。"
+      "question": "「彼女は試しています」\nShe is (      ).",
+      "choices": ["trying", "try", "tries", "tried"],
+      "answer": "trying",
+      "explanation": "Tryにingをつけます。\n【🇺🇸 Cultural Note】\n新しいことに挑戦する（Try new things）ことは推奨されます。"
     },
     {
       "type": "sort",
-      "question": "「彼は死にかけています（死につつあります）。」となるように並び替えてください。",
-      "choices": ["dying", "is", "He"],
-      "answer": "Heisdying",
-      "explanation": "He is dying. Die（死ぬ）はieをyに変えてingをつける特殊な変化をします。"
+      "question": "「私たちは準備をしています。」となるように並び替えてください。",
+      "choices": ["ready", "getting", "We", "are"],
+      "answer": "Wearegettingready",
+      "explanation": "Getはtを重ねてingをつけます（getting）。Get readyで「準備する」。\n【🇺🇸 Cultural Note】\n出かける前の準備に時間がかかることを\"Getting ready\"と言います。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は写真を撮っています」\nHe is (      ) a picture.",
+      "choices": [],
+      "answer": "taking",
+      "explanation": "Takeはeを取ってingをつけます（taking）。\n【🇺🇸 Cultural Note】\nセルフィー（Selfie）を撮ることは日常的な行為です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは祖父母を訪ねています」\nThey are (      ) their grandparents.",
+      "choices": ["visiting", "visit", "visits", "visited"],
+      "answer": "visiting",
+      "explanation": "Visitにingをつけます。\n【🇺🇸 Cultural Note】\n感謝祭やクリスマスは、遠方に住む家族を訪ねる（Visit）シーズンです。"
+    },
+    {
+      "type": "sort",
+      "question": "「風が吹いています。」となるように並び替えてください。",
+      "choices": ["blowing", "is", "wind", "The"],
+      "answer": "Thewindisblowing",
+      "explanation": "Blowにingをつけます。\n【🇺🇸 Cultural Note】\nシカゴは「ウィンディ・シティ（風の街）」と呼ばれています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は明日去ります（出発します）」\nI am (      ) tomorrow.",
+      "choices": [],
+      "answer": "leaving",
+      "explanation": "Leaveはeを取ってingをつけます（leaving）。現在進行形で未来の予定を表します。\n【🇺🇸 Cultural Note】\nアメリカの空港（Airport）はセキュリティチェックが厳しいため、早めに出発する必要があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は座っています」\nShe is (      ).",
+      "choices": ["sitting", "siting", "sits", "sat"],
+      "answer": "sitting",
+      "explanation": "Sitはtを重ねてingをつけます（sitting）。\n【🇺🇸 Cultural Note】\nベビーシッター（Babysitting）は、アメリカのティーンエイジャーの一般的なアルバイトです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは感謝祭のパレードを見ています。」となるように並び替えてください。",
+      "choices": ["Thanksgiving", "Parade", "watching", "They", "are", "the"],
+      "answer": "TheyarewatchingtheThanksgivingParade",
+      "explanation": "Watchにingをつけます。\n【🇺🇸 Cultural Note】\nニューヨークで行われるメイシーズ・パレードは、巨大なバルーンが登場する感謝祭の伝統行事です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は今、働いています」\nI am (      ) now.",
+      "choices": [],
+      "answer": "working",
+      "explanation": "Workにingをつけます。\n【🇺🇸 Cultural Note】\nリモートワーク（Working from home）がアメリカでも普及しています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「リサは泣いていますか？」\n(      ) Lisa crying?",
+      "choices": ["Is", "Does", "Are", "Do"],
+      "answer": "Is",
+      "explanation": "進行形の疑問文なのでIsを使います。\n【🇺🇸 Cultural Note】\n玉ねぎを切る時に泣く（Crying while cutting onions）のは世界共通です。"
+    },
+    {
+      "type": "sort",
+      "question": "「太陽が昇っています。」となるように並び替えてください。",
+      "choices": ["rising", "sun", "is", "The"],
+      "answer": "Thesunisrising",
+      "explanation": "Riseはeを取ってingをつけます（rising）。\n【🇺🇸 Cultural Note】\nグランドキャニオンでの日の出（Sunrise）は絶景です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はギターを弾いています」\nHe is (      ) the guitar.",
+      "choices": [],
+      "answer": "playing",
+      "explanation": "Playにingをつけます。\n【🇺🇸 Cultural Note】\n路上ライブ（Street performance）をするミュージシャンは、主要都市でよく見かけます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは楽しんでいます」\nWe are (      ) fun.",
+      "choices": ["having", "have", "has", "had"],
+      "answer": "having",
+      "explanation": "Have fun（楽しむ）の進行形はhaving funです。\n【🇺🇸 Cultural Note】\n\"Are you having fun?\"（楽しんでる？）はパーティーなどでよく聞かれるフレーズです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は手袋をしています。」となるように並び替えてください。",
+      "choices": ["wearing", "She", "gloves", "is"],
+      "answer": "Sheiswearinggloves",
+      "explanation": "Wearにingをつけます。\n【🇺🇸 Cultural Note】\n野球のグローブ（Baseball glove）もGlovesの一種です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは私の話を聞いていません」\nThey are not (      ) to me.",
+      "choices": [],
+      "answer": "listening",
+      "explanation": "Listenにingをつけます。\n【🇺🇸 Cultural Note】\n\"Listen to me!\"（話を聞いて！）は注意を引くための強い表現です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はあなたを待っています」\nI am (      ) for you.",
+      "choices": ["waiting", "wait", "waits", "waited"],
+      "answer": "waiting",
+      "explanation": "Waitにingをつけます。\n【🇺🇸 Cultural Note】\n待ち合わせ場所で待っている時に\"I'm waiting for you\"とテキストを送ります。"
+    },
+    {
+      "type": "sort",
+      "question": "「その店は閉まろうとしています。」となるように並び替えてください。",
+      "choices": ["closing", "store", "is", "The"],
+      "answer": "Thestoreisclosing",
+      "explanation": "Closeはeを取ってingをつけます（closing）。\n【🇺🇸 Cultural Note】\n閉店間際のセール（Closing sale）は掘り出し物が見つかるチャンスです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「トムはサンドイッチを食べています」\nTom is (      ) a sandwich.",
+      "choices": [],
+      "answer": "eating",
+      "explanation": "Eatにingをつけます。\n【🇺🇸 Cultural Note】\nサブウェイなどのサンドイッチチェーンはアメリカ全土にあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は水を飲んでいます」\nShe is (      ) water.",
+      "choices": ["drinking", "drink", "drinks", "drank"],
+      "answer": "drinking",
+      "explanation": "Drinkにingをつけます。\n【🇺🇸 Cultural Note】\nレストランでお水を頼む時は\"Tap water\"（水道水）と言えば無料です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは家に帰るところです。」となるように並び替えてください。",
+      "choices": ["going", "home", "We", "are"],
+      "answer": "Wearegoinghome",
+      "explanation": "Goにingをつけます。\n【🇺🇸 Cultural Note】\n\"Go home\"は家へ帰るという意味です。Homeは副詞なのでtoは不要です。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「彼らはサッカーをしています」\nThey are (      ) soccer.",
       "choices": [],
       "answer": "playing",
-      "explanation": "Playにingをつけてplayingです。"
+      "explanation": "Playにingをつけます。\n【🇺🇸 Cultural Note】\nアメリカの女子サッカー代表チームは世界的に非常に強いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私はただ見ているだけです（お店などで）」\nI am just (      ).",
-      "choices": ["looking", "watching", "seeing", "viewing"],
-      "answer": "looking",
-      "explanation": "I am just looking. 店員に話しかけられた時の定番の返事です。"
+      "question": "「雨が止もうとしています」\nThe rain is (      ).",
+      "choices": ["stopping", "stop", "stops", "stopped"],
+      "answer": "stopping",
+      "explanation": "Stopはpを重ねてingをつけます（stopping）。\n【🇺🇸 Cultural Note】\n通り雨の後に虹（Rainbow）が見えることがあります。"
     },
     {
       "type": "sort",
-      "question": "「日が沈みかけています。」となるように並び替えてください。",
-      "choices": ["setting", "sun", "is", "The"],
-      "answer": "Thesunissetting",
-      "explanation": "The sun is setting. Setはtを重ねてsettingにします。"
+      "question": "「私は手紙を送ります（送るところです）。」となるように並び替えてください。",
+      "choices": ["sending", "I", "letter", "am", "a"],
+      "answer": "Iamsendingaletter",
+      "explanation": "Sendにingをつけます。\n【🇺🇸 Cultural Note】\nアメリカの郵便ポスト（Mailbox）は青色です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は花を買っています」\nShe is (      ) flowers.",
+      "question": "「彼女はコンピュータを買っています」\nShe is (      ) a computer.",
       "choices": [],
       "answer": "buying",
-      "explanation": "Buyにingをつけてbuyingです。"
+      "explanation": "Buyにingをつけます。\n【🇺🇸 Cultural Note】\nサイバーマンデー（Cyber Monday）は、感謝祭の次の月曜日にオンラインショッピングのセールが行われる日です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私たちは京都を訪れています」\nWe are (      ) Kyoto.",
-      "choices": ["visiting", "visit", "visits", "visitting"],
-      "answer": "visiting",
-      "explanation": "Visitはtを重ねず、そのままingをつけます（アクセントが前の音節にあるため）。"
-    },
-    {
-      "type": "sort",
-      "question": "「なぜあなたは泣いているのですか？」となるように並び替えてください。",
-      "choices": ["crying", "you", "are", "Why"],
-      "answer": "Whyareyoucrying",
-      "explanation": "Why are you crying? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼は走っていません」\nHe isn't (      ).",
-      "choices": [],
-      "answer": "running",
-      "explanation": "Runはnを重ねてrunningです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は赤いコートを着ています」\nShe is (      ) a red coat.",
-      "choices": ["wearing", "wear", "wears", "putting"],
-      "answer": "wearing",
-      "explanation": "Wear（着ている）の進行形です。Put onは「着る動作」を表しますが、状態ならwearingです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私の妹は一生懸命勉強しています。」となるように並び替えてください。",
-      "choices": ["studying", "hard", "sister", "My", "is"],
-      "answer": "Mysisterisstudyinghard",
-      "explanation": "My sister is studying hard. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はあなたに話しかけています」\nI am (      ) to you.",
-      "choices": [],
-      "answer": "talking",
-      "explanation": "Talk to...の進行形です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼らは計画を立てています」\nThey are (      ) a plan.",
-      "choices": ["making", "doing", "taking", "getting"],
-      "answer": "making",
-      "explanation": "Make a plan（計画を立てる）の進行形です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私の英語は良くなっています。」となるように並び替えてください。",
-      "choices": ["better", "getting", "is", "English", "My"],
-      "answer": "MyEnglishisgettingbetter",
-      "explanation": "My English is getting better. Getはtを重ねてgettingにします。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は部屋で踊っています」\nShe is (      ) in the room.",
-      "choices": [],
-      "answer": "dancing",
-      "explanation": "Danceのeを取ってdancingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは楽しみですか？（ワクワクしていますか？）」\nAre you (      ) excited?",
-      "choices": ["getting", "get", "got", "geting"],
-      "answer": "getting",
-      "explanation": "Get excited（興奮する、ワクワクする）の進行形です。"
-    },
-    {
-      "type": "sort",
-      "question": "「誰かがドアをノックしています。」となるように並び替えてください。",
-      "choices": ["door", "knocking", "Someone", "on", "is", "the"],
-      "answer": "Someoneisknockingonthedoor",
-      "explanation": "Someone is knocking on the door. Knockにingをつけてknockingです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はサンドイッチを食べています」\nI am (      ) a sandwich.",
-      "choices": [],
-      "answer": "eating",
-      "explanation": "Eatにingをつけてeatingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼は自分の車を売ろうとしています」\nHe is (      ) his car.",
+      "question": "「彼らはクッキーを売っています」\nThey are (      ) cookies.",
       "choices": ["selling", "sell", "sells", "sold"],
       "answer": "selling",
-      "explanation": "Sell（売る）にingをつけてsellingです。"
+      "explanation": "Sellにingをつけます。\n【🇺🇸 Cultural Note】\n子供たちがレモネードスタンド（Lemonade stand）でレモネードを売るのは、アメリカの夏の風物詩です。"
     },
     {
       "type": "sort",
-      "question": "「彼らは歌を歌っていますか？」となるように並び替えてください。",
-      "choices": ["singing", "songs", "Are", "they"],
-      "answer": "Aretheysingingsongs",
-      "explanation": "Are they singing songs? です。"
+      "question": "「その猫はジャンプしています。」となるように並び替えてください。",
+      "choices": ["jumping", "cat", "is", "The"],
+      "answer": "Thecatisjumping",
+      "explanation": "Jumpにingをつけます。\n【🇺🇸 Cultural Note】\n猫の動画（Cat videos）はインターネットで大人気です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私はその本を楽しんでいます」\nI am (      ) the book.",
+      "question": "「私はあなたに尋ねています」\nI am (      ) you.",
       "choices": [],
-      "answer": "enjoying",
-      "explanation": "Enjoyにingをつけてenjoyingです。"
+      "answer": "asking",
+      "explanation": "Askにingをつけます。\n【🇺🇸 Cultural Note】\nデートに誘うことを\"Ask someone out\"と言います。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼女は髪を切っています」\nShe is (      ) her hair.",
-      "choices": ["cutting", "cuting", "cut", "cutes"],
-      "answer": "cutting",
-      "explanation": "Cutはtを重ねてcuttingにします。"
+      "question": "「彼女はドアを開けています」\nShe is (      ) the door.",
+      "choices": ["opening", "open", "opens", "opened"],
+      "answer": "opening",
+      "explanation": "Openにingをつけます。\n【🇺🇸 Cultural Note】\nハロウィンの夜、子供たちが家々を回る時、住人はドアを開けてお菓子を配ります。"
     },
     {
       "type": "sort",
-      "question": "「あなたは嘘をついています。」となるように並び替えてください。",
-      "choices": ["lying", "are", "You"],
-      "answer": "Youarelying",
-      "explanation": "You are lying. Lie（嘘をつく）はieをyに変えてlyingにします。"
+      "question": "「彼らはドアを閉めています。」となるように並び替えてください。",
+      "choices": ["closing", "are", "They", "door", "the"],
+      "answer": "Theyareclosingthedoor",
+      "explanation": "Closeはeを取ってingをつけます（closing）。\n【🇺🇸 Cultural Note】\n店が閉まる時間を\"Closing time\"と言います。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私たちは家へ帰る途中です（家へ向かっています）」\nWe are (      ) home.",
+      "question": "「ボブは走っていますか？」\n(      ) Bob running?",
       "choices": [],
-      "answer": "going",
-      "explanation": "We are going home. です。"
+      "answer": "Is",
+      "explanation": "進行形の疑問文なのでIsを使います。\n【🇺🇸 Cultural Note】\nボストンマラソンなどの市民マラソン大会には多くのランナーが参加します。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼は何と言っているのですか？」\nWhat is he (      )?",
-      "choices": ["saying", "telling", "speaking", "talking"],
-      "answer": "saying",
-      "explanation": "Saying（言っている）を使います。What is he saying?"
+      "question": "「私は彼を知っています（進行形にしない動詞）」\nI (      ) him.",
+      "choices": ["know", "am knowing", "knowing", "knew"],
+      "answer": "know",
+      "explanation": "Know（知っている）は状態動詞なので、通常進行形にしません。\n【🇺🇸 Cultural Note】\n\"I know him\"は「彼を知っている（知り合いだ）」という意味になります。"
     },
     {
       "type": "sort",
-      "question": "「お湯が沸いています。」となるように並び替えてください。",
-      "choices": ["boiling", "water", "is", "The"],
-      "answer": "Thewaterisboiling",
-      "explanation": "The water is boiling. Boil（沸騰する）の進行形です。"
+      "question": "「私たちはそれを愛しています（進行形にしない動詞）。」となるように並び替えてください。",
+      "choices": ["love", "it", "We"],
+      "answer": "Weloveit",
+      "explanation": "Loveは状態動詞なので進行形にしません（マクドナルドの\"I'm lovin' it\"は例外的な強調表現です）。\n【🇺🇸 Cultural Note】\nアメリカ人は気に入ったものに対して\"I love it!\"と表現豊かに言います。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は今、電話を使っていません」\nShe isn't (      ) the phone now.",
+      "question": "「彼女は車を持っています（進行形にしない動詞）」\nShe (      ) a car.",
       "choices": [],
-      "answer": "using",
-      "explanation": "Useのeを取ってusingです。"
+      "answer": "has",
+      "explanation": "Have（持っている）は所有を表す状態動詞なので進行形にしません。\n【🇺🇸 Cultural Note】\n食事を「食べる」という意味のHave（having lunch）は進行形にできます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「あなたは何を考えているのですか？」\nWhat are you (      )?",
-      "choices": ["thinking", "think", "thinks", "thanking"],
-      "answer": "thinking",
-      "explanation": "Thinkにingをつけてthinkingです。"
+      "question": "「彼はピザを欲しがっています（進行形にしない動詞）」\nHe (      ) pizza.",
+      "choices": ["wants", "is wanting", "want", "wanting"],
+      "answer": "wants",
+      "explanation": "Want（欲しい）は状態動詞なので進行形にしません。\n【🇺🇸 Cultural Note】\nシカゴ風ピザは非常に分厚く、一切れでも満腹になります。"
     },
     {
       "type": "sort",
-      "question": "「私たちは将来について話しています。」となるように並び替えてください。",
-      "choices": ["future", "talking", "about", "We", "are", "the"],
-      "answer": "Wearetalkingaboutthefuture",
-      "explanation": "We are talking about the future. Talkにingをつけてtalkingです。"
+      "question": "「私はあなたを信じています（進行形にしない動詞）。」となるように並び替えてください。",
+      "choices": ["you", "believe", "I"],
+      "answer": "Ibelieveyou",
+      "explanation": "Believe（信じる）は状態動詞なので進行形にしません。\n【🇺🇸 Cultural Note】\n\"I believe in you\"と言うと「あなたの能力を信じている／応援している」という意味になります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼は箱を持っています（抱えています）」\nHe is (      ) a box.",
+      "question": "「それは良いにおいがします（進行形にしない動詞）」\nIt (      ) good.",
       "choices": [],
-      "answer": "holding",
-      "explanation": "Hold（持つ）にingをつけてholdingです。Havingも文脈によっては使えますが、動作や一時的な状態としてはholdingが適しています。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼らは家を建てています」\nThey are (      ) a house.",
-      "choices": ["building", "making", "creating", "doing"],
-      "answer": "building",
-      "explanation": "Build（建てる）にingをつけてbuildingです。"
+      "answer": "smells",
+      "explanation": "Smell（においがする）などの知覚動詞は通常進行形にしません。\n【🇺🇸 Cultural Note】\nサンクスギビングのキッチンは、七面鳥を焼く良い香りに包まれます。"
     }
   ]
 }

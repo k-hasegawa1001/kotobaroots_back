@@ -1,706 +1,756 @@
 {
   "learning_topic": "一般動詞",
+  "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "「私はテニスをします」の動詞は？\nI (      ) tennis.",
-      "choices": ["play", "go", "have", "am"],
-      "answer": "play",
-      "explanation": "スポーツや楽器を演奏する時はplayを使います。\n\n【注意】I am tennisと言うと「私はテニスという人間です」という意味になってしまいます。"
+      "question": "「私は毎日コーヒーを飲みます」\nI (      ) coffee every day.",
+      "choices": ["drink", "drinks", "drinking", "drank"],
+      "answer": "drink",
+      "explanation": "主語がIなので原形のdrinkを使います。\n【🇺🇸 Cultural Note】\nアメリカ人はコーヒーが大好きです。「To-go（持ち帰り）」のカップを持って仕事や学校へ行くのが日常の光景です。"
     },
     {
       "type": "sort",
-      "question": "「私は猫が好きです。」となるように並び替えてください。",
-      "choices": ["cats", "like", "I"],
-      "answer": "Ilikecats",
-      "explanation": "I like cats. です。一般的に猫全体を指すので複数形catsを使います。"
+      "question": "「彼は野球をします。」となるように並び替えてください。",
+      "choices": ["plays", "He", "baseball"],
+      "answer": "He plays baseball",
+      "explanation": "He（三人称単数）なので動詞にsをつけてplaysにします。\n【🇺🇸 Cultural Note】\nメジャーリーグ（MLB）はアメリカの国民的スポーツです。試合観戦にはホットドッグとビールが欠かせません。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私はペンを持っています」\nI (      ) a pen.",
+      "question": "「私たちは感謝祭に七面鳥を食べます」\nWe (      ) turkey on Thanksgiving.",
       "choices": [],
-      "answer": "have",
-      "explanation": "Haveは「持っている」という状態を表す一般動詞です。\n\n【実用】「兄弟がいる」や「ペットを飼っている」という時もhaveを使います。"
+      "answer": "eat",
+      "explanation": "We（複数）なのでeatです。\n【🇺🇸 Cultural Note】\n感謝祭（11月の第4木曜日）には、家族が集まってローストターキー（七面鳥）を食べる伝統があります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私はあなたを知っています」\nI (      ) you.",
-      "choices": ["know", "no", "now", "not"],
-      "answer": "know",
-      "explanation": "Know（知っている）です。kは発音しません。"
+      "question": "「彼女はニューヨークに住んでいます」\nShe (      ) in New York.",
+      "choices": ["lives", "live", "living", "lived"],
+      "answer": "lives",
+      "explanation": "She（三人称単数）なのでlivesです。\n【🇺🇸 Cultural Note】\nニューヨーク市は5つの区（Boroughs）から成り、マンハッタンがその中心です。"
     },
     {
       "type": "sort",
-      "question": "「私はサッカーをします。」となるように並び替えてください。",
-      "choices": ["soccer", "play", "I"],
-      "answer": "Iplaysoccer",
-      "explanation": "I play soccer. です。"
+      "question": "「彼らはスクールバスで学校に行きます。」となるように並び替えてください。",
+      "choices": ["school", "bus", "They", "to", "go", "by"],
+      "answer": "They go to school by bus",
+      "explanation": "go to school by bus（バスで学校へ行く）。\n【🇺🇸 Cultural Note】\nアメリカのスクールバスは独特の黄色（School bus yellow）で、生徒の乗降中は後続車も対向車も必ず停止しなければならない法律があります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は東京に住んでいます」\nI (      ) in Tokyo.",
+      "question": "「あなたはチップを払いますか？」\nDo you (      ) the waiter?",
       "choices": [],
-      "answer": "live",
-      "explanation": "Live in ～で「～に住んでいる」というセットで覚えると便利です。"
+      "answer": "tip",
+      "explanation": "Tip（チップを払う）という動詞です。\n【🇺🇸 Cultural Note】\nアメリカはチップ社会です。レストランでは会計の15%〜20%程度を置くのがマナーで、サーバーの重要な収入源です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は新しい車が欲しい」\nI (      ) a new car.",
-      "choices": ["want", "went", "what", "wait"],
-      "answer": "want",
-      "explanation": "Want（欲しい）です。\n\n【実用】I want to ～（～したい）という表現でもよく使われます。"
+      "question": "「私の父は大きな車を持っています」\nMy father (      ) a big car.",
+      "choices": ["has", "have", "having", "had"],
+      "answer": "has",
+      "explanation": "My father（三人称単数）なのでhasを使います。\n【🇺🇸 Cultural Note】\nアメリカの道路は広く、ピックアップトラックやSUVなどの大型車が非常に人気があります。"
     },
     {
       "type": "sort",
-      "question": "「私は毎日勉強します。」となるように並び替えてください。",
-      "choices": ["day", "every", "study", "I"],
-      "answer": "Istudyeveryday",
-      "explanation": "I study every day. です。時を表す言葉（every day）は文の最後に置くのが基本です。"
+      "question": "「私はピーナッツバターが好きです。」となるように並び替えてください。",
+      "choices": ["butter", "peanut", "like", "I"],
+      "answer": "I like peanut butter",
+      "explanation": "I like... です。\n【🇺🇸 Cultural Note】\nピーナッツバターとジャムを挟んだサンドイッチ（PB&J）は、アメリカの子供のお弁当の定番中の定番です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「学校へ行く」\nGo (      ) school",
+      "question": "「彼はアメフトを観ます」\nHe (      ) football.",
       "choices": [],
-      "answer": "to",
-      "explanation": "Go to ～で「～へ行く」です。Toは矢印（→）のイメージです。"
+      "answer": "watches",
+      "explanation": "Watchにesをつけてwatchesにします。\n【🇺🇸 Cultural Note】\n日曜日はNFL（プロリーグ）の試合をテレビ観戦しながら過ごす「サンデー・フットボール」の習慣があります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「あなたは上手に泳ぐね」\nYou (      ) well.",
-      "choices": ["swim", "run", "fly", "walk"],
-      "answer": "swim",
-      "explanation": "Swim（泳ぐ）です。Wellは「上手に」という意味の副詞です。"
+      "question": "「私たちは制服を着ません」\nWe (      ) wear uniforms.",
+      "choices": ["don't", "doesn't", "not", "aren't"],
+      "answer": "don't",
+      "explanation": "Weなのでdon'tを使います。\n【🇺🇸 Cultural Note】\nアメリカの公立学校（Public School）では、私服通学が一般的です。制服があるのは私立学校（Private School）が多いです。"
     },
     {
       "type": "sort",
-      "question": "「私はピアノを弾きます。」となるように並び替えてください。",
-      "choices": ["piano", "the", "play", "I"],
-      "answer": "Iplaythepiano",
-      "explanation": "I play the piano. です。\n\n【重要】スポーツにはtheをつけませんが、楽器にはtheをつけるルールがあります。"
+      "question": "「彼女はドーナツを欲しがっています。」となるように並び替えてください。",
+      "choices": ["wants", "She", "donut", "a"],
+      "answer": "She wants a donut",
+      "explanation": "She（三人称単数）なのでwantsです。\n【🇺🇸 Cultural Note】\nアメリカの警察官が休憩中にドーナツを食べるというステレオタイプがありますが、実際にドーナツショップは早朝から開いているため利用しやすいのです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「英語を話す」\n(      ) English",
-      "choices": [],
-      "answer": "Speak",
-      "explanation": "Speak（話す）です。言語を話すときはSpeakを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私たちは夕食を作ります」\nWe (      ) dinner.",
-      "choices": ["cook", "cock", "cake", "coke"],
-      "answer": "cook",
-      "explanation": "Cook（料理する）です。\n\n【注意】Cookerと言うと「料理人」ではなく「調理器具（鍋など）」になるので注意が必要です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は本を読みます。」となるように並び替えてください。",
-      "choices": ["books", "read", "I"],
-      "answer": "Ireadbooks",
-      "explanation": "I read books. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「テレビを見る」\n(      ) TV",
-      "choices": [],
-      "answer": "Watch",
-      "explanation": "Watchは「動いているものを注意して見る」というニュアンスがあります。SeeやLookとの使い分けが重要です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は音楽を聴きます」\nI (      ) to music.",
-      "choices": ["listen", "hear", "list", "sound"],
-      "answer": "listen",
-      "explanation": "Listen to ～で「～を（意識して）聴く」です。Toを忘れないようにしましょう。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はあなたを愛しています。」となるように並び替えてください。",
-      "choices": ["love", "you", "I"],
-      "answer": "Iloveyou",
-      "explanation": "I love you. です。最も有名なSVO（主語・動詞・目的語）の文型です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「コーヒーを飲む」\n(      ) coffee",
-      "choices": [],
-      "answer": "Drink",
-      "explanation": "Drink（飲む）です。\n\n【文化】薬を飲むときはDrinkではなくTakeを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼らはここに来ます」\nThey (      ) here.",
-      "choices": ["come", "go", "home", "cam"],
-      "answer": "come",
-      "explanation": "Come（来る）です。Here（ここへ）にはToが含まれているので、Come to hereとは言いません。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は納豆を食べます。」となるように並び替えてください。",
-      "choices": ["eat", "natto", "I"],
-      "answer": "Ieatnatto",
-      "explanation": "I eat natto. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「手を洗う」\n(      ) my hands",
-      "choices": [],
-      "answer": "Wash",
-      "explanation": "Wash（洗う）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はコンピュータを使います」\nI (      ) a computer.",
-      "choices": ["use", "us", "user", "used"],
-      "answer": "use",
-      "explanation": "Use（使う）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は英語が好きです。」となるように並び替えてください。",
-      "choices": ["English", "like", "I"],
-      "answer": "IlikeEnglish",
-      "explanation": "I like English. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「朝食を作る」\n(      ) breakfast",
-      "choices": [],
-      "answer": "Make",
-      "explanation": "Make（作る）です。Cookも使えますが、Make breakfast（食事の支度をする）という表現も一般的です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私たちは一生懸命働きます」\nWe (      ) hard.",
-      "choices": ["work", "walk", "word", "wake"],
-      "answer": "work",
-      "explanation": "Work（働く）です。\n\n【発音】Walk（歩く）と区別しましょう。Workは口をあまり開けずに発音します。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は彼を知っています。」となるように並び替えてください。",
-      "choices": ["him", "know", "I"],
-      "answer": "Iknowhim",
-      "explanation": "I know him. です。Heではなく「彼を」にあたるHimを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「お皿を洗う」\nDo the (      )",
-      "choices": [],
-      "answer": "dishes",
-      "explanation": "Do the dishesで「皿洗いをする」という決まり文句です。Wash the dishesとも言います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は早く起きます」\nI (      ) up early.",
-      "choices": ["get", "go", "got", "give"],
-      "answer": "get",
-      "explanation": "Get upで「起きる」という熟語です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はあなたが必要です。」となるように並び替えてください。",
-      "choices": ["need", "you", "I"],
-      "answer": "Ineedyou",
-      "explanation": "I need you. です。Want（欲しい）より切実な必要性を表します。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「写真を撮る」\n(      ) a picture",
-      "choices": [],
-      "answer": "Take",
-      "explanation": "Take a pictureです。Takeには「（自分のところに）取り込む」というイメージがあります。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼らはたくさん走ります」\nThey (      ) a lot.",
-      "choices": ["run", "ran", "ren", "rum"],
-      "answer": "run",
-      "explanation": "Run（走る）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は犬を2匹飼っています。」となるように並び替えてください。",
-      "choices": ["two", "dogs", "have", "I"],
-      "answer": "Ihavetwodogs",
-      "explanation": "I have two dogs. です。Haveは「飼う」という意味でも使えます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「宿題をする」\n(      ) my homework",
+      "question": "「彼らはスペイン語を話しますか？」\n(      ) they speak Spanish?",
       "choices": [],
       "answer": "Do",
-      "explanation": "Do my homeworkです。MakeではなくDoを使うのがポイントです。"
+      "explanation": "They（複数）なのでDoで質問します。\n【🇺🇸 Cultural Note】\nアメリカにはヒスパニック系住民が多く、スペイン語は英語に次いで2番目に多く話されている言語です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は毎日ここに来ます」\nI (      ) here every day.",
-      "choices": ["come", "go", "came", "comb"],
-      "answer": "come",
-      "explanation": "Come（来る）です。"
+      "question": "「トムはあまり勉強しません」\nTom (      ) study very hard.",
+      "choices": ["doesn't", "don't", "isn't", "aren't"],
+      "answer": "doesn't",
+      "explanation": "Tom（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカの成績評価はGPA（Grade Point Average）が重視され、大学入試や奨学金に大きく影響します。"
     },
     {
       "type": "sort",
-      "question": "「私は手紙を書きます。」となるように並び替えてください。",
-      "choices": ["a", "write", "letter", "I"],
-      "answer": "Iwritealetter",
-      "explanation": "I write a letter. です。"
+      "question": "「私は毎日シャワーを浴びます。」となるように並び替えてください。",
+      "choices": ["shower", "take", "day", "a", "every", "I"],
+      "answer": "I take a shower every day",
+      "explanation": "Take a shower（シャワーを浴びる）。\n【🇺🇸 Cultural Note】\nアメリカ人は朝にシャワーを浴びて目を覚ます人が多いです。バスタブにお湯を溜める習慣は日本ほど一般的ではありません。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「歌を歌う」\n(      ) a song",
+      "question": "「私の母は銀行で働いています」\nMy mother (      ) at a bank.",
       "choices": [],
-      "answer": "Sing",
-      "explanation": "Sing（歌う）です。"
+      "answer": "works",
+      "explanation": "My mother（三人称単数）なのでworksです。\n【🇺🇸 Cultural Note】\nアメリカの銀行では、車に乗ったまま利用できるドライブスルーATMが普及しています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私たちはその公園で遊びます」\nWe (      ) in the park.",
-      "choices": ["play", "pray", "prey", "pay"],
-      "answer": "play",
-      "explanation": "Play（遊ぶ）です。\n\n【注意】Pray（祈る）、Pay（払う）と間違えないようにしましょう。"
+      "question": "「あなたは車を運転しますか？」\n(      ) you drive a car?",
+      "choices": ["Do", "Does", "Are", "Is"],
+      "answer": "Do",
+      "explanation": "YouなのでDoを使います。\n【🇺🇸 Cultural Note】\nアメリカでは16歳から運転免許が取れる州が多く、高校生が自分の車で通学することも珍しくありません。"
     },
     {
       "type": "sort",
-      "question": "「私は速く泳ぎます。」となるように並び替えてください。",
-      "choices": ["fast", "swim", "I"],
-      "answer": "Iswimfast",
-      "explanation": "I swim fast. です。"
+      "question": "「彼はピザが好きではありません。」となるように並び替えてください。",
+      "choices": ["like", "pizza", "He", "doesn't"],
+      "answer": "He doesn't like pizza",
+      "explanation": "He doesn't like... です。\n【🇺🇸 Cultural Note】\nアメリカのピザ消費量は凄まじく、特にスーパーボウルの日は一年で最もピザが売れる日と言われています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「ドアを開ける」\n(      ) the door",
+      "question": "「私たちはハロウィンを祝います」\nWe (      ) Halloween.",
       "choices": [],
-      "answer": "Open",
-      "explanation": "Open（開ける）です。"
+      "answer": "celebrate",
+      "explanation": "Celebrate（祝う）。\n【🇺🇸 Cultural Note】\n10月31日、子供たちは仮装して近所を回り、\"Trick or Treat\"（お菓子をくれなきゃいたずらするぞ）と言ってお菓子をもらいます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「窓を閉める」\n(      ) the window.",
-      "choices": ["Close", "Open", "Clean", "Break"],
-      "answer": "Close",
-      "explanation": "Close（閉める）です。"
+      "question": "「この店はクレジットカードを受け付けます（使えます）」\nThis store (      ) credit cards.",
+      "choices": ["accepts", "accept", "accepting", "accepted"],
+      "answer": "accepts",
+      "explanation": "This store（三人称単数）なのでacceptsです。\n【🇺🇸 Cultural Note】\nアメリカはカード社会（Credit card society）で、コーヒー1杯でもカードで支払うのが普通です。"
     },
     {
       "type": "sort",
-      "question": "「私はあなたを助けます。」となるように並び替えてください。",
-      "choices": ["help", "you", "I"],
-      "answer": "Ihelpyou",
-      "explanation": "I help you. です。"
+      "question": "「私は宿題をしなければなりません。」となるように並び替えてください。",
+      "choices": ["to", "do", "homework", "have", "my", "I"],
+      "answer": "I have to do my homework",
+      "explanation": "Have to do（～しなければならない）。\n【🇺🇸 Cultural Note】\nアメリカの学校の宿題（Homework）は量が多い傾向にあり、エッセイ（小論文）やプロジェクト型課題がよく出されます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「自転車に乗る」\n(      ) a bike",
+      "question": "「彼女はテキサス出身です（テキサスから来ました）」\nShe (      ) from Texas.",
       "choices": [],
-      "answer": "Ride",
-      "explanation": "Ride（またがって乗る）です。車に乗る（Get in）とは違う単語を使います。"
+      "answer": "comes",
+      "explanation": "Comes from...（出身だ）。Sheなのでsがつきます.Is fromとも言えますが、一般動詞の練習です。\n【🇺🇸 Cultural Note】\nテキサス州は独自の文化と誇りを持ち、「ローンスター・ステート」と呼ばれます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は彼らが好きです」\nI (      ) them.",
-      "choices": ["like", "love", "hate", "know"],
-      "answer": "like",
-      "explanation": "Like（好き）です。Themは「彼らを」という意味です。"
+      "question": "「ジムはスニーカーを履いています（身につけています）」\nJim (      ) sneakers.",
+      "choices": ["wears", "wear", "wearing", "weared"],
+      "answer": "wears",
+      "explanation": "Jim（三人称単数）なのでwearsです。\n【🇺🇸 Cultural Note】\nアメリカでは職場でも「ビジネスカジュアル」が進んでおり、スニーカー通勤も増えています。"
     },
     {
       "type": "sort",
-      "question": "「私たちは日本に住んでいます。」となるように並び替えてください。",
-      "choices": ["Japan", "live", "in", "We"],
-      "answer": "WeliveinJapan",
-      "explanation": "We live in Japan. です。"
+      "question": "「あなたはペットを飼っていますか？」となるように並び替えてください。",
+      "choices": ["pets", "any", "have", "you", "Do"],
+      "answer": "Do you have any pets",
+      "explanation": "Do you have any pets? です。\n【🇺🇸 Cultural Note】\nアメリカはペット大国で、犬や猫を家族の一員として大切にします。ドッグパークもたくさんあります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「お風呂に入る」\nTake a (      )",
+      "question": "「私の兄はギターを弾きます」\nMy brother (      ) the guitar.",
       "choices": [],
-      "answer": "bath",
-      "explanation": "Take a bathです。"
+      "answer": "plays",
+      "explanation": "Playにsをつけてplaysです。\n【🇺🇸 Cultural Note】\nアメリカはロックンロールやブルースの発祥地であり、ギターは非常に人気のある楽器です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は10時に寝ます」\nI (      ) to bed at ten.",
-      "choices": ["go", "sleep", "get", "walk"],
+      "question": "「私は魚を食べません（好き嫌いなどで）」\nI (      ) eat fish.",
+      "choices": ["don't", "doesn't", "not", "am not"],
+      "answer": "don't",
+      "explanation": "I don't eat... です。\n【🇺🇸 Cultural Note】\nアメリカ内陸部ではシーフードを食べる機会が沿岸部に比べて少ない傾向があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はとても速く走ります。」となるように並び替えてください。",
+      "choices": ["runs", "She", "fast", "very"],
+      "answer": "She runs very fast",
+      "explanation": "She runs very fast. です。\n【🇺🇸 Cultural Note】\nジョギング（Jogging）はアメリカで非常に人気のある運動習慣です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは日曜日に教会へ行きます」\nThey (      ) to church on Sundays.",
+      "choices": [],
       "answer": "go",
-      "explanation": "Go to bedで「寝る（ベッドに向かう）」という動作を表します。Sleepは「眠っている状態」です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はリンゴを2つ食べます。」となるように並び替えてください。",
-      "choices": ["eat", "apples", "two", "I"],
-      "answer": "Ieattwoapples",
-      "explanation": "I eat two apples. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「立ち上がる」\nStand (      )",
-      "choices": [],
-      "answer": "up",
-      "explanation": "Stand upです。\n\n【対義語】Sit down（座る）です。"
+      "explanation": "They（複数）なのでgoです。\n【🇺🇸 Cultural Note】\nアメリカは先進国の中でも信仰心が厚い国で、特に南部は「バイブル・ベルト」と呼ばれ、日曜礼拝に通う人が多いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「座る」\n(      ) down",
-      "choices": ["Sit", "Seat", "Set", "Stand"],
-      "answer": "Sit",
-      "explanation": "Sit（座る）です。Seatは「座席」という名詞です。"
+      "question": "「ケイトはたくさんの本を持っています」\nKate (      ) many books.",
+      "choices": ["has", "have", "having", "haves"],
+      "answer": "has",
+      "explanation": "Kate（三人称単数）なのでhasを使います。\n【🇺🇸 Cultural Note】\nアメリカの公共図書館（Public Library）は地域コミュニティの中心であり、誰でも無料で利用できます。"
     },
     {
       "type": "sort",
-      "question": "「私は数学を勉強します。」となるように並び替えてください。",
-      "choices": ["math", "study", "I"],
-      "answer": "Istudymath",
-      "explanation": "I study math. です。"
+      "question": "「あなたはどこに住んでいますか？」となるように並び替えてください。",
+      "choices": ["live", "you", "Where", "do"],
+      "answer": "Where do you live",
+      "explanation": "Where do you live? です。\n【🇺🇸 Cultural Note】\nアメリカの住所は「番地 通り名, 市, 州 郵便番号」の順で書きます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「英語を教える」\n(      ) English",
+      "question": "「私はパンケーキが欲しいです」\nI (      ) pancakes.",
       "choices": [],
-      "answer": "Teach",
-      "explanation": "Teach（教える）です。"
+      "answer": "want",
+      "explanation": "Want（欲しい）。\n【🇺🇸 Cultural Note】\nアメリカのパンケーキは朝食の定番で、ベーコンや卵と一緒に、メープルシロップをたっぷりかけて食べます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「この本を読む」\n(      ) this book.",
-      "choices": ["Read", "Lead", "Look", "Watch"],
-      "answer": "Read",
-      "explanation": "Read（読む）です。"
+      "question": "「彼は地下鉄を使いません」\nHe (      ) use the subway.",
+      "choices": ["doesn't", "don't", "isn't", "aren't"],
+      "answer": "doesn't",
+      "explanation": "He（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nロサンゼルスのような車社会の都市では、地下鉄があっても車通勤をする人が圧倒的多数です。"
     },
     {
       "type": "sort",
-      "question": "「私は車を持っています。」となるように並び替えてください。",
-      "choices": ["have", "car", "a", "I"],
-      "answer": "Ihaveacar",
-      "explanation": "I have a car. です。"
+      "question": "「私たちはテレビゲームをします。」となるように並び替えてください。",
+      "choices": ["video", "We", "games", "play"],
+      "answer": "We play video games",
+      "explanation": "Play video games.\n【🇺🇸 Cultural Note】\nアメリカのゲーム市場は巨大で、eスポーツの大会も盛んに行われています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「鳥のように飛ぶ」\n(      ) like a bird",
+      "question": "「彼女はよく勉強します」\nShe (      ) hard.",
       "choices": [],
-      "answer": "Fly",
-      "explanation": "Fly（飛ぶ）です。"
+      "answer": "studies",
+      "explanation": "Studyはyをiに変えてesをつけ、studiesにします。\n【🇺🇸 Cultural Note】\nアメリカの大学生は、課題図書（Reading assignment）の量が膨大で、図書館にこもって勉強します。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は毎朝走ります」\nI (      ) every morning.",
-      "choices": ["run", "walk", "sleep", "eat"],
-      "answer": "run",
-      "explanation": "Run（走る）です。"
+      "question": "「あなたは何時に起きますか？」\nWhat time (      ) you get up?",
+      "choices": ["do", "does", "are", "have"],
+      "answer": "do",
+      "explanation": "Youなのでdoを使います。\n【🇺🇸 Cultural Note】\nアメリカの高校の始業時間は早く、朝7時台に始まる学校も珍しくありません。"
     },
     {
       "type": "sort",
-      "question": "「私たちはテニスをします。」となるように並び替えてください。",
-      "choices": ["tennis", "play", "We"],
-      "answer": "Weplaytennis",
-      "explanation": "We play tennis. です。"
+      "question": "「私の父は車を洗います。」となるように並び替えてください。",
+      "choices": ["washes", "car", "the", "My", "father"],
+      "answer": "My father washes the car",
+      "explanation": "Washにesをつけてwashesにします。\n【🇺🇸 Cultural Note】\n週末に自宅のドライブウェイ（私道）で洗車をするのは一般的な光景です。子供がお小遣い稼ぎで手伝うこともあります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「バスに乗る」\n(      ) a bus",
+      "question": "「私はその答えを知りません」\nI don't (      ) the answer.",
       "choices": [],
-      "answer": "Take",
-      "explanation": "Take a bus（バスを利用する）と言います。Ride a busとも言いますが、Takeが一般的です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はその答えを知っています」\nI (      ) the answer.",
-      "choices": ["know", "think", "guess", "say"],
       "answer": "know",
-      "explanation": "I know the answer. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は水が欲しい。」となるように並び替えてください。",
-      "choices": ["want", "water", "I"],
-      "answer": "Iwantwater",
-      "explanation": "I want water. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「夕食を食べる」\n(      ) dinner",
-      "choices": [],
-      "answer": "Eat",
-      "explanation": "Eat dinner、またはHave dinnerとも言います。"
+      "explanation": "Know（知っている）。\n【🇺🇸 Cultural Note】\n授業中に積極的に手を挙げて発言することが、アメリカの学校では高く評価されます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は緑茶を飲みます」\nI (      ) green tea.",
-      "choices": ["drink", "eat", "cook", "make"],
-      "answer": "drink",
-      "explanation": "Drink（飲む）です。"
+      "question": "「彼は毎日歯を磨きます」\nHe (      ) his teeth every day.",
+      "choices": ["brushes", "brush", "brushs", "brushing"],
+      "answer": "brushes",
+      "explanation": "Brushにesをつけてbrushesにします。\n【🇺🇸 Cultural Note】\nアメリカ人は歯並びと白さを非常に重視します。歯列矯正（Braces）をする子供がとても多いです。"
     },
     {
       "type": "sort",
-      "question": "「彼らは家へ帰ります。」となるように並び替えてください。",
-      "choices": ["home", "go", "They"],
-      "answer": "Theygohome",
-      "explanation": "They go home. です。\n\n【注意】Homeは「家へ」という副詞の意味を含むので、go to homeとは言いません。"
+      "question": "「彼らは昼食にサンドイッチを食べます。」となるように並び替えてください。",
+      "choices": ["sandwiches", "lunch", "They", "eat", "for"],
+      "answer": "They eat sandwiches for lunch",
+      "explanation": "Eat sandwiches for lunch.\n【🇺🇸 Cultural Note】\n学校や職場へランチを持参することを\"Brown-bagging\"（茶色の紙袋に入れることから）と言います。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「質問する」\n(      ) a question",
+      "question": "「彼女は歴史を教えています」\nShe (      ) history.",
       "choices": [],
-      "answer": "Ask",
-      "explanation": "Ask（尋ねる）です。"
+      "answer": "teaches",
+      "explanation": "Teachにesをつけてteachesにします。\n【🇺🇸 Cultural Note】\nアメリカ史（US History）は必修科目です。建国の父（Founding Fathers）や公民権運動などを学びます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私はそう思う」\nI (      ) so.",
-      "choices": ["think", "sink", "thank", "sing"],
-      "answer": "think",
-      "explanation": "Think（思う、考える）です。thの発音に注意です。"
+      "question": "「あなたはロック音楽が好きですか？」\n(      ) you like rock music?",
+      "choices": ["Do", "Does", "Are", "Is"],
+      "answer": "Do",
+      "explanation": "YouなのでDoで聞きます。\n【🇺🇸 Cultural Note】\nエルヴィス・プレスリーなど、アメリカはロックンロールの発祥地として世界に影響を与えました。"
     },
     {
       "type": "sort",
-      "question": "「私たちは野球をします。」となるように並び替えてください。",
-      "choices": ["baseball", "play", "We"],
-      "answer": "Weplaybaseball",
-      "explanation": "We play baseball. です。"
+      "question": "「私はテレビを見ません。」となるように並び替えてください。",
+      "choices": ["TV", "don't", "watch", "I"],
+      "answer": "I don't watch TV",
+      "explanation": "I don't watch TV.\n【🇺🇸 Cultural Note】\n最近はケーブルテレビ（Cable）を解約して、Netflixなどのストリーミングサービス（Cord-cutting）に移行する人が増えています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「学校へ歩いていく」\n(      ) to school",
+      "question": "「父は夕食後に皿を洗います」\nMy father (      ) the dishes after dinner.",
       "choices": [],
-      "answer": "Walk",
-      "explanation": "Walk to schoolです。"
+      "answer": "washes",
+      "explanation": "Wash（洗う）の三単現washesです。\n【🇺🇸 Cultural Note】\nアメリカの家庭には大型の食洗機（Dishwasher）が普及しており、手洗いよりも機械を使うのが一般的です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「名前を書く」\n(      ) your name.",
-      "choices": ["Write", "Read", "Right", "Light"],
-      "answer": "Write",
-      "explanation": "Write（書く）です。"
+      "question": "「彼女は放課後、アルバイトをしますか？」\nDoes she (      ) part-time after school?",
+      "choices": ["work", "works", "working", "worker"],
+      "answer": "work",
+      "explanation": "Doesを使っているので動詞は原形のworkに戻ります。\n【🇺🇸 Cultural Note】\nアメリカの高校生は、車を買うためや大学費用を貯めるためにアルバイト（Part-time job）をすることがよくあります。"
     },
     {
       "type": "sort",
-      "question": "「私は毎日料理します。」となるように並び替えてください。",
-      "choices": ["day", "every", "cook", "I"],
-      "answer": "Icookeveryday",
-      "explanation": "I cook every day. です。"
+      "question": "「私たちはショッピングモールに行きます。」となるように並び替えてください。",
+      "choices": ["go", "mall", "We", "to", "the"],
+      "answer": "We go to the mall",
+      "explanation": "We go to the mall.\n【🇺🇸 Cultural Note】\nショッピングモール（Mall）は、買い物だけでなく、ティーンエイジャーが友達と遊ぶ（Hang out）場所でもあります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「歯を磨く」\n(      ) my teeth",
+      "question": "「彼は何が必要ですか？」\nWhat does he (      )?",
       "choices": [],
-      "answer": "Brush",
-      "explanation": "Brush（ブラシをかける＝磨く）です。"
+      "answer": "need",
+      "explanation": "Doesがあるので原形のneedを使います。\n【🇺🇸 Cultural Note】\n\"Need\"は必需品、\"Want\"は欲しいものを指します。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私はバッグを買います」\nI (      ) a bag.",
-      "choices": ["buy", "by", "bye", "bay"],
-      "answer": "buy",
-      "explanation": "Buy（買う）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は新しい靴を持っています。」となるように並び替えてください。",
-      "choices": ["shoes", "new", "have", "I"],
-      "answer": "Ihavenewshoes",
-      "explanation": "I have new shoes. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「その本を閉じる」\n(      ) the book",
-      "choices": [],
-      "answer": "Close",
-      "explanation": "Close the bookです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はこの歌が好きです」\nI (      ) this song.",
-      "choices": ["like", "look", "listen", "sing"],
-      "answer": "like",
-      "explanation": "Like（好き）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちは歌を歌います。」となるように並び替えてください。",
-      "choices": ["songs", "sing", "We"],
-      "answer": "Wesingsongs",
-      "explanation": "We sing songs. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「箱を作る」\n(      ) a box",
-      "choices": [],
-      "answer": "Make",
-      "explanation": "Make（作る）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はコンピュータを使います」\nI (      ) a computer.",
-      "choices": ["use", "us", "play", "do"],
-      "answer": "use",
-      "explanation": "Use（使う）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はアイスクリームが欲しい。」となるように並び替えてください。",
-      "choices": ["ice cream", "want", "I"],
-      "answer": "Iwanticecream",
-      "explanation": "I want ice cream. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「部屋を掃除する」\n(      ) the room",
-      "choices": [],
-      "answer": "Clean",
-      "explanation": "Clean（掃除する）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女に電話する」\n(      ) her.",
-      "choices": ["Call", "Cool", "Cell", "Tell"],
-      "answer": "Call",
-      "explanation": "Call（呼ぶ、電話する）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は毎日働きます。」となるように並び替えてください。",
-      "choices": ["every", "work", "I", "day"],
-      "answer": "Iworkeveryday",
-      "explanation": "I work every day. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「映画を見る」\n(      ) a movie",
-      "choices": [],
-      "answer": "Watch",
-      "explanation": "Watch a movieです。映画館で見る場合はSee a movieと言うこともあります。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は鍵を見つける」\nI (      ) the key.",
-      "choices": ["find", "look", "search", "watch"],
-      "answer": "find",
-      "explanation": "Find（見つける）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私たちは英語を話します。」となるように並び替えてください。",
-      "choices": ["English", "speak", "We"],
-      "answer": "WespeakEnglish",
-      "explanation": "We speak English. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「車を洗う」\n(      ) the car",
-      "choices": [],
-      "answer": "Wash",
-      "explanation": "Wash the car（洗車する）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は朝食を食べる」\nI (      ) breakfast.",
-      "choices": ["eat", "cook", "make", "buy"],
+      "question": "「私はベーグルを食べます」\nI (      ) bagels.",
+      "choices": ["eat", "eats", "ate", "eating"],
       "answer": "eat",
-      "explanation": "Eat（食べる）です。"
+      "explanation": "Iなのでeatを使います。\n【🇺🇸 Cultural Note】\nニューヨークのベーグルは特に有名で、クリームチーズ（Schmear）をたっぷり塗って朝食にします。"
     },
     {
       "type": "sort",
-      "question": "「私はテニスが好きです。」となるように並び替えてください。",
-      "choices": ["tennis", "I", "like"],
-      "answer": "Iliketennis",
-      "explanation": "I like tennis. です。"
+      "question": "「私の母は料理が好きです。」となるように並び替えてください。",
+      "choices": ["cooking", "likes", "mother", "My"],
+      "answer": "My mother likes cooking",
+      "explanation": "My mother likes cooking.\n【🇺🇸 Cultural Note】\nアメリカの家庭料理の定番には、マカロニ＆チーズ（Mac & Cheese）やミートローフなどがあります。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「顔を洗う」\nWash my (      )",
+      "question": "「彼らは毎日英語を使います」\nThey (      ) English every day.",
       "choices": [],
-      "answer": "face",
-      "explanation": "Wash my faceです。"
+      "answer": "use",
+      "explanation": "Use（使う）。Theyなので原形です。\n【🇺🇸 Cultural Note】\nアメリカには公用語を定める連邦法はありませんが、事実上の共通語として英語が使われています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私はあなたを待つ」\nI (      ) for you.",
-      "choices": ["wait", "want", "watch", "wish"],
-      "answer": "wait",
-      "explanation": "Wait for ～で「～を待つ」です。"
+      "question": "「ジョンは週末に何をしますか？」\nWhat (      ) John do on weekends?",
+      "choices": ["does", "do", "is", "are"],
+      "answer": "does",
+      "explanation": "John（三人称単数）なのでdoesを使います。\n【🇺🇸 Cultural Note】\n週末（Weekends）はバーベキューをしたり、スポーツ観戦をしたりしてリラックスするのがアメリカ流です。"
     },
     {
       "type": "sort",
-      "question": "「私はたくさん本を読みます。」となるように並び替えてください。",
-      "choices": ["a lot", "read", "books", "I"],
-      "answer": "Ireadbooksalot",
-      "explanation": "I read books a lot. です。A lot（たくさん）は文の最後に置きます。"
+      "question": "「私は車を持っていません。」となるように並び替えてください。",
+      "choices": ["have", "I", "car", "a", "don't"],
+      "answer": "I don't have a car",
+      "explanation": "I don't have a car.\n【🇺🇸 Cultural Note】\nニューヨークなどの大都市を除き、アメリカの多くの地域では車がないと生活が困難です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「お金を使う」\n(      ) money",
+      "question": "「私の犬は速く走ります」\nMy dog (      ) fast.",
       "choices": [],
-      "answer": "Spend",
-      "explanation": "Spend（（お金や時間を）使う）です。Use moneyとも言えますが、Spendが一般的です。"
+      "answer": "runs",
+      "explanation": "Runにsをつけてrunsにします。\n【🇺🇸 Cultural Note】\nアメリカでは犬をリードなしで遊ばせることができるドッグパーク（Dog park）が人気です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は大阪を訪れる」\nI (      ) Osaka.",
-      "choices": ["visit", "go", "come", "travel"],
-      "answer": "visit",
-      "explanation": "Visit（訪れる）です。Visit to Osakaとは言わず、直接Osakaを続けます。"
+      "question": "「彼女はダンスの授業を受けます」\nShe (      ) dance lessons.",
+      "choices": ["takes", "take", "taking", "took"],
+      "answer": "takes",
+      "explanation": "Take a lesson（授業を受ける）。Sheなのでtakesです。\n【🇺🇸 Cultural Note】\n学校外での習い事（Extracurricular activities）は、大学入試のアピールポイントとしても重要視されます。"
     },
     {
       "type": "sort",
-      "question": "「彼らはギターを弾きます。」となるように並び替えてください。",
-      "choices": ["guitar", "the", "play", "They"],
-      "answer": "Theyplaytheguitar",
-      "explanation": "They play the guitar. です。"
+      "question": "「私たちはリサイクルをします。」となるように並び替えてください。",
+      "choices": ["recycle", "We"],
+      "answer": "We recycle",
+      "explanation": "We recycle.\n【🇺🇸 Cultural Note】\nアメリカの家庭には青いリサイクル専用のゴミ箱（Recycling bin）があり、紙やプラスチックを分別します。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「踊る」\n(      )",
+      "question": "「彼はたくさん水を飲みます」\nHe (      ) a lot of water.",
       "choices": [],
-      "answer": "Dance",
-      "explanation": "Dance（踊る）です。"
+      "answer": "drinks",
+      "explanation": "Drinkにsをつけてdrinksにします。\n【🇺🇸 Cultural Note】\n健康意識の高いアメリカ人は、常に大きな水筒（Water bottle）を持ち歩いています。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は日本を出発する」\nI (      ) Japan.",
-      "choices": ["leave", "live", "love", "like"],
-      "answer": "leave",
-      "explanation": "Leave（去る、出発する）です。"
+      "question": "「あなたたちはスニーカーを履きますか？」\n(      ) you wear sneakers?",
+      "choices": ["Do", "Does", "Are", "Is"],
+      "answer": "Do",
+      "explanation": "You（あなたたち）なのでDoです。\n【🇺🇸 Cultural Note】\nスニーカー（Sneakers）はアメリカのファッション文化の中心で、通学や普段着として広く愛用されています。"
     },
     {
       "type": "sort",
-      "question": "「私はここに住んでいます。」となるように並び替えてください。",
-      "choices": ["here", "live", "I"],
-      "answer": "Ilivehere",
-      "explanation": "I live here. です。"
+      "question": "「私の姉はヨガをします。」となるように並び替えてください。",
+      "choices": ["yoga", "does", "sister", "My"],
+      "answer": "My sister does yoga",
+      "explanation": "Do yoga（ヨガをする）。Sisterなのでdoesになります。\n【🇺🇸 Cultural Note】\nヨガはアメリカで非常に人気のあるフィットネスで、ヨガパンツを普段着として履く女性も多いです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「英語を学ぶ」\n(      ) English",
+      "question": "「彼らはあまり本を読みません」\nThey don't (      ) many books.",
       "choices": [],
-      "answer": "Learn",
-      "explanation": "Learn（学ぶ、習得する）です。Study（勉強する）と似ていますが、身につけるニュアンスが強いです。"
+      "answer": "read",
+      "explanation": "Don'tの後ろなので原形のreadです。\n【🇺🇸 Cultural Note】\nアメリカではオーディオブック（Audiobook）市場が大きく、通勤中の車内で「聴く読書」をする人が多いです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「ボールをキャッチする」\n(      ) a ball.",
-      "choices": ["Catch", "Cat", "Cut", "Call"],
-      "answer": "Catch",
-      "explanation": "Catch（捕まえる）です。"
+      "question": "「父は日曜日に庭仕事をします」\nMy father (      ) in the yard on Sundays.",
+      "choices": ["works", "work", "working", "worked"],
+      "answer": "works",
+      "explanation": "Workにsをつけてworksです。\n【🇺🇸 Cultural Note】\n芝刈り（Mowing the lawn）や家の修繕（DIY）は、アメリカの父親の週末の仕事とされることが多いです。"
     },
     {
       "type": "sort",
-      "question": "「私はペンを使います。」となるように並び替えてください。",
-      "choices": ["pen", "a", "use", "I"],
-      "answer": "Iuseapen",
-      "explanation": "I use a pen. です。"
+      "question": "「私は自分の部屋が好きです。」となるように並び替えてください。",
+      "choices": ["room", "like", "my", "I"],
+      "answer": "I like my room",
+      "explanation": "I like my room.\n【🇺🇸 Cultural Note】\nアメリカの子供部屋は個性を尊重し、ポスターやトロフィーで自分好みに装飾されます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「ドアを閉める」\n(      ) the door",
+      "question": "「彼女はピアノを練習します」\nShe (      ) the piano.",
       "choices": [],
-      "answer": "Shut",
-      "explanation": "Shut（閉める）です。Closeとほぼ同じ意味ですが、勢いよく閉めるニュアンスがあることもあります。"
+      "answer": "practices",
+      "explanation": "Practiceにsをつけてpracticesです。\n【🇺🇸 Cultural Note】\n音楽教育も盛んで、学校のマーチングバンド（Marching band）は地域のイベントやスポーツの試合で活躍します。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私はそれを楽しむ」\nI (      ) it.",
-      "choices": ["enjoy", "play", "funny", "happy"],
+      "question": "「私たちは学校へ歩いて行きません」\nWe (      ) walk to school.",
+      "choices": ["don't", "doesn't", "aren't", "not"],
+      "answer": "don't",
+      "explanation": "Weなのでdon'tを使います。\n【🇺🇸 Cultural Note】\nアメリカの学区は広いため、歩いて通える範囲に住んでいる生徒（Walkers）は少なく、多くはバスか親の送迎です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はドーナツを食べますか？」となるように並び替えてください。",
+      "choices": ["donuts", "eat", "he", "Does"],
+      "answer": "Does he eat donuts",
+      "explanation": "Does he eat donuts?\n【🇺🇸 Cultural Note】\nダンキンドーナツやクリスピー・クリームなどのドーナツチェーンはアメリカ生活の一部です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は毎日メールをチェックします」\nI (      ) my email every day.",
+      "choices": [],
+      "answer": "check",
+      "explanation": "Check（確認する）。\n【🇺🇸 Cultural Note】\nアメリカのビジネス文化ではメールの返信速度が重視されます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は兄弟がいますか？」\n(      ) she have any brothers?",
+      "choices": ["Does", "Do", "Is", "Has"],
+      "answer": "Does",
+      "explanation": "SheなのでDoesで質問します。動詞は原形のhaveに戻ります。\n【🇺🇸 Cultural Note】\n「兄弟姉妹」をまとめてSiblingsと言うこともよくあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは一生懸命働きます。」となるように並び替えてください。",
+      "choices": ["hard", "work", "They"],
+      "answer": "They work hard",
+      "explanation": "They work hard.\n【🇺🇸 Cultural Note】\nアメリカ人は「ハードワーク」を美徳とする傾向があり、成功のために長時間働く人も多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「このバスはダウンタウンへ行きます」\nThis bus (      ) to downtown.",
+      "choices": [],
+      "answer": "goes",
+      "explanation": "Goにesをつけてgoesにします。\n【🇺🇸 Cultural Note】\nDowntownは都市の中心業務地区のこと。郊外（Suburbs）に住んでダウンタウンへ通勤するスタイルが一般的です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は辛い食べ物が好きです」\nI (      ) spicy food.",
+      "choices": ["like", "likes", "liking", "liked"],
+      "answer": "like",
+      "explanation": "Iなのでlikeです。\n【🇺🇸 Cultural Note】\nアメリカではメキシコ料理やタイ料理などのスパイシーな食事が非常に人気があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はテレビを見ますか？」となるように並び替えてください。",
+      "choices": ["TV", "he", "Does", "watch"],
+      "answer": "Does he watch TV",
+      "explanation": "Does he watch TV?\n【🇺🇸 Cultural Note】\nアメリカのドラマシリーズ（TV shows）は世界的に人気があり、日常会話の話題によくなります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは旅行を楽しみます」\nWe (      ) traveling.",
+      "choices": [],
       "answer": "enjoy",
-      "explanation": "Enjoy（楽しむ）です。"
+      "explanation": "Enjoy（楽しむ）。\n【🇺🇸 Cultural Note】\nアメリカ人は長期休暇よりも、週末や連休を使った短いロードトリップ（Road trip）を楽しむ傾向があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の妹は野菜を食べません」\nMy sister (      ) eat vegetables.",
+      "choices": ["doesn't", "don't", "isn't", "not"],
+      "answer": "doesn't",
+      "explanation": "My sister（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\nアメリカの学校給食では、ピザのトマトソースが「野菜」としてカウントされることが議論になったことがあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたたちは毎日勉強しますか？」となるように並び替えてください。",
+      "choices": ["day", "study", "every", "you", "Do"],
+      "answer": "Do you study every day",
+      "explanation": "Do you study every day?\n【🇺🇸 Cultural Note】\nアメリカの高校生は、SATやACTといった大学進学適性試験のために勉強します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はよく眠ります」\nHe (      ) well.",
+      "choices": [],
+      "answer": "sleeps",
+      "explanation": "Sleepにsをつけてsleepsです。\n【🇺🇸 Cultural Note】\n「早起きは三文の徳（The early bird catches the worm）」という諺はアメリカでもよく知られています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼を知りません」\nI (      ) know him.",
+      "choices": ["don't", "doesn't", "am not", "no"],
+      "answer": "don't",
+      "explanation": "I don't know him.\n【🇺🇸 Cultural Note】\n\"I don't know\"を略して\"IDK\"と書くのはテキストメッセージの定番です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はたくさんの服を持っています。」となるように並び替えてください。",
+      "choices": ["clothes", "She", "many", "has"],
+      "answer": "She has many clothes",
+      "explanation": "She has many clothes.\n【🇺🇸 Cultural Note】\nアメリカの学校には「ホームカミング」や「プロム」など、ドレスアップするイベントがあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは平和を望みます」\nWe (      ) peace.",
+      "choices": [],
+      "answer": "want",
+      "explanation": "Want（望む/欲しい）。\n【🇺🇸 Cultural Note】\n60年代のヒッピー文化など、アメリカには強力な平和運動の歴史があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「トムはいつここに来ますか？」\nWhen (      ) Tom come here?",
+      "choices": ["does", "do", "is", "has"],
+      "answer": "does",
+      "explanation": "Tom（三人称単数）なのでdoesを使います。\n【🇺🇸 Cultural Note】\nアメリカ人の時間感覚は比較的きっちりしていますが、パーティーなどでは少し遅れて行くのがマナーとされることもあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は朝食を作りません。」となるように並び替えてください。",
+      "choices": ["breakfast", "make", "don't", "I"],
+      "answer": "I don't make breakfast",
+      "explanation": "I don't make breakfast.\n【🇺🇸 Cultural Note】\n平日の朝食はシリアル（Cereal）やトーストで簡単に済ませることが多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私の猫は一日中寝ています」\nMy cat (      ) all day.",
+      "choices": [],
+      "answer": "sleeps",
+      "explanation": "Sleepにsをつけてsleepsです。\n【🇺🇸 Cultural Note】\nアメリカで飼われている猫の数は約9000万匹とも言われ、犬と並んで人気のあるペットです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らはアパートに住んでいます」\nThey (      ) in an apartment.",
+      "choices": ["live", "lives", "living", "lived"],
+      "answer": "live",
+      "explanation": "They（複数）なのでliveです。\n【🇺🇸 Cultural Note】\nニューヨークなどの都市部では、洗濯機が部屋になく、地下のランドリールームやコインランドリーを使うアパートが多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は毎日走りますか？」となるように並び替えてください。",
+      "choices": ["run", "day", "she", "every", "Does"],
+      "answer": "Does she run every day",
+      "explanation": "Does she run every day?\n【🇺🇸 Cultural Note】\nセントラルパークなどの公園でランニングをするのは、ニューヨーカーの典型的なライフスタイルです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はアイスクリームが大好きです」\nI (      ) ice cream.",
+      "choices": [],
+      "answer": "love",
+      "explanation": "Love（大好きである）。Likeよりも強い好みを表します。\n【🇺🇸 Cultural Note】\nアメリカ人はアイスクリームが大好きで、1人あたりの消費量は世界トップクラスです。Ben & Jerry'sなどのブランドが有名です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「マイクはあまり話しません」\nMike (      ) talk much.",
+      "choices": ["doesn't", "don't", "isn't", "not"],
+      "answer": "doesn't",
+      "explanation": "Mike（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\n一般的にアメリカ人はおしゃべり好き（Talkative）で、沈黙を避けるためにスモールトーク（雑談）をします。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちはバスケットボールをします。」となるように並び替えてください。",
+      "choices": ["play", "We", "basketball"],
+      "answer": "We play basketball",
+      "explanation": "We play basketball.\n【🇺🇸 Cultural Note】\nバスケットボールはアメリカ発祥のスポーツで、公園のコートで気軽に楽しまれています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は3ヶ国語を話します」\nShe (      ) three languages.",
+      "choices": [],
+      "answer": "speaks",
+      "explanation": "Speakにsをつけてspeaksです。\n【🇺🇸 Cultural Note】\nアメリカは移民の国（Melting pot）であり、英語以外にスペイン語や中国語などを家庭で話す人も多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたはコーヒーに砂糖を入れますか（必要としますか）？」\n(      ) you need sugar for your coffee?",
+      "choices": ["Do", "Does", "Are", "Is"],
+      "answer": "Do",
+      "explanation": "YouなのでDoで聞きます。\n【🇺🇸 Cultural Note】\nアメリカのカフェでは、砂糖やミルクはセルフサービスのコンディメントバー（Condiment bar）で入れるのが一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「父は毎日働きます。」となるように並び替えてください。",
+      "choices": ["works", "day", "My", "every", "father"],
+      "answer": "My father works every day",
+      "explanation": "My father works every day.\n【🇺🇸 Cultural Note】\nアメリカの労働時間（9 to 5）は一般的ですが、職種によっては残業も多いです.レイバー・デー（労働者の日）という祝日があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は新しい電話が欲しいです」\nI (      ) a new phone.",
+      "choices": [],
+      "answer": "want",
+      "explanation": "Want（欲しい）。\n【🇺🇸 Cultural Note】\niPhoneはアメリカのApple社が開発し、アメリカでのシェアは非常に高いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らはそれを理解していません」\nThey (      ) understand it.",
+      "choices": ["don't", "doesn't", "aren't", "not"],
+      "answer": "don't",
+      "explanation": "They（複数）なのでdon'tを使います。\n【🇺🇸 Cultural Note】\n\"I don't get it.\"（理解できない／意味がわからない）というフレーズも会話でよく使われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は図書館に行きますか？」となるように並び替えてください。",
+      "choices": ["go", "she", "Does", "library", "to", "the"],
+      "answer": "Does she go to the library",
+      "explanation": "Does she go to the library?\n【🇺🇸 Cultural Note】\nアメリカの公共図書館は、本を借りるだけでなく、無料Wi-Fiや学習スペースを提供するコミュニティのハブです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは週末に映画を見ます」\nWe (      ) movies on weekends.",
+      "choices": [],
+      "answer": "watch",
+      "explanation": "Watch movies（映画を見る）。\n【🇺🇸 Cultural Note】\nハリウッド映画の新作公開日は通常金曜日です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ケビンはどこでランチを食べますか？」\nWhere (      ) Kevin eat lunch?",
+      "choices": ["does", "do", "is", "has"],
+      "answer": "does",
+      "explanation": "Kevin（三人称単数）なのでdoesを使います。\n【🇺🇸 Cultural Note】\nオフィスワーカーはデスクで食べるか、近くのデリ（Deli）やフードトラックで買って食べることが多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はその歌を知っています。」となるように並び替えてください。",
+      "choices": ["know", "song", "that", "I"],
+      "answer": "I know that song",
+      "explanation": "I know that song.\n【🇺🇸 Cultural Note】\nカントリーミュージックやヒップホップなど、アメリカ発の音楽ジャンルは多岐にわたります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは毎日練習しません」\nThey don't (      ) every day.",
+      "choices": [],
+      "answer": "practice",
+      "explanation": "Practice（練習する）。\n【🇺🇸 Cultural Note】\n\"Practice makes perfect\"（継続は力なり／習うより慣れよ）はよく使われる格言です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の母は車を運転します」\nMy mother (      ) a car.",
+      "choices": ["drives", "drive", "driving", "drove"],
+      "answer": "drives",
+      "explanation": "My mother（三人称単数）なのでdrivesです。\n【🇺🇸 Cultural Note】\n郊外の「サッカーマム（Soccer mom）」と呼ばれる母親たちは、子供の習い事の送迎にミニバンを運転して忙しく走り回っています。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはハンバーガーが好きですか？」となるように並び替えてください。",
+      "choices": ["like", "hamburgers", "you", "Do"],
+      "answer": "Do you like hamburgers",
+      "explanation": "Do you like hamburgers?\n【🇺🇸 Cultural Note】\nハンバーガーはアメリカの象徴的な食べ物です。マクドナルドだけでなく、In-N-Out（西海岸）やShake Shack（東海岸）などご当地チェーンも人気です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は午後10時に寝ます」\nHe (      ) to bed at 10 p.m.",
+      "choices": [],
+      "answer": "goes",
+      "explanation": "Goにesをつけてgoesです。\n【🇺🇸 Cultural Note】\n\"Early to bed and early to rise\"（早寝早起き）はベンジャミン・フランクリンの言葉として有名です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは学校が好きです」\nWe (      ) our school.",
+      "choices": ["like", "likes", "liking", "liked"],
+      "answer": "like",
+      "explanation": "Weなのでlikeです。\n【🇺🇸 Cultural Note】\nアメリカの学校愛（School spirit）は強く、学校のロゴ入りパーカーを着たり、スポーツチームを応援したりします。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はあまりテレビを見ません。」となるように並び替えてください。",
+      "choices": ["watch", "doesn't", "She", "TV", "much"],
+      "answer": "She doesn't watch TV much",
+      "explanation": "She doesn't watch TV much.\n【🇺🇸 Cultural Note】\nアメリカのテレビ番組には多くのコマーシャルが入ります。スーパーボウルのCM枠は世界一高額だと言われています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らはニューヨークに住んでいますか？」\n(      ) they live in New York?",
+      "choices": [],
+      "answer": "Do",
+      "explanation": "TheyなのでDoで聞きます。\n【🇺🇸 Cultural Note】\nニューヨーク市の家賃は非常に高く、マンハッタンに住むのは多くの人にとって憧れであり挑戦です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の兄はジムに行きます」\nMy brother (      ) to the gym.",
+      "choices": ["goes", "go", "going", "went"],
+      "answer": "goes",
+      "explanation": "My brother（三人称単数）なのでgoesです。\n【🇺🇸 Cultural Note】\nフィットネス文化が盛んで、出勤前や仕事後にジム（Gym）でワークアウトする人が多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はソーダを飲みません。」となるように並び替えてください。",
+      "choices": ["soda", "drink", "don't", "I"],
+      "answer": "I don't drink soda",
+      "explanation": "I don't drink soda.\n【🇺🇸 Cultural Note】\n健康志向の高まりから、砂糖入り炭酸飲料（Soda/Pop）を控える人も増えていますが、消費量は依然として多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は猫を飼っています」\nShe (      ) a cat.",
+      "choices": [],
+      "answer": "has",
+      "explanation": "She（三人称単数）なのでhasを使います。\n【🇺🇸 Cultural Note】\nアメリカでは保護猫（Rescue cat）を引き取って飼うことが一般的で推奨されています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは毎日勉強します」\nWe (      ) every day.",
+      "choices": ["study", "studies", "studying", "studied"],
+      "answer": "study",
+      "explanation": "Weなのでstudyです。\n【🇺🇸 Cultural Note】\nアメリカの教育では、暗記よりもクリティカルシンキング（批判的思考）やディスカッションが重視されます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はピザを作りますか？」となるように並び替えてください。",
+      "choices": ["pizza", "Does", "make", "he"],
+      "answer": "Does he make pizza",
+      "explanation": "Does he make pizza?\n【🇺🇸 Cultural Note】\nピザパーティーはアメリカの子供の誕生日会や学校行事の定番です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はその本を読みます」\nI (      ) the book.",
+      "choices": [],
+      "answer": "read",
+      "explanation": "Read（読む）。\n【🇺🇸 Cultural Note】\nアメリカのベストセラーリスト（New York Times Best Sellers）は出版業界に大きな影響力を持ちます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「リサはテニスをしません」\nLisa (      ) play tennis.",
+      "choices": ["doesn't", "don't", "isn't", "aren't"],
+      "answer": "doesn't",
+      "explanation": "Lisa（三人称単数）なのでdoesn'tを使います。\n【🇺🇸 Cultural Note】\n全米オープンテニス（US Open）はニューヨークで開催される世界的な大会です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは新しい車を持っています。」となるように並び替えてください。",
+      "choices": ["new", "car", "have", "They", "a"],
+      "answer": "They have a new car",
+      "explanation": "They have a new car.\n【🇺🇸 Cultural Note】\nアメリカでは16歳になった子供に中古車を買い与える親も多く、車は自立の象徴です。"
     }
   ]
 }

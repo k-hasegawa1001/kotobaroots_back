@@ -1,545 +1,707 @@
 {
-  "learning_topic": "現在完了形",
-  "difficulty": "Beginner",
+  "learning_topic": "現在完了形 (Present Perfect)",
+  "learning_locale": "en_US",
+  "difficulty": "Intermediate",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "「私はちょうど宿題を終えたところです」\nI (      ) just finished my homework.",
+      "question": "「私は宿題をちょうど終えたところです」\nI (      ) just finished my homework.",
       "choices": ["have", "has", "am", "did"],
       "answer": "have",
-      "explanation": "現在完了形は「have + 過去分詞」です。主語がIなのでhaveを使います。"
+      "explanation": "完了用法（ちょうど～したところだ）。have + 過去分詞の形です。\n【🇺🇸 Cultural Note】\nアメリカの学校では、宿題（Homework）の提出が成績に大きく影響します。オンラインで提出することも増えています。"
     },
     {
       "type": "sort",
-      "question": "「私は長い間彼を知っています。」となるように並び替えてください。",
-      "choices": ["known", "time", "have", "him", "I", "a", "for", "long"],
-      "answer": "Ihaveknownhimforalongtime",
-      "explanation": "I have known him for a long time. 継続（ずっと知っている）の用法です。"
+      "question": "「私は以前、ニューヨークに行ったことがあります。」となるように並び替えてください。",
+      "choices": ["been", "have", "New", "York", "to", "I", "before"],
+      "answer": "IhavebeentoNewYorkbefore",
+      "explanation": "have been to...（～に行ったことがある）。経験用法です。\n【🇺🇸 Cultural Note】\nニューヨークは「眠らない街（The City That Never Sleeps）」と呼ばれ、タイムズスクエアや自由の女神が有名です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「あなたは今までに京都へ行ったことがありますか？」\n(      ) you ever been to Kyoto?",
-      "choices": [],
-      "answer": "Have",
-      "explanation": "Have you ever...?（今までに～したことがありますか）という経験を尋ねる決まり文句です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼はもう昼食を食べました」\nHe (      ) already eaten lunch.",
-      "choices": ["has", "have", "is", "did"],
-      "answer": "has",
-      "explanation": "主語がHe（三人称単数）なのでhasを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は一度もその映画を見たことがありません。」となるように並び替えてください。",
-      "choices": ["seen", "movie", "never", "have", "I", "the"],
-      "answer": "Ihaveneverseenthemovie",
-      "explanation": "I have never seen the movie. 経験の否定にはnotではなくnever（一度も～ない）をよく使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は昨日からずっと忙しいです」\nShe has been busy (      ) yesterday.",
-      "choices": [],
-      "answer": "since",
-      "explanation": "Since（～以来ずっと）。継続の開始点を表します。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたはもう宿題をしましたか？」\nHave you done your homework (      )?",
-      "choices": ["yet", "already", "just", "ever"],
-      "answer": "yet",
-      "explanation": "疑問文の文末で使うyetは「もう」という意味です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は10年間ここに住んでいます。」となるように並び替えてください。",
-      "choices": ["lived", "here", "have", "years", "I", "for", "ten"],
-      "answer": "Ihavelivedherefortenyears",
-      "explanation": "I have lived here for ten years. 期間を表す時はforを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼はアメリカに行ってしまいました（ここにはいません）」\nHe has (      ) to America.",
-      "choices": [],
-      "answer": "gone",
-      "explanation": "Has gone to...（行ってしまった/行って帰ってきていない）。Has been to（行ったことがある）との違いに注意です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はちょうど駅に着いたところです」\nI have (      ) arrived at the station.",
-      "choices": ["just", "yet", "ever", "never"],
-      "answer": "just",
-      "explanation": "Just（ちょうど）はhaveと過去分詞の間に置きます。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたはどのくらいの間、英語を勉強していますか？」となるように並び替えてください。",
-      "choices": ["studied", "long", "have", "English", "you", "How"],
-      "answer": "HowlonghaveyoustudiedEnglish",
-      "explanation": "How long have you studied English? 期間を尋ねる疑問文です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はその本をまだ読んでいません」\nI haven't read the book (      ).",
-      "choices": [],
-      "answer": "yet",
-      "explanation": "否定文の文末で使うyetは「まだ」という意味です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は2回、彼に会ったことがあります」\nI have met him (      ).",
-      "choices": ["twice", "two times", "second", "two"],
-      "answer": "twice",
-      "explanation": "回数を表す言葉。1回＝once, 2回＝twice, 3回以上＝three times... です。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女は財布をなくしてしまいました（今も持っていません）。」となるように並び替えてください。",
-      "choices": ["wallet", "lost", "has", "She", "her"],
-      "answer": "Shehaslostherwallet",
-      "explanation": "She has lost her wallet. 過去に失くして、その結果「今もない」という状態を表します。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は以前、ここに来たことがあります」\nI have been here (      ).",
-      "choices": [],
-      "answer": "before",
-      "explanation": "Before（以前に）。文末に置きます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼は先週からずっと病気です」\nHe (      ) been sick since last week.",
-      "choices": ["has", "is", "was", "have"],
-      "answer": "has",
-      "explanation": "He has been... です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは今までに納豆を食べたことがありますか？」となるように並び替えてください。",
-      "choices": ["eaten", "natto", "ever", "Have", "you"],
-      "answer": "Haveyouevereatennatto",
-      "explanation": "Have you ever eaten natto? 経験の疑問文です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「父はもう車を洗ってしまいました」\nMy father has (      ) washed the car.",
-      "choices": [],
-      "answer": "already",
-      "explanation": "Already（すでに/もう）。肯定文で使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は3年間ずっと彼を知っています」\nI (      ) known him for three years.",
-      "choices": ["have", "am", "was", "did"],
-      "answer": "have",
-      "explanation": "継続のhave knownです。"
-    },
-    {
-      "type": "sort",
-      "question": "「ケンはまだ来ていません。」となるように並び替えてください。",
-      "choices": ["come", "Ken", "yet", "hasn't"],
-      "answer": "Kenhasn'tcomeyet",
-      "explanation": "Ken hasn't come yet. Comeの過去分詞はcomeです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は一度パリに行ったことがあります」\nI have (      ) to Paris once.",
-      "choices": [],
-      "answer": "been",
-      "explanation": "Have been to（行ったことがある）です。Goを使うと「行ってしまった」になるので注意。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「どれくらいここにいますか（滞在していますか）？」\nHow long have you (      ) here?",
-      "choices": ["been", "be", "was", "were"],
-      "answer": "been",
-      "explanation": "Have you been here? be動詞の過去分詞beenを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は私の鍵を見つけました（今、持っています）。」となるように並び替えてください。",
-      "choices": ["key", "found", "my", "have", "I"],
-      "answer": "Ihavefoundmykey",
-      "explanation": "I have found my key. 「見つけた」という完了・結果を表します。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は2010年からここに住んでいます」\nShe has lived here (      ) 2010.",
-      "choices": [],
-      "answer": "since",
-      "explanation": "年号などの時点を示す言葉にはSinceを使います。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは何度もその本を読みましたか？」\nHave you read the book (      ) times?",
-      "choices": ["many", "much", "any", "some"],
-      "answer": "many",
-      "explanation": "Many times（何度も）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は今日、彼に会っていません。」となるように並び替えてください。",
-      "choices": ["seen", "haven't", "him", "today", "I"],
-      "answer": "Ihaven'tseenhimtoday",
-      "explanation": "I haven't seen him today. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私たちは子供の頃から友達です」\nWe have been friends (      ) we were children.",
-      "choices": [],
-      "answer": "since",
-      "explanation": "Sinceの後ろには「主語+動詞」の文も置けます。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はちょうど昼食を食べ終えました」\nI have just (      ) eating lunch.",
-      "choices": ["finished", "finish", "finishing", "finishes"],
-      "answer": "finished",
-      "explanation": "Finishの過去分詞finishedです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼は一度も飛行機に乗ったことがありません。」となるように並び替えてください。",
-      "choices": ["plane", "never", "on", "a", "been", "has", "He"],
-      "answer": "Hehasneverbeenonaplane",
-      "explanation": "He has never been on a plane. Be on a planeで「飛行機に乗る（乗っている）」です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は日本にどのくらい住んでいますか？」\nHow long has she (      ) in Japan?",
+      "question": "「彼は3年間ここに住んでいます」\nHe has (      ) here for three years.",
       "choices": [],
       "answer": "lived",
-      "explanation": "Liveの過去分詞livedです。"
+      "explanation": "継続用法（ずっと～している）。liveの過去分詞livedを使います。\n【🇺🇸 Cultural Note】\nアメリカ人は平均して生涯に11回以上引っ越しをするというデータがあり、住む場所を変えることに抵抗が少ない国民性です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私はそのニュースをすでに聞きました」\nI (      ) already heard the news.",
-      "choices": ["have", "has", "did", "am"],
-      "answer": "have",
-      "explanation": "I have already heard... です。"
+      "question": "「あなたは今までにタコスを食べたことがありますか？」\n(      ) you ever eaten tacos?",
+      "choices": ["Have", "Did", "Do", "Are"],
+      "answer": "Have",
+      "explanation": "経験を尋ねる Have you ever...? の形です。\n【🇺🇸 Cultural Note】\nタコス（Tacos）はメキシコ料理ですが、アメリカ全土で日常的に食べられている国民食のような存在です。"
     },
     {
       "type": "sort",
-      "question": "「あなたはどのくらい彼を待っていますか？」となるように並び替えてください。",
-      "choices": ["waited", "him", "have", "long", "you", "for", "How"],
-      "answer": "Howlonghaveyouwaitedforhim",
-      "explanation": "How long have you waited for him? です。"
+      "question": "「その電車はまだ到着していません。」となるように並び替えてください。",
+      "choices": ["train", "arrived", "The", "not", "has", "yet"],
+      "answer": "Thetrainhasnotarrivedyet",
+      "explanation": "not ... yet（まだ～していない）。完了用法の否定文です。\n【🇺🇸 Cultural Note】\nニューヨークの地下鉄などは24時間運行ですが、遅延（Delay）も日常茶飯事です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は彼に以前、会ったことがあります」\nI have (      ) him before.",
+      "question": "「私は鍵をなくしてしまいました（その結果、今も持っていません）」\nI have (      ) my key.",
       "choices": [],
-      "answer": "met",
-      "explanation": "Meetの過去分詞metです。"
+      "answer": "lost",
+      "explanation": "lose（なくす）の過去分詞lost。結果用法（過去になくして、今もない）を表します。\n【🇺🇸 Cultural Note】\nアメリカの家の鍵をなくした場合、ロックスミス（錠前屋）を呼ぶと非常に高額な料金がかかることがあります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼はまだ宿題をしていません」\nHe (      ) done his homework yet.",
-      "choices": ["hasn't", "haven't", "didn't", "isn't"],
-      "answer": "hasn't",
-      "explanation": "has notの短縮形hasn'tを使います。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は長い間、あなたに会っていません（お久しぶりです）。」となるように並び替えてください。",
-      "choices": ["time", "seen", "a", "haven't", "for", "you", "long", "I"],
-      "answer": "Ihaven'tseenyouforalongtime",
-      "explanation": "I haven't seen you for a long time. 久しぶりに会った時の挨拶です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私たちは10年間結婚しています」\nWe have been (      ) for ten years.",
-      "choices": [],
-      "answer": "married",
-      "explanation": "have been married（結婚している状態が続いている）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はちょうどお風呂に入ったところです」\nI have just (      ) a bath.",
-      "choices": ["taken", "took", "take", "taking"],
-      "answer": "taken",
-      "explanation": "Takeの過去分詞takenです。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたは今までにその歌を聞いたことがありますか？」となるように並び替えてください。",
-      "choices": ["song", "heard", "that", "ever", "Have", "you"],
-      "answer": "Haveyoueverheardthatsong",
-      "explanation": "Have you ever heard that song? Hearの過去分詞heardです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は図書館に行ってしまいました」\nShe has (      ) to the library.",
-      "choices": [],
-      "answer": "gone",
-      "explanation": "Has gone to（行ってしまった）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は彼に3回メールを送りました」\nI have (      ) him an email three times.",
-      "choices": ["sent", "send", "sended", "sending"],
-      "answer": "sent",
-      "explanation": "Sendの過去分詞sentです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は昨日から何も食べていません。」となるように並び替えてください。",
-      "choices": ["eaten", "yesterday", "haven't", "since", "anything", "I"],
-      "answer": "Ihaven'teatenanythingsinceyesterday",
-      "explanation": "I haven't eaten anything since yesterday. 否定文でのanythingは「何も～ない」となります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は以前、その本を読んだことがあります」\nI have (      ) the book before.",
-      "choices": [],
-      "answer": "read",
-      "explanation": "Readの過去分詞read（レッド）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼はサッカーチームの一員として5年間います（所属しています）」\nHe (      ) been on the soccer team for five years.",
-      "choices": ["has", "have", "is", "was"],
-      "answer": "has",
-      "explanation": "be on the team（チームに所属している）の完了形has been on...です。"
-    },
-    {
-      "type": "sort",
-      "question": "「あなたはどのくらいの間、彼を知っていますか？」となるように並び替えてください。",
-      "choices": ["him", "known", "long", "you", "How", "have"],
-      "answer": "Howlonghaveyouknownhim",
-      "explanation": "How long have you known him? Knowの過去分詞knownです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は英語を勉強し始めてから3年になります（3年間勉強しています）」\nI have (      ) English for three years.",
-      "choices": [],
-      "answer": "studied",
-      "explanation": "Have studied... 継続を表します。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたはもう朝食を作りましたか？」\nHave you (      ) breakfast yet?",
-      "choices": ["cooked", "cook", "cooks", "cooking"],
-      "answer": "cooked",
-      "explanation": "Cookの過去分詞cookedです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は自分の部屋を掃除し終えました。」となるように並び替えてください。",
-      "choices": ["room", "cleaning", "have", "my", "finished", "I"],
-      "answer": "Ihavefinishedcleaningmyroom",
-      "explanation": "I have finished cleaning my room. Finishの後ろは動名詞cleaningです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女は以前、テニスをしたことがあります」\nShe has (      ) tennis before.",
-      "choices": [],
-      "answer": "played",
-      "explanation": "Played tennisです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は昨日から彼に会っていません」\nI haven't seen him (      ) yesterday.",
-      "choices": ["since", "for", "from", "before"],
-      "answer": "since",
-      "explanation": "Since yesterday（昨日以来）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼はちょうど帰宅したところです。」となるように並び替えてください。",
-      "choices": ["home", "come", "just", "has", "He"],
-      "answer": "Hehasjustcomehome",
-      "explanation": "He has just come home. Comeの過去分詞はcomeです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はロンドンを2回訪れたことがあります」\nI have (      ) London twice.",
-      "choices": [],
-      "answer": "visited",
-      "explanation": "Visited London. Visitは他動詞なのでtoは不要です。Been to Londonとの違いに注意。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は2時間ピアノを弾いています」\nShe (      ) played the piano for two hours.",
-      "choices": ["has", "have", "is", "was"],
-      "answer": "has",
-      "explanation": "She has played... です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は一度も寿司を食べたことがありません。」となるように並び替えてください。",
-      "choices": ["sushi", "never", "eaten", "I", "have"],
-      "answer": "Ihavenevereatensushi",
-      "explanation": "I have never eaten sushi. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたはどれくらい日本にいますか（滞在していますか）？」\nHow long have you (      ) in Japan?",
-      "choices": [],
-      "answer": "stayed",
-      "explanation": "Stayed（滞在している）またはLived（住んでいる）またはBeen（いる）が当てはまりますが、文脈的にstayedやbeenが一般的です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「父は仕事に行ってしまいました」\nMy father (      ) gone to work.",
-      "choices": ["has", "have", "is", "was"],
-      "answer": "has",
-      "explanation": "Has gone to work. 結果の完了です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私はちょうどその手紙を読んだところです。」となるように並び替えてください。",
-      "choices": ["letter", "read", "just", "the", "have", "I"],
-      "answer": "Ihavejustreadtheletter",
-      "explanation": "I have just read the letter. Read（過去分詞）の発音はレッドです。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私たちは先月からとても忙しいです」\nWe have (      ) very busy since last month.",
-      "choices": [],
-      "answer": "been",
-      "explanation": "Have been busy（忙しい状態が続いている）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは今までに富士山に登ったことがありますか？」\nHave you ever (      ) Mt. Fuji?",
-      "choices": ["climbed", "climb", "climbing", "climbs"],
-      "answer": "climbed",
-      "explanation": "Climbの過去分詞climbedです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女はまだ部屋を掃除していません。」となるように並び替えてください。",
-      "choices": ["room", "cleaned", "yet", "her", "hasn't", "She"],
-      "answer": "Shehasn'tcleanedherroomyet",
-      "explanation": "She hasn't cleaned her room yet. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は彼と一度話したことがあります」\nI have (      ) with him once.",
-      "choices": [],
-      "answer": "talked",
-      "explanation": "Talked with himです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は1週間、彼に会っていません」\nI haven't seen him (      ) a week.",
-      "choices": ["for", "since", "during", "in"],
-      "answer": "for",
-      "explanation": "For a week（1週間）。期間を表すのでForです。"
-    },
-    {
-      "type": "sort",
-      "question": "「誰が窓を割ってしまったのですか？」となるように並び替えてください。",
-      "choices": ["window", "broken", "Who", "has", "the"],
-      "answer": "Whohasbrokenthewindow",
-      "explanation": "Who has broken the window? 完了・結果（割ってしまって今は割れている）を表します。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私たちはもうその映画を見ました」\nWe have (      ) seen the movie.",
-      "choices": [],
+      "question": "「私たちはもう昼食を食べました」\nWe have (      ) eaten lunch.",
+      "choices": ["already", "yet", "ever", "never"],
       "answer": "already",
-      "explanation": "Already seenです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は3日間、学校を休んでいます」\nShe has (      ) absent from school for three days.",
-      "choices": ["been", "be", "is", "was"],
-      "answer": "been",
-      "explanation": "Have been absent（休んでいる状態が続いている）です。"
+      "explanation": "already（すでに、もう）は肯定文で使います。\n【🇺🇸 Cultural Note】\nアメリカ英語の口語では、完了形の代わりに過去形を使って \"I already ate lunch.\" と言うことも非常に多いです。"
     },
     {
       "type": "sort",
-      "question": "「私は鍵をなくしてしまいました。」となるように並び替えてください。",
-      "choices": ["key", "lost", "have", "my", "I"],
-      "answer": "Ihavelostmykey",
-      "explanation": "I have lost my key. です。"
+      "question": "「彼女は長い間、病気で寝ています。」となるように並び替えてください。",
+      "choices": ["sick", "has", "been", "She", "for", "a", "long", "time"],
+      "answer": "Shehasbeensickforalongtime",
+      "explanation": "have been sick（ずっと病気だ）。継続用法です。\n【🇺🇸 Cultural Note】\nアメリカの医療費は高額なため、風邪程度では病院に行かず、市販薬（Over-the-counter medicine）で治すのが一般的です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼は今までに外国へ行ったことがありますか？」\nHas he ever (      ) abroad?",
+      "question": "「あなたは宿題をもう終えましたか？」\nHave you finished your homework (      )?",
       "choices": [],
-      "answer": "been",
-      "explanation": "Been abroad（外国へ行ったことがある）。Gone abroadだと「行ってしまった」になります。"
+      "answer": "yet",
+      "explanation": "疑問文の文末につけるyetは「もう」という意味になります。\n【🇺🇸 Cultural Note】\nアメリカの学校教育では「自律（Independence）」が重視され、自分のことは自分で管理するように教えられます。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私はそのニュースを知ってから長い時間が経ちます」\nI have (      ) the news for a long time.",
-      "choices": ["known", "know", "knew", "knowing"],
-      "answer": "known",
-      "explanation": "Have known（知っている状態が続いている）です。"
+      "question": "「私は一度もその映画を見たことがありません」\nI have (      ) seen the movie.",
+      "choices": ["never", "ever", "yet", "just"],
+      "answer": "never",
+      "explanation": "have never...（一度も～したことがない）。否定の経験用法です。\n【🇺🇸 Cultural Note】\n『スター・ウォーズ』シリーズはアメリカの文化に深く根付いており、見たことがないと会話についていけないこともあります。"
     },
     {
       "type": "sort",
-      "question": "「私は以前、その歌を聞いたことがあります。」となるように並び替えてください。",
-      "choices": ["heard", "song", "that", "I", "have", "before"],
-      "answer": "Ihaveheardthatsongbefore",
-      "explanation": "I have heard that song before. です。"
+      "question": "「ケンは2010年からこの会社で働いています。」となるように並び替えてください。",
+      "choices": ["worked", "Ken", "company", "has", "for", "this", "since", "2010"],
+      "answer": "Kenhasworkedforthiscompanysince2010",
+      "explanation": "since（～以来、～から）を使った継続用法です。\n【🇺🇸 Cultural Note】\nアメリカでは転職（Job hopping）が一般的で、キャリアアップのために数年ごとに会社を変える人が多いです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼らは日本に着いたばかりです」\nThey have (      ) arrived in Japan.",
+      "question": "「彼らはちょうど出かけたところです」\nThey have (      ) gone out.",
       "choices": [],
       "answer": "just",
-      "explanation": "Have just arrivedです。"
+      "explanation": "have just...（ちょうど～したところだ）。\n【🇺🇸 Cultural Note】\n\"Gone out\" は「デートに出かけた」という意味で使われることもあります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「あなたは宿題を終えましたか？」\nHave you (      ) your homework?",
-      "choices": ["finished", "finish", "finishes", "finishing"],
-      "answer": "finished",
-      "explanation": "Finished your homeworkです。"
+      "question": "「彼はハワイに行ってしまいました（今はここにいません）」\nHe (      ) gone to Hawaii.",
+      "choices": ["has", "have", "is", "was"],
+      "answer": "has",
+      "explanation": "has gone to...（～に行ってしまった）。has been to（行ったことがある）との違いに注意。\n【🇺🇸 Cultural Note】\nハワイはアメリカ本土の人々にとっても憧れのバケーション先です。"
     },
     {
       "type": "sort",
-      "question": "「私は一度も北海道を訪れたことがありません。」となるように並び替えてください。",
-      "choices": ["visited", "Hokkaido", "never", "I", "have"],
-      "answer": "IhavenevervisitedHokkaido",
-      "explanation": "I have never visited Hokkaido. です。"
+      "question": "「私はあなたに何度も会ったことがあります。」となるように並び替えてください。",
+      "choices": ["met", "have", "you", "many", "I", "times"],
+      "answer": "Ihavemetyoumanytimes",
+      "explanation": "many times（何度も）。回数を表す言葉は文末に置きます。\n【🇺🇸 Cultural Note】\nアメリカでは、一度会った人の名前を覚えることがビジネスマナーとして非常に重視されます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼女は今朝からずっとここにいます」\nShe has (      ) here since this morning.",
+      "question": "「どのくらい長く英語を勉強していますか？」\nHow (      ) have you studied English?",
+      "choices": [],
+      "answer": "long",
+      "explanation": "How long（どのくらいの間）。継続用法の期間を尋ねる疑問文です。\n【🇺🇸 Cultural Note】\nアメリカには多くの移民がいるため、英語を第二言語として学ぶ（ESL）大人がたくさんいます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は昨夜からずっと忙しいです」\nShe has (      ) busy since last night.",
+      "choices": ["been", "be", "was", "is"],
+      "answer": "been",
+      "explanation": "状態の継続（ずっと～だ）を表すには be動詞の過去分詞 been を使います。\n【🇺🇸 Cultural Note】\n\"Busy\" はアメリカ人のステータスシンボルのように使われることがあり、「忙しい＝充実している・重要人物」と捉えられることがあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はまだ部屋を掃除していません。」となるように並び替えてください。",
+      "choices": ["cleaned", "have", "room", "my", "not", "I", "yet"],
+      "answer": "Ihavenotcleanedmyroomyet",
+      "explanation": "not ... yet（まだ～していない）。\n【🇺🇸 Cultural Note】\nアメリカの子供部屋は個人の城ですが、散らかっていると \"Go to your room!\"（部屋に行きなさい＝謹慎）と言われることもあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は以前、この本を読んだことがあります」\nI have (      ) this book before.",
+      "choices": [],
+      "answer": "read",
+      "explanation": "read（読む）の過去分詞はread（発音はレッド）です。\n【🇺🇸 Cultural Note】\nアメリカの図書館では「Read Across America」という読書推進キャンペーンが行われています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ボブに会ったことはありますか？」「いいえ、ありません」\nHave you ever met Bob? - No, I (      ).",
+      "choices": ["haven't", "don't", "didn't", "won't"],
+      "answer": "haven't",
+      "explanation": "Have you...? で聞かれたら I have / I haven't で答えます。\n【🇺🇸 Cultural Note】\nアメリカのパーティーでは、知らない人にも自分から \"Hi, I'm...\" と自己紹介して握手を求めるのがマナーです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは子供の頃からお互いを知っています。」となるように並び替えてください。",
+      "choices": ["known", "other", "have", "each", "We", "since", "we", "were", "children"],
+      "answer": "Wehaveknowneachothersincewewerechildren",
+      "explanation": "have known（ずっと知っている）。state verb（状態動詞）なので進行形にせず現在完了形で継続を表します。\n【🇺🇸 Cultural Note】\n幼馴染（Childhood friend）との絆は大切にされますが、進学や就職で遠く離れ離れになることが一般的です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はちょうど帰宅したところです」\nHe has just (      ) home.",
+      "choices": [],
+      "answer": "come",
+      "explanation": "come（来る・帰る）の過去分詞はcomeです。cameではありません。\n【🇺🇸 Cultural Note】\n\"Honey, I'm home!\"（ただいま！）は映画やドラマでよく聞くフレーズです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は3回、グランドキャニオンに行ったことがあります」\nI have been to the Grand Canyon (      ) times.",
+      "choices": ["three", "third", "thrice", "tree"],
+      "answer": "three",
+      "explanation": "three times（3回）。once（1回）、twice（2回）以外は数字＋timesを使います。\n【🇺🇸 Cultural Note】\nグランドキャニオンはアリゾナ州にあり、その壮大な景色は一生に一度は見たい絶景と言われています。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはどのくらいの間、日本にいますか？」となるように並び替えてください。",
+      "choices": ["been", "How", "you", "have", "in", "Japan", "long"],
+      "answer": "HowlonghaveyoubeeninJapan",
+      "explanation": "How long have you been...?（どのくらいずっと～にいますか）。\n【🇺🇸 Cultural Note】\nアメリカ人が海外に長期滞在する場合、ビザの取得や更新が大きな関心事になります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は財布をなくしてしまいました（今もありません）」\nShe has (      ) her wallet.",
+      "choices": [],
+      "answer": "lost",
+      "explanation": "loseの過去分詞lost。結果用法です。\n【🇺🇸 Cultural Note】\nアメリカではクレジットカードやデビットカードの利用が主流なので、財布をなくすとカードを止める手続きが大変です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は10年間ずっと野球をしています」\nI (      ) played baseball for ten years.",
+      "choices": ["have", "has", "am", "was"],
+      "answer": "have",
+      "explanation": "継続用法です。playは動作動詞ですが、長い期間の習慣的動作として現在完了形で表せます（現在完了進行形を使うこともあります）。\n【🇺🇸 Cultural Note】\n野球は \"America's Pastime\"（アメリカの娯楽）と呼ばれ、歴史あるスポーツです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らはまだ夕食を食べ終えていません。」となるように並び替えてください。",
+      "choices": ["finished", "not", "have", "They", "dinner", "yet"],
+      "answer": "Theyhavenotfinisheddinneryet",
+      "explanation": "have not finished... yet（まだ～し終えていない）。\n【🇺🇸 Cultural Note】\nアメリカのレストランでは、食べ終わった合図としてナイフとフォークを皿の上に揃えて置きます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたのお父さんに会ったことがあります」\nI have (      ) your father.",
+      "choices": [],
+      "answer": "met",
+      "explanation": "meet（会う）の過去分詞met。\n【🇺🇸 Cultural Note】\n友人の両親に会う時は、\"Mr.\" や \"Mrs.\" に名字をつけて呼ぶのが礼儀正しいです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「そのバスはすでに出発してしまいました」\nThe bus has (      ) left.",
+      "choices": ["already", "yet", "ever", "never"],
+      "answer": "already",
+      "explanation": "already（すでに）は肯定文で使い、完了・結果を強調します。\n【🇺🇸 Cultural Note】\nグレイハウンドなどの長距離バスは、広大なアメリカを安く移動する手段として使われます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は今までこのような美しい絵を見たことがありません。」となるように並び替えてください。",
+      "choices": ["seen", "never", "picture", "have", "I", "such", "a", "beautiful"],
+      "answer": "Ihaveneverseensuchabeautifulpicture",
+      "explanation": "have never seen（見たことがない）。such a beautiful picture（こんなに美しい絵）。\n【🇺🇸 Cultural Note】\nニューヨークのMOMA（近代美術館）やメトロポリタン美術館には、世界的な名画が集まっています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は2時間ずっとテレビを見ています」\nHe has (      ) watching TV for two hours.",
       "choices": [],
       "answer": "been",
-      "explanation": "Has been here（ここにいる状態が続いている）です。"
+      "explanation": "have been ...ing（現在完了進行形）。動作の継続を強調する場合に使います。\n【🇺🇸 Cultural Note】\nアメリカ人は「ビンジ・ウォッチング（Binge-watching）」といって、Netflixなどでドラマを一気見することが大好きです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私はそのコンピュータを3年間使っています」\nI (      ) used the computer for three years.",
-      "choices": ["have", "has", "had", "am"],
-      "answer": "have",
-      "explanation": "I have used... です。"
+      "question": "「彼らはもうここを去りました」\nThey have (      ) left here.",
+      "choices": ["already", "yet", "ever", "never"],
+      "answer": "already",
+      "explanation": "already（すでに）は完了を表す肯定文で使われます。\n【🇺🇸 Cultural Note】\nアメリカのパーティーでは、ホストに挨拶せずに帰ることは失礼にあたるため、必ず一言声をかけてから帰ります。"
     },
     {
       "type": "sort",
-      "question": "「雨がやみました。」となるように並び替えてください。",
-      "choices": ["stopped", "rain", "The", "has"],
-      "answer": "Therainhasstopped",
-      "explanation": "The rain has stopped. 完了（やんで今は降っていない）です。"
+      "question": "「私は今までに一度も寿司を食べたことがありません。」となるように並び替えてください。",
+      "choices": ["eaten", "sushi", "never", "have", "I"],
+      "answer": "Ihavenevereatensushi",
+      "explanation": "have never eaten（食べたことがない）。否定の経験用法です。\n【🇺🇸 Cultural Note】\nカリフォルニアロール（アボカド入り）はアメリカで生まれた寿司で、今では全米のスーパーで売られています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は彼に何度も会ったことがあります」\nI have met him (      ) times.",
+      "question": "「彼女はフランスへ行ってしまいました（今はここにいません）」\nShe has (      ) to France.",
       "choices": [],
-      "answer": "many",
-      "explanation": "Many times（何度も）です。"
+      "answer": "gone",
+      "explanation": "has gone to...（～へ行ってしまった）。\n【🇺🇸 Cultural Note】\nパリはアメリカ人にとってもロマンチックな旅行先として人気があります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼女はまだ夕食を食べていません」\nShe (      ) eaten dinner yet.",
-      "choices": ["hasn't", "haven't", "didn't", "isn't"],
-      "answer": "hasn't",
-      "explanation": "She hasn't eaten... です。"
+      "question": "「私たちは10年来の知り合いです」\nWe have (      ) each other for ten years.",
+      "choices": ["known", "know", "knew", "knowing"],
+      "answer": "known",
+      "explanation": "know（知っている）の過去分詞known。状態動詞なので進行形にせず継続を表します。\n【🇺🇸 Cultural Note】\n高校時代の友人と大人になっても連絡を取り合う（Keep in touch）ことは、SNSのおかげで容易になりました。"
     },
     {
       "type": "sort",
-      "question": "「彼らは長い間、忙しいです。」となるように並び替えてください。",
-      "choices": ["busy", "time", "have", "been", "They", "long", "for", "a"],
-      "answer": "Theyhavebeenbusyforalongtime",
-      "explanation": "They have been busy for a long time. です。"
+      "question": "「トムはまだ宿題をしていません。」となるように並び替えてください。",
+      "choices": ["done", "Tom", "not", "has", "homework", "his", "yet"],
+      "answer": "Tomhasnotdonehishomeworkyet",
+      "explanation": "has not done... yet（まだ～していない）。doの過去分詞doneを使います。\n【🇺🇸 Cultural Note】\n宿題を忘れた時の言い訳として \"I left it at home\"（家に忘れました）は定番ですが、先生にはバレバレです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はちょうど朝食を食べたところです」\nI have (      ) eaten breakfast.",
+      "choices": [],
+      "answer": "just",
+      "explanation": "have just eaten（ちょうど食べたところだ）。完了用法。\n【🇺🇸 Cultural Note】\n忙しい朝は、トースターで焼くワッフルやベーグルを歩きながら食べる（On the go）人も多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたはどのくらいの間、ここに住んでいますか？」\n(      ) have you lived here?",
+      "choices": ["How long", "How much", "How many", "How often"],
+      "answer": "How long",
+      "explanation": "期間を尋ねる疑問詞 How long を使います。\n【🇺🇸 Cultural Note】\nアメリカの住宅ローン（Mortgage）は30年固定金利が一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は一度ホワイトハウスを訪れたことがあります。」となるように並び替えてください。",
+      "choices": ["White", "visited", "have", "House", "I", "once", "the"],
+      "answer": "IhavevisitedtheWhiteHouseonce",
+      "explanation": "have visited（訪れたことがある）。once（一度）は文末に置きます。\n【🇺🇸 Cultural Note】\nホワイトハウスの見学ツアーは、数ヶ月前に議員を通じて予約する必要があるため、アメリカ人にとってもハードルが高いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は今朝からずっと忙しいです」\nHe has (      ) busy since this morning.",
+      "choices": [],
+      "answer": "been",
+      "explanation": "have been busy（ずっと忙しい）。状態の継続。\n【🇺🇸 Cultural Note】\n\"Morning person\"（朝型人間）と \"Night owl\"（夜型人間）という表現があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「その赤ちゃんはまだ泣き止んでいません」\nThe baby has not stopped crying (      ).",
+      "choices": ["yet", "already", "just", "ever"],
+      "answer": "yet",
+      "explanation": "否定文の文末につくyetは「まだ」という意味です。\n【🇺🇸 Cultural Note】\nアメリカでは、公共の場であっても赤ちゃんが泣くことに対して比較的寛容な文化があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の父は3回、日本に行ったことがあります。」となるように並び替えてください。",
+      "choices": ["been", "father", "My", "has", "Japan", "to", "three", "times"],
+      "answer": "MyfatherhasbeentoJapanthreetimes",
+      "explanation": "has been to（行ったことがある）。three times（3回）。\n【🇺🇸 Cultural Note】\nアメリカ人の日本旅行の目的として、京都の寺社巡りや東京の秋葉原、そしてラーメン食べ歩きが人気です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は昨日からずっと病気です」\nShe has been sick (      ) yesterday.",
+      "choices": [],
+      "answer": "since",
+      "explanation": "since（～から、～以来）。起点を表します。\n【🇺🇸 Cultural Note】\n\"Sick leave\"（病気休暇）は労働者の権利ですが、有給かどうかは会社によります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は以前、その歌を聞いたことがあります」\nI have heard the song (      ).",
+      "choices": ["before", "ago", "yesterday", "last week"],
+      "answer": "before",
+      "explanation": "before（以前に）。現在完了形ではago（～前）は使えません。\n【🇺🇸 Cultural Note】\nアメリカのラジオ局は、カントリー専門、ロック専門、クラシック専門など、ジャンルごとに細分化されています。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたは今までに有名人に会ったことがありますか？」となるように並び替えてください。",
+      "choices": ["met", "ever", "famous", "Have", "person", "a", "you"],
+      "answer": "Haveyouevermetafamousperson",
+      "explanation": "Have you ever met...?（会ったことがありますか）。\n【🇺🇸 Cultural Note】\nロサンゼルスやニューヨークのレストランでは、ハリウッドスターや有名ミュージシャンを偶然見かけることがあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちはもうその美術館を訪れました」\nWe have (      ) visited the museum.",
+      "choices": [],
+      "answer": "already",
+      "explanation": "have already visited（もう訪れた）。\n【🇺🇸 Cultural Note】\nスミソニアン博物館群には、航空宇宙博物館や自然史博物館などがあり、映画『ナイト ミュージアム』の舞台にもなりました。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はカメラを買いました（その結果、今はカメラを持っています）」\nHe (      ) bought a camera.",
+      "choices": ["has", "have", "is", "was"],
+      "answer": "has",
+      "explanation": "結果を表す現在完了形です。buyの過去分詞bought。\n【🇺🇸 Cultural Note】\nGoProなどのアクションカメラを持って、スケートボードやサーフィンを撮影するのが若者の間で人気です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は長い間、彼に会っていません。」となるように並び替えてください。",
+      "choices": ["him", "seen", "not", "have", "I", "time", "for", "a", "long"],
+      "answer": "Ihavenotseenhimforalongtime",
+      "explanation": "have not seen（会っていない）。for a long time（長い間）。\n【🇺🇸 Cultural Note】\n久しぶりに会った時の挨拶は \"Long time no see!\" です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は2時間ずっとピアノを弾いています」\nShe has been (      ) the piano for two hours.",
+      "choices": [],
+      "answer": "playing",
+      "explanation": "have been playing（ずっと弾き続けている）。現在完了進行形です。\n【🇺🇸 Cultural Note】\nアメリカの子供の習い事としてピアノは定番ですが、サッカーや水泳などのスポーツも同じくらい重視されます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は宿題をなくしてしまいました」\nI have (      ) my homework.",
+      "choices": ["lost", "lose", "losing", "loses"],
+      "answer": "lost",
+      "explanation": "lose（なくす）の過去分詞lost。結果用法です。\n【🇺🇸 Cultural Note】\nアメリカの学校では、プリント類をバインダー（Binder）に整理して持ち運ぶのが一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはどれくらいの間、彼を知っていますか？」となるように並び替えてください。",
+      "choices": ["known", "long", "him", "How", "you", "have"],
+      "answer": "Howlonghaveyouknownhim",
+      "explanation": "How long have you known...?（どれくらい知っていますか）。\n【🇺🇸 Cultural Note】\n\"We go way back\"（私たちは古い付き合いだ）という表現があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼らは2000年から結婚しています」\nThey have been married (      ) 2000.",
+      "choices": [],
+      "answer": "since",
+      "explanation": "since 2000（2000年から）。起点を表すsince。\n【🇺🇸 Cultural Note】\n銀婚式（25周年）や金婚式（50周年）は盛大に祝われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はちょうどそのニュースを聞いたところです」\nI have (      ) heard the news.",
+      "choices": ["just", "yet", "ever", "never"],
+      "answer": "just",
+      "explanation": "have just heard（ちょうど聞いたところだ）。\n【🇺🇸 Cultural Note】\n\"Did you hear the news?\" は、ゴシップや重要な出来事を話し始める時の定番フレーズです。"
+    },
+    {
+      "type": "sort",
+      "question": "「その猫は木に登ってしまいました（今は木の上にいます）。」となるように並び替えてください。",
+      "choices": ["climbed", "tree", "has", "cat", "up", "the", "The"],
+      "answer": "Thecathasclimbedupthetree",
+      "explanation": "has climbed up...（登ってしまった）。結果用法。\n【🇺🇸 Cultural Note】\n木から降りられなくなった猫を消防隊が助ける、というのは昔ながらのニュースのネタです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は以前、ロンドンを訪れたことがあります」\nI have (      ) London before.",
+      "choices": [],
+      "answer": "visited",
+      "explanation": "have visited（訪れたことがある）。have been to London でも同じ意味になります。\n【🇺🇸 Cultural Note】\nアメリカとイギリスは \"Two nations divided by a common language\"（共通の言語によって隔てられた二つの国）と言われるほど、文化や言葉のニュアンスが異なります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ケンはもう来ましたか？」\nHas Ken come (      )?",
+      "choices": ["yet", "already", "just", "ever"],
+      "answer": "yet",
+      "explanation": "疑問文の文末で「もう」を表すのはyetです。\n【🇺🇸 Cultural Note】\nアメリカのホームパーティーは \"Open House\" 形式の場合もあり、好きな時間に来て好きな時間に帰ることができます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は決してその日を忘れません（忘れたことがありません）。」となるように並び替えてください。",
+      "choices": ["day", "never", "that", "I", "forgotten", "have"],
+      "answer": "Ihaveneverforgottenthatday",
+      "explanation": "have never forgotten（忘れたことがない）。forgetの過去分詞forgotten。\n【🇺🇸 Cultural Note】\n9月11日（9.11）は、アメリカ人にとって決して忘れられない追悼の日です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は3年間、英語を勉強しています」\nShe has studied English (      ) three years.",
+      "choices": [],
+      "answer": "for",
+      "explanation": "for three years（3年間）。期間を表すfor。\n【🇺🇸 Cultural Note】\n高校の外国語選択科目では、スペイン語が圧倒的に一番人気で、次にフランス語が続きます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は今朝から何も食べていません」\nI (      ) eaten anything since this morning.",
+      "choices": ["haven't", "don't", "didn't", "won't"],
+      "answer": "haven't",
+      "explanation": "sinceがあるので現在完了形の否定文 haven't eaten にします。\n【🇺🇸 Cultural Note】\nブランチ（Brunch）は、朝食と昼食を兼ねた週末の遅めの食事で、パンケーキやエッグベネディクトを楽しみます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はテニスをすることをやめてしまいました（今はしていません）。」となるように並び替えてください。",
+      "choices": ["playing", "given", "tennis", "He", "up", "has"],
+      "answer": "Hehasgivenupplayingtennis",
+      "explanation": "has given up（やめてしまった）。give up ...ing（～することを諦める・やめる）。\n【🇺🇸 Cultural Note】\nアメリカの子供たちは複数のスポーツをシーズンごとに掛け持ちするのが一般的ですが、高校生になると一つに絞る（Specialize）ことが多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは先週からずっとここにいます」\nWe have been here (      ) last week.",
+      "choices": [],
+      "answer": "since",
+      "explanation": "since last week（先週から）。\n【🇺🇸 Cultural Note】\n休暇（Vacation）でコテージやキャビンを借りて、一週間ほど滞在するのはアメリカの家族の典型的な休日の過ごし方です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はパスポートをなくしてしまいました」\nI (      ) lost my passport.",
+      "choices": ["have", "has", "did", "was"],
+      "answer": "have",
+      "explanation": "have lost（なくしてしまった）。結果用法です。\n【🇺🇸 Cultural Note】\nアメリカ国内の移動には運転免許証で十分ですが、海外旅行にはパスポートが必要です。アメリカ人のパスポート保有率は約40〜50%です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼らは2010年からシカゴに住んでいます。」となるように並び替えてください。",
+      "choices": ["Chicago", "lived", "They", "have", "in", "since", "2010"],
+      "answer": "TheyhavelivedinChicagosince2010",
+      "explanation": "have lived... since 2010（2010年から住んでいる）。\n【🇺🇸 Cultural Note】\nシカゴは「摩天楼発祥の地」として知られ、建築ツアーが人気です。冬は非常に寒いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女はちょうど宿題を終えたところです」\nShe has (      ) finished her homework.",
+      "choices": [],
+      "answer": "just",
+      "explanation": "has just finished（ちょうど終えた）。\n【🇺🇸 Cultural Note】\nアメリカの学校の成績（GPA）は、テストの点数だけでなく、日々の宿題やクラスへの参加態度も大きく反映されます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「あなたは今までにクジラを見たことがありますか？」\nHave you (      ) seen a whale?",
+      "choices": ["ever", "never", "yet", "just"],
+      "answer": "ever",
+      "explanation": "Have you ever...?（今までに～したことがありますか）。\n【🇺🇸 Cultural Note】\nボストンやシアトル、カリフォルニア沿岸ではホエールウォッチング（Whale watching）が人気のアクティビティです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はまだ決めていません。」となるように並び替えてください。",
+      "choices": ["decided", "haven't", "I", "yet"],
+      "answer": "Ihaventdecidedyet",
+      "explanation": "haven't decided yet（まだ決めていない）。decideの過去分詞decided。\n【🇺🇸 Cultural Note】\n大学の専攻（Major）を入学後に決めることができるのも、アメリカの大学システムの特徴です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は買い物に行ってしまいました」\nHe has (      ) shopping.",
+      "choices": [],
+      "answer": "gone",
+      "explanation": "has gone shopping（買い物に行ってしまった）。ここにはいないことを示します。\n【🇺🇸 Cultural Note】\nブラックフライデーのセールでは、大型テレビや家電を求めて深夜から行列ができます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は2回、その映画を見たことがあります」\nI have seen the movie (      ).",
+      "choices": ["twice", "two times", "second", "two"],
+      "answer": "twice",
+      "explanation": "2回は twice を使います（two timesも間違いではありませんが、twiceが一般的）。\n【🇺🇸 Cultural Note】\n映画館のチケット代は日本より少し安い傾向にありますが、IMAXや3D上映は追加料金がかかります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは長い間待っています。」となるように並び替えてください。",
+      "choices": ["waiting", "We", "been", "have", "time", "for", "a", "long"],
+      "answer": "Wehavebeenwaitingforalongtime",
+      "explanation": "have been waiting（ずっと待っている）。現在完了進行形です。\n【🇺🇸 Cultural Note】\n人気のレストランでは、呼び出しベル（Pager）を渡され、席が空くまでバーで待つスタイルがよくあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は彼に一度も会ったことがありません」\nI have (      ) met him.",
+      "choices": [],
+      "answer": "never",
+      "explanation": "have never met（会ったことがない）。否定の経験用法。\n【🇺🇸 Cultural Note】\nオンラインデーティング（TinderやBumbleなど）が普及しており、ネットで知り合って結婚するカップルも珍しくありません。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「電車はもう到着しましたか？」\nHas the train arrived (      )?",
+      "choices": ["yet", "already", "just", "ever"],
+      "answer": "yet",
+      "explanation": "疑問文の「もう」はyetを使います。\n【🇺🇸 Cultural Note】\nアムトラック（Amtrak）は全米を結ぶ鉄道網ですが、貨物列車が優先されるため遅れることがよくあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の姉はニューヨークへ行ってしまいました。」となるように並び替えてください。",
+      "choices": ["sister", "New", "York", "has", "My", "gone", "to"],
+      "answer": "MysisterhasgonetoNewYork",
+      "explanation": "has gone to...（～へ行ってしまった）。\n【🇺🇸 Cultural Note】\n地方出身者がキャリアを求めて大都市（Big Appleなど）に出るのは、多くのアメリカドラマのテーマです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は3時間ずっと本を読んでいます」\nI have been (      ) a book for three hours.",
+      "choices": [],
+      "answer": "reading",
+      "explanation": "have been reading（読み続けている）。現在完了進行形。\n【🇺🇸 Cultural Note】\nバーンズ・アンド・ノーブル（Barnes & Noble）はアメリカ最大の本屋チェーンで、スタバが併設されていることが多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私たちは昨日から彼を見ていません」\nWe haven't seen him (      ) yesterday.",
+      "choices": ["since", "for", "from", "before"],
+      "answer": "since",
+      "explanation": "yesterday（昨日）という特定の時点が起点なのでsinceを使います。\n【🇺🇸 Cultural Note】\n\"Missing person\"（行方不明者）のポスターは、スーパーの掲示板や牛乳パック（かつての手法）などで見かけます。"
+    },
+    {
+      "type": "sort",
+      "question": "「あなたはこの本をもう読みましたか？」となるように並び替えてください。",
+      "choices": ["read", "book", "you", "Have", "yet", "this"],
+      "answer": "Haveyoureadthisbookyet",
+      "explanation": "Have you read... yet?（もう読みましたか）。readの過去分詞はread（レッド）。\n【🇺🇸 Cultural Note】\nブッククラブ（読書会）は、主婦層やコミュニティで人気の知的な社交活動です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はワニの肉を食べたことがあります」\nI have (      ) alligator meat.",
+      "choices": [],
+      "answer": "eaten",
+      "explanation": "have eaten（食べたことがある）。tried（試したことがある）もよく使われます。\n【🇺🇸 Cultural Note】\nフロリダ州やルイジアナ州などの南部では、アリゲーターの唐揚げ（Gator bites）が名物料理として提供されます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「どのくらいの間、日本語を勉強していますか？」\nHow long (      ) you studied Japanese?",
+      "choices": ["have", "did", "do", "are"],
+      "answer": "have",
+      "explanation": "How long have you...?（どのくらいの間～していますか）。継続用法。\n【🇺🇸 Cultural Note】\nアメリカの大学では、アニメやマンガの影響で日本語コースの人気が高まっています。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は先週から病気です。」となるように並び替えてください。",
+      "choices": ["week", "sick", "since", "been", "She", "has", "last"],
+      "answer": "Shehasbeensicksincelastweek",
+      "explanation": "has been sick since...（～からずっと病気だ）。\n【🇺🇸 Cultural Note】\nチキンスープ（Chicken noodle soup）は、アメリカで風邪をひいたときに食べる定番の家庭料理です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はちょうど昼食を食べ終えたところです」\nI have just (      ) eating lunch.",
+      "choices": [],
+      "answer": "finished",
+      "explanation": "have just finished...ing（～し終えたところだ）。\n【🇺🇸 Cultural Note】\n\"There's no such thing as a free lunch\"（タダより高いものはない）という有名な経済格言があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは結婚して20年になります」\nThey have been married (      ) twenty years.",
+      "choices": ["for", "since", "during", "while"],
+      "answer": "for",
+      "explanation": "twenty years（20年間）という期間なのでforを使います。\n【🇺🇸 Cultural Note】\nアメリカの離婚率は高いですが、再婚率も高く、ステップファミリー（再婚家庭）も一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の眼鏡を見ませんでしたか（見かけませんでしたか）？」となるように並び替えてください。",
+      "choices": ["seen", "you", "my", "glasses", "Have"],
+      "answer": "Haveyouseenmyglasses",
+      "explanation": "Have you seen...?（見かけませんでしたか？）。\n【🇺🇸 Cultural Note】\nアメリカ人はサングラスを愛用します。日差しが強い地域が多いことや、ファッションの一部として定着しています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はまだ家に帰ってきていません」\nHe has not (      ) home yet.",
+      "choices": [],
+      "answer": "come",
+      "explanation": "come home（家に帰る）。comeの過去分詞はcome。\n【🇺🇸 Cultural Note】\n門限（Curfew）は家庭によって厳しい場合があり、特にティーンエイジャーにとっては親との交渉材料になります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は今までにこんなに大きなハンバーガーを見たことがありません」\nI have (      ) seen such a big hamburger.",
+      "choices": ["never", "ever", "yet", "already"],
+      "answer": "never",
+      "explanation": "have never seen（見たことがない）。such a big...（こんなに大きな）。\n【🇺🇸 Cultural Note】\nアメリカのハンバーガーのサイズは日本とは比較にならず、特に「XXLサイズ」などは驚くべき大きさです。"
+    },
+    {
+      "type": "sort",
+      "question": "「その店はちょうど開店したところです。」となるように並び替えてください。",
+      "choices": ["store", "just", "The", "opened", "has"],
+      "answer": "Thestorehasjustopened",
+      "explanation": "has just opened（開店したばかりだ）。\n【🇺🇸 Cultural Note】\nグランドオープニング（Grand Opening）では、風船を飾ったり、先着順でギフトカードを配ったりします。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は5歳の時から彼を知っています」\nI have known him (      ) I was five.",
+      "choices": [],
+      "answer": "since",
+      "explanation": "since I was five（私が5歳の時から）。sinceの後ろには文（S+V）もこれます。\n【🇺🇸 Cultural Note】\n\"Kindergarten\"（幼稚園/0年生）から一緒の友人は \"Kindergarten friend\" と呼ばれます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女はオーストラリアへ行ったことがあります」\nShe has (      ) to Australia.",
+      "choices": ["been", "gone", "went", "go"],
+      "answer": "been",
+      "explanation": "have been to（行ったことがある）。経験用法。\n【🇺🇸 Cultural Note】\nオーストラリア英語とアメリカ英語は発音が大きく異なるため、お互いに聞き取るのが難しいことがあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「今朝からずっと雨が降っています。」となるように並び替えてください。",
+      "choices": ["morning", "been", "It", "has", "raining", "since", "this"],
+      "answer": "Ithasbeenrainingsincethismorning",
+      "explanation": "It has been raining（ずっと雨が降っている）。現在完了進行形。\n【🇺🇸 Cultural Note】\nシアトルは「雨の街（Rain City）」として有名ですが、実は霧雨が多く、傘をささない人が多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はすでにチケットを買いました」\nI have (      ) bought the ticket.",
+      "choices": [],
+      "answer": "already",
+      "explanation": "have already bought（すでに買った）。\n【🇺🇸 Cultural Note】\n人気のコンサートチケットは「Ticketmaster」などのサイトで発売と同時に売り切れる（Sold out）ことが多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は足を骨折してしまいました（今も骨折しています）」\nHe (      ) broken his leg.",
+      "choices": ["has", "have", "is", "was"],
+      "answer": "has",
+      "explanation": "has broken（折ってしまった）。結果用法。\n【🇺🇸 Cultural Note】\nギプス（Cast）に友人がサインやメッセージを書くのは、アメリカの学校での定番の励まし方です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちはもうそのプロジェクトを終わらせました。」となるように並び替えてください。",
+      "choices": ["finished", "project", "already", "We", "have", "the"],
+      "answer": "Wehavealreadyfinishedtheproject",
+      "explanation": "have already finished（すでに終えた）。\n【🇺🇸 Cultural Note】\nサイエンスフェア（科学展）のプロジェクトは、アメリカの学生にとって一大イベントであり、親も手伝って大掛かりなものを作ります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたは野球の試合を見に行ったことがありますか？」\nHave you ever (      ) to a baseball game?",
+      "choices": [],
+      "answer": "been",
+      "explanation": "have been to...（～に行ったことがある）。goneを使わないように注意。\n【🇺🇸 Cultural Note】\n\"Take Me Out to the Ball Game\" を7回裏の攻撃前に歌うのがメジャーリーグの伝統です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は彼と一週間会っていません」\nI haven't seen him (      ) a week.",
+      "choices": ["for", "since", "during", "before"],
+      "answer": "for",
+      "explanation": "a week（一週間）という期間なのでforを使います。\n【🇺🇸 Cultural Note】\nアメリカ人は \"How have you been?\"（どうしてた？）と挨拶代わりに近況を聞き合います。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女はテキサスに行ったことがありません。」となるように並び替えてください。",
+      "choices": ["Texas", "never", "She", "been", "has", "to"],
+      "answer": "ShehasneverbeentoTexas",
+      "explanation": "has never been to...（～に行ったことがない）。\n【🇺🇸 Cultural Note】\nテキサス州は独自の電力網を持つなど独立心が強く、「ローン・スター・ステート（孤高の星の州）」と呼ばれます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「その手紙はまだ届いていません」\nThe letter has not (      ) yet.",
+      "choices": [],
+      "answer": "arrived",
+      "explanation": "has not arrived（到着していない）。comeでも可ですが、手紙の場合はarriveが一般的です。\n【🇺🇸 Cultural Note】\n重要な書類はFedExやUPSなどの民間宅配便で送ることが多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは新しい車を買いました（今、新しい車を持っています）」\nThey (      ) bought a new car.",
+      "choices": ["have", "has", "did", "were"],
+      "answer": "have",
+      "explanation": "have bought（買った）。結果用法。\n【🇺🇸 Cultural Note】\n車を買う際、ディーラーと粘り強く値段交渉（Haggling）をするのがアメリカでの一般的な買い方です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は一日中働いています（働き続けています）。」となるように並び替えてください。",
+      "choices": ["working", "day", "been", "I", "all", "have"],
+      "answer": "Ihavebeenworkingallday",
+      "explanation": "have been working（働き続けている）。all day（一日中）。\n【🇺🇸 Cultural Note】\n「9 to 5」（ナイン・トゥ・ファイブ）は、典型的なサラリーマンの勤務時間を表す言葉です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたはいつから先生をしていますか？」\nHow long have you (      ) a teacher?",
+      "choices": [],
+      "answer": "been",
+      "explanation": "have you been（～である状態が続いている）。状態動詞の継続。\n【🇺🇸 Cultural Note】\nアメリカの先生は、新学期に向けて自腹で教室の装飾や教材を揃えることが多く、その献身さが称賛されています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ボブはどこですか？」「彼は家に帰ってしまいました」\nWhere is Bob? - He has (      ) home.",
+      "choices": ["gone", "been", "go", "went"],
+      "answer": "gone",
+      "explanation": "has gone home（家に帰ってしまった）。ここにはいない。\n【🇺🇸 Cultural Note】\nカープール（Carpool）といって、近所の親同士で子供の送り迎えを分担して行う文化があります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はサンタに手紙を書いたところです。」となるように並び替えてください。",
+      "choices": ["written", "Santa", "have", "to", "I", "a", "letter", "just"],
+      "answer": "IhavejustwrittenalettertoSanta",
+      "explanation": "have just written（書いたところだ）。\n【🇺🇸 Cultural Note】\n郵便局には「サンタへの手紙」専用の宛先があり、ボランティアが返事を書くプログラムがあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちはまだ昼食を食べていません」\nWe have not (      ) lunch yet.",
+      "choices": [],
+      "answer": "eaten",
+      "explanation": "have not eaten（食べていない）。hadでも可。\n【🇺🇸 Cultural Note】\n学校のランチは、家から持参する（Packed lunch）か、カフェテリアで買う（School lunch）かを選べます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は一度も海外に行ったことがありません」\nShe has (      ) been abroad.",
+      "choices": ["never", "ever", "yet", "just"],
+      "answer": "never",
+      "explanation": "has never been abroad（海外に行ったことがない）。\n【🇺🇸 Cultural Note】\nアメリカ人のパスポート保有率は上昇傾向にありますが、国内旅行で十分に多様な体験ができるため、海外に行かない人も多いです。"
     }
   ]
 }

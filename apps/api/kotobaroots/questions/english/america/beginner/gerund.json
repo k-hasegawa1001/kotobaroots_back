@@ -1,566 +1,707 @@
 {
-  "learning_topic": "動名詞",
+  "learning_topic": "動名詞 (Gerund)",
+  "learning_locale": "en_US",
   "difficulty": "Beginner",
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "「私はテニスをすることが好きです」\nI like (      ) tennis.",
-      "choices": ["playing", "play", "played", "plays"],
+      "question": "「私はテニスをすることを楽しみました」\nI enjoyed (      ) tennis.",
+      "choices": ["playing", "play", "to play", "played"],
       "answer": "playing",
-      "explanation": "Likeの後ろには動名詞（playing）を置くことができます。「テニスをすること」という意味になります。"
+      "explanation": "enjoyは動名詞（～ing）を目的語にとる動詞です。\n【🇺🇸 Cultural Note】\nアメリカの公園には、誰でも無料で使えるパブリックなテニスコート（Public courts）が多く整備されています。"
     },
     {
       "type": "sort",
-      "question": "「泳ぐことは楽しい。」となるように並び替えてください。",
-      "choices": ["Swimming", "fun", "is"],
-      "answer": "Swimmingisfun",
-      "explanation": "Swimming is fun. 動名詞は主語になることができます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼は音楽を聴くことを楽しみました」\nHe enjoyed (      ) to music.",
-      "choices": [],
-      "answer": "listening",
-      "explanation": "Enjoyの後ろは必ず動名詞（~ing）になります。to listenとは言いません。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は宿題をし終えました」\nShe finished (      ) her homework.",
-      "choices": ["doing", "to do", "do", "did"],
-      "answer": "doing",
-      "explanation": "Finishの後ろも必ず動名詞（~ing）をとります。"
-    },
-    {
-      "type": "sort",
-      "question": "「私の趣味は切手を集めることです。」となるように並び替えてください。",
-      "choices": ["collecting", "is", "hobby", "stamps", "My"],
-      "answer": "Myhobbyiscollectingstamps",
-      "explanation": "My hobby is collecting stamps. 補語（～ということ）になる動名詞です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「話すのをやめなさい」\nStop (      ).",
-      "choices": [],
-      "answer": "talking",
-      "explanation": "Stop talking（話すことをやめる）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「英語を話すことは大切です」\n(      ) English is important.",
-      "choices": ["Speaking", "Speak", "Spoke", "Speaks"],
-      "answer": "Speaking",
-      "explanation": "Speaking English（英語を話すこと）が主語になっています。"
-    },
-    {
-      "type": "sort",
-      "question": "「来てくれてありがとう。」となるように並び替えてください。",
-      "choices": ["coming", "for", "you", "Thank"],
-      "answer": "Thankyouforcoming",
-      "explanation": "Thank you for coming. 前置詞（for）の後ろは必ず動名詞（~ing）になります。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は料理が得意です」\nI am good at (      ).",
-      "choices": [],
-      "answer": "cooking",
-      "explanation": "Be good at...（～が得意だ）。atは前置詞なので後ろはing形です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼は走るのが速い（走ることが速い）」\nHe is fast at (      ).",
-      "choices": ["running", "run", "to run", "ran"],
-      "answer": "running",
-      "explanation": "前置詞atの後ろなのでrunningです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女はピアノを弾く練習をしました。」となるように並び替えてください。",
-      "choices": ["practiced", "piano", "playing", "She", "the"],
-      "answer": "Shepracticedplayingthepiano",
-      "explanation": "She practiced playing the piano. Practiceも後ろに動名詞をとる動詞です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「テレビを見るのはどうですか？」\nHow about (      ) TV?",
-      "choices": [],
-      "answer": "watching",
-      "explanation": "How about...?（～してはどうですか？）Aboutは前置詞なのでwatchingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私の父は釣りが好きです」\nMy father likes (      ).",
-      "choices": ["fishing", "fish", "fishes", "to fish"],
-      "answer": "fishing",
-      "explanation": "Likes fishingです（Likes to fishでも正解ですが、選択肢にある場合はfishingを選びます）。"
-    },
-    {
-      "type": "sort",
-      "question": "「写真を撮ることは面白い。」となるように並び替えてください。",
-      "choices": ["Taking", "interesting", "pictures", "is"],
-      "answer": "Takingpicturesisinteresting",
-      "explanation": "Taking pictures is interesting. 主語がTaking pictures（複数形の名詞を含んでいる）でも、動詞は「～すること（単数扱い）」に合わせてisを使います。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼はその手紙を書き終えました」\nHe finished (      ) the letter.",
-      "choices": [],
-      "answer": "writing",
-      "explanation": "Finish writingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は食べることが好きです」\nI like (      ).",
-      "choices": ["eating", "eat", "ate", "eats"],
-      "answer": "eating",
-      "explanation": "Like eatingです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女はダンスを習い始めました。」となるように並び替えてください。",
-      "choices": ["started", "dancing", "learning", "She"],
-      "answer": "Shestartedlearningdancing",
-      "explanation": "She started learning dancing. Startはto不定詞も動名詞もとれます。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「招待してくれてありがとう」\nThank you for (      ) me.",
-      "choices": [],
-      "answer": "inviting",
-      "explanation": "For inviting me. 前置詞forの後ろなのでingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「川で泳ぐのは危険です」\n(      ) in the river is dangerous.",
-      "choices": ["Swimming", "Swim", "Swims", "Swam"],
-      "answer": "Swimming",
-      "explanation": "Swimming... is dangerous. 主語になる動名詞です。"
-    },
-    {
-      "type": "sort",
-      "question": "「泣くのをやめなさい。」となるように並び替えてください。",
-      "choices": ["crying", "Stop"],
-      "answer": "Stopcrying",
-      "explanation": "Stop crying. 「泣いている状態をやめる」という意味です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「あなたに会えるのを楽しみにしています」\nI look forward to (      ) you.",
-      "choices": [],
-      "answer": "seeing",
-      "explanation": "Look forward to（～を楽しみに待つ）のtoは前置詞なので、後ろは動詞の原形ではなく動名詞seeingになります。非常に間違いやすい重要ポイントです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼は朝食を食べずに学校へ行きました」\nHe went to school without (      ) breakfast.",
-      "choices": ["eating", "eat", "eaten", "ate"],
-      "answer": "eating",
-      "explanation": "Without（～しないで）は前置詞なので、後ろはeatingになります。"
-    },
-    {
-      "type": "sort",
-      "question": "「私の仕事は英語を教えることです。」となるように並び替えてください。",
-      "choices": ["teaching", "English", "job", "is", "My"],
-      "answer": "MyjobisteachingEnglish",
-      "explanation": "My job is teaching English. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「ごめんなさい、遅れました（遅れてすみません）」\nI am sorry for (      ) late.",
-      "choices": [],
-      "answer": "being",
-      "explanation": "For being late. Lateは形容詞なのでbe動詞の動名詞beingが必要です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「雨が降り始めました」\nIt started (      ).",
-      "choices": ["raining", "rain", "rains", "rained"],
-      "answer": "raining",
-      "explanation": "Start rainingです（Start to rainでも可）。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼は走るのをあきらめました。」となるように並び替えてください。",
-      "choices": ["gave", "running", "up", "He"],
-      "answer": "Hegaveuprunning",
-      "explanation": "He gave up running. Give up（あきらめる）の後ろは動名詞です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は手紙を書くのを終えました」\nI finished (      ) the letter.",
-      "choices": [],
-      "answer": "writing",
-      "explanation": "Finished writingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は歌うのが上手ではありません」\nShe is not good at (      ).",
-      "choices": ["singing", "sing", "sings", "sang"],
-      "answer": "singing",
-      "explanation": "Good at singingです。"
-    },
-    {
-      "type": "sort",
-      "question": "「早く起きることは健康に良い。」となるように並び替えてください。",
-      "choices": ["getting", "health", "for", "early", "good", "is", "up", "your"],
-      "answer": "Gettingupearlyisgoodforyourhealth",
-      "explanation": "Getting up early is good for your health. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「そこへ行くのはどうですか？」\nHow about (      ) there?",
-      "choices": [],
-      "answer": "going",
-      "explanation": "How about going there? です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私はお風呂に入るのが好きです」\nI like (      ) a bath.",
-      "choices": ["taking", "take", "took", "takes"],
-      "answer": "taking",
-      "explanation": "Like taking a bathです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼らはゲームをして楽しみました。」となるように並び替えてください。",
-      "choices": ["playing", "enjoyed", "game", "They", "the"],
-      "answer": "Theyenjoyedplayingthegame",
-      "explanation": "They enjoyed playing the game. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼は本を読むことに興味があります」\nHe is interested in (      ) books.",
-      "choices": [],
-      "answer": "reading",
-      "explanation": "Interested in...（～に興味がある）。Inは前置詞なのでreadingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「外国語を学ぶことは面白い」\n(      ) foreign languages is interesting.",
-      "choices": ["Learning", "Learn", "Learns", "Learned"],
-      "answer": "Learning",
-      "explanation": "Learning foreign languages... が主語です。"
-    },
-    {
-      "type": "sort",
-      "question": "「タバコを吸うのをやめてくれませんか？」となるように並び替えてください。",
-      "choices": ["smoking", "stop", "you", "Will"],
-      "answer": "Willyoustopsmoking",
-      "explanation": "Will you stop smoking? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は彼と話すのを楽しみました」\nI enjoyed (      ) with him.",
-      "choices": [],
-      "answer": "talking",
-      "explanation": "Enjoyed talkingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼女は泳ぎに行きました」\nShe went (      ).",
-      "choices": ["swimming", "swim", "to swim", "swam"],
-      "answer": "swimming",
-      "explanation": "Go swimming（泳ぎに行く）、Go shopping（買い物に行く）などは慣用表現です。"
-    },
-    {
-      "type": "sort",
-      "question": "「私の夢は世界中を旅することです。」となるように並び替えてください。",
-      "choices": ["traveling", "around", "world", "is", "My", "dream", "the"],
-      "answer": "Mydreamistravelingaroundtheworld",
-      "explanation": "My dream is traveling...（現在進行形ではなく「～すること」という名詞的用法）です。To travelでも可。"
+      "question": "「英語を話すことは楽しいです。」となるように並び替えてください。",
+      "choices": ["Speaking", "is", "English", "fun"],
+      "answer": "SpeakingEnglishisfun",
+      "explanation": "Speaking English（英語を話すこと）が主語になっています。\n【🇺🇸 Cultural Note】\nアメリカは移民国家なので、スペイン語訛りやアジア訛りの英語も日常的に耳にします。完璧でなくても堂々と話すことが大切です。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「手伝ってくれてありがとう」\nThank you for (      ) me.",
       "choices": [],
       "answer": "helping",
-      "explanation": "Thank you for helping me. です。"
+      "explanation": "前置詞（for）の後ろは動名詞にします。\n【🇺🇸 Cultural Note】\n\"Thank you for your service\"（奉仕に感謝します）は、軍人や退役軍人に対して敬意を表す際によく使われるフレーズです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼を見るのをやめなさい」\nStop (      ) at him.",
-      "choices": ["looking", "look", "to look", "looks"],
-      "answer": "looking",
-      "explanation": "Stop looking at him. Stop to lookだと「見るために立ち止まる」という意味になります。"
+      "question": "「彼は宿題をし終えました」\nHe finished (      ) his homework.",
+      "choices": ["doing", "to do", "do", "does"],
+      "answer": "doing",
+      "explanation": "finishは動名詞を目的語にとる動詞です。\n【🇺🇸 Cultural Note】\nアメリカの学校では、プリント形式の宿題（Worksheet）が多く出されます。"
     },
     {
       "type": "sort",
-      "question": "「私たちは映画を見るのを楽しみました。」となるように並び替えてください。",
-      "choices": ["movie", "watching", "enjoyed", "We", "the"],
-      "answer": "Weenjoyedwatchingthemovie",
-      "explanation": "We enjoyed watching the movie. です。"
+      "question": "「私の趣味は切手を集めることです。」となるように並び替えてください。",
+      "choices": ["hobby", "collecting", "is", "stamps", "My"],
+      "answer": "Myhobbyiscollectingstamps",
+      "explanation": "is collecting...（～することだ）という補語になる動名詞です。\n【🇺🇸 Cultural Note】\nアメリカの切手には、大統領だけでなく、有名な歌手や漫画のキャラクター（スヌーピーなど）もよく登場します。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は絵を描くのが好きではありません」\nI don't like (      ) pictures.",
+      "question": "「雨が降り始めました」\nIt started (      ).",
       "choices": [],
-      "answer": "drawing",
-      "explanation": "Like drawing / painting pictures. です。"
+      "answer": "raining",
+      "explanation": "startは動名詞と不定詞の両方をとれますが、ここではraining（またはto rain）が入ります。\n【🇺🇸 Cultural Note】\n「It's raining cats and dogs」は「土砂降り」を意味する有名なイディオムです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼は何も言わずに去りました」\nHe left without (      ) anything.",
-      "choices": ["saying", "say", "said", "says"],
-      "answer": "saying",
-      "explanation": "Without saying（言わずに）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「英語を勉強し始めよう。」となるように並び替えてください。",
-      "choices": ["studying", "start", "Let's", "English"],
-      "answer": "Let'sstartstudyingEnglish",
-      "explanation": "Let's start studying English. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼らは昼食を食べ終えました」\nThey finished (      ) lunch.",
-      "choices": [],
-      "answer": "eating",
-      "explanation": "Finished eatingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私の好きな娯楽は釣りです」\nMy favorite pastime is (      ).",
-      "choices": ["fishing", "fish", "to fish", "fished"],
-      "answer": "fishing",
-      "explanation": "is fishing（釣りをすること）です。"
-    },
-    {
-      "type": "sort",
-      "question": "「新しい自転車を買うのはどう？」となるように並び替えてください。",
-      "choices": ["buying", "bike", "about", "How", "new", "a"],
-      "answer": "Howaboutbuyinganewbike",
-      "explanation": "How about buying a new bike? です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女はテニスをするのが得意ではありません」\nShe is not good at (      ) tennis.",
-      "choices": [],
-      "answer": "playing",
-      "explanation": "Not good at playingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「あなたは料理をするのが好きですか？」\nDo you like (      )?",
-      "choices": ["cooking", "cook", "cooked", "cooks"],
-      "answer": "cooking",
-      "explanation": "Like cookingです。"
-    },
-    {
-      "type": "sort",
-      "question": "「お皿を洗ってくれてありがとう。」となるように並び替えてください。",
-      "choices": ["dishes", "washing", "for", "you", "Thank", "the"],
-      "answer": "Thankyouforwashingthedishes",
-      "explanation": "Thank you for washing the dishes. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私はサッカーを練習し始めました」\nI started (      ) soccer.",
-      "choices": [],
-      "answer": "practicing",
-      "explanation": "Started practicingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「ここで写真を撮ることは禁止されています」\n(      ) pictures is prohibited here.",
-      "choices": ["Taking", "Take", "Took", "Takes"],
+      "question": "「その赤ちゃんの世話をするのは簡単ではありません」\n(      ) care of the baby is not easy.",
+      "choices": ["Taking", "Take", "To taking", "Took"],
       "answer": "Taking",
-      "explanation": "Taking pictures... が主語です。"
+      "explanation": "Taking care of...（～の世話をすること）が主語になっています。\n【🇺🇸 Cultural Note】\nアメリカでは高校生が近所の子供の世話をする「ベビーシッター（Babysitting）」が、初めてのアルバイトとして一般的です。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は料理が得意です。」となるように並び替えてください。",
+      "choices": ["at", "cooking", "good", "is", "She"],
+      "answer": "Sheisgoodatcooking",
+      "explanation": "be good at ...ing（～するのが得意だ）。atは前置詞なので後ろは動名詞です。\n【🇺🇸 Cultural Note】\n感謝祭（Thanksgiving）の料理は、七面鳥の丸焼きを中心に、スタッフィングやマッシュポテトなど、一日がかりで作ります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「タバコを吸うのをやめてください」\nPlease stop (      ).",
+      "choices": [],
+      "answer": "smoking",
+      "explanation": "stop ...ing（～することをやめる）。stop to smokeだと「タバコを吸うために立ち止まる」になるので注意。\n【🇺🇸 Cultural Note】\nアメリカでは屋内や公共の場所での喫煙（Smoking）は厳しく制限されており、違反すると高額な罰金が科せられることがあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「公園に行きませんか？」\nHow about (      ) to the park?",
+      "choices": ["going", "go", "to go", "goes"],
+      "answer": "going",
+      "explanation": "How about ...ing?（～するのはどうですか）という勧誘の表現です。\n【🇺🇸 Cultural Note】\nセントラルパーク（Central Park）のような都市公園は、ジョギングやピクニックを楽しむ市民の憩いの場です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私はテレビを見ることが好きです。」となるように並び替えてください。",
+      "choices": ["watching", "like", "TV", "I"],
+      "answer": "IlikewatchingTV",
+      "explanation": "like watching（見ることが好き）。likeは不定詞もとれます。\n【🇺🇸 Cultural Note】\nアメリカのテレビ番組は「シットコム（Sitcom）」と呼ばれるコメディドラマ（フレンズなど）が人気です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼は走るのが速いです（走ることが速いです）」\nHe is fast at (      ).",
+      "choices": [],
+      "answer": "running",
+      "explanation": "前置詞atの後ろなので動名詞にします。\n【🇺🇸 Cultural Note】\nジョギング（Jogging）ブームは1970年代のアメリカから始まり、世界中に広まりました。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は歌う練習をしました」\nShe practiced (      ).",
+      "choices": ["singing", "sing", "to sing", "sang"],
+      "answer": "singing",
+      "explanation": "practiceは動名詞を目的語にとる動詞です。\n【🇺🇸 Cultural Note】\n学校の合唱団（Choir）や教会の聖歌隊（Gospel choir）など、歌う文化は地域に根付いています。"
+    },
+    {
+      "type": "sort",
+      "question": "「あまり食べすぎるのは健康によくありません。」となるように並び替えてください。",
+      "choices": ["Eating", "much", "too", "bad", "is", "for", "your", "health"],
+      "answer": "Eatingtoomuchisbadforyourhealth",
+      "explanation": "Eating too much（食べすぎること）が主語です。\n【🇺🇸 Cultural Note】\nアメリカのレストランの食事量（Portion size）は非常に多いため、食べきれない分を持ち帰る「ドギーバッグ（Doggy bag）」の文化があります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「あなたにお会いするのを楽しみにしています」\nI am looking forward to (      ) you.",
+      "choices": [],
+      "answer": "seeing",
+      "explanation": "look forward to ...ing（～するのを楽しみに待つ）。ここでのtoは前置詞なので、後ろは動名詞になります。\n【🇺🇸 Cultural Note】\nビジネスメールの結びや、パーティーの招待状などで頻繁に使われる表現です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の父は釣りが好きです」\nMy father likes (      ).",
+      "choices": ["fishing", "fish", "fishes", "fished"],
+      "answer": "fishing",
+      "explanation": "like fishing（釣りをすること）。go fishing（釣りに行く）という表現もよく使われます。\n【🇺🇸 Cultural Note】\nバス釣り（Bass fishing）はアメリカで非常に人気のあるスポーツフィッシングです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は手紙を書くのをやめました。」となるように並び替えてください。",
+      "choices": ["stopped", "She", "writing", "letter", "the"],
+      "answer": "Shestoppedwritingtheletter",
+      "explanation": "stop ...ing（～することをやめる）です。\n【🇺🇸 Cultural Note】\nデジタルの時代ですが、クリスマスカードやサンキューカードを手書きで送る習慣は大切にされています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「待たせてごめんなさい」\nI am sorry for (      ) you waiting.",
+      "choices": [],
+      "answer": "keeping",
+      "explanation": "for keeping you waiting。前置詞forの後ろなので動名詞です。\n【🇺🇸 Cultural Note】\n\"Sorry to keep you waiting\" と言うこともありますが、どちらも丁寧な謝罪表現です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「泳ぐことは良い運動になります」\n(      ) is good exercise.",
+      "choices": ["Swimming", "Swim", "Swims", "Swam"],
+      "answer": "Swimming",
+      "explanation": "Swimming（泳ぐこと）が主語です。\n【🇺🇸 Cultural Note】\nマイケル・フェルプスのような競泳選手はアメリカのヒーローです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは音楽を聴いて楽しみました。」となるように並び替えてください。",
+      "choices": ["listening", "enjoyed", "music", "to", "We"],
+      "answer": "Weenjoyedlisteningtomusic",
+      "explanation": "enjoy ...ing（～して楽しむ）です。\n【🇺🇸 Cultural Note】\nジャズ、ブルース、ロック、ヒップホップなど、アメリカは多くのポピュラー音楽の発祥地です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「部屋の掃除をし終えましたか？」\nDid you finish (      ) your room?",
+      "choices": [],
+      "answer": "cleaning",
+      "explanation": "finish cleaning（掃除し終える）。\n【🇺🇸 Cultural Note】\nアメリカの子供部屋は個人のプライベート空間として尊重されますが、片付け（Cleaning up）は親から厳しく言われます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼はその本を読むことに興味があります」\nHe is interested in (      ) the book.",
+      "choices": ["reading", "read", "to read", "reads"],
+      "answer": "reading",
+      "explanation": "interested in ...ing（～することに興味がある）。inは前置詞です。\n【🇺🇸 Cultural Note】\nアメリカの学校では「読書週間」があり、パジャマで登校して一日中本を読むイベントなどが行われることもあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「野球をすることはエキサイティングです。」となるように並び替えてください。",
+      "choices": ["exciting", "Playing", "is", "baseball"],
+      "answer": "Playingbaseballisexciting",
+      "explanation": "Playing baseball が主語です。\n【🇺🇸 Cultural Note】\n野球場（Ballpark）で流れるオルガンの音や「私を野球に連れてって（Take Me Out to the Ball Game）」の合唱は、観戦の醍醐味です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「笑うのをやめられません」\nI can't stop (      ).",
+      "choices": [],
+      "answer": "laughing",
+      "explanation": "stop laughing（笑うのをやめる）。\n【🇺🇸 Cultural Note】\nアメリカンジョークは言葉遊び（Pun）や皮肉（Sarcasm）を多用する傾向があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女はダンスが好きです」\nShe likes (      ).",
+      "choices": ["dancing", "dance", "dances", "danced"],
+      "answer": "dancing",
+      "explanation": "like dancing（踊ることが好き）。\n【🇺🇸 Cultural Note】\n学校のダンスパーティー（PromやHomecoming）は、アメリカの学生生活における一大イベントです。"
+    },
+    {
+      "type": "sort",
+      "question": "「バスケットボールの試合を見るのはどうですか？」となるように並び替えてください。",
+      "choices": ["How", "watching", "about", "basketball", "a", "game"],
+      "answer": "Howaboutwatchingabasketballgame",
+      "explanation": "How about ...ing?（～はどうですか）です。\n【🇺🇸 Cultural Note】\nNBA（プロバスケットボール）の試合はエンターテイメント性が高く、ハーフタイムショーも豪華です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「新しい自転車を買うのはどう？」\nHow about (      ) a new bike?",
+      "choices": [],
+      "answer": "buying",
+      "explanation": "How about buying...（買うのはどう？）。\n【🇺🇸 Cultural Note】\nアメリカの郊外では、自転車は移動手段というよりは、レクリエーションや運動のために乗られることが多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私の仕事は英語を教えることです」\nMy job is (      ) English.",
+      "choices": ["teaching", "teach", "taught", "teaches"],
+      "answer": "teaching",
+      "explanation": "is teaching...（～することだ）という補語になる動名詞です。\n【🇺🇸 Cultural Note】\nアメリカの学校の先生は \"Mr.\" や \"Ms.\" の後に名字をつけて呼ばれます（例: Mr. Smith）。"
     },
     {
       "type": "sort",
       "question": "「彼は走るのをやめました。」となるように並び替えてください。",
-      "choices": ["stopped", "running", "He"],
+      "choices": ["running", "He", "stopped"],
       "answer": "Hestoppedrunning",
-      "explanation": "He stopped running. です。"
+      "explanation": "stop running（走るのをやめる）。\n【🇺🇸 Cultural Note】\n映画『フォレスト・ガンプ』では、主人公が理由もなくアメリカ大陸を走り続けるシーンが有名です。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は泳ぎに行くのが好きです」\nI like (      ) swimming.",
+      "question": "「彼女はピアノを弾くのが上手です」\nShe is good at (      ) the piano.",
       "choices": [],
-      "answer": "going",
-      "explanation": "Like going swimming. Go swimmingという熟語を動名詞にしています。"
+      "answer": "playing",
+      "explanation": "good at playing...（～するのが上手だ）。\n【🇺🇸 Cultural Note】\nスタインウェイ（Steinway & Sons）はニューヨークで創業された世界最高峰のピアノメーカーです。"
     },
     {
       "type": "multiple_choice",
-      "question": "「手伝ってくれてありがとう」\nThanks for (      ) me.",
-      "choices": ["helping", "help", "helped", "helps"],
-      "answer": "helping",
-      "explanation": "Thanks for helping me. です。"
-    },
-    {
-      "type": "sort",
-      "question": "「このコンピュータを使うのは簡単です。」となるように並び替えてください。",
-      "choices": ["easy", "using", "computer", "is", "This"],
-      "answer": "Usingthiscomputeriseasy",
-      "explanation": "Using this computer is easy. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「彼女はまだ掃除を終えていません」\nShe hasn't finished (      ) yet.",
-      "choices": [],
-      "answer": "cleaning",
-      "explanation": "Finished cleaningです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼は日本語を話すのが得意です」\nHe is good at (      ) Japanese.",
-      "choices": ["speaking", "speak", "spoke", "speaks"],
-      "answer": "speaking",
-      "explanation": "Good at speakingです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼からの便りを楽しみにしています。」となるように並び替えてください。",
-      "choices": ["hearing", "from", "looking", "am", "I", "forward", "to", "him"],
-      "answer": "Iamlookingforwardtohearingfromhim",
-      "explanation": "I am looking forward to hearing from him. Hear from（～から便りがある）です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「ここで待っていてくれませんか？」\nWould you mind (      ) here?",
-      "choices": [],
-      "answer": "waiting",
-      "explanation": "Would you mind -ing?（～していただけませんか/～するのは嫌ですか）という丁寧な依頼表現です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「私は部屋を掃除するのを終えました」\nI finished (      ) the room.",
-      "choices": ["cleaning", "clean", "cleaned", "cleans"],
-      "answer": "cleaning",
-      "explanation": "Finished cleaningです。"
-    },
-    {
-      "type": "sort",
-      "question": "「彼女はピアノを弾くのが好きです。」となるように並び替えてください。",
-      "choices": ["likes", "piano", "She", "playing", "the"],
-      "answer": "Shelikesplayingthepiano",
-      "explanation": "She likes playing the piano. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は寝る前に本を読みます」\nI read a book before (      ) to bed.",
-      "choices": [],
-      "answer": "going",
-      "explanation": "Before going to bed. Beforeは接続詞としても使えますが、前置詞として使う場合は動名詞goingになります。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「彼は窓を開けるのを気にしますか？（窓を開けてもいいですか？）」\nDoes he mind (      ) the window?",
-      "choices": ["opening", "open", "opened", "opens"],
+      "question": "「窓を開けても構いませんか？（開けてくれませんか？）」\nDo you mind (      ) the window?",
+      "choices": ["opening", "open", "to open", "opened"],
       "answer": "opening",
-      "explanation": "Mind opening... です。"
+      "explanation": "mind ...ing（～することを嫌がる・気にする）。直訳は「開けるのを気にしますか？」となり、依頼の表現として使われます。\n【🇺🇸 Cultural Note】\nアメリカの家庭やオフィスは全館空調（Central Air）が普及しているため、窓を開けて換気する習慣は日本ほど一般的ではありません。"
     },
     {
       "type": "sort",
-      "question": "「私たちの家を訪れてくれてありがとう。」となるように並び替えてください。",
-      "choices": ["visiting", "for", "Thank", "house", "our", "you"],
-      "answer": "Thankyouforvisitingourhouse",
-      "explanation": "Thank you for visiting our house. です。"
+      "question": "「コインを集めることは私の趣味です。」となるように並び替えてください。",
+      "choices": ["Collecting", "hobby", "coins", "is", "my"],
+      "answer": "Collectingcoinsismyhobby",
+      "explanation": "Collecting coins（コインを集めること）が主語です。\n【🇺🇸 Cultural Note】\n50州ごとのデザインが描かれた「ステート・クォーター（State Quarters）」は、子供から大人まで収集ブームを巻き起こしました。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は早起きすることに慣れています」\nI am used to (      ) up early.",
+      "question": "「朝食を食べずに学校へ行きました」\nI went to school without (      ) breakfast.",
       "choices": [],
-      "answer": "getting",
-      "explanation": "Be used to -ing（～することに慣れている）。ここのtoも前置詞なのでgettingになります。"
+      "answer": "eating",
+      "explanation": "without ...ing（～せずに）。withoutは前置詞なので後ろは動名詞です。\n【🇺🇸 Cultural Note】\nアメリカの朝食といえば、牛乳をかけたシリアル（Cereal）や、トースターで焼くポップタルト（Pop-Tarts）などが手軽で人気です。"
     },
     {
       "type": "multiple_choice",
-      "question": "「その本を読むのをやめた」\nI stopped (      ) the book.",
-      "choices": ["reading", "read", "to read", "reads"],
-      "answer": "reading",
-      "explanation": "Stopped readingです。"
+      "question": "「彼は走るのを諦めました」\nHe gave up (      ).",
+      "choices": ["running", "run", "to run", "ran"],
+      "answer": "running",
+      "explanation": "give up ...ing（～することを諦める・やめる）。give upは群動詞ですが、動名詞を目的語にとります。\n【🇺🇸 Cultural Note】\nマラソンイベント（5K runなど）は、チャリティ（寄付集め）を目的として全米各地で頻繁に開催されています。"
     },
     {
       "type": "sort",
-      "question": "「そのことについて話すのはやめましょう。」となるように並び替えてください。",
-      "choices": ["talking", "Let's", "it", "about", "stop"],
-      "answer": "Let'sstoptalkingaboutit",
-      "explanation": "Let's stop talking about it. です。"
+      "question": "「彼らは話し続けました。」となるように並び替えてください。",
+      "choices": ["talking", "kept", "They"],
+      "answer": "Theykepttalking",
+      "explanation": "keep ...ing（～し続ける）。\n【🇺🇸 Cultural Note】\n授業中の私語（Talking in class）は厳しく注意されますが、ディスカッションの時間には活発に発言することが求められます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼は何も言わずに去りました」\nHe left without (      ) anything.",
+      "question": "「その本を読み終えましたか？」\nDid you finish (      ) the book?",
+      "choices": [],
+      "answer": "reading",
+      "explanation": "finish reading（読み終える）。\n【🇺🇸 Cultural Note】\nハリー・ポッターシリーズや『グレッグのダメ日記（Diary of a Wimpy Kid）』は、アメリカの子供たちに絶大な人気があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私はスキーに行くのが好きです」\nI like (      ) skiing.",
+      "choices": ["going", "go", "went", "goes"],
+      "answer": "going",
+      "explanation": "go ...ing（～しに行く）という表現をlikeの目的語にしています。\n【🇺🇸 Cultural Note】\nコロラド州のアスペン（Aspen）などは世界的なスキーリゾートで、冬休みには多くの家族連れで賑わいます。"
+    },
+    {
+      "type": "sort",
+      "question": "「写真を撮ることは許可されていません。」となるように並び替えてください。",
+      "choices": ["Taking", "allowed", "pictures", "is", "not"],
+      "answer": "Takingpicturesisnotallowed",
+      "explanation": "Taking pictures（写真を撮ること）が主語です。\n【🇺🇸 Cultural Note】\n美術館や博物館では、フラッシュなしであれば撮影OKの場所も多いですが、三脚（Tripod）の使用は禁止されていることが一般的です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「招待してくれてありがとう」\nThank you for (      ) me.",
+      "choices": [],
+      "answer": "inviting",
+      "explanation": "for inviting me（招待してくれて）。\n【🇺🇸 Cultural Note】\n招待状（Invitation）に \"RSVP\" と書かれていたら、フランス語の \"Répondez s'il vous plaît\"（お返事願います）の略なので、出欠の連絡が必要です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「雨が降りやみました」\nIt stopped (      ).",
+      "choices": ["raining", "rain", "to rain", "rains"],
+      "answer": "raining",
+      "explanation": "stop ...ing（～しやむ、～するのをやめる）。\n【🇺🇸 Cultural Note】\n砂漠気候のアリゾナ州などでは、雨が降ると子供たちが外に出て喜ぶ光景が見られます。"
+    },
+    {
+      "type": "sort",
+      "question": "「歩き続けなさい。」となるように並び替えてください。",
+      "choices": ["walking", "Keep"],
+      "answer": "Keepwalking",
+      "explanation": "Keep ...ing（～し続けなさい）という命令文です。\n【🇺🇸 Cultural Note】\nニューヨークなどの大都市では「歩行者（Pedestrian）」が多く、信号無視（Jaywalking）には罰金が科せられることがあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はギターを弾くのが得意です」\nHe is good at (      ) the guitar.",
+      "choices": [],
+      "answer": "playing",
+      "explanation": "good at playing...（～するのが得意だ）。\n【🇺🇸 Cultural Note】\nフェンダー（Fender）やギブソン（Gibson）はアメリカを代表するギターメーカーで、ロックンロールの歴史そのものです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「釣りに行くのはどうですか？」\nHow about (      ) fishing?",
+      "choices": ["going", "go", "to go", "goes"],
+      "answer": "going",
+      "explanation": "How about ...ing?（～はどうですか）。\n【🇺🇸 Cultural Note】\nミネソタ州は「一万の湖の州」と呼ばれ、釣りが生活の一部になっています。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の父は料理を作ることを楽しみました。」となるように並び替えてください。",
+      "choices": ["cooking", "enjoyed", "father", "My"],
+      "answer": "Myfatherenjoyedcooking",
+      "explanation": "enjoy ...ing（～して楽しむ）。\n【🇺🇸 Cultural Note】\n週末の朝食（パンケーキや卵料理）やBBQは、伝統的に父親が担当する家庭が多いです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「英語を勉強し始めましょう」\nLet's start (      ) English.",
+      "choices": [],
+      "answer": "studying",
+      "explanation": "start studying（勉強し始める）。start to studyでも可ですが、ここでは動名詞を選択。\n【🇺🇸 Cultural Note】\nアメリカの学校年度（School Year）は通常8月か9月に始まり、翌年の5月か6月に終わります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は宿題をするのに忙しいです」\nI am busy (      ) my homework.",
+      "choices": ["doing", "do", "to do", "did"],
+      "answer": "doing",
+      "explanation": "be busy ...ing（～するのに忙しい）。\n【🇺🇸 Cultural Note】\nアメリカの高校生は、学業だけでなく、スポーツ、クラブ活動、アルバイト、ボランティアと非常に多忙なスケジュールをこなします。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼女は犬を怖がっています。」となるように並び替えてください。",
+      "choices": ["afraid", "of", "She", "dogs", "is"],
+      "answer": "Sheisafraidofdogs",
+      "explanation": "be afraid of...（～を怖がる）。ofは前置詞なので、動名詞や名詞が続きます。\n【🇺🇸 Cultural Note】\nアメリカではピットブルなどの大型犬も人気ですが、ドッグパーク（Dog park）ではリードを外して遊ばせることができます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「寝る前に歯を磨きなさい」\nBrush your teeth before (      ) to bed.",
+      "choices": [],
+      "answer": "going",
+      "explanation": "before going...（行く前に）。beforeは接続詞としても使えますが、ここでは前置詞的に動名詞を伴う形と考えます。\n【🇺🇸 Cultural Note】\nアメリカの歯科治療費は非常に高いため、予防歯科（Preventive dentistry）の意識が極めて高く、フロスを使うのが常識です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼らは歌うのをやめました」\nThey stopped (      ).",
+      "choices": ["singing", "sing", "to sing", "sang"],
+      "answer": "singing",
+      "explanation": "stop singing（歌うのをやめる）。stop to singだと「歌うために立ち止まった」になります。\n【🇺🇸 Cultural Note】\n国歌斉唱の最後、\"Home of the brave\" の歌詞が終わると、スタジアムは大歓声に包まれます。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼から連絡をもらうのを楽しみにしています。」となるように並び替えてください。",
+      "choices": ["hearing", "forward", "am", "looking", "I", "to", "him", "from"],
+      "answer": "Iamlookingforwardtohearingfromhim",
+      "explanation": "look forward to ...ing（～を楽しみに待つ）。hear from...（～から連絡をもらう）。\n【🇺🇸 Cultural Note】\n\"I look forward to hearing from you.\" はビジネスメールの結びの決まり文句です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私はその映画を見ることに興味があります」\nI am interested in (      ) the movie.",
+      "choices": [],
+      "answer": "watching",
+      "explanation": "in watching...（見ること）。映画を見る場合はseeingも使われます。\n【🇺🇸 Cultural Note】\nアカデミー賞（Oscars）の授賞式は、映画業界最大のイベントとして全米で生中継されます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「買い物に行きませんか？」\nHow about (      ) shopping?",
+      "choices": ["going", "go", "to go", "goes"],
+      "answer": "going",
+      "explanation": "go shopping（買い物に行く）。How about going...となります。\n【🇺🇸 Cultural Note】\nモール・オブ・アメリカ（ミネソタ州）などの巨大モールには、遊園地や水族館まで入っています。"
+    },
+    {
+      "type": "sort",
+      "question": "「新しいことを学ぶのは面白いです。」となるように並び替えてください。",
+      "choices": ["new", "Learning", "things", "interesting", "is"],
+      "answer": "Learningnewthingsisinteresting",
+      "explanation": "Learning new things が主語です。\n【🇺🇸 Cultural Note】\nアメリカの大学では「生涯学習（Lifelong Learning）」が盛んで、定年退職後に大学に戻って学ぶシニアも珍しくありません。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼女は絵を描くのが上手です」\nShe is good at (      ) pictures.",
+      "choices": [],
+      "answer": "painting",
+      "explanation": "drawing（線画）やpainting（絵の具）が入ります。good atの後ろなので動名詞。\n【🇺🇸 Cultural Note】\nノーマン・ロックウェルは、古き良きアメリカの日常を描いた画家として今も愛されています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「泣くのをやめなさい」\nStop (      ).",
+      "choices": ["crying", "cry", "to cry", "cries"],
+      "answer": "crying",
+      "explanation": "stop crying（泣くのをやめる）。\n【🇺🇸 Cultural Note】\n映画『プリティ・リーグ』の有名なセリフ \"There's no crying in baseball!\"（野球に泣くなんてありえない！）はよく引用されます。"
+    },
+    {
+      "type": "sort",
+      "question": "「そこへバスで行くのは簡単です。」となるように並び替えてください。",
+      "choices": ["easy", "going", "by", "bus", "is", "there"],
+      "answer": "Goingtherebybusiseasy",
+      "explanation": "Going there by bus が主語です。\n【🇺🇸 Cultural Note】\n都市間を結ぶ長距離バス（Greyhoundなど）は、最も安価な移動手段の一つです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「放課後、サッカーをして楽しみました」\nWe enjoyed (      ) soccer after school.",
+      "choices": [],
+      "answer": "playing",
+      "explanation": "enjoy playing...（～して楽しむ）。\n【🇺🇸 Cultural Note】\nアメリカで「Soccer」と言えば通常のサッカーを指し、「Football」と言えばアメフトを指します。女子サッカーの人気が非常に高いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女はパイロットになることを夢見ています」\nShe dreams of (      ) a pilot.",
+      "choices": ["becoming", "become", "to become", "became"],
+      "answer": "becoming",
+      "explanation": "dream of ...ing（～することを夢見る）。ofは前置詞です。\n【🇺🇸 Cultural Note】\nアメリア・イアハートは、女性として初めて大西洋単独横断飛行に成功したアメリカの伝説的なパイロットです。"
+    },
+    {
+      "type": "sort",
+      "question": "「宿題をするのを手伝ってくれませんか？」\nDo you mind helping me with my homework?",
+      "choices": ["helping", "mind", "me", "you", "Do", "homework", "with", "my"],
+      "answer": "Doyoumindhelpingmewithmyhomework",
+      "explanation": "mind ...ing（～してくれませんか）。help 人 with...（人の～を手伝う）。\n【🇺🇸 Cultural Note】\nアメリカの学校では「チューター（Tutor）」制度があり、上級生やボランティアが勉強を教えてくれる仕組みがあります。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「彼はさよならも言わずに去りました」\nHe left without (      ) goodbye.",
       "choices": [],
       "answer": "saying",
-      "explanation": "Without sayingです。"
+      "explanation": "without saying...（言わずに）。\n【🇺🇸 Cultural Note】\nパーティーなどから誰にも告げずにこっそり帰ることを俗に \"Irish exit\"（アイリッシュ・イグジット）と呼ぶことがあります。"
     },
     {
       "type": "multiple_choice",
-      "question": "「私は切手を集めることに興味があります」\nI am interested in (      ) stamps.",
-      "choices": ["collecting", "collect", "collected", "collects"],
-      "answer": "collecting",
-      "explanation": "Interested in collectingです。"
+      "question": "「野菜を食べることは大切です」\n(      ) vegetables is important.",
+      "choices": ["Eating", "Eat", "Eats", "Ate"],
+      "answer": "Eating",
+      "explanation": "Eating vegetables（野菜を食べること）が主語です。\n【🇺🇸 Cultural Note】\nミシェル・オバマ夫人がホワイトハウスに菜園を作り、子供たちの健康的な食生活を推進した運動は有名です。"
     },
     {
       "type": "sort",
-      "question": "「毎日走ることは健康に良い。」となるように並び替えてください。",
-      "choices": ["health", "good", "Running", "day", "every", "is", "for"],
-      "answer": "Runningeverydayisgoodforhealth",
-      "explanation": "Running every day is good for health. です。"
+      "question": "「私は列に並んで待つことにうんざりしています。」となるように並び替えてください。",
+      "choices": ["waiting", "tired", "of", "am", "I", "in", "line"],
+      "answer": "Iamtiredofwaitinginline",
+      "explanation": "tired of ...ing（～することにうんざりしている）。\n【🇺🇸 Cultural Note】\nブラックフライデーのセールや、人気テーマパークの新しいアトラクションでは、数時間待ちの長蛇の列（Long line）ができます。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「私は料理を楽しんだ」\nI enjoyed (      ).",
+      "question": "「彼は自分の部屋を掃除し始めました」\nHe started (      ) his room.",
       "choices": [],
-      "answer": "cooking",
-      "explanation": "Enjoyed cookingです。"
+      "answer": "cleaning",
+      "explanation": "start cleaning（掃除し始める）。\n【🇺🇸 Cultural Note】\nアメリカの子供たちは、お小遣い（Allowance）をもらうために、部屋の掃除や皿洗いなどの家事（Chores）をこなします。"
     },
     {
       "type": "multiple_choice",
-      "question": "「彼は宿題をするのを忘れました」\nHe forgot (      ) his homework.",
-      "choices": ["to do", "doing", "do", "did"],
-      "answer": "to do",
-      "explanation": "Forget to do（～し忘れる）です。（※Forget doingは「したことを忘れる」）"
+      "question": "「食べる前に手を洗いなさい」\nWash your hands before (      ).",
+      "choices": ["eating", "eat", "to eat", "eats"],
+      "answer": "eating",
+      "explanation": "before ...ing（～する前に）。beforeは前置詞として使われています。\n【🇺🇸 Cultural Note】\n学校のカフェテリアには必ずハンドサニタイザー（消毒液）が設置されており、衛生管理が徹底されています。"
     },
     {
       "type": "sort",
-      "question": "「彼女は笑うのをやめられませんでした。」となるように並び替えてください。",
-      "choices": ["laughing", "stop", "couldn't", "She"],
-      "answer": "Shecouldn'tstoplaughing",
-      "explanation": "She couldn't stop laughing. です。"
+      "question": "「彼女はスペイン語を話すのが得意です。」となるように並び替えてください。",
+      "choices": ["speaking", "good", "at", "She", "is", "Spanish"],
+      "answer": "SheisgoodatspeakingSpanish",
+      "explanation": "good at ...ing（～するのが得意だ）。\n【🇺🇸 Cultural Note】\nアメリカのヒスパニック人口は非常に多く、スペイン語は事実上の第二言語として広く使われています。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「彼は働くのをやめました（引退しました）」\nHe stopped (      ).",
+      "question": "「父は車を洗い終えました」\nMy father finished (      ) the car.",
       "choices": [],
+      "answer": "washing",
+      "explanation": "finish washing（洗い終える）。\n【🇺🇸 Cultural Note】\n週末に自宅のドライブウェイで洗車（Car wash）をするのは、アメリカの父親たちの典型的な休日の過ごし方の一つです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「来てくれてありがとう」\nThank you for (      ).",
+      "choices": ["coming", "come", "came", "comes"],
+      "answer": "coming",
+      "explanation": "Thank you for coming. パーティーやイベントの主催者がゲストに言う言葉です。\n【🇺🇸 Cultural Note】\nホームパーティーでは、ホストがゲストを玄関で見送り、残った料理（Leftovers）を持たせることもよくあります。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は映画を見ることが好きです。」となるように並び替えてください。",
+      "choices": ["movies", "watching", "like", "I"],
+      "answer": "Ilikewatchingmovies",
+      "explanation": "like watching（見ることが好き）。\n【🇺🇸 Cultural Note】\nハリウッド映画の興行収入（Box office）ランキングは、毎週ニュースで大きく取り上げられます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「トランプ（カードゲーム）をするのはどうですか？」\nHow about (      ) cards?",
+      "choices": [],
+      "answer": "playing",
+      "explanation": "How about playing...?（～するのはどうですか）。\n【🇺🇸 Cultural Note】\nポーカーやブラックジャックなどのカードゲームは人気があり、友人が集まってポーカーナイトを開くこともあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「話すのをやめて聞きなさい」\nStop (      ) and listen.",
+      "choices": ["talking", "talk", "to talk", "talked"],
+      "answer": "talking",
+      "explanation": "stop talking（話すのをやめる）。\n【🇺🇸 Cultural Note】\n「Listen up!（よく聞け！）」は、コーチや先生が注目を集める時によく使うフレーズです。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼は絵を描くのが下手です。」となるように並び替えてください。",
+      "choices": ["drawing", "at", "bad", "He", "is"],
+      "answer": "Heisbadatdrawing",
+      "explanation": "be bad at ...ing（～するのが苦手だ）。good atの対義語です。\n【🇺🇸 Cultural Note】\nアメリカの学校の美術の授業では、上手下手よりも「創造性（Creativity）」や「自己表現」が最も評価されます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「友達を作ることは大切です」\n(      ) friends is important.",
+      "choices": [],
+      "answer": "Making",
+      "explanation": "Making friends（友達を作ること）が主語です。\n【🇺🇸 Cultural Note】\nアメリカの学校では、カフェテリアのどのテーブルに座るかが、社交グループ（Clique）を決める重要な要素になることがあります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女はダンスの練習をしました」\nShe practiced (      ).",
+      "choices": ["dancing", "dance", "to dance", "danced"],
+      "answer": "dancing",
+      "explanation": "practice dancing（踊る練習をする）。\n【🇺🇸 Cultural Note】\nTikTokなどのSNSで流行のダンスチャレンジに参加するのは、アメリカのティーンエイジャーの間で大人気です。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は写真を撮るのが好きです。」となるように並び替えてください。",
+      "choices": ["taking", "like", "pictures", "I"],
+      "answer": "Iliketakingpictures",
+      "explanation": "like taking（撮るのが好き）。\n【🇺🇸 Cultural Note】\nインスタグラム（Instagram）の発祥地アメリカでは、映える写真（Photo op）を撮るための専用ミュージアムなども存在します。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私は歴史を学ぶことに興味があります」\nI am interested in (      ) history.",
+      "choices": [],
+      "answer": "learning",
+      "explanation": "interested in learning...（学ぶことに興味がある）。\n【🇺🇸 Cultural Note】\nボストン茶会事件や独立戦争など、建国の歴史に関する史跡は「フリーダムトレイル」として観光名所になっています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「ドアを閉めても構いませんか？」\nDo you mind (      ) the door?",
+      "choices": ["closing", "close", "to close", "closed"],
+      "answer": "closing",
+      "explanation": "mind closing（閉めるのを気にする＝閉めてくれませんか）。\n【🇺🇸 Cultural Note】\nプライバシーを尊重するため、アメリカの子供部屋のドアは閉められていることが多いですが、ノックしてから入るのがマナーです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは週末にキャンプに行くのが好きです。」となるように並び替えてください。",
+      "choices": ["camping", "going", "like", "on", "weekends", "We"],
+      "answer": "Welikegoingcampingonweekends",
+      "explanation": "like going camping（キャンプに行くのが好き）。\n【🇺🇸 Cultural Note】\n「グランピング（Glamping）」という、豪華で快適なキャンプスタイルも近年人気を集めています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「雪が降りやみました」\nIt stopped (      ).",
+      "choices": [],
+      "answer": "snowing",
+      "explanation": "stop snowing（雪がやむ）。\n【🇺🇸 Cultural Note】\n大雪が降ると「Snow Day」となり、学校が休校になります。子供たちはソリ滑り（Sledding）をして遊びます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は朝食を食べずに学校へ行きました」\nHe went to school without (      ) breakfast.",
+      "choices": ["eating", "eat", "ate", "eaten"],
+      "answer": "eating",
+      "explanation": "without eating（食べずに）。\n【🇺🇸 Cultural Note】\nスクールバスに乗り遅れそうになって、朝食のベーグルを口にくわえたまま家を飛び出す、というのはドラマによくあるシーンです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私の母は旅行することが大好きです。」となるように並び替えてください。",
+      "choices": ["loves", "traveling", "mother", "My"],
+      "answer": "Mymotherlovestraveling",
+      "explanation": "loves traveling（旅行することが大好き）。\n【🇺🇸 Cultural Note】\n退職後に巨大なキャンピングカー（RV）を購入し、夫婦で全米を旅して回るライフスタイルは多くの人の憧れです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「本を読むことは良い習慣です」\n(      ) books is a good habit.",
+      "choices": [],
+      "answer": "Reading",
+      "explanation": "Reading books（本を読むこと）が主語です。\n【🇺🇸 Cultural Note】\n地域の図書館で行われる「Storytime（読み聞かせ会）」は、幼児を持つ親たちにとって重要なコミュニティの場です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「私は飛行機に乗るのが怖いです」\nI am afraid of (      ) on an airplane.",
+      "choices": ["flying", "fly", "flew", "flown"],
+      "answer": "flying",
+      "explanation": "afraid of flying（飛ぶこと＝飛行機に乗ること が怖い）。\n【🇺🇸 Cultural Note】\n広大なアメリカでは飛行機移動が一般的ですが、乱気流（Turbulence）を怖がる人は多いです。"
+    },
+    {
+      "type": "sort",
+      "question": "「私たちは海で泳いで楽しみました。」となるように並び替えてください。",
+      "choices": ["swimming", "sea", "enjoyed", "in", "the", "We"],
+      "answer": "Weenjoyedswimminginthesea",
+      "explanation": "enjoyed swimming（泳いで楽しんだ）。\n【🇺🇸 Cultural Note】\nフロリダ州のマイアミビーチやハワイのワイキキビーチは、世界中から観光客が集まるビーチリゾートです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「コンピュータを使い終わりましたか？」\nDid you finish (      ) the computer?",
+      "choices": [],
+      "answer": "using",
+      "explanation": "finish using（使い終わる）。\n【🇺🇸 Cultural Note】\nシリコンバレーのお膝元だけあって、アメリカの学校では早い段階からChromebookなどのラップトップが一人一台支給されることが多いです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は失敗することを心配しています」\nShe is worried about (      ).",
+      "choices": ["failing", "fail", "failed", "fails"],
+      "answer": "failing",
+      "explanation": "worried about ...ing（～することを心配している）。aboutは前置詞。\n【🇺🇸 Cultural Note】\nアメリカの文化では、失敗は「成功への過程」と捉えられることが多く、起業して失敗しても再挑戦が称賛されます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は早起きするのが嫌いです。」となるように並び替えてください。",
+      "choices": ["up", "getting", "hate", "early", "I"],
+      "answer": "Ihategettingupearly",
+      "explanation": "hate ...ing（～するのが大嫌い）。\n【🇺🇸 Cultural Note】\nアメリカの高校の始業時間は朝7時台と非常に早いことが多く、生徒たちの睡眠不足が社会問題として議論されています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「手伝ってくれてありがとう」\nThank you for (      ) me.",
+      "choices": [],
+      "answer": "helping",
+      "explanation": "Thank you for helping me.\n【🇺🇸 Cultural Note】\nスーパーで重い荷物を持っている時など、見知らぬ人同士でも気軽に手助けし合う文化があります。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「サンフランシスコを訪れるのを楽しみにしています」\nI look forward to (      ) San Francisco.",
+      "choices": ["visiting", "visit", "visited", "visits"],
+      "answer": "visiting",
+      "explanation": "look forward to visiting（訪れるのを楽しみにする）。\n【🇺🇸 Cultural Note】\nゴールデンゲートブリッジやアルカトラズ島、坂道を走るケーブルカーが有名です。"
+    },
+    {
+      "type": "sort",
+      "question": "「マンガを集めるのが私の趣味です。」となるように並び替えてください。",
+      "choices": ["Collecting", "hobby", "comic", "books", "is", "my"],
+      "answer": "Collectingcomicbookismyhobby",
+      "explanation": "Collecting comic books（マンガ本を集めること）が主語です。\n【🇺🇸 Cultural Note】\nマーベルやDCなどのアメコミ（American Comics）は、映画化の影響で世界的な人気を誇ります。「コミコン（Comic-Con）」は大規模なファンイベントです。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「私たちは行うことによって学びます」\nWe learn by (      ).",
+      "choices": [],
+      "answer": "doing",
+      "explanation": "by doing（行うことによって）。手段を表すbyです。\n【🇺🇸 Cultural Note】\nアメリカの教育哲学である「プラグマティズム（実用主義）」を反映した言葉で、実践的な経験が重視されます。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「挑戦し続けなさい」\nKeep (      ).",
+      "choices": ["trying", "try", "to try", "tried"],
+      "answer": "trying",
+      "explanation": "keep trying（挑戦し続ける）。\n【🇺🇸 Cultural Note】\n\"Never give up\" の精神は、多くのアメリカ映画やスポーツの物語のテーマになっています。"
+    },
+    {
+      "type": "sort",
+      "question": "「彼はビデオゲームをするのが得意です。」となるように並び替えてください。",
+      "choices": ["video", "playing", "at", "good", "is", "He", "games"],
+      "answer": "Heisgoodatplayingvideogames",
+      "explanation": "good at playing（プレイするのが得意）。\n【🇺🇸 Cultural Note】\nTwitchやYouTubeでのゲーム実況は、若者にとって人気のエンターテイメントであり、高収入を得るプロゲーマーもいます。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「廊下を走るのをやめなさい」\nStop (      ) in the hallway.",
+      "choices": [],
+      "answer": "running",
+      "explanation": "stop running（走るのをやめる）。\n【🇺🇸 Cultural Note】\nアメリカの学校の廊下（Hallway）は非常に広く、両側にロッカーが並んでいるのが特徴的です。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「宿題を終えた後、テレビを見ました」\nI watched TV after (      ) my homework.",
+      "choices": ["finishing", "finish", "finished", "finishes"],
+      "answer": "finishing",
+      "explanation": "after finishing...（終えた後で）。afterは前置詞として使われています。\n【🇺🇸 Cultural Note】\nアメリカのゴールデンタイム（Prime time）のテレビ番組は、家族団欒の時間に視聴されます。"
+    },
+    {
+      "type": "sort",
+      "question": "「私は料理をするのが好きです。」となるように並び替えてください。",
+      "choices": ["cooking", "like", "I"],
+      "answer": "Ilikecooking",
+      "explanation": "like cooking（料理するのが好き）。\n【🇺🇸 Cultural Note】\n「ジュリア・チャイルド」は、アメリカにフランス料理を広めた伝説的な料理研究家で、彼女のキッチンは博物館に保存されています。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「新しいギターを買うことに興味があります」\nI am interested in (      ) a new guitar.",
+      "choices": [],
+      "answer": "buying",
+      "explanation": "interested in buying...（買うことに興味がある）。\n【🇺🇸 Cultural Note】\nガレージセールや質屋（Pawn shop）で、ヴィンテージの楽器を探すのも楽しみの一つです。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼は歌うことで有名です」\nHe is famous for (      ).",
+      "choices": ["singing", "sing", "sang", "sung"],
+      "answer": "singing",
+      "explanation": "famous for ...ing（～することで有名だ）。\n【🇺🇸 Cultural Note】\nエルヴィス・プレスリーやマイケル・ジャクソンなど、アメリカは世界的な歌手を数多く輩出しています。"
+    },
+    {
+      "type": "sort",
+      "question": "「一緒に昼食を食べるのはどうですか？」となるように並び替えてください。",
+      "choices": ["lunch", "having", "about", "How", "together"],
+      "answer": "Howabouthavinglunchtogether",
+      "explanation": "How about having...?（食べるのはどうですか）。食事をとることをhaveで表現しています。\n【🇺🇸 Cultural Note】\nビジネスランチ（Power lunch）は、食事をしながら商談やネットワーキングを行う重要な機会です。"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "「歩くことは健康に良いです」\n(      ) is good for your health.",
+      "choices": [],
+      "answer": "Walking",
+      "explanation": "Walking（歩くこと）が主語です。\n【🇺🇸 Cultural Note】\n車社会のアメリカですが、Fitbitなどのウェアラブル端末をつけて歩数を競うのが流行しています。"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "「彼女は働き始めました」\nShe started (      ).",
+      "choices": ["working", "work", "worked", "works"],
       "answer": "working",
-      "explanation": "Stopped workingです。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「泳ぎに行きませんか？」\nWhy don't we go (      )?",
-      "choices": ["swimming", "swim", "to swim", "swam"],
-      "answer": "swimming",
-      "explanation": "Go swimmingです。"
-    },
-    {
-      "type": "sort",
-      "question": "「私は彼と話すのを楽しみました。」となるように並び替えてください。",
-      "choices": ["talking", "him", "enjoyed", "with", "I"],
-      "answer": "Ienjoyedtalkingwithhim",
-      "explanation": "I enjoyed talking with him. です。"
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "「私は寝袋が必要です」\nI need a (      ) bag.",
-      "choices": [],
-      "answer": "sleeping",
-      "explanation": "Sleeping bag（寝るための袋＝寝袋）です。"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "「待たせてごめんなさい」\nI am sorry for (      ) you waiting.",
-      "choices": ["keeping", "keep", "kept", "keeps"],
-      "answer": "keeping",
-      "explanation": "Keep you waiting（待たせる）の動名詞keepingです。"
-    },
-    {
-      "type": "sort",
-      "question": "「雨が降りやみました。」となるように並び替えてください。",
-      "choices": ["raining", "It", "stopped"],
-      "answer": "Itstoppedraining",
-      "explanation": "It stopped raining. です。"
+      "explanation": "start working（働き始める）。\n【🇺🇸 Cultural Note】\nアメリカのティーンエイジャーは、夏休みにライフガードやキャンプのカウンセラーなどのサマーバケーションのアルバイトをよくします。"
     }
   ]
 }
