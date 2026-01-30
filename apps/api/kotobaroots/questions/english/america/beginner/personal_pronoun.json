@@ -21,7 +21,7 @@
       "type": "sort",
       "question": "「彼は野球選手です。」となるように並び替えてください。",
       "choices": ["player", "He", "baseball", "is", "a"],
-      "answer": "Heisabaseballplayer",
+      "answer": "He is a baseball player",
       "explanation": "主語になる「彼」はHe（主格）です。\n【🇺🇸 Cultural Note】\nベーブ・ルースや大谷翔平など、MLBのスター選手は国民的英雄として扱われます。"
     },
     {
@@ -42,7 +42,7 @@
       "type": "sort",
       "question": "「この席はあなたのものです。」となるように並び替えてください。",
       "choices": ["yours", "is", "seat", "This"],
-      "answer": "Thisseatisyours",
+      "answer": "This seat is yours",
       "explanation": "「あなたのもの」という所有代名詞はyoursです。"
     },
     {
@@ -63,7 +63,7 @@
       "type": "sort",
       "question": "「彼女の名前はサラです。」となるように並び替えてください。",
       "choices": ["Her", "name", "is", "Sarah"],
-      "answer": "HernameisSarah",
+      "answer": "Her name is Sarah",
       "explanation": "「彼女の」という所有格はHerです。"
     },
     {
@@ -84,7 +84,7 @@
       "type": "sort",
       "question": "「私は彼が好きです。」となるように並び替えてください。",
       "choices": ["him", "like", "I"],
-      "answer": "Ilikehim",
+      "answer": "I like him",
       "explanation": "動詞の目的語になるので、目的格のhimを使います。"
     },
     {
@@ -105,7 +105,7 @@
       "type": "sort",
       "question": "「あなたは自分の宿題をしましたか？」となるように並び替えてください。",
       "choices": ["homework", "Did", "do", "you", "your"],
-      "answer": "Didyoujoyourhomework",
+      "answer": "Did you do your homework",
       "explanation": "「あなたの」という所有格はyourです。"
     },
     {
@@ -126,7 +126,7 @@
       "type": "sort",
       "question": "「メアリーは彼女の母と住んでいます。」となるように並び替えてください。",
       "choices": ["mother", "Mary", "with", "lives", "her"],
-      "answer": "Maryliveswithhermother",
+      "answer": "Mary lives with her mother",
       "explanation": "「彼女の」という所有格はherです。"
     },
     {
@@ -147,7 +147,7 @@
       "type": "sort",
       "question": "「あなたはあなた自身の部屋を掃除するべきです。」となるように並び替えてください。",
       "choices": ["room", "clean", "should", "your", "You"],
-      "answer": "Youshouldcleanyourroom",
+      "answer": "You should clean your room",
       "explanation": "「あなたの」という所有格はyourです。"
     },
     {
@@ -168,7 +168,7 @@
       "type": "sort",
       "question": "「彼らは私たちをパーティーに招待しました。」となるように並び替えてください。",
       "choices": ["party", "invited", "They", "the", "us", "to"],
-      "answer": "Theyinvitedustotheparty",
+      "answer": "They invited us to the party",
       "explanation": "動詞の目的語になるので、目的格のusを使います。"
     },
     {
@@ -189,7 +189,7 @@
       "type": "sort",
       "question": "「私たちの先生は親切です。」となるように並び替えてください。",
       "choices": ["kind", "is", "teacher", "Our"],
-      "answer": "Ourteacheriskind",
+      "answer": "Our teacher is kind",
       "explanation": "「私たちの」という所有格はOurです。"
     },
     {
@@ -210,7 +210,7 @@
       "type": "sort",
       "question": "「彼女はそれを持っています。」となるように並び替えてください。",
       "choices": ["has", "She", "it"],
-      "answer": "Shehasit",
+      "answer": "She has it",
       "explanation": "目的語になる「それ」はitです。"
     },
     {
@@ -231,7 +231,7 @@
       "type": "sort",
       "question": "「私の父は医者です。」となるように並び替えてください。",
       "choices": ["doctor", "My", "a", "is", "father"],
-      "answer": "Myfatherisadoctor",
+      "answer": "My father is a doctor",
       "explanation": "「私の」という所有格はMyです。"
     },
     {
@@ -252,7 +252,7 @@
       "type": "sort",
       "question": "「彼は彼の車を洗っています。」となるように並び替えてください。",
       "choices": ["washing", "He", "is", "car", "his"],
-      "answer": "Heiswashinghiscar",
+      "answer": "He is washing his car",
       "explanation": "「彼の」という所有格はhisです。\n【🇺🇸 Cultural Note】\n週末に自宅のドライブウェイで洗車をするのは、アメリカの郊外の日常風景です。"
     },
     {
@@ -273,7 +273,7 @@
       "type": "sort",
       "question": "「あなたは彼女を手伝うことができますか？」となるように並び替えてください。",
       "choices": ["her", "Can", "help", "you"],
-      "answer": "Canyouhelpher",
+      "answer": "Can you help her",
       "explanation": "動詞の目的語になるので、目的格のherを使います。"
     },
     {
@@ -294,7 +294,7 @@
       "type": "sort",
       "question": "「これは彼らの問題ではありません。」となるように並び替えてください。",
       "choices": ["problem", "This", "their", "isn't"],
-      "answer": "Thisisn'ttheirproblem",
+      "answer": "This isn't their problem",
       "explanation": "「彼らの」という所有格はtheirです。"
     },
     {
@@ -315,7 +315,7 @@
       "type": "sort",
       "question": "「あなたの名前は何ですか？」となるように並び替えてください。",
       "choices": ["name", "is", "your", "What"],
-      "answer": "Whatisyourname",
+      "answer": "What is your name",
       "explanation": "「あなたの」という所有格はyourです。"
     },
     {
@@ -336,7 +336,7 @@
       "type": "sort",
       "question": "「私たちは私たちの部屋を掃除します。」となるように並び替えてください。",
       "choices": ["clean", "room", "our", "We"],
-      "answer": "Wecleanourroom",
+      "answer": "We clean our room",
       "explanation": "「私たちの」という所有格はourです。"
     },
     {
@@ -357,7 +357,7 @@
       "type": "sort",
       "question": "「彼女は彼らのために夕食を作りました。」となるように並び替えてください。",
       "choices": ["dinner", "for", "made", "She", "them"],
-      "answer": "Shemadedinnerforthem",
+      "answer": "She made dinner for them",
       "explanation": "前置詞（for）の目的語になるので、目的格のthemを使います。"
     },
     {
@@ -378,7 +378,7 @@
       "type": "sort",
       "question": "「彼らは自分たちの車を持っています。」となるように並び替えてください。",
       "choices": ["car", "have", "their", "They", "own"],
-      "answer": "Theyhavetheirowncar",
+      "answer": "They have their own car",
       "explanation": "「彼らの」という所有格はtheirです。"
     },
     {
@@ -399,7 +399,7 @@
       "type": "sort",
       "question": "「私たちは私たちの仕事を終えなければなりません。」となるように並び替えてください。",
       "choices": ["work", "finish", "We", "our", "must"],
-      "answer": "Wemustfinishourwork",
+      "answer": "We must finish our work",
       "explanation": "「私たちの」という所有格はourです。"
     },
     {
@@ -420,7 +420,7 @@
       "type": "sort",
       "question": "「それは彼女のものですか？」となるように並び替えてください。",
       "choices": ["hers", "it", "Is"],
-      "answer": "Isithers",
+      "answer": "Is it hers",
       "explanation": "「彼女のもの」という所有代名詞はhersです。"
     },
     {
@@ -441,7 +441,7 @@
       "type": "sort",
       "question": "「この席はあなたのものですか？」となるように並び替えてください。",
       "choices": ["seat", "yours", "Is", "this"],
-      "answer": "Isthisseatyours",
+      "answer": "Is this seat yours",
       "explanation": "「あなたのもの」という所有代名詞はyoursです。"
     },
     {
@@ -462,7 +462,7 @@
       "type": "sort",
       "question": "「彼らは彼らの家を売りました。」となるように並び替えてください。",
       "choices": ["house", "sold", "their", "They"],
-      "answer": "Theysoldtheirhouse",
+      "answer": "They sold their house",
       "explanation": "「彼らの」という所有格はtheirです。"
     },
     {
@@ -483,7 +483,7 @@
       "type": "sort",
       "question": "「私はあなたに同意します。」となるように並び替えてください。",
       "choices": ["you", "agree", "with", "I"],
-      "answer": "Iagreewithyou",
+      "answer": "I agree with you",
       "explanation": "前置詞（with）の目的語になるので、目的格のyouを使います。"
     },
     {
@@ -504,7 +504,7 @@
       "type": "sort",
       "question": "「彼女の髪は長いです。」となるように並び替えてください。",
       "choices": ["hair", "long", "is", "Her"],
-      "answer": "Herhairislong",
+      "answer": "Her hair is long",
       "explanation": "「彼女の」という所有格はHerです。"
     },
     {
@@ -525,7 +525,7 @@
       "type": "sort",
       "question": "「これは彼らの車ですか？」となるように並び替えてください。",
       "choices": ["their", "car", "this", "Is"],
-      "answer": "Isthistheircar",
+      "answer": "Is this their car",
       "explanation": "「彼らの」という所有格はtheirです。"
     },
     {
@@ -546,7 +546,7 @@
       "type": "sort",
       "question": "「そのチケットは彼のものです。」となるように並び替えてください。",
       "choices": ["his", "ticket", "is", "The"],
-      "answer": "Theticketishis",
+      "answer": "The ticket is his",
       "explanation": "「彼のもの」という所有代名詞はhisです。"
     },
     {
@@ -567,7 +567,7 @@
       "type": "sort",
       "question": "「私は自分の車が好きです。」となるように並び替えてください。",
       "choices": ["car", "my", "like", "I"],
-      "answer": "Ilikemycar",
+      "answer": "I like my car",
       "explanation": "「私の」という所有格はmyです。"
     },
     {
@@ -588,7 +588,7 @@
       "type": "sort",
       "question": "「彼は私たちに真実を話しました。」となるように並び替えてください。",
       "choices": ["us", "truth", "told", "the", "He"],
-      "answer": "Hetoldusthetruth",
+      "answer": "He told us the truth",
       "explanation": "動詞（told）の目的語になるので、目的格のusを使います。"
     },
     {
@@ -609,7 +609,7 @@
       "type": "sort",
       "question": "「そのお金は私のものです。」となるように並び替えてください。",
       "choices": ["mine", "money", "is", "The"],
-      "answer": "Themoneyismine",
+      "answer": "The money is mine",
       "explanation": "「私のもの」という所有代名詞はmineです。"
     },
     {
@@ -630,7 +630,7 @@
       "type": "sort",
       "question": "「これは彼への贈り物です。」となるように並び替えてください。",
       "choices": ["gift", "him", "for", "a", "is", "This"],
-      "answer": "Thisisagiftforhim",
+      "answer": "This is a gift for him",
       "explanation": "前置詞（for）の目的語になるので、目的格のhimを使います。"
     },
     {
@@ -651,7 +651,7 @@
       "type": "sort",
       "question": "「私たちは彼らを信じています。」となるように並び替えてください。",
       "choices": ["them", "believe", "We"],
-      "answer": "Webelievethem",
+      "answer": "We believe them",
       "explanation": "動詞の目的語になるので、目的格のthemを使います。"
     },
     {
@@ -672,7 +672,7 @@
       "type": "sort",
       "question": "「彼女は私に微笑みました。」となるように並び替えてください。",
       "choices": ["me", "at", "smiled", "She"],
-      "answer": "Shesmiledatme",
+      "answer": "She smiled at me",
       "explanation": "前置詞（at）の目的語になるので、目的格のmeを使います。"
     },
     {
@@ -693,7 +693,7 @@
       "type": "sort",
       "question": "「あれは彼らの学校ですか？」となるように並び替えてください。",
       "choices": ["school", "their", "that", "Is"],
-      "answer": "Isthattheirschool",
+      "answer": "Is that their school",
       "explanation": "名詞の前なので所有格のtheirを使います。"
     },
     {

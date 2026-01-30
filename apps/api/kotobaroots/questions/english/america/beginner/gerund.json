@@ -14,7 +14,7 @@
       "type": "sort",
       "question": "「英語を話すことは楽しいです。」となるように並び替えてください。",
       "choices": ["Speaking", "is", "English", "fun"],
-      "answer": "SpeakingEnglishisfun",
+      "answer": "Speaking English is fun",
       "explanation": "Speaking English（英語を話すこと）が主語になっています。\n【🇺🇸 Cultural Note】\nアメリカは移民国家なので、スペイン語訛りやアジア訛りの英語も日常的に耳にします。完璧でなくても堂々と話すことが大切です。"
     },
     {
@@ -35,7 +35,7 @@
       "type": "sort",
       "question": "「私の趣味は切手を集めることです。」となるように並び替えてください。",
       "choices": ["hobby", "collecting", "is", "stamps", "My"],
-      "answer": "Myhobbyiscollectingstamps",
+      "answer": "My hobby is collecting stamps",
       "explanation": "is collecting...（～することだ）という補語になる動名詞です。\n【🇺🇸 Cultural Note】\nアメリカの切手には、大統領だけでなく、有名な歌手や漫画のキャラクター（スヌーピーなど）もよく登場します。"
     },
     {
@@ -56,7 +56,7 @@
       "type": "sort",
       "question": "「彼女は料理が得意です。」となるように並び替えてください。",
       "choices": ["at", "cooking", "good", "is", "She"],
-      "answer": "Sheisgoodatcooking",
+      "answer": "She is good at cooking",
       "explanation": "be good at ...ing（～するのが得意だ）。atは前置詞なので後ろは動名詞です。\n【🇺🇸 Cultural Note】\n感謝祭（Thanksgiving）の料理は、七面鳥の丸焼きを中心に、スタッフィングやマッシュポテトなど、一日がかりで作ります。"
     },
     {
@@ -77,7 +77,7 @@
       "type": "sort",
       "question": "「私はテレビを見ることが好きです。」となるように並び替えてください。",
       "choices": ["watching", "like", "TV", "I"],
-      "answer": "IlikewatchingTV",
+      "answer": "I like watching TV",
       "explanation": "like watching（見ることが好き）。likeは不定詞もとれます。\n【🇺🇸 Cultural Note】\nアメリカのテレビ番組は「シットコム（Sitcom）」と呼ばれるコメディドラマ（フレンズなど）が人気です。"
     },
     {
@@ -98,7 +98,7 @@
       "type": "sort",
       "question": "「あまり食べすぎるのは健康によくありません。」となるように並び替えてください。",
       "choices": ["Eating", "much", "too", "bad", "is", "for", "your", "health"],
-      "answer": "Eatingtoomuchisbadforyourhealth",
+      "answer": "Eating too much is bad for your health",
       "explanation": "Eating too much（食べすぎること）が主語です。\n【🇺🇸 Cultural Note】\nアメリカのレストランの食事量（Portion size）は非常に多いため、食べきれない分を持ち帰る「ドギーバッグ（Doggy bag）」の文化があります。"
     },
     {
@@ -119,7 +119,7 @@
       "type": "sort",
       "question": "「彼女は手紙を書くのをやめました。」となるように並び替えてください。",
       "choices": ["stopped", "She", "writing", "letter", "the"],
-      "answer": "Shestoppedwritingtheletter",
+      "answer": "She stopped writing the letter",
       "explanation": "stop ...ing（～することをやめる）です。\n【🇺🇸 Cultural Note】\nデジタルの時代ですが、クリスマスカードやサンキューカードを手書きで送る習慣は大切にされています。"
     },
     {
@@ -140,7 +140,7 @@
       "type": "sort",
       "question": "「私たちは音楽を聴いて楽しみました。」となるように並び替えてください。",
       "choices": ["listening", "enjoyed", "music", "to", "We"],
-      "answer": "Weenjoyedlisteningtomusic",
+      "answer": "We enjoyed listening to music",
       "explanation": "enjoy ...ing（～して楽しむ）です。\n【🇺🇸 Cultural Note】\nジャズ、ブルース、ロック、ヒップホップなど、アメリカは多くのポピュラー音楽の発祥地です。"
     },
     {
@@ -161,7 +161,7 @@
       "type": "sort",
       "question": "「野球をすることはエキサイティングです。」となるように並び替えてください。",
       "choices": ["exciting", "Playing", "is", "baseball"],
-      "answer": "Playingbaseballisexciting",
+      "answer": "Playing baseball is exciting",
       "explanation": "Playing baseball が主語です。\n【🇺🇸 Cultural Note】\n野球場（Ballpark）で流れるオルガンの音や「私を野球に連れてって（Take Me Out to the Ball Game）」の合唱は、観戦の醍醐味です。"
     },
     {
@@ -182,7 +182,7 @@
       "type": "sort",
       "question": "「バスケットボールの試合を見るのはどうですか？」となるように並び替えてください。",
       "choices": ["How", "watching", "about", "basketball", "a", "game"],
-      "answer": "Howaboutwatchingabasketballgame",
+      "answer": "How about watching a basketball game",
       "explanation": "How about ...ing?（～はどうですか）です。\n【🇺🇸 Cultural Note】\nNBA（プロバスケットボール）の試合はエンターテイメント性が高く、ハーフタイムショーも豪華です。"
     },
     {
@@ -203,7 +203,7 @@
       "type": "sort",
       "question": "「彼は走るのをやめました。」となるように並び替えてください。",
       "choices": ["running", "He", "stopped"],
-      "answer": "Hestoppedrunning",
+      "answer": "He stopped running",
       "explanation": "stop running（走るのをやめる）。\n【🇺🇸 Cultural Note】\n映画『フォレスト・ガンプ』では、主人公が理由もなくアメリカ大陸を走り続けるシーンが有名です。"
     },
     {
@@ -224,7 +224,7 @@
       "type": "sort",
       "question": "「コインを集めることは私の趣味です。」となるように並び替えてください。",
       "choices": ["Collecting", "hobby", "coins", "is", "my"],
-      "answer": "Collectingcoinsismyhobby",
+      "answer": "Collecting coins is my hobby",
       "explanation": "Collecting coins（コインを集めること）が主語です。\n【🇺🇸 Cultural Note】\n50州ごとのデザインが描かれた「ステート・クォーター（State Quarters）」は、子供から大人まで収集ブームを巻き起こしました。"
     },
     {
@@ -245,7 +245,7 @@
       "type": "sort",
       "question": "「彼らは話し続けました。」となるように並び替えてください。",
       "choices": ["talking", "kept", "They"],
-      "answer": "Theykepttalking",
+      "answer": "They kept talking",
       "explanation": "keep ...ing（～し続ける）。\n【🇺🇸 Cultural Note】\n授業中の私語（Talking in class）は厳しく注意されますが、ディスカッションの時間には活発に発言することが求められます。"
     },
     {
@@ -266,7 +266,7 @@
       "type": "sort",
       "question": "「写真を撮ることは許可されていません。」となるように並び替えてください。",
       "choices": ["Taking", "allowed", "pictures", "is", "not"],
-      "answer": "Takingpicturesisnotallowed",
+      "answer": "Taking pictures is not allowed",
       "explanation": "Taking pictures（写真を撮ること）が主語です。\n【🇺🇸 Cultural Note】\n美術館や博物館では、フラッシュなしであれば撮影OKの場所も多いですが、三脚（Tripod）の使用は禁止されていることが一般的です。"
     },
     {
@@ -287,7 +287,7 @@
       "type": "sort",
       "question": "「歩き続けなさい。」となるように並び替えてください。",
       "choices": ["walking", "Keep"],
-      "answer": "Keepwalking",
+      "answer": "Keep walking",
       "explanation": "Keep ...ing（～し続けなさい）という命令文です。\n【🇺🇸 Cultural Note】\nニューヨークなどの大都市では「歩行者（Pedestrian）」が多く、信号無視（Jaywalking）には罰金が科せられることがあります。"
     },
     {
@@ -308,7 +308,7 @@
       "type": "sort",
       "question": "「私の父は料理を作ることを楽しみました。」となるように並び替えてください。",
       "choices": ["cooking", "enjoyed", "father", "My"],
-      "answer": "Myfatherenjoyedcooking",
+      "answer": "My father enjoyed cooking",
       "explanation": "enjoy ...ing（～して楽しむ）。\n【🇺🇸 Cultural Note】\n週末の朝食（パンケーキや卵料理）やBBQは、伝統的に父親が担当する家庭が多いです。"
     },
     {
@@ -316,7 +316,7 @@
       "question": "「英語を勉強し始めましょう」\nLet's start (      ) English.",
       "choices": [],
       "answer": "studying",
-      "explanation": "start studying（勉強し始める）。start to studyでも可ですが、ここでは動名詞を選択。\n【🇺🇸 Cultural Note】\nアメリカの学校年度（School Year）は通常8月か9月に始まり、翌年の5月か6月に終わります。"
+      "explanation": "start studying（勉強し始める）。start to study持っていますが、ここでは動名詞を選択。\n【🇺🇸 Cultural Note】\nアメリカの学校年度（School Year）は通常8月か9月に始まり、翌年の5月か6月に終わります。"
     },
     {
       "type": "multiple_choice",
@@ -329,7 +329,7 @@
       "type": "sort",
       "question": "「彼女は犬を怖がっています。」となるように並び替えてください。",
       "choices": ["afraid", "of", "She", "dogs", "is"],
-      "answer": "Sheisafraidofdogs",
+      "answer": "She is afraid of dogs",
       "explanation": "be afraid of...（～を怖がる）。ofは前置詞なので、動名詞や名詞が続きます。\n【🇺🇸 Cultural Note】\nアメリカではピットブルなどの大型犬も人気ですが、ドッグパーク（Dog park）ではリードを外して遊ばせることができます。"
     },
     {
@@ -350,7 +350,7 @@
       "type": "sort",
       "question": "「彼から連絡をもらうのを楽しみにしています。」となるように並び替えてください。",
       "choices": ["hearing", "forward", "am", "looking", "I", "to", "him", "from"],
-      "answer": "Iamlookingforwardtohearingfromhim",
+      "answer": "I am looking forward to hearing from him",
       "explanation": "look forward to ...ing（～を楽しみに待つ）。hear from...（～から連絡をもらう）。\n【🇺🇸 Cultural Note】\n\"I look forward to hearing from you.\" はビジネスメールの結びの決まり文句です。"
     },
     {
@@ -371,7 +371,7 @@
       "type": "sort",
       "question": "「新しいことを学ぶのは面白いです。」となるように並び替えてください。",
       "choices": ["new", "Learning", "things", "interesting", "is"],
-      "answer": "Learningnewthingsisinteresting",
+      "answer": "Learning new things is interesting",
       "explanation": "Learning new things が主語です。\n【🇺🇸 Cultural Note】\nアメリカの大学では「生涯学習（Lifelong Learning）」が盛んで、定年退職後に大学に戻って学ぶシニアも珍しくありません。"
     },
     {
@@ -392,7 +392,7 @@
       "type": "sort",
       "question": "「そこへバスで行くのは簡単です。」となるように並び替えてください。",
       "choices": ["easy", "going", "by", "bus", "is", "there"],
-      "answer": "Goingtherebybusiseasy",
+      "answer": "Going there by bus is easy",
       "explanation": "Going there by bus が主語です。\n【🇺🇸 Cultural Note】\n都市間を結ぶ長距離バス（Greyhoundなど）は、最も安価な移動手段の一つです。"
     },
     {
@@ -413,7 +413,7 @@
       "type": "sort",
       "question": "「宿題をするのを手伝ってくれませんか？」\nDo you mind helping me with my homework?",
       "choices": ["helping", "mind", "me", "you", "Do", "homework", "with", "my"],
-      "answer": "Doyoumindhelpingmewithmyhomework",
+      "answer": "Do you mind helping me with my homework",
       "explanation": "mind ...ing（～してくれませんか）。help 人 with...（人の～を手伝う）。\n【🇺🇸 Cultural Note】\nアメリカの学校では「チューター（Tutor）」制度があり、上級生やボランティアが勉強を教えてくれる仕組みがあります。"
     },
     {
@@ -434,7 +434,7 @@
       "type": "sort",
       "question": "「私は列に並んで待つことにうんざりしています。」となるように並び替えてください。",
       "choices": ["waiting", "tired", "of", "am", "I", "in", "line"],
-      "answer": "Iamtiredofwaitinginline",
+      "answer": "I am tired of waiting in line",
       "explanation": "tired of ...ing（～することにうんざりしている）。\n【🇺🇸 Cultural Note】\nブラックフライデーのセールや、人気テーマパークの新しいアトラクションでは、数時間待ちの長蛇の列（Long line）ができます。"
     },
     {
@@ -455,7 +455,7 @@
       "type": "sort",
       "question": "「彼女はスペイン語を話すのが得意です。」となるように並び替えてください。",
       "choices": ["speaking", "good", "at", "She", "is", "Spanish"],
-      "answer": "SheisgoodatspeakingSpanish",
+      "answer": "She is good at speaking Spanish",
       "explanation": "good at ...ing（～するのが得意だ）。\n【🇺🇸 Cultural Note】\nアメリカのヒスパニック人口は非常に多く、スペイン語は事実上の第二言語として広く使われています。"
     },
     {
@@ -476,7 +476,7 @@
       "type": "sort",
       "question": "「私は映画を見ることが好きです。」となるように並び替えてください。",
       "choices": ["movies", "watching", "like", "I"],
-      "answer": "Ilikewatchingmovies",
+      "answer": "I like watching movies",
       "explanation": "like watching（見ることが好き）。\n【🇺🇸 Cultural Note】\nハリウッド映画の興行収入（Box office）ランキングは、毎週ニュースで大きく取り上げられます。"
     },
     {
@@ -497,7 +497,7 @@
       "type": "sort",
       "question": "「彼は絵を描くのが下手です。」となるように並び替えてください。",
       "choices": ["drawing", "at", "bad", "He", "is"],
-      "answer": "Heisbadatdrawing",
+      "answer": "He is bad at drawing",
       "explanation": "be bad at ...ing（～するのが苦手だ）。good atの対義語です。\n【🇺🇸 Cultural Note】\nアメリカの学校の美術の授業では、上手下手よりも「創造性（Creativity）」や「自己表現」が最も評価されます。"
     },
     {
@@ -518,7 +518,7 @@
       "type": "sort",
       "question": "「私は写真を撮るのが好きです。」となるように並び替えてください。",
       "choices": ["taking", "like", "pictures", "I"],
-      "answer": "Iliketakingpictures",
+      "answer": "I like taking pictures",
       "explanation": "like taking（撮るのが好き）。\n【🇺🇸 Cultural Note】\nインスタグラム（Instagram）の発祥地アメリカでは、映える写真（Photo op）を撮るための専用ミュージアムなども存在します。"
     },
     {
@@ -539,7 +539,7 @@
       "type": "sort",
       "question": "「私たちは週末にキャンプに行くのが好きです。」となるように並び替えてください。",
       "choices": ["camping", "going", "like", "on", "weekends", "We"],
-      "answer": "Welikegoingcampingonweekends",
+      "answer": "We like going camping on weekends",
       "explanation": "like going camping（キャンプに行くのが好き）。\n【🇺🇸 Cultural Note】\n「グランピング（Glamping）」という、豪華で快適なキャンプスタイルも近年人気を集めています。"
     },
     {
@@ -560,7 +560,7 @@
       "type": "sort",
       "question": "「私の母は旅行することが大好きです。」となるように並び替えてください。",
       "choices": ["loves", "traveling", "mother", "My"],
-      "answer": "Mymotherlovestraveling",
+      "answer": "My mother loves traveling",
       "explanation": "loves traveling（旅行することが大好き）。\n【🇺🇸 Cultural Note】\n退職後に巨大なキャンピングカー（RV）を購入し、夫婦で全米を旅して回るライフスタイルは多くの人の憧れです。"
     },
     {
@@ -581,7 +581,7 @@
       "type": "sort",
       "question": "「私たちは海で泳いで楽しみました。」となるように並び替えてください。",
       "choices": ["swimming", "sea", "enjoyed", "in", "the", "We"],
-      "answer": "Weenjoyedswimminginthesea",
+      "answer": "We enjoyed swimming in the sea",
       "explanation": "enjoyed swimming（泳いで楽しんだ）。\n【🇺🇸 Cultural Note】\nフロリダ州のマイアミビーチやハワイのワイキキビーチは、世界中から観光客が集まるビーチリゾートです。"
     },
     {
@@ -602,7 +602,7 @@
       "type": "sort",
       "question": "「私は早起きするのが嫌いです。」となるように並び替えてください。",
       "choices": ["up", "getting", "hate", "early", "I"],
-      "answer": "Ihategettingupearly",
+      "answer": "I hate getting up early",
       "explanation": "hate ...ing（～するのが大嫌い）。\n【🇺🇸 Cultural Note】\nアメリカの高校の始業時間は朝7時台と非常に早いことが多く、生徒たちの睡眠不足が社会問題として議論されています。"
     },
     {
@@ -623,7 +623,7 @@
       "type": "sort",
       "question": "「マンガを集めるのが私の趣味です。」となるように並び替えてください。",
       "choices": ["Collecting", "hobby", "comic", "books", "is", "my"],
-      "answer": "Collectingcomicbookismyhobby",
+      "answer": "Collecting comic books is my hobby",
       "explanation": "Collecting comic books（マンガ本を集めること）が主語です。\n【🇺🇸 Cultural Note】\nマーベルやDCなどのアメコミ（American Comics）は、映画化の影響で世界的な人気を誇ります。「コミコン（Comic-Con）」は大規模なファンイベントです。"
     },
     {
@@ -644,7 +644,7 @@
       "type": "sort",
       "question": "「彼はビデオゲームをするのが得意です。」となるように並び替えてください。",
       "choices": ["video", "playing", "at", "good", "is", "He", "games"],
-      "answer": "Heisgoodatplayingvideogames",
+      "answer": "He is good at playing video games",
       "explanation": "good at playing（プレイするのが得意）。\n【🇺🇸 Cultural Note】\nTwitchやYouTubeでのゲーム実況は、若者にとって人気のエンターテイメントであり、高収入を得るプロゲーマーもいます。"
     },
     {
@@ -665,7 +665,7 @@
       "type": "sort",
       "question": "「私は料理をするのが好きです。」となるように並び替えてください。",
       "choices": ["cooking", "like", "I"],
-      "answer": "Ilikecooking",
+      "answer": "I like cooking",
       "explanation": "like cooking（料理するのが好き）。\n【🇺🇸 Cultural Note】\n「ジュリア・チャイルド」は、アメリカにフランス料理を広めた伝説的な料理研究家で、彼女のキッチンは博物館に保存されています。"
     },
     {
@@ -686,7 +686,7 @@
       "type": "sort",
       "question": "「一緒に昼食を食べるのはどうですか？」となるように並び替えてください。",
       "choices": ["lunch", "having", "about", "How", "together"],
-      "answer": "Howabouthavinglunchtogether",
+      "answer": "How about having lunch together",
       "explanation": "How about having...?（食べるのはどうですか）。食事をとることをhaveで表現しています。\n【🇺🇸 Cultural Note】\nビジネスランチ（Power lunch）は、食事をしながら商談やネットワーキングを行う重要な機会です。"
     },
     {

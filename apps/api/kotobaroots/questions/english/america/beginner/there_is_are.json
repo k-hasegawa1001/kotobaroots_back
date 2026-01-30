@@ -14,7 +14,7 @@
       "type": "sort",
       "question": "「公園にたくさんの人がいます。」となるように並び替えてください。",
       "choices": ["park", "people", "are", "There", "many", "in", "the"],
-      "answer": "Therearemanypeopleinthepark",
+      "answer": "There are many people in the park",
       "explanation": "There are + 複数名詞（many people）。\n【🇺🇸 Cultural Note】\nニューヨークのセントラルパークは、都会のオアシスとして映画やドラマに頻繁に登場します。"
     },
     {
@@ -35,7 +35,7 @@
       "type": "sort",
       "question": "「壁にカレンダーはありません。」となるように並び替えてください。",
       "choices": ["calendar", "wall", "is", "There", "no", "on", "the"],
-      "answer": "Thereisnocalendaronthewall",
+      "answer": "There is no calendar on the wall",
       "explanation": "There is no + 名詞（～がない）。There isn't a calendar... と同じ意味です。\n【🇺🇸 Cultural Note】\nアメリカのカレンダーは日曜始まりが一般的です。"
     },
     {
@@ -56,7 +56,7 @@
       "type": "sort",
       "question": "「アメリカには50の州があります。」となるように並び替えてください。",
       "choices": ["states", "There", "in", "fifty", "are", "the", "US"],
-      "answer": "TherearefiftystatesintheUS",
+      "answer": "There are fifty states in the US",
       "explanation": "There are fifty states...\n【🇺🇸 Cultural Note】\n国旗の星の数（50個）は州の数を表しています。ハワイ州が50番目に加盟しました。"
     },
     {
@@ -77,7 +77,7 @@
       "type": "sort",
       "question": "「テーブルの下に猫がいます。」となるように並び替えてください。",
       "choices": ["cat", "is", "There", "table", "a", "under", "the"],
-      "answer": "Thereisacatunderthetable",
+      "answer": "There is a cat under the table",
       "explanation": "There is a cat...\n【🇺🇸 Cultural Note】\nアメリカで人気の猫の名前ランキングでは、\"Luna\" や \"Oliver\" が上位に入ることが多いです。"
     },
     {
@@ -98,7 +98,7 @@
       "type": "sort",
       "question": "「このクラスには何人の生徒がいますか？」となるように並び替えてください。",
       "choices": ["students", "How", "many", "are", "there", "in", "this", "class"],
-      "answer": "Howmanystudentsarethereinthisclass",
+      "answer": "How many students are there in this class",
       "explanation": "How many + 複数名詞 + are there...? の語順です。\n【🇺🇸 Cultural Note】\nアメリカの公立学校の1クラスの人数は州や地区によって異なりますが、20〜30人程度が一般的です。"
     },
     {
@@ -119,7 +119,7 @@
       "type": "sort",
       "question": "「私たちの町にはショッピングモールが一つあります。」となるように並び替えてください。",
       "choices": ["mall", "There", "shopping", "is", "a", "our", "town", "in"],
-      "answer": "Thereisashoppingmallinourtown",
+      "answer": "There is a shopping mall in our town",
       "explanation": "There is a shopping mall...\n【🇺🇸 Cultural Note】\n「モール・オブ・アメリカ（ミネソタ州）」は全米最大級のモールで、中に遊園地や水族館まであります。"
     },
     {
@@ -140,7 +140,7 @@
       "type": "sort",
       "question": "「テレビで何か良い番組はやっていますか？」となるように並び替えてください。",
       "choices": ["TV", "on", "good", "anything", "Is", "there"],
-      "answer": "IsthereanythinggoodonTV",
+      "answer": "Is there anything good on TV",
       "explanation": "Is there anything good...（何か良いものはありますか）。形容詞goodはanythingの後ろに来ます。\n【🇺🇸 Cultural Note】\nスーパーボウル（Super Bowl）の日は、全米で最もテレビ視聴率が高い日の一つです。"
     },
     {
@@ -161,7 +161,7 @@
       "type": "sort",
       "question": "「間違いがあるに違いありません。」となるように並び替えてください。",
       "choices": ["mistake", "must", "be", "a", "There"],
-      "answer": "Theremustbeamistake",
+      "answer": "There must be a mistake",
       "explanation": "There must be...（～があるに違いない）。助動詞mustを使ったThere構文です。\n【🇺🇸 Cultural Note】\nレストランの会計などで計算が合わない時、\"There must be a mistake.\" と言うと角が立ちません。"
     },
     {
@@ -182,7 +182,7 @@
       "type": "sort",
       "question": "「1週間には7日あります。」となるように並び替えてください。",
       "choices": ["week", "days", "There", "seven", "are", "a", "in"],
-      "answer": "Therearesevendaysinaweek",
+      "answer": "There are seven days in a week",
       "explanation": "There are seven days...\n【🇺🇸 Cultural Note】\nアメリカのカレンダーやスケジュール帳は、土日がひとまとめにされず、等間隔で並んでいることが多いです。"
     },
     {
@@ -203,7 +203,7 @@
       "type": "sort",
       "question": "「昨日、学校はありませんでした。」となるように並び替えてください。",
       "choices": ["school", "no", "There", "was", "yesterday"],
-      "answer": "Therewasnoschoolyesterday",
+      "answer": "There was no school yesterday",
       "explanation": "There was no school（学校がなかった＝授業がなかった）。\n【🇺🇸 Cultural Note】\n大雪（Snow day）などで学校が急遽休みになることがあります。"
     },
     {
@@ -224,7 +224,7 @@
       "type": "sort",
       "question": "「これを行うのにより良い方法があるはずです。」となるように並び替えてください。",
       "choices": ["way", "must", "be", "There", "a", "better", "to", "do", "this"],
-      "answer": "Theremustbeabetterwaytodothis",
+      "answer": "There must be a better way to do this",
       "explanation": "There must be...（～があるに違いない）。\n【🇺🇸 Cultural Note】\n効率を重視するアメリカ文化では、常に「より良い方法（Better way）」を探求する姿勢（イノベーション）が評価されます。"
     },
     {
@@ -245,7 +245,7 @@
       "type": "sort",
       "question": "「心配することは何もありません。」となるように並び替えてください。",
       "choices": ["nothing", "worry", "is", "There", "to", "about"],
-      "answer": "Thereisnothingtoworryabout",
+      "answer": "There is nothing to worry about",
       "explanation": "There is nothing to worry about. 定番の慰めフレーズです。\n【🇺🇸 Cultural Note】\n「Hakuna Matata（ハクナ・マタタ）」のように、心配ないさ精神はディズニー映画などを通じても親しまれています。"
     },
     {
@@ -266,7 +266,7 @@
       "type": "sort",
       "question": "「私たちのチームには11人の選手がいます。」となるように並び替えてください。",
       "choices": ["players", "team", "There", "on", "are", "eleven", "our"],
-      "answer": "Thereareelevenplayersonourteam",
+      "answer": "There are eleven players on our team",
       "explanation": "スポーツチームに所属している場合は in ではなく on the team と言います。\n【🇺🇸 Cultural Note】\nアメリカンフットボール（NFL）は1チーム11人でプレーします。"
     },
     {
@@ -287,7 +287,7 @@
       "type": "sort",
       "question": "「今夜、パーティーがあるでしょう。」となるように並び替えてください。",
       "choices": ["party", "be", "will", "There", "tonight", "a"],
-      "answer": "Therewillbeapartyonight",
+      "answer": "There will be a party tonight",
       "explanation": "There will be...（～があるでしょう）。\n【🇺🇸 Cultural Note】\n「Block Party」といって、道路を封鎖して近隣住民全員で行う屋外パーティーがあります。"
     },
     {
@@ -308,7 +308,7 @@
       "type": "sort",
       "question": "「その木の下に犬はいませんでした。」となるように並び替えてください。",
       "choices": ["dog", "tree", "There", "was", "under", "no", "the"],
-      "answer": "Therewasnodogunderthetree",
+      "answer": "There was no dog under the tree",
       "explanation": "There was no dog...（犬はいなかった）。\n【🇺🇸 Cultural Note】\n映画『Up（カールじいさんの空飛ぶ家）』に出てくる犬のように、リス（Squirrel）を見つけると追いかける犬が多いです。"
     },
     {
@@ -329,7 +329,7 @@
       "type": "sort",
       "question": "「この家には部屋がいくつありますか？」となるように並び替えてください。",
       "choices": ["rooms", "How", "many", "there", "are", "in", "this", "house"],
-      "answer": "Howmanyroomsarethereinthishouse",
+      "answer": "How many rooms are there in this house",
       "explanation": "How many rooms are there...?\n【🇺🇸 Cultural Note】\nアメリカの家は広く、地下室（Basement）や屋根裏部屋（Attic）があるのが一般的です。"
     },
     {
@@ -350,7 +350,7 @@
       "type": "sort",
       "question": "「急ぐ必要はありません。」となるように並び替えてください。",
       "choices": ["need", "no", "is", "There", "to", "hurry"],
-      "answer": "Thereisnoneedtohurry",
+      "answer": "There is no need to hurry",
       "explanation": "There is no need to...（～する必要はない）。\n【🇺🇸 Cultural Note】\nレストランで食事をした後、アメリカではテーブルで会計を済ませますが、ウェイターが伝票を持ってくるまでゆっくり過ごすのがマナーです。"
     },
     {
@@ -371,7 +371,7 @@
       "type": "sort",
       "question": "「疑う余地はありません。」となるように並び替えてください。",
       "choices": ["doubt", "no", "is", "There"],
-      "answer": "Thereisnodoubt",
+      "answer": "There is no doubt",
       "explanation": "There is no doubt.（疑いようがない＝間違いない）。\n【🇺🇸 Cultural Note】\nNo Doubt という有名なアメリカのロックバンドがあります（ボーカルはグウェン・ステファニー）。"
     },
     {
@@ -379,7 +379,7 @@
       "question": "「あなたのコーヒーに砂糖は入っていますか？」\nIs there (      ) sugar in your coffee?",
       "choices": [],
       "answer": "any",
-      "explanation": "疑問文で不可算名詞（sugar）につくのは any。\n【🇺🇸 Cultural Note】\nスターバックスなどでは、砂糖の代わりに甘味料（Sweetener）の種類が豊富に用意されています（Splenda, Steviaなど）。"
+      "explanation": "疑問文で不可算名詞（sugar）につくのは any。\n【🇺🇸 Cultural Note】\nスターバックスなどでは、砂糖の代わりに甘味料（Sweetener）の種類が豊富に用意されています（Splenda, Stevia など）。"
     },
     {
       "type": "multiple_choice",
@@ -390,9 +390,9 @@
     },
     {
       "type": "sort",
-      "question": "「公園には子供がたくさんいました。」となるように並び替えてください。",
+      "question": "「公園には子供たくさんいました。」となるように並び替えてください。",
       "choices": ["children", "were", "park", "There", "many", "in", "the"],
-      "answer": "Thereweremanychildreninthepark",
+      "answer": "There were many children in the park",
       "explanation": "There were many children...\n【🇺🇸 Cultural Note】\nアメリカの公園の遊具（Playground）は安全基準が厳しく、地面にはウッドチップなどの衝撃吸収材が敷かれています。"
     },
     {
@@ -413,7 +413,7 @@
       "type": "sort",
       "question": "「お皿の上に残っているケーキはありません（ケーキは残っていません）。」となるように並び替えてください。",
       "choices": ["left", "cake", "is", "There", "no", "plate", "on", "the"],
-      "answer": "Thereisnocakeleftontheplate",
+      "answer": "There is no cake left on the plate",
       "explanation": "There is no cake left...（残っているケーキはない）。\n【🇺🇸 Cultural Note】\nレストランで食べきれなかった料理を持ち帰るための箱を \"To-go box\" や \"Doggy bag\" と呼びます。"
     },
     {
@@ -434,7 +434,7 @@
       "type": "sort",
       "question": "「冷蔵庫に食べ物はありますか？」となるように並び替えてください。",
       "choices": ["food", "Is", "there", "any", "fridge", "in", "the"],
-      "answer": "Isthereanyfoodinthefridge",
+      "answer": "Is there any food in the fridge",
       "explanation": "Is there any food...?\n【🇺🇸 Cultural Note】\nアメリカの冷蔵庫は巨大で、ガロンサイズの牛乳や大量の冷凍食品が常備されています。"
     },
     {
@@ -455,7 +455,7 @@
       "type": "sort",
       "question": "「日本にはたくさんの神社があります。」となるように並び替えてください。",
       "choices": ["shrines", "many", "are", "There", "Japan", "in"],
-      "answer": "TherearemanyshrinesinJapan",
+      "answer": "There are many shrines in Japan",
       "explanation": "There are many shrines...\n【🇺🇸 Cultural Note】\nアメリカ人観光客にとって、神社の鳥居（Torii gate）は日本を象徴するミステリアスで美しい建造物です。"
     },
     {
@@ -476,7 +476,7 @@
       "type": "sort",
       "question": "「この本には美しい写真がたくさんあります。」となるように並び替えてください。",
       "choices": ["pictures", "book", "There", "beautiful", "are", "many", "in", "this"],
-      "answer": "Therearemanybeautifulpicturesinthisbook",
+      "answer": "There are many beautiful pictures in this book",
       "explanation": "There are many beautiful pictures...\n【🇺🇸 Cultural Note】\n「Coffee Table Book」と呼ばれる、リビングのテーブルに置くための大きくて美しい写真集がインテリアとして人気です。"
     },
     {
@@ -497,7 +497,7 @@
       "type": "sort",
       "question": "「あなたのポケットの中に何がありますか？」となるように並び替えてください。",
       "choices": ["in", "is", "pocket", "What", "there", "your"],
-      "answer": "Whatisthereinyourpocket",
+      "answer": "What is there in your pocket",
       "explanation": "What is there...?（何がありますか）。\n【🇺🇸 Cultural Note】\nトールキンの『ホビット』で、ビルボとゴラムがなぞなぞ遊びをする際の有名な問いかけでもあります。"
     },
     {
@@ -518,7 +518,7 @@
       "type": "sort",
       "question": "「バスルームにタオルがありません。」となるように並び替えてください。",
       "choices": ["towels", "bathroom", "There", "are", "no", "in", "the"],
-      "answer": "Therearenotowelsinthebathroom",
+      "answer": "There are no towels in the bathroom",
       "explanation": "There are no towels...。\n【🇺🇸 Cultural Note】\nホテルのタオルは十分な枚数が用意されていますが、足りない場合はフロントに電話すればすぐに持ってきてくれます。"
     },
     {
@@ -539,7 +539,7 @@
       "type": "sort",
       "question": "「一年には12ヶ月あります。」となるように並び替えてください。",
       "choices": ["months", "year", "There", "twelve", "are", "a", "in"],
-      "answer": "Therearetwelvemonthsinayear",
+      "answer": "There are twelve months in a year",
       "explanation": "There are twelve months...\n【🇺🇸 Cultural Note】\nアメリカの会計年度（Fiscal Year）は企業や政府機関によって異なりますが、連邦政府は10月始まりです。"
     },
     {
@@ -560,12 +560,12 @@
       "type": "sort",
       "question": "「今日は宿題はありません。」となるように並び替えてください。",
       "choices": ["homework", "is", "There", "no", "today"],
-      "answer": "Thereisnohomeworktoday",
+      "answer": "There is no homework today",
       "explanation": "There is no homework. 宿題は不可算名詞扱いなので is。\n【🇺🇸 Cultural Note】\n金曜日に宿題が出ないことは生徒にとって最高の週末の始まりです。"
     },
     {
       "type": "fill_in_the_blank",
-      "question": "「空に星がたくさんあります」\nThere are a (      ) of stars in the sky.",
+      "question": "「空に星たくさんあります」\nThere are a (      ) of stars in the sky.",
       "choices": [],
       "answer": "lot",
       "explanation": "a lot of（たくさんの）。lots ofでも可。\n【🇺🇸 Cultural Note】\nテキサス州の州歌の一節 \"The stars at night are big and bright\"（夜の星は大きく輝く）は有名で、手を叩く合いの手が入ります。"
@@ -581,7 +581,7 @@
       "type": "sort",
       "question": "「駅の前にバス停があります。」となるように並び替えてください。",
       "choices": ["stop", "station", "There", "bus", "front", "is", "a", "in", "of", "the"],
-      "answer": "Thereisabusstopinfrontofthestation",
+      "answer": "There is a bus stop in front of the station",
       "explanation": "There is a bus stop... in front of...（～の前に）。\n【🇺🇸 Cultural Note】\nグレイハウンド（長距離バス）のターミナルは、通常の市内バスの停留所とは別の場所にあります。"
     },
     {
@@ -602,7 +602,7 @@
       "type": "sort",
       "question": "「なぜここに穴があるのですか？」となるように並び替えてください。",
       "choices": ["hole", "Why", "here", "is", "there", "a"],
-      "answer": "Whyisthereaholehere",
+      "answer": "Why is there a hole here",
       "explanation": "Why is there...?\n【🇺🇸 Cultural Note】\n道路の「ポットホール（Pothole）」は冬の凍結などで発生し、パンクの原因になるためドライバーの悩みの種です。"
     },
     {
@@ -623,7 +623,7 @@
       "type": "sort",
       "question": "「冷蔵庫に牛乳はありませんでした。」となるように並び替えてください。",
       "choices": ["milk", "fridge", "was", "no", "There", "in", "the"],
-      "answer": "Therewasnomilkinthefridge",
+      "answer": "There was no milk in the fridge",
       "explanation": "There was no milk...（牛乳はなかった）。\n【🇺🇸 Cultural Note】\n牛乳がないとシリアルが食べられないため、朝食における牛乳の在庫管理は重要です。"
     },
     {
@@ -644,7 +644,7 @@
       "type": "sort",
       "question": "「このクラスに日本人の生徒はいますか？」となるように並び替えてください。",
       "choices": ["students", "Japanese", "Are", "there", "any", "in", "this", "class"],
-      "answer": "ArethereanyJapanesestudentsinthisclass",
+      "answer": "Are there any Japanese students in this class",
       "explanation": "Are there any Japanese students...?\n【🇺🇸 Cultural Note】\nアメリカの学校では、様々なルーツを持つ生徒がいるため、「International Day」などで互いの文化を紹介し合います。"
     },
     {
@@ -665,8 +665,8 @@
       "type": "sort",
       "question": "「この近くに良いレストランはありますか？」となるように並び替えてください。",
       "choices": ["restaurant", "Is", "there", "good", "a", "nearby"],
-      "answer": "Isthereagoodrestaurantnearby",
-      "explanation": "Is there a good restaurant nearby?\n【🇺🇸 Cultural Note】\nYelpやGoogle Mapsのレビュー（星の数）はお店選びの重要な基準になります。"
+      "answer": "Is there a good restaurant nearby",
+      "explanation": "Is there a good restaurant nearby?\n【🇺🇸 Cultural Note】\nYelp や Google Maps のレビュー（星の数）はお店選びの重要な基準になります。"
     },
     {
       "type": "fill_in_the_blank",
@@ -686,7 +686,7 @@
       "type": "sort",
       "question": "「庭に大きな木があります。」となるように並び替えてください。",
       "choices": ["tree", "garden", "There", "is", "a", "big", "in", "the"],
-      "answer": "Thereisabigtreeinthegarden",
+      "answer": "There is a big tree in the garden",
       "explanation": "There is a big tree...\n【🇺🇸 Cultural Note】\nバックヤード（裏庭）にツリーハウスを作るのは、多くのアメリカの子供たちの憧れです。"
     },
     {

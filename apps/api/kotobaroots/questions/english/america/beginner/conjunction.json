@@ -14,7 +14,7 @@
       "type": "sort",
       "question": "「安かったですが、おいしかったです。」となるように並び替えてください。",
       "choices": ["cheap,", "good", "It", "but", "was"],
-      "answer": "Itwascheap,butgood",
+      "answer": "It was cheap, but good",
       "explanation": "逆の内容をつなぐ「しかし」は but を使います。\n【🇺🇸 Cultural Note】\nアメリカの「ダイナー（Diner）」は、安くてボリューム満点の食事が24時間食べられる場所として愛されています。"
     },
     {
@@ -35,7 +35,7 @@
       "type": "sort",
       "question": "「雨が降っていたので、私たちは家にいました。」となるように並び替えてください。",
       "choices": ["raining,", "we", "stayed", "so", "It", "home", "was"],
-      "answer": "Itwasraining,sowestayedhome",
+      "answer": "It was raining, so we stayed home",
       "explanation": "結果を導く「だから」は so を使います。\n【🇺🇸 Cultural Note】\n雨の日に楽しむ屋内アクティビティとして、ボードゲーム（モノポリーなど）はアメリカの家庭で根強い人気があります。"
     },
     {
@@ -56,7 +56,7 @@
       "type": "sort",
       "question": "「もし明日晴れたら、私たちはBBQをします。」となるように並び替えてください。",
       "choices": ["sunny", "have", "If", "it", "is", "a", "tomorrow,", "we", "will", "BBQ"],
-      "answer": "Ifitissunnytomorrow,wewillhaveaBBQ",
+      "answer": "If it is sunny tomorrow, we will have a BBQ",
       "explanation": "条件を表す「もし〜なら」は If を使います。if節の中は未来のことでも現在形を使います。\n【🇺🇸 Cultural Note】\nアメリカ人の「BBQへの情熱」は凄まじく、テキサス風、カンザスシティ風など地域ごとに独自のソースや焼き方があります。"
     },
     {
@@ -77,7 +77,7 @@
       "type": "sort",
       "question": "「ピーナッツバターとジェリー。」となるように並び替えてください。",
       "choices": ["jelly", "and", "Peanut", "butter"],
-      "answer": "Peanutbutterandjelly",
+      "answer": "Peanut butter and jelly",
       "explanation": "「AとB」は and でつなぎます。\n【🇺🇸 Cultural Note】\nこの組み合わせ（PB&J）はアメリカの子供のランチの絶対的な定番です。「切っても切れない関係」の比喩としても使われます。"
     },
     {
@@ -98,7 +98,7 @@
       "type": "sort",
       "question": "「寒いので、私はコートを着ます。」となるように並び替えてください。",
       "choices": ["It", "cold,", "wear", "so", "coat", "I", "is", "a"],
-      "answer": "Itiscold,soIwearacoat",
+      "answer": "It is cold, so I wear a coat",
       "explanation": "結果を表す so です。\n【🇺🇸 Cultural Note】\nシカゴやミネアポリスの冬は極寒で、しっかりとした防寒具（Winter gear）が必須です。"
     },
     {
@@ -119,7 +119,7 @@
       "type": "sort",
       "question": "「もし時間があれば、博物館に行きましょう。」となるように並び替えてください。",
       "choices": ["time,", "have", "If", "we", "go", "to", "let's", "the", "museum"],
-      "answer": "Ifwehavetime,let'sgotothemuseum",
+      "answer": "If we have time, let's go to the museum",
       "explanation": "条件の If です。\n【🇺🇸 Cultural Note】\nワシントンD.C.のスミソニアン博物館群は入場無料なので、時間が空いた時に気軽に立ち寄れます。"
     },
     {
@@ -140,7 +140,7 @@
       "type": "sort",
       "question": "「星条旗（星と縞）。」となるように並び替えてください。",
       "choices": ["Stripes", "Stars", "and"],
-      "answer": "StarsandStripes",
+      "answer": "Stars and Stripes",
       "explanation": "「AとB」の and です。語順が決まっています。\n【🇺🇸 Cultural Note】\nアメリカ国旗の愛称です。星は50の州を、縞は独立時の13州を表しています。"
     },
     {
@@ -161,7 +161,7 @@
       "type": "sort",
       "question": "「私はお腹が空いていたので、ピザを食べました。」となるように並び替えてください。",
       "choices": ["pizza", "ate", "hungry,", "so", "I", "I", "was"],
-      "answer": "Iwashungry,soIatepizza",
+      "answer": "I was hungry, so I ate pizza",
       "explanation": "結果の so です。\n【🇺🇸 Cultural Note】\n深夜でもデリバリーしてくれるピザ屋は、試験勉強中の学生の強い味方です。"
     },
     {
@@ -182,7 +182,7 @@
       "type": "sort",
       "question": "「もし助けが必要なら、私に電話してください。」となるように並び替えてください。",
       "choices": ["need", "call", "help,", "me", "you", "If"],
-      "answer": "Ifyouneedhelp,callme",
+      "answer": "If you need help, call me",
       "explanation": "条件の If です。\n【🇺🇸 Cultural Note】\n\"911\"は緊急通報用ですが、それ以外の行政サービスへの相談は\"311\"にかけるシステムが多くの都市にあります。"
     },
     {
@@ -203,7 +203,7 @@
       "type": "sort",
       "question": "「高かったですが、私はそれを買いました。」となるように並び替えてください。",
       "choices": ["expensive,", "bought", "it", "it", "was", "but", "I"],
-      "answer": "Itwasexpensive,butIboughtit",
+      "answer": "It was expensive, but I bought it",
       "explanation": "逆説の but です。\n【🇺🇸 Cultural Note】\nブラックフライデーの大セールでは、高額商品が大幅に値引きされるため、多くの人が並んで買います。"
     },
     {
@@ -224,7 +224,7 @@
       "type": "sort",
       "question": "「疲れているので、休憩します。」となるように並び替えてください。",
       "choices": ["take", "so", "I'm", "tired,", "break", "I'll", "a"],
-      "answer": "I'mtired,soI'lltakeabreak",
+      "answer": "I'm tired, so I'll take a break",
       "explanation": "結果の so です。\n【🇺🇸 Cultural Note】\n仕事中のコーヒーブレイク（Coffee break）は、リフレッシュのための重要な権利と考えられています。"
     },
     {
@@ -245,7 +245,7 @@
       "type": "sort",
       "question": "「もしあなたがベジタリアンなら、これを食べてはいけません。」となるように並び替えてください。",
       "choices": ["eat", "you", "vegetarian,", "are", "don't", "this", "If", "a"],
-      "answer": "Ifyouareavegetarian,don'teatthis",
+      "answer": "If you are a vegetarian, don't eat this",
       "explanation": "条件の If です。\n【🇺🇸 Cultural Note】\nアメリカにはベジタリアンやヴィーガン（完全菜食主義者）が多く、レストランには必ず対応メニューがあります。"
     },
     {
@@ -266,7 +266,7 @@
       "type": "sort",
       "question": "「私は行きたいですが、忙しいです。」となるように並び替えてください。",
       "choices": ["busy", "want", "go,", "but", "I", "I'm", "to"],
-      "answer": "Iwanttogo,butI'mbusy",
+      "answer": "I want to go, but I'm busy",
       "explanation": "逆説の but です。\n【🇺🇸 Cultural Note】\n誘いを断る時、単に\"No\"と言うのではなく、理由（忙しいなど）を添えるのが礼儀です。"
     },
     {
@@ -287,7 +287,7 @@
       "type": "sort",
       "question": "「私は幸せです、なぜなら今日は金曜日だからです。」となるように並び替えてください。",
       "choices": ["Friday", "I", "is", "am", "because", "happy", "today"],
-      "answer": "IamhappybecausetodayisFriday",
+      "answer": "I am happy because today is Friday",
       "explanation": "理由の because です。\n【🇺🇸 Cultural Note】\n\"TGIF\" (Thank God It's Friday) という言葉があるほど、アメリカ人は金曜日を待ちわびています。"
     },
     {
@@ -308,7 +308,7 @@
       "type": "sort",
       "question": "「魚とチップス（フィッシュ＆チップス）。」となるように並び替えてください。",
       "choices": ["chips", "Fish", "and"],
-      "answer": "Fishandchips",
+      "answer": "Fish and chips",
       "explanation": "「AとB」の and です。\n【🇺🇸 Cultural Note】\nイギリス料理ですが、アメリカのシーフードレストランやパブでも定番メニューです。"
     },
     {
@@ -329,7 +329,7 @@
       "type": "sort",
       "question": "「彼女は病気だったので、医者に診てもらいました。」となるように並び替えてください。",
       "choices": ["doctor", "a", "saw", "sick,", "she", "so", "She", "was"],
-      "answer": "Shewassick,soshesawadoctor",
+      "answer": "She was sick, so she saw a doctor",
       "explanation": "結果の so です。\n【🇺🇸 Cultural Note】\nアメリカの医療システムでは、まず主治医（Primary Care Physician）に診てもらうのが一般的です。"
     },
     {
@@ -350,7 +350,7 @@
       "type": "sort",
       "question": "「もしあなたがそれを壊したら、弁償しなければなりません。」となるように並び替えてください。",
       "choices": ["buy", "break", "it,", "it", "you", "must", "If", "you"],
-      "answer": "Ifyoubreakit,youmustbuyit",
+      "answer": "If you break it, you must buy it",
       "explanation": "条件の If です。\n【🇺🇸 Cultural Note】\nお店で商品を壊した場合の\"You break it, you buy it\"（壊したらお買い上げ）は一般的なルールです。"
     },
     {
@@ -371,7 +371,7 @@
       "type": "sort",
       "question": "「今はか、それともなしか（今やるか二度とやらないか）。」となるように並び替えてください。",
       "choices": ["never", "Now", "or"],
-      "answer": "Nowornever",
+      "answer": "Now or never",
       "explanation": "選択の or です。\n【🇺🇸 Cultural Note】\n\"It's now or never!\"（今しかない！）は、決断を迫る時によく使われるフレーズです。"
     },
     {
@@ -392,7 +392,7 @@
       "type": "sort",
       "question": "「彼女は走りました、なぜなら遅れていたからです。」となるように並び替えてください。",
       "choices": ["late", "was", "ran", "She", "because", "she"],
-      "answer": "Sheranbecauseshewaslate",
+      "answer": "She ran because she was late",
       "explanation": "理由の because です。\n【🇺🇸 Cultural Note】\n\"Running late\"（遅れている）という表現は、日常会話で非常によく使われます。"
     },
     {
@@ -413,7 +413,7 @@
       "type": "sort",
       "question": "「もしあなたが勉強しなければ、合格しません。」となるように並び替えてください。",
       "choices": ["don't", "study,", "won't", "If", "pass", "you", "you"],
-      "answer": "Ifyoudon'tstudy,youwon'tpass",
+      "answer": "If you don't study, you won't pass",
       "explanation": "条件の If です。\n【🇺🇸 Cultural Note】\n\"No pain, no gain\"（痛みなくして得るものなし＝努力しなければ成功しない）という格言があります。"
     },
     {
@@ -434,7 +434,7 @@
       "type": "sort",
       "question": "「ナイフとフォーク。」となるように並び替えてください。",
       "choices": ["fork", "Knife", "and"],
-      "answer": "Knifeandfork",
+      "answer": "Knife and fork",
       "explanation": "「AとB」の and です。\n【🇺🇸 Cultural Note】\nアメリカ人はステーキなどを最初に全部切ってから、フォークを右手に持ち替えて食べる（Zig-zag method）人が多いです（欧州式とは異なります）。"
     },
     {
@@ -455,7 +455,7 @@
       "type": "sort",
       "question": "「私はパスポートをなくしたので、旅行できませんでした。」となるように並び替えてください。",
       "choices": ["travel", "passport,", "lost", "I", "couldn't", "my", "so", "I"],
-      "answer": "Ilostmypassport,soIcouldn'ttravel",
+      "answer": "I lost my passport, so I couldn't travel",
       "explanation": "結果の so です。\n【🇺🇸 Cultural Note】\n海外旅行の前にはパスポートの有効期限を確認することが重要です。"
     },
     {
@@ -476,7 +476,7 @@
       "type": "sort",
       "question": "「もし雨が降れば、私たちは中にいます。」となるように並び替えてください。",
       "choices": ["stay", "rains,", "it", "we", "inside", "If"],
-      "answer": "Ifitrains,westayinside",
+      "answer": "If it rains, we stay inside",
       "explanation": "条件の If です。\n【🇺🇸 Cultural Note】\n\"Rain or shine\"（雨天決行）というフレーズはイベントの案内でよく見かけます。"
     },
     {
@@ -497,7 +497,7 @@
       "type": "sort",
       "question": "「生死に関わる問題（生きるか死ぬかの問題）。」となるように並び替えてください。",
       "choices": ["death", "of", "life", "matter", "or", "A"],
-      "answer": "Amatteroflifeordeath",
+      "answer": "A matter of life or death",
       "explanation": "選択の or です。\n【🇺🇸 Cultural Note】\n非常に重要な局面で使われる慣用句です。"
     },
     {
@@ -518,7 +518,7 @@
       "type": "sort",
       "question": "「私はそれが真実だと信じています。」となるように並び替えてください。",
       "choices": ["true", "that", "believe", "it", "is", "I"],
-      "answer": "Ibelievethatitistrue",
+      "answer": "I believe that it is true",
       "explanation": "接続詞の that です。\n【🇺🇸 Cultural Note】\n法廷ドラマなどで証言の際によく聞くフレーズです。"
     },
     {
@@ -539,7 +539,7 @@
       "type": "sort",
       "question": "「レディース・アンド・ジェントルメン（紳士淑女の皆様）。」となるように並び替えてください。",
       "choices": ["Gentlemen", "and", "Ladies"],
-      "answer": "LadiesandGentlemen",
+      "answer": "Ladies and Gentlemen",
       "explanation": "「AとB」の and です。定型句です。\n【🇺🇸 Cultural Note】\nショーの始まりやアナウンスの冒頭で使われる伝統的な呼びかけです。"
     },
     {
@@ -560,7 +560,7 @@
       "type": "sort",
       "question": "「私は寝坊したので、バスに乗り遅れました。」となるように並び替えてください。",
       "choices": ["missed", "bus", "overslept,", "so", "I", "the", "I"],
-      "answer": "Ioverslept,soImissedthebus",
+      "answer": "I overslept, so I missed the bus",
       "explanation": "結果の so です。\n【🇺🇸 Cultural Note】\nスクールバスに乗り遅れると、親が学校まで車で送らなければならず、大変です。"
     },
     {
@@ -581,7 +581,7 @@
       "type": "sort",
       "question": "「もし明日雪が降らなければ、私たちは行きます。」となるように並び替えてください。",
       "choices": ["go", "it", "tomorrow,", "snow", "If", "doesn't", "we'll"],
-      "answer": "Ifitdoesn'tsnowtomorrow,we'llgo",
+      "answer": "If it doesn't snow tomorrow, we'll go",
       "explanation": "条件の If です。否定文（doesn't）を含みます。\n【🇺🇸 Cultural Note】\n天候に左右される予定の場合、前もって条件を確認します。"
     },
     {
@@ -602,7 +602,7 @@
       "type": "sort",
       "question": "「パンとバター。」となるように並び替えてください。",
       "choices": ["butter", "Bread", "and"],
-      "answer": "Breadandbutter",
+      "answer": "Bread and butter",
       "explanation": "「AとB」の and です。\n【🇺🇸 Cultural Note】\n\"Bread and butter\"は「生計の手段」「本業」という意味のイディオムとしても使われます。"
     },
     {
@@ -623,7 +623,7 @@
       "type": "sort",
       "question": "「彼はとても速かったので、レースに勝ちました。」となるように並び替えてください。",
       "choices": ["fast,", "race", "he", "was", "so", "very", "He", "won", "the"],
-      "answer": "Hewasveryfast,sohewontherace",
+      "answer": "He was very fast, so he won the race",
       "explanation": "結果の so です。\n【🇺🇸 Cultural Note】\nインディ500やデイトナ500などのカーレースはアメリカで大人気です。"
     },
     {
@@ -644,7 +644,7 @@
       "type": "sort",
       "question": "「私が着いたとき、パーティーは終わっていました。」となるように並び替えてください。",
       "choices": ["over", "arrived,", "When", "party", "I", "was", "the"],
-      "answer": "WhenIarrived,thepartywasover",
+      "answer": "When I arrived, the party was over",
       "explanation": "時の When です。\n【🇺🇸 Cultural Note】\n\"Fashionably late\"（おしゃれな遅刻）をやりすぎると、パーティーが終わってしまうこともあります。"
     },
     {

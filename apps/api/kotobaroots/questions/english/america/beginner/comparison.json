@@ -14,7 +14,7 @@
       "type": "sort",
       "question": "「この車はあの車より新しいです。」となるように並び替えてください。",
       "choices": ["car", "newer", "that", "This", "is", "than", "one"],
-      "answer": "Thiscarisnewerthanthatone",
+      "answer": "This car is newer than that one",
       "explanation": "newer than...（～より新しい）。\n【🇺🇸 Cultural Note】\nアメリカは車社会（Car culture）で、高校生が誕生日に中古車を買ってもらうのはよくある話です。16歳で免許が取れます。"
     },
     {
@@ -35,7 +35,7 @@
       "type": "sort",
       "question": "「夏は冬より暑いです。」となるように並び替えてください。",
       "choices": ["hotter", "Summer", "than", "winter", "is"],
-      "answer": "Summerishotterthanwinter",
+      "answer": "Summer is hotter than winter",
       "explanation": "hotter than...（～より暑い）。tを重ねることに注意。\n【🇺🇸 Cultural Note】\nアリゾナ州やネバダ州の夏は非常に暑く、摂氏40度を超えることも珍しくありませんが、湿度は低いです。"
     },
     {
@@ -56,7 +56,7 @@
       "type": "sort",
       "question": "「ナイル川は世界で一番長い川です。」となるように並び替えてください。",
       "choices": ["longest", "river", "The", "Nile", "is", "the", "in", "the", "world"],
-      "answer": "TheNileisthelongestriverintheworld",
+      "answer": "The Nile is the longest river in the world",
       "explanation": "the longest（一番長い）。最上級にはtheをつけます。\n【🇺🇸 Cultural Note】\nアメリカで一番長い川はミズーリ川ですが、水量が最も多いのはミシシッピ川です。"
     },
     {
@@ -77,7 +77,7 @@
       "type": "sort",
       "question": "「今日、私は昨日よりも忙しいです。」となるように並び替えてください。",
       "choices": ["than", "busier", "I", "yesterday", "am", "today"],
-      "answer": "Iambusiertodaythanyesterday",
+      "answer": "I am busier today than yesterday",
       "explanation": "busier than...（～より忙しい）。yをiに変えます。\n【🇺🇸 Cultural Note】\n\"Busy as a bee\"（ハチのように忙しい）という慣用句があります。"
     },
     {
@@ -98,7 +98,7 @@
       "type": "sort",
       "question": "「ジョンはトムと同じくらい年をとっています（同い年です）。」となるように並び替えてください。",
       "choices": ["old", "as", "John", "is", "Tom", "as"],
-      "answer": "JohnisasoldasTom",
+      "answer": "John is as old as Tom",
       "explanation": "as old as...（～と同じ年齢）。\n【🇺🇸 Cultural Note】\nアメリカでは年齢を聞くことは失礼とされることが多いですが、ID確認（お酒を買う時など）では厳格にチェックされます。"
     },
     {
@@ -110,7 +110,7 @@
     },
     {
       "type": "multiple_choice",
-      "question": "「この映画はその本よりも面白いです」\nThis movie is (      ) interesting than the book.",
+      "question": "「この movie はその本よりも面白いです」\nThis movie is (      ) interesting than the book.",
       "choices": ["more", "most", "much", "very"],
       "answer": "more",
       "explanation": "interestingの比較級は more interesting です。\n【🇺🇸 Cultural Note】\n「ハリー・ポッター」や「ハンガー・ゲーム」など、人気小説の映画化（Film adaptation）はハリウッドの定番です。"
@@ -119,7 +119,7 @@
       "type": "sort",
       "question": "「彼女は彼よりも上手に歌います。」となるように並び替えてください。",
       "choices": ["than", "better", "sings", "him", "She"],
-      "answer": "Shesingsbetterthanhim",
+      "answer": "She sings better than him",
       "explanation": "well（上手に）の比較級はbetterです。than he ではなく than him が口語では一般的です。\n【🇺🇸 Cultural Note】\nタレントショー（Talent Show）は学校の定番行事で、生徒たちが歌やダンス、マジックなどを披露します。"
     },
     {
@@ -140,7 +140,7 @@
       "type": "sort",
       "question": "「健康はお金よりも大切です。」となるように並び替えてください。",
       "choices": ["Health", "important", "money", "is", "more", "than"],
-      "answer": "Healthismoreimportantthanmoney",
+      "answer": "Health is more important than money",
       "explanation": "more important than...（～より重要だ）。\n【🇺🇸 Cultural Note】\nアメリカの医療費は非常に高額で、健康保険（Health Insurance）の有無が生活に大きく影響します。"
     },
     {
@@ -161,7 +161,7 @@
       "type": "sort",
       "question": "「あなたのカバンは私のものより重いです。」となるように並び替えてください。",
       "choices": ["bag", "heavier", "is", "Your", "mine", "than"],
-      "answer": "Yourbagisheavierthanmine",
+      "answer": "Your bag is heavier than mine",
       "explanation": "heavyの比較級はheavier。mine（私のもの）と比較します。\n【🇺🇸 Cultural Note】\nアメリカの教科書はハードカバーで分厚いものが多く、生徒のバックパック（Backpack）は非常に重くなります。"
     },
     {
@@ -182,7 +182,7 @@
       "type": "sort",
       "question": "「私のコンピュータはあなたのものほど新しくありません。」となるように並び替えてください。",
       "choices": ["not", "My", "computer", "as", "yours", "is", "new", "as"],
-      "answer": "Mycomputerisnotasnewasyours",
+      "answer": "My computer is not as new as yours",
       "explanation": "not as ... as ～（～ほど...ではない）。劣等比較の表現です。\n【🇺🇸 Cultural Note】\nアメリカの大学生にとってラップトップは必須アイテムで、授業中のノート取りもPCで行うのが一般的です。"
     },
     {
@@ -203,7 +203,7 @@
       "type": "sort",
       "question": "「私は父よりも早く起きます。」となるように並び替えてください。",
       "choices": ["earlier", "get", "up", "I", "my", "than", "father"],
-      "answer": "Igetupearlierthanmyfather",
+      "answer": "I get up earlier than my father",
       "explanation": "earlyの比較級はearlier。thanの後ろは比較対象です。\n【🇺🇸 Cultural Note】\nアメリカの高校は始業時間が早く、朝7時台から授業が始まることも珍しくありません。"
     },
     {
@@ -224,7 +224,7 @@
       "type": "sort",
       "question": "「東京はニューヨークより安全です。」となるように並び替えてください。",
       "choices": ["safer", "Tokyo", "New", "is", "York", "than"],
-      "answer": "TokyoissaferthanNewYork",
+      "answer": "Tokyo is safer than New York",
       "explanation": "safeの比較級はsaferです。\n【🇺🇸 Cultural Note】\nニューヨークなどの大都市では、夜遅くに地下鉄に乗らない、人通りの少ない道を避けるなど、自分の身を守る意識（Street smarts）が必要です。"
     },
     {
@@ -245,7 +245,7 @@
       "type": "sort",
       "question": "「中国はカナダよりも大きいです（人口・面積など）。」となるように並び替えてください。",
       "choices": ["larger", "China", "than", "is", "Canada"],
-      "answer": "ChinaislargerthanCanada",
+      "answer": "China is larger than Canada",
       "explanation": "largeの比較級はlargerです。\n【🇺🇸 Cultural Note】\nカナダはアメリカの隣国で、面積は世界2位（アメリカは3位または4位）です。"
     },
     {
@@ -266,7 +266,7 @@
       "type": "sort",
       "question": "「私の犬はあなたの犬より大きいです。」となるように並び替えてください。",
       "choices": ["bigger", "dog", "yours", "is", "My", "than"],
-      "answer": "Mydogisbiggerthanyours",
+      "answer": "My dog is bigger than yours",
       "explanation": "bigの比較級はbigger。yours（あなたのもの＝your dog）と比較します。\n【🇺🇸 Cultural Note】\nゴールデンレトリバーやラブラドールレトリバーなどの大型犬が、アメリカの家庭では特に人気があります。"
     },
     {
@@ -287,7 +287,7 @@
       "type": "sort",
       "question": "「英語を話すことは書くことより難しいです。」となるように並び替えてください。",
       "choices": ["difficult", "Speaking", "writing", "English", "is", "more", "than"],
-      "answer": "SpeakingEnglishismoredifficultthanwriting",
+      "answer": "Speaking English is more difficult than writing",
       "explanation": "more difficult than...。比較対象は動名詞（speakingとwriting）で揃えます。\n【🇺🇸 Cultural Note】\nアメリカ人は一般的に、文法の間違いを気にするよりも、自分の意見をはっきり伝えることを重視します。"
     },
     {
@@ -308,7 +308,7 @@
       "type": "sort",
       "question": "「これが店で一番安いカメラです。」となるように並び替えてください。",
       "choices": ["cheapest", "camera", "the", "This", "is", "in", "the", "store"],
-      "answer": "Thisisthecheapestcamerainthestore",
+      "answer": "This is the cheapest camera in the store",
       "explanation": "cheap（安い）の最上級はcheapestです。\n【🇺🇸 Cultural Note】\nウォルマート（Walmart）などの大型スーパーでは、電化製品から食料品まで何でも安く揃います。"
     },
     {
@@ -329,8 +329,8 @@
       "type": "sort",
       "question": "「数学は私にとって歴史より面白いです。」となるように並び替えてください。",
       "choices": ["interesting", "Math", "history", "is", "more", "than", "to", "me"],
-      "answer": "Mathismoreinterestingtohistorythanme",
-      "explanation": "正しくは Math is more interesting than history to me ですが、文脈上 to me の位置は文末が多いです。並び替えの選択肢に to, me があるので注意。\n【🇺🇸 Cultural Note】\nアメリカの歴史教育では、独立戦争、南北戦争、公民権運動などが重点的に扱われます。"
+      "answer": "Math is more interesting to me than history",
+      "explanation": "Math is more interesting than history to me. 選択肢に合わせて構成しました。\n【🇺🇸 Cultural Note】\nアメリカの歴史教育では、独立戦争、南北戦争、公民権運動などが重点的に扱われます。"
     },
     {
       "type": "fill_in_the_blank",
@@ -350,7 +350,7 @@
       "type": "sort",
       "question": "「健康でいることは金持ちになることより良いです。」となるように並び替えてください。",
       "choices": ["Being", "better", "healthy", "rich", "is", "than", "being"],
-      "answer": "Beinghealthyisbetterthanbeingrich",
+      "answer": "Being healthy is better than being rich",
       "explanation": "Being healthy（健康であること）と Being rich（金持ちであること）を比較しています。\n【🇺🇸 Cultural Note】\nオーガニック食品スーパー（Whole Foodsなど）の人気が高まっており、健康志向の人は食費にお金をかけます。"
     },
     {
@@ -371,7 +371,7 @@
       "type": "sort",
       "question": "「彼は私と同じくらいゆっくり歩きます。」となるように並び替えてください。",
       "choices": ["slowly", "walks", "He", "as", "me", "as"],
-      "answer": "Hewalksasslowlyasme",
+      "answer": "He walks as slowly as me",
       "explanation": "as slowly as...（～と同じくらいゆっくり）。slowlyは副詞です。\n【🇺🇸 Cultural Note】\n南部（サウス）の人々は話し方がゆっくりでフレンドリーだと言われることがあります（Southern Drawl）。"
     },
     {
@@ -392,7 +392,7 @@
       "type": "sort",
       "question": "「私の父は家族の中で一番年上です。」となるように並び替えてください。",
       "choices": ["oldest", "My", "in", "family", "father", "the", "is", "my"],
-      "answer": "Myfatheristheoldestinmyfamily",
+      "answer": "My father is the oldest in my family",
       "explanation": "the oldest（一番年上）。\n【🇺🇸 Cultural Note】\nアメリカでは、18歳になると家を出て自立することが強く奨励される文化があります。"
     },
     {
@@ -413,7 +413,7 @@
       "type": "sort",
       "question": "「あなたのテストの結果は私のものより悪かったです。」となるように並び替えてください。",
       "choices": ["worse", "test", "was", "Your", "mine", "result", "than"],
-      "answer": "Yourtestresultwasworsethanmine",
+      "answer": "Your test result was worse than mine",
       "explanation": "badの比較級は不規則変化で worse になります。\n【🇺🇸 Cultural Note】\nアメリカの学校の成績は、A, B, C, D, F（落第）の5段階評価が一般的です。"
     },
     {
@@ -434,7 +434,7 @@
       "type": "sort",
       "question": "「健康は富よりも大切です。」となるように並び替えてください。",
       "choices": ["Health", "important", "wealth", "is", "more", "than"],
-      "answer": "Healthismoreimportantthanwealth",
+      "answer": "Health is more important than wealth",
       "explanation": "more important than...（～より大切だ）。wealthは富、財産。\n【🇺🇸 Cultural Note】\nアメリカの医療制度は複雑で高額なため、良い仕事を選ぶ基準として「健康保険（Benefits）の内容」が非常に重視されます。"
     },
     {
@@ -455,7 +455,7 @@
       "type": "sort",
       "question": "「マイクは家族の中で一番若いです。」となるように並び替えてください。",
       "choices": ["youngest", "Mike", "family", "is", "the", "in", "his"],
-      "answer": "Mikeistheyoungestinhisfamily",
+      "answer": "Mike is the youngest in his family",
       "explanation": "youngの最上級はyoungestです。\n【🇺🇸 Cultural Note】\n「末っ子（The baby of the family）」は、大人になっても家族から甘やかされる傾向があると言われます。"
     },
     {
@@ -476,7 +476,7 @@
       "type": "sort",
       "question": "「猫は犬より静かです。」となるように並び替えてください。",
       "choices": ["quieter", "Cats", "than", "are", "dogs"],
-      "answer": "Catsarequieterthandogs",
+      "answer": "Cats are quieter than dogs",
       "explanation": "quietの比較級はquieterです（more quietも使われますが、quieterが一般的）。\n【🇺🇸 Cultural Note】\nアメリカで最も飼育数が多いペットは犬ですが、猫も非常に人気があります。"
     },
     {
@@ -497,7 +497,7 @@
       "type": "sort",
       "question": "「冬は一年で一番寒い季節です。」となるように並び替えてください。",
       "choices": ["coldest", "Winter", "is", "season", "the", "the", "year", "of"],
-      "answer": "Winteristhecoldestseasonoftheyear",
+      "answer": "Winter is the coldest season of the year",
       "explanation": "the coldest season（一番寒い季節）。\n【🇺🇸 Cultural Note】\nミネソタ州やノースダコタ州の冬は極寒で、湖の上で車を運転できるほど氷が厚くなります。"
     },
     {
@@ -518,7 +518,7 @@
       "type": "sort",
       "question": "「アラスカはテキサスより大きいです。」となるように並び替えてください。",
       "choices": ["bigger", "Alaska", "is", "Texas", "than"],
-      "answer": "AlaskaisbiggerthanTexas",
+      "answer": "Alaska is bigger than Texas",
       "explanation": "bigの比較級はbigger。\n【🇺🇸 Cultural Note】\nアラスカ州民は「テキサスを半分に切れば、アラスカは2番目に大きい州になる」というジョークでテキサスに対抗意識を燃やします。"
     },
     {
@@ -539,7 +539,7 @@
       "type": "sort",
       "question": "「どちらが強いですか、ライオンですか、それともトラですか？」となるように並び替えてください。",
       "choices": ["stronger", "a", "Which", "lion", "is", "a", "tiger", "or"],
-      "answer": "Whichisstrongeralionoratiger",
+      "answer": "Which is stronger a lion or a tiger",
       "explanation": "Which is stronger, A or B? の形です。\n【🇺🇸 Cultural Note】\nデトロイト・タイガース（野球）やデトロイト・ライオンズ（アメフト）など、猛獣はスポーツチームの名前として人気です。"
     },
     {
@@ -560,7 +560,7 @@
       "type": "sort",
       "question": "「英語は世界で最も役に立つ言語の一つです。」となるように並び替えてください。",
       "choices": ["languages", "useful", "English", "of", "is", "most", "one", "the", "in", "the", "world"],
-      "answer": "Englishisoneofthemostusefullanguagesintheworld",
+      "answer": "English is one of the most useful languages in the world",
       "explanation": "one of the most useful languages（最も役立つ言語の一つ）。languagesと複数形になる点に注意。\n【🇺🇸 Cultural Note】\nアメリカ国内でもスペイン語人口が増えており、ATMや自動音声案内では英語とスペイン語を選べるのが普通です。"
     },
     {
@@ -581,7 +581,7 @@
       "type": "sort",
       "question": "「富士山はエベレスト山より低いです。」となるように並び替えてください。",
       "choices": ["lower", "Mt.", "Everest", "Fuji", "than", "is", "Mt."],
-      "answer": "MtFujiislowerthanMtEverest",
+      "answer": "Mt Fuji is lower than Mt Everest",
       "explanation": "lowの比較級はlowerです。\n【🇺🇸 Cultural Note】\nアメリカ人はフィート（feet）で高さを表すため、標高などの数字はメートル法を使う日本人より大きく感じられます（1メートル≒3.28フィート）。"
     },
     {
@@ -602,7 +602,7 @@
       "type": "sort",
       "question": "「彼は私よりもたくさんの本を持っています。」となるように並び替えてください。",
       "choices": ["books", "has", "He", "more", "me", "than"],
-      "answer": "Hehasmorebooksthanme",
+      "answer": "He has more books than me",
       "explanation": "more books than me（私より多くの本）。many books の比較級として more books を使います。\n【🇺🇸 Cultural Note】\nアメリカの家は広いので、壁一面の本棚や専用の書斎（Home library）を持つことも夢ではありません。"
     },
     {
@@ -623,7 +623,7 @@
       "type": "sort",
       "question": "「言うは行うより易し（口で言うのは簡単です）。」となるように並び替えてください。",
       "choices": ["done", "Easier", "than", "said"],
-      "answer": "Easiersaidthandone",
+      "answer": "Easier said than done",
       "explanation": "有名なことわざです。「行われる（done）よりも言われる（said）ほうが簡単（Easier）」という構造です。\n【🇺🇸 Cultural Note】\nこのことわざは日常会話で頻繁に使われます。プランを実行に移す難しさを表します。"
     },
     {

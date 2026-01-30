@@ -14,7 +14,7 @@
       "type": "sort",
       "question": "「私たちはサンクスギビングに七面鳥を食べるつもりです。」となるように並び替えてください。",
       "choices": ["going", "to", "turkey", "eat", "are", "We", "for", "Thanksgiving"],
-      "answer": "WearegoingtoeatturkeyforThanksgiving",
+      "answer": "We are going to eat turkey for Thanksgiving",
       "explanation": "予定（be going to）の文です。\n【🇺🇸 Cultural Note】\n感謝祭（Thanksgiving）に七面鳥（Turkey）を食べるのは、アメリカの最も伝統的な食文化です。クランベリーソースを添えるのが一般的です。"
     },
     {
@@ -35,7 +35,7 @@
       "type": "sort",
       "question": "「あなたはプロムに行きますか？」となるように並び替えてください。",
       "choices": ["go", "you", "Will", "to", "prom", "the"],
-      "answer": "Willyougototheprom",
+      "answer": "Will you go to the prom",
       "explanation": "相手の意思を聞くWill you...?の形です。\n【🇺🇸 Cultural Note】\nプロム（Prom）は高校生活最大のイベントであるダンスパーティーです。タキシードやドレスを着て、リムジンで会場に向かう生徒もいます。"
     },
     {
@@ -56,7 +56,7 @@
       "type": "sort",
       "question": "「ハロウィンに何を着るつもりですか？」となるように並び替えてください。",
       "choices": ["wear", "are", "you", "going", "to", "What", "for", "Halloween"],
-      "answer": "WhatareyougoingtowearforHalloween",
+      "answer": "What are you going to wear for Halloween",
       "explanation": "What are you going to... ? の疑問文です。\n【🇺🇸 Cultural Note】\nハロウィンでは子供だけでなく大人も仮装を楽しみます。「Trick or Treat」と言ってお菓子をもらいに近所を回ります。"
     },
     {
@@ -77,7 +77,7 @@
       "type": "sort",
       "question": "「その店は独立記念日に閉まる予定です。」となるように並び替えてください。",
       "choices": ["close", "is", "The", "going", "store", "to", "on", "Independence", "Day"],
-      "answer": "ThestoreisgoingtocloseonIndependenceDay",
+      "answer": "The store is going to close on Independence Day",
       "explanation": "予定・計画を表す be going to です。\n【🇺🇸 Cultural Note】\n7月4日の独立記念日（Independence Day）は多くの店が休みになりますが、パレードや花火大会が行われます。"
     },
     {
@@ -98,7 +98,7 @@
       "type": "sort",
       "question": "「私はイエローストーンでキャンプをするつもりです。」となるように並び替えてください。",
       "choices": ["camp", "am", "going", "to", "I", "in", "Yellowstone"],
-      "answer": "IamgoingtocampinYellowstone",
+      "answer": "I am going to camp in Yellowstone",
       "explanation": "計画を表す be going to です。\n【🇺🇸 Cultural Note】\nイエローストーン国立公園では、野生のクマやバイソンに遭遇することがあります。キャンプ場は予約必須の人気スポットです。"
     },
     {
@@ -119,7 +119,7 @@
       "type": "sort",
       "question": "「彼は新しいスニーカーを買うつもりです。」となるように並び替えてください。",
       "choices": ["buy", "is", "He", "going", "to", "new", "sneakers"],
-      "answer": "Heisgoingtobuynewsneakers",
+      "answer": "He is going to buy new sneakers",
       "explanation": "be going to buy... です。\n【🇺🇸 Cultural Note】\nアメリカには「スニーカーヘッズ（Sneakerheads）」と呼ばれる熱狂的な収集家が多く、限定モデルの発売日には長蛇の列ができます。"
     },
     {
@@ -140,7 +140,7 @@
       "type": "sort",
       "question": "「飛行機は時間通りに到着するでしょう。」となるように並び替えてください。",
       "choices": ["arrive", "will", "plane", "The", "on", "time"],
-      "answer": "Theplanewillarriveontime",
+      "answer": "The plane will arrive on time",
       "explanation": "予測のwillです。\n【🇺🇸 Cultural Note】\nアメリカ国内は広いため、州をまたぐ移動は飛行機が一般的です。国内線でも時差（Time zone）が変わることがよくあります。"
     },
     {
@@ -161,7 +161,7 @@
       "type": "sort",
       "question": "「私はブラックフライデーに買い物をするつもりです。」となるように並び替えてください。",
       "choices": ["shopping", "am", "going", "I", "on", "Black", "Friday"],
-      "answer": "IamgoingingshoppingonBlackFriday",
+      "answer": "I am going shopping on Black Friday",
       "explanation": "go shopping（買い物に行く）の未来形です。\n【🇺🇸 Cultural Note】\n感謝祭の翌日の金曜日（Black Friday）は、一年で最大のセールが行われ、クリスマス商戦の開始日とされています。"
     },
     {
@@ -182,7 +182,7 @@
       "type": "sort",
       "question": "「あなたはクレジットカードで支払いますか？」となるように並び替えてください。",
       "choices": ["pay", "Will", "you", "with", "credit", "card", "a"],
-      "answer": "Willyoupaywithacreditcard",
+      "answer": "Will you pay with a credit card",
       "explanation": "意志や予定を聞くWillです。\n【🇺🇸 Cultural Note】\nアメリカはキャッシュレス化が進んでおり、コーヒー1杯でもクレジットカードやデビットカードで支払うのが普通です。"
     },
     {
@@ -203,7 +203,7 @@
       "type": "sort",
       "question": "「ホワイトハウスを見るつもりです。」となるように並び替えてください。",
       "choices": ["see", "am", "going", "to", "the", "White", "House", "I"],
-      "answer": "IamgoingtoseetheWhiteHouse",
+      "answer": "I am going to see the White House",
       "explanation": "I am going to see... です。\n【🇺🇸 Cultural Note】\n首都ワシントンD.C.にあります。一般公開ツアーもありますが、セキュリティチェックは非常に厳しいです。"
     },
     {
@@ -224,7 +224,7 @@
       "type": "sort",
       "question": "「私たちはハワイでサーフィンをするつもりです。」となるように並び替えてください。",
       "choices": ["surf", "going", "to", "are", "We", "in", "Hawaii"],
-      "answer": "WearegoingtosurfinHawaii",
+      "answer": "We are going to surf in Hawaii",
       "explanation": "予定を表す be going to です。\n【🇺🇸 Cultural Note】\nサーフィンはハワイ発祥のスポーツで、かつては王族の遊びでした。ハワイはアメリカ50番目の州です。"
     },
     {
@@ -245,7 +245,7 @@
       "type": "sort",
       "question": "「サンタクロースは今夜来るでしょう。」となるように並び替えてください。",
       "choices": ["come", "will", "Claus", "tonight", "Santa"],
-      "answer": "SantaClauswillcometonight",
+      "answer": "Santa Claus will come tonight",
       "explanation": "予測のwillです。\n【🇺🇸 Cultural Note】\nクリスマスイブの夜、子供たちはサンタのためにクッキーとミルクをテーブルに置いておきます。"
     },
     {
@@ -266,7 +266,7 @@
       "type": "sort",
       "question": "「ラスベガスでショーを見るつもりです。」となるように並び替えてください。",
       "choices": ["show", "see", "a", "to", "going", "am", "I", "in", "Las", "Vegas"],
-      "answer": "IamgoingtoseeashowinLasVegas",
+      "answer": "I am going to see a show in Las Vegas",
       "explanation": "I am going to see... です。\n【🇺🇸 Cultural Note】\nカジノだけでなく、シルク・ドゥ・ソレイユなどの豪華なショーやコンサートもラスベガスの大きな魅力です。"
     },
     {
@@ -287,7 +287,7 @@
       "type": "sort",
       "question": "「私はコインランドリーに行く予定です。」となるように並び替えてください。",
       "choices": ["Laundromat", "going", "am", "to", "the", "I"],
-      "answer": "IamgoingtotheLaundromat",
+      "answer": "I am going to the Laundromat",
       "explanation": "場所へ行く予定なので I am going to the... です。\n【🇺🇸 Cultural Note】\n都市部のアパートなどでは部屋に洗濯機がないことが多く、街中のコインランドリー（Laundromat）を利用します。"
     },
     {
@@ -308,7 +308,7 @@
       "type": "sort",
       "question": "「ナッシュビルでカントリーミュージックを聴くでしょう。」となるように並び替えてください。",
       "choices": ["listen", "will", "We", "to", "country", "music", "in", "Nashville"],
-      "answer": "WewilllistentocountrymusicinNashville",
+      "answer": "We will listen to country music in Nashville",
       "explanation": "will listen to... です。\n【🇺🇸 Cultural Note】\nテネシー州ナッシュビルは「ミュージック・シティ」と呼ばれ、カントリーミュージックの中心地です。"
     },
     {
@@ -329,7 +329,7 @@
       "type": "sort",
       "question": "「学校はキング牧師記念日に休みになります。」となるように並び替えてください。",
       "choices": ["closed", "be", "School", "will", "on", "MLK", "Day"],
-      "answer": "SchoolwillbeclosedonMLKDay",
+      "answer": "School will be closed on MLK Day",
       "explanation": "will be closed（閉まるだろう＝休みになる）です。\n【🇺🇸 Cultural Note】\n1月の第3月曜日は、公民権運動の指導者マーティン・ルーサー・キング・ジュニアを記念する祝日です。"
     },
     {
@@ -350,7 +350,7 @@
       "type": "sort",
       "question": "「それは20ドルかかるでしょう。」となるように並び替えてください。",
       "choices": ["cost", "will", "It", "dollars", "twenty"],
-      "answer": "Itwillcosttwentydollars",
+      "answer": "It will cost twenty dollars",
       "explanation": "will cost（費用がかかる）です。\n【🇺🇸 Cultural Note】\n20ドル紙幣（Jackson）は、ATMからお金を引き出す際に最もよく出てくる紙幣です。"
     },
     {
@@ -371,7 +371,7 @@
       "type": "sort",
       "question": "「彼女のためにベビーシャワーを開く予定です。」となるように並び替えてください。",
       "choices": ["throw", "to", "going", "are", "We", "a", "baby", "shower", "for", "her"],
-      "answer": "Wearegoingtothrowababyshowerforher",
+      "answer": "We are going to throw a baby shower for her",
       "explanation": "throw a party（パーティーを開く）という表現を使います。\n【🇺🇸 Cultural Note】\n出産前に妊婦さんを祝うパーティーです。シャワーのようにプレゼントが降り注ぐことからこの名がつきました。"
     },
     {
@@ -392,7 +392,7 @@
       "type": "sort",
       "question": "「おやつにドーナツを食べるつもりです。」となるように並び替えてください。",
       "choices": ["eat", "am", "going", "to", "I", "donuts", "for", "a", "snack"],
-      "answer": "Iamgoingtoeatdonutsforasnack",
+      "answer": "I am going to eat donuts for a snack",
       "explanation": "I am going to eat... です。\n【🇺🇸 Cultural Note】\n警察官がドーナツを食べているシーンを映画でよく見ますが、これはかつてドーナツ店が早朝営業していた数少ない店だったためと言われています。"
     },
     {
@@ -413,7 +413,7 @@
       "type": "sort",
       "question": "「郵便屋さんは手紙を置いていくでしょう。」となるように並び替えてください。",
       "choices": ["leave", "will", "mail", "carrier", "The", "the", "letter"],
-      "answer": "Themailcarrierwillleavetheletter",
+      "answer": "The mail carrier will leave the letter",
       "explanation": "will leave（置いていく）です。\n【🇺🇸 Cultural Note】\nアメリカの郵便受けには赤い旗（Flag）がついています。これを立てておくと、郵便屋さんが回収してくれる仕組みです。"
     },
     {
@@ -434,7 +434,7 @@
       "type": "sort",
       "question": "「私たちはデリバリーのピザを注文するつもりです。」となるように並び替えてください。",
       "choices": ["order", "going", "to", "are", "We", "delivery", "pizza"],
-      "answer": "Wearegoingtoorderdeliverypizza",
+      "answer": "We are going to order delivery pizza",
       "explanation": "be going to order... です。\n【🇺🇸 Cultural Note】\nアメリカでピザと言えばペパロニ（サラミの一種）が最も人気のあるトッピングです。パーティーの定番メニューです。"
     },
     {
@@ -455,7 +455,7 @@
       "type": "sort",
       "question": "「竜巻が来るかもしれません（来るでしょう）。」となるように並び替えてください。",
       "choices": ["come", "tornado", "A", "will"],
-      "answer": "Atornadowillcome",
+      "answer": "A tornado will come",
       "explanation": "気象予測のwillです。\n【🇺🇸 Cultural Note】\n中西部は「トルネード・アレイ（竜巻街道）」と呼ばれ、春から夏にかけて竜巻が発生しやすい地域があります。"
     },
     {
@@ -476,7 +476,7 @@
       "type": "sort",
       "question": "「私はレモネードスタンドをするつもりです。」となるように並び替えてください。",
       "choices": ["have", "am", "going", "to", "I", "stand", "a", "lemonade"],
-      "answer": "Iamgoingtohavealemonadestand",
+      "answer": "I am going to have a lemonade stand",
       "explanation": "子供が小遣い稼ぎや寄付のために行う小さな店のことです。\n【🇺🇸 Cultural Note】\nアメリカの子供たちが初めてビジネスを学ぶ夏の風物詩です。近所の人が1杯数十セントで買ってくれます。"
     },
     {
@@ -497,7 +497,7 @@
       "type": "sort",
       "question": "「テキサスでは雪は降らないでしょう。」となるように並び替えてください。",
       "choices": ["snow", "not", "will", "It", "in", "Texas"],
-      "answer": "ItwillnotsnowinTexas",
+      "answer": "It will not snow in Texas",
       "explanation": "will not（～しないでしょう）です。\n【🇺🇸 Cultural Note】\n南部なのでめったに雪は降りませんが、異常気象で降雪があると交通網が麻痺して大ニュースになります。"
     },
     {
@@ -518,7 +518,7 @@
       "type": "sort",
       "question": "「図書館に本を返すつもりです。」となるように並び替えてください。",
       "choices": ["return", "am", "going", "to", "I", "books", "the", "to", "the", "library"],
-      "answer": "Iamgoingtoreturnthebookstothelibrary",
+      "answer": "I am going to return the books to the library",
       "explanation": "I am going to return... です。\n【🇺🇸 Cultural Note】\nアメリカの公共図書館（Public Library）は地域コミュニティの中心であり、Wi-Fiや学習スペースが充実しています。"
     },
     {
@@ -539,7 +539,7 @@
       "type": "sort",
       "question": "「私たちはキャンピングカー（RV）を借りる予定です。」となるように並び替えてください。",
       "choices": ["rent", "going", "to", "are", "We", "an", "RV"],
-      "answer": "WearegoingtorentanRV",
+      "answer": "We are going to rent an RV",
       "explanation": "RV（Recreational Vehicle）はキャンピングカーのことです。\n【🇺🇸 Cultural Note】\n巨大なRVで国立公園を巡るロードトリップは、アメリカ人の憧れの休暇スタイルの一つです。"
     },
     {
@@ -560,7 +560,7 @@
       "type": "sort",
       "question": "「芝刈りをしてお小遣いを稼ぐつもりです。」となるように並び替えてください。",
       "choices": ["money", "earn", "to", "going", "am", "I", "by", "mowing", "the", "lawn"],
-      "answer": "Iamgoingtoearnmoneybymowingthelawn",
+      "answer": "I am going to earn money by mowing the lawn",
       "explanation": "mow the lawn（芝刈りをする）。\n【🇺🇸 Cultural Note】\n広い芝生の庭がある家が多く、子供が近所の家の芝刈りをしてお小遣いを稼ぐのは定番のアルバイトです。"
     },
     {
@@ -581,7 +581,7 @@
       "type": "sort",
       "question": "「私たちはセント・パトリックス・デーに緑色を着るつもりです。」となるように並び替えてください。",
       "choices": ["wear", "going", "to", "are", "We", "green", "on", "St.", "Patrick's", "Day"],
-      "answer": "WearegoingtoweargreenonStPatrick'sDay",
+      "answer": "We are going to wear green on St Patrick's Day",
       "explanation": "3月17日のアイルランドのお祭りです。\n【🇺🇸 Cultural Note】\nこの日に緑色のものを身に着けていないと、つねられる（Pinch）という遊びのルールがあります。シカゴ川も緑に染まります。"
     },
     {
@@ -602,7 +602,7 @@
       "type": "sort",
       "question": "「そのダイナーで朝食を食べるつもりです。」となるように並び替えてください。",
       "choices": ["eat", "am", "going", "to", "I", "breakfast", "at", "the", "diner"],
-      "answer": "Iamgoingtoeatbreakfastatthediner",
+      "answer": "I am going to eat breakfast at the diner",
       "explanation": "Diner（ダイナー）はアメリカの大衆食堂です。\n【🇺🇸 Cultural Note】\nダイナーは24時間営業も多く、パンケーキ、卵料理、ベーコン、コーヒーなどの朝食メニューが一日中食べられます。"
     },
     {
@@ -623,7 +623,7 @@
       "type": "sort",
       "question": "「火曜日にタコスを食べるつもりです。」となるように並び替えてください。",
       "choices": ["tacos", "eat", "going", "to", "are", "We", "on", "Tuesday"],
-      "answer": "WearegoingtoeattacosonTuesday",
+      "answer": "We are going to eat tacos on Tuesday",
       "explanation": "「Taco Tuesday（タコ・チューズデー）」という言葉があります。\n【🇺🇸 Cultural Note】\nメキシコ料理はアメリカで深く浸透しています。火曜日にタコスを安く提供する店が多く、習慣になっています。"
     },
     {
@@ -644,7 +644,7 @@
       "type": "sort",
       "question": "「お昼にお弁当（袋入りランチ）を持っていくつもりです。」となるように並び替えてください。",
       "choices": ["bring", "am", "going", "to", "I", "a", "bag", "lunch"],
-      "answer": "Iamgoingtobringabaglunch",
+      "answer": "I am going to bring a bag lunch",
       "explanation": "Bag lunch（茶色い紙袋に入れたお弁当）のことです。\n【🇺🇸 Cultural Note】\n「Brown bag」とも呼ばれます。サンドイッチ、リンゴ、チップス、ジュースなどを紙袋に入れて持参します。"
     },
     {
@@ -665,7 +665,7 @@
       "type": "sort",
       "question": "「ロッカーに教科書を入れるつもりです。」となるように並び替えてください。",
       "choices": ["put", "going", "to", "am", "I", "textbooks", "in", "my", "locker"],
-      "answer": "Iamgoingtoputtextbooksinmylocker",
+      "answer": "I am going to put textbooks in my locker",
       "explanation": "I am going to put... です。\n【🇺🇸 Cultural Note】\nアメリカの学校の廊下にはロッカーがずらりと並んでいます。鏡や写真で内側をデコレーション（Decorate）する生徒も多いです。"
     },
     {
@@ -686,7 +686,7 @@
       "type": "sort",
       "question": "「ハリウッドで有名人になるつもりです。」となるように並び替えてください。",
       "choices": ["famous", "be", "going", "to", "am", "I", "in", "Hollywood"],
-      "answer": "IamgoingtobefamousinHollywood",
+      "answer": "I am going to be famous in Hollywood",
       "explanation": "将来の夢を語る I am going to be... です。\n【🇺🇸 Cultural Note】\nロサンゼルスにある映画産業の中心地です。歩道にはスターの名前が刻まれた星（Walk of Fame）があります。"
     },
     {

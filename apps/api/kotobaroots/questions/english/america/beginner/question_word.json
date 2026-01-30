@@ -21,7 +21,7 @@
       "type": "sort",
       "question": "「感謝祭はいつですか？」となるように並び替えてください。",
       "choices": ["is", "When", "Thanksgiving"],
-      "answer": "WhenisThanksgiving",
+      "answer": "When is Thanksgiving",
       "explanation": "When（いつ）。\n【🇺🇸 Cultural Note】\n毎年11月の第4木曜日です。この日は多くの店が閉まり、家族と過ごす時間になります。"
     },
     {
@@ -42,15 +42,15 @@
       "type": "sort",
       "question": "「なぜあなたは遅れたのですか？」となるように並び替えてください。",
       "choices": ["are", "Why", "late", "you"],
-      "answer": "Whyareyoulate",
-      "explanation": "Why（なぜ）。\n【🇺🇸 Cultural Note】\nニューヨークの地下鉄は「信号トラブル」などで遅れることが日常茶飯事です。"
+      "answer": "Why are you late",
+      "explanation": "Why（なぜ）。\n【🇺🇸 Cultural Note】\nニューヨークの地下鉄は「信号トラブル」などで遅れることが日常飯事です。"
     },
     {
       "type": "fill_in_the_blank",
       "question": "「どちらがあなたの車ですか？」\n(      ) is your car?",
       "choices": [],
       "answer": "Which",
-      "explanation": "Which（どちら）。選択肢がある場合に使います。\n【🇺🇸 Cultural Note】\nアメリカではSUVやピックアップトラックなどの大型車が非常に人気です。"
+      "explanation": "Which（どちら）。選択肢がある場合に使います。\n【🇺🇸 Cultural Note】\nアメリカでは SUV やピックアップトラックなどの大型車が非常に人気です。"
     },
     {
       "type": "multiple_choice",
@@ -63,7 +63,7 @@
       "type": "sort",
       "question": "「今は何時ですか？」となるように並び替えてください。",
       "choices": ["time", "What", "it", "is", "now"],
-      "answer": "Whattimeisitnow",
+      "answer": "What time is it now",
       "explanation": "What time（何時）。\n【🇺🇸 Cultural Note】\nアメリカには4つの主要な時間帯（タイムゾーン）があり、東海岸と西海岸では3時間の時差があります。"
     },
     {
@@ -84,7 +84,7 @@
       "type": "sort",
       "question": "「あなたはどのようにして学校へ行きますか？」となるように並び替えてください。",
       "choices": ["go", "How", "you", "school", "do", "to"],
-      "answer": "Howdoyougotoschool",
+      "answer": "How do you go to school",
       "explanation": "How（どうやって）。手段を尋ねます。\n【🇺🇸 Cultural Note】\n\"I take the yellow bus.\"（黄色いスクールバスで行きます）という答えが典型的です。"
     },
     {
@@ -105,7 +105,7 @@
       "type": "sort",
       "question": "「なぜあなたは英語を勉強するのですか？」となるように並び替えてください。",
       "choices": ["study", "Why", "English", "you", "do"],
-      "answer": "WhydoyoustudyEnglish",
+      "answer": "Why do you study English",
       "explanation": "Why（なぜ）。\n【🇺🇸 Cultural Note】\nアメリカには英語を母国語としない移民も多いため、ESL（第二言語としての英語）クラスが充実しています。"
     },
     {
@@ -126,7 +126,7 @@
       "type": "sort",
       "question": "「グランドキャニオンはどこですか？」となるように並び替えてください。",
       "choices": ["Grand", "Where", "Canyon", "is", "the"],
-      "answer": "WhereistheGrandCanyon",
+      "answer": "Where is the Grand Canyon",
       "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\nアリゾナ州にあります。ラスベガスからツアーで行くのが一般的です。"
     },
     {
@@ -147,7 +147,7 @@
       "type": "sort",
       "question": "「あなたは何歳ですか？」となるように並び替えてください。",
       "choices": ["old", "are", "How", "you"],
-      "answer": "Howoldareyou",
+      "answer": "How old are you",
       "explanation": "How old（どのくらい古い＝何歳）。\n【🇺🇸 Cultural Note】\nアメリカでは21歳にならないとお酒が飲めません（日本より遅いです）。"
     },
     {
@@ -162,13 +162,13 @@
       "question": "「トイレはどこですか？」\n(      ) is the restroom?",
       "choices": ["Where", "What", "When", "Who"],
       "answer": "Where",
-      "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\nアメリカではToiletではなくRestroomやBathroomと言うのがマナーです。"
+      "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\nアメリカでは Toilet ではなく Restroom や Bathroom と言うのがマナーです。"
     },
     {
       "type": "sort",
       "question": "「なぜシカゴは風が強いのですか？」となるように並び替えてください。",
       "choices": ["Chicago", "Why", "windy", "is"],
-      "answer": "WhyisChicagowindy",
+      "answer": "Why is Chicago windy",
       "explanation": "Why（なぜ）。\n【🇺🇸 Cultural Note】\nミシガン湖からの風が理由の一つですが、政治家の「大言壮語」を皮肉ったあだ名でもあります。"
     },
     {
@@ -189,7 +189,7 @@
       "type": "sort",
       "question": "「これはどのような味がしますか？」となるように並び替えてください。",
       "choices": ["taste", "How", "does", "this"],
-      "answer": "Howdoesthistaste",
+      "answer": "How does this taste",
       "explanation": "How（どのように）。\n【🇺🇸 Cultural Note】\nアメリカのチェリーパイやルートビア（湿布のような味の炭酸飲料）は、独特の味で好みが分かれます。"
     },
     {
@@ -210,7 +210,7 @@
       "type": "sort",
       "question": "「ハリウッドはどこにありますか？」となるように並び替えてください。",
       "choices": ["Where", "is", "Hollywood"],
-      "answer": "WhereisHollywood",
+      "answer": "Where is Hollywood",
       "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\nカリフォルニア州ロサンゼルス市にあります。"
     },
     {
@@ -218,7 +218,7 @@
       "question": "「あなたは誰を待っていますか？」\n(      ) are you waiting for?",
       "choices": [],
       "answer": "Who",
-      "explanation": "Who（誰）。目的語ですが口語ではWhomではなくWhoを使います。\n【🇺🇸 Cultural Note】\nUberやLyftなどの配車サービスを待つ人が増えています。"
+      "explanation": "Who（誰）。目的語ですが口語ではWhomではなくWhoを使います。\n【🇺🇸 Cultural Note】\nUber や Lyft などの配車サービスを待つ人が増えています。"
     },
     {
       "type": "multiple_choice",
@@ -231,7 +231,7 @@
       "type": "sort",
       "question": "「天気はどうですか？」となるように並び替えてください。",
       "choices": ["weather", "How", "the", "is"],
-      "answer": "Howistheweather",
+      "answer": "How is the weather",
       "explanation": "How（どう）。\n【🇺🇸 Cultural Note】\n\"What's the weather like?\"とも言います。アメリカは広いので、同じ日でもマイアミは夏、シカゴは冬のような天気になります。"
     },
     {
@@ -252,7 +252,7 @@
       "type": "sort",
       "question": "「そのカウボーイハットは誰のものですか？」となるように並び替えてください。",
       "choices": ["hat", "Whose", "is", "cowboy", "that"],
-      "answer": "Whosecowboyhatisthat",
+      "answer": "Whose cowboy hat is that",
       "explanation": "Whose（誰の）。\n【🇺🇸 Cultural Note】\nカウボーイハットはテキサスなどの西部や南部では正装の一部と見なされることもあります。"
     },
     {
@@ -273,7 +273,7 @@
       "type": "sort",
       "question": "「キング牧師は誰ですか？」となるように並び替えてください。",
       "choices": ["King", "is", "Who", "Dr."],
-      "answer": "WhoisDr.King",
+      "answer": "Who is Dr. King",
       "explanation": "Who（誰）。\n【🇺🇸 Cultural Note】\nマーティン・ルーサー・キング・ジュニア牧師。公民権運動の英雄です。"
     },
     {
@@ -294,7 +294,7 @@
       "type": "sort",
       "question": "「どのバスがダウンタウンへ行きますか？」となるように並び替えてください。",
       "choices": ["to", "Which", "bus", "downtown", "goes"],
-      "answer": "Whichbusgoestodowntown",
+      "answer": "Which bus goes to downtown",
       "explanation": "Which bus（どのバス）。\n【🇺🇸 Cultural Note】\n多くの都市で、バスは正確な時間に来ないことがあります。"
     },
     {
@@ -315,7 +315,7 @@
       "type": "sort",
       "question": "「ブラックフライデーはいつですか？」となるように並び替えてください。",
       "choices": ["Black", "is", "Friday", "When"],
-      "answer": "WhenisBlackFriday",
+      "answer": "When is Black Friday",
       "explanation": "When（いつ）。\n【🇺🇸 Cultural Note】\n感謝祭（木曜日）の翌日の金曜日です。一年で最大のセールが行われ、クリスマス商戦の開始日となります。"
     },
     {
@@ -336,7 +336,7 @@
       "type": "sort",
       "question": "「なぜあなたはその車が欲しいのですか？」となるように並び替えてください。",
       "choices": ["want", "car", "do", "you", "that", "Why"],
-      "answer": "Whydoyouwantthatcar",
+      "answer": "Why do you want that car",
       "explanation": "Why（なぜ）。\n【🇺🇸 Cultural Note】\nアメリカの高校生にとって、自分の車を持つことは自由と自立の象徴です。"
     },
     {
@@ -357,7 +357,7 @@
       "type": "sort",
       "question": "「どちらの道が速いですか？」となるように並び替えてください。",
       "choices": ["way", "faster", "Which", "is"],
-      "answer": "Whichwayisfaster",
+      "answer": "Which way is faster",
       "explanation": "Which way（どちらの道）。\n【🇺🇸 Cultural Note】\nアメリカの都市部では渋滞（Traffic jam）が激しいため、ナビアプリが必須です。"
     },
     {
@@ -378,7 +378,7 @@
       "type": "sort",
       "question": "「あなたはランチに何を食べますか？」となるように並び替えてください。",
       "choices": ["lunch", "eat", "you", "What", "do", "for"],
-      "answer": "Whatdoyoueatforlunch",
+      "answer": "What do you eat for lunch",
       "explanation": "What（何）。\n【🇺🇸 Cultural Note】\nPB&J（ピーナッツバター＆ジェリーサンドイッチ）は子供のランチの定番です。"
     },
     {
@@ -399,7 +399,7 @@
       "type": "sort",
       "question": "「なぜ感謝祭に七面鳥を食べるのですか？」となるように並び替えてください。",
       "choices": ["eat", "Thanksgiving", "turkey", "do", "Why", "you", "on"],
-      "answer": "WhydoyoueatturkeyonThanksgiving",
+      "answer": "Why do you eat turkey on Thanksgiving",
       "explanation": "Why（なぜ）。\n【🇺🇸 Cultural Note】\n最初の入植者（Pilgrims）がネイティブアメリカンと収穫を祝った食事に由来するとされています。"
     },
     {
@@ -420,7 +420,7 @@
       "type": "sort",
       "question": "「誰がその映画を作りましたか？」となるように並び替えてください。",
       "choices": ["made", "movie", "Who", "that"],
-      "answer": "Whomadethatmovie",
+      "answer": "Who made that movie",
       "explanation": "Who（誰）。\n【🇺🇸 Cultural Note】\nスティーブン・スピルバーグはアメリカを代表する映画監督の一人です。"
     },
     {
@@ -441,7 +441,7 @@
       "type": "sort",
       "question": "「どの州が一番大きいですか？」となるように並び替えてください。",
       "choices": ["state", "Which", "biggest", "is", "the"],
-      "answer": "Whichstateisthebiggest",
+      "answer": "Which state is the biggest",
       "explanation": "Which state（どの州）。\n【🇺🇸 Cultural Note】\n面積ではアラスカ州が最大、人口ではカリフォルニア州が最大です。"
     },
     {
@@ -462,7 +462,7 @@
       "type": "sort",
       "question": "「ナイアガラの滝はどこですか？」となるように並び替えてください。",
       "choices": ["Falls", "Where", "Niagara", "is"],
-      "answer": "WhereisNiagaraFalls",
+      "answer": "Where is Niagara Falls",
       "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\nニューヨーク州とカナダのオンタリオ州の国境に位置しています。"
     },
     {
@@ -483,7 +483,7 @@
       "type": "sort",
       "question": "「誰が電話を発明しましたか？」となるように並び替えてください。",
       "choices": ["invented", "Who", "telephone", "the"],
-      "answer": "Whoinventedthetelephone",
+      "answer": "Who invented the telephone",
       "explanation": "Who（誰）。\n【🇺🇸 Cultural Note】\nアレクサンダー・グラハム・ベルです。AT&T（アメリカの通信大手）の前身であるベル電話会社を設立しました。"
     },
     {
@@ -504,7 +504,7 @@
       "type": "sort",
       "question": "「ラスベガスはどこにありますか？」となるように並び替えてください。",
       "choices": ["Vegas", "Las", "is", "Where"],
-      "answer": "WhereisLasVegas",
+      "answer": "Where is Las Vegas",
       "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\nネバダ州の砂漠の中にあります。"
     },
     {
@@ -525,7 +525,7 @@
       "type": "sort",
       "question": "「あなたはどうやってピザを作りますか？」となるように並び替えてください。",
       "choices": ["make", "you", "How", "pizza", "do"],
-      "answer": "Howdoyoumakepizza",
+      "answer": "How do you make pizza",
       "explanation": "How（どうやって）。\n【🇺🇸 Cultural Note】\n生地を空中で回して広げるパフォーマンスは、ピザ職人（Pizzaiolo）の技です。"
     },
     {
@@ -546,7 +546,7 @@
       "type": "sort",
       "question": "「ルート66はどこですか？」となるように並び替えてください。",
       "choices": ["Where", "66", "is", "Route"],
-      "answer": "WhereisRoute66",
+      "answer": "Where is Route 66",
       "explanation": "Where（どこ）。\n【🇺🇸 Cultural Note】\nシカゴからサンタモニカまでを結ぶ歴史的な国道です。"
     },
     {

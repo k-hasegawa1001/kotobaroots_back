@@ -13,7 +13,7 @@
       "type": "sort",
       "question": "「彼はなんて速く走るのでしょう！」となるように並び替えてください。",
       "choices": ["runs", "How", "he", "fast"],
-      "answer": "Howfastheruns",
+      "answer": "How fast he runs",
       "explanation": "How fast he runs! How + 副詞/形容詞 + S + V ! の形です。"
     },
     {
@@ -34,7 +34,7 @@
       "type": "sort",
       "question": "「なんて暑い日なんでしょう！」となるように並び替えてください。",
       "choices": ["day", "What", "hot", "it", "a", "is"],
-      "answer": "Whatahotdayitis",
+      "answer": "What a hot day it is",
       "explanation": "What a hot day it is! です。"
     },
     {
@@ -55,7 +55,7 @@
       "type": "sort",
       "question": "「この部屋はなんて汚いんでしょう！」となるように並び替えてください。",
       "choices": ["dirty", "room", "How", "this", "is"],
-      "answer": "Howdirtythisroomis",
+      "answer": "How dirty this room is",
       "explanation": "How dirty this room is! 名詞を単独で強調しない形容詞中心の感嘆文はHowを使います。"
     },
     {
@@ -76,7 +76,7 @@
       "type": "sort",
       "question": "「なんてかわいい犬なんでしょう！」となるように並び替えてください。",
       "choices": ["cute", "dog", "a", "What"],
-      "answer": "Whatacutedog",
+      "answer": "What a cute dog",
       "explanation": "What a cute dog! 文末の「it is」などが省略されることもよくあります。"
     },
     {
@@ -97,7 +97,7 @@
       "type": "sort",
       "question": "「テニスをするのはどうですか？」となるように並び替えてください。",
       "choices": ["about", "tennis", "playing", "How"],
-      "answer": "Howaboutplayingtennis",
+      "answer": "How about playing tennis",
       "explanation": "How about...?（～してはどうですか）です。"
     },
     {
@@ -118,7 +118,7 @@
       "type": "sort",
       "question": "「ドアを開けてくださいませんか？」となるように並び替えてください。",
       "choices": ["you", "open", "door", "the", "please", "Will"],
-      "answer": "Willyoupleaseopenthedoor",
+      "answer": "Will you please open the door",
       "explanation": "Will you please open the door? 丁寧な依頼です。"
     },
     {
@@ -139,7 +139,7 @@
       "type": "sort",
       "question": "「休憩しましょう。」となるように並び替えてください。",
       "choices": ["a", "take", "break", "Let's"],
-      "answer": "Let'stakeabreak",
+      "answer": "Let's take a break",
       "explanation": "Let's take a break. です。"
     },
     {
@@ -160,7 +160,7 @@
       "type": "sort",
       "question": "「あなたもそう思いませんか？」となるように並び替えてください。",
       "choices": ["think", "you", "so", "Don't"],
-      "answer": "Don'tyouthinkso",
+      "answer": "Don't you think so",
       "explanation": "Don't you think so? 否定疑問文です。"
     },
     {
@@ -181,7 +181,7 @@
       "type": "sort",
       "question": "「なんて親切な少年なんでしょう！」となるように並び替えてください。",
       "choices": ["kind", "boy", "a", "What", "is", "he"],
-      "answer": "Whatakindboyheis",
+      "answer": "What a kind boy he is",
       "explanation": "What a kind boy he is! です。"
     },
     {
@@ -202,7 +202,7 @@
       "type": "sort",
       "question": "「この花はなんて美しいのでしょう！」となるように並び替えてください。",
       "choices": ["beautiful", "flower", "is", "this", "How"],
-      "answer": "Howbeautifulthisfloweris",
+      "answer": "How beautiful this flower is",
       "explanation": "How beautiful this flower is! です。"
     },
     {
@@ -223,7 +223,7 @@
       "type": "sort",
       "question": "「ここで野球をしてはいけません。」となるように並び替えてください。",
       "choices": ["baseball", "play", "Don't", "here"],
-      "answer": "Don'tplaybaseballhere",
+      "answer": "Don't play baseball here",
       "explanation": "Don't play baseball here. 禁止の命令文です。"
     },
     {
@@ -244,7 +244,7 @@
       "type": "sort",
       "question": "「あなたは彼を知っていますよね？」となるように並び替えてください。",
       "choices": ["know", "you", "him", "don't", "You"],
-      "answer": "Youknowhimdon'tyou",
+      "answer": "You know him don't you",
       "explanation": "You know him, don't you? です。"
     },
     {
@@ -265,7 +265,7 @@
       "type": "sort",
       "question": "「彼はなんて上手に泳ぐのでしょう！」となるように並び替えてください。",
       "choices": ["swims", "How", "he", "well"],
-      "answer": "Howwellheswims",
+      "answer": "How well he swims",
       "explanation": "How well he swims! Well（上手に）は副詞なのでHowを使います。"
     },
     {
@@ -286,7 +286,7 @@
       "type": "sort",
       "question": "「あなたと一緒に行きたいです。」となるように並び替えてください。",
       "choices": ["like", "go", "I", "would", "to", "you", "with"],
-      "answer": "Iwouldliketogowithyou",
+      "answer": "I would like to go with you",
       "explanation": "I would like to go with you. Want toの丁寧な言い方です。"
     },
     {
@@ -307,7 +307,7 @@
       "type": "sort",
       "question": "「なんて面白い本なんでしょう！」となるように並び替えてください。",
       "choices": ["book", "interesting", "an", "What", "is", "this"],
-      "answer": "Whataninterestingbookthisis",
+      "answer": "What an interesting book this is",
       "explanation": "What an interesting book this is! です。"
     },
     {
@@ -328,7 +328,7 @@
       "type": "sort",
       "question": "「怖がらないで。」となるように並び替えてください。",
       "choices": ["afraid", "be", "Don't"],
-      "answer": "Don'tbeafraid",
+      "answer": "Don't be afraid",
       "explanation": "Don't be afraid. Afraid（恐れて）は形容詞なのでbe動詞が必要です。"
     },
     {
@@ -349,7 +349,7 @@
       "type": "sort",
       "question": "「この絵はなんて美しいんでしょう！」となるように並び替えてください。",
       "choices": ["beautiful", "picture", "How", "is", "this"],
-      "answer": "Howbeautifulthispictureis",
+      "answer": "How beautiful this picture is",
       "explanation": "How beautiful this picture is! です。"
     },
     {
@@ -370,7 +370,7 @@
       "type": "sort",
       "question": "「あなたのお姉さんは背が高いですね？」となるように並び替えてください。",
       "choices": ["tall", "sister", "Your", "is", "she", "isn't"],
-      "answer": "Yoursisteristallisn'tshe",
+      "answer": "Your sister is tall isn't she",
       "explanation": "Your sister is tall, isn't she? です。"
     },
     {
@@ -391,7 +391,7 @@
       "type": "sort",
       "question": "「もう一度それを言ってください。」となるように並び替えてください。",
       "choices": ["again", "that", "Say", "please"],
-      "answer": "Pleasesaythatagain",
+      "answer": "Please say that again",
       "explanation": "Please say that again. です。"
     },
     {
@@ -412,7 +412,7 @@
       "type": "sort",
       "question": "「なんて忙しい日なんでしょう！」となるように並び替えてください。",
       "choices": ["day", "busy", "a", "What"],
-      "answer": "Whatabusyday",
+      "answer": "What a busy day",
       "explanation": "What a busy day! です。"
     },
     {
@@ -433,7 +433,7 @@
       "type": "sort",
       "question": "「あなたは東京出身ではないですよね？」となるように並び替えてください。",
       "choices": ["Tokyo", "from", "aren't", "You", "you", "are"],
-      "answer": "Youaren'tfromTokyoareyou",
+      "answer": "You aren't from Tokyo are you",
       "explanation": "You aren't from Tokyo, are you? です。"
     },
     {
@@ -454,7 +454,7 @@
       "type": "sort",
       "question": "「また会いましょう。」となるように並び替えてください。",
       "choices": ["meet", "again", "Let's"],
-      "answer": "Let'smeetagain",
+      "answer": "Let's meet again",
       "explanation": "Let's meet again. です。"
     },
     {
@@ -475,7 +475,7 @@
       "type": "sort",
       "question": "「あなたのお父さんは車を持っていますよね？」となるように並び替えてください。",
       "choices": ["car", "father", "has", "Your", "doesn't", "a", "he"],
-      "answer": "Yourfatherhasacardoesn'the",
+      "answer": "Your father has a car doesn't he",
       "explanation": "Your father has a car, doesn't he? 三人称単数（has）なのでdoesn't he?です。"
     },
     {
@@ -496,7 +496,7 @@
       "type": "sort",
       "question": "「そんなにうるさくしないで。」となるように並び替えてください。",
       "choices": ["noisy", "so", "be", "Don't"],
-      "answer": "Don'tbesonoisy",
+      "answer": "Don't be so noisy",
       "explanation": "Don't be so noisy. です。"
     },
     {
@@ -517,7 +517,7 @@
       "type": "sort",
       "question": "「家に帰りましょうか？」となるように並び替えてください。",
       "choices": ["home", "we", "go", "Shall"],
-      "answer": "Shallwegohome",
+      "answer": "Shall we go home",
       "explanation": "Shall we go home? です。"
     },
     {
@@ -538,7 +538,7 @@
       "type": "sort",
       "question": "「どうぞ入ってください。」となるように並び替えてください。",
       "choices": ["in", "Please", "come"],
-      "answer": "Pleasecomein",
+      "answer": "Please come in",
       "explanation": "Please come in. です。"
     },
     {
@@ -559,7 +559,7 @@
       "type": "sort",
       "question": "「なんて高い建物なんでしょう！」となるように並び替えてください。",
       "choices": ["building", "tall", "a", "What"],
-      "answer": "Whatatallbuilding",
+      "answer": "What a tall building",
       "explanation": "What a tall building! です。"
     },
     {
@@ -580,7 +580,7 @@
       "type": "sort",
       "question": "「彼女はコーヒーが好きですよね？」となるように並び替えてください。",
       "choices": ["likes", "coffee", "doesn't", "She", "she"],
-      "answer": "Shelikescoffeedoesn'tshe",
+      "answer": "She likes coffee doesn't she",
       "explanation": "She likes coffee, doesn't she? です。"
     }
   ]

@@ -405,7 +405,7 @@
     {
       "type": "multiple_choice",
       "question": "「父は日曜日に庭仕事をします」\nMy father (      ) in the yard on Sundays.",
-      "choices": ["works", "work", "working", "worked"],
+      "choices": ["works", "word", "working", "worked"],
       "answer": "works",
       "explanation": "Workにsをつけてworksです。\n【🇺🇸 Cultural Note】\n芝刈り（Mowing the lawn）や家の修繕（DIY）は、アメリカの父親の週末の仕事とされることが多いです。"
     },

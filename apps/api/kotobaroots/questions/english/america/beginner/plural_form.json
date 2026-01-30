@@ -14,7 +14,7 @@
       "type": "sort",
       "question": "「多くの犬が公園にいます。」となるように並び替えてください。",
       "choices": ["park", "dogs", "Many", "in", "are", "the"],
-      "answer": "Manydogsareinthepark",
+      "answer": "Many dogs are in the park",
       "explanation": "Dogにsをつけます。\n【🇺🇸 Cultural Note】\nアメリカにはリードなしで犬を遊ばせることができる「ドッグパーク（Dog park）」が各地に整備されています。"
     },
     {
@@ -35,7 +35,7 @@
       "type": "sort",
       "question": "「私は2つの箱を持っています。」となるように並び替えてください。",
       "choices": ["boxes", "have", "two", "I"],
-      "answer": "Ihavetwoboxes",
+      "answer": "I have two boxes",
       "explanation": "Boxはxで終わるため、esをつけます。\n【🇺🇸 Cultural Note】\nアメリカ人は引越し（Moving）を頻繁に行うため、段ボール箱（Moving boxes）を使う機会が多いです。"
     },
     {
@@ -56,7 +56,7 @@
       "type": "sort",
       "question": "「木々を見てください。」となるように並び替えてください。",
       "choices": ["trees", "at", "Look", "the"],
-      "answer": "Lookatthetrees",
+      "answer": "Look at the trees",
       "explanation": "Treeにsをつけます。\n【🇺🇸 Cultural Note】\nレッドウッド国立公園には、世界一背の高い木々（Redwood trees）が生育しています。"
     },
     {
@@ -77,7 +77,7 @@
       "type": "sort",
       "question": "「皿を洗ってください。」となるように並び替えてください。",
       "choices": ["dishes", "Wash", "the", "please"],
-      "answer": "Washthedishesplease",
+      "answer": "Wash the dishes please",
       "explanation": "Dishはshで終わるため、esをつけます。\n【🇺🇸 Cultural Note】\n「皿洗いをする」は\"Do the dishes\"とも言います。"
     },
     {
@@ -98,7 +98,7 @@
       "type": "sort",
       "question": "「トマトは赤いです。」となるように並び替えてください。",
       "choices": ["Tomatoes", "red", "are"],
-      "answer": "Tomatoesarered",
+      "answer": "Tomatoes are red",
       "explanation": "Tomatoは「子音字+o」で終わるため、esをつけます。\n【🇺🇸 Cultural Note】\nかつてアメリカではトマトは有毒植物だと信じられていた時期がありました。"
     },
     {
@@ -119,7 +119,7 @@
       "type": "sort",
       "question": "「女性たちが働いています。」となるように並び替えてください。",
       "choices": ["Women", "working", "are"],
-      "answer": "Womenareworking",
+      "answer": "Women are working",
       "explanation": "Womanの複数形はWomen（不規則変化）です。\n【🇺🇸 Cultural Note】\n第2次世界大戦中、工場で働く女性を描いた\"Rosie the Riveter\"（リベット打ちのロージー）はアメリカのアイコンです。"
     },
     {
@@ -140,7 +140,7 @@
       "type": "sort",
       "question": "「毎日歯を磨きなさい。」となるように並び替えてください。",
       "choices": ["teeth", "your", "Brush", "day", "every"],
-      "answer": "Brushyourteetheveryday",
+      "answer": "Brush your teeth every day",
       "explanation": "Toothの複数形はTeeth（不規則変化）です。\n【🇺🇸 Cultural Note】\nアメリカ人は歯の白さと並び（Orthodontics）に非常に気を使います。"
     },
     {
@@ -161,7 +161,7 @@
       "type": "sort",
       "question": "「秋には葉が色を変えます。」となるように並び替えてください。",
       "choices": ["change", "Leaves", "color", "fall", "in"],
-      "answer": "Leaveschangecolorinfall",
+      "answer": "Leaves change color in fall",
       "explanation": "Leaf（葉）はfをvに変えてesをつけ、Leavesにします。\n【🇺🇸 Cultural Note】\nニューイングランド地方の紅葉（Fall foliage）は観光名所として非常に人気があります。"
     },
     {
@@ -182,7 +182,7 @@
       "type": "sort",
       "question": "「屋根を修理する必要があります。」となるように並び替えてください。",
       "choices": ["need", "roofs", "fix", "to", "the", "We"],
-      "answer": "Weneedtofixtheroofs",
+      "answer": "We need to fix the roofs",
       "explanation": "Roofはfで終わりますが、例外的にsだけをつけてRoofsとします。\n【🇺🇸 Cultural Note】\nアメリカの家は屋根の修理や雨漏り対策が維持管理（Maintenance）の重要なポイントです。"
     },
     {
@@ -203,7 +203,7 @@
       "type": "sort",
       "question": "「私たちはキャンディを持っています。」となるように並び替えてください。",
       "choices": ["candies", "have", "We", "some"],
-      "answer": "Wehavesomecandies",
+      "answer": "We have some candies",
       "explanation": "Candyは「子音字+y」なのでyをiに変えてesをつけます。\n【🇺🇸 Cultural Note】\nM&M'sやSkittlesなどのカラフルなキャンディが人気です。"
     },
     {
@@ -224,7 +224,7 @@
       "type": "sort",
       "question": "「おもちゃを片付けなさい。」となるように並び替えてください。",
       "choices": ["away", "toys", "Put", "your"],
-      "answer": "Putyourtoysaway",
+      "answer": "Put your toys away",
       "explanation": "Toyは「母音字+y」なので、そのままsをつけます。\n【🇺🇸 Cultural Note】\nクリスマス（Holiday season）は、一年で最もおもちゃが売れる時期です。"
     },
     {
@@ -245,7 +245,7 @@
       "type": "sort",
       "question": "「授業（複数）は8時に始まります。」となるように並び替えてください。",
       "choices": ["Classes", "at", "start", "8"],
-      "answer": "Classesstartat8",
+      "answer": "Classes start at 8",
       "explanation": "Classはsで終わるため、esをつけます。\n【🇺🇸 Cultural Note】\nアメリカの学校は始業時間が早く、朝7時台から授業（Classes）が始まることも一般的です。"
     },
     {
@@ -266,7 +266,7 @@
       "type": "sort",
       "question": "「ハサミはどこですか？」となるように並び替えてください。",
       "choices": ["scissors", "Where", "the", "are"],
-      "answer": "Wherearethescissors",
+      "answer": "Where are the scissors",
       "explanation": "Scissorsは刃が2つあるので常に複数形sをつけます。\n【🇺🇸 Cultural Note】\n工作の時間（Arts and crafts）で子供たちはハサミを使います。"
     },
     {
@@ -287,7 +287,7 @@
       "type": "sort",
       "question": "「羊（複数）が牧場にいます。」となるように並び替えてください。",
       "choices": ["are", "ranch", "Sheep", "on", "the"],
-      "answer": "Sheepareontheranch",
+      "answer": "Sheep are on the ranch",
       "explanation": "Sheepは単複同形です。be動詞がareなので複数とわかります。\n【🇺🇸 Cultural Note】\nアメリカ西部には広大な牧場（Ranch）がたくさんあります。"
     },
     {
@@ -308,7 +308,7 @@
       "type": "sort",
       "question": "「私たちは多くの種（生物）を保護しています。」となるように並び替えてください。",
       "choices": ["protect", "many", "We", "species"],
-      "answer": "Weprotectmanyspecies",
+      "answer": "We protect many species",
       "explanation": "Species（種）は単複同形です。\n【🇺🇸 Cultural Note】\n絶滅危惧種（Endangered species）の保護は重要な環境問題です。"
     },
     {
@@ -329,7 +329,7 @@
       "type": "sort",
       "question": "「私は数枚のドル紙幣を持っています。」となるように並び替えてください。",
       "choices": ["bills", "dollar", "a", "have", "few", "I"],
-      "answer": "Ihaveafewdollarbills",
+      "answer": "I have a few dollar bills",
       "explanation": "Dollar bill（ドル紙幣）のbillにsをつけます。\n【🇺🇸 Cultural Note】\nアメリカの紙幣はすべて緑色をしているため、\"Greenback\"という俗称があります。"
     },
     {
@@ -350,7 +350,7 @@
       "type": "sort",
       "question": "「その本は200ページあります。」となるように並び替えてください。",
       "choices": ["200", "book", "has", "The", "pages"],
-      "answer": "Thebookhas200pages",
+      "answer": "The book has 200 pages",
       "explanation": "Pageにsをつけます。\n【🇺🇸 Cultural Note】\nアメリカの大学の教科書（Textbooks）は非常に分厚く、高価なことで知られています。"
     },
     {
@@ -371,7 +371,7 @@
       "type": "sort",
       "question": "「それらはガス（気体）です。」となるように並び替えてください。",
       "choices": ["gases", "are", "They"],
-      "answer": "Theyaregases",
+      "answer": "They are gases",
       "explanation": "Gasはsで終わるため、esをつけます。\n【🇺🇸 Cultural Note】\nガソリンスタンド（Gas station）のGasはGasoline（液体）の略ですが、理科で習う気体はGas（複数形Gases）です。"
     },
     {
@@ -392,7 +392,7 @@
       "type": "sort",
       "question": "「オオカミ（複数）が森にいます。」となるように並び替えてください。",
       "choices": ["forest", "Wolves", "in", "are", "the"],
-      "answer": "Wolvesareintheforest",
+      "answer": "Wolves are in the forest",
       "explanation": "Wolfはfをvに変えてesをつけ、Wolvesにします。\n【🇺🇸 Cultural Note】\nイエローストーン国立公園でのオオカミ再導入プロジェクトは有名です。"
     },
     {
@@ -413,7 +413,7 @@
       "type": "sort",
       "question": "「ピアノ（複数）は重いです。」となるように並び替えてください。",
       "choices": ["heavy", "Pianos", "are"],
-      "answer": "Pianosareheavy",
+      "answer": "Pianos are heavy",
       "explanation": "Pianoはoで終わりますが、外来語・楽器名なのでsだけをつけます。\n【🇺🇸 Cultural Note】\nスタインウェイ（Steinway & Sons）はニューヨークで創業した世界的なピアノメーカーです。"
     },
     {
@@ -434,7 +434,7 @@
       "type": "sort",
       "question": "「私たちの生活（複数）は変わりました。」となるように並び替えてください。",
       "choices": ["Lives", "changed", "Our", "have"],
-      "answer": "Ourliveshavechanged",
+      "answer": "Our lives have changed",
       "explanation": "Lifeはfeをvに変えてesをつけ、Livesにします。\n【🇺🇸 Cultural Note】\n\"Black Lives Matter\"（BLM）など、社会運動のスローガンでも使われる重要な単語です。"
     },
     {
@@ -455,7 +455,7 @@
       "type": "sort",
       "question": "「私はいくつかのビデオを見ました。」となるように並び替えてください。",
       "choices": ["watched", "I", "videos", "some"],
-      "answer": "Iwatchedsomevideos",
+      "answer": "I watched some videos",
       "explanation": "Videoはoで終わりますが、母音+oなのでsだけをつけます。\n【🇺🇸 Cultural Note】\nYouTubeなどの動画共有サービスはアメリカ発祥です。"
     },
     {
@@ -476,7 +476,7 @@
       "type": "sort",
       "question": "「私たちはコンピューターを使います。」となるように並び替えてください。",
       "choices": ["computers", "We", "use"],
-      "answer": "Weusecomputers",
+      "answer": "We use computers",
       "explanation": "Computerにsをつけます。\n【🇺🇸 Cultural Note】\nシリコンバレー（Silicon Valley）は世界のコンピューター技術の中心地です。"
     },
     {
@@ -497,7 +497,7 @@
       "type": "sort",
       "question": "「シェフ（複数）が料理しています。」となるように並び替えてください。",
       "choices": ["Chefs", "cooking", "are"],
-      "answer": "Chefsarecooking",
+      "answer": "Chefs are cooking",
       "explanation": "Chefはfで終わりますが、例外的にsだけをつけてChefsとします。\n【🇺🇸 Cultural Note】\n有名シェフ（Celebrity Chef）による料理番組はアメリカで大人気です。"
     },
     {
@@ -518,7 +518,7 @@
       "type": "sort",
       "question": "「多くの家族がここに住んでいます。」となるように並び替えてください。",
       "choices": ["live", "Many", "here", "families"],
-      "answer": "Manyfamilieslivehere",
+      "answer": "Many families live here",
       "explanation": "Familyは「子音字+y」なのでyをiに変えてesをつけます。\n【🇺🇸 Cultural Note】\n郊外の一軒家で家族と暮らすことが、多くのアメリカ人にとっての「アメリカン・ドリーム」です。"
     },
     {
@@ -539,7 +539,7 @@
       "type": "sort",
       "question": "「友人たちが待っています。」となるように並び替えてください。",
       "choices": ["waiting", "Friends", "are"],
-      "answer": "Friendsarewaiting",
+      "answer": "Friends are waiting",
       "explanation": "Friendにsをつけます。\n【🇺🇸 Cultural Note】\n人気ドラマ\"Friends\"は、ニューヨークに住む若者たちの友情を描いたアメリカの国民的番組です。"
     },
     {
@@ -560,7 +560,7 @@
       "type": "sort",
       "question": "「おもちゃ（複数）は箱の中にあります。」となるように並び替えてください。",
       "choices": ["toys", "are", "The", "box", "in", "the"],
-      "answer": "Thetoysareinthebox",
+      "answer": "The toys are in the box",
       "explanation": "Toyは「母音字+y」なのでsだけをつけます。\n【🇺🇸 Cultural Note】\n「トイ・ストーリー」はアメリカのアニメーションスタジオ、ピクサーの代表作です。"
     },
     {
@@ -581,7 +581,7 @@
       "type": "sort",
       "question": "「私たちは多くのクラス（授業）があります。」となるように並び替えてください。",
       "choices": ["classes", "We", "many", "have"],
-      "answer": "Wehavemanyclasses",
+      "answer": "We have many classes",
       "explanation": "Classはsで終わるため、esをつけます。\n【🇺🇸 Cultural Note】\nアメリカの高校や大学では、生徒が教室を移動して授業を受けます。"
     },
     {
@@ -602,7 +602,7 @@
       "type": "sort",
       "question": "「蚊（複数）は迷惑です。」となるように並び替えてください。",
       "choices": ["annoying", "Mosquitoes", "are"],
-      "answer": "Mosquitoesareannoying",
+      "answer": "Mosquitoes are annoying",
       "explanation": "Mosquitoは「子音字+o」なのでesをつけます。\n【🇺🇸 Cultural Note】\nフロリダや南部州の夏は湿度が高く、蚊（Mosquitoes）が多く発生します。"
     },
     {
@@ -623,7 +623,7 @@
       "type": "sort",
       "question": "「危機（複数）が存在します。」となるように並び替えてください。",
       "choices": ["exist", "Crises"],
-      "answer": "Crisesexist",
+      "answer": "Crises exist",
       "explanation": "Crisis（単数）の複数形はCrisesです（is→es）。\n【🇺🇸 Cultural Note】\n金融危機（Financial Crisis）などはニュースでよく聞く言葉です。"
     },
     {
@@ -644,7 +644,7 @@
       "type": "sort",
       "question": "「手段（複数）は正当化されます。」となるように並び替えてください。",
       "choices": ["justified", "means", "The", "are"],
-      "answer": "Themeansarejustified",
+      "answer": "The means are justified",
       "explanation": "Meansは単複同形です。ここではareを使っているので複数扱いです。\n【🇺🇸 Cultural Note】\n\"The ends justify the means\"（目的は手段を正当化する）という言葉があります。"
     },
     {
@@ -665,7 +665,7 @@
       "type": "sort",
       "question": "「それらの基礎（複数）は強固です。」となるように並び替えてください。",
       "choices": ["strong", "bases", "Those", "are"],
-      "answer": "Thosebasesarestrong",
+      "answer": "Those bases are strong",
       "explanation": "Basis（基礎・単数）の複数形はBasesです（is→es）。Base（基地）の複数形と同じスペルになります。\n【🇺🇸 Cultural Note】\n議論の根拠（Basis）を明確にすることは、アメリカの教育で重視されます。"
     }
   ]
