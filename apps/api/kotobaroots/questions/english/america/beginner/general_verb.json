@@ -14,7 +14,7 @@
       "type": "sort",
       "question": "「彼は野球をします。」となるように並び替えてください。",
       "choices": ["plays", "He", "baseball"],
-      "answer": "Heplaysbaseball",
+      "answer": "He plays baseball",
       "explanation": "He（三人称単数）なので動詞にsをつけてplaysにします。\n【🇺🇸 Cultural Note】\nメジャーリーグ（MLB）はアメリカの国民的スポーツです。試合観戦にはホットドッグとビールが欠かせません。"
     },
     {
@@ -35,7 +35,7 @@
       "type": "sort",
       "question": "「彼らはスクールバスで学校に行きます。」となるように並び替えてください。",
       "choices": ["school", "bus", "They", "to", "go", "by"],
-      "answer": "Theygotoschoolbybus",
+      "answer": "They go to school by bus",
       "explanation": "go to school by bus（バスで学校へ行く）。\n【🇺🇸 Cultural Note】\nアメリカのスクールバスは独特の黄色（School bus yellow）で、生徒の乗降中は後続車も対向車も必ず停止しなければならない法律があります。"
     },
     {
@@ -56,7 +56,7 @@
       "type": "sort",
       "question": "「私はピーナッツバターが好きです。」となるように並び替えてください。",
       "choices": ["butter", "peanut", "like", "I"],
-      "answer": "Ilikepeanutbutter",
+      "answer": "I like peanut butter",
       "explanation": "I like... です。\n【🇺🇸 Cultural Note】\nピーナッツバターとジャムを挟んだサンドイッチ（PB&J）は、アメリカの子供のお弁当の定番中の定番です。"
     },
     {
@@ -77,7 +77,7 @@
       "type": "sort",
       "question": "「彼女はドーナツを欲しがっています。」となるように並び替えてください。",
       "choices": ["wants", "She", "donut", "a"],
-      "answer": "Shewantsadonut",
+      "answer": "She wants a donut",
       "explanation": "She（三人称単数）なのでwantsです。\n【🇺🇸 Cultural Note】\nアメリカの警察官が休憩中にドーナツを食べるというステレオタイプがありますが、実際にドーナツショップは早朝から開いているため利用しやすいのです。"
     },
     {
@@ -98,7 +98,7 @@
       "type": "sort",
       "question": "「私は毎日シャワーを浴びます。」となるように並び替えてください。",
       "choices": ["shower", "take", "day", "a", "every", "I"],
-      "answer": "Itakeashowereveryday",
+      "answer": "I take a shower every day",
       "explanation": "Take a shower（シャワーを浴びる）。\n【🇺🇸 Cultural Note】\nアメリカ人は朝にシャワーを浴びて目を覚ます人が多いです。バスタブにお湯を溜める習慣は日本ほど一般的ではありません。"
     },
     {
@@ -119,7 +119,7 @@
       "type": "sort",
       "question": "「彼はピザが好きではありません。」となるように並び替えてください。",
       "choices": ["like", "pizza", "He", "doesn't"],
-      "answer": "Hedoesn'tlikepizza",
+      "answer": "He doesn't like pizza",
       "explanation": "He doesn't like... です。\n【🇺🇸 Cultural Note】\nアメリカのピザ消費量は凄まじく、特にスーパーボウルの日は一年で最もピザが売れる日と言われています。"
     },
     {
@@ -140,7 +140,7 @@
       "type": "sort",
       "question": "「私は宿題をしなければなりません。」となるように並び替えてください。",
       "choices": ["to", "do", "homework", "have", "my", "I"],
-      "answer": "Ihavetodomyhomework",
+      "answer": "I have to do my homework",
       "explanation": "Have to do（～しなければならない）。\n【🇺🇸 Cultural Note】\nアメリカの学校の宿題（Homework）は量が多い傾向にあり、エッセイ（小論文）やプロジェクト型課題がよく出されます。"
     },
     {
@@ -148,7 +148,7 @@
       "question": "「彼女はテキサス出身です（テキサスから来ました）」\nShe (      ) from Texas.",
       "choices": [],
       "answer": "comes",
-      "explanation": "Comes from...（出身だ）。Sheなのでsがつきます。Is fromとも言えますが、一般動詞の練習です。\n【🇺🇸 Cultural Note】\nテキサス州は独自の文化と誇りを持ち、「ローンスター・ステート」と呼ばれます。"
+      "explanation": "Comes from...（出身だ）。Sheなのでsがつきます.Is fromとも言えますが、一般動詞の練習です。\n【🇺🇸 Cultural Note】\nテキサス州は独自の文化と誇りを持ち、「ローンスター・ステート」と呼ばれます。"
     },
     {
       "type": "multiple_choice",
@@ -161,7 +161,7 @@
       "type": "sort",
       "question": "「あなたはペットを飼っていますか？」となるように並び替えてください。",
       "choices": ["pets", "any", "have", "you", "Do"],
-      "answer": "Doyouhaveanypets",
+      "answer": "Do you have any pets",
       "explanation": "Do you have any pets? です。\n【🇺🇸 Cultural Note】\nアメリカはペット大国で、犬や猫を家族の一員として大切にします。ドッグパークもたくさんあります。"
     },
     {
@@ -182,7 +182,7 @@
       "type": "sort",
       "question": "「彼女はとても速く走ります。」となるように並び替えてください。",
       "choices": ["runs", "She", "fast", "very"],
-      "answer": "Sherunsveryfast",
+      "answer": "She runs very fast",
       "explanation": "She runs very fast. です。\n【🇺🇸 Cultural Note】\nジョギング（Jogging）はアメリカで非常に人気のある運動習慣です。"
     },
     {
@@ -203,7 +203,7 @@
       "type": "sort",
       "question": "「あなたはどこに住んでいますか？」となるように並び替えてください。",
       "choices": ["live", "you", "Where", "do"],
-      "answer": "Wheredoyoulive",
+      "answer": "Where do you live",
       "explanation": "Where do you live? です。\n【🇺🇸 Cultural Note】\nアメリカの住所は「番地 通り名, 市, 州 郵便番号」の順で書きます。"
     },
     {
@@ -224,7 +224,7 @@
       "type": "sort",
       "question": "「私たちはテレビゲームをします。」となるように並び替えてください。",
       "choices": ["video", "We", "games", "play"],
-      "answer": "Weplayvideogames",
+      "answer": "We play video games",
       "explanation": "Play video games.\n【🇺🇸 Cultural Note】\nアメリカのゲーム市場は巨大で、eスポーツの大会も盛んに行われています。"
     },
     {
@@ -245,7 +245,7 @@
       "type": "sort",
       "question": "「私の父は車を洗います。」となるように並び替えてください。",
       "choices": ["washes", "car", "the", "My", "father"],
-      "answer": "Myfatherwashesthecar",
+      "answer": "My father washes the car",
       "explanation": "Washにesをつけてwashesにします。\n【🇺🇸 Cultural Note】\n週末に自宅のドライブウェイ（私道）で洗車をするのは一般的な光景です。子供がお小遣い稼ぎで手伝うこともあります。"
     },
     {
@@ -266,7 +266,7 @@
       "type": "sort",
       "question": "「彼らは昼食にサンドイッチを食べます。」となるように並び替えてください。",
       "choices": ["sandwiches", "lunch", "They", "eat", "for"],
-      "answer": "Theyeatsandwichesforlunch",
+      "answer": "They eat sandwiches for lunch",
       "explanation": "Eat sandwiches for lunch.\n【🇺🇸 Cultural Note】\n学校や職場へランチを持参することを\"Brown-bagging\"（茶色の紙袋に入れることから）と言います。"
     },
     {
@@ -287,7 +287,7 @@
       "type": "sort",
       "question": "「私はテレビを見ません。」となるように並び替えてください。",
       "choices": ["TV", "don't", "watch", "I"],
-      "answer": "Idon'twatchTV",
+      "answer": "I don't watch TV",
       "explanation": "I don't watch TV.\n【🇺🇸 Cultural Note】\n最近はケーブルテレビ（Cable）を解約して、Netflixなどのストリーミングサービス（Cord-cutting）に移行する人が増えています。"
     },
     {
@@ -308,7 +308,7 @@
       "type": "sort",
       "question": "「私たちはショッピングモールに行きます。」となるように並び替えてください。",
       "choices": ["go", "mall", "We", "to", "the"],
-      "answer": "Wegotothemall",
+      "answer": "We go to the mall",
       "explanation": "We go to the mall.\n【🇺🇸 Cultural Note】\nショッピングモール（Mall）は、買い物だけでなく、ティーンエイジャーが友達と遊ぶ（Hang out）場所でもあります。"
     },
     {
@@ -329,7 +329,7 @@
       "type": "sort",
       "question": "「私の母は料理が好きです。」となるように並び替えてください。",
       "choices": ["cooking", "likes", "mother", "My"],
-      "answer": "Mymotherlikescooking",
+      "answer": "My mother likes cooking",
       "explanation": "My mother likes cooking.\n【🇺🇸 Cultural Note】\nアメリカの家庭料理の定番には、マカロニ＆チーズ（Mac & Cheese）やミートローフなどがあります。"
     },
     {
@@ -350,7 +350,7 @@
       "type": "sort",
       "question": "「私は車を持っていません。」となるように並び替えてください。",
       "choices": ["have", "I", "car", "a", "don't"],
-      "answer": "Idon'thaveacar",
+      "answer": "I don't have a car",
       "explanation": "I don't have a car.\n【🇺🇸 Cultural Note】\nニューヨークなどの大都市を除き、アメリカの多くの地域では車がないと生活が困難です。"
     },
     {
@@ -371,7 +371,7 @@
       "type": "sort",
       "question": "「私たちはリサイクルをします。」となるように並び替えてください。",
       "choices": ["recycle", "We"],
-      "answer": "Werecycle",
+      "answer": "We recycle",
       "explanation": "We recycle.\n【🇺🇸 Cultural Note】\nアメリカの家庭には青いリサイクル専用のゴミ箱（Recycling bin）があり、紙やプラスチックを分別します。"
     },
     {
@@ -392,7 +392,7 @@
       "type": "sort",
       "question": "「私の姉はヨガをします。」となるように並び替えてください。",
       "choices": ["yoga", "does", "sister", "My"],
-      "answer": "Mysisterdoesyoga",
+      "answer": "My sister does yoga",
       "explanation": "Do yoga（ヨガをする）。Sisterなのでdoesになります。\n【🇺🇸 Cultural Note】\nヨガはアメリカで非常に人気のあるフィットネスで、ヨガパンツを普段着として履く女性も多いです。"
     },
     {
@@ -413,7 +413,7 @@
       "type": "sort",
       "question": "「私は自分の部屋が好きです。」となるように並び替えてください。",
       "choices": ["room", "like", "my", "I"],
-      "answer": "Ilikemyroom",
+      "answer": "I like my room",
       "explanation": "I like my room.\n【🇺🇸 Cultural Note】\nアメリカの子供部屋は個性を尊重し、ポスターやトロフィーで自分好みに装飾されます。"
     },
     {
@@ -434,7 +434,7 @@
       "type": "sort",
       "question": "「彼はドーナツを食べますか？」となるように並び替えてください。",
       "choices": ["donuts", "eat", "he", "Does"],
-      "answer": "Doesheeatdonuts",
+      "answer": "Does he eat donuts",
       "explanation": "Does he eat donuts?\n【🇺🇸 Cultural Note】\nダンキンドーナツやクリスピー・クリームなどのドーナツチェーンはアメリカ生活の一部です。"
     },
     {
@@ -455,7 +455,7 @@
       "type": "sort",
       "question": "「彼らは一生懸命働きます。」となるように並び替えてください。",
       "choices": ["hard", "work", "They"],
-      "answer": "Theyworkhard",
+      "answer": "They work hard",
       "explanation": "They work hard.\n【🇺🇸 Cultural Note】\nアメリカ人は「ハードワーク」を美徳とする傾向があり、成功のために長時間働く人も多いです。"
     },
     {
@@ -476,7 +476,7 @@
       "type": "sort",
       "question": "「彼はテレビを見ますか？」となるように並び替えてください。",
       "choices": ["TV", "he", "Does", "watch"],
-      "answer": "DoeshewatchTV",
+      "answer": "Does he watch TV",
       "explanation": "Does he watch TV?\n【🇺🇸 Cultural Note】\nアメリカのドラマシリーズ（TV shows）は世界的に人気があり、日常会話の話題によくなります。"
     },
     {
@@ -497,7 +497,7 @@
       "type": "sort",
       "question": "「あなたたちは毎日勉強しますか？」となるように並び替えてください。",
       "choices": ["day", "study", "every", "you", "Do"],
-      "answer": "Doyoustudyeveryday",
+      "answer": "Do you study every day",
       "explanation": "Do you study every day?\n【🇺🇸 Cultural Note】\nアメリカの高校生は、SATやACTといった大学進学適性試験のために勉強します。"
     },
     {
@@ -518,7 +518,7 @@
       "type": "sort",
       "question": "「彼女はたくさんの服を持っています。」となるように並び替えてください。",
       "choices": ["clothes", "She", "many", "has"],
-      "answer": "Shehasmanyclothes",
+      "answer": "She has many clothes",
       "explanation": "She has many clothes.\n【🇺🇸 Cultural Note】\nアメリカの学校には「ホームカミング」や「プロム」など、ドレスアップするイベントがあります。"
     },
     {
@@ -539,7 +539,7 @@
       "type": "sort",
       "question": "「私は朝食を作りません。」となるように並び替えてください。",
       "choices": ["breakfast", "make", "don't", "I"],
-      "answer": "Idon'tmakebreakfast",
+      "answer": "I don't make breakfast",
       "explanation": "I don't make breakfast.\n【🇺🇸 Cultural Note】\n平日の朝食はシリアル（Cereal）やトーストで簡単に済ませることが多いです。"
     },
     {
@@ -560,7 +560,7 @@
       "type": "sort",
       "question": "「彼女は毎日走りますか？」となるように並び替えてください。",
       "choices": ["run", "day", "she", "every", "Does"],
-      "answer": "Doessheruneveryday",
+      "answer": "Does she run every day",
       "explanation": "Does she run every day?\n【🇺🇸 Cultural Note】\nセントラルパークなどの公園でランニングをするのは、ニューヨーカーの典型的なライフスタイルです。"
     },
     {
@@ -581,7 +581,7 @@
       "type": "sort",
       "question": "「私たちはバスケットボールをします。」となるように並び替えてください。",
       "choices": ["play", "We", "basketball"],
-      "answer": "Weplaybasketball",
+      "answer": "We play basketball",
       "explanation": "We play basketball.\n【🇺🇸 Cultural Note】\nバスケットボールはアメリカ発祥のスポーツで、公園のコートで気軽に楽しまれています。"
     },
     {
@@ -602,8 +602,8 @@
       "type": "sort",
       "question": "「父は毎日働きます。」となるように並び替えてください。",
       "choices": ["works", "day", "My", "every", "father"],
-      "answer": "Myfatherworkseveryday",
-      "explanation": "My father works every day.\n【🇺🇸 Cultural Note】\nアメリカの労働時間（9 to 5）は一般的ですが、職種によっては残業も多いです。レイバー・デー（労働者の日）という祝日があります。"
+      "answer": "My father works every day",
+      "explanation": "My father works every day.\n【🇺🇸 Cultural Note】\nアメリカの労働時間（9 to 5）は一般的ですが、職種によっては残業も多いです.レイバー・デー（労働者の日）という祝日があります。"
     },
     {
       "type": "fill_in_the_blank",
@@ -623,7 +623,7 @@
       "type": "sort",
       "question": "「彼女は図書館に行きますか？」となるように並び替えてください。",
       "choices": ["go", "she", "Does", "library", "to", "the"],
-      "answer": "Doesshegotothelibrary",
+      "answer": "Does she go to the library",
       "explanation": "Does she go to the library?\n【🇺🇸 Cultural Note】\nアメリカの公共図書館は、本を借りるだけでなく、無料Wi-Fiや学習スペースを提供するコミュニティのハブです。"
     },
     {
@@ -644,7 +644,7 @@
       "type": "sort",
       "question": "「私はその歌を知っています。」となるように並び替えてください。",
       "choices": ["know", "song", "that", "I"],
-      "answer": "Iknowthatsong",
+      "answer": "I know that song",
       "explanation": "I know that song.\n【🇺🇸 Cultural Note】\nカントリーミュージックやヒップホップなど、アメリカ発の音楽ジャンルは多岐にわたります。"
     },
     {
@@ -665,7 +665,7 @@
       "type": "sort",
       "question": "「あなたはハンバーガーが好きですか？」となるように並び替えてください。",
       "choices": ["like", "hamburgers", "you", "Do"],
-      "answer": "Doyoulikehamburgers",
+      "answer": "Do you like hamburgers",
       "explanation": "Do you like hamburgers?\n【🇺🇸 Cultural Note】\nハンバーガーはアメリカの象徴的な食べ物です。マクドナルドだけでなく、In-N-Out（西海岸）やShake Shack（東海岸）などご当地チェーンも人気です。"
     },
     {
@@ -686,7 +686,7 @@
       "type": "sort",
       "question": "「彼女はあまりテレビを見ません。」となるように並び替えてください。",
       "choices": ["watch", "doesn't", "She", "TV", "much"],
-      "answer": "Shedoesn'twatchTVmuch",
+      "answer": "She doesn't watch TV much",
       "explanation": "She doesn't watch TV much.\n【🇺🇸 Cultural Note】\nアメリカのテレビ番組には多くのコマーシャルが入ります。スーパーボウルのCM枠は世界一高額だと言われています。"
     },
     {
@@ -707,7 +707,7 @@
       "type": "sort",
       "question": "「私はソーダを飲みません。」となるように並び替えてください。",
       "choices": ["soda", "drink", "don't", "I"],
-      "answer": "Idon'tdrinksoda",
+      "answer": "I don't drink soda",
       "explanation": "I don't drink soda.\n【🇺🇸 Cultural Note】\n健康志向の高まりから、砂糖入り炭酸飲料（Soda/Pop）を控える人も増えていますが、消費量は依然として多いです。"
     },
     {
@@ -728,7 +728,7 @@
       "type": "sort",
       "question": "「彼はピザを作りますか？」となるように並び替えてください。",
       "choices": ["pizza", "Does", "make", "he"],
-      "answer": "Doeshefakepizza",
+      "answer": "Does he make pizza",
       "explanation": "Does he make pizza?\n【🇺🇸 Cultural Note】\nピザパーティーはアメリカの子供の誕生日会や学校行事の定番です。"
     },
     {
@@ -749,7 +749,7 @@
       "type": "sort",
       "question": "「彼らは新しい車を持っています。」となるように並び替えてください。",
       "choices": ["new", "car", "have", "They", "a"],
-      "answer": "Theyhaveanewcar",
+      "answer": "They have a new car",
       "explanation": "They have a new car.\n【🇺🇸 Cultural Note】\nアメリカでは16歳になった子供に中古車を買い与える親も多く、車は自立の象徴です。"
     }
   ]
