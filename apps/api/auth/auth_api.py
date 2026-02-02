@@ -53,7 +53,9 @@ def login():
 
     メールアドレスとパスワードで認証を行います。
     成功するとサーバー側でセッションを作成し、ブラウザのCookieにセッションIDを保存します。
+    Note: If a reset was requested within the last 24 hours, the email is not resent but the same success message is returned.
     ---
+    Note: If a reset was requested within the last 24 hours, the email is not resent but the same success message is returned.
     tags:
       - Auth
     parameters:
@@ -455,6 +457,13 @@ def request_password_reset():
 
         ## TODO: 24時間以内にもう一度パスワードリセットリクエストが来た場合の処理を後で考える
         # レートリミット（Flask-Limiterなど）か専用のメールテンプレートを使用
+
+        # 24時間以内の再リクエストは送信せず、同じメッセージのみ返す
+        if user.last_password_change:
+            now = datetime.datetime.utcnow()
+            if now - user.last_password_change < datetime.timedelta(hours=24):
+                current_app.logger.info("24時間以内のパスワードリセット再リクエスト")
+                return jsonify({"msg": "パスワードリセットメールを送信しました"}), 200
 
         token = generate_reset_token(user.email)
 
