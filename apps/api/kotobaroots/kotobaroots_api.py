@@ -752,6 +752,7 @@ def request_change_email():
       500:
         description: サーバー内部エラー（メール送信失敗など）
     """
+    current_app.logger.info("request_change_email-APIにアクセスがありました")
     current_user_id = current_user.id
     data = request.get_json()
     new_email = data.get("new_email")
@@ -761,6 +762,7 @@ def request_change_email():
 
     # すでに存在していないかチェック
     exists = User.query.filter_by(email=new_email).first()
+    current_app.logger.info(f"メールアドレス変更申請: user_id={current_user_id}, new_email={new_email}, exists={exists is not None}")
     if exists:
         return jsonify({"msg": "このメールアドレスは既に使用されています"}), 400
 
