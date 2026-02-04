@@ -6,6 +6,9 @@ from pathlib import Path
 from flask import Flask, request
 from flask_cors import CORS
 
+### HTTPS関連
+from werkzeug.middleware.proxy_fix import ProxyFix
+
 ### DB関連
 from flask_migrate import Migrate
 from .extensions import db
@@ -42,6 +45,9 @@ from datetime import datetime, timedelta
 # ステージング環境切り替えのためファクトリ化
 def create_app():
     app = Flask(__name__)
+
+    ### HTTPS関連
+    app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_prefix=1)
 
     # ### メールに添付するURLのトークン関連
     # app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
