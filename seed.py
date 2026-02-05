@@ -20,7 +20,7 @@ from apps.api.kotobaroots.models import Language, Level, LearningTopic, Learning
 app = create_app()
 
 def seed_data():
-    """初期データの投入（パス修正版）"""
+    """初期データの投入（パス修正版 + UKデータ追加）"""
     with app.app_context():
         print("🌱 データの投入を開始します...")
 
@@ -101,10 +101,11 @@ def seed_data():
                 print("   [Config] Created default config for testuser")
 
         # ---------------------------------------------------------
-        # 4. LearningTopic（学習単元）の作成
+        # 4. LearningTopic（学習単元）の作成 - アメリカ英語
         # ---------------------------------------------------------
         
-        topics_map = {
+        # 共通の初級・中級マップ + アメリカ用上級マップ
+        topics_map_common = {
             "Beginner": { # 初級
                 "アルファベット": "alphabet",
                 "基本語彙": "basic_vocabulary",
@@ -151,8 +152,12 @@ def seed_data():
                 "倒置": "inversion",
                 "省略": "ellipsis",
                 "同格": "apposition"
-            },
-            "Advanced": { # 上級
+            }
+        }
+
+        # アメリカ英語用の上級マップ
+        topics_map_us_advanced = {
+            "Advanced": { 
                 "米英豪の差異": "regional_varieties",
                 "聖書・神話由来": "biblical_mythological",
                 "文学・古典由来": "literary_references",
@@ -167,32 +172,37 @@ def seed_data():
             }
         }
 
-        target_lang = langs["English_America"]
+        # アメリカ英語の全マップ結合
+        topics_map_us = {**topics_map_common, **topics_map_us_advanced}
 
-        for level_tag, topics_dict in topics_map.items():
+        target_lang_us = langs["English_America"]
+
+        print("\n=== Processing US Topics ===")
+        for level_tag, topics_dict in topics_map_us.items():
             target_level = levels[level_tag]
             difficulty_counter = 1
             
-            print(f"\n--- Processing {level_tag} Topics ---")
+            print(f"\n--- Processing US {level_tag} Topics ---")
             
             for title, key in topics_dict.items():
                 topic = LearningTopic.query.filter_by(
-                    language_id=target_lang.id,
+                    language_id=target_lang_us.id,
                     level_id=target_level.id,
                     topic_key=key 
                 ).first()
 
                 if not topic:
                     topic = LearningTopic(
-                        language_id=target_lang.id,
+                        language_id=target_lang_us.id,
                         level_id=target_level.id,
                         topic=title,
                         topic_key=key,
                         difficulty=difficulty_counter
                     )
                     db.session.add(topic)
-                    print(f"   [Topic] Created: {title} ({key}) - Diff:{difficulty_counter}")
+                    print(f"   [Topic-US] Created: {title} ({key}) - Diff:{difficulty_counter}")
                 else:
+                    # 既存データがある場合は更新チェック（必要に応じて）
                     updated = False
                     if topic.difficulty != difficulty_counter:
                         topic.difficulty = difficulty_counter
@@ -202,9 +212,81 @@ def seed_data():
                         updated = True
                     
                     if updated:
-                        print(f"   [Topic] Updated: {title} ({key}) - Diff:{difficulty_counter}")
+                        print(f"   [Topic-US] Updated: {title} ({key}) - Diff:{difficulty_counter}")
                     else:
-                        print(f"   [Topic] Exists: {title}")
+                        print(f"   [Topic-US] Exists: {title}")
+
+                difficulty_counter += 1
+
+        # ---------------------------------------------------------
+        # 5. LearningTopic（学習単元）の作成 - イギリス英語 【新規追加】
+        # ---------------------------------------------------------
+        
+        # イギリス英語用の上級マップ（独自定義）
+        topics_map_uk_advanced = {
+            "Advanced": {
+                # 文法・語法
+                "現在完了と過去": "present_perfect_usage_uk",
+                "集合名詞の扱い": "collective_nouns",
+                "Have got構文": "have_got_structure",
+                "正書法(スペル)": "british_orthography",
+                "英国特有の助動詞": "modals_uk",
+                "前置詞の使い分け": "prepositions_uk",
+                # 語用論・文化
+                "付加疑問文": "question_tags",
+                "丁寧さと間接表現": "politeness_indirectness",
+                "控えめな表現と皮肉": "understatement_irony",
+                # 社会・語彙
+                "階級と地域方言": "class_and_dialects",
+                "英国スラング": "british_slang",
+                "パブと社交文化": "pub_culture_socializing"
+            }
+        }
+
+        # イギリス英語の全マップ結合（初級・中級は共通、上級は独自）
+        topics_map_uk = {**topics_map_common, **topics_map_uk_advanced}
+
+        target_lang_uk = langs["English_UK"]
+
+        print("\n=== Processing UK Topics ===")
+        for level_tag, topics_dict in topics_map_uk.items():
+            target_level = levels[level_tag]
+            difficulty_counter = 1
+            
+            print(f"\n--- Processing UK {level_tag} Topics ---")
+            
+            for title, key in topics_dict.items():
+                # UK用のトピックが存在するか確認
+                topic = LearningTopic.query.filter_by(
+                    language_id=target_lang_uk.id,
+                    level_id=target_level.id,
+                    topic_key=key 
+                ).first()
+
+                if not topic:
+                    topic = LearningTopic(
+                        language_id=target_lang_uk.id,
+                        level_id=target_level.id,
+                        topic=title,
+                        topic_key=key,
+                        difficulty=difficulty_counter
+                    )
+                    db.session.add(topic)
+                    print(f"   [Topic-UK] Created: {title} ({key}) - Diff:{difficulty_counter}")
+                else:
+                    # 既存データがある場合は更新チェック
+                    updated = False
+                    if topic.difficulty != difficulty_counter:
+                        topic.difficulty = difficulty_counter
+                        updated = True
+                    if topic.topic != title:
+                        topic.topic = title
+                        updated = True
+                    
+                    if updated:
+                        print(f"   [Topic-UK] Updated: {title} ({key}) - Diff:{difficulty_counter}")
+                    else:
+                        print(f"   [Topic-UK] Exists: {title}")
 
                 difficulty_counter += 1
 
