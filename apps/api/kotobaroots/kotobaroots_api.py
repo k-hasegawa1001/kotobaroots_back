@@ -1976,3 +1976,95 @@ def temp():
         db.session.rollback()
         current_app.logger.error(e)
         return jsonify({"msg": "エラーが発生しました"}), 500
+
+
+## 蟄ｦ鄙貞腰蜈・ｸ隕ｧ蜿門ｾ輸PI(繧ｲ繧ｹ繝医・繝ｭ繧ｰ繧､繝ｳ荳ｭ)
+@api.route("/learning/guest", methods=["GET"])
+def learning_guest():
+    """
+    繧ｲ繧ｹ繝医・縺ｮ蟄ｦ鄙貞腰蜈・ｸ隕ｧ蜿門ｾ輸PI
+
+    繝ｭ繧ｰ繧､繝ｳ荳ｭ縺ｫ繧医ｊ隱崎ｨｼ縺ｪ縺励・縲√後ユ繧ｹ繝医・繝ｭ繧ｰ繧､繝ｳ鐃・繧悟・繧後※繧医≧縺ｫ縺呻ｼ・
+    迴ｾ蝨ｨ縺ｮ險ｭ螳壹→縺ｯ繝ｪ繝ｳ繧ｯ縺励↑縺・縺ｮ縺ｧ縲∫現在縺ｯ螳滓命縺励◆險ｭ螳壹↓蟇ｾ蠢懊☆繧九蜊伜・縺ｮ繝ｪ繧ｹ繝医・繧ｿ縺ｮ縺ｿ繧返却。
+    ---
+    tags:
+      - Learning
+    parameters:
+      - name: level_id
+        in: query
+        required: false
+        description: 難易度ID
+        type: integer
+      - name: language_id
+        in: query
+        required: false
+        description: 言語ID
+        type: integer
+    responses:
+      200:
+        description: 蜿門ｾ玲・蜉・
+        schema:
+          type: object
+          properties:
+            learning_topics:
+              type: array
+              items:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  topic:
+                    type: string
+                  difficulty:
+                    type: integer
+            current_max_difficulty:
+              type: integer
+      404:
+        description: 蟄ｦ鄙貞腰蜈・ｸ隕ｧ縺瑚ｦ九▽縺九ｊ縺ｾ縺帙ｓ
+      500:
+        description: 繧ｵ繝ｼ繝舌・蜀・Κ繧ｨ繝ｩ繝ｼ
+    """
+    current_app.logger.info("learning_guest-API縺ｫ繧｢繧ｯ繧ｻ繧ｹ縺後≠繧翫∪縺励◆")
+
+    try:
+        level_id = request.args.get("level_id", type=int)
+        language_id = request.args.get("language_id", type=int)
+
+        if level_id is None or language_id is None:
+            from apps.api.kotobaroots.models import Level
+
+            if level_id is None:
+                default_level = Level.query.order_by(Level.id).first()
+                level_id = default_level.id if default_level else None
+
+            if language_id is None:
+                default_language = Language.query.order_by(Language.id).first()
+                language_id = default_language.id if default_language else None
+
+        if not level_id or not language_id:
+            return jsonify({"msg": "蟄ｦ鄙定ｨｭ螳壹′隕九▽縺九ｊ縺ｾ縺帙ｓ"}), 404
+
+        learning_topics = LearningTopic.query \
+            .filter_by(level_id=level_id, language_id=language_id) \
+            .order_by(LearningTopic.difficulty) \
+            .all()
+
+        if not learning_topics:
+            return jsonify({"msg": "蟄ｦ鄙貞腰蜈・′隕九▽縺九ｊ縺ｾ縺帙ｓ"}), 404
+
+        response_learning_topics = []
+        for learning_topic in learning_topics:
+            response_learning_topics.append({
+                "id": learning_topic.id,
+                "topic": learning_topic.topic,
+                "difficulty": learning_topic.difficulty
+            })
+
+        return jsonify({
+            "learning_topics": response_learning_topics,
+            "current_max_difficulty": 1
+        }), 200
+
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify({"msg": "繧ｨ繝ｩ繝ｼ縺檎匱逕溘＠縺ｾ縺励◆"}), 500
