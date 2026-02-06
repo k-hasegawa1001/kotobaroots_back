@@ -1,6 +1,6 @@
 {
     "learning_topic": "アルファベット（Alphabet）",
-    "learning_locale": "en_GB",
+    "learning_locale": "en_UK",
     "difficulty": "Beginner",
     "questions": [
         {
@@ -394,6 +394,258 @@
             "choices": ["敬語理解", "読み書きの基礎", "方言習得", "文学分析"],
             "answer": "読み書きの基礎",
             "explanation": "アルファベットは英語学習の土台です。\n【🇬🇧 Cultural Note】\nイギリスでは「literacy（読み書き能力）」教育が非常に重視されています。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "イギリス英語でアルファベット「A」の正しい読み方はどれですか？",
+            "choices": ["ei", "æ", "a", "ah"],
+            "answer": "ei",
+            "explanation": "アルファベットAは /eɪ/ と発音されます。\n【🇬🇧 Cultural Note】\nイギリスでは名前や住所を電話で伝える場面が多く、文字名の正確な発音が重視されます。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "イギリス英語で「H」の標準的な読み方はどれですか？",
+            "choices": ["aitch", "haitch", "heitch", "etch"],
+            "answer": "aitch",
+            "explanation": "標準的なイギリス英語では「aitch」と発音します。\n【🇬🇧 Cultural Note】\n「haitch」は非標準的と見られることがあり、教育や階級の話題になることがあります。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "アルファベット「Z」をイギリス英語では何と呼びますか？",
+            "choices": ["zee", "zed", "zet", "zi"],
+            "answer": "zed",
+            "explanation": "イギリス英語ではZは「zed」です。\n【🇬🇧 Cultural Note】\n「zed」はフランス語の影響を受けた表現で、アメリカ英語との差がよく話題になります。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "次のうち母音（vowel）はどれですか？",
+            "choices": ["B", "C", "A", "T"],
+            "answer": "A",
+            "explanation": "母音はA・E・I・O・Uの5つです。\n【🇬🇧 Cultural Note】\nイギリス英語は母音の種類が多く、発音練習が重視されます。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "次のうち子音（consonant）はどれですか？",
+            "choices": ["E", "I", "O", "K"],
+            "answer": "K",
+            "explanation": "母音以外は子音です。\n【🇬🇧 Cultural Note】\nフォニックス教育では子音と母音を明確に区別して教えます。"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "アルファベットの最初の文字は (      ) です。",
+            "choices": [],
+            "answer": "A",
+            "explanation": "英語のアルファベットはAから始まります。\n【🇬🇧 Cultural Note】\n成績評価での「A」はイギリスでも最高評価を表します。"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "アルファベットの最後の文字は (      ) です。",
+            "choices": [],
+            "answer": "Z",
+            "explanation": "Zがアルファベットの最後です。\n【🇬🇧 Cultural Note】\n「from A to Z」はイギリスでも「全部」という意味で使われます。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "アルファベットは全部で何文字ありますか？",
+            "choices": ["24", "25", "26", "27"],
+            "answer": "26",
+            "explanation": "英語のアルファベットは26文字です。\n【🇬🇧 Cultural Note】\nAlphabet Songはイギリスの初等教育で定番です。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "アルファベット順として正しい並びはどれですか？",
+            "choices": ["A, B, C", "A, C, B", "B, A, C", "C, B, A"],
+            "answer": "A, B, C",
+            "explanation": "アルファベットには決まった順番があります。\n【🇬🇧 Cultural Note】\n名簿や辞書は必ずアルファベット順です。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "イギリス英語で「R」の読み方はどれですか？",
+            "choices": ["ar", "er", "or", "ur"],
+            "answer": "ar",
+            "explanation": "Rは /ɑː/ と発音されます。\n【🇬🇧 Cultural Note】\nイギリス英語は非R発音が特徴です。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "アルファベット「W」はどのように呼ばれますか？",
+            "choices": ["double u", "double v", "two u", "dub u"],
+            "answer": "double u",
+            "explanation": "Wは「double u」と呼びます。\n【🇬🇧 Cultural Note】\nラテン文字の歴史を反映した名称です。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "次のうち大文字（capital letter）はどれですか？",
+            "choices": ["a", "b", "C", "d"],
+            "answer": "C",
+            "explanation": "大文字は文頭や固有名詞で使われます。\n【🇬🇧 Cultural Note】\n正式な文章では大文字の使い方が非常に重要です。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "次のうち小文字（small letter）はどれですか？",
+            "choices": ["A", "B", "c", "D"],
+            "answer": "c",
+            "explanation": "小文字は文中で使われます。\n【🇬🇧 Cultural Note】\n小文字の書き方も学校で丁寧に教えられます。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "「cat」の最初の文字はどれですか？",
+            "choices": ["a", "c", "t", "o"],
+            "answer": "c",
+            "explanation": "単語はアルファベットの組み合わせです。\n【🇬🇧 Cultural Note】\nフォニックスでは語頭音を特に重視します。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "アルファベット「Q」の後に通常続く文字はどれですか？",
+            "choices": ["A", "E", "I", "U"],
+            "answer": "U",
+            "explanation": "Qの後にはほぼ必ずUが来ます。\n【🇬🇧 Cultural Note】\n例外が少ないため早期に教えられます。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "イギリス英語で「X」の読み方はどれですか？",
+            "choices": ["ex", "ecks", "axe", "iks"],
+            "answer": "ex",
+            "explanation": "Xは「ex」と読みます。\n【🇬🇧 Cultural Note】\n学校では「×」の意味でも使われます。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "左右対称な大文字はどれですか？",
+            "choices": ["A", "F", "G", "R"],
+            "answer": "A",
+            "explanation": "Aは左右対称の形です。\n【🇬🇧 Cultural Note】\n文字の形を意識する書写教育があります。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "アルファベット「O」の形として正しいものはどれですか？",
+            "choices": ["丸い形", "三角形", "角がある", "点がある"],
+            "answer": "丸い形",
+            "explanation": "Oは丸い形です。\n【🇬🇧 Cultural Note】\n視覚と音を結びつける学習法が一般的です。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "アルファベット順でMの次に来る文字はどれですか？",
+            "choices": ["L", "N", "O", "K"],
+            "answer": "N",
+            "explanation": "Mの次はNです。\n【🇬🇧 Cultural Note】\n辞書引きの基本知識です。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "アルファベットの前半（A–M）に含まれる文字はどれですか？",
+            "choices": ["A", "N", "Z", "Y"],
+            "answer": "A",
+            "explanation": "A〜Mが前半です。\n【🇬🇧 Cultural Note】\n学校の名簿分けに使われることもあります。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "「U」はイギリス英語でどのように発音されますか？",
+            "choices": ["you", "yu", "u", "yuu"],
+            "answer": "you",
+            "explanation": "Uは「you」と同じ発音です。\n【🇬🇧 Cultural Note】\n文字遊びや言葉遊びによく使われます。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "アルファベット学習でよく使われる歌はどれですか？",
+            "choices": ["Alphabet Song", "God Save the King", "Happy Birthday", "Jingle Bells"],
+            "answer": "Alphabet Song",
+            "explanation": "Alphabet Songは定番教材です。\n【🇬🇧 Cultural Note】\n保育園や小学校で必ず歌われます。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "イギリス英語で「Y」の読み方はどれですか？",
+            "choices": ["wai", "why", "yee", "yu"],
+            "answer": "wai",
+            "explanation": "Yは「wai」と読みます。\n【🇬🇧 Cultural Note】\n疑問詞「why」と同音です。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "次のうち標準アルファベットに含まれるものはどれですか？",
+            "choices": ["Æ", "Ø", "ß", "C"],
+            "answer": "C",
+            "explanation": "Cは標準アルファベットです。\n【🇬🇧 Cultural Note】\n特殊文字は外国語由来です。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "「BBC」の最初の文字の読み方はどれですか？",
+            "choices": ["bee", "be", "bi", "bay"],
+            "answer": "bee",
+            "explanation": "Bは「bee」と読みます。\n【🇬🇧 Cultural Note】\nBBCはイギリスを代表する公共放送です。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "書き言葉でアルファベット全体を表す正しい表現はどれですか？",
+            "choices": ["A–Z", "A through Z", "A to Zee", "A till Z"],
+            "answer": "A–Z",
+            "explanation": "書き言葉ではA–Zと表します。\n【🇬🇧 Cultural Note】\n読み方は「A to Zed」がイギリス式です。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "大文字Bの形の特徴として正しいものはどれですか？",
+            "choices": ["丸が2つある", "三角形", "点がある", "線が1本"],
+            "answer": "丸が2つある",
+            "explanation": "Bは2つの丸い部分を持ちます。\n【🇬🇧 Cultural Note】\n文字の形を意識する教育が行われます。"
+        },
+        {
+            "type" : "multiple_choice",
+            "question": "アルファベット学習の主な目的はどれですか？",
+            "choices": ["読み書きの基礎", "文学分析", "方言理解", "敬語習得"],
+            "answer": "読み書きの基礎",
+            "explanation": "アルファベットは英語の基礎です。\n【🇬🇧 Cultural Note】\nイギリスでは literacy 教育が非常に重要視されています。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "イギリス英語で「J」の読み方はどれですか？",
+            "choices": ["jay", "jai", "je", "ji"],
+            "answer": "jay",
+            "explanation": "Jは「jay」と読みます。\n【🇬🇧 Cultural Note】\n人名や地名のスペル確認でよく使われます。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "アルファベット「E」の読み方はどれですか？",
+            "choices": ["ee", "e", "eh", "i"],
+            "answer": "ee",
+            "explanation": "Eは /iː/ と発音されます。\n【🇬🇧 Cultural Note】\n長母音の感覚はイギリス英語理解の鍵です。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "アルファベット「F」の読み方はどれですか？",
+            "choices": ["ef", "fe", "eff", "af"],
+            "answer": "ef",
+            "explanation": "Fは「ef」と読みます。\n【🇬🇧 Cultural Note】\n成績評価で「F」は失敗を表すことがあります。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "アルファベット「L」の読み方はどれですか？",
+            "choices": ["el", "le", "ell", "al"],
+            "answer": "el",
+            "explanation": "Lは「el」と読みます。\n【🇬🇧 Cultural Note】\n聞き取りやすい文字名として知られています。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "アルファベット「M」の読み方はどれですか？",
+            "choices": ["em", "me", "mm", "am"],
+            "answer": "em",
+            "explanation": "Mは「em」と読みます。\n【🇬🇧 Cultural Note】\n電話でのスペル確認で頻繁に使われます。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "アルファベット「S」の読み方はどれですか？",
+            "choices": ["es", "se", "ss", "as"],
+            "answer": "es",
+            "explanation": "Sは「es」と読みます。\n【🇬🇧 Cultural Note】\n複数形の-sとも関係が深い文字です。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "アルファベット「T」の読み方はどれですか？",
+            "choices": ["tee", "ti", "te", "ty"],
+            "answer": "tee",
+            "explanation": "Tは「tee」と読みます。\n【🇬🇧 Cultural Note】\nイギリスではTの発音に地域差があります。"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "アルファベット学習が特に役立つ場面はどれですか？",
+            "choices": ["名前のスペルを伝える", "料理を作る", "歴史を学ぶ", "天気を予測する"],
+            "answer": "名前のスペルを伝える",
+            "explanation": "アルファベットはスペル確認に不可欠です。\n【🇬🇧 Cultural Note】\nイギリスでは電話や窓口でスペル確認が頻繁に行われます。"
         }
     ]
 }
