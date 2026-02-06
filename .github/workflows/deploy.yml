@@ -29,4 +29,5 @@ jobs:
             pip install -r requirements.txt
             
             # サーバー再起動
-            sudo systemctl restart gunicorn
+            sudo systemctl restart kotobaroots
+
