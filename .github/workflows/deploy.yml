@@ -1,0 +1,32 @@
+name: Deploy to AWS Academy EC2
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USER }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          port: 22
+          script: |
+            # ↓↓ ここをご自身のフォルダ名に合わせて修正してください ↓↓
+            cd /home/ec2-user/kotobaroots_back
+
+            # 最新コードを強制的に反映
+            git fetch origin main
+            git reset --hard origin/main
+
+            # 依存関係の更新（仮想環境 venv を使用している前提）
+            source venv/bin/activate
+            pip install -r requirements.txt
+            
+            # サーバー再起動
+            sudo systemctl restart gunicorn
