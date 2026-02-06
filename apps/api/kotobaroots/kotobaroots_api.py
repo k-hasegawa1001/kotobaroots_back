@@ -1960,6 +1960,47 @@ def update_learning_config():
         return jsonify({"msg": "設定変更中にエラーが発生しました", "error": str(e)}), 500
 
 
+@api.route("/learning/config/current", methods=["GET"])
+@login_required
+def get_learning_config():
+    """
+    現在の学習設定取得API
+
+    学習中の言語・レベル情報を返却します。
+    --- 
+    tags:
+      - Learning
+    responses:
+      200:
+        description: 取得成功
+      400:
+        description: 学習設定未完了
+      500:
+        description: サーバー内部エラー
+    """
+    current_app.logger.info("learning_config_current-APIにアクセスがありました")
+    current_user_id = current_user.id
+
+    try:
+        active_config = LearningConfig.query.filter_by(user_id=current_user_id).first()
+        if not active_config:
+            return jsonify({"msg": "学習設定が見つかりません"}), 400
+
+        language = active_config.language
+        level = active_config.level
+
+        return jsonify({
+            "language_id": language.id if language else active_config.language_id,
+            "language": language.language if language else None,
+            "level_id": level.id if level else active_config.level_id,
+            "level": level.level_tag if level else None
+        }), 200
+
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify({"msg": "エラーが発生しました", "error": str(e)}), 500
+
+
 """ 以下DB内容変更系APIのテンプレ """
 def temp():
     current_app.logger.info("-APIにアクセスがありました")
