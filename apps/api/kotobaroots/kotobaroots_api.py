@@ -1757,7 +1757,7 @@ def learning_history():
     """
     学習履歴一覧取得API
     
-    現在の学習設定（言語・レベル）に基づいて、ユーザーの過去の学習履歴を取得します。
+    現在の学習設定（言語）に基づいて、ユーザーの過去の学習履歴を取得します。
     新しい順（作成日の降順）で返却されます。
     ---
     tags:
@@ -1811,16 +1811,14 @@ def learning_history():
             return jsonify({"msg": "学習設定が見つかりません"}), 400
 
         target_lang_id = active_config.language_id
-        target_level_id = active_config.level_id
 
         # 2. 履歴の取得
         # LearningHistory と LearningTopic を結合し、
-        # 「現在の設定と同じ言語・レベル」かつ「自分のデータ」を検索
+        # 「現在の設定と同じ言語」かつ「自分のデータ」を検索
         histories = LearningHistory.query \
             .join(LearningTopic, LearningHistory.learning_topic_id == LearningTopic.id) \
             .filter(LearningHistory.user_id == current_user_id) \
             .filter(LearningTopic.language_id == target_lang_id) \
-            .filter(LearningTopic.level_id == target_level_id) \
             .order_by(desc(LearningHistory.created_at)) \
             .all()
 
