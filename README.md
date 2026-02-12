@@ -31,7 +31,7 @@ Python: 3.8.12\
 
 ## 1. リポジトリのクローン or フォーク
 
-このリポジトリを置いておきたいディレクトリで\
+このリポジトリを置いておきたいディレクトリで
 
 ```bash
 git clone https://github.com/k-hasegawa1001/kotobaroots_back.git`
@@ -39,7 +39,7 @@ git clone https://github.com/k-hasegawa1001/kotobaroots_back.git`
 
 コマンドを実行すること
 
-また、無事にクローン出来たら\
+また、無事にクローン出来たら
 
 ```bash
 cd kotobaroots_back`
@@ -79,7 +79,7 @@ git checkout -b dev
 
 ## 3. 仮想環境の作成について
 
-本システムでは仮想環境（venv）を使用しているため、下記コマンドで仮想環境を作成する\
+本システムでは仮想環境（venv）を使用しているため、下記コマンドで仮想環境を作成する
 
 ```bash
 python -m venv venv
@@ -89,7 +89,7 @@ python -m venv venv
 
 ## 4. 必要なライブラリのインストール
 
-まずは下記コマンドで現在インストール済みのライブラリを確認してみよう\
+まずは下記コマンドで現在インストール済みのライブラリを確認してみよう
 
 ```bash
 pip list
@@ -101,7 +101,7 @@ pip list
 これには使用したライブラリが（Flaskも含めて）全てバージョンと共に記述されている\
 これを仮想環境内にインストールする必要がある
 
-下記コマンドを実行すること\
+下記コマンドを実行すること
 
 ```bash
 pip install -r .\requirements.txt
@@ -168,12 +168,12 @@ JWT_REFRESH_TOKEN_EXPIRES=datetime.timedelta(days=30)
 ### chatGPT-API
 
 OPENAI_API_KEY={your_openai_api_key}
-```\
+```
 **【重要】 {}で囲まれている箇所を適宜変更すること**
 
 ## 6. DBの作成
 
-下記コマンドを以下の順序で実行すること\
+下記コマンドを以下の順序で実行すること
 ```bash
 flask db init
 ```\
@@ -182,7 +182,7 @@ flask db migrate
 ```\
 ```bash
 flask db upgrade
-```\
+```
 
 これでルートディレクトリに`local.sqlite`というファイルが作成されていれば、問題なくDBが作成できている
 
@@ -192,7 +192,7 @@ flask db upgrade
 これを実行するだけで、先ほど作成したDBに最低限必要なデータが一括で入る\
 下記コマンドを実行して`✨ 全データの投入が完了しました！`と表示されれば、問題なくすべてのダミーデータが投入されている
 
-**【注意】このコマンドはプロジェクトのルートディレクトリ（kotobaroots_backディレクトリ）で実行すること**\
+**【注意】このコマンドはプロジェクトのルートディレクトリ（kotobaroots_backディレクトリ）で実行すること**
 ```bash
 python seed.py
 ```
