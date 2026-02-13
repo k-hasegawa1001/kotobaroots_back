@@ -3,7 +3,9 @@
 ## 概要
 
 このリポジトリは言語学習アプリ、KotobaRootsのバックエンドリポジトリである\
-本システムではFlaskを使用しているが、APIを作成しており **フロントエンドとバックエンドの分離** をしているため、テストなどの際にローカルで動かす場合にはフロントエンドリポジトリ、kotobaroots_frontもクローンする必要がある
+本システムではFlaskを使用しているが、APIを作成しており **フロントエンドとバックエンドの分離** をしているため、テストなどの際にローカルで動かす場合にはフロントエンドリポジトリ、kotobaroots_frontもクローンする必要がある\
+また、使用エディタはVSCode、OSはWindowsを想定している\
+Linuxなどではbashコマンドが異なるため、その場合は各自で調べてもらいたい
 
 ## 📑 目次
 
@@ -34,7 +36,7 @@ Python: 3.8.12\
 このリポジトリを置いておきたいディレクトリで
 
 ```bash
-git clone https://github.com/k-hasegawa1001/kotobaroots_back.git`
+git clone https://github.com/k-hasegawa1001/kotobaroots_back.git
 ```
 
 コマンドを実行すること
@@ -42,10 +44,10 @@ git clone https://github.com/k-hasegawa1001/kotobaroots_back.git`
 また、無事にクローン出来たら
 
 ```bash
-cd kotobaroots_back`
+cd kotobaroots_back
 ```
 
-コマンドを実行してそのディレクトリに入るか、VSCodeのターミナルを使用している場合は左上の **ファイル** タブから **フォルダーを開く** を押して \_kotobaroots_back\* フォルダを開いてターミナルを起動しなおすこと（開きなおさなくても良いが、その場合は`cd`コマンドを実行すること）
+コマンドを実行してそのディレクトリに入るか、VSCodeのターミナルを使用している場合は左上の **ファイル** タブから **フォルダーを開く** を押して _kotobaroots_back_ フォルダを開いてターミナルを起動しなおすこと（開きなおさなくても良いが、その場合は`cd`コマンドを実行すること）
 
 **【重要】 チームメンバーではない人へ**\
 もしこのシステムを、現在動いているものをベースにいじってみたい、という場合はクローンではなくフォークをお勧めする
@@ -88,6 +90,12 @@ python -m venv venv
 これで **kotobaroots_back** ディレクトリ内に **venv** というフォルダが作成されていれば問題ない
 
 ## 4. 必要なライブラリのインストール
+
+**【重要】 まずは先ほど作成した仮想環境に入る必要がある**\
+以下のコマンドをルートディレクトリで実行してもらいたい
+```bash
+.\venv\Scripts\Activate.ps1
+```
 
 まずは下記コマンドで現在インストール済みのライブラリを確認してみよう
 
@@ -176,15 +184,15 @@ OPENAI_API_KEY={your_openai_api_key}
 
 下記コマンドを以下の順序で実行すること
 
-````bash
+```bash
 flask db init
-```\
+```
 ```bash
 flask db migrate
-```\
+```
 ```bash
 flask db upgrade
-````
+```
 
 これでルートディレクトリに`local.sqlite`というファイルが作成されていれば、問題なくDBが作成できている
 
